@@ -1,0 +1,13 @@
+{
+  "name": "DeskRescue",
+  "version": "0.0.4",
+  "private": true,
+  "uuid": "c11a7b9f-e7d0-436b-b54b-61cce555f426",
+  "creator": {
+    "version": "3.8.8"
+  },
+  "scripts": {
+    "test": "node tools/verify-day1.cjs",
+    "check:cocos": "node tools/verify-day1.cjs --cocos-types"
+  }
+}

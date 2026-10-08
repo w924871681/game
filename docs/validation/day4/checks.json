@@ -1,0 +1,498 @@
+{
+  "schemaVersion": 1,
+  "generatedAtUtc": "2026-10-08T06:28:48Z",
+  "displayTimezone": "Asia/Shanghai",
+  "projectRoot": "D:/game",
+  "projectVersion": "0.0.4",
+  "overall": "project_checks_passed_sdk_declaration_self_check_failed_as_expected",
+  "commands": [
+    {
+      "command": "npm test",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "status": "passed",
+      "wallTimeSeconds": 6.6240441,
+      "log": "npm-test.log",
+      "logSha256": "da28a918e06ce55e8fdc7276ca9574b1e1542446c4543460af819c2752e20e73"
+    },
+    {
+      "command": "node --check tools/verify-day1.cjs",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "status": "passed",
+      "wallTimeSeconds": 0.5977444,
+      "log": "syntax-verify-day1.log",
+      "logSha256": "a19731fa3b97733bca43cf145cc6daa0f69477e6a2cf1ca7cad4d9a6a4180de4"
+    },
+    {
+      "command": "node --check tools/verify-day4.cjs",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "status": "passed",
+      "wallTimeSeconds": 0.6219421,
+      "log": "syntax-verify-day4.log",
+      "logSha256": "33085bcdcbc2fbbc51c43777e3e75b7b8420a8d9496752ac405c72fcfa73f6c7"
+    },
+    {
+      "command": "npm run check:cocos",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "status": "passed",
+      "wallTimeSeconds": 5.6013570999999995,
+      "log": "check-cocos.log",
+      "logSha256": "a256143e7d9724909d9a8eb6d8321902e185354bf0d04981c5724b684daae8bb"
+    },
+    {
+      "command": "node tools/verify-day1.cjs --cocos-types --check-sdk-declarations",
+      "exitCode": 1,
+      "expectedExitCode": 1,
+      "status": "expected_failure",
+      "wallTimeSeconds": 4.4009736,
+      "log": "sdk-declarations.log",
+      "logSha256": "74b7951ab5a99d1a60cf9b043fc5a60cecd6d76aff51747ea6f65227e1043644"
+    },
+    {
+      "command": "git status --short --branch",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "status": "passed",
+      "wallTimeSeconds": 0.5482651,
+      "log": "git-status.log",
+      "logSha256": "0aa99d6ff60848cbebccdc698cf02f1f49425e9a1e30aca0de1570f8f6c5367a"
+    },
+    {
+      "command": "git diff --check",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "status": "passed",
+      "wallTimeSeconds": 0.5270607,
+      "log": "git-diff-check.log",
+      "logSha256": "f1801527cff6c429877cac5dc2202f33b584bc31545ccec4dc70c6f9351df2fa"
+    },
+    {
+      "command": "$syntaxFailed = $false; rg --files extensions/deskrescue-editor -g '*.js' | Sort-Object | ForEach-Object { node --check $_; if ($LASTEXITCODE -ne 0) { $syntaxFailed = $true; Write-Output ('FAIL ' + $_) } else { Write-Output ('PASS node --check ' + $_) } }; if ($syntaxFailed) { exit 1 }",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "status": "passed",
+      "wallTimeSeconds": 1.0207077,
+      "log": "syntax-extensions.log",
+      "logSha256": "bafe03c3d2629991750421ef4dc725bb71226f1bf8e2a7c24829314fcf15029a"
+    }
+  ],
+  "mockBehavior": {
+    "day1": 11,
+    "day2": 19,
+    "day3": 28,
+    "day4": 56,
+    "total": 114,
+    "passed": 114,
+    "historicalAssertionsPreserved": true,
+    "historicalManagerFixture": "LegacyLevelManager",
+    "day4UsesCompiledProductionComponents": true,
+    "limitations": [
+      "The generic Cocos mock does not run Creator, render graphics, exercise a browser touch adapter or physical touchscreen.",
+      "Mock tween queues validate configured duration, endpoints, input ownership and callbacks, not easing interpolation or natural frame timing."
+    ]
+  },
+  "compileContracts": {
+    "expectedDiagnostics": 9,
+    "passed": true,
+    "countedAsBehaviorGroups": false,
+    "coverage": [
+      "discriminated union narrowing",
+      "readonly object/array mutation rejection",
+      "nonempty stage/element tuple rejection"
+    ]
+  },
+  "qualityAudit": {
+    "passed": true,
+    "countedAsBehaviorGroups": false
+  },
+  "realSdkProjectTypes": {
+    "passed": true,
+    "creator": "3.8.8",
+    "typescript": "5.8.2",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": false
+  },
+  "sdkSelfValidation": {
+    "passed": false,
+    "expectedExitCode": 1,
+    "actualExitCode": 1,
+    "diagnostics": 102,
+    "bySource": {
+      "jsbDts": 18,
+      "ccDts": 84
+    },
+    "scope": "Only installed SDK declaration semantic diagnostics are separated from the project check. Configuration, syntax, globals and all project source/declaration diagnostics remain fatal. No SDK or generated config was modified."
+  },
+  "git": {
+    "noCommits": true,
+    "branch": "master",
+    "commitCreated": false,
+    "pushPerformed": false,
+    "statusLog": "git-status.log",
+    "diffCheckLimitation": "git diff --check exited 0 with no output, but all project files are untracked, so this command does not examine their content."
+  },
+  "sourceSnapshot": [
+    {
+      "path": "assets/scripts/core/GameController.ts",
+      "bytes": 2453,
+      "sha256": "e1b3c357bc915746e20b240f88f48c8c89876c14116850bd55c688d2bb0e4297"
+    },
+    {
+      "path": "assets/scripts/core/LegacyLevelManager.ts",
+      "bytes": 12443,
+      "sha256": "2ef5ff4fbe16284c35a66010880cb3bdc2edb62b21368429c98b26af662ebf4b"
+    },
+    {
+      "path": "assets/scripts/core/LevelManager.ts",
+      "bytes": 13928,
+      "sha256": "0c0a709191eca6368d5e576be63ba1a74f6cdd7bd8cba61c343ea9a48bad2d0d"
+    },
+    {
+      "path": "assets/scripts/core/RunController.ts",
+      "bytes": 6907,
+      "sha256": "064cac06b336ddf741b983c09a025f0fb33bd130bc2b45d37ef2ad0c9df64655"
+    },
+    {
+      "path": "assets/scripts/data/LevelCatalog.ts",
+      "bytes": 2561,
+      "sha256": "24e394aa8495e4c23a18a92b15ea727108161a3c28d8d2e1fdd863afc54f4e89"
+    },
+    {
+      "path": "assets/scripts/data/LevelDefinition.ts",
+      "bytes": 789,
+      "sha256": "7ffc204ef01fa5f0a7dcd65197776f27e1a98613eb4aa643c92c1cee7abbcc0f"
+    },
+    {
+      "path": "assets/scripts/data/OrderCatalog.ts",
+      "bytes": 13306,
+      "sha256": "a038ff6a9269993c9d650954a2e680c1962416ea38230bec4c1d8a9a7df43eb0"
+    },
+    {
+      "path": "assets/scripts/data/OrderDefinition.ts",
+      "bytes": 368,
+      "sha256": "c0fc93e4da57a591b1fd9bbab0014be7092179c6a05b583e2d365429dfe24b6d"
+    },
+    {
+      "path": "assets/scripts/data/StageDefinition.ts",
+      "bytes": 2046,
+      "sha256": "9b8255ecbd4dc7ddc5f70bff078a424a878ecf058ac34553caf552bc386fdd34"
+    },
+    {
+      "path": "assets/scripts/gameplay/CableConnector.ts",
+      "bytes": 10909,
+      "sha256": "d03076277b33508677cdd89ec6f13f8314db7f0d759d56245c58d22bb9bfa5bf"
+    },
+    {
+      "path": "assets/scripts/gameplay/Day1Prototype.ts",
+      "bytes": 4655,
+      "sha256": "91077917554d152a66d85662099fc4b5b48876e29ca1ece2e07c74a0eb398a10"
+    },
+    {
+      "path": "assets/scripts/gameplay/DraggableItem.ts",
+      "bytes": 11047,
+      "sha256": "1d09e9f352a78b677d1b6ad403cc7b08af7afc04e705c00df83212337397e367"
+    },
+    {
+      "path": "assets/scripts/stages/CableConnectStageController.ts",
+      "bytes": 6513,
+      "sha256": "63dd5a7f51d15c2db3bc2bfec4487dec0d211e72e7bd3d83864bdba686e79f8d"
+    },
+    {
+      "path": "assets/scripts/stages/CleanSwipeStageController.ts",
+      "bytes": 10922,
+      "sha256": "65a10f0d7f29e524d68e3b88b6f2ea4d60778bb2296de93d422ee82ea98640cd"
+    },
+    {
+      "path": "assets/scripts/stages/DragMatchStageController.ts",
+      "bytes": 6508,
+      "sha256": "056a6b5faa2dd33374b9625d4cd4939eb2f039309b0c302ba61db6c1bbf42766"
+    },
+    {
+      "path": "assets/scripts/stages/ElementPool.ts",
+      "bytes": 1074,
+      "sha256": "f551b622a412ad84752476facc3ce0f418958b5a7e14f516835ded02a705f2fc"
+    },
+    {
+      "path": "assets/scripts/stages/StageHost.ts",
+      "bytes": 6298,
+      "sha256": "8f4c9f80c96e3f64e14af0b9e7d03c23297c3fd82120a15d582c9a0e582710be"
+    },
+    {
+      "path": "assets/scripts/stages/StageRuntime.ts",
+      "bytes": 578,
+      "sha256": "2d5aef6a6d45560fa2a6928d54cb0b83cbad2ff9600969061e1bfe7ee23e409e"
+    },
+    {
+      "path": "docs/DAY4_ARCHITECTURE.md",
+      "bytes": 14723,
+      "sha256": "659808c9a87b10e21a308abded2adbea0d14283f23dd618b7b26eadd4cae7882"
+    },
+    {
+      "path": "docs/DAY4_COCOS_SETUP.md",
+      "bytes": 14317,
+      "sha256": "b5dde06b14a7f0f591095ccfa5373501e108c86d7966de1b9dae1824551ac567"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-appearance.js",
+      "bytes": 6834,
+      "sha256": "c0cd7cb604d17a25b8277bc2c32dbdb7c048a2cbec4b33e76d3878693fabe0d4"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-audit.js",
+      "bytes": 27336,
+      "sha256": "b3afb8dc4010421e8d927d060f60c5443d1d4b28af0e0fd1e13ffa487b323a2d"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-probe.js",
+      "bytes": 32245,
+      "sha256": "cf77028127fb009663ff6b35e634c0c50a2d594144a91373d2a82b5b161711eb"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-scene.js",
+      "bytes": 11656,
+      "sha256": "6265689295cc9730b4fe24ea5ea56e89a6c541356ab3c126973cce3d084e61c4"
+    },
+    {
+      "path": "extensions/deskrescue-editor/main.js",
+      "bytes": 10022,
+      "sha256": "04690e9d2eb297ab438b1b33148db1deded7d4d052e76d2fb0617f790689dbab"
+    },
+    {
+      "path": "extensions/deskrescue-editor/package.json",
+      "bytes": 2806,
+      "sha256": "9b728467a3d5a0cd04af6dffc694d189ffabc7cabf07e396cfd6ab2136f1ea5b"
+    },
+    {
+      "path": "extensions/deskrescue-editor/probe.js",
+      "bytes": 18821,
+      "sha256": "1be4864e0fac75480ab5f73a6d3e62c4244bfd7378e181a5a27530d51de87c22"
+    },
+    {
+      "path": "extensions/deskrescue-editor/scene.js",
+      "bytes": 19912,
+      "sha256": "9d2b4c7a17ed12fa32516efddb08b93fc1100e331ca12e96ac11d6ff4be6a2a1"
+    },
+    {
+      "path": "package.json",
+      "bytes": 285,
+      "sha256": "8780a2eb2234d424791800e5bdb13accd6d609ee35f1f6848d0cd25fbfa92e46"
+    },
+    {
+      "path": "tools/test/cc.d.ts",
+      "bytes": 5448,
+      "sha256": "fcd134b86c45ab9240065950c339b0c94caec47e335f8940e11c37f4e26f4690"
+    },
+    {
+      "path": "tools/verify-day1.cjs",
+      "bytes": 95814,
+      "sha256": "31c9103b99c9385540994bb06aa49cd3482be3b75d9b27be22b6c32e91c0bbaf"
+    },
+    {
+      "path": "tools/verify-day4.cjs",
+      "bytes": 56237,
+      "sha256": "9eb22a5bacabee48cdda53b20597717cab84f7a384319f84cc0e177312a6dd6a"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 214,
+      "sha256": "bd460a7db62db6c2e50d1766c98f5a830579ddab81c79c4d7e20cfda6fef4f9c"
+    }
+  ],
+  "creatorEvidence": "Creator build, scene/prefab audit, engine probe and Preview are separate evidence; consult DAY4_CREATOR_VALIDATION.md.",
+  "extensionSyntax": {
+    "passed": true,
+    "checkedFiles": 7,
+    "log": "syntax-extensions.log"
+  },
+  "textHygiene": {
+    "passed": true,
+    "checkedFiles": 109,
+    "invalidUtf8": 0,
+    "trailingWhitespace": 0,
+    "conflictMarkers": 0,
+    "personalPathFindings": 0,
+    "scope": "Pre-commit rg-visible project text honoring .gitignore and excluding .git; no credential store",
+    "eofNote": "LegacyLevelManager.ts final blank line is retained historical formatting, not trailing whitespace",
+    "log": "text-hygiene.log",
+    "limitation": "Point-in-time pre-commit scan. Parent-owned README, handoff, public validation report and integrity file may subsequently change."
+  },
+  "implementationInventory": {
+    "scripts": [
+      "assets/scripts/core/GameController.ts",
+      "assets/scripts/core/LegacyLevelManager.ts",
+      "assets/scripts/core/LevelManager.ts",
+      "assets/scripts/core/RunController.ts",
+      "assets/scripts/data/LevelCatalog.ts",
+      "assets/scripts/data/LevelDefinition.ts",
+      "assets/scripts/data/OrderCatalog.ts",
+      "assets/scripts/data/OrderDefinition.ts",
+      "assets/scripts/data/StageDefinition.ts",
+      "assets/scripts/gameplay/CableConnector.ts",
+      "assets/scripts/gameplay/Day1Prototype.ts",
+      "assets/scripts/gameplay/DraggableItem.ts",
+      "assets/scripts/stages/CableConnectStageController.ts",
+      "assets/scripts/stages/CleanSwipeStageController.ts",
+      "assets/scripts/stages/DragMatchStageController.ts",
+      "assets/scripts/stages/ElementPool.ts",
+      "assets/scripts/stages/StageHost.ts",
+      "assets/scripts/stages/StageRuntime.ts"
+    ],
+    "savedScene": [
+      "assets/scenes/Game.scene"
+    ],
+    "savedPrefabs": [
+      "assets/prefabs/elements/Cable.prefab",
+      "assets/prefabs/elements/DirtCell.prefab",
+      "assets/prefabs/elements/DragItem.prefab",
+      "assets/prefabs/elements/DragTarget.prefab",
+      "assets/prefabs/elements/Port.prefab",
+      "assets/prefabs/stages/CableConnectStage.prefab",
+      "assets/prefabs/stages/CleanSwipeStage.prefab",
+      "assets/prefabs/stages/DragMatchStage.prefab"
+    ],
+    "creatorMetadata": [
+      "assets/prefabs/elements.meta",
+      "assets/prefabs/elements/Cable.prefab.meta",
+      "assets/prefabs/elements/DirtCell.prefab.meta",
+      "assets/prefabs/elements/DragItem.prefab.meta",
+      "assets/prefabs/elements/DragTarget.prefab.meta",
+      "assets/prefabs/elements/Port.prefab.meta",
+      "assets/prefabs/stages.meta",
+      "assets/prefabs/stages/CableConnectStage.prefab.meta",
+      "assets/prefabs/stages/CleanSwipeStage.prefab.meta",
+      "assets/prefabs/stages/DragMatchStage.prefab.meta",
+      "assets/scenes/Game.scene.meta",
+      "assets/scripts/core.meta",
+      "assets/scripts/core/GameController.ts.meta",
+      "assets/scripts/core/LegacyLevelManager.ts.meta",
+      "assets/scripts/core/LevelManager.ts.meta",
+      "assets/scripts/core/RunController.ts.meta",
+      "assets/scripts/data.meta",
+      "assets/scripts/data/LevelCatalog.ts.meta",
+      "assets/scripts/data/LevelDefinition.ts.meta",
+      "assets/scripts/data/OrderCatalog.ts.meta",
+      "assets/scripts/data/OrderDefinition.ts.meta",
+      "assets/scripts/data/StageDefinition.ts.meta",
+      "assets/scripts/gameplay.meta",
+      "assets/scripts/gameplay/CableConnector.ts.meta",
+      "assets/scripts/gameplay/Day1Prototype.ts.meta",
+      "assets/scripts/gameplay/DraggableItem.ts.meta",
+      "assets/scripts/stages.meta",
+      "assets/scripts/stages/CableConnectStageController.ts.meta",
+      "assets/scripts/stages/CleanSwipeStageController.ts.meta",
+      "assets/scripts/stages/DragMatchStageController.ts.meta",
+      "assets/scripts/stages/ElementPool.ts.meta",
+      "assets/scripts/stages/StageHost.ts.meta",
+      "assets/scripts/stages/StageRuntime.ts.meta"
+    ],
+    "editorExtension": [
+      "extensions/deskrescue-editor/day4-appearance.js",
+      "extensions/deskrescue-editor/day4-audit.js",
+      "extensions/deskrescue-editor/day4-probe.js",
+      "extensions/deskrescue-editor/day4-scene.js",
+      "extensions/deskrescue-editor/main.js",
+      "extensions/deskrescue-editor/package.json",
+      "extensions/deskrescue-editor/probe.js",
+      "extensions/deskrescue-editor/scene.js"
+    ],
+    "testing": [
+      "tools/verify-day1.cjs",
+      "tools/verify-day4.cjs",
+      "tools/test/cc.d.ts"
+    ],
+    "architectureAndSetup": [
+      "docs/DAY4_ARCHITECTURE.md",
+      "docs/DAY4_COCOS_SETUP.md"
+    ],
+    "finalUserDocsOwnedByParent": [
+      "README.md",
+      "docs/GPT_HANDOFF.md",
+      "docs/DAY4_CREATOR_VALIDATION.md"
+    ],
+    "boundary": "Current implementation and retained compatibility files. Saved asset hashes and Creator status belong to scene-audit/appearance/probe evidence, not this code test record."
+  },
+  "codeReview": {
+    "performedAtUtc": "2026-10-08T04:14:38Z",
+    "scope": [
+      "typed catalog and migration",
+      "StageHost lifecycle/callback generations",
+      "local pool reset/reuse",
+      "three input controllers",
+      "order timing, scoring, tutorial and replay",
+      "Editor appearance correction serialization path"
+    ],
+    "blockingFindings": [],
+    "knownLimits": [
+      "skipNextFrame conservatively omits an update interval, not only measured construction CPU time.",
+      "Mock tests do not verify rendering/easing or browser-native/physical touch.",
+      "Creator appearance correction and full nine-order Preview completion must be reported independently."
+    ]
+  },
+  "logSnapshot": [
+    {
+      "path": "docs/validation/day4/npm-test.log",
+      "bytes": 12818,
+      "sha256": "da28a918e06ce55e8fdc7276ca9574b1e1542446c4543460af819c2752e20e73"
+    },
+    {
+      "path": "docs/validation/day4/syntax-verify-day1.log",
+      "bytes": 190,
+      "sha256": "a19731fa3b97733bca43cf145cc6daa0f69477e6a2cf1ca7cad4d9a6a4180de4"
+    },
+    {
+      "path": "docs/validation/day4/syntax-verify-day4.log",
+      "bytes": 190,
+      "sha256": "33085bcdcbc2fbbc51c43777e3e75b7b8420a8d9496752ac405c72fcfa73f6c7"
+    },
+    {
+      "path": "docs/validation/day4/check-cocos.log",
+      "bytes": 1171,
+      "sha256": "a256143e7d9724909d9a8eb6d8321902e185354bf0d04981c5724b684daae8bb"
+    },
+    {
+      "path": "docs/validation/day4/sdk-declarations.log",
+      "bytes": 20067,
+      "sha256": "74b7951ab5a99d1a60cf9b043fc5a60cecd6d76aff51747ea6f65227e1043644"
+    },
+    {
+      "path": "docs/validation/day4/git-status.log",
+      "bytes": 317,
+      "sha256": "0aa99d6ff60848cbebccdc698cf02f1f49425e9a1e30aca0de1570f8f6c5367a"
+    },
+    {
+      "path": "docs/validation/day4/git-diff-check.log",
+      "bytes": 172,
+      "sha256": "f1801527cff6c429877cac5dc2202f33b584bc31545ccec4dc70c6f9351df2fa"
+    },
+    {
+      "path": "docs/validation/day4/syntax-extensions.log",
+      "bytes": 853,
+      "sha256": "bafe03c3d2629991750421ef4dc725bb71226f1bf8e2a7c24829314fcf15029a"
+    },
+    {
+      "path": "docs/validation/day4/text-hygiene.log",
+      "bytes": 5441,
+      "sha256": "a9a187510439099f4d8f6da16cd91739ef246d569048342457c9a7b95cb127b5"
+    }
+  ],
+  "preCommitValidation": {
+    "performedAtUtc": "2026-10-08T06:28:48Z",
+    "previousValidationGeneratedAtUtc": "2026-10-08T04:14:38Z",
+    "purpose": "Actual pre-commit checks after compiler fallback portability and public-path redaction changes.",
+    "historicalCodeReviewPerformedAtUtc": "2026-10-08T04:14:38Z",
+    "historicalCodeReviewUnchanged": true,
+    "commandCount": 8,
+    "sourceSnapshotCount": 33,
+    "sourceAndConfigurationSnapshotCount": 31,
+    "documentationSnapshotCount": 2,
+    "logCount": 9,
+    "redactions": [],
+    "commitPerformed": false,
+    "pushPerformed": false
+  }
+}

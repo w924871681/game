@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 2,
+  "generatedAtUtc": "2026-10-08T06:33:53.0968687Z",
+  "phase": "pre-commit public baseline preparation",
+  "checkedTextFiles": 125,
+  "scope": "All 167 allowlisted files, including existing logs; 42 JPG reviewed independently",
+  "utf8AndTrailingWhitespaceIssues": [],
+  "filesWithoutFinalNewline": [
+    "assets/prefabs/elements/Cable.prefab",
+    "assets/prefabs/elements/DirtCell.prefab",
+    "assets/prefabs/elements/DragItem.prefab",
+    "assets/prefabs/elements/DragTarget.prefab",
+    "assets/prefabs/elements/Port.prefab",
+    "assets/prefabs/stages/CableConnectStage.prefab",
+    "assets/prefabs/stages/CleanSwipeStage.prefab",
+    "assets/prefabs/stages/DragMatchStage.prefab",
+    "assets/scenes/Game.scene"
+  ],
+  "serializationNote": "Nine Creator-generated Scene/Prefab files retain their original no-final-newline format. No serialized assets were edited. Official shortcut is excluded by a specific ignore rule.",
+  "authoredFilesMissingFinalNewline": [],
+  "markdownLinkCount": 70,
+  "brokenMarkdownLinks": [],
+  "documentSnapshots": [
+    {
+      "path": "README.md",
+      "bytes": 6111,
+      "sha256": "5904d44299f12b75b5c29eab95787ec02fdea3163860dca6d3d6b65c04423bb0"
+    },
+    {
+      "path": "docs/GPT_HANDOFF.md",
+      "bytes": 16919,
+      "sha256": "96fa9e650b8a770c5a833d4dcce5ef272f6b5b729581dea28a200d8d07b2cf3a"
+    },
+    {
+      "path": "docs/DAY4_ARCHITECTURE.md",
+      "bytes": 14723,
+      "sha256": "659808c9a87b10e21a308abded2adbea0d14283f23dd618b7b26eadd4cae7882"
+    },
+    {
+      "path": "docs/DAY4_COCOS_SETUP.md",
+      "bytes": 14317,
+      "sha256": "b5dde06b14a7f0f591095ccfa5373501e108c86d7966de1b9dae1824551ac567"
+    },
+    {
+      "path": "docs/DAY4_CREATOR_VALIDATION.md",
+      "bytes": 14743,
+      "sha256": "2e42fcc1418bfc9767b7cbf8df4f729f0e466f8cb61e023840bedf7b8deb1058"
+    }
+  ],
+  "secretPatternFindings": [],
+  "personalPathFindings": [],
+  "conflictMarkers": [],
+  "gitStatus": [
+    "## No commits yet on master",
+    "?? .gitignore",
+    "?? README.md",
+    "?? assets/",
+    "?? docs/",
+    "?? extensions/",
+    "?? package.json",
+    "?? settings/",
+    "?? tools/",
+    "?? tsconfig.json"
+  ],
+  "trackedFiles": 0,
+  "allowlistedFileCount": 167,
+  "gitSnapshotMeaning": "Actual pre-commit state; this report makes no claim about a future commit or push.",
+  "ok": true,
+  "verifiedEmptyPlaceholders": [
+    "assets/audio/.gitkeep",
+    "assets/configs/.gitkeep",
+    "assets/prefabs/.gitkeep",
+    "assets/scenes/.gitkeep",
+    "assets/textures/.gitkeep"
+  ]
+}

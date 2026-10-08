@@ -1,0 +1,15 @@
+# Cocos-generated files
+/library/
+/temp/
+/tmp/
+/local/
+/profiles/
+/build/
+/native/
+/node_modules/
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+
+# Creator-generated documentation shortcut (not project source)
+/.creator/asset-template/typescript/Custom Script Template Help Documentation.url

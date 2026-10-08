@@ -1,0 +1,14 @@
+Command: $syntaxFailed = $false; rg --files extensions/deskrescue-editor -g '*.js' | Sort-Object | ForEach-Object { node --check $_; if ($LASTEXITCODE -ne 0) { $syntaxFailed = $true; Write-Output ('FAIL ' + $_) } else { Write-Output ('PASS node --check ' + $_) } }; if ($syntaxFailed) { exit 1 }
+Working directory: D:/game
+Phase: pre-commit validation
+Captured for checks.json at: 2026-10-08T06:28:48Z
+Exit code: 0
+Redactions: 0
+
+PASS node --check extensions/deskrescue-editor\day4-appearance.js
+PASS node --check extensions/deskrescue-editor\day4-audit.js
+PASS node --check extensions/deskrescue-editor\day4-probe.js
+PASS node --check extensions/deskrescue-editor\day4-scene.js
+PASS node --check extensions/deskrescue-editor\main.js
+PASS node --check extensions/deskrescue-editor\probe.js
+PASS node --check extensions/deskrescue-editor\scene.js

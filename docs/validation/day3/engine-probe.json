@@ -1,0 +1,175 @@
+{
+  "ok": true,
+  "timestamp": "2026-10-06T12:10:23.455Z",
+  "engineVersion": "3.8.8",
+  "mode": "isolated real Cocos ActionManager with manual delta-time advancement",
+  "input": "synthetic cc.Touch and cc.EventTouch emitted to isolated fixture nodes",
+  "lifecycle": "explicit onLoad/onEnable/onDisable/onDestroy on off-scene fixture components",
+  "limitations": [
+    "Not Preview natural-clock playback",
+    "Not browser UI hit testing",
+    "Not physical touchscreen input",
+    "Does not verify visual rendering"
+  ],
+  "checks": [
+    {
+      "name": "pickup uses real .10 s interpolation and restores baseline on cancel",
+      "status": "PASS",
+      "evidence": {
+        "durationSeconds": 0.1,
+        "intermediateScale": 1.03,
+        "finalPickupScale": 1.06,
+        "canceledScale": 1
+      }
+    },
+    {
+      "name": "correct .15 s snap interpolates, blocks duplicate input, and counts exactly once after completion",
+      "status": "PASS",
+      "evidence": {
+        "nominalDurationSeconds": 0.15,
+        "releasedPosition": {
+          "x": 60,
+          "y": 100,
+          "z": 0
+        },
+        "intermediatePosition": {
+          "x": 80,
+          "y": 100,
+          "z": 0
+        },
+        "finalPosition": {
+          "x": 100,
+          "y": 100,
+          "z": 0
+        },
+        "finalCount": 1
+      }
+    },
+    {
+      "name": "wrong .18 s return interpolates and records one release mistake despite rapid repeated input",
+      "status": "PASS",
+      "evidence": {
+        "nominalDurationSeconds": 0.18,
+        "releasedPosition": {
+          "x": 300,
+          "y": 100,
+          "z": 0
+        },
+        "intermediatePosition": {
+          "x": 100,
+          "y": 0,
+          "z": 0
+        },
+        "finalPosition": {
+          "x": -100,
+          "y": -100,
+          "z": 0
+        },
+        "mistakes": 1,
+        "placed": false
+      }
+    },
+    {
+      "name": "touch ID zero keeps ownership; foreign start/move/end/cancel cannot affect the drag",
+      "status": "PASS",
+      "evidence": {
+        "ownerTouchId": 0,
+        "foreignTouchId": 99,
+        "foreignEventsChecked": 4,
+        "count": 1,
+        "mistakes": 0
+      }
+    },
+    {
+      "name": "near and far TOUCH_CANCEL both return immediately without count or mistake",
+      "status": "PASS",
+      "evidence": [
+        {
+          "nearTarget": false,
+          "count": 0,
+          "mistakes": 0,
+          "remainingTweens": 0
+        },
+        {
+          "nearTarget": true,
+          "count": 0,
+          "mistakes": 0,
+          "remainingTweens": 0
+        }
+      ]
+    },
+    {
+      "name": "configure stops in-flight pickup/snap, keeps fresh position, and prevents old counts or enlarged baseline",
+      "status": "PASS",
+      "evidence": [
+        {
+          "phase": "pickup",
+          "newStart": {
+            "x": -60,
+            "y": -130,
+            "z": 0
+          },
+          "newSnapDistance": 32,
+          "finalCount": 1
+        },
+        {
+          "phase": "snap",
+          "newStart": {
+            "x": -60,
+            "y": -130,
+            "z": 0
+          },
+          "newSnapDistance": 32,
+          "finalCount": 1
+        }
+      ]
+    },
+    {
+      "name": "disable during snap stops real tween, restores start, clears listeners, and remains playable after enable",
+      "status": "PASS",
+      "evidence": {
+        "stoppedTweens": true,
+        "countWhileDisabled": 0,
+        "countAfterReenable": 1
+      }
+    },
+    {
+      "name": "real UITransform conversion supports differently rotated/scaled item and target parents",
+      "status": "PASS",
+      "evidence": {
+        "itemWorldPosition": {
+          "x": 294.3796893350927,
+          "y": 273.7516552477465,
+          "z": 0
+        },
+        "targetWorldPosition": {
+          "x": 294.37968933509273,
+          "y": 273.7516552477465,
+          "z": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "name": "real LevelManager panel tween reaches .8 → 1.08 → 1.0 and activates correct completion controls",
+      "status": "PASS",
+      "evidence": {
+        "riseSeconds": 0.14,
+        "settleSeconds": 0.1,
+        "firstIntermediate": 1.01,
+        "overshoot": 1.08,
+        "secondIntermediate": 1.04,
+        "finalScale": 1,
+        "levelResults": 1
+      }
+    }
+  ],
+  "cleanup": {
+    "originalTweenSystemRestored": true,
+    "offSceneFixtureRoots": 11,
+    "fixtureNodesScheduledForDestroy": 57,
+    "formalSceneModified": false
+  },
+  "passedChecks": 9,
+  "failedChecks": 0
+}

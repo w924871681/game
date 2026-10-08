@@ -1,0 +1,17 @@
+Command: git status --short --branch
+Working directory: D:/game
+Phase: pre-commit validation
+Captured for checks.json at: 2026-10-08T06:28:48Z
+Exit code: 0
+Redactions: 0
+
+## No commits yet on master
+?? .gitignore
+?? README.md
+?? assets/
+?? docs/
+?? extensions/
+?? package.json
+?? settings/
+?? tools/
+?? tsconfig.json

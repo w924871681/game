@@ -1,0 +1,566 @@
+{
+  "ok": true,
+  "timestamp": "2026-10-08T04:43:45.143Z",
+  "engineVersion": "3.8.8",
+  "mode": "actual saved Prefabs, off-scene fixtures, isolated real Cocos ActionManager with manual delta time",
+  "input": "real cc.Touch and cc.EventTouch emitted to fixture nodes",
+  "lifecycle": "explicit input-component lifecycle synchronization because Editor suppresses game lifecycle",
+  "limitations": [
+    "Not Preview natural-clock playback",
+    "Not browser native touch adapters or UI hit testing",
+    "Not physical touchscreen, mobile WebView or mini-game platform",
+    "Rendering and clipping require separate Preview verification"
+  ],
+  "checks": [
+    {
+      "name": "three actual Stage and five element Prefabs instantiate with typed references",
+      "status": "PASS",
+      "evidence": {
+        "prefabUuids": {
+          "dragMatchPrefab": "d7e32619-2acf-40bb-bca4-addfccbb49be",
+          "itemPrefab": "fefd5955-3eac-44ad-b9ec-d907012e16e1",
+          "targetPrefab": "baed1239-77f8-4e48-b00b-4de4c6d67830",
+          "cableConnectPrefab": "afa7f7c0-6a62-4d07-9295-6011af87cf7a",
+          "cablePrefab": "2ad8fe32-bebc-4d0e-8913-560ce3d72eac",
+          "portPrefab": "5147d16e-d660-4b36-983f-73c8cd3b203f",
+          "cleanSwipePrefab": "fa38d9cd-1551-4324-9805-acc21429befc",
+          "dirtCellPrefab": "c6243d95-8ebe-4646-8575-342bcf1f156f"
+        },
+        "cachedStageRoots": 3
+      }
+    },
+    {
+      "name": "drag-match real pool preserves identities through 2→4→2→4",
+      "status": "PASS",
+      "evidence": [
+        {
+          "count": 2,
+          "pool": 2,
+          "ids": [
+            "24uLX0wFFIK6OrCH8uhfAB",
+            "3afd0SVw1FCoRlaMYKy71N"
+          ]
+        },
+        {
+          "count": 4,
+          "pool": 4,
+          "ids": [
+            "24uLX0wFFIK6OrCH8uhfAB",
+            "3afd0SVw1FCoRlaMYKy71N",
+            "59wbDPM2ZGd5IqImQtHAGc",
+            "d2rqK7O9JJR7tplIVrhBN1"
+          ]
+        },
+        {
+          "count": 2,
+          "pool": 4,
+          "ids": [
+            "24uLX0wFFIK6OrCH8uhfAB",
+            "3afd0SVw1FCoRlaMYKy71N",
+            "59wbDPM2ZGd5IqImQtHAGc",
+            "d2rqK7O9JJR7tplIVrhBN1"
+          ]
+        },
+        {
+          "count": 4,
+          "pool": 4,
+          "ids": [
+            "24uLX0wFFIK6OrCH8uhfAB",
+            "3afd0SVw1FCoRlaMYKy71N",
+            "59wbDPM2ZGd5IqImQtHAGc",
+            "d2rqK7O9JJR7tplIVrhBN1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cable-connect real pool preserves identities through 2→4→2→4",
+      "status": "PASS",
+      "evidence": [
+        {
+          "count": 2,
+          "pool": 2,
+          "ids": [
+            "0byt7Anp5CyK2bpDJmXREB",
+            "cckp0Aju1GHYQYTqhaSZid"
+          ]
+        },
+        {
+          "count": 4,
+          "pool": 4,
+          "ids": [
+            "0byt7Anp5CyK2bpDJmXREB",
+            "cckp0Aju1GHYQYTqhaSZid",
+            "fcA5zWvfZFZonhUBBOAkie",
+            "96evN8EURPXZRlwcToGc5X"
+          ]
+        },
+        {
+          "count": 2,
+          "pool": 4,
+          "ids": [
+            "0byt7Anp5CyK2bpDJmXREB",
+            "cckp0Aju1GHYQYTqhaSZid",
+            "fcA5zWvfZFZonhUBBOAkie",
+            "96evN8EURPXZRlwcToGc5X"
+          ]
+        },
+        {
+          "count": 4,
+          "pool": 4,
+          "ids": [
+            "0byt7Anp5CyK2bpDJmXREB",
+            "cckp0Aju1GHYQYTqhaSZid",
+            "fcA5zWvfZFZonhUBBOAkie",
+            "96evN8EURPXZRlwcToGc5X"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "dirt pool reuses and restores cells through 20→35→32→20",
+      "status": "PASS",
+      "evidence": [
+        {
+          "count": 20,
+          "pooled": 20,
+          "required": 17
+        },
+        {
+          "count": 35,
+          "pooled": 35,
+          "required": 32
+        },
+        {
+          "count": 32,
+          "pooled": 35,
+          "required": 28
+        },
+        {
+          "count": 20,
+          "pooled": 35,
+          "required": 17
+        }
+      ]
+    },
+    {
+      "name": "drag pickup / snap interpolate at .10 / .15 seconds and count exactly after settlement",
+      "status": "PASS",
+      "evidence": {
+        "pickupMidpoint": 1.03,
+        "pickupSeconds": 0.1,
+        "snapMidpoint": -180,
+        "snapSeconds": 0.15,
+        "count": 1
+      }
+    },
+    {
+      "name": "drag wrong .18 second return charges once; foreign touch and CANCEL charge zero",
+      "status": "PASS",
+      "evidence": {
+        "returnSeconds": 0.18,
+        "mistakes": 1,
+        "canceledMistakes": 0,
+        "foreignMistakes": 0
+      }
+    },
+    {
+      "name": "cable .15 second real snap interpolates and keeps its Graphics anchor fixed",
+      "status": "PASS",
+      "evidence": {
+        "midpoint": 200,
+        "seconds": 0.15,
+        "anchor": {
+          "x": -220,
+          "y": 120,
+          "z": 0
+        },
+        "endpoint": {
+          "x": 220,
+          "y": -120,
+          "z": 0
+        },
+        "count": 1
+      }
+    },
+    {
+      "name": "cable wrong-port / blank releases charge once each; CANCEL and foreign ownership are ignored",
+      "status": "PASS",
+      "evidence": {
+        "returnSeconds": 0.18,
+        "wrongPortMistakes": 1,
+        "blankMistakes": 1,
+        "cancelMistakes": 0,
+        "foreignEvents": 4
+      }
+    },
+    {
+      "name": "cable head / port / Graphics use real transforms across rotated and nonuniformly scaled parents",
+      "status": "PASS",
+      "evidence": {
+        "headWorld": {
+          "x": 288.1491428642952,
+          "y": -7.375306019169855,
+          "z": 0
+        },
+        "portWorld": {
+          "x": 288.1491428642952,
+          "y": -7.375306019169841,
+          "z": 0
+        },
+        "graphicsEndpoint": {
+          "x": 108.5409168886097,
+          "y": -141.9917214093726,
+          "z": 0
+        },
+        "rootScale": {
+          "x": 1.3,
+          "y": 0.8,
+          "z": 1
+        },
+        "rootAngle": 17,
+        "portParentAngle": -25
+      }
+    },
+    {
+      "name": "clean .08 second opacity interpolation counts once and CANCEL retains cleaned cells",
+      "status": "PASS",
+      "evidence": {
+        "total": 32,
+        "required": 28,
+        "midpointOpacity": 127.5,
+        "seconds": 0.08,
+        "countAfterCancel": 1
+      }
+    },
+    {
+      "name": "fast clean stroke covers the segment and completes at ceil(32 × .85) exactly once",
+      "status": "PASS",
+      "evidence": {
+        "cells": 32,
+        "required": 28,
+        "completions": 1,
+        "mistakes": 0
+      }
+    },
+    {
+      "name": "old drag snap and late Stage callbacks cannot mutate a new Host generation",
+      "status": "PASS",
+      "evidence": {
+        "previousGeneration": 5,
+        "currentGeneration": 7,
+        "progress": {
+          "completed": 0,
+          "total": 4
+        }
+      }
+    },
+    {
+      "name": "old clean fade cannot hide a reused cell after configure",
+      "status": "PASS",
+      "evidence": {
+        "reusedNode": "c7OuNeHsBAG7J/3pnuBtWH",
+        "freshOpacity": 255,
+        "freshCleanedCount": 0
+      }
+    },
+    {
+      "name": "Host caches one root per kind and enables exactly one across repeated switches",
+      "status": "PASS",
+      "evidence": {
+        "cached": 3,
+        "rootIds": {
+          "drag-match": "2djnTGEcxMypEyAL2QvBYf",
+          "cable-connect": "d75Z/ugkJMGIX2o0eJcd0R",
+          "clean-swipe": "60iEvJZ+RK45CYc8J4E5zw"
+        }
+      }
+    },
+    {
+      "name": "order 6 plays its complete stage sequence without resetting time or early settlement",
+      "status": "PASS",
+      "evidence": {
+        "sequence": [
+          {
+            "index": 0,
+            "kind": "clean-swipe",
+            "progress": {
+              "completed": 17,
+              "total": 17
+            },
+            "elapsedMs": 1250
+          },
+          {
+            "index": 1,
+            "kind": "drag-match",
+            "progress": {
+              "completed": 2,
+              "total": 2
+            },
+            "elapsedMs": 2500
+          }
+        ],
+        "result": {
+          "levelId": 6,
+          "elapsedMs": 2500,
+          "mistakes": 0,
+          "score": 980,
+          "stars": 3
+        }
+      }
+    },
+    {
+      "name": "order 8 plays its complete stage sequence without resetting time or early settlement",
+      "status": "PASS",
+      "evidence": {
+        "sequence": [
+          {
+            "index": 0,
+            "kind": "drag-match",
+            "progress": {
+              "completed": 4,
+              "total": 4
+            },
+            "elapsedMs": 1250
+          },
+          {
+            "index": 1,
+            "kind": "cable-connect",
+            "progress": {
+              "completed": 2,
+              "total": 2
+            },
+            "elapsedMs": 2500
+          }
+        ],
+        "result": {
+          "levelId": 8,
+          "elapsedMs": 2500,
+          "mistakes": 0,
+          "score": 980,
+          "stars": 3
+        }
+      }
+    },
+    {
+      "name": "order 9 plays its complete stage sequence without resetting time or early settlement",
+      "status": "PASS",
+      "evidence": {
+        "sequence": [
+          {
+            "index": 0,
+            "kind": "clean-swipe",
+            "progress": {
+              "completed": 32,
+              "total": 32
+            },
+            "elapsedMs": 1250
+          },
+          {
+            "index": 1,
+            "kind": "cable-connect",
+            "progress": {
+              "completed": 4,
+              "total": 4
+            },
+            "elapsedMs": 2500
+          },
+          {
+            "index": 2,
+            "kind": "drag-match",
+            "progress": {
+              "completed": 4,
+              "total": 4
+            },
+            "elapsedMs": 3750
+          }
+        ],
+        "result": {
+          "levelId": 9,
+          "elapsedMs": 3750,
+          "mistakes": 0,
+          "score": 970,
+          "stars": 3
+        }
+      }
+    },
+    {
+      "name": "9 orders / 13 stages finish via input, total 27 stars, and replay resets metrics while retaining cache",
+      "status": "PASS",
+      "evidence": {
+        "sequence": [
+          {
+            "order": 1,
+            "stage": 1,
+            "kind": "drag-match",
+            "progress": {
+              "completed": 3,
+              "total": 3
+            }
+          },
+          {
+            "order": 2,
+            "stage": 1,
+            "kind": "drag-match",
+            "progress": {
+              "completed": 3,
+              "total": 3
+            }
+          },
+          {
+            "order": 3,
+            "stage": 1,
+            "kind": "drag-match",
+            "progress": {
+              "completed": 3,
+              "total": 3
+            }
+          },
+          {
+            "order": 4,
+            "stage": 1,
+            "kind": "clean-swipe",
+            "progress": {
+              "completed": 28,
+              "total": 28
+            }
+          },
+          {
+            "order": 5,
+            "stage": 1,
+            "kind": "cable-connect",
+            "progress": {
+              "completed": 3,
+              "total": 3
+            }
+          },
+          {
+            "order": 6,
+            "stage": 1,
+            "kind": "clean-swipe",
+            "progress": {
+              "completed": 17,
+              "total": 17
+            }
+          },
+          {
+            "order": 6,
+            "stage": 2,
+            "kind": "drag-match",
+            "progress": {
+              "completed": 2,
+              "total": 2
+            }
+          },
+          {
+            "order": 7,
+            "stage": 1,
+            "kind": "cable-connect",
+            "progress": {
+              "completed": 3,
+              "total": 3
+            }
+          },
+          {
+            "order": 8,
+            "stage": 1,
+            "kind": "drag-match",
+            "progress": {
+              "completed": 4,
+              "total": 4
+            }
+          },
+          {
+            "order": 8,
+            "stage": 2,
+            "kind": "cable-connect",
+            "progress": {
+              "completed": 2,
+              "total": 2
+            }
+          },
+          {
+            "order": 9,
+            "stage": 1,
+            "kind": "clean-swipe",
+            "progress": {
+              "completed": 32,
+              "total": 32
+            }
+          },
+          {
+            "order": 9,
+            "stage": 2,
+            "kind": "cable-connect",
+            "progress": {
+              "completed": 4,
+              "total": 4
+            }
+          },
+          {
+            "order": 9,
+            "stage": 3,
+            "kind": "drag-match",
+            "progress": {
+              "completed": 4,
+              "total": 4
+            }
+          }
+        ],
+        "summary": "完成订单：9 / 9\n总用时：0.0 秒\n总失误：0 次\n总评价：27 / 27 星\n总得分：9000\n完成步骤：13 / 13",
+        "replay": {
+          "results": 0,
+          "retainedStageRoots": 3
+        }
+      }
+    },
+    {
+      "name": "all three session tutorials wait for valid progress and remain seen after replay",
+      "status": "PASS",
+      "evidence": {
+        "kinds": [
+          "drag-match",
+          "clean-swipe",
+          "cable-connect"
+        ],
+        "preservedThroughReplay": true
+      }
+    },
+    {
+      "name": "manager disable / enable preserves partial progress, pauses time and rejects detached callbacks",
+      "status": "PASS",
+      "evidence": {
+        "resumedProgress": 1,
+        "finalMilliseconds": 3000,
+        "results": 1
+      }
+    },
+    {
+      "name": "result panel plays .8→1.08→1.0 and restart clears the settled result and old feedback",
+      "status": "PASS",
+      "evidence": {
+        "rise": 1.01,
+        "overshoot": 1.08,
+        "settle": 1.04,
+        "baseline": 1,
+        "resetResults": 0
+      }
+    }
+  ],
+  "cleanup": {
+    "originalTweenSystemRestored": true,
+    "offSceneFixtures": 21,
+    "fixtureRootsScheduledForDestroy": 21,
+    "formalSceneUnchanged": true,
+    "errors": []
+  },
+  "passedChecks": 21,
+  "failedChecks": 0,
+  "counts": {
+    "checks": 21,
+    "passed": 21,
+    "failed": 0,
+    "catalogOrders": 9,
+    "catalogStages": 13
+  }
+}

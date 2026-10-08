@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "changed": true,
+  "prefabUuid": "fa38d9cd-1551-4324-9805-acc21429befc",
+  "url": "db://assets/prefabs/stages/CleanSwipeStage.prefab",
+  "before": {
+    "width": 680,
+    "height": 650
+  },
+  "after": {
+    "width": 680,
+    "height": 560
+  },
+  "generatedValidation": {
+    "objects": 17,
+    "nodes": 3,
+    "ownUuidReferences": 0,
+    "width": 680,
+    "height": 560
+  },
+  "formalSceneModified": false,
+  "message": "Creator saved the clean input surface at 680 × 560; grid, controller references and node positions are retained.",
+  "timestamp": "2026-10-08T04:42:15.534Z"
+}

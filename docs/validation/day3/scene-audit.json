@@ -1,0 +1,1270 @@
+{
+  "schemaVersion": 1,
+  "scope": "Read-only audit of saved Cocos scene, metadata, script metadata, and project settings. Does not attest Preview or physical-device touch execution.",
+  "files": {
+    "scene": {
+      "path": "assets/scenes/Game.scene",
+      "sha256": "45d4dd68eece697bdfe1ff206f0560f2bd8425dcad28e04db163b058e87401c1",
+      "bytes": 79705
+    },
+    "sceneMeta": {
+      "path": "assets/scenes/Game.scene.meta",
+      "sha256": "4ccda419d76fbd79c19b9eae0a5b771ad96a39d954ac7326715c2ae1008d920d",
+      "uuid": "ef51aae5-f3a0-4ba5-9918-6d84e400d36f",
+      "importer": "scene",
+      "imported": true
+    },
+    "projectSettings": {
+      "path": "settings/v2/packages/project.json",
+      "sha256": "95486b12b0983135c3e0459df681a89f8a2e38ed46269bc10fe87b127f9a4fe9"
+    }
+  },
+  "projectVersion": "0.0.3",
+  "creatorVersion": "3.8.8",
+  "serializedObjectCount": 111,
+  "nodeCount": 32,
+  "classAssets": {
+    "GameController": {
+      "assetMetaPath": "assets/scripts/core/GameController.ts.meta",
+      "uuid": "ad134b02-0d5c-4fac-af7d-053ce82e8c65",
+      "serializedType": "ad134sCDVxPrK99BTzoLoxl"
+    },
+    "LevelManager": {
+      "assetMetaPath": "assets/scripts/core/LevelManager.ts.meta",
+      "uuid": "9c83c519-ee32-45a8-8615-8f62e7a67d47",
+      "serializedType": "9c83cUZ7jJFqIYVj2Lnpn1H"
+    },
+    "RunController": {
+      "assetMetaPath": "assets/scripts/core/RunController.ts.meta",
+      "uuid": "03ded024-7942-401d-a0a3-f9ab27ed25c6",
+      "serializedType": "03dedAkeUJAHaCj+asn7SXG"
+    },
+    "LevelCatalog": {
+      "assetMetaPath": "assets/scripts/data/LevelCatalog.ts.meta",
+      "uuid": "8100cb99-bddc-40a6-aa8a-29aa83fe6380",
+      "serializedType": "8100cuZvdxApqqKKaqD/mOA"
+    },
+    "LevelDefinition": {
+      "assetMetaPath": "assets/scripts/data/LevelDefinition.ts.meta",
+      "uuid": "c8d3bbf1-f203-4622-9ade-eddb68c7cf47",
+      "serializedType": "c8d3bvx8gNGIpre7dtox89H"
+    },
+    "Day1Prototype": {
+      "assetMetaPath": "assets/scripts/gameplay/Day1Prototype.ts.meta",
+      "uuid": "79913187-6679-4686-8143-2ddb4818df0a",
+      "serializedType": "79913GHZnlGhoFDLdtIGN8K"
+    },
+    "DraggableItem": {
+      "assetMetaPath": "assets/scripts/gameplay/DraggableItem.ts.meta",
+      "uuid": "3780ac2a-3b18-443e-a833-62de925eebc9",
+      "serializedType": "3780awqOxhEPqgzYt6SXuvJ"
+    }
+  },
+  "components": {
+    "DraggableItem": [
+      {
+        "objectIndex": 57,
+        "nodePath": "Canvas/PlayArea/Item1",
+        "enabled": true,
+        "references": {
+          "target": {
+            "objectIndex": 33,
+            "type": "cc.Node",
+            "nodePath": "Canvas/PlayArea/Target1",
+            "uuid": "aayHrRT5hKroQ1vx1fKXBz"
+          },
+          "gameController": {
+            "objectIndex": 58,
+            "type": "GameController",
+            "nodePath": "Canvas",
+            "uuid": "5dgdfF7tpEO7SksseEUGNV"
+          }
+        }
+      },
+      {
+        "objectIndex": 65,
+        "nodePath": "Canvas/PlayArea/Item2",
+        "enabled": true,
+        "references": {
+          "target": {
+            "objectIndex": 39,
+            "type": "cc.Node",
+            "nodePath": "Canvas/PlayArea/Target2",
+            "uuid": "52kA8s9B9Ln5Dxnnoth5+b"
+          },
+          "gameController": {
+            "objectIndex": 58,
+            "type": "GameController",
+            "nodePath": "Canvas",
+            "uuid": "5dgdfF7tpEO7SksseEUGNV"
+          }
+        }
+      },
+      {
+        "objectIndex": 72,
+        "nodePath": "Canvas/PlayArea/Item3",
+        "enabled": true,
+        "references": {
+          "target": {
+            "objectIndex": 45,
+            "type": "cc.Node",
+            "nodePath": "Canvas/PlayArea/Target3",
+            "uuid": "952tNNBp9GR5nBV8bnrEC7"
+          },
+          "gameController": {
+            "objectIndex": 58,
+            "type": "GameController",
+            "nodePath": "Canvas",
+            "uuid": "5dgdfF7tpEO7SksseEUGNV"
+          }
+        }
+      }
+    ],
+    "GameController": [
+      {
+        "objectIndex": 58,
+        "nodePath": "Canvas",
+        "enabled": true,
+        "references": {
+          "statusLabel": {
+            "objectIndex": 22,
+            "type": "cc.Label",
+            "nodePath": "Canvas/Header/StatusLabel",
+            "uuid": "6e0Etor6FJM7AQMfGHw7dI"
+          }
+        }
+      }
+    ],
+    "RunController": [
+      {
+        "objectIndex": 100,
+        "nodePath": "Canvas",
+        "enabled": true,
+        "references": {
+          "timeLabel": {
+            "objectIndex": 26,
+            "type": "cc.Label",
+            "nodePath": "Canvas/Header/Stats/TimeLabel",
+            "uuid": "25gWdcF7xJILq9j5FghnmA"
+          },
+          "mistakeLabel": {
+            "objectIndex": 29,
+            "type": "cc.Label",
+            "nodePath": "Canvas/Header/Stats/MistakeLabel",
+            "uuid": "8aZoMhFxJE+YkwJGNSvsTC"
+          }
+        }
+      }
+    ],
+    "LevelManager": [
+      {
+        "objectIndex": 101,
+        "nodePath": "Canvas",
+        "enabled": true,
+        "references": {
+          "gameController": {
+            "objectIndex": 58,
+            "type": "GameController",
+            "nodePath": "Canvas",
+            "uuid": "5dgdfF7tpEO7SksseEUGNV"
+          },
+          "runController": {
+            "objectIndex": 100,
+            "type": "RunController",
+            "nodePath": "Canvas",
+            "uuid": "c2PXNchvtBvZP7xuWhvDxo"
+          },
+          "levelLabel": {
+            "objectIndex": 16,
+            "type": "cc.Label",
+            "nodePath": "Canvas/Header/LevelLabel",
+            "uuid": "d60+Iir9tIAb2viJE6s4eP"
+          },
+          "levelTitleLabel": {
+            "objectIndex": 19,
+            "type": "cc.Label",
+            "nodePath": "Canvas/Header/LevelTitleLabel",
+            "uuid": "32AaR+5ZxOxqz/DarO8mFb"
+          },
+          "items": [
+            {
+              "objectIndex": 57,
+              "type": "DraggableItem",
+              "nodePath": "Canvas/PlayArea/Item1",
+              "uuid": "11Oz5e78hN+aP1C6h/oAHp"
+            },
+            {
+              "objectIndex": 65,
+              "type": "DraggableItem",
+              "nodePath": "Canvas/PlayArea/Item2",
+              "uuid": "fa5mFiASpNQbX9nqsqCG4x"
+            },
+            {
+              "objectIndex": 72,
+              "type": "DraggableItem",
+              "nodePath": "Canvas/PlayArea/Item3",
+              "uuid": "08VvN6UPxJgo6BeWfIet3y"
+            }
+          ],
+          "itemLabels": [
+            {
+              "objectIndex": 54,
+              "type": "cc.Label",
+              "nodePath": "Canvas/PlayArea/Item1/Label",
+              "uuid": "83tZ0HQ55DA50hT89w8CsY"
+            },
+            {
+              "objectIndex": 62,
+              "type": "cc.Label",
+              "nodePath": "Canvas/PlayArea/Item2/Label",
+              "uuid": "0caCzgIbZJbIjr+okzY8dW"
+            },
+            {
+              "objectIndex": 69,
+              "type": "cc.Label",
+              "nodePath": "Canvas/PlayArea/Item3/Label",
+              "uuid": "b6gKp05/dJk70/tmhvq0r8"
+            }
+          ],
+          "targets": [
+            {
+              "objectIndex": 33,
+              "type": "cc.Node",
+              "nodePath": "Canvas/PlayArea/Target1",
+              "uuid": "aayHrRT5hKroQ1vx1fKXBz"
+            },
+            {
+              "objectIndex": 39,
+              "type": "cc.Node",
+              "nodePath": "Canvas/PlayArea/Target2",
+              "uuid": "52kA8s9B9Ln5Dxnnoth5+b"
+            },
+            {
+              "objectIndex": 45,
+              "type": "cc.Node",
+              "nodePath": "Canvas/PlayArea/Target3",
+              "uuid": "952tNNBp9GR5nBV8bnrEC7"
+            }
+          ],
+          "targetLabels": [
+            {
+              "objectIndex": 36,
+              "type": "cc.Label",
+              "nodePath": "Canvas/PlayArea/Target1/Label",
+              "uuid": "916CFXxLBI7Le3Q8o4bZuZ"
+            },
+            {
+              "objectIndex": 42,
+              "type": "cc.Label",
+              "nodePath": "Canvas/PlayArea/Target2/Label",
+              "uuid": "b9Hkbwg19Nb5xUJGTCNbyN"
+            },
+            {
+              "objectIndex": 48,
+              "type": "cc.Label",
+              "nodePath": "Canvas/PlayArea/Target3/Label",
+              "uuid": "8867joWUtCM5HtVYzKn2eU"
+            }
+          ],
+          "completePanel": {
+            "objectIndex": 80,
+            "type": "cc.Node",
+            "nodePath": "Canvas/CompletePanel",
+            "uuid": "aato4tPWBC+Y2p749SVFYX"
+          },
+          "completeLabel": {
+            "objectIndex": 83,
+            "type": "cc.Label",
+            "nodePath": "Canvas/CompletePanel/CompleteLabel",
+            "uuid": "5d6BDFDwJEXK9ivJcT70S0"
+          },
+          "completeDetailLabel": {
+            "objectIndex": 86,
+            "type": "cc.Label",
+            "nodePath": "Canvas/CompletePanel/CompleteDetailLabel",
+            "uuid": "c1hoM+0StLU60Z1CRivUB+"
+          },
+          "nextButton": {
+            "objectIndex": 93,
+            "type": "cc.Button",
+            "nodePath": "Canvas/CompletePanel/NextButton",
+            "uuid": "c5VfGnCPtJtoOrjLdGJsLh"
+          },
+          "actionButtonLabel": {
+            "objectIndex": 90,
+            "type": "cc.Label",
+            "nodePath": "Canvas/CompletePanel/NextButton/Label",
+            "uuid": "9cSYl8rGRG85khTvpH7p4q"
+          },
+          "tutorialHint": {
+            "objectIndex": 74,
+            "type": "cc.Node",
+            "nodePath": "Canvas/TutorialHint",
+            "uuid": "f4WnCzwklL+acV/IjiTKtY"
+          }
+        }
+      }
+    ]
+  },
+  "camera": {
+    "binding": {
+      "objectIndex": 9,
+      "type": "cc.Camera",
+      "nodePath": "Canvas/UI Camera",
+      "uuid": "9ca4n5kppC1LYsJmY9jd70"
+    },
+    "projection": 0,
+    "visibility": 1108344832,
+    "near": 0,
+    "far": 2000,
+    "alignCanvasWithScreen": true
+  },
+  "designResolution": {
+    "width": 720,
+    "height": 1280,
+    "fitWidth": true,
+    "fitHeight": true
+  },
+  "button": {
+    "nodePath": "Canvas/CompletePanel/NextButton",
+    "clickEvents": [],
+    "initialNodeActive": true,
+    "initialInteractable": true,
+    "panelInitiallyActive": false
+  },
+  "labels": [
+    {
+      "nodePath": "Canvas/Header/GameTitle",
+      "text": "桌面急救站",
+      "fontSize": 44,
+      "overflow": 2,
+      "wrap": true
+    },
+    {
+      "nodePath": "Canvas/Header/LevelLabel",
+      "text": "订单 1 / 3",
+      "fontSize": 28,
+      "overflow": 2,
+      "wrap": true
+    },
+    {
+      "nodePath": "Canvas/Header/LevelTitleLabel",
+      "text": "桌面整理",
+      "fontSize": 32,
+      "overflow": 2,
+      "wrap": true
+    },
+    {
+      "nodePath": "Canvas/Header/StatusLabel",
+      "text": "把设备拖到对应区域",
+      "fontSize": 26,
+      "overflow": 2,
+      "wrap": true
+    },
+    {
+      "nodePath": "Canvas/Header/Stats/TimeLabel",
+      "text": "用时：0.0 秒",
+      "fontSize": 24,
+      "overflow": 2,
+      "wrap": true
+    },
+    {
+      "nodePath": "Canvas/Header/Stats/MistakeLabel",
+      "text": "失误：0",
+      "fontSize": 24,
+      "overflow": 2,
+      "wrap": true
+    },
+    {
+      "nodePath": "Canvas/PlayArea/Target1/Label",
+      "text": "鼠标区域",
+      "fontSize": 26,
+      "overflow": 2,
+      "wrap": true
+    },
+    {
+      "nodePath": "Canvas/PlayArea/Target2/Label",
+      "text": "键盘区域",
+      "fontSize": 26,
+      "overflow": 2,
+      "wrap": true
+    },
+    {
+      "nodePath": "Canvas/PlayArea/Target3/Label",
+      "text": "耳机区域",
+      "fontSize": 26,
+      "overflow": 2,
+      "wrap": true
+    },
+    {
+      "nodePath": "Canvas/PlayArea/Item1/Label",
+      "text": "鼠标",
+      "fontSize": 34,
+      "overflow": 2,
+      "wrap": true
+    },
+    {
+      "nodePath": "Canvas/PlayArea/Item2/Label",
+      "text": "键盘",
+      "fontSize": 34,
+      "overflow": 2,
+      "wrap": true
+    },
+    {
+      "nodePath": "Canvas/PlayArea/Item3/Label",
+      "text": "耳机",
+      "fontSize": 34,
+      "overflow": 2,
+      "wrap": true
+    },
+    {
+      "nodePath": "Canvas/TutorialHint/TutorialLabel",
+      "text": "拖动物品到对应区域",
+      "fontSize": 26,
+      "overflow": 2,
+      "wrap": true
+    },
+    {
+      "nodePath": "Canvas/CompletePanel/CompleteLabel",
+      "text": "订单完成",
+      "fontSize": 38,
+      "overflow": 2,
+      "wrap": true
+    },
+    {
+      "nodePath": "Canvas/CompletePanel/CompleteDetailLabel",
+      "text": "",
+      "fontSize": 26,
+      "overflow": 2,
+      "wrap": true
+    },
+    {
+      "nodePath": "Canvas/CompletePanel/NextButton/Label",
+      "text": "下一张订单",
+      "fontSize": 30,
+      "overflow": 2,
+      "wrap": true
+    }
+  ],
+  "sprites": [
+    {
+      "objectIndex": 38,
+      "nodePath": "Canvas/PlayArea/Target1",
+      "spriteFrame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "type": 1,
+      "sizeMode": 0
+    },
+    {
+      "objectIndex": 44,
+      "nodePath": "Canvas/PlayArea/Target2",
+      "spriteFrame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "type": 1,
+      "sizeMode": 0
+    },
+    {
+      "objectIndex": 50,
+      "nodePath": "Canvas/PlayArea/Target3",
+      "spriteFrame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "type": 1,
+      "sizeMode": 0
+    },
+    {
+      "objectIndex": 56,
+      "nodePath": "Canvas/PlayArea/Item1",
+      "spriteFrame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "type": 1,
+      "sizeMode": 0
+    },
+    {
+      "objectIndex": 64,
+      "nodePath": "Canvas/PlayArea/Item2",
+      "spriteFrame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "type": 1,
+      "sizeMode": 0
+    },
+    {
+      "objectIndex": 71,
+      "nodePath": "Canvas/PlayArea/Item3",
+      "spriteFrame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "type": 1,
+      "sizeMode": 0
+    },
+    {
+      "objectIndex": 79,
+      "nodePath": "Canvas/TutorialHint",
+      "spriteFrame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "type": 1,
+      "sizeMode": 0
+    },
+    {
+      "objectIndex": 92,
+      "nodePath": "Canvas/CompletePanel/NextButton",
+      "spriteFrame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "type": 1,
+      "sizeMode": 0
+    },
+    {
+      "objectIndex": 95,
+      "nodePath": "Canvas/CompletePanel",
+      "spriteFrame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "type": 1,
+      "sizeMode": 0
+    },
+    {
+      "objectIndex": 99,
+      "nodePath": "Canvas",
+      "spriteFrame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "type": 1,
+      "sizeMode": 0
+    }
+  ],
+  "firstOrderPositions": [
+    {
+      "nodePath": "Canvas/PlayArea/Target1",
+      "position": {
+        "x": -220,
+        "y": 170,
+        "z": 0
+      },
+      "contentSize": {
+        "width": 180,
+        "height": 140
+      }
+    },
+    {
+      "nodePath": "Canvas/PlayArea/Target2",
+      "position": {
+        "x": 0,
+        "y": 170,
+        "z": 0
+      },
+      "contentSize": {
+        "width": 180,
+        "height": 140
+      }
+    },
+    {
+      "nodePath": "Canvas/PlayArea/Target3",
+      "position": {
+        "x": 220,
+        "y": 170,
+        "z": 0
+      },
+      "contentSize": {
+        "width": 180,
+        "height": 140
+      }
+    },
+    {
+      "nodePath": "Canvas/PlayArea/Item1",
+      "position": {
+        "x": -220,
+        "y": -300,
+        "z": 0
+      },
+      "contentSize": {
+        "width": 180,
+        "height": 140
+      }
+    },
+    {
+      "nodePath": "Canvas/PlayArea/Item2",
+      "position": {
+        "x": 0,
+        "y": -300,
+        "z": 0
+      },
+      "contentSize": {
+        "width": 180,
+        "height": 140
+      }
+    },
+    {
+      "nodePath": "Canvas/PlayArea/Item3",
+      "position": {
+        "x": 220,
+        "y": -300,
+        "z": 0
+      },
+      "contentSize": {
+        "width": 180,
+        "height": 140
+      }
+    }
+  ],
+  "externalAssetReferenceCounts": {
+    "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941": 10,
+    "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0": 2,
+    "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0": 1
+  },
+  "invalidReferences": [],
+  "checks": [
+    {
+      "name": "allSerializedReferencesValid",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "sceneMetaUuidMatchesSceneId",
+      "passed": true,
+      "actual": "ef51aae5-f3a0-4ba5-9918-6d84e400d36f",
+      "expected": "ef51aae5-f3a0-4ba5-9918-6d84e400d36f"
+    },
+    {
+      "name": "sceneMetaImporter",
+      "passed": true,
+      "actual": "scene",
+      "expected": "scene"
+    },
+    {
+      "name": "sceneMetaImported",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "projectVersion",
+      "passed": true,
+      "actual": "0.0.3",
+      "expected": "0.0.3"
+    },
+    {
+      "name": "creatorVersion",
+      "passed": true,
+      "actual": "3.8.8",
+      "expected": "3.8.8"
+    },
+    {
+      "name": "GameControllerCount",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "name": "RunControllerCount",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "name": "LevelManagerCount",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "name": "DraggableItemCount",
+      "passed": true,
+      "actual": 3,
+      "expected": 3
+    },
+    {
+      "name": "Day1PrototypeCount",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "noAutoLayout",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "GameController.statusLabel",
+      "passed": true,
+      "actual": [
+        "cc.Label",
+        "Canvas/Header/StatusLabel"
+      ],
+      "expected": [
+        "cc.Label",
+        "Canvas/Header/StatusLabel"
+      ]
+    },
+    {
+      "name": "RunController.timeLabel",
+      "passed": true,
+      "actual": [
+        "cc.Label",
+        "Canvas/Header/Stats/TimeLabel"
+      ],
+      "expected": [
+        "cc.Label",
+        "Canvas/Header/Stats/TimeLabel"
+      ]
+    },
+    {
+      "name": "RunController.mistakeLabel",
+      "passed": true,
+      "actual": [
+        "cc.Label",
+        "Canvas/Header/Stats/MistakeLabel"
+      ],
+      "expected": [
+        "cc.Label",
+        "Canvas/Header/Stats/MistakeLabel"
+      ]
+    },
+    {
+      "name": "LevelManager.gameController",
+      "passed": true,
+      "actual": [
+        "GameController",
+        "Canvas"
+      ],
+      "expected": [
+        "GameController",
+        "Canvas"
+      ]
+    },
+    {
+      "name": "LevelManager.runController",
+      "passed": true,
+      "actual": [
+        "RunController",
+        "Canvas"
+      ],
+      "expected": [
+        "RunController",
+        "Canvas"
+      ]
+    },
+    {
+      "name": "LevelManager.levelLabel",
+      "passed": true,
+      "actual": [
+        "cc.Label",
+        "Canvas/Header/LevelLabel"
+      ],
+      "expected": [
+        "cc.Label",
+        "Canvas/Header/LevelLabel"
+      ]
+    },
+    {
+      "name": "LevelManager.levelTitleLabel",
+      "passed": true,
+      "actual": [
+        "cc.Label",
+        "Canvas/Header/LevelTitleLabel"
+      ],
+      "expected": [
+        "cc.Label",
+        "Canvas/Header/LevelTitleLabel"
+      ]
+    },
+    {
+      "name": "LevelManager.completePanel",
+      "passed": true,
+      "actual": [
+        "cc.Node",
+        "Canvas/CompletePanel"
+      ],
+      "expected": [
+        "cc.Node",
+        "Canvas/CompletePanel"
+      ]
+    },
+    {
+      "name": "LevelManager.completeLabel",
+      "passed": true,
+      "actual": [
+        "cc.Label",
+        "Canvas/CompletePanel/CompleteLabel"
+      ],
+      "expected": [
+        "cc.Label",
+        "Canvas/CompletePanel/CompleteLabel"
+      ]
+    },
+    {
+      "name": "LevelManager.completeDetailLabel",
+      "passed": true,
+      "actual": [
+        "cc.Label",
+        "Canvas/CompletePanel/CompleteDetailLabel"
+      ],
+      "expected": [
+        "cc.Label",
+        "Canvas/CompletePanel/CompleteDetailLabel"
+      ]
+    },
+    {
+      "name": "LevelManager.nextButton",
+      "passed": true,
+      "actual": [
+        "cc.Button",
+        "Canvas/CompletePanel/NextButton"
+      ],
+      "expected": [
+        "cc.Button",
+        "Canvas/CompletePanel/NextButton"
+      ]
+    },
+    {
+      "name": "LevelManager.actionButtonLabel",
+      "passed": true,
+      "actual": [
+        "cc.Label",
+        "Canvas/CompletePanel/NextButton/Label"
+      ],
+      "expected": [
+        "cc.Label",
+        "Canvas/CompletePanel/NextButton/Label"
+      ]
+    },
+    {
+      "name": "LevelManager.tutorialHint",
+      "passed": true,
+      "actual": [
+        "cc.Node",
+        "Canvas/TutorialHint"
+      ],
+      "expected": [
+        "cc.Node",
+        "Canvas/TutorialHint"
+      ]
+    },
+    {
+      "name": "LevelManager.items",
+      "passed": true,
+      "actual": [
+        [
+          "DraggableItem",
+          "Canvas/PlayArea/Item1"
+        ],
+        [
+          "DraggableItem",
+          "Canvas/PlayArea/Item2"
+        ],
+        [
+          "DraggableItem",
+          "Canvas/PlayArea/Item3"
+        ]
+      ],
+      "expected": [
+        [
+          "DraggableItem",
+          "Canvas/PlayArea/Item1"
+        ],
+        [
+          "DraggableItem",
+          "Canvas/PlayArea/Item2"
+        ],
+        [
+          "DraggableItem",
+          "Canvas/PlayArea/Item3"
+        ]
+      ]
+    },
+    {
+      "name": "LevelManager.itemLabels",
+      "passed": true,
+      "actual": [
+        [
+          "cc.Label",
+          "Canvas/PlayArea/Item1/Label"
+        ],
+        [
+          "cc.Label",
+          "Canvas/PlayArea/Item2/Label"
+        ],
+        [
+          "cc.Label",
+          "Canvas/PlayArea/Item3/Label"
+        ]
+      ],
+      "expected": [
+        [
+          "cc.Label",
+          "Canvas/PlayArea/Item1/Label"
+        ],
+        [
+          "cc.Label",
+          "Canvas/PlayArea/Item2/Label"
+        ],
+        [
+          "cc.Label",
+          "Canvas/PlayArea/Item3/Label"
+        ]
+      ]
+    },
+    {
+      "name": "LevelManager.targets",
+      "passed": true,
+      "actual": [
+        [
+          "cc.Node",
+          "Canvas/PlayArea/Target1"
+        ],
+        [
+          "cc.Node",
+          "Canvas/PlayArea/Target2"
+        ],
+        [
+          "cc.Node",
+          "Canvas/PlayArea/Target3"
+        ]
+      ],
+      "expected": [
+        [
+          "cc.Node",
+          "Canvas/PlayArea/Target1"
+        ],
+        [
+          "cc.Node",
+          "Canvas/PlayArea/Target2"
+        ],
+        [
+          "cc.Node",
+          "Canvas/PlayArea/Target3"
+        ]
+      ]
+    },
+    {
+      "name": "LevelManager.targetLabels",
+      "passed": true,
+      "actual": [
+        [
+          "cc.Label",
+          "Canvas/PlayArea/Target1/Label"
+        ],
+        [
+          "cc.Label",
+          "Canvas/PlayArea/Target2/Label"
+        ],
+        [
+          "cc.Label",
+          "Canvas/PlayArea/Target3/Label"
+        ]
+      ],
+      "expected": [
+        [
+          "cc.Label",
+          "Canvas/PlayArea/Target1/Label"
+        ],
+        [
+          "cc.Label",
+          "Canvas/PlayArea/Target2/Label"
+        ],
+        [
+          "cc.Label",
+          "Canvas/PlayArea/Target3/Label"
+        ]
+      ]
+    },
+    {
+      "name": "Item1.target",
+      "passed": true,
+      "actual": [
+        "cc.Node",
+        "Canvas/PlayArea/Target1"
+      ],
+      "expected": [
+        "cc.Node",
+        "Canvas/PlayArea/Target1"
+      ]
+    },
+    {
+      "name": "Item1.gameController",
+      "passed": true,
+      "actual": [
+        "GameController",
+        "Canvas"
+      ],
+      "expected": [
+        "GameController",
+        "Canvas"
+      ]
+    },
+    {
+      "name": "Item1.enabled",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "Item2.target",
+      "passed": true,
+      "actual": [
+        "cc.Node",
+        "Canvas/PlayArea/Target2"
+      ],
+      "expected": [
+        "cc.Node",
+        "Canvas/PlayArea/Target2"
+      ]
+    },
+    {
+      "name": "Item2.gameController",
+      "passed": true,
+      "actual": [
+        "GameController",
+        "Canvas"
+      ],
+      "expected": [
+        "GameController",
+        "Canvas"
+      ]
+    },
+    {
+      "name": "Item2.enabled",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "Item3.target",
+      "passed": true,
+      "actual": [
+        "cc.Node",
+        "Canvas/PlayArea/Target3"
+      ],
+      "expected": [
+        "cc.Node",
+        "Canvas/PlayArea/Target3"
+      ]
+    },
+    {
+      "name": "Item3.gameController",
+      "passed": true,
+      "actual": [
+        "GameController",
+        "Canvas"
+      ],
+      "expected": [
+        "GameController",
+        "Canvas"
+      ]
+    },
+    {
+      "name": "Item3.enabled",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "canvasContentSize",
+      "passed": true,
+      "actual": [
+        720,
+        1280
+      ],
+      "expected": [
+        720,
+        1280
+      ]
+    },
+    {
+      "name": "canvasPosition",
+      "passed": true,
+      "actual": [
+        360,
+        640
+      ],
+      "expected": [
+        360,
+        640
+      ]
+    },
+    {
+      "name": "canvasAlignScreen",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "canvasCameraBinding",
+      "passed": true,
+      "actual": [
+        "cc.Camera",
+        "Canvas/UI Camera"
+      ],
+      "expected": [
+        "cc.Camera",
+        "Canvas/UI Camera"
+      ]
+    },
+    {
+      "name": "uiCameraActive",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "uiCameraOrthographic",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "uiCameraIncludesUi2d",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "Main Camera.inactive",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "name": "Main Light.inactive",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "name": "completePanelInitiallyInactive",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "name": "buttonClickEventsEmpty",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "designResolution",
+      "passed": true,
+      "actual": {
+        "width": 720,
+        "height": 1280,
+        "fitWidth": true,
+        "fitHeight": true
+      },
+      "expected": {
+        "width": 720,
+        "height": 1280,
+        "fitWidth": true,
+        "fitHeight": true
+      }
+    },
+    {
+      "name": "allLabelsShrinkAndWrap",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "spriteCount",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "name": "allSpritesUseSavedWhiteFrame",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "allSpritesSliced",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "oldPlaceholderFrameAbsent",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "Canvas/PlayArea/Target1.firstOrderPosition",
+      "passed": true,
+      "actual": {
+        "x": -220,
+        "y": 170,
+        "z": 0
+      },
+      "expected": {
+        "x": -220,
+        "y": 170,
+        "z": 0
+      }
+    },
+    {
+      "name": "Canvas/PlayArea/Target2.firstOrderPosition",
+      "passed": true,
+      "actual": {
+        "x": 0,
+        "y": 170,
+        "z": 0
+      },
+      "expected": {
+        "x": 0,
+        "y": 170,
+        "z": 0
+      }
+    },
+    {
+      "name": "Canvas/PlayArea/Target3.firstOrderPosition",
+      "passed": true,
+      "actual": {
+        "x": 220,
+        "y": 170,
+        "z": 0
+      },
+      "expected": {
+        "x": 220,
+        "y": 170,
+        "z": 0
+      }
+    },
+    {
+      "name": "Canvas/PlayArea/Item1.firstOrderPosition",
+      "passed": true,
+      "actual": {
+        "x": -220,
+        "y": -300,
+        "z": 0
+      },
+      "expected": {
+        "x": -220,
+        "y": -300,
+        "z": 0
+      }
+    },
+    {
+      "name": "Canvas/PlayArea/Item2.firstOrderPosition",
+      "passed": true,
+      "actual": {
+        "x": 0,
+        "y": -300,
+        "z": 0
+      },
+      "expected": {
+        "x": 0,
+        "y": -300,
+        "z": 0
+      }
+    },
+    {
+      "name": "Canvas/PlayArea/Item3.firstOrderPosition",
+      "passed": true,
+      "actual": {
+        "x": 220,
+        "y": -300,
+        "z": 0
+      },
+      "expected": {
+        "x": 220,
+        "y": -300,
+        "z": 0
+      }
+    }
+  ],
+  "passed": true,
+  "passedChecks": 61,
+  "totalChecks": 61,
+  "notes": [
+    "NextButton starts active and interactable under an inactive CompletePanel; LevelManager.loadLevel hides and disables it before play.",
+    "Scene globals retain template skybox settings; default Main Camera is inactive and the UI Camera uses depth/stencil clear flags."
+  ]
+}

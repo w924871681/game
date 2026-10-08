@@ -1,0 +1,4248 @@
+{
+  "schemaVersion": 1,
+  "timestamp": "2026-10-08T04:43:21.094Z",
+  "projectPath": "D:\\game",
+  "mode": "Read-only saved Creator Scene/Prefab/metadata audit plus live Editor inspection",
+  "ok": true,
+  "passed": true,
+  "passedChecks": 187,
+  "totalChecks": 187,
+  "checks": [
+    {
+      "name": "installedEngineMetadataAvailable",
+      "passed": true,
+      "actual": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets",
+      "expected": "Actual Creator engine/editor/assets directory"
+    },
+    {
+      "name": "runtimeInspectionSucceeded",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "runtimeClass:LevelManager",
+      "passed": true,
+      "actual": {
+        "classId": "9c83cUZ7jJFqIYVj2Lnpn1H",
+        "script": {
+          "name": "LevelManager",
+          "path": "assets/scripts/core/LevelManager.ts.meta",
+          "uuid": "9c83c519-ee32-45a8-8615-8f62e7a67d47",
+          "imported": true,
+          "sourceExists": true,
+          "metadataSha256": "e9b2eacaea0a89f2ebd3dc94593f7698ec4acd3d1b9d53de2e196789a639310c",
+          "sourceSha256": "0c0a709191eca6368d5e576be63ba1a74f6cdd7bd8cba61c343ea9a48bad2d0d"
+        }
+      },
+      "expected": "Registered class resolves to its imported project TypeScript metadata"
+    },
+    {
+      "name": "runtimeClass:StageHost",
+      "passed": true,
+      "actual": {
+        "classId": "b9b07S2IuBIoJ6NcDxKMZHI",
+        "script": {
+          "name": "StageHost",
+          "path": "assets/scripts/stages/StageHost.ts.meta",
+          "uuid": "b9b074b6-22e0-48a0-9e8d-703c4a3191c8",
+          "imported": true,
+          "sourceExists": true,
+          "metadataSha256": "107288870e18d97e96701524b8eb624e6f996b752375a2a48b749c52acf71854",
+          "sourceSha256": "8f4c9f80c96e3f64e14af0b9e7d03c23297c3fd82120a15d582c9a0e582710be"
+        }
+      },
+      "expected": "Registered class resolves to its imported project TypeScript metadata"
+    },
+    {
+      "name": "runtimeClass:DragMatchStageController",
+      "passed": true,
+      "actual": {
+        "classId": "5a942JfarhBYYM+JSqrluNf",
+        "script": {
+          "name": "DragMatchStageController",
+          "path": "assets/scripts/stages/DragMatchStageController.ts.meta",
+          "uuid": "5a94225f-6ab8-4161-833e-252aab96e35f",
+          "imported": true,
+          "sourceExists": true,
+          "metadataSha256": "64444b1e7f9273f2dd6939b60665d52871ae4a2f85f88d64d28074859af38a19",
+          "sourceSha256": "056a6b5faa2dd33374b9625d4cd4939eb2f039309b0c302ba61db6c1bbf42766"
+        }
+      },
+      "expected": "Registered class resolves to its imported project TypeScript metadata"
+    },
+    {
+      "name": "runtimeClass:CableConnectStageController",
+      "passed": true,
+      "actual": {
+        "classId": "7b02eDuSJZBXJDBqfXYhWIL",
+        "script": {
+          "name": "CableConnectStageController",
+          "path": "assets/scripts/stages/CableConnectStageController.ts.meta",
+          "uuid": "7b02e0ee-4896-415c-90c1-a9f5d885620b",
+          "imported": true,
+          "sourceExists": true,
+          "metadataSha256": "22e6679de7bdd011c2fb75fa5bc3fe0641c8e76dcebb2f94d36a5728429d9497",
+          "sourceSha256": "63dd5a7f51d15c2db3bc2bfec4487dec0d211e72e7bd3d83864bdba686e79f8d"
+        }
+      },
+      "expected": "Registered class resolves to its imported project TypeScript metadata"
+    },
+    {
+      "name": "runtimeClass:CleanSwipeStageController",
+      "passed": true,
+      "actual": {
+        "classId": "9d4cdHas3NPQqAPoPPrLlqN",
+        "script": {
+          "name": "CleanSwipeStageController",
+          "path": "assets/scripts/stages/CleanSwipeStageController.ts.meta",
+          "uuid": "9d4cd1da-b373-4f42-a00f-a0f3eb2e5a8d",
+          "imported": true,
+          "sourceExists": true,
+          "metadataSha256": "20cd87fb86cddb3959bd8262f6153cb6441eef4167c74f27b6c14f90a956fd11",
+          "sourceSha256": "65a10f0d7f29e524d68e3b88b6f2ea4d60778bb2296de93d422ee82ea98640cd"
+        }
+      },
+      "expected": "Registered class resolves to its imported project TypeScript metadata"
+    },
+    {
+      "name": "runtimeClass:DraggableItem",
+      "passed": true,
+      "actual": {
+        "classId": "3780awqOxhEPqgzYt6SXuvJ",
+        "script": {
+          "name": "DraggableItem",
+          "path": "assets/scripts/gameplay/DraggableItem.ts.meta",
+          "uuid": "3780ac2a-3b18-443e-a833-62de925eebc9",
+          "imported": true,
+          "sourceExists": true,
+          "metadataSha256": "f37440093ce1fcd6526a5faf9807957ade12d8c8475b9a98d8c0baadf63e0db0",
+          "sourceSha256": "1d09e9f352a78b677d1b6ad403cc7b08af7afc04e705c00df83212337397e367"
+        }
+      },
+      "expected": "Registered class resolves to its imported project TypeScript metadata"
+    },
+    {
+      "name": "runtimeClass:CableConnector",
+      "passed": true,
+      "actual": {
+        "classId": "6b208drtWRN2p8YAULxM9XN",
+        "script": {
+          "name": "CableConnector",
+          "path": "assets/scripts/gameplay/CableConnector.ts.meta",
+          "uuid": "6b20876b-b564-4dda-9f18-0142f133d5cd",
+          "imported": true,
+          "sourceExists": true,
+          "metadataSha256": "a7dfda8e95e9fc3dfd61385d7b1f8b38234171a25647ce003fa489238169ec4a",
+          "sourceSha256": "d03076277b33508677cdd89ec6f13f8314db7f0d759d56245c58d22bb9bfa5bf"
+        }
+      },
+      "expected": "Registered class resolves to its imported project TypeScript metadata"
+    },
+    {
+      "name": "runtimeClass:RunController",
+      "passed": true,
+      "actual": {
+        "classId": "03dedAkeUJAHaCj+asn7SXG",
+        "script": {
+          "name": "RunController",
+          "path": "assets/scripts/core/RunController.ts.meta",
+          "uuid": "03ded024-7942-401d-a0a3-f9ab27ed25c6",
+          "imported": true,
+          "sourceExists": true,
+          "metadataSha256": "a843e9d148657dd9c031c3b45b183a265d1b5a6925cc5b5fa54dfb9ed2e14cf5",
+          "sourceSha256": "064cac06b336ddf741b983c09a025f0fb33bd130bc2b45d37ef2ad0c9df64655"
+        }
+      },
+      "expected": "Registered class resolves to its imported project TypeScript metadata"
+    },
+    {
+      "name": "runtimeClass:GameController",
+      "passed": true,
+      "actual": {
+        "classId": "ad134sCDVxPrK99BTzoLoxl",
+        "script": {
+          "name": "GameController",
+          "path": "assets/scripts/core/GameController.ts.meta",
+          "uuid": "ad134b02-0d5c-4fac-af7d-053ce82e8c65",
+          "imported": true,
+          "sourceExists": true,
+          "metadataSha256": "73552e722aba8f0d7aeced709d26cadbd492164cb4f297fce6ea35301b72f858",
+          "sourceSha256": "e1b3c357bc915746e20b240f88f48c8c89876c14116850bd55c688d2bb0e4297"
+        }
+      },
+      "expected": "Registered class resolves to its imported project TypeScript metadata"
+    },
+    {
+      "name": "runtimeClass:Day1Prototype",
+      "passed": true,
+      "actual": {
+        "classId": "79913GHZnlGhoFDLdtIGN8K",
+        "script": {
+          "name": "Day1Prototype",
+          "path": "assets/scripts/gameplay/Day1Prototype.ts.meta",
+          "uuid": "79913187-6679-4686-8143-2ddb4818df0a",
+          "imported": true,
+          "sourceExists": true,
+          "metadataSha256": "88b506fb8f026c277f18824e9f1724df7a600c4c0f1591c226d262d6ec441128",
+          "sourceSha256": "91077917554d152a66d85662099fc4b5b48876e29ca1ece2e07c74a0eb398a10"
+        }
+      },
+      "expected": "Registered class resolves to its imported project TypeScript metadata"
+    },
+    {
+      "name": "Game:metadata",
+      "passed": true,
+      "actual": {
+        "ver": "1.1.50",
+        "importer": "scene",
+        "imported": true,
+        "uuid": "ef51aae5-f3a0-4ba5-9918-6d84e400d36f",
+        "files": [
+          ".json"
+        ],
+        "subMetas": {},
+        "userData": {}
+      },
+      "expected": "Imported scene with UUID"
+    },
+    {
+      "name": "Game:internalReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "Game:externalAssetReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "Game:scriptReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "Game:hierarchyAndComponentOwnership",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "Game:noAutoLayout",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "Game:labelsShrinkAndWrap",
+      "passed": true,
+      "actual": [
+        {
+          "path": "Canvas/Header/GameTitle",
+          "overflow": 2,
+          "wrap": true
+        },
+        {
+          "path": "Canvas/Header/LevelLabel",
+          "overflow": 2,
+          "wrap": true
+        },
+        {
+          "path": "Canvas/Header/LevelTitleLabel",
+          "overflow": 2,
+          "wrap": true
+        },
+        {
+          "path": "Canvas/Header/StatusLabel",
+          "overflow": 2,
+          "wrap": true
+        },
+        {
+          "path": "Canvas/Header/Stats/TimeLabel",
+          "overflow": 2,
+          "wrap": true
+        },
+        {
+          "path": "Canvas/Header/Stats/MistakeLabel",
+          "overflow": 2,
+          "wrap": true
+        },
+        {
+          "path": "Canvas/Header/ChapterLabel",
+          "overflow": 2,
+          "wrap": true
+        },
+        {
+          "path": "Canvas/Header/StageLabel",
+          "overflow": 2,
+          "wrap": true
+        },
+        {
+          "path": "Canvas/PlayArea/LegacyDay3/Item1/Label",
+          "overflow": 2,
+          "wrap": true
+        },
+        {
+          "path": "Canvas/PlayArea/LegacyDay3/Target1/Label",
+          "overflow": 2,
+          "wrap": true
+        },
+        {
+          "path": "Canvas/PlayArea/LegacyDay3/Item2/Label",
+          "overflow": 2,
+          "wrap": true
+        },
+        {
+          "path": "Canvas/PlayArea/LegacyDay3/Target2/Label",
+          "overflow": 2,
+          "wrap": true
+        },
+        {
+          "path": "Canvas/PlayArea/LegacyDay3/Item3/Label",
+          "overflow": 2,
+          "wrap": true
+        },
+        {
+          "path": "Canvas/PlayArea/LegacyDay3/Target3/Label",
+          "overflow": 2,
+          "wrap": true
+        },
+        {
+          "path": "Canvas/TutorialHint/TutorialLabel",
+          "overflow": 2,
+          "wrap": true
+        },
+        {
+          "path": "Canvas/CompletePanel/CompleteLabel",
+          "overflow": 2,
+          "wrap": true
+        },
+        {
+          "path": "Canvas/CompletePanel/CompleteDetailLabel",
+          "overflow": 2,
+          "wrap": true
+        },
+        {
+          "path": "Canvas/CompletePanel/NextButton/Label",
+          "overflow": 2,
+          "wrap": true
+        }
+      ],
+      "expected": "All Labels SHRINK and wrap"
+    },
+    {
+      "name": "Game:plainSlicedSprites",
+      "passed": true,
+      "actual": [
+        {
+          "path": "Canvas/PlayArea/LegacyDay3/Item1",
+          "type": 1,
+          "frame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
+        },
+        {
+          "path": "Canvas/PlayArea/LegacyDay3/Target1",
+          "type": 1,
+          "frame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
+        },
+        {
+          "path": "Canvas/PlayArea/LegacyDay3/Item2",
+          "type": 1,
+          "frame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
+        },
+        {
+          "path": "Canvas/PlayArea/LegacyDay3/Target2",
+          "type": 1,
+          "frame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
+        },
+        {
+          "path": "Canvas/PlayArea/LegacyDay3/Item3",
+          "type": 1,
+          "frame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
+        },
+        {
+          "path": "Canvas/PlayArea/LegacyDay3/Target3",
+          "type": 1,
+          "frame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
+        },
+        {
+          "path": "Canvas/TutorialHint",
+          "type": 1,
+          "frame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
+        },
+        {
+          "path": "Canvas/CompletePanel/NextButton",
+          "type": 1,
+          "frame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
+        },
+        {
+          "path": "Canvas/CompletePanel",
+          "type": 1,
+          "frame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
+        },
+        {
+          "path": "Canvas",
+          "type": 1,
+          "frame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
+        }
+      ],
+      "expected": "Creator builtin white SLICED SpriteFrame"
+    },
+    {
+      "name": "DragMatchStage:metadata",
+      "passed": true,
+      "actual": {
+        "ver": "1.1.50",
+        "importer": "prefab",
+        "imported": true,
+        "uuid": "d7e32619-2acf-40bb-bca4-addfccbb49be",
+        "files": [
+          ".json"
+        ],
+        "subMetas": {},
+        "userData": {
+          "syncNodeName": "DragMatchStage"
+        }
+      },
+      "expected": "Imported prefab with UUID"
+    },
+    {
+      "name": "DragMatchStage:internalReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "DragMatchStage:externalAssetReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "DragMatchStage:scriptReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "DragMatchStage:hierarchyAndComponentOwnership",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "DragMatchStage:noAutoLayout",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "DragMatchStage:labelsShrinkAndWrap",
+      "passed": true,
+      "actual": [],
+      "expected": "All Labels SHRINK and wrap"
+    },
+    {
+      "name": "DragMatchStage:plainSlicedSprites",
+      "passed": true,
+      "actual": [],
+      "expected": "Creator builtin white SLICED SpriteFrame"
+    },
+    {
+      "name": "CableConnectStage:metadata",
+      "passed": true,
+      "actual": {
+        "ver": "1.1.50",
+        "importer": "prefab",
+        "imported": true,
+        "uuid": "afa7f7c0-6a62-4d07-9295-6011af87cf7a",
+        "files": [
+          ".json"
+        ],
+        "subMetas": {},
+        "userData": {
+          "syncNodeName": "CableConnectStage"
+        }
+      },
+      "expected": "Imported prefab with UUID"
+    },
+    {
+      "name": "CableConnectStage:internalReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "CableConnectStage:externalAssetReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "CableConnectStage:scriptReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "CableConnectStage:hierarchyAndComponentOwnership",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "CableConnectStage:noAutoLayout",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "CableConnectStage:labelsShrinkAndWrap",
+      "passed": true,
+      "actual": [],
+      "expected": "All Labels SHRINK and wrap"
+    },
+    {
+      "name": "CableConnectStage:plainSlicedSprites",
+      "passed": true,
+      "actual": [],
+      "expected": "Creator builtin white SLICED SpriteFrame"
+    },
+    {
+      "name": "CleanSwipeStage:metadata",
+      "passed": true,
+      "actual": {
+        "ver": "1.1.50",
+        "importer": "prefab",
+        "imported": true,
+        "uuid": "fa38d9cd-1551-4324-9805-acc21429befc",
+        "files": [
+          ".json"
+        ],
+        "subMetas": {},
+        "userData": {
+          "syncNodeName": "CleanSwipeStage"
+        }
+      },
+      "expected": "Imported prefab with UUID"
+    },
+    {
+      "name": "CleanSwipeStage:internalReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "CleanSwipeStage:externalAssetReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "CleanSwipeStage:scriptReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "CleanSwipeStage:hierarchyAndComponentOwnership",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "CleanSwipeStage:noAutoLayout",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "CleanSwipeStage:labelsShrinkAndWrap",
+      "passed": true,
+      "actual": [],
+      "expected": "All Labels SHRINK and wrap"
+    },
+    {
+      "name": "CleanSwipeStage:plainSlicedSprites",
+      "passed": true,
+      "actual": [
+        {
+          "path": "CleanSwipeStage/InputSurface",
+          "type": 1,
+          "frame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
+        }
+      ],
+      "expected": "Creator builtin white SLICED SpriteFrame"
+    },
+    {
+      "name": "DragItem:metadata",
+      "passed": true,
+      "actual": {
+        "ver": "1.1.50",
+        "importer": "prefab",
+        "imported": true,
+        "uuid": "fefd5955-3eac-44ad-b9ec-d907012e16e1",
+        "files": [
+          ".json"
+        ],
+        "subMetas": {},
+        "userData": {
+          "syncNodeName": "DragItem"
+        }
+      },
+      "expected": "Imported prefab with UUID"
+    },
+    {
+      "name": "DragItem:internalReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "DragItem:externalAssetReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "DragItem:scriptReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "DragItem:hierarchyAndComponentOwnership",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "DragItem:noAutoLayout",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "DragItem:labelsShrinkAndWrap",
+      "passed": true,
+      "actual": [
+        {
+          "path": "DragItem/Label",
+          "overflow": 2,
+          "wrap": true
+        }
+      ],
+      "expected": "All Labels SHRINK and wrap"
+    },
+    {
+      "name": "DragItem:plainSlicedSprites",
+      "passed": true,
+      "actual": [
+        {
+          "path": "DragItem",
+          "type": 1,
+          "frame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
+        }
+      ],
+      "expected": "Creator builtin white SLICED SpriteFrame"
+    },
+    {
+      "name": "DragTarget:metadata",
+      "passed": true,
+      "actual": {
+        "ver": "1.1.50",
+        "importer": "prefab",
+        "imported": true,
+        "uuid": "baed1239-77f8-4e48-b00b-4de4c6d67830",
+        "files": [
+          ".json"
+        ],
+        "subMetas": {},
+        "userData": {
+          "syncNodeName": "DragTarget"
+        }
+      },
+      "expected": "Imported prefab with UUID"
+    },
+    {
+      "name": "DragTarget:internalReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "DragTarget:externalAssetReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "DragTarget:scriptReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "DragTarget:hierarchyAndComponentOwnership",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "DragTarget:noAutoLayout",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "DragTarget:labelsShrinkAndWrap",
+      "passed": true,
+      "actual": [
+        {
+          "path": "DragTarget/Label",
+          "overflow": 2,
+          "wrap": true
+        }
+      ],
+      "expected": "All Labels SHRINK and wrap"
+    },
+    {
+      "name": "DragTarget:plainSlicedSprites",
+      "passed": true,
+      "actual": [
+        {
+          "path": "DragTarget",
+          "type": 1,
+          "frame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
+        }
+      ],
+      "expected": "Creator builtin white SLICED SpriteFrame"
+    },
+    {
+      "name": "Cable:metadata",
+      "passed": true,
+      "actual": {
+        "ver": "1.1.50",
+        "importer": "prefab",
+        "imported": true,
+        "uuid": "2ad8fe32-bebc-4d0e-8913-560ce3d72eac",
+        "files": [
+          ".json"
+        ],
+        "subMetas": {},
+        "userData": {
+          "syncNodeName": "Cable"
+        }
+      },
+      "expected": "Imported prefab with UUID"
+    },
+    {
+      "name": "Cable:internalReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "Cable:externalAssetReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "Cable:scriptReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "Cable:hierarchyAndComponentOwnership",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "Cable:noAutoLayout",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "Cable:labelsShrinkAndWrap",
+      "passed": true,
+      "actual": [
+        {
+          "path": "Cable/Head/Label",
+          "overflow": 2,
+          "wrap": true
+        }
+      ],
+      "expected": "All Labels SHRINK and wrap"
+    },
+    {
+      "name": "Cable:plainSlicedSprites",
+      "passed": true,
+      "actual": [
+        {
+          "path": "Cable/Anchor",
+          "type": 1,
+          "frame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
+        },
+        {
+          "path": "Cable/Head",
+          "type": 1,
+          "frame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
+        }
+      ],
+      "expected": "Creator builtin white SLICED SpriteFrame"
+    },
+    {
+      "name": "Port:metadata",
+      "passed": true,
+      "actual": {
+        "ver": "1.1.50",
+        "importer": "prefab",
+        "imported": true,
+        "uuid": "5147d16e-d660-4b36-983f-73c8cd3b203f",
+        "files": [
+          ".json"
+        ],
+        "subMetas": {},
+        "userData": {
+          "syncNodeName": "Port"
+        }
+      },
+      "expected": "Imported prefab with UUID"
+    },
+    {
+      "name": "Port:internalReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "Port:externalAssetReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "Port:scriptReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "Port:hierarchyAndComponentOwnership",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "Port:noAutoLayout",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "Port:labelsShrinkAndWrap",
+      "passed": true,
+      "actual": [
+        {
+          "path": "Port/Label",
+          "overflow": 2,
+          "wrap": true
+        }
+      ],
+      "expected": "All Labels SHRINK and wrap"
+    },
+    {
+      "name": "Port:plainSlicedSprites",
+      "passed": true,
+      "actual": [
+        {
+          "path": "Port",
+          "type": 1,
+          "frame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
+        }
+      ],
+      "expected": "Creator builtin white SLICED SpriteFrame"
+    },
+    {
+      "name": "DirtCell:metadata",
+      "passed": true,
+      "actual": {
+        "ver": "1.1.50",
+        "importer": "prefab",
+        "imported": true,
+        "uuid": "c6243d95-8ebe-4646-8575-342bcf1f156f",
+        "files": [
+          ".json"
+        ],
+        "subMetas": {},
+        "userData": {
+          "syncNodeName": "DirtCell"
+        }
+      },
+      "expected": "Imported prefab with UUID"
+    },
+    {
+      "name": "DirtCell:internalReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "DirtCell:externalAssetReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "DirtCell:scriptReferences",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "DirtCell:hierarchyAndComponentOwnership",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "DirtCell:noAutoLayout",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "DirtCell:labelsShrinkAndWrap",
+      "passed": true,
+      "actual": [],
+      "expected": "All Labels SHRINK and wrap"
+    },
+    {
+      "name": "DirtCell:plainSlicedSprites",
+      "passed": true,
+      "actual": [
+        {
+          "path": "DirtCell",
+          "type": 1,
+          "frame": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
+        }
+      ],
+      "expected": "Creator builtin white SLICED SpriteFrame"
+    },
+    {
+      "name": "DragMatchStage:prefabRoot",
+      "passed": true,
+      "actual": {
+        "name": "DragMatchStage",
+        "type": "cc.Node",
+        "parent": null,
+        "active": true
+      },
+      "expected": "Active standalone DragMatchStage root Node"
+    },
+    {
+      "name": "DragMatchStage:rootUITransform",
+      "passed": true,
+      "actual": {
+        "objectIndex": 2,
+        "path": "DragMatchStage",
+        "type": "cc.UITransform",
+        "enabled": true
+      },
+      "expected": "Enabled cc.UITransform component on expected node"
+    },
+    {
+      "name": "DragMatchStage:rootController",
+      "passed": true,
+      "actual": {
+        "objectIndex": 6,
+        "path": "DragMatchStage",
+        "type": "DragMatchStageController",
+        "enabled": true
+      },
+      "expected": "Enabled DragMatchStageController component on expected node"
+    },
+    {
+      "name": "DragMatchStage:singleRootController",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "name": "DragMatchStage:localGameController",
+      "passed": true,
+      "actual": {
+        "objectIndex": 4,
+        "path": "DragMatchStage",
+        "type": "GameController",
+        "enabled": true
+      },
+      "expected": "Enabled GameController component on expected node"
+    },
+    {
+      "name": "DragMatchStage:gameController->DragMatchStage",
+      "passed": true,
+      "actual": {
+        "type": "GameController",
+        "path": "DragMatchStage"
+      },
+      "expected": {
+        "type": "GameController",
+        "path": "DragMatchStage"
+      }
+    },
+    {
+      "name": "DragMatchStage:itemPrefab->DragItem",
+      "passed": true,
+      "actual": "fefd5955-3eac-44ad-b9ec-d907012e16e1",
+      "expected": "fefd5955-3eac-44ad-b9ec-d907012e16e1"
+    },
+    {
+      "name": "DragMatchStage:targetPrefab->DragTarget",
+      "passed": true,
+      "actual": "baed1239-77f8-4e48-b00b-4de4c6d67830",
+      "expected": "baed1239-77f8-4e48-b00b-4de4c6d67830"
+    },
+    {
+      "name": "CableConnectStage:prefabRoot",
+      "passed": true,
+      "actual": {
+        "name": "CableConnectStage",
+        "type": "cc.Node",
+        "parent": null,
+        "active": true
+      },
+      "expected": "Active standalone CableConnectStage root Node"
+    },
+    {
+      "name": "CableConnectStage:rootUITransform",
+      "passed": true,
+      "actual": {
+        "objectIndex": 2,
+        "path": "CableConnectStage",
+        "type": "cc.UITransform",
+        "enabled": true
+      },
+      "expected": "Enabled cc.UITransform component on expected node"
+    },
+    {
+      "name": "CableConnectStage:rootController",
+      "passed": true,
+      "actual": {
+        "objectIndex": 4,
+        "path": "CableConnectStage",
+        "type": "CableConnectStageController",
+        "enabled": true
+      },
+      "expected": "Enabled CableConnectStageController component on expected node"
+    },
+    {
+      "name": "CableConnectStage:singleRootController",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "name": "CableConnectStage:cablePrefab->Cable",
+      "passed": true,
+      "actual": "2ad8fe32-bebc-4d0e-8913-560ce3d72eac",
+      "expected": "2ad8fe32-bebc-4d0e-8913-560ce3d72eac"
+    },
+    {
+      "name": "CableConnectStage:portPrefab->Port",
+      "passed": true,
+      "actual": "5147d16e-d660-4b36-983f-73c8cd3b203f",
+      "expected": "5147d16e-d660-4b36-983f-73c8cd3b203f"
+    },
+    {
+      "name": "CleanSwipeStage:prefabRoot",
+      "passed": true,
+      "actual": {
+        "name": "CleanSwipeStage",
+        "type": "cc.Node",
+        "parent": null,
+        "active": true
+      },
+      "expected": "Active standalone CleanSwipeStage root Node"
+    },
+    {
+      "name": "CleanSwipeStage:rootUITransform",
+      "passed": true,
+      "actual": {
+        "objectIndex": 12,
+        "path": "CleanSwipeStage",
+        "type": "cc.UITransform",
+        "enabled": true
+      },
+      "expected": "Enabled cc.UITransform component on expected node"
+    },
+    {
+      "name": "CleanSwipeStage:rootController",
+      "passed": true,
+      "actual": {
+        "objectIndex": 14,
+        "path": "CleanSwipeStage",
+        "type": "CleanSwipeStageController",
+        "enabled": true
+      },
+      "expected": "Enabled CleanSwipeStageController component on expected node"
+    },
+    {
+      "name": "CleanSwipeStage:singleRootController",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "name": "CleanSwipeStage:dirtCellPrefab->DirtCell",
+      "passed": true,
+      "actual": "c6243d95-8ebe-4646-8575-342bcf1f156f",
+      "expected": "c6243d95-8ebe-4646-8575-342bcf1f156f"
+    },
+    {
+      "name": "CleanSwipeStage:inputSurface->CleanSwipeStage/InputSurface",
+      "passed": true,
+      "actual": {
+        "type": "cc.Node",
+        "path": "CleanSwipeStage/InputSurface"
+      },
+      "expected": {
+        "type": "cc.Node",
+        "path": "CleanSwipeStage/InputSurface"
+      }
+    },
+    {
+      "name": "CleanSwipeStage:dirtLayer->CleanSwipeStage/InputSurface/DirtLayer",
+      "passed": true,
+      "actual": {
+        "type": "cc.Node",
+        "path": "CleanSwipeStage/InputSurface/DirtLayer"
+      },
+      "expected": {
+        "type": "cc.Node",
+        "path": "CleanSwipeStage/InputSurface/DirtLayer"
+      }
+    },
+    {
+      "name": "CleanSwipeStage:inputSurfaceUI",
+      "passed": true,
+      "actual": {
+        "objectIndex": 7,
+        "path": "CleanSwipeStage/InputSurface",
+        "type": "cc.UITransform",
+        "enabled": true
+      },
+      "expected": "Enabled cc.UITransform component on expected node"
+    },
+    {
+      "name": "CleanSwipeStage:dirtLayerUI",
+      "passed": true,
+      "actual": {
+        "objectIndex": 4,
+        "path": "CleanSwipeStage/InputSurface/DirtLayer",
+        "type": "cc.UITransform",
+        "enabled": true
+      },
+      "expected": "Enabled cc.UITransform component on expected node"
+    },
+    {
+      "name": "DragItem:prefabRoot",
+      "passed": true,
+      "actual": {
+        "name": "DragItem",
+        "type": "cc.Node",
+        "parent": null,
+        "active": true
+      },
+      "expected": "Active standalone DragItem root Node"
+    },
+    {
+      "name": "DragItem:rootUITransform",
+      "passed": true,
+      "actual": {
+        "objectIndex": 8,
+        "path": "DragItem",
+        "type": "cc.UITransform",
+        "enabled": true
+      },
+      "expected": "Enabled cc.UITransform component on expected node"
+    },
+    {
+      "name": "DragItem:sprite",
+      "passed": true,
+      "actual": {
+        "objectIndex": 10,
+        "path": "DragItem",
+        "type": "cc.Sprite",
+        "enabled": true
+      },
+      "expected": "Enabled cc.Sprite component on expected node"
+    },
+    {
+      "name": "DragItem:label",
+      "passed": true,
+      "actual": {
+        "objectIndex": 5,
+        "path": "DragItem/Label",
+        "type": "cc.Label",
+        "enabled": true
+      },
+      "expected": "Enabled cc.Label component on expected node"
+    },
+    {
+      "name": "DragItem:draggable",
+      "passed": true,
+      "actual": {
+        "objectIndex": 12,
+        "path": "DragItem",
+        "type": "DraggableItem",
+        "enabled": true
+      },
+      "expected": "Enabled DraggableItem component on expected node"
+    },
+    {
+      "name": "DragTarget:prefabRoot",
+      "passed": true,
+      "actual": {
+        "name": "DragTarget",
+        "type": "cc.Node",
+        "parent": null,
+        "active": true
+      },
+      "expected": "Active standalone DragTarget root Node"
+    },
+    {
+      "name": "DragTarget:rootUITransform",
+      "passed": true,
+      "actual": {
+        "objectIndex": 8,
+        "path": "DragTarget",
+        "type": "cc.UITransform",
+        "enabled": true
+      },
+      "expected": "Enabled cc.UITransform component on expected node"
+    },
+    {
+      "name": "DragTarget:sprite",
+      "passed": true,
+      "actual": {
+        "objectIndex": 10,
+        "path": "DragTarget",
+        "type": "cc.Sprite",
+        "enabled": true
+      },
+      "expected": "Enabled cc.Sprite component on expected node"
+    },
+    {
+      "name": "DragTarget:label",
+      "passed": true,
+      "actual": {
+        "objectIndex": 5,
+        "path": "DragTarget/Label",
+        "type": "cc.Label",
+        "enabled": true
+      },
+      "expected": "Enabled cc.Label component on expected node"
+    },
+    {
+      "name": "Cable:prefabRoot",
+      "passed": true,
+      "actual": {
+        "name": "Cable",
+        "type": "cc.Node",
+        "parent": null,
+        "active": true
+      },
+      "expected": "Active standalone Cable root Node"
+    },
+    {
+      "name": "Cable:rootUITransform",
+      "passed": true,
+      "actual": {
+        "objectIndex": 26,
+        "path": "Cable",
+        "type": "cc.UITransform",
+        "enabled": true
+      },
+      "expected": "Enabled cc.UITransform component on expected node"
+    },
+    {
+      "name": "Cable:connector",
+      "passed": true,
+      "actual": {
+        "objectIndex": 28,
+        "path": "Cable",
+        "type": "CableConnector",
+        "enabled": true
+      },
+      "expected": "Enabled CableConnector component on expected node"
+    },
+    {
+      "name": "Cable:head->Cable/Head",
+      "passed": true,
+      "actual": {
+        "type": "cc.Node",
+        "path": "Cable/Head"
+      },
+      "expected": {
+        "type": "cc.Node",
+        "path": "Cable/Head"
+      }
+    },
+    {
+      "name": "Cable:anchor->Cable/Anchor",
+      "passed": true,
+      "actual": {
+        "type": "cc.Node",
+        "path": "Cable/Anchor"
+      },
+      "expected": {
+        "type": "cc.Node",
+        "path": "Cable/Anchor"
+      }
+    },
+    {
+      "name": "Cable:line->Cable/Line",
+      "passed": true,
+      "actual": {
+        "type": "cc.Graphics",
+        "path": "Cable/Line"
+      },
+      "expected": {
+        "type": "cc.Graphics",
+        "path": "Cable/Line"
+      }
+    },
+    {
+      "name": "Cable:HeadUI",
+      "passed": true,
+      "actual": {
+        "objectIndex": 21,
+        "path": "Cable/Head",
+        "type": "cc.UITransform",
+        "enabled": true
+      },
+      "expected": "Enabled cc.UITransform component on expected node"
+    },
+    {
+      "name": "Cable:AnchorUI",
+      "passed": true,
+      "actual": {
+        "objectIndex": 9,
+        "path": "Cable/Anchor",
+        "type": "cc.UITransform",
+        "enabled": true
+      },
+      "expected": "Enabled cc.UITransform component on expected node"
+    },
+    {
+      "name": "Cable:LineUI",
+      "passed": true,
+      "actual": {
+        "objectIndex": 3,
+        "path": "Cable/Line",
+        "type": "cc.UITransform",
+        "enabled": true
+      },
+      "expected": "Enabled cc.UITransform component on expected node"
+    },
+    {
+      "name": "Cable:headSprite",
+      "passed": true,
+      "actual": {
+        "objectIndex": 23,
+        "path": "Cable/Head",
+        "type": "cc.Sprite",
+        "enabled": true
+      },
+      "expected": "Enabled cc.Sprite component on expected node"
+    },
+    {
+      "name": "Cable:headLabel",
+      "passed": true,
+      "actual": {
+        "objectIndex": 18,
+        "path": "Cable/Head/Label",
+        "type": "cc.Label",
+        "enabled": true
+      },
+      "expected": "Enabled cc.Label component on expected node"
+    },
+    {
+      "name": "Port:prefabRoot",
+      "passed": true,
+      "actual": {
+        "name": "Port",
+        "type": "cc.Node",
+        "parent": null,
+        "active": true
+      },
+      "expected": "Active standalone Port root Node"
+    },
+    {
+      "name": "Port:rootUITransform",
+      "passed": true,
+      "actual": {
+        "objectIndex": 8,
+        "path": "Port",
+        "type": "cc.UITransform",
+        "enabled": true
+      },
+      "expected": "Enabled cc.UITransform component on expected node"
+    },
+    {
+      "name": "Port:sprite",
+      "passed": true,
+      "actual": {
+        "objectIndex": 10,
+        "path": "Port",
+        "type": "cc.Sprite",
+        "enabled": true
+      },
+      "expected": "Enabled cc.Sprite component on expected node"
+    },
+    {
+      "name": "Port:label",
+      "passed": true,
+      "actual": {
+        "objectIndex": 5,
+        "path": "Port/Label",
+        "type": "cc.Label",
+        "enabled": true
+      },
+      "expected": "Enabled cc.Label component on expected node"
+    },
+    {
+      "name": "DirtCell:prefabRoot",
+      "passed": true,
+      "actual": {
+        "name": "DirtCell",
+        "type": "cc.Node",
+        "parent": null,
+        "active": true
+      },
+      "expected": "Active standalone DirtCell root Node"
+    },
+    {
+      "name": "DirtCell:rootUITransform",
+      "passed": true,
+      "actual": {
+        "objectIndex": 2,
+        "path": "DirtCell",
+        "type": "cc.UITransform",
+        "enabled": true
+      },
+      "expected": "Enabled cc.UITransform component on expected node"
+    },
+    {
+      "name": "DirtCell:sprite",
+      "passed": true,
+      "actual": {
+        "objectIndex": 4,
+        "path": "DirtCell",
+        "type": "cc.Sprite",
+        "enabled": true
+      },
+      "expected": "Enabled cc.Sprite component on expected node"
+    },
+    {
+      "name": "DirtCell:opacity",
+      "passed": true,
+      "actual": {
+        "objectIndex": 6,
+        "path": "DirtCell",
+        "type": "cc.UIOpacity",
+        "enabled": true
+      },
+      "expected": "Enabled cc.UIOpacity component on expected node"
+    },
+    {
+      "name": "Game:sceneUuidMatchesSavedMetadataAndRuntime",
+      "passed": true,
+      "actual": {
+        "serialized": "ef51aae5-f3a0-4ba5-9918-6d84e400d36f",
+        "metadata": "ef51aae5-f3a0-4ba5-9918-6d84e400d36f",
+        "runtime": "ef51aae5-f3a0-4ba5-9918-6d84e400d36f"
+      },
+      "expected": "Identical saved Scene UUID"
+    },
+    {
+      "name": "Game:canvas",
+      "passed": true,
+      "actual": {
+        "objectIndex": 108,
+        "path": "Canvas",
+        "type": "cc.Canvas",
+        "enabled": true
+      },
+      "expected": "Enabled cc.Canvas component on expected node"
+    },
+    {
+      "name": "Game:canvasUI",
+      "passed": true,
+      "actual": {
+        "objectIndex": 107,
+        "path": "Canvas",
+        "type": "cc.UITransform",
+        "enabled": true
+      },
+      "expected": "Enabled cc.UITransform component on expected node"
+    },
+    {
+      "name": "Game:canvas720x1280",
+      "passed": true,
+      "actual": {
+        "__type__": "cc.Size",
+        "width": 720,
+        "height": 1280
+      },
+      "expected": {
+        "width": 720,
+        "height": 1280
+      }
+    },
+    {
+      "name": "Game:canvasPosition",
+      "passed": true,
+      "actual": {
+        "__type__": "cc.Vec3",
+        "x": 360,
+        "y": 640,
+        "z": 0
+      },
+      "expected": {
+        "x": 360,
+        "y": 640
+      }
+    },
+    {
+      "name": "Game:_cameraComponent->Canvas/UI Camera",
+      "passed": true,
+      "actual": {
+        "type": "cc.Camera",
+        "path": "Canvas/UI Camera"
+      },
+      "expected": {
+        "type": "cc.Camera",
+        "path": "Canvas/UI Camera"
+      }
+    },
+    {
+      "name": "Game:orthographicActiveUiCamera",
+      "passed": true,
+      "actual": {
+        "active": true,
+        "projection": 0,
+        "visibility": 1108344832,
+        "align": true
+      },
+      "expected": "Active orthographic UI_2D camera with Canvas aligned to screen"
+    },
+    {
+      "name": "Game:manager",
+      "passed": true,
+      "actual": {
+        "objectIndex": 112,
+        "path": "Canvas",
+        "type": "LevelManager",
+        "enabled": true
+      },
+      "expected": "Enabled LevelManager component on expected node"
+    },
+    {
+      "name": "Game:runController",
+      "passed": true,
+      "actual": {
+        "objectIndex": 111,
+        "path": "Canvas",
+        "type": "RunController",
+        "enabled": true
+      },
+      "expected": "Enabled RunController component on expected node"
+    },
+    {
+      "name": "Game:stageHost",
+      "passed": true,
+      "actual": {
+        "objectIndex": 83,
+        "path": "Canvas/PlayArea/StageHost",
+        "type": "StageHost",
+        "enabled": true
+      },
+      "expected": "Enabled StageHost component on expected node"
+    },
+    {
+      "name": "Game:oneActiveLevelManager",
+      "passed": true,
+      "actual": [
+        {
+          "index": 112,
+          "type": "LevelManager",
+          "nodePath": "Canvas",
+          "active": true
+        }
+      ],
+      "expected": "Exactly one active component"
+    },
+    {
+      "name": "Game:oneActiveRunController",
+      "passed": true,
+      "actual": [
+        {
+          "index": 111,
+          "type": "RunController",
+          "nodePath": "Canvas",
+          "active": true
+        }
+      ],
+      "expected": "Exactly one active component"
+    },
+    {
+      "name": "Game:oneActiveStageHost",
+      "passed": true,
+      "actual": [
+        {
+          "index": 83,
+          "type": "StageHost",
+          "nodePath": "Canvas/PlayArea/StageHost",
+          "active": true
+        }
+      ],
+      "expected": "Exactly one active component"
+    },
+    {
+      "name": "Game:runtimeHostMatchesSavedNode",
+      "passed": true,
+      "actual": {
+        "saved": "b8jPFtT3BFVbZ+zyBrvTxe",
+        "runtime": "b8jPFtT3BFVbZ+zyBrvTxe"
+      },
+      "expected": "Same StageHost node UUID"
+    },
+    {
+      "name": "Game:stageHostBounds",
+      "passed": true,
+      "actual": {
+        "__type__": "cc.Size",
+        "width": 720,
+        "height": 800
+      },
+      "expected": "640–720 × 650–800 UI units"
+    },
+    {
+      "name": "Game:runController->Canvas",
+      "passed": true,
+      "actual": {
+        "type": "RunController",
+        "path": "Canvas"
+      },
+      "expected": {
+        "type": "RunController",
+        "path": "Canvas"
+      }
+    },
+    {
+      "name": "Game:stageHost->Canvas/PlayArea/StageHost",
+      "passed": true,
+      "actual": {
+        "type": "StageHost",
+        "path": "Canvas/PlayArea/StageHost"
+      },
+      "expected": {
+        "type": "StageHost",
+        "path": "Canvas/PlayArea/StageHost"
+      }
+    },
+    {
+      "name": "Game:chapterLabel->Canvas/Header/ChapterLabel",
+      "passed": true,
+      "actual": {
+        "type": "cc.Label",
+        "path": "Canvas/Header/ChapterLabel"
+      },
+      "expected": {
+        "type": "cc.Label",
+        "path": "Canvas/Header/ChapterLabel"
+      }
+    },
+    {
+      "name": "Game:levelLabel->Canvas/Header/LevelLabel",
+      "passed": true,
+      "actual": {
+        "type": "cc.Label",
+        "path": "Canvas/Header/LevelLabel"
+      },
+      "expected": {
+        "type": "cc.Label",
+        "path": "Canvas/Header/LevelLabel"
+      }
+    },
+    {
+      "name": "Game:levelTitleLabel->Canvas/Header/LevelTitleLabel",
+      "passed": true,
+      "actual": {
+        "type": "cc.Label",
+        "path": "Canvas/Header/LevelTitleLabel"
+      },
+      "expected": {
+        "type": "cc.Label",
+        "path": "Canvas/Header/LevelTitleLabel"
+      }
+    },
+    {
+      "name": "Game:stageLabel->Canvas/Header/StageLabel",
+      "passed": true,
+      "actual": {
+        "type": "cc.Label",
+        "path": "Canvas/Header/StageLabel"
+      },
+      "expected": {
+        "type": "cc.Label",
+        "path": "Canvas/Header/StageLabel"
+      }
+    },
+    {
+      "name": "Game:statusLabel->Canvas/Header/StatusLabel",
+      "passed": true,
+      "actual": {
+        "type": "cc.Label",
+        "path": "Canvas/Header/StatusLabel"
+      },
+      "expected": {
+        "type": "cc.Label",
+        "path": "Canvas/Header/StatusLabel"
+      }
+    },
+    {
+      "name": "Game:tutorialHint->Canvas/TutorialHint",
+      "passed": true,
+      "actual": {
+        "type": "cc.Node",
+        "path": "Canvas/TutorialHint"
+      },
+      "expected": {
+        "type": "cc.Node",
+        "path": "Canvas/TutorialHint"
+      }
+    },
+    {
+      "name": "Game:tutorialLabel->Canvas/TutorialHint/TutorialLabel",
+      "passed": true,
+      "actual": {
+        "type": "cc.Label",
+        "path": "Canvas/TutorialHint/TutorialLabel"
+      },
+      "expected": {
+        "type": "cc.Label",
+        "path": "Canvas/TutorialHint/TutorialLabel"
+      }
+    },
+    {
+      "name": "Game:completePanel->Canvas/CompletePanel",
+      "passed": true,
+      "actual": {
+        "type": "cc.Node",
+        "path": "Canvas/CompletePanel"
+      },
+      "expected": {
+        "type": "cc.Node",
+        "path": "Canvas/CompletePanel"
+      }
+    },
+    {
+      "name": "Game:completeLabel->Canvas/CompletePanel/CompleteLabel",
+      "passed": true,
+      "actual": {
+        "type": "cc.Label",
+        "path": "Canvas/CompletePanel/CompleteLabel"
+      },
+      "expected": {
+        "type": "cc.Label",
+        "path": "Canvas/CompletePanel/CompleteLabel"
+      }
+    },
+    {
+      "name": "Game:completeDetailLabel->Canvas/CompletePanel/CompleteDetailLabel",
+      "passed": true,
+      "actual": {
+        "type": "cc.Label",
+        "path": "Canvas/CompletePanel/CompleteDetailLabel"
+      },
+      "expected": {
+        "type": "cc.Label",
+        "path": "Canvas/CompletePanel/CompleteDetailLabel"
+      }
+    },
+    {
+      "name": "Game:nextButton->Canvas/CompletePanel/NextButton",
+      "passed": true,
+      "actual": {
+        "type": "cc.Button",
+        "path": "Canvas/CompletePanel/NextButton"
+      },
+      "expected": {
+        "type": "cc.Button",
+        "path": "Canvas/CompletePanel/NextButton"
+      }
+    },
+    {
+      "name": "Game:actionButtonLabel->Canvas/CompletePanel/NextButton/Label",
+      "passed": true,
+      "actual": {
+        "type": "cc.Label",
+        "path": "Canvas/CompletePanel/NextButton/Label"
+      },
+      "expected": {
+        "type": "cc.Label",
+        "path": "Canvas/CompletePanel/NextButton/Label"
+      }
+    },
+    {
+      "name": "Game:timeLabel->Canvas/Header/Stats/TimeLabel",
+      "passed": true,
+      "actual": {
+        "type": "cc.Label",
+        "path": "Canvas/Header/Stats/TimeLabel"
+      },
+      "expected": {
+        "type": "cc.Label",
+        "path": "Canvas/Header/Stats/TimeLabel"
+      }
+    },
+    {
+      "name": "Game:mistakeLabel->Canvas/Header/Stats/MistakeLabel",
+      "passed": true,
+      "actual": {
+        "type": "cc.Label",
+        "path": "Canvas/Header/Stats/MistakeLabel"
+      },
+      "expected": {
+        "type": "cc.Label",
+        "path": "Canvas/Header/Stats/MistakeLabel"
+      }
+    },
+    {
+      "name": "Game:dragMatchPrefab->DragMatchStage",
+      "passed": true,
+      "actual": "d7e32619-2acf-40bb-bca4-addfccbb49be",
+      "expected": "d7e32619-2acf-40bb-bca4-addfccbb49be"
+    },
+    {
+      "name": "Game:cableConnectPrefab->CableConnectStage",
+      "passed": true,
+      "actual": "afa7f7c0-6a62-4d07-9295-6011af87cf7a",
+      "expected": "afa7f7c0-6a62-4d07-9295-6011af87cf7a"
+    },
+    {
+      "name": "Game:cleanSwipePrefab->CleanSwipeStage",
+      "passed": true,
+      "actual": "fa38d9cd-1551-4324-9805-acc21429befc",
+      "expected": "fa38d9cd-1551-4324-9805-acc21429befc"
+    },
+    {
+      "name": "Game:noFixedManagerArray:items",
+      "passed": true,
+      "actual": null,
+      "expected": "Absent or empty legacy array"
+    },
+    {
+      "name": "Game:noFixedManagerArray:targets",
+      "passed": true,
+      "actual": null,
+      "expected": "Absent or empty legacy array"
+    },
+    {
+      "name": "Game:noFixedManagerArray:itemLabels",
+      "passed": true,
+      "actual": null,
+      "expected": "Absent or empty legacy array"
+    },
+    {
+      "name": "Game:noFixedManagerArray:targetLabels",
+      "passed": true,
+      "actual": null,
+      "expected": "Absent or empty legacy array"
+    },
+    {
+      "name": "Game:noFixedGameControllerBinding",
+      "passed": true,
+      "actual": null,
+      "expected": null
+    },
+    {
+      "name": "Game:legacyArchiveInactive",
+      "passed": true,
+      "actual": {
+        "path": "Canvas/PlayArea/LegacyDay3",
+        "active": false
+      },
+      "expected": "Absent or inactive archive"
+    },
+    {
+      "name": "Game:legacyElementsDoNotParticipate",
+      "passed": true,
+      "actual": [
+        {
+          "index": 40,
+          "name": "Item1",
+          "path": "Canvas/PlayArea/LegacyDay3/Item1",
+          "active": false,
+          "uuid": "9a/Ncr21pL0buohOb4QQ0m"
+        },
+        {
+          "index": 47,
+          "name": "Target1",
+          "path": "Canvas/PlayArea/LegacyDay3/Target1",
+          "active": false,
+          "uuid": "aayHrRT5hKroQ1vx1fKXBz"
+        },
+        {
+          "index": 54,
+          "name": "Item2",
+          "path": "Canvas/PlayArea/LegacyDay3/Item2",
+          "active": false,
+          "uuid": "68qiwLSHJJnYHrOoap5zOL"
+        },
+        {
+          "index": 61,
+          "name": "Target2",
+          "path": "Canvas/PlayArea/LegacyDay3/Target2",
+          "active": false,
+          "uuid": "52kA8s9B9Ln5Dxnnoth5+b"
+        },
+        {
+          "index": 67,
+          "name": "Item3",
+          "path": "Canvas/PlayArea/LegacyDay3/Item3",
+          "active": false,
+          "uuid": "bdrUzK0BVOkKpZ0O0r5ROT"
+        },
+        {
+          "index": 74,
+          "name": "Target3",
+          "path": "Canvas/PlayArea/LegacyDay3/Target3",
+          "active": false,
+          "uuid": "952tNNBp9GR5nBV8bnrEC7"
+        }
+      ],
+      "expected": "Every retained fixed item/target is inside inactive LegacyDay3"
+    },
+    {
+      "name": "Game:noActiveLegacyGameplayOrBuilder",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "Game:noDay1Prototype",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "name": "Game:noSerializedButtonHandlers",
+      "passed": true,
+      "actual": [
+        {
+          "path": "Canvas/CompletePanel/NextButton",
+          "clickEvents": []
+        }
+      ],
+      "expected": "All clickEvents empty; listeners owned by code"
+    },
+    {
+      "name": "Game:completePanelInitiallyHidden",
+      "passed": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "name": "projectDesignResolution",
+      "passed": true,
+      "actual": {
+        "width": 720,
+        "height": 1280,
+        "fitWidth": true,
+        "fitHeight": true
+      },
+      "expected": {
+        "width": 720,
+        "height": 1280,
+        "fitWidth": true,
+        "fitHeight": true
+      }
+    },
+    {
+      "name": "projectVersion",
+      "passed": true,
+      "actual": "0.0.4",
+      "expected": "0.0.4"
+    },
+    {
+      "name": "creatorVersion",
+      "passed": true,
+      "actual": "3.8.8",
+      "expected": "3.8.8"
+    },
+    {
+      "name": "runtimeCatalogOrderCount",
+      "passed": true,
+      "actual": 9,
+      "expected": 9
+    },
+    {
+      "name": "runtimeCatalogStageCount",
+      "passed": true,
+      "actual": 13,
+      "expected": 13
+    },
+    {
+      "name": "runtimeCatalogKinds",
+      "passed": true,
+      "actual": [
+        "drag-match",
+        "clean-swipe",
+        "cable-connect"
+      ],
+      "expected": [
+        "drag-match",
+        "cable-connect",
+        "clean-swipe"
+      ]
+    },
+    {
+      "name": "runtimeCatalogIdentities",
+      "passed": true,
+      "actual": [
+        {
+          "id": 1,
+          "key": "day3-1",
+          "stages": [
+            {
+              "id": "drag-1",
+              "kind": "drag-match"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "key": "day3-2",
+          "stages": [
+            {
+              "id": "drag-2",
+              "kind": "drag-match"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "key": "day3-3",
+          "stages": [
+            {
+              "id": "drag-3",
+              "kind": "drag-match"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "key": "keyboard-clean",
+          "stages": [
+            {
+              "id": "keyboard-clean",
+              "kind": "clean-swipe"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "key": "computer-cables",
+          "stages": [
+            {
+              "id": "computer-cables",
+              "kind": "cable-connect"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "key": "mouse-maintenance",
+          "stages": [
+            {
+              "id": "shell-clean",
+              "kind": "clean-swipe"
+            },
+            {
+              "id": "mouse-parts",
+              "kind": "drag-match"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "key": "router-cables",
+          "stages": [
+            {
+              "id": "router-cables",
+              "kind": "cable-connect"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "key": "streaming-desk",
+          "stages": [
+            {
+              "id": "streaming-devices",
+              "kind": "drag-match"
+            },
+            {
+              "id": "streaming-cables",
+              "kind": "cable-connect"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "key": "computer-repair",
+          "stages": [
+            {
+              "id": "case-clean",
+              "kind": "clean-swipe"
+            },
+            {
+              "id": "case-cables",
+              "kind": "cable-connect"
+            },
+            {
+              "id": "case-parts",
+              "kind": "drag-match"
+            }
+          ]
+        }
+      ],
+      "expected": "Unique orders and per-order stage IDs, 1–3 stages per order"
+    }
+  ],
+  "errors": [],
+  "sceneUuid": "ef51aae5-f3a0-4ba5-9918-6d84e400d36f",
+  "sceneSha256": "43f195a8748f0d02321baaed6d0a611c3090358d19b014df4244825bf0e55020",
+  "counts": {
+    "resources": 9,
+    "prefabs": 8,
+    "objects": 236,
+    "nodes": 53,
+    "components": 110,
+    "scriptMetadata": 18,
+    "orders": 9,
+    "stages": 13,
+    "internalReferences": 446,
+    "externalReferences": 28
+  },
+  "files": [
+    {
+      "path": "assets/scripts/core/GameController.ts.meta",
+      "bytes": 171,
+      "sha256": "73552e722aba8f0d7aeced709d26cadbd492164cb4f297fce6ea35301b72f858"
+    },
+    {
+      "path": "assets/scripts/core/GameController.ts",
+      "bytes": 2453,
+      "sha256": "e1b3c357bc915746e20b240f88f48c8c89876c14116850bd55c688d2bb0e4297"
+    },
+    {
+      "path": "assets/scripts/core/LegacyLevelManager.ts.meta",
+      "bytes": 171,
+      "sha256": "e84378379a0d5428094d6121872ecb036de3c0dbd6189be82496001133110d3f"
+    },
+    {
+      "path": "assets/scripts/core/LegacyLevelManager.ts",
+      "bytes": 12443,
+      "sha256": "2ef5ff4fbe16284c35a66010880cb3bdc2edb62b21368429c98b26af662ebf4b"
+    },
+    {
+      "path": "assets/scripts/core/LevelManager.ts.meta",
+      "bytes": 171,
+      "sha256": "e9b2eacaea0a89f2ebd3dc94593f7698ec4acd3d1b9d53de2e196789a639310c"
+    },
+    {
+      "path": "assets/scripts/core/LevelManager.ts",
+      "bytes": 13928,
+      "sha256": "0c0a709191eca6368d5e576be63ba1a74f6cdd7bd8cba61c343ea9a48bad2d0d"
+    },
+    {
+      "path": "assets/scripts/core/RunController.ts.meta",
+      "bytes": 171,
+      "sha256": "a843e9d148657dd9c031c3b45b183a265d1b5a6925cc5b5fa54dfb9ed2e14cf5"
+    },
+    {
+      "path": "assets/scripts/core/RunController.ts",
+      "bytes": 6907,
+      "sha256": "064cac06b336ddf741b983c09a025f0fb33bd130bc2b45d37ef2ad0c9df64655"
+    },
+    {
+      "path": "assets/scripts/data/LevelCatalog.ts.meta",
+      "bytes": 171,
+      "sha256": "e0064153b6aedb854987e509311c285599a9f5da677b420d6f25f273a9667551"
+    },
+    {
+      "path": "assets/scripts/data/LevelCatalog.ts",
+      "bytes": 2561,
+      "sha256": "24e394aa8495e4c23a18a92b15ea727108161a3c28d8d2e1fdd863afc54f4e89"
+    },
+    {
+      "path": "assets/scripts/data/LevelDefinition.ts.meta",
+      "bytes": 171,
+      "sha256": "1a4f178b86302bec167540bb4e2395e626e91d5a7b11ade790a5cc3188c2847b"
+    },
+    {
+      "path": "assets/scripts/data/LevelDefinition.ts",
+      "bytes": 789,
+      "sha256": "7ffc204ef01fa5f0a7dcd65197776f27e1a98613eb4aa643c92c1cee7abbcc0f"
+    },
+    {
+      "path": "assets/scripts/data/OrderCatalog.ts.meta",
+      "bytes": 171,
+      "sha256": "1f97326fc522468269b1ab3c00c8a3358a404957aa862a043a15bf79de159084"
+    },
+    {
+      "path": "assets/scripts/data/OrderCatalog.ts",
+      "bytes": 13306,
+      "sha256": "a038ff6a9269993c9d650954a2e680c1962416ea38230bec4c1d8a9a7df43eb0"
+    },
+    {
+      "path": "assets/scripts/data/OrderDefinition.ts.meta",
+      "bytes": 171,
+      "sha256": "bed0b8888d1863afb09713db550169b35e61cd7c4fddbfccd75155c5acf67c1d"
+    },
+    {
+      "path": "assets/scripts/data/OrderDefinition.ts",
+      "bytes": 368,
+      "sha256": "c0fc93e4da57a591b1fd9bbab0014be7092179c6a05b583e2d365429dfe24b6d"
+    },
+    {
+      "path": "assets/scripts/data/StageDefinition.ts.meta",
+      "bytes": 171,
+      "sha256": "6889b07e7be4a3ae1696e3e9ac03beed020592cd7d58eca4da1f5c394138c2e1"
+    },
+    {
+      "path": "assets/scripts/data/StageDefinition.ts",
+      "bytes": 2046,
+      "sha256": "9b8255ecbd4dc7ddc5f70bff078a424a878ecf058ac34553caf552bc386fdd34"
+    },
+    {
+      "path": "assets/scripts/gameplay/CableConnector.ts.meta",
+      "bytes": 171,
+      "sha256": "a7dfda8e95e9fc3dfd61385d7b1f8b38234171a25647ce003fa489238169ec4a"
+    },
+    {
+      "path": "assets/scripts/gameplay/CableConnector.ts",
+      "bytes": 10909,
+      "sha256": "d03076277b33508677cdd89ec6f13f8314db7f0d759d56245c58d22bb9bfa5bf"
+    },
+    {
+      "path": "assets/scripts/gameplay/Day1Prototype.ts.meta",
+      "bytes": 171,
+      "sha256": "88b506fb8f026c277f18824e9f1724df7a600c4c0f1591c226d262d6ec441128"
+    },
+    {
+      "path": "assets/scripts/gameplay/Day1Prototype.ts",
+      "bytes": 4655,
+      "sha256": "91077917554d152a66d85662099fc4b5b48876e29ca1ece2e07c74a0eb398a10"
+    },
+    {
+      "path": "assets/scripts/gameplay/DraggableItem.ts.meta",
+      "bytes": 171,
+      "sha256": "f37440093ce1fcd6526a5faf9807957ade12d8c8475b9a98d8c0baadf63e0db0"
+    },
+    {
+      "path": "assets/scripts/gameplay/DraggableItem.ts",
+      "bytes": 11047,
+      "sha256": "1d09e9f352a78b677d1b6ad403cc7b08af7afc04e705c00df83212337397e367"
+    },
+    {
+      "path": "assets/scripts/stages/CableConnectStageController.ts.meta",
+      "bytes": 171,
+      "sha256": "22e6679de7bdd011c2fb75fa5bc3fe0641c8e76dcebb2f94d36a5728429d9497"
+    },
+    {
+      "path": "assets/scripts/stages/CableConnectStageController.ts",
+      "bytes": 6513,
+      "sha256": "63dd5a7f51d15c2db3bc2bfec4487dec0d211e72e7bd3d83864bdba686e79f8d"
+    },
+    {
+      "path": "assets/scripts/stages/CleanSwipeStageController.ts.meta",
+      "bytes": 171,
+      "sha256": "20cd87fb86cddb3959bd8262f6153cb6441eef4167c74f27b6c14f90a956fd11"
+    },
+    {
+      "path": "assets/scripts/stages/CleanSwipeStageController.ts",
+      "bytes": 10922,
+      "sha256": "65a10f0d7f29e524d68e3b88b6f2ea4d60778bb2296de93d422ee82ea98640cd"
+    },
+    {
+      "path": "assets/scripts/stages/DragMatchStageController.ts.meta",
+      "bytes": 171,
+      "sha256": "64444b1e7f9273f2dd6939b60665d52871ae4a2f85f88d64d28074859af38a19"
+    },
+    {
+      "path": "assets/scripts/stages/DragMatchStageController.ts",
+      "bytes": 6508,
+      "sha256": "056a6b5faa2dd33374b9625d4cd4939eb2f039309b0c302ba61db6c1bbf42766"
+    },
+    {
+      "path": "assets/scripts/stages/ElementPool.ts.meta",
+      "bytes": 171,
+      "sha256": "6b87a63ae78512f99256f11322a529c5b1a868904873b51774ba58f97784c088"
+    },
+    {
+      "path": "assets/scripts/stages/ElementPool.ts",
+      "bytes": 1074,
+      "sha256": "f551b622a412ad84752476facc3ce0f418958b5a7e14f516835ded02a705f2fc"
+    },
+    {
+      "path": "assets/scripts/stages/StageHost.ts.meta",
+      "bytes": 171,
+      "sha256": "107288870e18d97e96701524b8eb624e6f996b752375a2a48b749c52acf71854"
+    },
+    {
+      "path": "assets/scripts/stages/StageHost.ts",
+      "bytes": 6298,
+      "sha256": "8f4c9f80c96e3f64e14af0b9e7d03c23297c3fd82120a15d582c9a0e582710be"
+    },
+    {
+      "path": "assets/scripts/stages/StageRuntime.ts.meta",
+      "bytes": 171,
+      "sha256": "1e057585d3acc3477c774af5d3336596bf4547eed2dce00988892adf6541cce5"
+    },
+    {
+      "path": "assets/scripts/stages/StageRuntime.ts",
+      "bytes": 578,
+      "sha256": "2d5aef6a6d45560fa2a6928d54cb0b83cbad2ff9600969061e1bfe7ee23e409e"
+    },
+    {
+      "path": "assets/scenes/Game.scene",
+      "bytes": 87422,
+      "sha256": "43f195a8748f0d02321baaed6d0a611c3090358d19b014df4244825bf0e55020"
+    },
+    {
+      "path": "assets/scenes/Game.scene.meta",
+      "bytes": 181,
+      "sha256": "4ccda419d76fbd79c19b9eae0a5b771ad96a39d954ac7326715c2ae1008d920d"
+    },
+    {
+      "path": "assets/prefabs/stages/DragMatchStage.prefab",
+      "bytes": 2701,
+      "sha256": "c28db338b5cf0609ddc57423943c4603835fe2e0e2d5d7706dbdd0b58f702750"
+    },
+    {
+      "path": "assets/prefabs/stages/DragMatchStage.prefab.meta",
+      "bytes": 222,
+      "sha256": "fa4a1ae0eda017d5533799776f725b8594ede749a256227637e0ded9c796281c"
+    },
+    {
+      "path": "assets/prefabs/stages/CableConnectStage.prefab",
+      "bytes": 2254,
+      "sha256": "426177dd06c24f68d567d7622a1a4324b9b9b970bac188a77b1d22ad549a0263"
+    },
+    {
+      "path": "assets/prefabs/stages/CableConnectStage.prefab.meta",
+      "bytes": 225,
+      "sha256": "faa0c4339170b5d0e8238b22cfd478b4dede22ef3d9b67f3a00be89eabc4642c"
+    },
+    {
+      "path": "assets/prefabs/stages/CleanSwipeStage.prefab",
+      "bytes": 6226,
+      "sha256": "8c35e2618f3e07b3bab84c96ca90faea3579e56c7eeea397e4f70c9852f8c416"
+    },
+    {
+      "path": "assets/prefabs/stages/CleanSwipeStage.prefab.meta",
+      "bytes": 223,
+      "sha256": "0edaedc937ae9865cd36b2e8765879c2de06e4aec83c99d62e27984c8c6b2aae"
+    },
+    {
+      "path": "assets/prefabs/elements/DragItem.prefab",
+      "bytes": 5944,
+      "sha256": "6258615d687e7a49f9734463756d9e5cbebe21a3bfe2401ec25f38bcbb069518"
+    },
+    {
+      "path": "assets/prefabs/elements/DragItem.prefab.meta",
+      "bytes": 216,
+      "sha256": "6d5f44353900116d1f592e7d00ec3fe735d0cead39e7ec48b1cca7d04ff6c556"
+    },
+    {
+      "path": "assets/prefabs/elements/DragTarget.prefab",
+      "bytes": 5485,
+      "sha256": "8100f0ab6fcd5442f2f6acc2f5ed8c5fee4dbc0c4e2bbf2c9e33d194578138e6"
+    },
+    {
+      "path": "assets/prefabs/elements/DragTarget.prefab.meta",
+      "bytes": 218,
+      "sha256": "defe95786114bb6b1ebce6d3235f10eddbbcd7a17574dea32c51e882ab7bf33a"
+    },
+    {
+      "path": "assets/prefabs/elements/Cable.prefab",
+      "bytes": 12342,
+      "sha256": "d4e6eba7885f4f7d29ab43d4f4ae8963d3e9e1860748eddbc974bd6b2609c1a9"
+    },
+    {
+      "path": "assets/prefabs/elements/Cable.prefab.meta",
+      "bytes": 213,
+      "sha256": "853d43fc2667fcb6cc159f545e94c2526761eb1eec28fc0b6fa72a48cacd92c5"
+    },
+    {
+      "path": "assets/prefabs/elements/Port.prefab",
+      "bytes": 5471,
+      "sha256": "a65f80eb2541e7cf1bb44aa495fe042486b95bf6682f6fc02d23d9b0b5825d1f"
+    },
+    {
+      "path": "assets/prefabs/elements/Port.prefab.meta",
+      "bytes": 212,
+      "sha256": "dc04ce3fcfa326dbab7d1d0b9e83373c6e351e3583919f06891dda1c7ca908e4"
+    },
+    {
+      "path": "assets/prefabs/elements/DirtCell.prefab",
+      "bytes": 2930,
+      "sha256": "cacf1392ab84410db9d6abb6b143bae859668a6fed0ff1d2eaf352f09508ac76"
+    },
+    {
+      "path": "assets/prefabs/elements/DirtCell.prefab.meta",
+      "bytes": 216,
+      "sha256": "b227caadf4e7ae983b4cafa44c5fdce33c9ab0a26d6c6374367e22862e9171e6"
+    },
+    {
+      "path": "settings/v2/packages/project.json",
+      "bytes": 171,
+      "sha256": "95486b12b0983135c3e0459df681a89f8a2e38ed46269bc10fe87b127f9a4fe9"
+    },
+    {
+      "path": "package.json",
+      "bytes": 285,
+      "sha256": "8780a2eb2234d424791800e5bdb13accd6d609ee35f1f6848d0cd25fbfa92e46"
+    }
+  ],
+  "resources": [
+    {
+      "name": "Game",
+      "path": "assets/scenes/Game.scene",
+      "uuid": "ef51aae5-f3a0-4ba5-9918-6d84e400d36f",
+      "objectCount": 122,
+      "nodeCount": 36,
+      "componentCount": 74,
+      "internalReferences": 255,
+      "externalReferences": 16,
+      "nodes": [
+        {
+          "index": 2,
+          "name": "Main Light",
+          "path": "Main Light",
+          "active": false,
+          "uuid": "d9QWqSXhVGYZMNgURI30/2"
+        },
+        {
+          "index": 5,
+          "name": "Main Camera",
+          "path": "Main Camera",
+          "active": false,
+          "uuid": "f0by8sd2RHkL1pCf6rQn5V"
+        },
+        {
+          "index": 7,
+          "name": "Canvas",
+          "path": "Canvas",
+          "active": true,
+          "uuid": "0d4chGpmFBGK9j17nnQK9D"
+        },
+        {
+          "index": 8,
+          "name": "UI Camera",
+          "path": "Canvas/UI Camera",
+          "active": true,
+          "uuid": "e7DJ3y5bJA+qlmmtIEVxjR"
+        },
+        {
+          "index": 10,
+          "name": "Header",
+          "path": "Canvas/Header",
+          "active": true,
+          "uuid": "e5/l41s9dAmpgf0iQaiD14"
+        },
+        {
+          "index": 11,
+          "name": "GameTitle",
+          "path": "Canvas/Header/GameTitle",
+          "active": true,
+          "uuid": "1dZnfWLuJIlIm6jD+BIXra"
+        },
+        {
+          "index": 14,
+          "name": "LevelLabel",
+          "path": "Canvas/Header/LevelLabel",
+          "active": true,
+          "uuid": "9dRk1ye1lHAqwIC4rnofiI"
+        },
+        {
+          "index": 17,
+          "name": "LevelTitleLabel",
+          "path": "Canvas/Header/LevelTitleLabel",
+          "active": true,
+          "uuid": "9cmiewNtpDs5nBK32o1DkX"
+        },
+        {
+          "index": 20,
+          "name": "StatusLabel",
+          "path": "Canvas/Header/StatusLabel",
+          "active": true,
+          "uuid": "22mOOomXtHoLHUNb/0Ng1W"
+        },
+        {
+          "index": 23,
+          "name": "Stats",
+          "path": "Canvas/Header/Stats",
+          "active": true,
+          "uuid": "12QwH2V51AWqXGIls8gjoc"
+        },
+        {
+          "index": 24,
+          "name": "TimeLabel",
+          "path": "Canvas/Header/Stats/TimeLabel",
+          "active": true,
+          "uuid": "7en7ykXuRGvrCZnh0A8EiA"
+        },
+        {
+          "index": 27,
+          "name": "MistakeLabel",
+          "path": "Canvas/Header/Stats/MistakeLabel",
+          "active": true,
+          "uuid": "a4porYX51Girbh/Ff0sSUA"
+        },
+        {
+          "index": 31,
+          "name": "ChapterLabel",
+          "path": "Canvas/Header/ChapterLabel",
+          "active": true,
+          "uuid": "dc0UGCnZFMTIl0qL2htidx"
+        },
+        {
+          "index": 34,
+          "name": "StageLabel",
+          "path": "Canvas/Header/StageLabel",
+          "active": true,
+          "uuid": "f3BuOHIqpOprwKe210hQt5"
+        },
+        {
+          "index": 38,
+          "name": "PlayArea",
+          "path": "Canvas/PlayArea",
+          "active": true,
+          "uuid": "82fvOEN85OI6/2eqJGMabt"
+        },
+        {
+          "index": 39,
+          "name": "LegacyDay3",
+          "path": "Canvas/PlayArea/LegacyDay3",
+          "active": false,
+          "uuid": "a0vQadi7tAn4sSZp/bzskp"
+        },
+        {
+          "index": 40,
+          "name": "Item1",
+          "path": "Canvas/PlayArea/LegacyDay3/Item1",
+          "active": false,
+          "uuid": "9a/Ncr21pL0buohOb4QQ0m"
+        },
+        {
+          "index": 41,
+          "name": "Label",
+          "path": "Canvas/PlayArea/LegacyDay3/Item1/Label",
+          "active": false,
+          "uuid": "3a6hctm2xPFatnzBeHQ8xQ"
+        },
+        {
+          "index": 47,
+          "name": "Target1",
+          "path": "Canvas/PlayArea/LegacyDay3/Target1",
+          "active": false,
+          "uuid": "aayHrRT5hKroQ1vx1fKXBz"
+        },
+        {
+          "index": 48,
+          "name": "Label",
+          "path": "Canvas/PlayArea/LegacyDay3/Target1/Label",
+          "active": false,
+          "uuid": "b5LT8jxL9JaJElEmS8NHZq"
+        },
+        {
+          "index": 54,
+          "name": "Item2",
+          "path": "Canvas/PlayArea/LegacyDay3/Item2",
+          "active": false,
+          "uuid": "68qiwLSHJJnYHrOoap5zOL"
+        },
+        {
+          "index": 55,
+          "name": "Label",
+          "path": "Canvas/PlayArea/LegacyDay3/Item2/Label",
+          "active": false,
+          "uuid": "30r87RqT1IcKZOmtTeIjR5"
+        },
+        {
+          "index": 61,
+          "name": "Target2",
+          "path": "Canvas/PlayArea/LegacyDay3/Target2",
+          "active": false,
+          "uuid": "52kA8s9B9Ln5Dxnnoth5+b"
+        },
+        {
+          "index": 62,
+          "name": "Label",
+          "path": "Canvas/PlayArea/LegacyDay3/Target2/Label",
+          "active": false,
+          "uuid": "650kzNCkBIyrXOF24PdxZh"
+        },
+        {
+          "index": 67,
+          "name": "Item3",
+          "path": "Canvas/PlayArea/LegacyDay3/Item3",
+          "active": false,
+          "uuid": "bdrUzK0BVOkKpZ0O0r5ROT"
+        },
+        {
+          "index": 68,
+          "name": "Label",
+          "path": "Canvas/PlayArea/LegacyDay3/Item3/Label",
+          "active": false,
+          "uuid": "8089ryQB1NPL/MootfVYWk"
+        },
+        {
+          "index": 74,
+          "name": "Target3",
+          "path": "Canvas/PlayArea/LegacyDay3/Target3",
+          "active": false,
+          "uuid": "952tNNBp9GR5nBV8bnrEC7"
+        },
+        {
+          "index": 75,
+          "name": "Label",
+          "path": "Canvas/PlayArea/LegacyDay3/Target3/Label",
+          "active": false,
+          "uuid": "beqvnO3CtAnr0GnKrkyuOs"
+        },
+        {
+          "index": 81,
+          "name": "StageHost",
+          "path": "Canvas/PlayArea/StageHost",
+          "active": true,
+          "uuid": "b8jPFtT3BFVbZ+zyBrvTxe"
+        },
+        {
+          "index": 85,
+          "name": "TutorialHint",
+          "path": "Canvas/TutorialHint",
+          "active": true,
+          "uuid": "f4WnCzwklL+acV/IjiTKtY"
+        },
+        {
+          "index": 86,
+          "name": "TutorialLabel",
+          "path": "Canvas/TutorialHint/TutorialLabel",
+          "active": true,
+          "uuid": "b3FefdCAtKYK/L2t52fzxQ"
+        },
+        {
+          "index": 91,
+          "name": "CompletePanel",
+          "path": "Canvas/CompletePanel",
+          "active": false,
+          "uuid": "aato4tPWBC+Y2p749SVFYX"
+        },
+        {
+          "index": 92,
+          "name": "CompleteLabel",
+          "path": "Canvas/CompletePanel/CompleteLabel",
+          "active": false,
+          "uuid": "faDvB2rHNGjKB01Qh+6MSu"
+        },
+        {
+          "index": 95,
+          "name": "CompleteDetailLabel",
+          "path": "Canvas/CompletePanel/CompleteDetailLabel",
+          "active": false,
+          "uuid": "e27GRkRBBBJbjhKxOedIY5"
+        },
+        {
+          "index": 98,
+          "name": "NextButton",
+          "path": "Canvas/CompletePanel/NextButton",
+          "active": false,
+          "uuid": "bashGKppxFabUFpJ0EfxHg"
+        },
+        {
+          "index": 99,
+          "name": "Label",
+          "path": "Canvas/CompletePanel/NextButton/Label",
+          "active": false,
+          "uuid": "8cz/VdVtRAw4ZMt9rY7ggM"
+        }
+      ],
+      "components": [
+        {
+          "index": 3,
+          "type": "cc.DirectionalLight",
+          "nodePath": "Main Light",
+          "active": false
+        },
+        {
+          "index": 6,
+          "type": "cc.Camera",
+          "nodePath": "Main Camera",
+          "active": false
+        },
+        {
+          "index": 9,
+          "type": "cc.Camera",
+          "nodePath": "Canvas/UI Camera",
+          "active": true
+        },
+        {
+          "index": 12,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/Header/GameTitle",
+          "active": true
+        },
+        {
+          "index": 13,
+          "type": "cc.Label",
+          "nodePath": "Canvas/Header/GameTitle",
+          "active": true
+        },
+        {
+          "index": 15,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/Header/LevelLabel",
+          "active": true
+        },
+        {
+          "index": 16,
+          "type": "cc.Label",
+          "nodePath": "Canvas/Header/LevelLabel",
+          "active": true
+        },
+        {
+          "index": 18,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/Header/LevelTitleLabel",
+          "active": true
+        },
+        {
+          "index": 19,
+          "type": "cc.Label",
+          "nodePath": "Canvas/Header/LevelTitleLabel",
+          "active": true
+        },
+        {
+          "index": 21,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/Header/StatusLabel",
+          "active": true
+        },
+        {
+          "index": 22,
+          "type": "cc.Label",
+          "nodePath": "Canvas/Header/StatusLabel",
+          "active": true
+        },
+        {
+          "index": 25,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/Header/Stats/TimeLabel",
+          "active": true
+        },
+        {
+          "index": 26,
+          "type": "cc.Label",
+          "nodePath": "Canvas/Header/Stats/TimeLabel",
+          "active": true
+        },
+        {
+          "index": 28,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/Header/Stats/MistakeLabel",
+          "active": true
+        },
+        {
+          "index": 29,
+          "type": "cc.Label",
+          "nodePath": "Canvas/Header/Stats/MistakeLabel",
+          "active": true
+        },
+        {
+          "index": 30,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/Header/Stats",
+          "active": true
+        },
+        {
+          "index": 32,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/Header/ChapterLabel",
+          "active": true
+        },
+        {
+          "index": 33,
+          "type": "cc.Label",
+          "nodePath": "Canvas/Header/ChapterLabel",
+          "active": true
+        },
+        {
+          "index": 35,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/Header/StageLabel",
+          "active": true
+        },
+        {
+          "index": 36,
+          "type": "cc.Label",
+          "nodePath": "Canvas/Header/StageLabel",
+          "active": true
+        },
+        {
+          "index": 37,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/Header",
+          "active": true
+        },
+        {
+          "index": 42,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Item1/Label",
+          "active": false
+        },
+        {
+          "index": 43,
+          "type": "cc.Label",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Item1/Label",
+          "active": false
+        },
+        {
+          "index": 44,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Item1",
+          "active": false
+        },
+        {
+          "index": 45,
+          "type": "cc.Sprite",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Item1",
+          "active": false
+        },
+        {
+          "index": 46,
+          "type": "DraggableItem",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Item1",
+          "active": false
+        },
+        {
+          "index": 49,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Target1/Label",
+          "active": false
+        },
+        {
+          "index": 50,
+          "type": "cc.Label",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Target1/Label",
+          "active": false
+        },
+        {
+          "index": 51,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Target1",
+          "active": false
+        },
+        {
+          "index": 52,
+          "type": "cc.Sprite",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Target1",
+          "active": false
+        },
+        {
+          "index": 53,
+          "type": "GameController",
+          "nodePath": "Canvas",
+          "active": false
+        },
+        {
+          "index": 56,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Item2/Label",
+          "active": false
+        },
+        {
+          "index": 57,
+          "type": "cc.Label",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Item2/Label",
+          "active": false
+        },
+        {
+          "index": 58,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Item2",
+          "active": false
+        },
+        {
+          "index": 59,
+          "type": "cc.Sprite",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Item2",
+          "active": false
+        },
+        {
+          "index": 60,
+          "type": "DraggableItem",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Item2",
+          "active": false
+        },
+        {
+          "index": 63,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Target2/Label",
+          "active": false
+        },
+        {
+          "index": 64,
+          "type": "cc.Label",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Target2/Label",
+          "active": false
+        },
+        {
+          "index": 65,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Target2",
+          "active": false
+        },
+        {
+          "index": 66,
+          "type": "cc.Sprite",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Target2",
+          "active": false
+        },
+        {
+          "index": 69,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Item3/Label",
+          "active": false
+        },
+        {
+          "index": 70,
+          "type": "cc.Label",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Item3/Label",
+          "active": false
+        },
+        {
+          "index": 71,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Item3",
+          "active": false
+        },
+        {
+          "index": 72,
+          "type": "cc.Sprite",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Item3",
+          "active": false
+        },
+        {
+          "index": 73,
+          "type": "DraggableItem",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Item3",
+          "active": false
+        },
+        {
+          "index": 76,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Target3/Label",
+          "active": false
+        },
+        {
+          "index": 77,
+          "type": "cc.Label",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Target3/Label",
+          "active": false
+        },
+        {
+          "index": 78,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Target3",
+          "active": false
+        },
+        {
+          "index": 79,
+          "type": "cc.Sprite",
+          "nodePath": "Canvas/PlayArea/LegacyDay3/Target3",
+          "active": false
+        },
+        {
+          "index": 80,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/PlayArea/LegacyDay3",
+          "active": false
+        },
+        {
+          "index": 82,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/PlayArea/StageHost",
+          "active": true
+        },
+        {
+          "index": 83,
+          "type": "StageHost",
+          "nodePath": "Canvas/PlayArea/StageHost",
+          "active": true
+        },
+        {
+          "index": 84,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/PlayArea",
+          "active": true
+        },
+        {
+          "index": 87,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/TutorialHint/TutorialLabel",
+          "active": true
+        },
+        {
+          "index": 88,
+          "type": "cc.Label",
+          "nodePath": "Canvas/TutorialHint/TutorialLabel",
+          "active": true
+        },
+        {
+          "index": 89,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/TutorialHint",
+          "active": true
+        },
+        {
+          "index": 90,
+          "type": "cc.Sprite",
+          "nodePath": "Canvas/TutorialHint",
+          "active": true
+        },
+        {
+          "index": 93,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/CompletePanel/CompleteLabel",
+          "active": false
+        },
+        {
+          "index": 94,
+          "type": "cc.Label",
+          "nodePath": "Canvas/CompletePanel/CompleteLabel",
+          "active": false
+        },
+        {
+          "index": 96,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/CompletePanel/CompleteDetailLabel",
+          "active": false
+        },
+        {
+          "index": 97,
+          "type": "cc.Label",
+          "nodePath": "Canvas/CompletePanel/CompleteDetailLabel",
+          "active": false
+        },
+        {
+          "index": 100,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/CompletePanel/NextButton/Label",
+          "active": false
+        },
+        {
+          "index": 101,
+          "type": "cc.Label",
+          "nodePath": "Canvas/CompletePanel/NextButton/Label",
+          "active": false
+        },
+        {
+          "index": 102,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/CompletePanel/NextButton",
+          "active": false
+        },
+        {
+          "index": 103,
+          "type": "cc.Sprite",
+          "nodePath": "Canvas/CompletePanel/NextButton",
+          "active": false
+        },
+        {
+          "index": 104,
+          "type": "cc.Button",
+          "nodePath": "Canvas/CompletePanel/NextButton",
+          "active": false
+        },
+        {
+          "index": 105,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas/CompletePanel",
+          "active": false
+        },
+        {
+          "index": 106,
+          "type": "cc.Sprite",
+          "nodePath": "Canvas/CompletePanel",
+          "active": false
+        },
+        {
+          "index": 107,
+          "type": "cc.UITransform",
+          "nodePath": "Canvas",
+          "active": true
+        },
+        {
+          "index": 108,
+          "type": "cc.Canvas",
+          "nodePath": "Canvas",
+          "active": true
+        },
+        {
+          "index": 109,
+          "type": "cc.Widget",
+          "nodePath": "Canvas",
+          "active": true
+        },
+        {
+          "index": 110,
+          "type": "cc.Sprite",
+          "nodePath": "Canvas",
+          "active": true
+        },
+        {
+          "index": 111,
+          "type": "RunController",
+          "nodePath": "Canvas",
+          "active": true
+        },
+        {
+          "index": 112,
+          "type": "LevelManager",
+          "nodePath": "Canvas",
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "DragMatchStage",
+      "path": "assets/prefabs/stages/DragMatchStage.prefab",
+      "uuid": "d7e32619-2acf-40bb-bca4-addfccbb49be",
+      "objectCount": 9,
+      "nodeCount": 1,
+      "componentCount": 3,
+      "internalReferences": 14,
+      "externalReferences": 2,
+      "nodes": [
+        {
+          "index": 1,
+          "name": "DragMatchStage",
+          "path": "DragMatchStage",
+          "active": true,
+          "uuid": ""
+        }
+      ],
+      "components": [
+        {
+          "index": 2,
+          "type": "cc.UITransform",
+          "nodePath": "DragMatchStage",
+          "active": true
+        },
+        {
+          "index": 4,
+          "type": "GameController",
+          "nodePath": "DragMatchStage",
+          "active": true
+        },
+        {
+          "index": 6,
+          "type": "DragMatchStageController",
+          "nodePath": "DragMatchStage",
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "CableConnectStage",
+      "path": "assets/prefabs/stages/CableConnectStage.prefab",
+      "uuid": "afa7f7c0-6a62-4d07-9295-6011af87cf7a",
+      "objectCount": 7,
+      "nodeCount": 1,
+      "componentCount": 2,
+      "internalReferences": 10,
+      "externalReferences": 2,
+      "nodes": [
+        {
+          "index": 1,
+          "name": "CableConnectStage",
+          "path": "CableConnectStage",
+          "active": true,
+          "uuid": ""
+        }
+      ],
+      "components": [
+        {
+          "index": 2,
+          "type": "cc.UITransform",
+          "nodePath": "CableConnectStage",
+          "active": true
+        },
+        {
+          "index": 4,
+          "type": "CableConnectStageController",
+          "nodePath": "CableConnectStage",
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "CleanSwipeStage",
+      "path": "assets/prefabs/stages/CleanSwipeStage.prefab",
+      "uuid": "fa38d9cd-1551-4324-9805-acc21429befc",
+      "objectCount": 17,
+      "nodeCount": 3,
+      "componentCount": 5,
+      "internalReferences": 31,
+      "externalReferences": 2,
+      "nodes": [
+        {
+          "index": 1,
+          "name": "CleanSwipeStage",
+          "path": "CleanSwipeStage",
+          "active": true,
+          "uuid": ""
+        },
+        {
+          "index": 2,
+          "name": "InputSurface",
+          "path": "CleanSwipeStage/InputSurface",
+          "active": true,
+          "uuid": ""
+        },
+        {
+          "index": 3,
+          "name": "DirtLayer",
+          "path": "CleanSwipeStage/InputSurface/DirtLayer",
+          "active": true,
+          "uuid": ""
+        }
+      ],
+      "components": [
+        {
+          "index": 4,
+          "type": "cc.UITransform",
+          "nodePath": "CleanSwipeStage/InputSurface/DirtLayer",
+          "active": true
+        },
+        {
+          "index": 7,
+          "type": "cc.UITransform",
+          "nodePath": "CleanSwipeStage/InputSurface",
+          "active": true
+        },
+        {
+          "index": 9,
+          "type": "cc.Sprite",
+          "nodePath": "CleanSwipeStage/InputSurface",
+          "active": true
+        },
+        {
+          "index": 12,
+          "type": "cc.UITransform",
+          "nodePath": "CleanSwipeStage",
+          "active": true
+        },
+        {
+          "index": 14,
+          "type": "CleanSwipeStageController",
+          "nodePath": "CleanSwipeStage",
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "DragItem",
+      "path": "assets/prefabs/elements/DragItem.prefab",
+      "uuid": "fefd5955-3eac-44ad-b9ec-d907012e16e1",
+      "objectCount": 15,
+      "nodeCount": 2,
+      "componentCount": 5,
+      "internalReferences": 24,
+      "externalReferences": 1,
+      "nodes": [
+        {
+          "index": 1,
+          "name": "DragItem",
+          "path": "DragItem",
+          "active": true,
+          "uuid": ""
+        },
+        {
+          "index": 2,
+          "name": "Label",
+          "path": "DragItem/Label",
+          "active": true,
+          "uuid": ""
+        }
+      ],
+      "components": [
+        {
+          "index": 3,
+          "type": "cc.UITransform",
+          "nodePath": "DragItem/Label",
+          "active": true
+        },
+        {
+          "index": 5,
+          "type": "cc.Label",
+          "nodePath": "DragItem/Label",
+          "active": true
+        },
+        {
+          "index": 8,
+          "type": "cc.UITransform",
+          "nodePath": "DragItem",
+          "active": true
+        },
+        {
+          "index": 10,
+          "type": "cc.Sprite",
+          "nodePath": "DragItem",
+          "active": true
+        },
+        {
+          "index": 12,
+          "type": "DraggableItem",
+          "nodePath": "DragItem",
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "DragTarget",
+      "path": "assets/prefabs/elements/DragTarget.prefab",
+      "uuid": "baed1239-77f8-4e48-b00b-4de4c6d67830",
+      "objectCount": 13,
+      "nodeCount": 2,
+      "componentCount": 4,
+      "internalReferences": 21,
+      "externalReferences": 1,
+      "nodes": [
+        {
+          "index": 1,
+          "name": "DragTarget",
+          "path": "DragTarget",
+          "active": true,
+          "uuid": ""
+        },
+        {
+          "index": 2,
+          "name": "Label",
+          "path": "DragTarget/Label",
+          "active": true,
+          "uuid": ""
+        }
+      ],
+      "components": [
+        {
+          "index": 3,
+          "type": "cc.UITransform",
+          "nodePath": "DragTarget/Label",
+          "active": true
+        },
+        {
+          "index": 5,
+          "type": "cc.Label",
+          "nodePath": "DragTarget/Label",
+          "active": true
+        },
+        {
+          "index": 8,
+          "type": "cc.UITransform",
+          "nodePath": "DragTarget",
+          "active": true
+        },
+        {
+          "index": 10,
+          "type": "cc.Sprite",
+          "nodePath": "DragTarget",
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "Cable",
+      "path": "assets/prefabs/elements/Cable.prefab",
+      "uuid": "2ad8fe32-bebc-4d0e-8913-560ce3d72eac",
+      "objectCount": 31,
+      "nodeCount": 5,
+      "componentCount": 10,
+      "internalReferences": 57,
+      "externalReferences": 2,
+      "nodes": [
+        {
+          "index": 1,
+          "name": "Cable",
+          "path": "Cable",
+          "active": true,
+          "uuid": ""
+        },
+        {
+          "index": 2,
+          "name": "Line",
+          "path": "Cable/Line",
+          "active": true,
+          "uuid": ""
+        },
+        {
+          "index": 8,
+          "name": "Anchor",
+          "path": "Cable/Anchor",
+          "active": true,
+          "uuid": ""
+        },
+        {
+          "index": 14,
+          "name": "Head",
+          "path": "Cable/Head",
+          "active": true,
+          "uuid": ""
+        },
+        {
+          "index": 15,
+          "name": "Label",
+          "path": "Cable/Head/Label",
+          "active": true,
+          "uuid": ""
+        }
+      ],
+      "components": [
+        {
+          "index": 3,
+          "type": "cc.UITransform",
+          "nodePath": "Cable/Line",
+          "active": true
+        },
+        {
+          "index": 5,
+          "type": "cc.Graphics",
+          "nodePath": "Cable/Line",
+          "active": true
+        },
+        {
+          "index": 9,
+          "type": "cc.UITransform",
+          "nodePath": "Cable/Anchor",
+          "active": true
+        },
+        {
+          "index": 11,
+          "type": "cc.Sprite",
+          "nodePath": "Cable/Anchor",
+          "active": true
+        },
+        {
+          "index": 16,
+          "type": "cc.UITransform",
+          "nodePath": "Cable/Head/Label",
+          "active": true
+        },
+        {
+          "index": 18,
+          "type": "cc.Label",
+          "nodePath": "Cable/Head/Label",
+          "active": true
+        },
+        {
+          "index": 21,
+          "type": "cc.UITransform",
+          "nodePath": "Cable/Head",
+          "active": true
+        },
+        {
+          "index": 23,
+          "type": "cc.Sprite",
+          "nodePath": "Cable/Head",
+          "active": true
+        },
+        {
+          "index": 26,
+          "type": "cc.UITransform",
+          "nodePath": "Cable",
+          "active": true
+        },
+        {
+          "index": 28,
+          "type": "CableConnector",
+          "nodePath": "Cable",
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "Port",
+      "path": "assets/prefabs/elements/Port.prefab",
+      "uuid": "5147d16e-d660-4b36-983f-73c8cd3b203f",
+      "objectCount": 13,
+      "nodeCount": 2,
+      "componentCount": 4,
+      "internalReferences": 21,
+      "externalReferences": 1,
+      "nodes": [
+        {
+          "index": 1,
+          "name": "Port",
+          "path": "Port",
+          "active": true,
+          "uuid": ""
+        },
+        {
+          "index": 2,
+          "name": "Label",
+          "path": "Port/Label",
+          "active": true,
+          "uuid": ""
+        }
+      ],
+      "components": [
+        {
+          "index": 3,
+          "type": "cc.UITransform",
+          "nodePath": "Port/Label",
+          "active": true
+        },
+        {
+          "index": 5,
+          "type": "cc.Label",
+          "nodePath": "Port/Label",
+          "active": true
+        },
+        {
+          "index": 8,
+          "type": "cc.UITransform",
+          "nodePath": "Port",
+          "active": true
+        },
+        {
+          "index": 10,
+          "type": "cc.Sprite",
+          "nodePath": "Port",
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "DirtCell",
+      "path": "assets/prefabs/elements/DirtCell.prefab",
+      "uuid": "c6243d95-8ebe-4646-8575-342bcf1f156f",
+      "objectCount": 9,
+      "nodeCount": 1,
+      "componentCount": 3,
+      "internalReferences": 13,
+      "externalReferences": 1,
+      "nodes": [
+        {
+          "index": 1,
+          "name": "DirtCell",
+          "path": "DirtCell",
+          "active": true,
+          "uuid": ""
+        }
+      ],
+      "components": [
+        {
+          "index": 2,
+          "type": "cc.UITransform",
+          "nodePath": "DirtCell",
+          "active": true
+        },
+        {
+          "index": 4,
+          "type": "cc.Sprite",
+          "nodePath": "DirtCell",
+          "active": true
+        },
+        {
+          "index": 6,
+          "type": "cc.UIOpacity",
+          "nodePath": "DirtCell",
+          "active": true
+        }
+      ]
+    }
+  ],
+  "scriptMetadata": [
+    {
+      "name": "GameController",
+      "path": "assets/scripts/core/GameController.ts.meta",
+      "uuid": "ad134b02-0d5c-4fac-af7d-053ce82e8c65",
+      "imported": true,
+      "sourceExists": true,
+      "metadataSha256": "73552e722aba8f0d7aeced709d26cadbd492164cb4f297fce6ea35301b72f858",
+      "sourceSha256": "e1b3c357bc915746e20b240f88f48c8c89876c14116850bd55c688d2bb0e4297"
+    },
+    {
+      "name": "LegacyLevelManager",
+      "path": "assets/scripts/core/LegacyLevelManager.ts.meta",
+      "uuid": "43059f73-0d27-4030-93d7-db330fd30c06",
+      "imported": true,
+      "sourceExists": true,
+      "metadataSha256": "e84378379a0d5428094d6121872ecb036de3c0dbd6189be82496001133110d3f",
+      "sourceSha256": "2ef5ff4fbe16284c35a66010880cb3bdc2edb62b21368429c98b26af662ebf4b"
+    },
+    {
+      "name": "LevelManager",
+      "path": "assets/scripts/core/LevelManager.ts.meta",
+      "uuid": "9c83c519-ee32-45a8-8615-8f62e7a67d47",
+      "imported": true,
+      "sourceExists": true,
+      "metadataSha256": "e9b2eacaea0a89f2ebd3dc94593f7698ec4acd3d1b9d53de2e196789a639310c",
+      "sourceSha256": "0c0a709191eca6368d5e576be63ba1a74f6cdd7bd8cba61c343ea9a48bad2d0d"
+    },
+    {
+      "name": "RunController",
+      "path": "assets/scripts/core/RunController.ts.meta",
+      "uuid": "03ded024-7942-401d-a0a3-f9ab27ed25c6",
+      "imported": true,
+      "sourceExists": true,
+      "metadataSha256": "a843e9d148657dd9c031c3b45b183a265d1b5a6925cc5b5fa54dfb9ed2e14cf5",
+      "sourceSha256": "064cac06b336ddf741b983c09a025f0fb33bd130bc2b45d37ef2ad0c9df64655"
+    },
+    {
+      "name": "LevelCatalog",
+      "path": "assets/scripts/data/LevelCatalog.ts.meta",
+      "uuid": "8100cb99-bddc-40a6-aa8a-29aa83fe6380",
+      "imported": true,
+      "sourceExists": true,
+      "metadataSha256": "e0064153b6aedb854987e509311c285599a9f5da677b420d6f25f273a9667551",
+      "sourceSha256": "24e394aa8495e4c23a18a92b15ea727108161a3c28d8d2e1fdd863afc54f4e89"
+    },
+    {
+      "name": "LevelDefinition",
+      "path": "assets/scripts/data/LevelDefinition.ts.meta",
+      "uuid": "c8d3bbf1-f203-4622-9ade-eddb68c7cf47",
+      "imported": true,
+      "sourceExists": true,
+      "metadataSha256": "1a4f178b86302bec167540bb4e2395e626e91d5a7b11ade790a5cc3188c2847b",
+      "sourceSha256": "7ffc204ef01fa5f0a7dcd65197776f27e1a98613eb4aa643c92c1cee7abbcc0f"
+    },
+    {
+      "name": "OrderCatalog",
+      "path": "assets/scripts/data/OrderCatalog.ts.meta",
+      "uuid": "a083a7da-eb17-48a2-a492-54ac5aac605a",
+      "imported": true,
+      "sourceExists": true,
+      "metadataSha256": "1f97326fc522468269b1ab3c00c8a3358a404957aa862a043a15bf79de159084",
+      "sourceSha256": "a038ff6a9269993c9d650954a2e680c1962416ea38230bec4c1d8a9a7df43eb0"
+    },
+    {
+      "name": "OrderDefinition",
+      "path": "assets/scripts/data/OrderDefinition.ts.meta",
+      "uuid": "dea24d28-23e8-4a8d-93ef-4ae3c9f08443",
+      "imported": true,
+      "sourceExists": true,
+      "metadataSha256": "bed0b8888d1863afb09713db550169b35e61cd7c4fddbfccd75155c5acf67c1d",
+      "sourceSha256": "c0fc93e4da57a591b1fd9bbab0014be7092179c6a05b583e2d365429dfe24b6d"
+    },
+    {
+      "name": "StageDefinition",
+      "path": "assets/scripts/data/StageDefinition.ts.meta",
+      "uuid": "c31475ad-9369-43b9-ae5b-466fc56f102a",
+      "imported": true,
+      "sourceExists": true,
+      "metadataSha256": "6889b07e7be4a3ae1696e3e9ac03beed020592cd7d58eca4da1f5c394138c2e1",
+      "sourceSha256": "9b8255ecbd4dc7ddc5f70bff078a424a878ecf058ac34553caf552bc386fdd34"
+    },
+    {
+      "name": "CableConnector",
+      "path": "assets/scripts/gameplay/CableConnector.ts.meta",
+      "uuid": "6b20876b-b564-4dda-9f18-0142f133d5cd",
+      "imported": true,
+      "sourceExists": true,
+      "metadataSha256": "a7dfda8e95e9fc3dfd61385d7b1f8b38234171a25647ce003fa489238169ec4a",
+      "sourceSha256": "d03076277b33508677cdd89ec6f13f8314db7f0d759d56245c58d22bb9bfa5bf"
+    },
+    {
+      "name": "Day1Prototype",
+      "path": "assets/scripts/gameplay/Day1Prototype.ts.meta",
+      "uuid": "79913187-6679-4686-8143-2ddb4818df0a",
+      "imported": true,
+      "sourceExists": true,
+      "metadataSha256": "88b506fb8f026c277f18824e9f1724df7a600c4c0f1591c226d262d6ec441128",
+      "sourceSha256": "91077917554d152a66d85662099fc4b5b48876e29ca1ece2e07c74a0eb398a10"
+    },
+    {
+      "name": "DraggableItem",
+      "path": "assets/scripts/gameplay/DraggableItem.ts.meta",
+      "uuid": "3780ac2a-3b18-443e-a833-62de925eebc9",
+      "imported": true,
+      "sourceExists": true,
+      "metadataSha256": "f37440093ce1fcd6526a5faf9807957ade12d8c8475b9a98d8c0baadf63e0db0",
+      "sourceSha256": "1d09e9f352a78b677d1b6ad403cc7b08af7afc04e705c00df83212337397e367"
+    },
+    {
+      "name": "CableConnectStageController",
+      "path": "assets/scripts/stages/CableConnectStageController.ts.meta",
+      "uuid": "7b02e0ee-4896-415c-90c1-a9f5d885620b",
+      "imported": true,
+      "sourceExists": true,
+      "metadataSha256": "22e6679de7bdd011c2fb75fa5bc3fe0641c8e76dcebb2f94d36a5728429d9497",
+      "sourceSha256": "63dd5a7f51d15c2db3bc2bfec4487dec0d211e72e7bd3d83864bdba686e79f8d"
+    },
+    {
+      "name": "CleanSwipeStageController",
+      "path": "assets/scripts/stages/CleanSwipeStageController.ts.meta",
+      "uuid": "9d4cd1da-b373-4f42-a00f-a0f3eb2e5a8d",
+      "imported": true,
+      "sourceExists": true,
+      "metadataSha256": "20cd87fb86cddb3959bd8262f6153cb6441eef4167c74f27b6c14f90a956fd11",
+      "sourceSha256": "65a10f0d7f29e524d68e3b88b6f2ea4d60778bb2296de93d422ee82ea98640cd"
+    },
+    {
+      "name": "DragMatchStageController",
+      "path": "assets/scripts/stages/DragMatchStageController.ts.meta",
+      "uuid": "5a94225f-6ab8-4161-833e-252aab96e35f",
+      "imported": true,
+      "sourceExists": true,
+      "metadataSha256": "64444b1e7f9273f2dd6939b60665d52871ae4a2f85f88d64d28074859af38a19",
+      "sourceSha256": "056a6b5faa2dd33374b9625d4cd4939eb2f039309b0c302ba61db6c1bbf42766"
+    },
+    {
+      "name": "ElementPool",
+      "path": "assets/scripts/stages/ElementPool.ts.meta",
+      "uuid": "a8708a44-43ea-4968-a014-2c7b10388fb4",
+      "imported": true,
+      "sourceExists": true,
+      "metadataSha256": "6b87a63ae78512f99256f11322a529c5b1a868904873b51774ba58f97784c088",
+      "sourceSha256": "f551b622a412ad84752476facc3ce0f418958b5a7e14f516835ded02a705f2fc"
+    },
+    {
+      "name": "StageHost",
+      "path": "assets/scripts/stages/StageHost.ts.meta",
+      "uuid": "b9b074b6-22e0-48a0-9e8d-703c4a3191c8",
+      "imported": true,
+      "sourceExists": true,
+      "metadataSha256": "107288870e18d97e96701524b8eb624e6f996b752375a2a48b749c52acf71854",
+      "sourceSha256": "8f4c9f80c96e3f64e14af0b9e7d03c23297c3fd82120a15d582c9a0e582710be"
+    },
+    {
+      "name": "StageRuntime",
+      "path": "assets/scripts/stages/StageRuntime.ts.meta",
+      "uuid": "da2049a0-2e40-44bb-93b4-5bb175e6404f",
+      "imported": true,
+      "sourceExists": true,
+      "metadataSha256": "1e057585d3acc3477c774af5d3336596bf4547eed2dce00988892adf6541cce5",
+      "sourceSha256": "2d5aef6a6d45560fa2a6928d54cb0b83cbad2ff9600969061e1bfe7ee23e409e"
+    }
+  ],
+  "externalReferences": [
+    {
+      "resource": "assets/scenes/Game.scene",
+      "location": "[45]._spriteFrame",
+      "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "resolved": {
+        "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+        "source": "creator-builtin",
+        "path": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_panel.png.meta",
+        "importer": "sprite-frame",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/scenes/Game.scene",
+      "location": "[52]._spriteFrame",
+      "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "resolved": {
+        "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+        "source": "creator-builtin",
+        "path": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_panel.png.meta",
+        "importer": "sprite-frame",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/scenes/Game.scene",
+      "location": "[59]._spriteFrame",
+      "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "resolved": {
+        "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+        "source": "creator-builtin",
+        "path": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_panel.png.meta",
+        "importer": "sprite-frame",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/scenes/Game.scene",
+      "location": "[66]._spriteFrame",
+      "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "resolved": {
+        "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+        "source": "creator-builtin",
+        "path": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_panel.png.meta",
+        "importer": "sprite-frame",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/scenes/Game.scene",
+      "location": "[72]._spriteFrame",
+      "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "resolved": {
+        "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+        "source": "creator-builtin",
+        "path": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_panel.png.meta",
+        "importer": "sprite-frame",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/scenes/Game.scene",
+      "location": "[79]._spriteFrame",
+      "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "resolved": {
+        "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+        "source": "creator-builtin",
+        "path": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_panel.png.meta",
+        "importer": "sprite-frame",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/scenes/Game.scene",
+      "location": "[83].dragMatchPrefab",
+      "uuid": "d7e32619-2acf-40bb-bca4-addfccbb49be",
+      "resolved": {
+        "uuid": "d7e32619-2acf-40bb-bca4-addfccbb49be",
+        "source": "project",
+        "path": "assets/prefabs/stages/DragMatchStage.prefab.meta",
+        "importer": "prefab",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/scenes/Game.scene",
+      "location": "[83].cableConnectPrefab",
+      "uuid": "afa7f7c0-6a62-4d07-9295-6011af87cf7a",
+      "resolved": {
+        "uuid": "afa7f7c0-6a62-4d07-9295-6011af87cf7a",
+        "source": "project",
+        "path": "assets/prefabs/stages/CableConnectStage.prefab.meta",
+        "importer": "prefab",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/scenes/Game.scene",
+      "location": "[83].cleanSwipePrefab",
+      "uuid": "fa38d9cd-1551-4324-9805-acc21429befc",
+      "resolved": {
+        "uuid": "fa38d9cd-1551-4324-9805-acc21429befc",
+        "source": "project",
+        "path": "assets/prefabs/stages/CleanSwipeStage.prefab.meta",
+        "importer": "prefab",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/scenes/Game.scene",
+      "location": "[90]._spriteFrame",
+      "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "resolved": {
+        "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+        "source": "creator-builtin",
+        "path": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_panel.png.meta",
+        "importer": "sprite-frame",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/scenes/Game.scene",
+      "location": "[103]._spriteFrame",
+      "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "resolved": {
+        "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+        "source": "creator-builtin",
+        "path": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_panel.png.meta",
+        "importer": "sprite-frame",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/scenes/Game.scene",
+      "location": "[106]._spriteFrame",
+      "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "resolved": {
+        "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+        "source": "creator-builtin",
+        "path": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_panel.png.meta",
+        "importer": "sprite-frame",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/scenes/Game.scene",
+      "location": "[110]._spriteFrame",
+      "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "resolved": {
+        "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+        "source": "creator-builtin",
+        "path": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_panel.png.meta",
+        "importer": "sprite-frame",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/scenes/Game.scene",
+      "location": "[116]._envmapHDR",
+      "uuid": "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+      "resolved": {
+        "uuid": "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "source": "creator-builtin",
+        "path": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\default_skybox\\default_skybox.hdr.meta",
+        "importer": "erp-texture-cube",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/scenes/Game.scene",
+      "location": "[116]._envmap",
+      "uuid": "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+      "resolved": {
+        "uuid": "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "source": "creator-builtin",
+        "path": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\default_skybox\\default_skybox.hdr.meta",
+        "importer": "erp-texture-cube",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/scenes/Game.scene",
+      "location": "[116]._envmapLDR",
+      "uuid": "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0",
+      "resolved": {
+        "uuid": "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0",
+        "source": "creator-builtin",
+        "path": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\default_skybox\\default_skybox.png.meta",
+        "importer": "erp-texture-cube",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/prefabs/stages/DragMatchStage.prefab",
+      "location": "[6].itemPrefab",
+      "uuid": "fefd5955-3eac-44ad-b9ec-d907012e16e1",
+      "resolved": {
+        "uuid": "fefd5955-3eac-44ad-b9ec-d907012e16e1",
+        "source": "project",
+        "path": "assets/prefabs/elements/DragItem.prefab.meta",
+        "importer": "prefab",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/prefabs/stages/DragMatchStage.prefab",
+      "location": "[6].targetPrefab",
+      "uuid": "baed1239-77f8-4e48-b00b-4de4c6d67830",
+      "resolved": {
+        "uuid": "baed1239-77f8-4e48-b00b-4de4c6d67830",
+        "source": "project",
+        "path": "assets/prefabs/elements/DragTarget.prefab.meta",
+        "importer": "prefab",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/prefabs/stages/CableConnectStage.prefab",
+      "location": "[4].cablePrefab",
+      "uuid": "2ad8fe32-bebc-4d0e-8913-560ce3d72eac",
+      "resolved": {
+        "uuid": "2ad8fe32-bebc-4d0e-8913-560ce3d72eac",
+        "source": "project",
+        "path": "assets/prefabs/elements/Cable.prefab.meta",
+        "importer": "prefab",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/prefabs/stages/CableConnectStage.prefab",
+      "location": "[4].portPrefab",
+      "uuid": "5147d16e-d660-4b36-983f-73c8cd3b203f",
+      "resolved": {
+        "uuid": "5147d16e-d660-4b36-983f-73c8cd3b203f",
+        "source": "project",
+        "path": "assets/prefabs/elements/Port.prefab.meta",
+        "importer": "prefab",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/prefabs/stages/CleanSwipeStage.prefab",
+      "location": "[9]._spriteFrame",
+      "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "resolved": {
+        "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+        "source": "creator-builtin",
+        "path": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_panel.png.meta",
+        "importer": "sprite-frame",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/prefabs/stages/CleanSwipeStage.prefab",
+      "location": "[14].dirtCellPrefab",
+      "uuid": "c6243d95-8ebe-4646-8575-342bcf1f156f",
+      "resolved": {
+        "uuid": "c6243d95-8ebe-4646-8575-342bcf1f156f",
+        "source": "project",
+        "path": "assets/prefabs/elements/DirtCell.prefab.meta",
+        "importer": "prefab",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/prefabs/elements/DragItem.prefab",
+      "location": "[10]._spriteFrame",
+      "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "resolved": {
+        "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+        "source": "creator-builtin",
+        "path": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_panel.png.meta",
+        "importer": "sprite-frame",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/prefabs/elements/DragTarget.prefab",
+      "location": "[10]._spriteFrame",
+      "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "resolved": {
+        "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+        "source": "creator-builtin",
+        "path": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_panel.png.meta",
+        "importer": "sprite-frame",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/prefabs/elements/Cable.prefab",
+      "location": "[11]._spriteFrame",
+      "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "resolved": {
+        "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+        "source": "creator-builtin",
+        "path": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_panel.png.meta",
+        "importer": "sprite-frame",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/prefabs/elements/Cable.prefab",
+      "location": "[23]._spriteFrame",
+      "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "resolved": {
+        "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+        "source": "creator-builtin",
+        "path": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_panel.png.meta",
+        "importer": "sprite-frame",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/prefabs/elements/Port.prefab",
+      "location": "[10]._spriteFrame",
+      "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "resolved": {
+        "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+        "source": "creator-builtin",
+        "path": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_panel.png.meta",
+        "importer": "sprite-frame",
+        "imported": true,
+        "assetExists": true
+      }
+    },
+    {
+      "resource": "assets/prefabs/elements/DirtCell.prefab",
+      "location": "[4]._spriteFrame",
+      "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+      "resolved": {
+        "uuid": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+        "source": "creator-builtin",
+        "path": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_panel.png.meta",
+        "importer": "sprite-frame",
+        "imported": true,
+        "assetExists": true
+      }
+    }
+  ],
+  "runtime": {
+    "sceneUuid": "ef51aae5-f3a0-4ba5-9918-6d84e400d36f",
+    "hostUuid": "b8jPFtT3BFVbZ+zyBrvTxe",
+    "classes": {
+      "LevelManager": "9c83cUZ7jJFqIYVj2Lnpn1H",
+      "StageHost": "b9b07S2IuBIoJ6NcDxKMZHI",
+      "DragMatchStageController": "5a942JfarhBYYM+JSqrluNf",
+      "CableConnectStageController": "7b02eDuSJZBXJDBqfXYhWIL",
+      "CleanSwipeStageController": "9d4cdHas3NPQqAPoPPrLlqN",
+      "DraggableItem": "3780awqOxhEPqgzYt6SXuvJ",
+      "CableConnector": "6b208drtWRN2p8YAULxM9XN",
+      "RunController": "03dedAkeUJAHaCj+asn7SXG",
+      "GameController": "ad134sCDVxPrK99BTzoLoxl",
+      "Day1Prototype": "79913GHZnlGhoFDLdtIGN8K"
+    },
+    "orders": [
+      {
+        "id": 1,
+        "key": "day3-1",
+        "stages": [
+          {
+            "id": "drag-1",
+            "kind": "drag-match"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "key": "day3-2",
+        "stages": [
+          {
+            "id": "drag-2",
+            "kind": "drag-match"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "key": "day3-3",
+        "stages": [
+          {
+            "id": "drag-3",
+            "kind": "drag-match"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "key": "keyboard-clean",
+        "stages": [
+          {
+            "id": "keyboard-clean",
+            "kind": "clean-swipe"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "key": "computer-cables",
+        "stages": [
+          {
+            "id": "computer-cables",
+            "kind": "cable-connect"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "key": "mouse-maintenance",
+        "stages": [
+          {
+            "id": "shell-clean",
+            "kind": "clean-swipe"
+          },
+          {
+            "id": "mouse-parts",
+            "kind": "drag-match"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "key": "router-cables",
+        "stages": [
+          {
+            "id": "router-cables",
+            "kind": "cable-connect"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "key": "streaming-desk",
+        "stages": [
+          {
+            "id": "streaming-devices",
+            "kind": "drag-match"
+          },
+          {
+            "id": "streaming-cables",
+            "kind": "cable-connect"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "key": "computer-repair",
+        "stages": [
+          {
+            "id": "case-clean",
+            "kind": "clean-swipe"
+          },
+          {
+            "id": "case-cables",
+            "kind": "cable-connect"
+          },
+          {
+            "id": "case-parts",
+            "kind": "drag-match"
+          }
+        ]
+      }
+    ]
+  },
+  "limitations": [
+    "This audit does not execute gameplay, synthetic touch, Preview, physical touch or a platform build.",
+    "Catalog semantic validation occurs when the actual OrderCatalog is imported; this audit additionally checks the runtime catalog identity and shape.",
+    "Runtime listener multiplicity is covered by behavior tests and the engine probe; serialized Button events are checked here."
+  ]
+}

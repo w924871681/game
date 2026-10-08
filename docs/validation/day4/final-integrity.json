@@ -1,0 +1,1820 @@
+{
+  "schemaVersion": 2,
+  "generatedAtUtc": "2026-10-08T06:45:34.238Z",
+  "displayTimezone": "Asia/Shanghai",
+  "projectRoot": "D:/game",
+  "phase": "public-upload-pre-commit",
+  "mode": "Read-only pre-commit consistency inspection; only this existing integrity report is written; behavioral tests and Creator audit/probe are not rerun",
+  "ok": true,
+  "issues": [],
+  "notes": [
+    "The Day 3 manifest received public-safe metadata redaction of backupDirectory only before this inspection. Its original file records remain identical; the manifest itself is not claimed byte-identical to the private original.",
+    "Three new directory metadata files have no earlier hash record and are explicitly not historically compared.",
+    "Git and file size values are a point-in-time pre-commit snapshot, not a claim of a completed commit or push."
+  ],
+  "counts": {
+    "savedResourceFiles": 9,
+    "savedResourceAndMetaFiles": 18,
+    "matchingAssetFiles": 18,
+    "totalAssetFiles": 71,
+    "assetFilesComparedToEditorAudit": 54,
+    "assetFilesComparedToDay3Baseline": 14,
+    "assetFilesWithoutHistoricalHash": 3,
+    "historicalFilesCompared": 17,
+    "historicalMatches": 17,
+    "historicalFilesWithoutBaseline": 0,
+    "implementationFilesCompared": 31,
+    "implementationMatches": 31,
+    "unrecordedImplementationFiles": 0,
+    "validationLogsCompared": 9,
+    "validationLogMatches": 9,
+    "metadataFiles": 39,
+    "metadataUuids": 39,
+    "duplicateMetadataUuids": 0,
+    "gitVisibleFiles": 167,
+    "untrackedFilesAtInspection": 167,
+    "trackedFiles": 0,
+    "visuallyReviewedScreenshots": 42,
+    "independentlyScannedTextFiles": 125
+  },
+  "baseline": {
+    "manifest": {
+      "path": "docs/validation/day4/day3-baseline-manifest.json",
+      "bytes": 11851,
+      "sha256": "b81991b2a9d45328a5027405ec8e51bf1ce8c4e05793ad7c1d842715434296c9"
+    },
+    "generatedAt": "2026-10-07T12:18:55.1485376Z",
+    "readOnly": true,
+    "untouchedDuringThisInspection": true,
+    "publicSafeMetadataRedaction": {
+      "changedFields": [
+        "backupDirectory"
+      ],
+      "replacementBackupDirectory": "<local-day3-backup-path>",
+      "originalFileRecordsIdentical": true,
+      "originalFileRecordCount": 65,
+      "originalPrivateManifest": {
+        "bytes": 11928,
+        "sha256": "b336e94c6e5d34b745bcf85a96710333aee97b564443868cd2a612d2141bf8a0"
+      },
+      "originalManifestBytesIdentical": false,
+      "privateBackupLocationPublished": false
+    }
+  },
+  "creatorEvidence": {
+    "audit": {
+      "timestamp": "2026-10-08T04:43:21.094Z",
+      "ok": true,
+      "passedChecks": 187,
+      "totalChecks": 187,
+      "sceneUuid": "ef51aae5-f3a0-4ba5-9918-6d84e400d36f",
+      "sceneSha256": "43f195a8748f0d02321baaed6d0a611c3090358d19b014df4244825bf0e55020"
+    },
+    "probe": {
+      "timestamp": "2026-10-08T04:43:45.143Z",
+      "ok": true,
+      "passedChecks": 21,
+      "failedChecks": 0,
+      "cleanup": {
+        "originalTweenSystemRestored": true,
+        "offSceneFixtures": 21,
+        "fixtureRootsScheduledForDestroy": 21,
+        "formalSceneUnchanged": true,
+        "errors": []
+      }
+    },
+    "repeatBuild": {
+      "timestamp": "2026-10-08T04:42:56.661Z",
+      "ok": true,
+      "createdAssets": [],
+      "reusedAssets": [
+        "db://assets/prefabs/elements/DragItem.prefab",
+        "db://assets/prefabs/elements/DragTarget.prefab",
+        "db://assets/prefabs/elements/Port.prefab",
+        "db://assets/prefabs/elements/Cable.prefab",
+        "db://assets/prefabs/elements/DirtCell.prefab",
+        "db://assets/prefabs/stages/DragMatchStage.prefab",
+        "db://assets/prefabs/stages/CableConnectStage.prefab",
+        "db://assets/prefabs/stages/CleanSwipeStage.prefab"
+      ]
+    },
+    "evidenceOrder": {
+      "appearanceBeforeRepeatBuild": true,
+      "buildBeforeAudit": true,
+      "auditBeforeProbe": true
+    },
+    "reportsUnmodifiedDuringThisInspection": true
+  },
+  "savedAssets": [
+    {
+      "path": "assets/scenes/Game.scene",
+      "bytes": 87422,
+      "sha256": "43f195a8748f0d02321baaed6d0a611c3090358d19b014df4244825bf0e55020",
+      "expectedBytes": 87422,
+      "expectedSha256": "43f195a8748f0d02321baaed6d0a611c3090358d19b014df4244825bf0e55020",
+      "status": "match"
+    },
+    {
+      "path": "assets/scenes/Game.scene.meta",
+      "bytes": 181,
+      "sha256": "4ccda419d76fbd79c19b9eae0a5b771ad96a39d954ac7326715c2ae1008d920d",
+      "expectedBytes": 181,
+      "expectedSha256": "4ccda419d76fbd79c19b9eae0a5b771ad96a39d954ac7326715c2ae1008d920d",
+      "status": "match"
+    },
+    {
+      "path": "assets/prefabs/stages/DragMatchStage.prefab",
+      "bytes": 2701,
+      "sha256": "c28db338b5cf0609ddc57423943c4603835fe2e0e2d5d7706dbdd0b58f702750",
+      "expectedBytes": 2701,
+      "expectedSha256": "c28db338b5cf0609ddc57423943c4603835fe2e0e2d5d7706dbdd0b58f702750",
+      "status": "match"
+    },
+    {
+      "path": "assets/prefabs/stages/DragMatchStage.prefab.meta",
+      "bytes": 222,
+      "sha256": "fa4a1ae0eda017d5533799776f725b8594ede749a256227637e0ded9c796281c",
+      "expectedBytes": 222,
+      "expectedSha256": "fa4a1ae0eda017d5533799776f725b8594ede749a256227637e0ded9c796281c",
+      "status": "match"
+    },
+    {
+      "path": "assets/prefabs/stages/CableConnectStage.prefab",
+      "bytes": 2254,
+      "sha256": "426177dd06c24f68d567d7622a1a4324b9b9b970bac188a77b1d22ad549a0263",
+      "expectedBytes": 2254,
+      "expectedSha256": "426177dd06c24f68d567d7622a1a4324b9b9b970bac188a77b1d22ad549a0263",
+      "status": "match"
+    },
+    {
+      "path": "assets/prefabs/stages/CableConnectStage.prefab.meta",
+      "bytes": 225,
+      "sha256": "faa0c4339170b5d0e8238b22cfd478b4dede22ef3d9b67f3a00be89eabc4642c",
+      "expectedBytes": 225,
+      "expectedSha256": "faa0c4339170b5d0e8238b22cfd478b4dede22ef3d9b67f3a00be89eabc4642c",
+      "status": "match"
+    },
+    {
+      "path": "assets/prefabs/stages/CleanSwipeStage.prefab",
+      "bytes": 6226,
+      "sha256": "8c35e2618f3e07b3bab84c96ca90faea3579e56c7eeea397e4f70c9852f8c416",
+      "expectedBytes": 6226,
+      "expectedSha256": "8c35e2618f3e07b3bab84c96ca90faea3579e56c7eeea397e4f70c9852f8c416",
+      "status": "match"
+    },
+    {
+      "path": "assets/prefabs/stages/CleanSwipeStage.prefab.meta",
+      "bytes": 223,
+      "sha256": "0edaedc937ae9865cd36b2e8765879c2de06e4aec83c99d62e27984c8c6b2aae",
+      "expectedBytes": 223,
+      "expectedSha256": "0edaedc937ae9865cd36b2e8765879c2de06e4aec83c99d62e27984c8c6b2aae",
+      "status": "match"
+    },
+    {
+      "path": "assets/prefabs/elements/DragItem.prefab",
+      "bytes": 5944,
+      "sha256": "6258615d687e7a49f9734463756d9e5cbebe21a3bfe2401ec25f38bcbb069518",
+      "expectedBytes": 5944,
+      "expectedSha256": "6258615d687e7a49f9734463756d9e5cbebe21a3bfe2401ec25f38bcbb069518",
+      "status": "match"
+    },
+    {
+      "path": "assets/prefabs/elements/DragItem.prefab.meta",
+      "bytes": 216,
+      "sha256": "6d5f44353900116d1f592e7d00ec3fe735d0cead39e7ec48b1cca7d04ff6c556",
+      "expectedBytes": 216,
+      "expectedSha256": "6d5f44353900116d1f592e7d00ec3fe735d0cead39e7ec48b1cca7d04ff6c556",
+      "status": "match"
+    },
+    {
+      "path": "assets/prefabs/elements/DragTarget.prefab",
+      "bytes": 5485,
+      "sha256": "8100f0ab6fcd5442f2f6acc2f5ed8c5fee4dbc0c4e2bbf2c9e33d194578138e6",
+      "expectedBytes": 5485,
+      "expectedSha256": "8100f0ab6fcd5442f2f6acc2f5ed8c5fee4dbc0c4e2bbf2c9e33d194578138e6",
+      "status": "match"
+    },
+    {
+      "path": "assets/prefabs/elements/DragTarget.prefab.meta",
+      "bytes": 218,
+      "sha256": "defe95786114bb6b1ebce6d3235f10eddbbcd7a17574dea32c51e882ab7bf33a",
+      "expectedBytes": 218,
+      "expectedSha256": "defe95786114bb6b1ebce6d3235f10eddbbcd7a17574dea32c51e882ab7bf33a",
+      "status": "match"
+    },
+    {
+      "path": "assets/prefabs/elements/Cable.prefab",
+      "bytes": 12342,
+      "sha256": "d4e6eba7885f4f7d29ab43d4f4ae8963d3e9e1860748eddbc974bd6b2609c1a9",
+      "expectedBytes": 12342,
+      "expectedSha256": "d4e6eba7885f4f7d29ab43d4f4ae8963d3e9e1860748eddbc974bd6b2609c1a9",
+      "status": "match"
+    },
+    {
+      "path": "assets/prefabs/elements/Cable.prefab.meta",
+      "bytes": 213,
+      "sha256": "853d43fc2667fcb6cc159f545e94c2526761eb1eec28fc0b6fa72a48cacd92c5",
+      "expectedBytes": 213,
+      "expectedSha256": "853d43fc2667fcb6cc159f545e94c2526761eb1eec28fc0b6fa72a48cacd92c5",
+      "status": "match"
+    },
+    {
+      "path": "assets/prefabs/elements/Port.prefab",
+      "bytes": 5471,
+      "sha256": "a65f80eb2541e7cf1bb44aa495fe042486b95bf6682f6fc02d23d9b0b5825d1f",
+      "expectedBytes": 5471,
+      "expectedSha256": "a65f80eb2541e7cf1bb44aa495fe042486b95bf6682f6fc02d23d9b0b5825d1f",
+      "status": "match"
+    },
+    {
+      "path": "assets/prefabs/elements/Port.prefab.meta",
+      "bytes": 212,
+      "sha256": "dc04ce3fcfa326dbab7d1d0b9e83373c6e351e3583919f06891dda1c7ca908e4",
+      "expectedBytes": 212,
+      "expectedSha256": "dc04ce3fcfa326dbab7d1d0b9e83373c6e351e3583919f06891dda1c7ca908e4",
+      "status": "match"
+    },
+    {
+      "path": "assets/prefabs/elements/DirtCell.prefab",
+      "bytes": 2930,
+      "sha256": "cacf1392ab84410db9d6abb6b143bae859668a6fed0ff1d2eaf352f09508ac76",
+      "expectedBytes": 2930,
+      "expectedSha256": "cacf1392ab84410db9d6abb6b143bae859668a6fed0ff1d2eaf352f09508ac76",
+      "status": "match"
+    },
+    {
+      "path": "assets/prefabs/elements/DirtCell.prefab.meta",
+      "bytes": 216,
+      "sha256": "b227caadf4e7ae983b4cafa44c5fdce33c9ab0a26d6c6374367e22862e9171e6",
+      "expectedBytes": 216,
+      "expectedSha256": "b227caadf4e7ae983b4cafa44c5fdce33c9ab0a26d6c6374367e22862e9171e6",
+      "status": "match"
+    }
+  ],
+  "allAssetHashComparisons": {
+    "editorAudit": [
+      {
+        "path": "assets/scripts/core/GameController.ts.meta",
+        "bytes": 171,
+        "sha256": "73552e722aba8f0d7aeced709d26cadbd492164cb4f297fce6ea35301b72f858",
+        "expectedBytes": 171,
+        "expectedSha256": "73552e722aba8f0d7aeced709d26cadbd492164cb4f297fce6ea35301b72f858",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/core/GameController.ts",
+        "bytes": 2453,
+        "sha256": "e1b3c357bc915746e20b240f88f48c8c89876c14116850bd55c688d2bb0e4297",
+        "expectedBytes": 2453,
+        "expectedSha256": "e1b3c357bc915746e20b240f88f48c8c89876c14116850bd55c688d2bb0e4297",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/core/LegacyLevelManager.ts.meta",
+        "bytes": 171,
+        "sha256": "e84378379a0d5428094d6121872ecb036de3c0dbd6189be82496001133110d3f",
+        "expectedBytes": 171,
+        "expectedSha256": "e84378379a0d5428094d6121872ecb036de3c0dbd6189be82496001133110d3f",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/core/LegacyLevelManager.ts",
+        "bytes": 12443,
+        "sha256": "2ef5ff4fbe16284c35a66010880cb3bdc2edb62b21368429c98b26af662ebf4b",
+        "expectedBytes": 12443,
+        "expectedSha256": "2ef5ff4fbe16284c35a66010880cb3bdc2edb62b21368429c98b26af662ebf4b",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/core/LevelManager.ts.meta",
+        "bytes": 171,
+        "sha256": "e9b2eacaea0a89f2ebd3dc94593f7698ec4acd3d1b9d53de2e196789a639310c",
+        "expectedBytes": 171,
+        "expectedSha256": "e9b2eacaea0a89f2ebd3dc94593f7698ec4acd3d1b9d53de2e196789a639310c",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/core/LevelManager.ts",
+        "bytes": 13928,
+        "sha256": "0c0a709191eca6368d5e576be63ba1a74f6cdd7bd8cba61c343ea9a48bad2d0d",
+        "expectedBytes": 13928,
+        "expectedSha256": "0c0a709191eca6368d5e576be63ba1a74f6cdd7bd8cba61c343ea9a48bad2d0d",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/core/RunController.ts.meta",
+        "bytes": 171,
+        "sha256": "a843e9d148657dd9c031c3b45b183a265d1b5a6925cc5b5fa54dfb9ed2e14cf5",
+        "expectedBytes": 171,
+        "expectedSha256": "a843e9d148657dd9c031c3b45b183a265d1b5a6925cc5b5fa54dfb9ed2e14cf5",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/core/RunController.ts",
+        "bytes": 6907,
+        "sha256": "064cac06b336ddf741b983c09a025f0fb33bd130bc2b45d37ef2ad0c9df64655",
+        "expectedBytes": 6907,
+        "expectedSha256": "064cac06b336ddf741b983c09a025f0fb33bd130bc2b45d37ef2ad0c9df64655",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/data/LevelCatalog.ts.meta",
+        "bytes": 171,
+        "sha256": "e0064153b6aedb854987e509311c285599a9f5da677b420d6f25f273a9667551",
+        "expectedBytes": 171,
+        "expectedSha256": "e0064153b6aedb854987e509311c285599a9f5da677b420d6f25f273a9667551",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/data/LevelCatalog.ts",
+        "bytes": 2561,
+        "sha256": "24e394aa8495e4c23a18a92b15ea727108161a3c28d8d2e1fdd863afc54f4e89",
+        "expectedBytes": 2561,
+        "expectedSha256": "24e394aa8495e4c23a18a92b15ea727108161a3c28d8d2e1fdd863afc54f4e89",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/data/LevelDefinition.ts.meta",
+        "bytes": 171,
+        "sha256": "1a4f178b86302bec167540bb4e2395e626e91d5a7b11ade790a5cc3188c2847b",
+        "expectedBytes": 171,
+        "expectedSha256": "1a4f178b86302bec167540bb4e2395e626e91d5a7b11ade790a5cc3188c2847b",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/data/LevelDefinition.ts",
+        "bytes": 789,
+        "sha256": "7ffc204ef01fa5f0a7dcd65197776f27e1a98613eb4aa643c92c1cee7abbcc0f",
+        "expectedBytes": 789,
+        "expectedSha256": "7ffc204ef01fa5f0a7dcd65197776f27e1a98613eb4aa643c92c1cee7abbcc0f",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/data/OrderCatalog.ts.meta",
+        "bytes": 171,
+        "sha256": "1f97326fc522468269b1ab3c00c8a3358a404957aa862a043a15bf79de159084",
+        "expectedBytes": 171,
+        "expectedSha256": "1f97326fc522468269b1ab3c00c8a3358a404957aa862a043a15bf79de159084",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/data/OrderCatalog.ts",
+        "bytes": 13306,
+        "sha256": "a038ff6a9269993c9d650954a2e680c1962416ea38230bec4c1d8a9a7df43eb0",
+        "expectedBytes": 13306,
+        "expectedSha256": "a038ff6a9269993c9d650954a2e680c1962416ea38230bec4c1d8a9a7df43eb0",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/data/OrderDefinition.ts.meta",
+        "bytes": 171,
+        "sha256": "bed0b8888d1863afb09713db550169b35e61cd7c4fddbfccd75155c5acf67c1d",
+        "expectedBytes": 171,
+        "expectedSha256": "bed0b8888d1863afb09713db550169b35e61cd7c4fddbfccd75155c5acf67c1d",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/data/OrderDefinition.ts",
+        "bytes": 368,
+        "sha256": "c0fc93e4da57a591b1fd9bbab0014be7092179c6a05b583e2d365429dfe24b6d",
+        "expectedBytes": 368,
+        "expectedSha256": "c0fc93e4da57a591b1fd9bbab0014be7092179c6a05b583e2d365429dfe24b6d",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/data/StageDefinition.ts.meta",
+        "bytes": 171,
+        "sha256": "6889b07e7be4a3ae1696e3e9ac03beed020592cd7d58eca4da1f5c394138c2e1",
+        "expectedBytes": 171,
+        "expectedSha256": "6889b07e7be4a3ae1696e3e9ac03beed020592cd7d58eca4da1f5c394138c2e1",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/data/StageDefinition.ts",
+        "bytes": 2046,
+        "sha256": "9b8255ecbd4dc7ddc5f70bff078a424a878ecf058ac34553caf552bc386fdd34",
+        "expectedBytes": 2046,
+        "expectedSha256": "9b8255ecbd4dc7ddc5f70bff078a424a878ecf058ac34553caf552bc386fdd34",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/gameplay/CableConnector.ts.meta",
+        "bytes": 171,
+        "sha256": "a7dfda8e95e9fc3dfd61385d7b1f8b38234171a25647ce003fa489238169ec4a",
+        "expectedBytes": 171,
+        "expectedSha256": "a7dfda8e95e9fc3dfd61385d7b1f8b38234171a25647ce003fa489238169ec4a",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/gameplay/CableConnector.ts",
+        "bytes": 10909,
+        "sha256": "d03076277b33508677cdd89ec6f13f8314db7f0d759d56245c58d22bb9bfa5bf",
+        "expectedBytes": 10909,
+        "expectedSha256": "d03076277b33508677cdd89ec6f13f8314db7f0d759d56245c58d22bb9bfa5bf",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/gameplay/Day1Prototype.ts.meta",
+        "bytes": 171,
+        "sha256": "88b506fb8f026c277f18824e9f1724df7a600c4c0f1591c226d262d6ec441128",
+        "expectedBytes": 171,
+        "expectedSha256": "88b506fb8f026c277f18824e9f1724df7a600c4c0f1591c226d262d6ec441128",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/gameplay/Day1Prototype.ts",
+        "bytes": 4655,
+        "sha256": "91077917554d152a66d85662099fc4b5b48876e29ca1ece2e07c74a0eb398a10",
+        "expectedBytes": 4655,
+        "expectedSha256": "91077917554d152a66d85662099fc4b5b48876e29ca1ece2e07c74a0eb398a10",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/gameplay/DraggableItem.ts.meta",
+        "bytes": 171,
+        "sha256": "f37440093ce1fcd6526a5faf9807957ade12d8c8475b9a98d8c0baadf63e0db0",
+        "expectedBytes": 171,
+        "expectedSha256": "f37440093ce1fcd6526a5faf9807957ade12d8c8475b9a98d8c0baadf63e0db0",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/gameplay/DraggableItem.ts",
+        "bytes": 11047,
+        "sha256": "1d09e9f352a78b677d1b6ad403cc7b08af7afc04e705c00df83212337397e367",
+        "expectedBytes": 11047,
+        "expectedSha256": "1d09e9f352a78b677d1b6ad403cc7b08af7afc04e705c00df83212337397e367",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/stages/CableConnectStageController.ts.meta",
+        "bytes": 171,
+        "sha256": "22e6679de7bdd011c2fb75fa5bc3fe0641c8e76dcebb2f94d36a5728429d9497",
+        "expectedBytes": 171,
+        "expectedSha256": "22e6679de7bdd011c2fb75fa5bc3fe0641c8e76dcebb2f94d36a5728429d9497",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/stages/CableConnectStageController.ts",
+        "bytes": 6513,
+        "sha256": "63dd5a7f51d15c2db3bc2bfec4487dec0d211e72e7bd3d83864bdba686e79f8d",
+        "expectedBytes": 6513,
+        "expectedSha256": "63dd5a7f51d15c2db3bc2bfec4487dec0d211e72e7bd3d83864bdba686e79f8d",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/stages/CleanSwipeStageController.ts.meta",
+        "bytes": 171,
+        "sha256": "20cd87fb86cddb3959bd8262f6153cb6441eef4167c74f27b6c14f90a956fd11",
+        "expectedBytes": 171,
+        "expectedSha256": "20cd87fb86cddb3959bd8262f6153cb6441eef4167c74f27b6c14f90a956fd11",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/stages/CleanSwipeStageController.ts",
+        "bytes": 10922,
+        "sha256": "65a10f0d7f29e524d68e3b88b6f2ea4d60778bb2296de93d422ee82ea98640cd",
+        "expectedBytes": 10922,
+        "expectedSha256": "65a10f0d7f29e524d68e3b88b6f2ea4d60778bb2296de93d422ee82ea98640cd",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/stages/DragMatchStageController.ts.meta",
+        "bytes": 171,
+        "sha256": "64444b1e7f9273f2dd6939b60665d52871ae4a2f85f88d64d28074859af38a19",
+        "expectedBytes": 171,
+        "expectedSha256": "64444b1e7f9273f2dd6939b60665d52871ae4a2f85f88d64d28074859af38a19",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/stages/DragMatchStageController.ts",
+        "bytes": 6508,
+        "sha256": "056a6b5faa2dd33374b9625d4cd4939eb2f039309b0c302ba61db6c1bbf42766",
+        "expectedBytes": 6508,
+        "expectedSha256": "056a6b5faa2dd33374b9625d4cd4939eb2f039309b0c302ba61db6c1bbf42766",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/stages/ElementPool.ts.meta",
+        "bytes": 171,
+        "sha256": "6b87a63ae78512f99256f11322a529c5b1a868904873b51774ba58f97784c088",
+        "expectedBytes": 171,
+        "expectedSha256": "6b87a63ae78512f99256f11322a529c5b1a868904873b51774ba58f97784c088",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/stages/ElementPool.ts",
+        "bytes": 1074,
+        "sha256": "f551b622a412ad84752476facc3ce0f418958b5a7e14f516835ded02a705f2fc",
+        "expectedBytes": 1074,
+        "expectedSha256": "f551b622a412ad84752476facc3ce0f418958b5a7e14f516835ded02a705f2fc",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/stages/StageHost.ts.meta",
+        "bytes": 171,
+        "sha256": "107288870e18d97e96701524b8eb624e6f996b752375a2a48b749c52acf71854",
+        "expectedBytes": 171,
+        "expectedSha256": "107288870e18d97e96701524b8eb624e6f996b752375a2a48b749c52acf71854",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/stages/StageHost.ts",
+        "bytes": 6298,
+        "sha256": "8f4c9f80c96e3f64e14af0b9e7d03c23297c3fd82120a15d582c9a0e582710be",
+        "expectedBytes": 6298,
+        "expectedSha256": "8f4c9f80c96e3f64e14af0b9e7d03c23297c3fd82120a15d582c9a0e582710be",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/stages/StageRuntime.ts.meta",
+        "bytes": 171,
+        "sha256": "1e057585d3acc3477c774af5d3336596bf4547eed2dce00988892adf6541cce5",
+        "expectedBytes": 171,
+        "expectedSha256": "1e057585d3acc3477c774af5d3336596bf4547eed2dce00988892adf6541cce5",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/stages/StageRuntime.ts",
+        "bytes": 578,
+        "sha256": "2d5aef6a6d45560fa2a6928d54cb0b83cbad2ff9600969061e1bfe7ee23e409e",
+        "expectedBytes": 578,
+        "expectedSha256": "2d5aef6a6d45560fa2a6928d54cb0b83cbad2ff9600969061e1bfe7ee23e409e",
+        "status": "match"
+      },
+      {
+        "path": "assets/scenes/Game.scene",
+        "bytes": 87422,
+        "sha256": "43f195a8748f0d02321baaed6d0a611c3090358d19b014df4244825bf0e55020",
+        "expectedBytes": 87422,
+        "expectedSha256": "43f195a8748f0d02321baaed6d0a611c3090358d19b014df4244825bf0e55020",
+        "status": "match"
+      },
+      {
+        "path": "assets/scenes/Game.scene.meta",
+        "bytes": 181,
+        "sha256": "4ccda419d76fbd79c19b9eae0a5b771ad96a39d954ac7326715c2ae1008d920d",
+        "expectedBytes": 181,
+        "expectedSha256": "4ccda419d76fbd79c19b9eae0a5b771ad96a39d954ac7326715c2ae1008d920d",
+        "status": "match"
+      },
+      {
+        "path": "assets/prefabs/stages/DragMatchStage.prefab",
+        "bytes": 2701,
+        "sha256": "c28db338b5cf0609ddc57423943c4603835fe2e0e2d5d7706dbdd0b58f702750",
+        "expectedBytes": 2701,
+        "expectedSha256": "c28db338b5cf0609ddc57423943c4603835fe2e0e2d5d7706dbdd0b58f702750",
+        "status": "match"
+      },
+      {
+        "path": "assets/prefabs/stages/DragMatchStage.prefab.meta",
+        "bytes": 222,
+        "sha256": "fa4a1ae0eda017d5533799776f725b8594ede749a256227637e0ded9c796281c",
+        "expectedBytes": 222,
+        "expectedSha256": "fa4a1ae0eda017d5533799776f725b8594ede749a256227637e0ded9c796281c",
+        "status": "match"
+      },
+      {
+        "path": "assets/prefabs/stages/CableConnectStage.prefab",
+        "bytes": 2254,
+        "sha256": "426177dd06c24f68d567d7622a1a4324b9b9b970bac188a77b1d22ad549a0263",
+        "expectedBytes": 2254,
+        "expectedSha256": "426177dd06c24f68d567d7622a1a4324b9b9b970bac188a77b1d22ad549a0263",
+        "status": "match"
+      },
+      {
+        "path": "assets/prefabs/stages/CableConnectStage.prefab.meta",
+        "bytes": 225,
+        "sha256": "faa0c4339170b5d0e8238b22cfd478b4dede22ef3d9b67f3a00be89eabc4642c",
+        "expectedBytes": 225,
+        "expectedSha256": "faa0c4339170b5d0e8238b22cfd478b4dede22ef3d9b67f3a00be89eabc4642c",
+        "status": "match"
+      },
+      {
+        "path": "assets/prefabs/stages/CleanSwipeStage.prefab",
+        "bytes": 6226,
+        "sha256": "8c35e2618f3e07b3bab84c96ca90faea3579e56c7eeea397e4f70c9852f8c416",
+        "expectedBytes": 6226,
+        "expectedSha256": "8c35e2618f3e07b3bab84c96ca90faea3579e56c7eeea397e4f70c9852f8c416",
+        "status": "match"
+      },
+      {
+        "path": "assets/prefabs/stages/CleanSwipeStage.prefab.meta",
+        "bytes": 223,
+        "sha256": "0edaedc937ae9865cd36b2e8765879c2de06e4aec83c99d62e27984c8c6b2aae",
+        "expectedBytes": 223,
+        "expectedSha256": "0edaedc937ae9865cd36b2e8765879c2de06e4aec83c99d62e27984c8c6b2aae",
+        "status": "match"
+      },
+      {
+        "path": "assets/prefabs/elements/DragItem.prefab",
+        "bytes": 5944,
+        "sha256": "6258615d687e7a49f9734463756d9e5cbebe21a3bfe2401ec25f38bcbb069518",
+        "expectedBytes": 5944,
+        "expectedSha256": "6258615d687e7a49f9734463756d9e5cbebe21a3bfe2401ec25f38bcbb069518",
+        "status": "match"
+      },
+      {
+        "path": "assets/prefabs/elements/DragItem.prefab.meta",
+        "bytes": 216,
+        "sha256": "6d5f44353900116d1f592e7d00ec3fe735d0cead39e7ec48b1cca7d04ff6c556",
+        "expectedBytes": 216,
+        "expectedSha256": "6d5f44353900116d1f592e7d00ec3fe735d0cead39e7ec48b1cca7d04ff6c556",
+        "status": "match"
+      },
+      {
+        "path": "assets/prefabs/elements/DragTarget.prefab",
+        "bytes": 5485,
+        "sha256": "8100f0ab6fcd5442f2f6acc2f5ed8c5fee4dbc0c4e2bbf2c9e33d194578138e6",
+        "expectedBytes": 5485,
+        "expectedSha256": "8100f0ab6fcd5442f2f6acc2f5ed8c5fee4dbc0c4e2bbf2c9e33d194578138e6",
+        "status": "match"
+      },
+      {
+        "path": "assets/prefabs/elements/DragTarget.prefab.meta",
+        "bytes": 218,
+        "sha256": "defe95786114bb6b1ebce6d3235f10eddbbcd7a17574dea32c51e882ab7bf33a",
+        "expectedBytes": 218,
+        "expectedSha256": "defe95786114bb6b1ebce6d3235f10eddbbcd7a17574dea32c51e882ab7bf33a",
+        "status": "match"
+      },
+      {
+        "path": "assets/prefabs/elements/Cable.prefab",
+        "bytes": 12342,
+        "sha256": "d4e6eba7885f4f7d29ab43d4f4ae8963d3e9e1860748eddbc974bd6b2609c1a9",
+        "expectedBytes": 12342,
+        "expectedSha256": "d4e6eba7885f4f7d29ab43d4f4ae8963d3e9e1860748eddbc974bd6b2609c1a9",
+        "status": "match"
+      },
+      {
+        "path": "assets/prefabs/elements/Cable.prefab.meta",
+        "bytes": 213,
+        "sha256": "853d43fc2667fcb6cc159f545e94c2526761eb1eec28fc0b6fa72a48cacd92c5",
+        "expectedBytes": 213,
+        "expectedSha256": "853d43fc2667fcb6cc159f545e94c2526761eb1eec28fc0b6fa72a48cacd92c5",
+        "status": "match"
+      },
+      {
+        "path": "assets/prefabs/elements/Port.prefab",
+        "bytes": 5471,
+        "sha256": "a65f80eb2541e7cf1bb44aa495fe042486b95bf6682f6fc02d23d9b0b5825d1f",
+        "expectedBytes": 5471,
+        "expectedSha256": "a65f80eb2541e7cf1bb44aa495fe042486b95bf6682f6fc02d23d9b0b5825d1f",
+        "status": "match"
+      },
+      {
+        "path": "assets/prefabs/elements/Port.prefab.meta",
+        "bytes": 212,
+        "sha256": "dc04ce3fcfa326dbab7d1d0b9e83373c6e351e3583919f06891dda1c7ca908e4",
+        "expectedBytes": 212,
+        "expectedSha256": "dc04ce3fcfa326dbab7d1d0b9e83373c6e351e3583919f06891dda1c7ca908e4",
+        "status": "match"
+      },
+      {
+        "path": "assets/prefabs/elements/DirtCell.prefab",
+        "bytes": 2930,
+        "sha256": "cacf1392ab84410db9d6abb6b143bae859668a6fed0ff1d2eaf352f09508ac76",
+        "expectedBytes": 2930,
+        "expectedSha256": "cacf1392ab84410db9d6abb6b143bae859668a6fed0ff1d2eaf352f09508ac76",
+        "status": "match"
+      },
+      {
+        "path": "assets/prefabs/elements/DirtCell.prefab.meta",
+        "bytes": 216,
+        "sha256": "b227caadf4e7ae983b4cafa44c5fdce33c9ab0a26d6c6374367e22862e9171e6",
+        "expectedBytes": 216,
+        "expectedSha256": "b227caadf4e7ae983b4cafa44c5fdce33c9ab0a26d6c6374367e22862e9171e6",
+        "status": "match"
+      }
+    ],
+    "otherAssets": [
+      {
+        "path": "assets/audio.meta",
+        "bytes": 169,
+        "sha256": "9618f670006f2ba773fb6189cb5d6407e7714d8d5d5823b4122ac4ddca3c4de2",
+        "expectedBytes": 169,
+        "expectedSha256": "9618f670006f2ba773fb6189cb5d6407e7714d8d5d5823b4122ac4ddca3c4de2",
+        "status": "match",
+        "reference": "day3-baseline-manifest.files"
+      },
+      {
+        "path": "assets/audio/.gitkeep",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expectedBytes": 0,
+        "expectedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "status": "match",
+        "reference": "day3-baseline-manifest.files"
+      },
+      {
+        "path": "assets/configs.meta",
+        "bytes": 169,
+        "sha256": "afe4427bead9c3aed361bf4cd875539919057e021878a138fe416f56854de9f0",
+        "expectedBytes": 169,
+        "expectedSha256": "afe4427bead9c3aed361bf4cd875539919057e021878a138fe416f56854de9f0",
+        "status": "match",
+        "reference": "day3-baseline-manifest.files"
+      },
+      {
+        "path": "assets/configs/.gitkeep",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expectedBytes": 0,
+        "expectedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "status": "match",
+        "reference": "day3-baseline-manifest.files"
+      },
+      {
+        "path": "assets/prefabs.meta",
+        "bytes": 169,
+        "sha256": "21b6e21a98a3728a0abb3ad53cafda74e8c9f98b097da7c6110b38a0cacb7523",
+        "expectedBytes": 169,
+        "expectedSha256": "21b6e21a98a3728a0abb3ad53cafda74e8c9f98b097da7c6110b38a0cacb7523",
+        "status": "match",
+        "reference": "day3-baseline-manifest.files"
+      },
+      {
+        "path": "assets/prefabs/.gitkeep",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expectedBytes": 0,
+        "expectedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "status": "match",
+        "reference": "day3-baseline-manifest.files"
+      },
+      {
+        "path": "assets/prefabs/elements.meta",
+        "bytes": 169,
+        "sha256": "a18e104de71f8d87427bb04825f51ff17765feddeba9d37b23de0946f9b821bb",
+        "status": "not_compared_no_historical_hash"
+      },
+      {
+        "path": "assets/prefabs/stages.meta",
+        "bytes": 169,
+        "sha256": "bfeaac4079b1124c49d4a04ab0330d6febfabc28506a87863263f50845e433ab",
+        "status": "not_compared_no_historical_hash"
+      },
+      {
+        "path": "assets/scenes.meta",
+        "bytes": 169,
+        "sha256": "936317f937cfe39d0ba2828706899d157330ff963ee7403c50f48bb66348509c",
+        "expectedBytes": 169,
+        "expectedSha256": "936317f937cfe39d0ba2828706899d157330ff963ee7403c50f48bb66348509c",
+        "status": "match",
+        "reference": "day3-baseline-manifest.files"
+      },
+      {
+        "path": "assets/scenes/.gitkeep",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expectedBytes": 0,
+        "expectedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "status": "match",
+        "reference": "day3-baseline-manifest.files"
+      },
+      {
+        "path": "assets/scripts.meta",
+        "bytes": 169,
+        "sha256": "4e48b0ce486ad19a53bb477e28ccd5576dc8b726cb63ffbd21a9781814cf3e76",
+        "expectedBytes": 169,
+        "expectedSha256": "4e48b0ce486ad19a53bb477e28ccd5576dc8b726cb63ffbd21a9781814cf3e76",
+        "status": "match",
+        "reference": "day3-baseline-manifest.files"
+      },
+      {
+        "path": "assets/scripts/core.meta",
+        "bytes": 169,
+        "sha256": "8fe05ca8b6610569d4343dcabafb9f948d102220813affb4df66bdbc35815ab6",
+        "expectedBytes": 169,
+        "expectedSha256": "8fe05ca8b6610569d4343dcabafb9f948d102220813affb4df66bdbc35815ab6",
+        "status": "match",
+        "reference": "day3-baseline-manifest.files"
+      },
+      {
+        "path": "assets/scripts/data.meta",
+        "bytes": 169,
+        "sha256": "f452f63edb18de6325b45e96a4f498577fd757c05be46f080b3a88e85177e822",
+        "expectedBytes": 169,
+        "expectedSha256": "f452f63edb18de6325b45e96a4f498577fd757c05be46f080b3a88e85177e822",
+        "status": "match",
+        "reference": "day3-baseline-manifest.files"
+      },
+      {
+        "path": "assets/scripts/gameplay.meta",
+        "bytes": 169,
+        "sha256": "9fbf3ad61d0d1d1d852e5eefbfeec1d2ef5e881d7ac46f706b54aaabbc7d63af",
+        "expectedBytes": 169,
+        "expectedSha256": "9fbf3ad61d0d1d1d852e5eefbfeec1d2ef5e881d7ac46f706b54aaabbc7d63af",
+        "status": "match",
+        "reference": "day3-baseline-manifest.files"
+      },
+      {
+        "path": "assets/scripts/stages.meta",
+        "bytes": 169,
+        "sha256": "c6e0e50ab338624f68cd62cf496f11efc4040ee5263fff46264697b957c4975f",
+        "status": "not_compared_no_historical_hash"
+      },
+      {
+        "path": "assets/textures.meta",
+        "bytes": 169,
+        "sha256": "89d1700ca19779169e439f26d76070fd501f50eef25a098234233331c5025185",
+        "expectedBytes": 169,
+        "expectedSha256": "89d1700ca19779169e439f26d76070fd501f50eef25a098234233331c5025185",
+        "status": "match",
+        "reference": "day3-baseline-manifest.files"
+      },
+      {
+        "path": "assets/textures/.gitkeep",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expectedBytes": 0,
+        "expectedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "status": "match",
+        "reference": "day3-baseline-manifest.files"
+      }
+    ]
+  },
+  "appearance": {
+    "matched": true,
+    "reportTimestamp": "2026-10-08T04:42:15.534Z",
+    "prefabUuid": "fa38d9cd-1551-4324-9805-acc21429befc",
+    "inputSurfaceSize": {
+      "width": 680,
+      "height": 560
+    },
+    "dirtLayerSize": {
+      "width": 680,
+      "height": 650
+    },
+    "ownUuidReferences": 0
+  },
+  "historicalPreservation": {
+    "compared": [
+      {
+        "path": "docs/DAY2_COCOS_SETUP.md",
+        "bytes": 7487,
+        "sha256": "e5f73d09107e41d77f29715dde0f090a419241dbea8fcb2a77e333875d64db78",
+        "expectedBytes": 7487,
+        "expectedSha256": "e5f73d09107e41d77f29715dde0f090a419241dbea8fcb2a77e333875d64db78",
+        "status": "match"
+      },
+      {
+        "path": "docs/DAY3_COCOS_SETUP.md",
+        "bytes": 11603,
+        "sha256": "cff6a331d5a3be67fdec0edebcf38b0d6a7bbc5b7b5cc39365e1524e5487d090",
+        "expectedBytes": 11603,
+        "expectedSha256": "cff6a331d5a3be67fdec0edebcf38b0d6a7bbc5b7b5cc39365e1524e5487d090",
+        "status": "match"
+      },
+      {
+        "path": "docs/DAY3_CREATOR_VALIDATION.md",
+        "bytes": 5966,
+        "sha256": "dcd91415234f1fd63e2f5534a402ec79d33dfd130ec8c160d4290c4cbb6d915d",
+        "expectedBytes": 5966,
+        "expectedSha256": "dcd91415234f1fd63e2f5534a402ec79d33dfd130ec8c160d4290c4cbb6d915d",
+        "status": "match"
+      },
+      {
+        "path": "docs/validation/day3/check-cocos.log",
+        "bytes": 1019,
+        "sha256": "77a3ffeb7882e7a09bd0db339b84863696a25a0aab9a51e7f75749c184525323",
+        "expectedBytes": 1019,
+        "expectedSha256": "77a3ffeb7882e7a09bd0db339b84863696a25a0aab9a51e7f75749c184525323",
+        "status": "match"
+      },
+      {
+        "path": "docs/validation/day3/engine-probe.json",
+        "bytes": 4569,
+        "sha256": "c72a0081ed76a2e08704d6a8c02286c7c1589a48694a9533537a2c5186c5ce2e",
+        "expectedBytes": 4569,
+        "expectedSha256": "c72a0081ed76a2e08704d6a8c02286c7c1589a48694a9533537a2c5186c5ce2e",
+        "status": "match"
+      },
+      {
+        "path": "docs/validation/day3/landscape-16x9.jpg",
+        "bytes": 23706,
+        "sha256": "b1ed5f92e6301a3273c4c120993d6815bfc0a53cedd63083a57a65ef43b044a9",
+        "expectedBytes": 23706,
+        "expectedSha256": "b1ed5f92e6301a3273c4c120993d6815bfc0a53cedd63083a57a65ef43b044a9",
+        "status": "match"
+      },
+      {
+        "path": "docs/validation/day3/landscape-level1-result.jpg",
+        "bytes": 21287,
+        "sha256": "dc2f8a745e99d96466368fff8dd8ebce4ae187a201903ba0426a1f688966763a",
+        "expectedBytes": 21287,
+        "expectedSha256": "dc2f8a745e99d96466368fff8dd8ebce4ae187a201903ba0426a1f688966763a",
+        "status": "match"
+      },
+      {
+        "path": "docs/validation/day3/landscape-level2-result.jpg",
+        "bytes": 21244,
+        "sha256": "ec3daeeeffd7033058fe1e066e25b6fd57b947c8f96abdcc579ba8e66ed7bac2",
+        "expectedBytes": 21244,
+        "expectedSha256": "ec3daeeeffd7033058fe1e066e25b6fd57b947c8f96abdcc579ba8e66ed7bac2",
+        "status": "match"
+      },
+      {
+        "path": "docs/validation/day3/npm-test.log",
+        "bytes": 6799,
+        "sha256": "a9a1eb9a1d51832c8bb9c503ad36e876fa07cc01c40a33e0c8c19a4056fb5d68",
+        "expectedBytes": 6799,
+        "expectedSha256": "a9a1eb9a1d51832c8bb9c503ad36e876fa07cc01c40a33e0c8c19a4056fb5d68",
+        "status": "match"
+      },
+      {
+        "path": "docs/validation/day3/phone-390x844.jpg",
+        "bytes": 21339,
+        "sha256": "070147fcfad4034df24765dd02b525e34084e7d66d61446f1617aa3a14025ba9",
+        "expectedBytes": 21339,
+        "expectedSha256": "070147fcfad4034df24765dd02b525e34084e7d66d61446f1617aa3a14025ba9",
+        "status": "match"
+      },
+      {
+        "path": "docs/validation/day3/phone-result.jpg",
+        "bytes": 19755,
+        "sha256": "cc72bce00f1dfd16f2e715618bff684b42bcd993eb8541abc650e3bbd2d26034",
+        "expectedBytes": 19755,
+        "expectedSha256": "cc72bce00f1dfd16f2e715618bff684b42bcd993eb8541abc650e3bbd2d26034",
+        "status": "match"
+      },
+      {
+        "path": "docs/validation/day3/replay-reset.jpg",
+        "bytes": 21345,
+        "sha256": "7214a6811db9b2641eedaca92ee697e2daad7e4a376e7f62ccdb7236b930a72c",
+        "expectedBytes": 21345,
+        "expectedSha256": "7214a6811db9b2641eedaca92ee697e2daad7e4a376e7f62ccdb7236b930a72c",
+        "status": "match"
+      },
+      {
+        "path": "docs/validation/day3/run-summary.jpg",
+        "bytes": 25095,
+        "sha256": "bd7b5e06d2546346428768983ed13d147eae506ac85484af03e3e98530356a82",
+        "expectedBytes": 25095,
+        "expectedSha256": "bd7b5e06d2546346428768983ed13d147eae506ac85484af03e3e98530356a82",
+        "status": "match"
+      },
+      {
+        "path": "docs/validation/day3/scene-audit.json",
+        "bytes": 30567,
+        "sha256": "49ebe9194c8507d494bd6afaa0b5470d6f562c8bba448c5489a352e91a8404e9",
+        "expectedBytes": 30567,
+        "expectedSha256": "49ebe9194c8507d494bd6afaa0b5470d6f562c8bba448c5489a352e91a8404e9",
+        "status": "match"
+      },
+      {
+        "path": "docs/validation/day3/tablet-3x4.jpg",
+        "bytes": 28518,
+        "sha256": "f0bcec0ef0279ce4db44274f1f73344c73b8d1d3c255164663e479c00b11b6a7",
+        "expectedBytes": 28518,
+        "expectedSha256": "f0bcec0ef0279ce4db44274f1f73344c73b8d1d3c255164663e479c00b11b6a7",
+        "status": "match"
+      },
+      {
+        "path": "docs/validation/day3/tablet-result.jpg",
+        "bytes": 26959,
+        "sha256": "c12ace42080feea39e16c6e0c4528beb2adc2469d904ffbf215a6bfd2e695340",
+        "expectedBytes": 26959,
+        "expectedSha256": "c12ace42080feea39e16c6e0c4528beb2adc2469d904ffbf215a6bfd2e695340",
+        "status": "match"
+      },
+      {
+        "path": "docs/validation/day3/tablet-wrong-return.jpg",
+        "bytes": 28466,
+        "sha256": "5c267860e0dee7f932788603f062f867efc9f4aa59c4de8d6229f6f954b919b3",
+        "expectedBytes": 28466,
+        "expectedSha256": "5c267860e0dee7f932788603f062f867efc9f4aa59c4de8d6229f6f954b919b3",
+        "status": "match"
+      }
+    ],
+    "notCompared": []
+  },
+  "testedSourceConsistency": {
+    "checksJsonTimestamp": "2026-10-08T06:28:48Z",
+    "checksJson": {
+      "path": "docs/validation/day4/checks.json",
+      "bytes": 18307,
+      "sha256": "0c966c3aced2027305836a4080979369b7acc85f2f99e84f773dfd2caf5aabbe"
+    },
+    "behaviorTestsRecorded": {
+      "day1": 11,
+      "day2": 19,
+      "day3": 28,
+      "day4": 56,
+      "total": 114,
+      "passed": 114,
+      "historicalAssertionsPreserved": true,
+      "historicalManagerFixture": "LegacyLevelManager",
+      "day4UsesCompiledProductionComponents": true,
+      "limitations": [
+        "The generic Cocos mock does not run Creator, render graphics, exercise a browser touch adapter or physical touchscreen.",
+        "Mock tween queues validate configured duration, endpoints, input ownership and callbacks, not easing interpolation or natural frame timing."
+      ]
+    },
+    "realSdkProjectTypesRecorded": {
+      "passed": true,
+      "creator": "3.8.8",
+      "typescript": "5.8.2",
+      "strict": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "skipLibCheck": false
+    },
+    "sdkSelfValidationRecorded": {
+      "passed": false,
+      "expectedExitCode": 1,
+      "actualExitCode": 1,
+      "diagnostics": 102,
+      "bySource": {
+        "jsbDts": 18,
+        "ccDts": 84
+      },
+      "scope": "Only installed SDK declaration semantic diagnostics are separated from the project check. Configuration, syntax, globals and all project source/declaration diagnostics remain fatal. No SDK or generated config was modified."
+    },
+    "compared": [
+      {
+        "path": "assets/scripts/core/GameController.ts",
+        "bytes": 2453,
+        "sha256": "e1b3c357bc915746e20b240f88f48c8c89876c14116850bd55c688d2bb0e4297",
+        "expectedBytes": 2453,
+        "expectedSha256": "e1b3c357bc915746e20b240f88f48c8c89876c14116850bd55c688d2bb0e4297",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/core/LegacyLevelManager.ts",
+        "bytes": 12443,
+        "sha256": "2ef5ff4fbe16284c35a66010880cb3bdc2edb62b21368429c98b26af662ebf4b",
+        "expectedBytes": 12443,
+        "expectedSha256": "2ef5ff4fbe16284c35a66010880cb3bdc2edb62b21368429c98b26af662ebf4b",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/core/LevelManager.ts",
+        "bytes": 13928,
+        "sha256": "0c0a709191eca6368d5e576be63ba1a74f6cdd7bd8cba61c343ea9a48bad2d0d",
+        "expectedBytes": 13928,
+        "expectedSha256": "0c0a709191eca6368d5e576be63ba1a74f6cdd7bd8cba61c343ea9a48bad2d0d",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/core/RunController.ts",
+        "bytes": 6907,
+        "sha256": "064cac06b336ddf741b983c09a025f0fb33bd130bc2b45d37ef2ad0c9df64655",
+        "expectedBytes": 6907,
+        "expectedSha256": "064cac06b336ddf741b983c09a025f0fb33bd130bc2b45d37ef2ad0c9df64655",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/data/LevelCatalog.ts",
+        "bytes": 2561,
+        "sha256": "24e394aa8495e4c23a18a92b15ea727108161a3c28d8d2e1fdd863afc54f4e89",
+        "expectedBytes": 2561,
+        "expectedSha256": "24e394aa8495e4c23a18a92b15ea727108161a3c28d8d2e1fdd863afc54f4e89",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/data/LevelDefinition.ts",
+        "bytes": 789,
+        "sha256": "7ffc204ef01fa5f0a7dcd65197776f27e1a98613eb4aa643c92c1cee7abbcc0f",
+        "expectedBytes": 789,
+        "expectedSha256": "7ffc204ef01fa5f0a7dcd65197776f27e1a98613eb4aa643c92c1cee7abbcc0f",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/data/OrderCatalog.ts",
+        "bytes": 13306,
+        "sha256": "a038ff6a9269993c9d650954a2e680c1962416ea38230bec4c1d8a9a7df43eb0",
+        "expectedBytes": 13306,
+        "expectedSha256": "a038ff6a9269993c9d650954a2e680c1962416ea38230bec4c1d8a9a7df43eb0",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/data/OrderDefinition.ts",
+        "bytes": 368,
+        "sha256": "c0fc93e4da57a591b1fd9bbab0014be7092179c6a05b583e2d365429dfe24b6d",
+        "expectedBytes": 368,
+        "expectedSha256": "c0fc93e4da57a591b1fd9bbab0014be7092179c6a05b583e2d365429dfe24b6d",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/data/StageDefinition.ts",
+        "bytes": 2046,
+        "sha256": "9b8255ecbd4dc7ddc5f70bff078a424a878ecf058ac34553caf552bc386fdd34",
+        "expectedBytes": 2046,
+        "expectedSha256": "9b8255ecbd4dc7ddc5f70bff078a424a878ecf058ac34553caf552bc386fdd34",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/gameplay/CableConnector.ts",
+        "bytes": 10909,
+        "sha256": "d03076277b33508677cdd89ec6f13f8314db7f0d759d56245c58d22bb9bfa5bf",
+        "expectedBytes": 10909,
+        "expectedSha256": "d03076277b33508677cdd89ec6f13f8314db7f0d759d56245c58d22bb9bfa5bf",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/gameplay/Day1Prototype.ts",
+        "bytes": 4655,
+        "sha256": "91077917554d152a66d85662099fc4b5b48876e29ca1ece2e07c74a0eb398a10",
+        "expectedBytes": 4655,
+        "expectedSha256": "91077917554d152a66d85662099fc4b5b48876e29ca1ece2e07c74a0eb398a10",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/gameplay/DraggableItem.ts",
+        "bytes": 11047,
+        "sha256": "1d09e9f352a78b677d1b6ad403cc7b08af7afc04e705c00df83212337397e367",
+        "expectedBytes": 11047,
+        "expectedSha256": "1d09e9f352a78b677d1b6ad403cc7b08af7afc04e705c00df83212337397e367",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/stages/CableConnectStageController.ts",
+        "bytes": 6513,
+        "sha256": "63dd5a7f51d15c2db3bc2bfec4487dec0d211e72e7bd3d83864bdba686e79f8d",
+        "expectedBytes": 6513,
+        "expectedSha256": "63dd5a7f51d15c2db3bc2bfec4487dec0d211e72e7bd3d83864bdba686e79f8d",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/stages/CleanSwipeStageController.ts",
+        "bytes": 10922,
+        "sha256": "65a10f0d7f29e524d68e3b88b6f2ea4d60778bb2296de93d422ee82ea98640cd",
+        "expectedBytes": 10922,
+        "expectedSha256": "65a10f0d7f29e524d68e3b88b6f2ea4d60778bb2296de93d422ee82ea98640cd",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/stages/DragMatchStageController.ts",
+        "bytes": 6508,
+        "sha256": "056a6b5faa2dd33374b9625d4cd4939eb2f039309b0c302ba61db6c1bbf42766",
+        "expectedBytes": 6508,
+        "expectedSha256": "056a6b5faa2dd33374b9625d4cd4939eb2f039309b0c302ba61db6c1bbf42766",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/stages/ElementPool.ts",
+        "bytes": 1074,
+        "sha256": "f551b622a412ad84752476facc3ce0f418958b5a7e14f516835ded02a705f2fc",
+        "expectedBytes": 1074,
+        "expectedSha256": "f551b622a412ad84752476facc3ce0f418958b5a7e14f516835ded02a705f2fc",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/stages/StageHost.ts",
+        "bytes": 6298,
+        "sha256": "8f4c9f80c96e3f64e14af0b9e7d03c23297c3fd82120a15d582c9a0e582710be",
+        "expectedBytes": 6298,
+        "expectedSha256": "8f4c9f80c96e3f64e14af0b9e7d03c23297c3fd82120a15d582c9a0e582710be",
+        "status": "match"
+      },
+      {
+        "path": "assets/scripts/stages/StageRuntime.ts",
+        "bytes": 578,
+        "sha256": "2d5aef6a6d45560fa2a6928d54cb0b83cbad2ff9600969061e1bfe7ee23e409e",
+        "expectedBytes": 578,
+        "expectedSha256": "2d5aef6a6d45560fa2a6928d54cb0b83cbad2ff9600969061e1bfe7ee23e409e",
+        "status": "match"
+      },
+      {
+        "path": "extensions/deskrescue-editor/day4-appearance.js",
+        "bytes": 6834,
+        "sha256": "c0cd7cb604d17a25b8277bc2c32dbdb7c048a2cbec4b33e76d3878693fabe0d4",
+        "expectedBytes": 6834,
+        "expectedSha256": "c0cd7cb604d17a25b8277bc2c32dbdb7c048a2cbec4b33e76d3878693fabe0d4",
+        "status": "match"
+      },
+      {
+        "path": "extensions/deskrescue-editor/day4-audit.js",
+        "bytes": 27336,
+        "sha256": "b3afb8dc4010421e8d927d060f60c5443d1d4b28af0e0fd1e13ffa487b323a2d",
+        "expectedBytes": 27336,
+        "expectedSha256": "b3afb8dc4010421e8d927d060f60c5443d1d4b28af0e0fd1e13ffa487b323a2d",
+        "status": "match"
+      },
+      {
+        "path": "extensions/deskrescue-editor/day4-probe.js",
+        "bytes": 32245,
+        "sha256": "cf77028127fb009663ff6b35e634c0c50a2d594144a91373d2a82b5b161711eb",
+        "expectedBytes": 32245,
+        "expectedSha256": "cf77028127fb009663ff6b35e634c0c50a2d594144a91373d2a82b5b161711eb",
+        "status": "match"
+      },
+      {
+        "path": "extensions/deskrescue-editor/day4-scene.js",
+        "bytes": 11656,
+        "sha256": "6265689295cc9730b4fe24ea5ea56e89a6c541356ab3c126973cce3d084e61c4",
+        "expectedBytes": 11656,
+        "expectedSha256": "6265689295cc9730b4fe24ea5ea56e89a6c541356ab3c126973cce3d084e61c4",
+        "status": "match"
+      },
+      {
+        "path": "extensions/deskrescue-editor/main.js",
+        "bytes": 10022,
+        "sha256": "04690e9d2eb297ab438b1b33148db1deded7d4d052e76d2fb0617f790689dbab",
+        "expectedBytes": 10022,
+        "expectedSha256": "04690e9d2eb297ab438b1b33148db1deded7d4d052e76d2fb0617f790689dbab",
+        "status": "match"
+      },
+      {
+        "path": "extensions/deskrescue-editor/package.json",
+        "bytes": 2806,
+        "sha256": "9b728467a3d5a0cd04af6dffc694d189ffabc7cabf07e396cfd6ab2136f1ea5b",
+        "expectedBytes": 2806,
+        "expectedSha256": "9b728467a3d5a0cd04af6dffc694d189ffabc7cabf07e396cfd6ab2136f1ea5b",
+        "status": "match"
+      },
+      {
+        "path": "extensions/deskrescue-editor/probe.js",
+        "bytes": 18821,
+        "sha256": "1be4864e0fac75480ab5f73a6d3e62c4244bfd7378e181a5a27530d51de87c22",
+        "expectedBytes": 18821,
+        "expectedSha256": "1be4864e0fac75480ab5f73a6d3e62c4244bfd7378e181a5a27530d51de87c22",
+        "status": "match"
+      },
+      {
+        "path": "extensions/deskrescue-editor/scene.js",
+        "bytes": 19912,
+        "sha256": "9d2b4c7a17ed12fa32516efddb08b93fc1100e331ca12e96ac11d6ff4be6a2a1",
+        "expectedBytes": 19912,
+        "expectedSha256": "9d2b4c7a17ed12fa32516efddb08b93fc1100e331ca12e96ac11d6ff4be6a2a1",
+        "status": "match"
+      },
+      {
+        "path": "package.json",
+        "bytes": 285,
+        "sha256": "8780a2eb2234d424791800e5bdb13accd6d609ee35f1f6848d0cd25fbfa92e46",
+        "expectedBytes": 285,
+        "expectedSha256": "8780a2eb2234d424791800e5bdb13accd6d609ee35f1f6848d0cd25fbfa92e46",
+        "status": "match"
+      },
+      {
+        "path": "tools/test/cc.d.ts",
+        "bytes": 5448,
+        "sha256": "fcd134b86c45ab9240065950c339b0c94caec47e335f8940e11c37f4e26f4690",
+        "expectedBytes": 5448,
+        "expectedSha256": "fcd134b86c45ab9240065950c339b0c94caec47e335f8940e11c37f4e26f4690",
+        "status": "match"
+      },
+      {
+        "path": "tools/verify-day1.cjs",
+        "bytes": 95814,
+        "sha256": "31c9103b99c9385540994bb06aa49cd3482be3b75d9b27be22b6c32e91c0bbaf",
+        "expectedBytes": 95814,
+        "expectedSha256": "31c9103b99c9385540994bb06aa49cd3482be3b75d9b27be22b6c32e91c0bbaf",
+        "status": "match"
+      },
+      {
+        "path": "tools/verify-day4.cjs",
+        "bytes": 56237,
+        "sha256": "9eb22a5bacabee48cdda53b20597717cab84f7a384319f84cc0e177312a6dd6a",
+        "expectedBytes": 56237,
+        "expectedSha256": "9eb22a5bacabee48cdda53b20597717cab84f7a384319f84cc0e177312a6dd6a",
+        "status": "match"
+      },
+      {
+        "path": "tsconfig.json",
+        "bytes": 214,
+        "sha256": "bd460a7db62db6c2e50d1766c98f5a830579ddab81c79c4d7e20cfda6fef4f9c",
+        "expectedBytes": 214,
+        "expectedSha256": "bd460a7db62db6c2e50d1766c98f5a830579ddab81c79c4d7e20cfda6fef4f9c",
+        "status": "match"
+      }
+    ],
+    "unrecordedFiles": [],
+    "documentationSnapshots": [
+      {
+        "path": "docs/DAY4_ARCHITECTURE.md",
+        "bytes": 14723,
+        "sha256": "659808c9a87b10e21a308abded2adbea0d14283f23dd618b7b26eadd4cae7882",
+        "expectedBytes": 14723,
+        "expectedSha256": "659808c9a87b10e21a308abded2adbea0d14283f23dd618b7b26eadd4cae7882",
+        "status": "match",
+        "enforced": false,
+        "reason": "Documentation snapshot is separate from tested implementation."
+      },
+      {
+        "path": "docs/DAY4_COCOS_SETUP.md",
+        "bytes": 14317,
+        "sha256": "b5dde06b14a7f0f591095ccfa5373501e108c86d7966de1b9dae1824551ac567",
+        "expectedBytes": 14317,
+        "expectedSha256": "b5dde06b14a7f0f591095ccfa5373501e108c86d7966de1b9dae1824551ac567",
+        "status": "match",
+        "enforced": false,
+        "reason": "Documentation snapshot is separate from tested implementation."
+      }
+    ],
+    "validationLogSnapshots": [
+      {
+        "path": "docs/validation/day4/npm-test.log",
+        "bytes": 12818,
+        "sha256": "da28a918e06ce55e8fdc7276ca9574b1e1542446c4543460af819c2752e20e73",
+        "expectedBytes": 12818,
+        "expectedSha256": "da28a918e06ce55e8fdc7276ca9574b1e1542446c4543460af819c2752e20e73",
+        "status": "match"
+      },
+      {
+        "path": "docs/validation/day4/syntax-verify-day1.log",
+        "bytes": 190,
+        "sha256": "a19731fa3b97733bca43cf145cc6daa0f69477e6a2cf1ca7cad4d9a6a4180de4",
+        "expectedBytes": 190,
+        "expectedSha256": "a19731fa3b97733bca43cf145cc6daa0f69477e6a2cf1ca7cad4d9a6a4180de4",
+        "status": "match"
+      },
+      {
+        "path": "docs/validation/day4/syntax-verify-day4.log",
+        "bytes": 190,
+        "sha256": "33085bcdcbc2fbbc51c43777e3e75b7b8420a8d9496752ac405c72fcfa73f6c7",
+        "expectedBytes": 190,
+        "expectedSha256": "33085bcdcbc2fbbc51c43777e3e75b7b8420a8d9496752ac405c72fcfa73f6c7",
+        "status": "match"
+      },
+      {
+        "path": "docs/validation/day4/check-cocos.log",
+        "bytes": 1171,
+        "sha256": "a256143e7d9724909d9a8eb6d8321902e185354bf0d04981c5724b684daae8bb",
+        "expectedBytes": 1171,
+        "expectedSha256": "a256143e7d9724909d9a8eb6d8321902e185354bf0d04981c5724b684daae8bb",
+        "status": "match"
+      },
+      {
+        "path": "docs/validation/day4/sdk-declarations.log",
+        "bytes": 20067,
+        "sha256": "74b7951ab5a99d1a60cf9b043fc5a60cecd6d76aff51747ea6f65227e1043644",
+        "expectedBytes": 20067,
+        "expectedSha256": "74b7951ab5a99d1a60cf9b043fc5a60cecd6d76aff51747ea6f65227e1043644",
+        "status": "match"
+      },
+      {
+        "path": "docs/validation/day4/git-status.log",
+        "bytes": 317,
+        "sha256": "0aa99d6ff60848cbebccdc698cf02f1f49425e9a1e30aca0de1570f8f6c5367a",
+        "expectedBytes": 317,
+        "expectedSha256": "0aa99d6ff60848cbebccdc698cf02f1f49425e9a1e30aca0de1570f8f6c5367a",
+        "status": "match"
+      },
+      {
+        "path": "docs/validation/day4/git-diff-check.log",
+        "bytes": 172,
+        "sha256": "f1801527cff6c429877cac5dc2202f33b584bc31545ccec4dc70c6f9351df2fa",
+        "expectedBytes": 172,
+        "expectedSha256": "f1801527cff6c429877cac5dc2202f33b584bc31545ccec4dc70c6f9351df2fa",
+        "status": "match"
+      },
+      {
+        "path": "docs/validation/day4/syntax-extensions.log",
+        "bytes": 853,
+        "sha256": "bafe03c3d2629991750421ef4dc725bb71226f1bf8e2a7c24829314fcf15029a",
+        "expectedBytes": 853,
+        "expectedSha256": "bafe03c3d2629991750421ef4dc725bb71226f1bf8e2a7c24829314fcf15029a",
+        "status": "match"
+      },
+      {
+        "path": "docs/validation/day4/text-hygiene.log",
+        "bytes": 5441,
+        "sha256": "a9a187510439099f4d8f6da16cd91739ef246d569048342457c9a7b95cb127b5",
+        "expectedBytes": 5441,
+        "expectedSha256": "a9a187510439099f4d8f6da16cd91739ef246d569048342457c9a7b95cb127b5",
+        "status": "match"
+      }
+    ]
+  },
+  "metadata": {
+    "duplicates": [],
+    "orphans": [],
+    "invalidJson": [],
+    "doubleMetaFiles": [],
+    "missingUuids": [],
+    "missingMeta": [],
+    "filesWithoutHistoricalHash": [
+      {
+        "path": "assets/prefabs/elements.meta",
+        "bytes": 169,
+        "sha256": "a18e104de71f8d87427bb04825f51ff17765feddeba9d37b23de0946f9b821bb",
+        "status": "not_compared_no_historical_hash"
+      },
+      {
+        "path": "assets/prefabs/stages.meta",
+        "bytes": 169,
+        "sha256": "bfeaac4079b1124c49d4a04ab0330d6febfabc28506a87863263f50845e433ab",
+        "status": "not_compared_no_historical_hash"
+      },
+      {
+        "path": "assets/scripts/stages.meta",
+        "bytes": 169,
+        "sha256": "c6e0e50ab338624f68cd62cf496f11efc4040ee5263fff46264697b957c4975f",
+        "status": "not_compared_no_historical_hash"
+      }
+    ]
+  },
+  "git": {
+    "status": {
+      "command": "git status --short --branch",
+      "exitCode": 0,
+      "stdout": "## No commits yet on master\n?? .gitignore\n?? README.md\n?? assets/\n?? docs/\n?? extensions/\n?? package.json\n?? settings/\n?? tools/\n?? tsconfig.json",
+      "stderr": ""
+    },
+    "head": {
+      "command": "git rev-parse --verify HEAD",
+      "exitCode": 128,
+      "stdout": "",
+      "stderr": "fatal: Needed a single revision"
+    },
+    "trackedFileCount": 0,
+    "noCommitsAtInspection": true,
+    "diffCheck": {
+      "command": "git diff --check",
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "diffCheckLimitation": "All project files are untracked, so git diff --check does not inspect their content.",
+    "commitOrPushPerformedByThisInspection": false
+  },
+  "generatedFiles": {
+    "ignoredDirs": [
+      {
+        "path": "library",
+        "exists": true,
+        "ignored": true,
+        "rule": ".gitignore:2:/library/\tlibrary/__integrity_probe__",
+        "includedInVisibleFiles": false
+      },
+      {
+        "path": "temp",
+        "exists": true,
+        "ignored": true,
+        "rule": ".gitignore:3:/temp/\ttemp/__integrity_probe__",
+        "includedInVisibleFiles": false
+      },
+      {
+        "path": "tmp",
+        "exists": false,
+        "ignored": true,
+        "rule": ".gitignore:4:/tmp/\ttmp/__integrity_probe__",
+        "includedInVisibleFiles": false
+      },
+      {
+        "path": "local",
+        "exists": false,
+        "ignored": true,
+        "rule": ".gitignore:5:/local/\tlocal/__integrity_probe__",
+        "includedInVisibleFiles": false
+      },
+      {
+        "path": "profiles",
+        "exists": true,
+        "ignored": true,
+        "rule": ".gitignore:6:/profiles/\tprofiles/__integrity_probe__",
+        "includedInVisibleFiles": false
+      },
+      {
+        "path": "build",
+        "exists": false,
+        "ignored": true,
+        "rule": ".gitignore:7:/build/\tbuild/__integrity_probe__",
+        "includedInVisibleFiles": false
+      },
+      {
+        "path": "native",
+        "exists": false,
+        "ignored": true,
+        "rule": ".gitignore:8:/native/\tnative/__integrity_probe__",
+        "includedInVisibleFiles": false
+      },
+      {
+        "path": "node_modules",
+        "exists": false,
+        "ignored": true,
+        "rule": ".gitignore:9:/node_modules/\tnode_modules/__integrity_probe__",
+        "includedInVisibleFiles": false
+      }
+    ],
+    "forbiddenVisibleFiles": [],
+    "creatorDocumentationShortcut": {
+      "path": ".creator/asset-template/typescript/Custom Script Template Help Documentation.url",
+      "bytes": 107,
+      "sha256": "d9195c36f763bcca97d0f6eef1b3c9632918c7e8279258758b421b19579fea4a",
+      "ignored": true,
+      "rule": ".gitignore:15:/.creator/asset-template/typescript/Custom Script Template Help Documentation.url\t.creator/asset-template/typescript/Custom Script Template Help Documentation.url",
+      "includedInVisibleFiles": false
+    },
+    "filesOverTenMiB": [],
+    "largeLogs": [],
+    "largestVisibleFile": {
+      "path": "docs/validation/day4/scene-audit.json",
+      "bytes": 118754,
+      "sha256": "77181e4409f25bbdb78b11c0c3257754330eb2092e03bf92bc0da57ba9ce1c47"
+    },
+    "publicVisibleFileCount": 167,
+    "expectedPublicVisibleFileCount": 167,
+    "integrityReportBytes": 73731,
+    "totalVisibleBytes": 1889345,
+    "inventoryBoundary": "Git-visible files at this pre-commit inspection including the saved integrity report; ignored Creator caches and the private backup are excluded."
+  },
+  "dependenciesAndAssets": {
+    "projectVersion": "0.0.4",
+    "manifests": [
+      {
+        "path": "package.json",
+        "dependencies": {},
+        "devDependencies": {},
+        "optionalDependencies": {}
+      },
+      {
+        "path": "extensions/deskrescue-editor/package.json",
+        "dependencies": {},
+        "devDependencies": {},
+        "optionalDependencies": {}
+      }
+    ],
+    "noDependencyArtifacts": true,
+    "lockfiles": [],
+    "projectRasterOrMediaAssets": [],
+    "provenanceBoundary": "No project media assets or dependency installation artifacts observed; builtin Creator assets are referenced by UUID."
+  },
+  "privacyObservations": {
+    "kind": "Independent visible-image inspection and local text pattern scan; not Creator engine validation",
+    "screenshots": {
+      "reviewedCount": 42,
+      "day3": 10,
+      "day4": 32,
+      "method": "All 42 JPGs visually inspected through seven temporary contact sheets, with the Day 3 phone toolbar additionally inspected at original image size; original images were not edited.",
+      "observation": "Game screens and results with letterboxing; some Day 3 images show generic device preview controls. No personal desktop, account, mail, chat, filesystem path or credential was observed in visible pixels.",
+      "scopeLimitation": "Visible pixels only; not a claim about steganography, physical touch devices or gameplay correctness.",
+      "files": [
+        {
+          "path": "docs/validation/day3/landscape-16x9.jpg",
+          "bytes": 23706,
+          "sha256": "b1ed5f92e6301a3273c4c120993d6815bfc0a53cedd63083a57a65ef43b044a9",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day3/landscape-level1-result.jpg",
+          "bytes": 21287,
+          "sha256": "dc2f8a745e99d96466368fff8dd8ebce4ae187a201903ba0426a1f688966763a",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day3/landscape-level2-result.jpg",
+          "bytes": 21244,
+          "sha256": "ec3daeeeffd7033058fe1e066e25b6fd57b947c8f96abdcc579ba8e66ed7bac2",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day3/phone-390x844.jpg",
+          "bytes": 21339,
+          "sha256": "070147fcfad4034df24765dd02b525e34084e7d66d61446f1617aa3a14025ba9",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day3/phone-result.jpg",
+          "bytes": 19755,
+          "sha256": "cc72bce00f1dfd16f2e715618bff684b42bcd993eb8541abc650e3bbd2d26034",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day3/replay-reset.jpg",
+          "bytes": 21345,
+          "sha256": "7214a6811db9b2641eedaca92ee697e2daad7e4a376e7f62ccdb7236b930a72c",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day3/run-summary.jpg",
+          "bytes": 25095,
+          "sha256": "bd7b5e06d2546346428768983ed13d147eae506ac85484af03e3e98530356a82",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day3/tablet-3x4.jpg",
+          "bytes": 28518,
+          "sha256": "f0bcec0ef0279ce4db44274f1f73344c73b8d1d3c255164663e479c00b11b6a7",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day3/tablet-result.jpg",
+          "bytes": 26959,
+          "sha256": "c12ace42080feea39e16c6e0c4528beb2adc2469d904ffbf215a6bfd2e695340",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day3/tablet-wrong-return.jpg",
+          "bytes": 28466,
+          "sha256": "5c267860e0dee7f932788603f062f867efc9f4aa59c4de8d6229f6f954b919b3",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/final-preview-ready.jpg",
+          "bytes": 22733,
+          "sha256": "536d2c861d51d4ddb9f6480bb408678d66ad8d59e7108176ca38ab61b6b32725",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/preview-cable-wrong-blank.jpg",
+          "bytes": 22510,
+          "sha256": "849bc63ac688d1bb7944dab3e925995fb05a9130342c892654a3624a7b3f9d9d",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/preview-clean-before-layout-fix.jpg",
+          "bytes": 20165,
+          "sha256": "81cc0f414b9a7ad4ceed9bb0f6939e0c9d26b2569d911ac79bf2108c7c590373",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/preview-drag-wrong.jpg",
+          "bytes": 22728,
+          "sha256": "4387471fa26082fe6fbf5e96127f0323160ab4d81d79ca44c9dede6d9e7d0c28",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/preview-full-summary.jpg",
+          "bytes": 27835,
+          "sha256": "fd78ffd8bdf5fd9a54905adfc59d624fa6785c9d93a209e1a24d05316cca3d08",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/preview-order1-result.jpg",
+          "bytes": 22796,
+          "sha256": "560c2959014e0e6fd66a53b02841885f271d8dc155c96b3cc04e46fbb3c9ad0d",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/preview-order2-result.jpg",
+          "bytes": 22850,
+          "sha256": "b2330a5cf64def5efa3d2be257a79e6332dd48a59762062717543921d709d2f5",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/preview-order3-result.jpg",
+          "bytes": 22839,
+          "sha256": "fb10963ab3229727a97dff519b1d1f8fb1d4d8a10e0771bc788b354b56c460bb",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/preview-order4-result.jpg",
+          "bytes": 23259,
+          "sha256": "a6360c66d54ec8fc52adba69646c948259bf9a20d97ce63c86db72af4ce32b5f",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/preview-order5-result.jpg",
+          "bytes": 22875,
+          "sha256": "4ee282493178e43a5dbd87a2f3773615e316214cb799e3273e16aeeea0b85fa7",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/preview-order6-before-transition.jpg",
+          "bytes": 17548,
+          "sha256": "9584855fcc08180c132ce69338137b87a0ac1ca3631d598d201b2d152d04ebac",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/preview-order6-result.jpg",
+          "bytes": 24539,
+          "sha256": "4b18b796c03122b1b621d149b112b202cfd277c8aae48b6eae77c166c3da5b78",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/preview-order6-stage2.jpg",
+          "bytes": 20509,
+          "sha256": "6b15862b809a758ed04469261f63ca85666cb465d1e87cce14e89737d8794458",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/preview-order7-result.jpg",
+          "bytes": 23660,
+          "sha256": "56f1ec0b3818e62720bd311af3a6d2af24f280c702d11c36537a72914fa29562",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/preview-order8-result.jpg",
+          "bytes": 24785,
+          "sha256": "2021f49a3e294eee0ea496fafec2ece71f0dd0caa68c9bc13a5dfcc0f59e791a",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/preview-order8-stage2.jpg",
+          "bytes": 20579,
+          "sha256": "5893fa3e0742dc97a9bf12da63ea9d14044c7b3f3e287842cb6751b51bdee72a",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/preview-order9-stage2.jpg",
+          "bytes": 24561,
+          "sha256": "b21add8ce05242d49783f7263f015224fcfd12f993b71c51fe320c9708b8b08b",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/preview-order9-stage3.jpg",
+          "bytes": 23632,
+          "sha256": "f67d14690066a627210460181158714c105f2c84e4e100e4265a76f9a74cd801",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/preview-replay.jpg",
+          "bytes": 20817,
+          "sha256": "569a594a476b3f2c1a090d3b0900b72a62d372de7d2f68bbe10e7b689a3583a3",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/ratio-1280x720-clean-fixed.jpg",
+          "bytes": 19614,
+          "sha256": "da8589542a035b955c0587a80b13ef06c6682f4d0bbc0c2189dd96700766c926",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/ratio-1280x720-clean-result.jpg",
+          "bytes": 21862,
+          "sha256": "85a93e3c05c3ad06ae10b0f025af136bbac7df067efb1fb438fdb08adce705dc",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/ratio-1280x720-result.jpg",
+          "bytes": 21520,
+          "sha256": "886412fb10aed78d4a414fe2877d0caa19d1faed440be3301c1e7b2d34ae134b",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/ratio-1280x720-start.jpg",
+          "bytes": 21935,
+          "sha256": "5b52776aa66115e68eb6bfe9b63d961f0ddbb7d8cade8c0c74441ee7f01211fd",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/ratio-390x844-cable-result.jpg",
+          "bytes": 15801,
+          "sha256": "bebb143d59539018ae2dd8133c45f73d951fcdd58c9a5e0bd4f36ec0b19578ca",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/ratio-390x844-cable.jpg",
+          "bytes": 15648,
+          "sha256": "78682c90295024b2a218ea328ddb8a6ada0e01467da9efa080b1cdcfa6ce2f98",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/ratio-390x844-clean-fixed.jpg",
+          "bytes": 14714,
+          "sha256": "a691625b404b68c555d8b0cb592bd8fce55568947a0621e4007ab9869a6f8fbf",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/ratio-390x844-clean-repeat-blank.jpg",
+          "bytes": 12378,
+          "sha256": "d157b6f101f3ef66fecf57ef70ddfed83beb2b5935338d528a14da327413ace3",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/ratio-390x844-clean-result.jpg",
+          "bytes": 15942,
+          "sha256": "0d4a4814c5e9fdda94332bca58d3e1392d9d2e7b9069c8a0bac2bd2e292700ec",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/ratio-390x844-result.jpg",
+          "bytes": 15700,
+          "sha256": "b84c6981e2227ae08f1e2de759a3270b63bec56368c723e7b727d3026bd62739",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/ratio-768x1024-next.jpg",
+          "bytes": 27210,
+          "sha256": "b9665fba976aadd0332c48a9e45c82734dbf341dda6e4e0a3c06366de791317b",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/ratio-768x1024-result.jpg",
+          "bytes": 27767,
+          "sha256": "9ccdb2ea212a6be25b6c1e601c63e8b171083ffd18fb2de309d2138b7aa799e7",
+          "unchangedSincePrivatePreUploadBackup": true
+        },
+        {
+          "path": "docs/validation/day4/ratio-768x1024-start.jpg",
+          "bytes": 29720,
+          "sha256": "290df8007b5378de8bbe67cb3af8acb768c5cfe9a98da7c31e4967504ac16cfd",
+          "unchangedSincePrivatePreUploadBackup": true
+        }
+      ]
+    },
+    "textScan": {
+      "checkedFiles": 125,
+      "rules": [
+        "github-token",
+        "private-key",
+        "cloud-access-key",
+        "explicit-secret-assignment",
+        "credential-url",
+        "personal-windows-user-path"
+      ],
+      "findings": [],
+      "scope": "Current Git-visible text files, including saved reports, source, documentation and metadata; the report written here contains only these results and relative paths.",
+      "limitations": "Pattern matching and visual review are independent observations, not proof of every possible secret format."
+    }
+  },
+  "limitations": [
+    "This report checks current saved hashes and structure; it does not represent a new gameplay run.",
+    "Creator audit and probe retain their actual earlier execution timestamps. Fresh test results are cited from checks.json and matching saved logs.",
+    "Files absent from earlier hash records are explicitly marked not compared; no historical equality is inferred.",
+    "No commit or push was performed as part of this inspection."
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "package_version": 2,
+  "version": "0.0.4",
+  "name": "deskrescue-editor",
+  "private": true,
+  "description": "DeskRescue Day 3 / Day 4 Editor assembly, asset audit and real engine probes.",
+  "editor": ">=3.8.8",
+  "main": "./main.js",
+  "contributions": {
+    "scene": {
+      "script": "./scene.js"
+    },
+    "menu": [
+      {
+        "path": "DeskRescue",
+        "label": "创建默认 UI Canvas",
+        "message": "create-canvas"
+      },
+      {
+        "path": "DeskRescue",
+        "label": "装配 Day 3 场景",
+        "message": "build-scene"
+      },
+      {
+        "path": "DeskRescue",
+        "label": "校正场景外观",
+        "message": "correct-appearance"
+      },
+      {
+        "path": "DeskRescue",
+        "label": "运行引擎验收",
+        "message": "run-engine-probe"
+      },
+      {
+        "label": "Build Prefabs and Update Scene",
+        "message": "build-day4",
+        "path": "DeskRescue/Day 4"
+      },
+      {
+        "label": "Audit Scene and Prefabs",
+        "message": "audit-day4",
+        "path": "DeskRescue/Day 4"
+      },
+      {
+        "label": "Run Engine Probe",
+        "message": "probe-day4",
+        "path": "DeskRescue/Day 4"
+      },
+      {
+        "path": "DeskRescue/Day 4",
+        "label": "Refresh Project Scripts",
+        "message": "refresh-day4-scripts"
+      },
+      {
+        "path": "DeskRescue/Day 4",
+        "label": "Correct Clean Stage Appearance",
+        "message": "correct-day4-appearance"
+      }
+    ],
+    "messages": {
+      "create-canvas": {
+        "methods": [
+          "createCanvas"
+        ]
+      },
+      "build-scene": {
+        "methods": [
+          "buildScene"
+        ]
+      },
+      "correct-appearance": {
+        "methods": [
+          "correctAppearance"
+        ]
+      },
+      "run-engine-probe": {
+        "methods": [
+          "runEngineProbe"
+        ]
+      },
+      "build-day4": {
+        "methods": [
+          "buildDay4"
+        ]
+      },
+      "audit-day4": {
+        "methods": [
+          "auditDay4"
+        ]
+      },
+      "probe-day4": {
+        "methods": [
+          "probeDay4"
+        ]
+      },
+      "refresh-day4-scripts": {
+        "methods": [
+          "refreshDay4Scripts"
+        ]
+      },
+      "correct-day4-appearance": {
+        "methods": [
+          "correctDay4Appearance"
+        ]
+      }
+    },
+    "shortcuts": [
+      {
+        "message": "build-day4",
+        "win": "ctrl+alt+4"
+      },
+      {
+        "message": "audit-day4",
+        "win": "ctrl+alt+5"
+      },
+      {
+        "message": "probe-day4",
+        "win": "ctrl+alt+6"
+      },
+      {
+        "message": "refresh-day4-scripts",
+        "win": "ctrl+alt+7"
+      },
+      {
+        "message": "correct-day4-appearance",
+        "win": "ctrl+alt+8"
+      }
+    ]
+  }
+}

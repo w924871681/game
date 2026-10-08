@@ -1,0 +1,354 @@
+{
+  "generatedAt": "2026-10-07T12:18:55.1485376Z",
+  "version": "0.0.3",
+  "gitStatus": [
+    "## No commits yet on master",
+    "?? .gitignore",
+    "?? README.md",
+    "?? assets/",
+    "?? docs/",
+    "?? extensions/",
+    "?? package.json",
+    "?? settings/",
+    "?? tools/",
+    "?? tsconfig.json"
+  ],
+  "backupDirectory": "<local-day3-backup-path>",
+  "baselineChecks": {
+    "day3ProbeHashNote": "Probe JSON does not contain scene hash; same scene hash verified after probe in Day 3 report",
+    "day3SceneHashMatches": true,
+    "nodeSyntaxExit": 0,
+    "npmTestExit": 0,
+    "sdkDeclarationDiagnostics": 102,
+    "mockGroups": 58,
+    "projectCocosCheckExit": 0,
+    "typescript": "5.8.2"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 7145,
+      "sha256": "5b4ce637b893652c90447d744a5538d995422780bf8798806aac4ad8e6a3e3a7"
+    },
+    {
+      "path": "docs/DAY2_COCOS_SETUP.md",
+      "bytes": 7487,
+      "sha256": "e5f73d09107e41d77f29715dde0f090a419241dbea8fcb2a77e333875d64db78"
+    },
+    {
+      "path": "docs/DAY3_COCOS_SETUP.md",
+      "bytes": 11603,
+      "sha256": "cff6a331d5a3be67fdec0edebcf38b0d6a7bbc5b7b5cc39365e1524e5487d090"
+    },
+    {
+      "path": "docs/DAY3_CREATOR_VALIDATION.md",
+      "bytes": 5966,
+      "sha256": "dcd91415234f1fd63e2f5534a402ec79d33dfd130ec8c160d4290c4cbb6d915d"
+    },
+    {
+      "path": "docs/GPT_HANDOFF.md",
+      "bytes": 10740,
+      "sha256": "a9de4d69a2a51f080bb953fa412d165a91752189e49f6100f6ab9f13f3836d49"
+    },
+    {
+      "path": "docs/validation/day3/check-cocos.log",
+      "bytes": 1019,
+      "sha256": "77a3ffeb7882e7a09bd0db339b84863696a25a0aab9a51e7f75749c184525323"
+    },
+    {
+      "path": "docs/validation/day3/engine-probe.json",
+      "bytes": 4569,
+      "sha256": "c72a0081ed76a2e08704d6a8c02286c7c1589a48694a9533537a2c5186c5ce2e"
+    },
+    {
+      "path": "docs/validation/day3/landscape-16x9.jpg",
+      "bytes": 23706,
+      "sha256": "b1ed5f92e6301a3273c4c120993d6815bfc0a53cedd63083a57a65ef43b044a9"
+    },
+    {
+      "path": "docs/validation/day3/landscape-level1-result.jpg",
+      "bytes": 21287,
+      "sha256": "dc2f8a745e99d96466368fff8dd8ebce4ae187a201903ba0426a1f688966763a"
+    },
+    {
+      "path": "docs/validation/day3/landscape-level2-result.jpg",
+      "bytes": 21244,
+      "sha256": "ec3daeeeffd7033058fe1e066e25b6fd57b947c8f96abdcc579ba8e66ed7bac2"
+    },
+    {
+      "path": "docs/validation/day3/npm-test.log",
+      "bytes": 6799,
+      "sha256": "a9a1eb9a1d51832c8bb9c503ad36e876fa07cc01c40a33e0c8c19a4056fb5d68"
+    },
+    {
+      "path": "docs/validation/day3/phone-390x844.jpg",
+      "bytes": 21339,
+      "sha256": "070147fcfad4034df24765dd02b525e34084e7d66d61446f1617aa3a14025ba9"
+    },
+    {
+      "path": "docs/validation/day3/phone-result.jpg",
+      "bytes": 19755,
+      "sha256": "cc72bce00f1dfd16f2e715618bff684b42bcd993eb8541abc650e3bbd2d26034"
+    },
+    {
+      "path": "docs/validation/day3/replay-reset.jpg",
+      "bytes": 21345,
+      "sha256": "7214a6811db9b2641eedaca92ee697e2daad7e4a376e7f62ccdb7236b930a72c"
+    },
+    {
+      "path": "docs/validation/day3/run-summary.jpg",
+      "bytes": 25095,
+      "sha256": "bd7b5e06d2546346428768983ed13d147eae506ac85484af03e3e98530356a82"
+    },
+    {
+      "path": "docs/validation/day3/scene-audit.json",
+      "bytes": 30567,
+      "sha256": "49ebe9194c8507d494bd6afaa0b5470d6f562c8bba448c5489a352e91a8404e9"
+    },
+    {
+      "path": "docs/validation/day3/tablet-3x4.jpg",
+      "bytes": 28518,
+      "sha256": "f0bcec0ef0279ce4db44274f1f73344c73b8d1d3c255164663e479c00b11b6a7"
+    },
+    {
+      "path": "docs/validation/day3/tablet-result.jpg",
+      "bytes": 26959,
+      "sha256": "c12ace42080feea39e16c6e0c4528beb2adc2469d904ffbf215a6bfd2e695340"
+    },
+    {
+      "path": "docs/validation/day3/tablet-wrong-return.jpg",
+      "bytes": 28466,
+      "sha256": "5c267860e0dee7f932788603f062f867efc9f4aa59c4de8d6229f6f954b919b3"
+    },
+    {
+      "path": "package.json",
+      "bytes": 285,
+      "sha256": "5bca1f71bec95a6f2c01ae288c091b5f35d9bef77a1e051ec5e6052c4ce3818e"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 214,
+      "sha256": "bd460a7db62db6c2e50d1766c98f5a830579ddab81c79c4d7e20cfda6fef4f9c"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 132,
+      "sha256": "bb3b4cba6e45859f5df21bcf30246b6d0fa22eb05ed4eda29e143d6fac99114b"
+    },
+    {
+      "path": "assets/audio.meta",
+      "bytes": 169,
+      "sha256": "9618f670006f2ba773fb6189cb5d6407e7714d8d5d5823b4122ac4ddca3c4de2"
+    },
+    {
+      "path": "assets/configs.meta",
+      "bytes": 169,
+      "sha256": "afe4427bead9c3aed361bf4cd875539919057e021878a138fe416f56854de9f0"
+    },
+    {
+      "path": "assets/prefabs.meta",
+      "bytes": 169,
+      "sha256": "21b6e21a98a3728a0abb3ad53cafda74e8c9f98b097da7c6110b38a0cacb7523"
+    },
+    {
+      "path": "assets/scenes.meta",
+      "bytes": 169,
+      "sha256": "936317f937cfe39d0ba2828706899d157330ff963ee7403c50f48bb66348509c"
+    },
+    {
+      "path": "assets/scripts.meta",
+      "bytes": 169,
+      "sha256": "4e48b0ce486ad19a53bb477e28ccd5576dc8b726cb63ffbd21a9781814cf3e76"
+    },
+    {
+      "path": "assets/textures.meta",
+      "bytes": 169,
+      "sha256": "89d1700ca19779169e439f26d76070fd501f50eef25a098234233331c5025185"
+    },
+    {
+      "path": "assets/audio/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/configs/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/prefabs/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/scenes/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/scenes/Game.scene",
+      "bytes": 79705,
+      "sha256": "45d4dd68eece697bdfe1ff206f0560f2bd8425dcad28e04db163b058e87401c1"
+    },
+    {
+      "path": "assets/scenes/Game.scene.meta",
+      "bytes": 181,
+      "sha256": "4ccda419d76fbd79c19b9eae0a5b771ad96a39d954ac7326715c2ae1008d920d"
+    },
+    {
+      "path": "assets/scripts/core.meta",
+      "bytes": 169,
+      "sha256": "8fe05ca8b6610569d4343dcabafb9f948d102220813affb4df66bdbc35815ab6"
+    },
+    {
+      "path": "assets/scripts/data.meta",
+      "bytes": 169,
+      "sha256": "f452f63edb18de6325b45e96a4f498577fd757c05be46f080b3a88e85177e822"
+    },
+    {
+      "path": "assets/scripts/gameplay.meta",
+      "bytes": 169,
+      "sha256": "9fbf3ad61d0d1d1d852e5eefbfeec1d2ef5e881d7ac46f706b54aaabbc7d63af"
+    },
+    {
+      "path": "assets/scripts/core/GameController.ts",
+      "bytes": 2453,
+      "sha256": "e1b3c357bc915746e20b240f88f48c8c89876c14116850bd55c688d2bb0e4297"
+    },
+    {
+      "path": "assets/scripts/core/GameController.ts.meta",
+      "bytes": 171,
+      "sha256": "73552e722aba8f0d7aeced709d26cadbd492164cb4f297fce6ea35301b72f858"
+    },
+    {
+      "path": "assets/scripts/core/LevelManager.ts",
+      "bytes": 12429,
+      "sha256": "f871546ea308a4495ef6358fda209309459cfe82903cfe52c5d538c4a3751201"
+    },
+    {
+      "path": "assets/scripts/core/LevelManager.ts.meta",
+      "bytes": 171,
+      "sha256": "e9b2eacaea0a89f2ebd3dc94593f7698ec4acd3d1b9d53de2e196789a639310c"
+    },
+    {
+      "path": "assets/scripts/core/RunController.ts",
+      "bytes": 6497,
+      "sha256": "2096788b782db89dfcd5de8530bcf70046d0bc792d131289477ff581cd1390ab"
+    },
+    {
+      "path": "assets/scripts/core/RunController.ts.meta",
+      "bytes": 171,
+      "sha256": "a843e9d148657dd9c031c3b45b183a265d1b5a6925cc5b5fa54dfb9ed2e14cf5"
+    },
+    {
+      "path": "assets/scripts/data/LevelCatalog.ts",
+      "bytes": 2561,
+      "sha256": "24e394aa8495e4c23a18a92b15ea727108161a3c28d8d2e1fdd863afc54f4e89"
+    },
+    {
+      "path": "assets/scripts/data/LevelCatalog.ts.meta",
+      "bytes": 171,
+      "sha256": "e0064153b6aedb854987e509311c285599a9f5da677b420d6f25f273a9667551"
+    },
+    {
+      "path": "assets/scripts/data/LevelDefinition.ts",
+      "bytes": 789,
+      "sha256": "7ffc204ef01fa5f0a7dcd65197776f27e1a98613eb4aa643c92c1cee7abbcc0f"
+    },
+    {
+      "path": "assets/scripts/data/LevelDefinition.ts.meta",
+      "bytes": 171,
+      "sha256": "1a4f178b86302bec167540bb4e2395e626e91d5a7b11ade790a5cc3188c2847b"
+    },
+    {
+      "path": "assets/scripts/gameplay/Day1Prototype.ts",
+      "bytes": 4655,
+      "sha256": "91077917554d152a66d85662099fc4b5b48876e29ca1ece2e07c74a0eb398a10"
+    },
+    {
+      "path": "assets/scripts/gameplay/Day1Prototype.ts.meta",
+      "bytes": 171,
+      "sha256": "88b506fb8f026c277f18824e9f1724df7a600c4c0f1591c226d262d6ec441128"
+    },
+    {
+      "path": "assets/scripts/gameplay/DraggableItem.ts",
+      "bytes": 11047,
+      "sha256": "1d09e9f352a78b677d1b6ad403cc7b08af7afc04e705c00df83212337397e367"
+    },
+    {
+      "path": "assets/scripts/gameplay/DraggableItem.ts.meta",
+      "bytes": 171,
+      "sha256": "f37440093ce1fcd6526a5faf9807957ade12d8c8475b9a98d8c0baadf63e0db0"
+    },
+    {
+      "path": "assets/textures/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "extensions/deskrescue-editor/main.js",
+      "bytes": 7579,
+      "sha256": "adca478ab9ae45ba4a2fa84fcba9a986859c6b44876be18b1fbb91a607c5cf8f"
+    },
+    {
+      "path": "extensions/deskrescue-editor/package.json",
+      "bytes": 1151,
+      "sha256": "07553222cc671d18b534b8bbf83deb057fd4828025a09cfcb8c0ab758af66ca3"
+    },
+    {
+      "path": "extensions/deskrescue-editor/probe.js",
+      "bytes": 18821,
+      "sha256": "1be4864e0fac75480ab5f73a6d3e62c4244bfd7378e181a5a27530d51de87c22"
+    },
+    {
+      "path": "extensions/deskrescue-editor/scene.js",
+      "bytes": 18519,
+      "sha256": "d062843a57e7569619ae243de4e5eb9c318674e28512d11d72eb16fb1ca42d7e"
+    },
+    {
+      "path": "tools/verify-day1.cjs",
+      "bytes": 90511,
+      "sha256": "36d6498ec763b392cf5d6b3a3570a2cb1c894eeb9e9e5eb376cf17974d81dd9e"
+    },
+    {
+      "path": "tools/test/cc.d.ts",
+      "bytes": 4332,
+      "sha256": "07db82434c350e075eb7ba18eef8be849d26709602bf5789c31e21d6cacffb2a"
+    },
+    {
+      "path": "settings/v2/packages/builder.json",
+      "bytes": 29,
+      "sha256": "a3e1a8df580b6ebec15ad16c9bbef785806567bfbc093821852bb3606028e702"
+    },
+    {
+      "path": "settings/v2/packages/cocos-service.json",
+      "bytes": 373,
+      "sha256": "6a84cd0cd8937e010138c7502dd2ffcb2311819ce67f5797e66b2652c741995b"
+    },
+    {
+      "path": "settings/v2/packages/device.json",
+      "bytes": 29,
+      "sha256": "93af91e0b90038cedc84d08651f845e1c2e2ae460321c19f083c27a178e451f8"
+    },
+    {
+      "path": "settings/v2/packages/engine.json",
+      "bytes": 30,
+      "sha256": "e3755683f34745346f06b4dd665d172252183004e1aa50f90ca579837c2f244f"
+    },
+    {
+      "path": "settings/v2/packages/information.json",
+      "bytes": 518,
+      "sha256": "cbb733c8bf691ac9d561469cf945b21a23328e68fa694d75ab9f844f1866d754"
+    },
+    {
+      "path": "settings/v2/packages/program.json",
+      "bytes": 29,
+      "sha256": "d914f9f19ffe02724337936d8c7907798c8666566902b78243eb1aa8da0baedd"
+    },
+    {
+      "path": "settings/v2/packages/project.json",
+      "bytes": 171,
+      "sha256": "95486b12b0983135c3e0459df681a89f8a2e38ed46269bc10fe87b127f9a4fe9"
+    }
+  ]
+}
