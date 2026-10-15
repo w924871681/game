@@ -1,0 +1,38 @@
+{
+  "DeskRescue_V2_Codex_Implementation_Prompt.md": {
+    "bytes": 27946,
+    "sha256": "464d332d9d09efe47b45cb95890a293f5537cf4684e59350e40b1b257406fb06"
+  },
+  "DeskRescue_V2_Complete_UI_Design_Spec.md": {
+    "bytes": 31345,
+    "sha256": "56f7c48bf33f2c58fbfbb573a3ce35dd617e7421fd0bb89041b5c37e2bbbf991"
+  },
+  "README_START_HERE.md": {
+    "bytes": 2567,
+    "sha256": "9924cd63b18511d3d866272d00947afae323b90669f9c16911227df1abc53990"
+  },
+  "references/01_home_direction.png": {
+    "bytes": 2147706,
+    "sha256": "c40c80b5d510b7584882bf6030985b39bf1471546d6456ce3fc962684f01e43a"
+  },
+  "references/02_drag_confirmed.png": {
+    "bytes": 1989163,
+    "sha256": "11abe52e503eb0823bb63094689e6f6b30aca912f6a56224db19ca455921639d"
+  },
+  "references/03_cable_candidate.png": {
+    "bytes": 1925205,
+    "sha256": "c6f6a31a59295ba31692406ee3115c08957c722e464bea82e0368afc48638cbd"
+  },
+  "references/04_clean_confirmed.png": {
+    "bytes": 2069616,
+    "sha256": "eab3737f097f7b1b844d16324bbb5814e4feb10beb35e757356fe94d53b25b5b"
+  },
+  "references/05_order_result_candidate.png": {
+    "bytes": 2028061,
+    "sha256": "e806493c70c233941704903aaeb5d7bea73e65197591d9786306bfb089a70034"
+  },
+  "references/06_final_confirmed.png": {
+    "bytes": 2087653,
+    "sha256": "36f4a09e221b6edc3cef0fd84a201b1a2e0729b0adb938780a72f076ef539aa0"
+  }
+}

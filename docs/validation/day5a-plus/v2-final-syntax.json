@@ -1,0 +1,101 @@
+{
+  "timestamp": "2026-10-15T10:56:38.526226+00:00",
+  "ok": true,
+  "files": [
+    {
+      "path": "tools/verify-day1.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/verify-day4.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/verify-day5a.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/verify-day5a-v2.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-appearance.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-audit.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-probe.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-scene.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-audit.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-main.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-probe.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-scene.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/main.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/probe.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/scene.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-audit.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-main.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-probe.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-scene.js",
+      "exitCode": 0,
+      "output": ""
+    }
+  ]
+}

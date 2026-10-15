@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="160" viewBox="0 0 256 160">
+<title>DeskRescue V2.1 original ports/display-port</title>
+<ellipse cx="133.0" cy="137.0" rx="111.0" ry="9.0" fill="#403324" fill-opacity="0.1176" stroke="none" stroke-width="0"/>
+<polygon points="29.00,33.00 215.00,29.00 241.00,46.00 239.00,126.00 220.00,140.00 30.00,140.00 17.00,122.00 17.00,51.00" fill="#6f8a80" fill-opacity="1.0000" stroke="#253f47" stroke-opacity="1.0000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="31.00,29.00 214.00,26.00 233.00,42.00 43.00,47.00 19.00,48.00" fill="#e7e9d0" fill-opacity="1.0000" stroke="#253f47" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="17" y="40" width="213" height="94" rx="19" fill="#dce5cb" fill-opacity="1.0000" stroke="#253f47" stroke-opacity="1.0000" stroke-width="3"/>
+<rect x="23" y="45" width="201" height="82" rx="15" fill="#efefd5" fill-opacity="1.0000" stroke="#fcf7da" stroke-opacity="1.0000" stroke-width="2"/>
+<polyline points="40.00,48.00 207.00,48.00" fill="none" stroke="#fffbe1" stroke-opacity="1.0000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="30.0" cy="84.0" rx="4.0" ry="4.0" fill="#6a8378" fill-opacity="1.0000" stroke="#c4d7b9" stroke-opacity="1.0000" stroke-width="1"/>
+<polyline points="28.00,84.00 32.00,84.00" fill="none" stroke="#415c59" stroke-opacity="1.0000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="211.0" cy="84.0" rx="4.0" ry="4.0" fill="#6a8378" fill-opacity="1.0000" stroke="#c4d7b9" stroke-opacity="1.0000" stroke-width="1"/>
+<polyline points="209.00,84.00 213.00,84.00" fill="none" stroke="#415c59" stroke-opacity="1.0000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="45.00,54.00 202.00,54.00 202.00,87.00 179.00,115.00 69.00,115.00 45.00,87.00" fill="#75978d" fill-opacity="1.0000" stroke="#253f47" stroke-opacity="1.0000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="53.00,61.00 194.00,61.00 194.00,84.00 175.00,107.00 72.00,107.00 53.00,84.00" fill="#10292f" fill-opacity="1.0000" stroke="#b0c8b2" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="68.00,75.00 180.00,75.00 180.00,85.00 168.00,98.00 80.00,98.00 68.00,85.00" fill="#304f54" fill-opacity="1.0000" stroke="none" stroke-width="0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="75.00,77.00 75.00,89.00" fill="none" stroke="#c4d4a8" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="83.00,77.00 83.00,89.00" fill="none" stroke="#c4d4a8" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="91.00,77.00 91.00,89.00" fill="none" stroke="#c4d4a8" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="99.00,77.00 99.00,89.00" fill="none" stroke="#c4d4a8" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="107.00,77.00 107.00,89.00" fill="none" stroke="#c4d4a8" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="115.00,77.00 115.00,89.00" fill="none" stroke="#c4d4a8" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="123.00,77.00 123.00,89.00" fill="none" stroke="#c4d4a8" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="131.00,77.00 131.00,89.00" fill="none" stroke="#c4d4a8" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="139.00,77.00 139.00,89.00" fill="none" stroke="#c4d4a8" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="147.00,77.00 147.00,89.00" fill="none" stroke="#c4d4a8" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="155.00,77.00 155.00,89.00" fill="none" stroke="#c4d4a8" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="163.00,77.00 163.00,89.00" fill="none" stroke="#c4d4a8" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

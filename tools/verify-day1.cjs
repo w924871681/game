@@ -353,7 +353,17 @@ function createMock() {
         rect(x, y, width, height) { this.rectangle = { x, y, width, height }; }
         fill() { this.filled = true; } stroke() { this.stroked = true; }
     }
-    class Sprite extends Component { static Type = { SIMPLE: 0, SLICED: 1 }; constructor() { super(); this.color = new Color(255, 255, 255); this.type = 1; } }
+    class SpriteFrame { constructor(name = '', width = 256, height = 256) { this.name = name; this.originalSize = { width, height }; } }
+    class AudioClip { constructor(name = '') { this.name = name; } }
+    // Records official playback calls only. No browser unlock, decoding or audio rendering is simulated.
+    class AudioSource extends Component {
+        static EventType = { ENDED: 'ended', STARTED: 'started' };
+        constructor() { super(); this.oneShots = []; this.plays = []; this.volume = 1; this.stops = 0; this.clip = null; this.loop = false; this.playOnAwake = false; }
+        playOneShot(clip, volumeScale = 1) { this.oneShots.push({ clip, volumeScale }); }
+        play() { this.plays.push({ clip: this.clip, volume: this.volume }); }
+        stop() { this.stops += 1; }
+    }
+    class Sprite extends Component { static Type = { SIMPLE: 0, SLICED: 1 }; static SizeMode = { CUSTOM: 0, TRIMMED: 1, RAW: 2 }; constructor() { super(); this.color = new Color(255, 255, 255); this.type = 1; this.spriteFrame = null; this.sizeMode = 0; } }
     class UIOpacity extends Component { constructor() { super(); this.opacity = 255; } }
     // Factories are test Inspector fixtures that construct actual project components.
     // instantiate itself only creates a node and records allocation identity; no game rules.
@@ -410,7 +420,7 @@ function createMock() {
     }
     const cc = {
         _decorator: { ccclass: () => (type) => type, requireComponent: () => (type) => type, property: () => () => {}, disallowMultiple: (type) => type },
-        Vec3, Component, Node, UITransform, Label, Canvas, Button, Color, Graphics, EventTouch, Tween, Sprite, UIOpacity, Prefab, instantiate,
+        Vec3, Component, Node, UITransform, Label, Canvas, Button, Color, Graphics, EventTouch, Tween, Sprite, SpriteFrame, AudioClip, AudioSource, UIOpacity, Prefab, instantiate,
         tween: (target) => new Tween(target),
         Layers: { Enum: { UI_2D: 1 << 25 } }, ResolutionPolicy: { SHOW_ALL: 2 },
         view: { setDesignResolutionSize: (...args) => designs.push(args) },
@@ -1250,12 +1260,27 @@ try {
     if (runtime) {
         const day1 = runTests(runtime), day2 = runDay2Tests(runtime), day3 = runDay3Tests(runtime);
         const day4 = require('./verify-day4.cjs').runDay4Tests(runtime);
-        const groups = day1 + day2 + day3 + day4;
+        const day5a = require('./verify-day5a.cjs').runDay5ATests(runtime);
+        const day5aV2 = require('./verify-day5a-v2.cjs').runDay5AV2Tests(runtime);
+        const day5aV21Clean = require('./verify-day5a-v21-clean.cjs').runDay5AV21CleanTests(runtime);
+        const day5aV21Visuals = require('./verify-v21-visuals.cjs').runV21VisualTests(runtime);
+        const day5aV22Clean = require('./verify-v22-clean.cjs').runV22CleanTests(runtime);
+        const day5aV22Readability = require('./verify-v22-readability.cjs').runV22ReadabilityTests(runtime);
+        const groups = day1 + day2 + day3 + day4 + day5a + day5aV2 + day5aV21Clean + day5aV21Visuals + day5aV22Clean + day5aV22Readability;
         assert.equal(day1, 11, 'All original Day 1 groups must remain');
         assert.equal(day2, 19, 'All original Day 2 groups must remain');
         assert.equal(day3, 28, 'All 28 original Day 3 groups must remain');
         assert.ok(day4 >= 36, 'At least 36 new Day 4 groups are required');
-        console.log(`\nDay 1: ${day1}; Day 2: ${day2}; Day 3: ${day3}; Day 4: ${day4}.`);
+        assert.ok(day5a >= 18, 'At least 18 Day 5A groups must execute actual components or visual mappings');
+        assert.equal(day1 + day2 + day3 + day4 + day5a, 146, 'All 146 historical behavior groups remain intact');
+        assert.ok(day5aV2 >= 15, 'At least 15 V2 component and Home return groups must execute');
+        assert.equal(day1 + day2 + day3 + day4 + day5a + day5aV2, 174, 'All 174 historical behavior groups remain intact');
+        assert.ok(day5aV21Clean >= 17, 'V2.1 path-only decoration and unchanged cleaning semantics must execute');
+        assert.ok(day5aV21Visuals >= 16, 'V2.1 child layouts, cable rendering/state, result stars and lifecycle must execute');
+        assert.equal(day1 + day2 + day3 + day4 + day5a + day5aV2 + day5aV21Clean + day5aV21Visuals, 207, 'All 207 historical behavior groups remain intact');
+        assert.ok(day5aV22Clean >= 8, 'V2.2 deterministic horizontal feathering and existing clean lifecycle must execute');
+        assert.ok(day5aV22Readability >= 9, 'V2.2 display-only small-screen captions and input geometry must execute');
+        console.log(`\nDay 1: ${day1}; Day 2: ${day2}; Day 3: ${day3}; Day 4: ${day4}; Day 5A: ${day5a}; Day 5A V2: ${day5aV2}.`);
         console.log(`\n${groups} mock behavior groups passed against the actual compiled project scripts.`);
     }
     else console.log('Project type check uses real Cocos SDK declarations. This does not certify the SDK declarations themselves, start Preview, or build the game.');

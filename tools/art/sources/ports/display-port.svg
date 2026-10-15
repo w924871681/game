@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="128" viewBox="0 0 256 128">
+<title>DeskRescue original ports/display-port</title>
+<rect x="29" y="11" width="197" height="108" rx="19" fill="#c3d8d6" fill-opacity="1.0000" stroke="#263d50" stroke-opacity="1.0000" stroke-width="4"/>
+<ellipse cx="43.5" cy="61.5" rx="3.5" ry="3.5" fill="#6d8990" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<ellipse cx="215.5" cy="61.5" rx="3.5" ry="3.5" fill="#6d8990" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<polygon points="65.00,32.00 195.00,32.00 195.00,76.00 174.00,99.00 86.00,99.00 65.00,76.00" fill="#263d50" fill-opacity="1.0000" stroke="#263d50" stroke-opacity="1.0000" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="78.00,45.00 182.00,45.00 182.00,72.00 167.00,85.00 93.00,85.00 78.00,72.00" fill="#0f2c40" fill-opacity="1.0000" stroke="none" stroke-width="0" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="87" y="53" width="4" height="14" rx="1" fill="#a8c8c1" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="96" y="53" width="4" height="14" rx="1" fill="#a8c8c1" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="105" y="53" width="4" height="14" rx="1" fill="#a8c8c1" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="114" y="53" width="4" height="14" rx="1" fill="#a8c8c1" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="123" y="53" width="4" height="14" rx="1" fill="#a8c8c1" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="132" y="53" width="4" height="14" rx="1" fill="#a8c8c1" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="141" y="53" width="4" height="14" rx="1" fill="#a8c8c1" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="150" y="53" width="4" height="14" rx="1" fill="#a8c8c1" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="159" y="53" width="4" height="14" rx="1" fill="#a8c8c1" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="168" y="53" width="4" height="14" rx="1" fill="#a8c8c1" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+</svg>

@@ -2,6 +2,9 @@ import { _decorator, Component, EventTouch, Node, Prefab, tween, Tween, UIOpacit
 import type { CleanSwipeStageDefinition } from '../data/StageDefinition';
 import { ElementPool } from './ElementPool';
 import type { StageCallbacks, StageProgress, StageRuntime } from './StageRuntime';
+import { VisualAssetRegistry } from '../visuals/VisualAssetRegistry';
+import { CleanDeviceVisual } from '../visuals/CleanDeviceVisual';
+import { V21CleanDustView } from '../visuals/V21CleanDustView';
 
 const { ccclass, property } = _decorator;
 
@@ -24,6 +27,16 @@ export class CleanSwipeStageController extends Component implements StageRuntime
 
     @property(Node)
     public dirtLayer: Node | null = null;
+
+    @property(CleanDeviceVisual)
+    public deviceVisual: CleanDeviceVisual | null = null;
+
+    @property(V21CleanDustView)
+    public dustView: V21CleanDustView | null = null;
+
+    private visualAssets: VisualAssetRegistry | null = null;
+
+    public bindVisualAssets(assets: VisualAssetRegistry | null): void { this.visualAssets = assets; }
 
     private readonly pool = new ElementPool();
     private cells: DirtCellState[] = [];
@@ -115,6 +128,10 @@ export class CleanSwipeStageController extends Component implements StageRuntime
             throw new RangeError('CleanSwipeStage requires 1–64 cells, a positive brush and a ratio in [0.5, 1].');
         }
         this.definition = definition;
+        if (this.visualAssets) {
+            if (!this.deviceVisual) throw new Error('[CleanSwipeStage] Device visual binding is missing.');
+            this.deviceVisual.configure(this.visualAssets, definition);
+        }
         this.callbacks = callbacks;
         this.cleanedCount = 0;
         this.threshold = Math.ceil(total * definition.requiredRatio);
@@ -149,6 +166,7 @@ export class CleanSwipeStageController extends Component implements StageRuntime
                 }
             }
         }
+        this.dustView?.configure(definition);
         this.bindListeners();
         this.callbacks?.onProgress(this.progress);
     }
@@ -262,6 +280,8 @@ export class CleanSwipeStageController extends Component implements StageRuntime
                 break;
             }
         }
+        this.dustView?.sweep(this.previousPointer.x, this.previousPointer.y,
+            this.pointer.x, this.pointer.y, this.definition.brushRadius);
         if (changed) {
             this.callbacks.onProgress(this.progress);
             if (generation === this.generation && this.complete) {

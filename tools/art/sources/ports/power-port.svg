@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="128" viewBox="0 0 256 128">
+<title>DeskRescue original ports/power-port</title>
+<rect x="29" y="11" width="197" height="108" rx="19" fill="#c3d8d6" fill-opacity="1.0000" stroke="#263d50" stroke-opacity="1.0000" stroke-width="4"/>
+<ellipse cx="43.5" cy="61.5" rx="3.5" ry="3.5" fill="#6d8990" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<ellipse cx="215.5" cy="61.5" rx="3.5" ry="3.5" fill="#6d8990" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<polygon points="86.00,24.00 167.00,24.00 193.00,47.00 193.00,106.00 67.00,106.00 67.00,47.00" fill="#263d50" fill-opacity="1.0000" stroke="#708d93" stroke-opacity="1.0000" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="92.00,35.00 160.00,35.00 180.00,53.00 180.00,96.00 80.00,96.00 80.00,53.00" fill="#405765" fill-opacity="1.0000" stroke="none" stroke-width="0" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="104" y="69" width="13" height="23" rx="3" fill="#182f40" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="143" y="69" width="13" height="23" rx="3" fill="#182f40" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="124" y="43" width="13" height="23" rx="3" fill="#182f40" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+</svg>

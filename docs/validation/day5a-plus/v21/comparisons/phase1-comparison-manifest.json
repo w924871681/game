@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-15T12:18:23Z",
+  "generator": "tools/compare_v21_previews.py",
+  "pythonVersion": "3.13.5",
+  "pillowVersion": "12.3.0",
+  "mode": "lossless-native-viewport-composition",
+  "pixelPolicy": "No resize/crop/repaint/tint; external captions/borders only. Decoded JPEG RGB is copied to lossless PNG and compared after reopening.",
+  "acceptance": "Evidence composition is not user art approval, rendering automation or platform testing.",
+  "protectedSourceCount": 59,
+  "protectedSourceChanges": [],
+  "comparisons": [
+    {
+      "key": "clean57",
+      "before": {
+        "path": "docs/validation/day5a-plus/screenshots/clean-v2-order4-partial-390x844.jpg",
+        "dimensions": [
+          390,
+          844
+        ],
+        "bytes": 48346,
+        "sha256": "4ae16c06da151a6466ca7d2379d478c71168d12477d7fb6ef5193adec383e87e"
+      },
+      "after": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/phase1-clean-order4-about57pct-390x844.jpg",
+        "dimensions": [
+          390,
+          844
+        ],
+        "bytes": 47937,
+        "sha256": "c52c2dad76df174a987f113cfc3b200b096815f12260c908a5c1256a6a005584"
+      },
+      "observedStateDifference": "Different accepted wiping paths; both images visibly render 57%.",
+      "labels": [
+        "V2 | 57% | row-oriented path",
+        "V2.1 | 57% | diagonal + arc path"
+      ],
+      "output": {
+        "path": "docs/validation/day5a-plus/v21/comparisons/phase1-clean57-v2-to-v21.png",
+        "dimensions": [
+          840,
+          1020
+        ],
+        "bytes": 387820,
+        "sha256": "08445b73661b45da152c145ef16eabce4713bbd01bdbfcb8804e659fc865c398",
+        "embeddedSourcePixelsIdenticalAfterReopen": true
+      },
+      "status": "generated",
+      "sourceRectanglesXYWH": [
+        [
+          18,
+          120,
+          390,
+          844
+        ],
+        [
+          432,
+          120,
+          390,
+          844
+        ]
+      ]
+    },
+    {
+      "key": "cable1",
+      "before": {
+        "path": "docs/validation/day5a-plus/screenshots/cable-v2-order5-1of3-390x844.jpg",
+        "dimensions": [
+          390,
+          844
+        ],
+        "bytes": 43947,
+        "sha256": "01a114a2116dc60aba0c47718e4ff0a79a74f50f7fe066d9db982c8411185745"
+      },
+      "after": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/phase1-cable-order5-1of3-390x844.jpg",
+        "dimensions": [
+          390,
+          844
+        ],
+        "bytes": 45038,
+        "sha256": "4c1d85014d97deca462995be518a68e08104031370dc4f7f94c19291bceaeeca"
+      },
+      "observedStateDifference": "The successfully connected cable differs; timers and mistake totals also differ.",
+      "labels": [
+        "V2 | power connected | 1 / 3",
+        "V2.1 | display connected | 1 / 3"
+      ],
+      "output": {
+        "path": "docs/validation/day5a-plus/v21/comparisons/phase1-cable1-v2-to-v21.png",
+        "dimensions": [
+          840,
+          1020
+        ],
+        "bytes": 377154,
+        "sha256": "7d6742c0f6fa6f16e7cb9954c8cbc76b4930107780a99acad0d0bb2366b60a91",
+        "embeddedSourcePixelsIdenticalAfterReopen": true
+      },
+      "status": "generated",
+      "sourceRectanglesXYWH": [
+        [
+          18,
+          120,
+          390,
+          844
+        ],
+        [
+          432,
+          120,
+          390,
+          844
+        ]
+      ]
+    }
+  ],
+  "lastSnapSequence": {
+    "key": "last-snap-sequence",
+    "sources": [
+      {
+        "path": "docs/validation/day5a-plus/v21/screenshots/phase1-cable-last-snap-0.jpg",
+        "dimensions": [
+          390,
+          844
+        ],
+        "bytes": 46240,
+        "sha256": "162dd5b449a57294fd440debddf29bce92b244669988b2d062470aede6854797"
+      },
+      {
+        "path": "docs/validation/day5a-plus/v21/screenshots/phase1-cable-last-snap-1.jpg",
+        "dimensions": [
+          390,
+          844
+        ],
+        "bytes": 46240,
+        "sha256": "c37abd2d1eaccbed9df1f79f432ac5a0d92cf189841cebd8fea22e4cc7df020b"
+      },
+      {
+        "path": "docs/validation/day5a-plus/v21/screenshots/phase1-cable-last-snap-2.jpg",
+        "dimensions": [
+          390,
+          844
+        ],
+        "bytes": 46204,
+        "sha256": "59360fcd4f8d455847f67a4af2855b0342351261f2fb368b524e31a2df634130"
+      },
+      {
+        "path": "docs/validation/day5a-plus/v21/screenshots/phase1-cable-last-snap-3.jpg",
+        "dimensions": [
+          390,
+          844
+        ],
+        "bytes": 31835,
+        "sha256": "d6c696f22c96e367dcb02bf7422d6991127b66ccc2fedb71b816b3d39c64eef7"
+      }
+    ],
+    "visibleStates": [
+      "2/3; final head pending",
+      "2/3; final head pending",
+      "2/3; final head pending",
+      "3/3; settlement modal obscures cables"
+    ],
+    "unobstructedThreeSuccessStateCaptured": false,
+    "output": {
+      "path": "docs/validation/day5a-plus/v21/comparisons/phase1-cable-last-snap-sequence.png",
+      "dimensions": [
+        840,
+        1874
+      ],
+      "bytes": 841472,
+      "sha256": "1ebeddfcfbbfe0e6de7ce069eac3216279a212ff2f4f891c845484b7ad124c42",
+      "embeddedSourcePixelsIdenticalAfterReopen": true
+    },
+    "status": "generated",
+    "sourceRectanglesXYWH": [
+      [
+        18,
+        86,
+        390,
+        844
+      ],
+      [
+        432,
+        86,
+        390,
+        844
+      ],
+      [
+        18,
+        981,
+        390,
+        844
+      ],
+      [
+        432,
+        981,
+        390,
+        844
+      ]
+    ]
+  }
+}

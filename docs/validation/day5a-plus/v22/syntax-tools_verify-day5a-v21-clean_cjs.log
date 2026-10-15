@@ -1,0 +1,2 @@
+{"label": "syntax-tools_verify-day5a-v21-clean_cjs", "command": ["C:\\Program Files\\nodejs\\node.EXE", "--check", "tools/verify-day5a-v21-clean.cjs"], "cwd": "D:/game", "startedAtUtc": "2026-10-15T15:56:22.828594+00:00", "endedAtUtc": "2026-10-15T15:56:22.893664+00:00", "exitCode": 0}
+

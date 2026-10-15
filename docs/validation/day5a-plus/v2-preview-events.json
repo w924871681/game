@@ -1,0 +1,22 @@
+[
+  {
+    "recordedAtUtc": "2026-10-15T10:33:31.435Z",
+    "screenshot": "order7-result-1280x720.jpg",
+    "observation": "1280: real three cables completed order7"
+  },
+  {
+    "recordedAtUtc": "2026-10-15T10:33:58.207Z",
+    "screenshot": "order7-result-1280x720.jpg",
+    "observation": "1280: settled order7 result 360 points, 64.3s, 0 mistakes"
+  },
+  {
+    "recordedAtUtc": "2026-10-15T10:35:03.806Z",
+    "screenshot": "final-v2-1280x720.jpg",
+    "observation": "1280 full run: 9/9 orders, 13/13 steps, 26/27 stars, 6970 score, 208.0s, 0 mistakes"
+  },
+  {
+    "recordedAtUtc": "2026-10-15T10:35:04.183Z",
+    "screenshot": "replay-v2-1280x720.jpg",
+    "observation": "Final Replay opens order1 directly, timer and mistakes restart without Home overlay"
+  }
+]

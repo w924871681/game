@@ -1,0 +1,446 @@
+{
+  "schemaVersion": 1,
+  "phase": "v2",
+  "generator": "tools/art/generate_v2_ui.py",
+  "method": "Built-in image_gen original layered masters plus deterministic offline Canvas/Pillow/SVG UI geometry",
+  "licensing": "Original project-bound generated art and geometry; no third-party downloaded imagery, fonts, logos or audio; repository license unchanged",
+  "reproduction": "python tools/art/generate_v2_ui.py -- offline only; never calls image API or re-generates retained AI masters",
+  "protectedDay5AFileCount": 108,
+  "protectedDay5AChanges": [],
+  "runtimeAssets": [
+    {
+      "key": "v2/workshop-room",
+      "path": "assets/art/v2/workshop-room.png",
+      "source": "tools/art/v2/sources/workshop-room.master.png",
+      "sourceSha256": "82287cf152db6f32bb3acf93f18c599d84a5de0f46d8dd1db6aed5dd6f198847",
+      "width": 864,
+      "height": 1296,
+      "mode": "RGB",
+      "bytes": 1554539,
+      "sha256": "137323eb603f3e09495a5585d823abcccd3a351b7d8634208a79938f77b8053d",
+      "features": [
+        "Layered warm timber and mint repair room",
+        "Window, lamp, shelves and plants",
+        "Quiet center; no text, UI, characters or large game devices"
+      ],
+      "method": "Built-in image_gen.imagegen master; offline authorized layer extraction and resampling",
+      "origin": "Original DeskRescue V2 project artwork; no downloaded third-party assets or brand logos",
+      "prompt": "tools/art/v2/sources/workshop-room.prompt.md",
+      "promptSha256": "e22166134e573a3f7d2918cfbaa77172b5223ad5196206039a772aed3f27beeb",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "quadrantCrop": null,
+      "alphaContentCrop": null,
+      "transparentBackground": false,
+      "tool": "built-in image_gen.imagegen",
+      "authorization": "User-authorized V2 original art and separate editable game layers; no poster screenshot substitution"
+    },
+    {
+      "key": "v2/repair-welcome",
+      "path": "assets/art/v2/repair-welcome.png",
+      "source": "tools/art/v2/sources/repair-boy-poses.master.png",
+      "sourceSha256": "3ff15f2242bda91a0894f800c57a99e871fbf9d4a1eba04aa559fcf610af0d2c",
+      "width": 512,
+      "height": 640,
+      "mode": "RGBA",
+      "bytes": 291093,
+      "sha256": "f2a6240a70e0f2f25d0c57da63c7f55b6242bc328732d8a5466bb14cf65d640b",
+      "features": [
+        "Same cream wrench-cap repair boy identity",
+        "Warm skin, dark hair, blue-green dungarees",
+        "welcome pose, independent transparent layer"
+      ],
+      "method": "Built-in image_gen.imagegen master; offline authorized layer extraction and resampling",
+      "origin": "Original DeskRescue V2 project artwork; no downloaded third-party assets or brand logos",
+      "prompt": "tools/art/v2/sources/repair-boy-poses.prompt.md",
+      "promptSha256": "062f1fca7904591c7f720bb7491fbe6f5cd7651d0519457e76948759ccc8c507",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "quadrantCrop": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "alphaContentCrop": [
+        143,
+        26,
+        483,
+        620
+      ],
+      "transparentBackground": true,
+      "tool": "built-in image_gen.imagegen",
+      "authorization": "User-authorized V2 original art and separate editable game layers; no poster screenshot substitution"
+    },
+    {
+      "key": "v2/repair-pointing",
+      "path": "assets/art/v2/repair-pointing.png",
+      "source": "tools/art/v2/sources/repair-boy-poses.master.png",
+      "sourceSha256": "3ff15f2242bda91a0894f800c57a99e871fbf9d4a1eba04aa559fcf610af0d2c",
+      "width": 512,
+      "height": 640,
+      "mode": "RGBA",
+      "bytes": 292575,
+      "sha256": "1df6d9a5ffd0a02d4954fa5c6617b23ccbb88e3f2321e207f277085bd2b8808f",
+      "features": [
+        "Same cream wrench-cap repair boy identity",
+        "Warm skin, dark hair, blue-green dungarees",
+        "pointing pose, independent transparent layer"
+      ],
+      "method": "Built-in image_gen.imagegen master; offline authorized layer extraction and resampling",
+      "origin": "Original DeskRescue V2 project artwork; no downloaded third-party assets or brand logos",
+      "prompt": "tools/art/v2/sources/repair-boy-poses.prompt.md",
+      "promptSha256": "062f1fca7904591c7f720bb7491fbe6f5cd7651d0519457e76948759ccc8c507",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "quadrantCrop": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "alphaContentCrop": [
+        138,
+        24,
+        530,
+        617
+      ],
+      "transparentBackground": true,
+      "tool": "built-in image_gen.imagegen",
+      "authorization": "User-authorized V2 original art and separate editable game layers; no poster screenshot substitution"
+    },
+    {
+      "key": "v2/repair-thumbsup",
+      "path": "assets/art/v2/repair-thumbsup.png",
+      "source": "tools/art/v2/sources/repair-boy-poses.master.png",
+      "sourceSha256": "3ff15f2242bda91a0894f800c57a99e871fbf9d4a1eba04aa559fcf610af0d2c",
+      "width": 512,
+      "height": 640,
+      "mode": "RGBA",
+      "bytes": 272364,
+      "sha256": "3167b711175e2cd6d28344eba06264a7f8fc4189ccdeb77374825f552686cace",
+      "features": [
+        "Same cream wrench-cap repair boy identity",
+        "Warm skin, dark hair, blue-green dungarees",
+        "thumbsup pose, independent transparent layer"
+      ],
+      "method": "Built-in image_gen.imagegen master; offline authorized layer extraction and resampling",
+      "origin": "Original DeskRescue V2 project artwork; no downloaded third-party assets or brand logos",
+      "prompt": "tools/art/v2/sources/repair-boy-poses.prompt.md",
+      "promptSha256": "062f1fca7904591c7f720bb7491fbe6f5cd7651d0519457e76948759ccc8c507",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "quadrantCrop": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "alphaContentCrop": [
+        164,
+        18,
+        475,
+        600
+      ],
+      "transparentBackground": true,
+      "tool": "built-in image_gen.imagegen",
+      "authorization": "User-authorized V2 original art and separate editable game layers; no poster screenshot substitution"
+    },
+    {
+      "key": "v2/repair-cheering",
+      "path": "assets/art/v2/repair-cheering.png",
+      "source": "tools/art/v2/sources/repair-boy-poses.master.png",
+      "sourceSha256": "3ff15f2242bda91a0894f800c57a99e871fbf9d4a1eba04aa559fcf610af0d2c",
+      "width": 512,
+      "height": 640,
+      "mode": "RGBA",
+      "bytes": 328762,
+      "sha256": "261db611ed22e09970826db84ec65559baa6b2c68023a290538cfce26b2e88fa",
+      "features": [
+        "Same cream wrench-cap repair boy identity",
+        "Warm skin, dark hair, blue-green dungarees",
+        "cheering pose, independent transparent layer"
+      ],
+      "method": "Built-in image_gen.imagegen master; offline authorized layer extraction and resampling",
+      "origin": "Original DeskRescue V2 project artwork; no downloaded third-party assets or brand logos",
+      "prompt": "tools/art/v2/sources/repair-boy-poses.prompt.md",
+      "promptSha256": "062f1fca7904591c7f720bb7491fbe6f5cd7651d0519457e76948759ccc8c507",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "quadrantCrop": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "alphaContentCrop": [
+        93,
+        28,
+        501,
+        600
+      ],
+      "transparentBackground": true,
+      "tool": "built-in image_gen.imagegen",
+      "authorization": "User-authorized V2 original art and separate editable game layers; no poster screenshot substitution"
+    },
+    {
+      "key": "v2/repair-avatar",
+      "path": "assets/art/v2/repair-avatar.png",
+      "source": "tools/art/v2/sources/repair-boy-poses.master.png",
+      "sourceSha256": "3ff15f2242bda91a0894f800c57a99e871fbf9d4a1eba04aa559fcf610af0d2c",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "bytes": 93893,
+      "sha256": "07ff86dcb6b5ee42fcc4ee5d06d66ceb5ca04d95b1a10ccf4eeb3b9a2e491771",
+      "features": [
+        "Welcome character hat, face and shoulders at readable tutor scale",
+        "Same cream wrench-cap and blue-green outfit identity",
+        "Independent transparent portrait; original four poses retained"
+      ],
+      "method": "Built-in image_gen.imagegen master; offline authorized layer extraction and resampling",
+      "origin": "Original DeskRescue V2 project artwork; no downloaded third-party assets or brand logos",
+      "prompt": "tools/art/v2/sources/repair-boy-poses.prompt.md",
+      "promptSha256": "062f1fca7904591c7f720bb7491fbe6f5cd7651d0519457e76948759ccc8c507",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "quadrantCrop": [
+        135,
+        18,
+        491,
+        400
+      ],
+      "alphaContentCrop": [
+        8,
+        8,
+        348,
+        382
+      ],
+      "transparentBackground": true,
+      "tool": "built-in image_gen.imagegen",
+      "authorization": "User-authorized V2 original art and separate editable game layers; no poster screenshot substitution",
+      "cropRole": "Hat/head/shoulders avatar from the welcome quadrant of retained character master"
+    },
+    {
+      "key": "v2/trophy",
+      "path": "assets/art/v2/trophy.png",
+      "source": "tools/art/v2/sources/trophy.master.png",
+      "sourceSha256": "4102ab400f4205c7165052d039a52186614d6ffa6938c43f062b9224914a5bd9",
+      "width": 384,
+      "height": 384,
+      "mode": "RGBA",
+      "bytes": 166597,
+      "sha256": "e2dd360f6992265eda9ce9df98de8dd443487391ac1440c04ab99b77ec57ff5a",
+      "features": [
+        "Warm golden cup and curled handles",
+        "Crossed repair wrenches",
+        "Neutral final award with no baked score or rating"
+      ],
+      "method": "Built-in image_gen.imagegen master; offline authorized layer extraction and resampling",
+      "origin": "Original DeskRescue V2 project artwork; no downloaded third-party assets or brand logos",
+      "prompt": "tools/art/v2/sources/trophy.prompt.md",
+      "promptSha256": "54c4835414177e461f4b70e2595bbdd66e00625eddb5e4f9d526ecacd005ca02",
+      "sourceSize": [
+        1223,
+        1286
+      ],
+      "quadrantCrop": null,
+      "alphaContentCrop": [
+        50,
+        80,
+        1172,
+        1215
+      ],
+      "transparentBackground": true,
+      "tool": "built-in image_gen.imagegen",
+      "authorization": "User-authorized V2 original art and separate editable game layers; no poster screenshot substitution"
+    },
+    {
+      "key": "v2/cloth-glove",
+      "path": "assets/art/v2/cloth-glove.png",
+      "source": "tools/art/v2/sources/cloth-glove.master.png",
+      "sourceSha256": "9c3bd4893997eea32fe645530910e4bfd12f5ab7c37ef531c70709d74b296be0",
+      "width": 320,
+      "height": 320,
+      "mode": "RGBA",
+      "bytes": 115106,
+      "sha256": "925796589d714a36f854992a24cc503e8d7cd84c9244776bfcc6de22a0e161e1",
+      "features": [
+        "Soft blue microfiber cloth",
+        "White work glove and seam detail",
+        "Transparent non-interactive cleaning cue"
+      ],
+      "method": "Built-in image_gen.imagegen master; offline authorized layer extraction and resampling",
+      "origin": "Original DeskRescue V2 project artwork; no downloaded third-party assets or brand logos",
+      "prompt": "tools/art/v2/sources/cloth-glove.prompt.md",
+      "promptSha256": "eb8e63a519abf467cc8bcbc032b78168b10ca660e20dc967d7b94f20b7832f96",
+      "sourceSize": [
+        1312,
+        1199
+      ],
+      "quadrantCrop": null,
+      "alphaContentCrop": [
+        44,
+        59,
+        1268,
+        1142
+      ],
+      "transparentBackground": true,
+      "tool": "built-in image_gen.imagegen",
+      "authorization": "User-authorized V2 original art and separate editable game layers; no poster screenshot substitution"
+    },
+    {
+      "key": "v2/paper",
+      "path": "assets/art/v2/paper.png",
+      "source": "tools/art/v2/sources/paper.svg",
+      "sourceSha256": "45b44f72e1dbc761f630ca70b848e7b08718cfb0524fc19806005f3ad94af7cf",
+      "width": 192,
+      "height": 128,
+      "mode": "RGBA",
+      "bytes": 8878,
+      "sha256": "e50b6857ae1c168e030e34cba545425f9785748e5b3dbce97742e68a6750a5f1",
+      "features": [
+        "Cream parchment surface",
+        "Fine seeded paper flecks and delicate corner line",
+        "Soft layered warm shadow"
+      ],
+      "method": "Original shared Canvas geometry -> SVG plus Pillow 3x antialiased PNG",
+      "origin": "Original DeskRescue V2 project artwork; no downloaded third-party assets or brand logos",
+      "nineSlice": {
+        "left": 32,
+        "right": 32,
+        "top": 28,
+        "bottom": 28
+      }
+    },
+    {
+      "key": "v2/gold-button",
+      "path": "assets/art/v2/gold-button.png",
+      "source": "tools/art/v2/sources/gold-button.svg",
+      "sourceSha256": "9945725a50e33e3a0a42479baa766345bd4c83ec4e5364b5767aaf35dd2b2b67",
+      "width": 256,
+      "height": 128,
+      "mode": "RGBA",
+      "bytes": 11226,
+      "sha256": "2879dd80b08c7bfd91be5d02bcf4a3db28ae33468ba3bbe938d9ab541c9a540d",
+      "features": [
+        "Gold raised capsule with creamy highlight",
+        "Warm undercut and soft drop shadow",
+        "No text or baked action icon"
+      ],
+      "method": "Original shared Canvas geometry -> SVG plus Pillow 3x antialiased PNG",
+      "origin": "Original DeskRescue V2 project artwork; no downloaded third-party assets or brand logos",
+      "nineSlice": {
+        "left": 64,
+        "right": 64,
+        "top": 48,
+        "bottom": 48
+      }
+    },
+    {
+      "key": "v2/wood-workbench",
+      "path": "assets/art/v2/wood-workbench.png",
+      "source": "tools/art/v2/sources/wood-workbench.svg",
+      "sourceSha256": "1be7236760a6b6064181092a3ffda4754ac6b58352e076efd2cd81e6fdfe6326",
+      "width": 720,
+      "height": 720,
+      "mode": "RGBA",
+      "bytes": 62275,
+      "sha256": "fb3731639554b8b6025c7e88b17978557e6748e0ff75b330c92c992972446435",
+      "features": [
+        "Warm wood repair surface with three physical planks",
+        "Seeded fine flowing grain and knots",
+        "Thick bevel, front lip and warm shadow"
+      ],
+      "method": "Original shared Canvas geometry -> SVG plus Pillow 3x antialiased PNG",
+      "origin": "Original DeskRescue V2 project artwork; no downloaded third-party assets or brand logos"
+    },
+    {
+      "key": "v2/green-mat",
+      "path": "assets/art/v2/green-mat.png",
+      "source": "tools/art/v2/sources/green-mat.svg",
+      "sourceSha256": "ceb3d5c65b608c25412ccfdbe2077345fb9adc67e949bc67667c7bf75aaa1545",
+      "width": 640,
+      "height": 480,
+      "mode": "RGBA",
+      "bytes": 15601,
+      "sha256": "8dd7a68630df02f413cbb4a8f79ec25a45203037b74899b2998988bb9a14fc3b",
+      "features": [
+        "Deep green antistatic work mat",
+        "Fine stitched perimeter and subtle material grain",
+        "No visible logical cell grid, targets or progress"
+      ],
+      "method": "Original shared Canvas geometry -> SVG plus Pillow 3x antialiased PNG",
+      "origin": "Original DeskRescue V2 project artwork; no downloaded third-party assets or brand logos"
+    },
+    {
+      "key": "v2/cable-anchor",
+      "path": "assets/art/v2/cable-anchor.png",
+      "source": "tools/art/v2/sources/cable-anchor.svg",
+      "sourceSha256": "0a9582bd2082eb838f28254b82c04106bfee4688d4923a7aa5fc58511058b778",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "bytes": 9959,
+      "sha256": "2c9a539de196724db5d70fdea057805266c88947c933dac93180e6a5da8fcd0f",
+      "features": [
+        "Rounded fixed cable grommet",
+        "Soft green cylindrical socket",
+        "Warm base with fastening screws"
+      ],
+      "method": "Original shared Canvas geometry -> SVG plus Pillow 3x antialiased PNG",
+      "origin": "Original DeskRescue V2 project artwork; no downloaded third-party assets or brand logos"
+    },
+    {
+      "key": "v2/irregular-dust",
+      "path": "assets/art/v2/irregular-dust.png",
+      "source": "tools/art/v2/sources/irregular-dust.svg",
+      "sourceSha256": "ea89bc0e2322e64856e141136369feacd460a0502523841f90bb625da8f37a3c",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "bytes": 43772,
+      "sha256": "634abd29d544abb986a66096b770637b1489078405098b676bbd2d1312ec296b",
+      "features": [
+        "Asymmetric soft brown powder clumps",
+        "Seeded grit, flecks and wispy threads",
+        "Transparent perimeter for overlapped child sprites; no baked grid"
+      ],
+      "method": "Original shared Canvas geometry -> SVG plus Pillow 3x antialiased PNG",
+      "origin": "Original DeskRescue V2 project artwork; no downloaded third-party assets or brand logos",
+      "renderingNote": "Decorative child may overlap logical pooled cell; do not resize or move the real hit cell."
+    },
+    {
+      "key": "v2/confetti",
+      "path": "assets/art/v2/confetti.png",
+      "source": "tools/art/v2/sources/confetti.svg",
+      "sourceSha256": "7ac5d016f08a2479c19bc4f530704a74abfcaca42d4d9a389583eea10b779a55",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "bytes": 2812,
+      "sha256": "f42dfb0e95496bb03af5ee7f0d9d3ca000dc3b1402d5daabdf612b4927eabd4c",
+      "features": [
+        "One softly folded gold paper fleck",
+        "Transparent sparse particle sprite",
+        "Runtime tint may vary; no baked text or scene"
+      ],
+      "method": "Original shared Canvas geometry -> SVG plus Pillow 3x antialiased PNG",
+      "origin": "Original DeskRescue V2 project artwork; no downloaded third-party assets or brand logos"
+    }
+  ],
+  "runtimeAssetCount": 15,
+  "runtimeBytes": 3269452
+}

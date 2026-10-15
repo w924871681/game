@@ -4,6 +4,10 @@ import type { OrderDefinition } from '../data/OrderDefinition';
 import type { StageKind } from '../data/StageDefinition';
 import { StageHost } from '../stages/StageHost';
 import type { StageCallbacks, StageProgress } from '../stages/StageRuntime';
+import { AudioFeedback } from '../ui/AudioFeedback';
+import { ResultStars } from '../ui/ResultStars';
+import { PaperOrderHUD } from '../ui/PaperOrderHUD';
+import { V2ResultView } from '../ui/V2ResultView';
 import { formatStars, RunController } from './RunController';
 import type { LevelResult, RunSummary } from './RunController';
 
@@ -21,6 +25,16 @@ export function formatStageProgress(kind: StageKind, progress: StageProgress): s
 @ccclass('LevelManager')
 @disallowMultiple
 export class LevelManager extends Component {
+    @property({ tooltip: 'Disable in the formal scene so HomeController starts the first order.' })
+    public autoStartOnSceneLoad: boolean = true;
+    @property(AudioFeedback)
+    public audioFeedback: AudioFeedback | null = null;
+    @property(ResultStars)
+    public resultStars: ResultStars | null = null;
+    @property(PaperOrderHUD)
+    public hudView: PaperOrderHUD | null = null;
+    @property(V2ResultView)
+    public resultView: V2ResultView | null = null;
     @property(RunController)
     public runController: RunController | null = null;
     @property(StageHost)
@@ -62,7 +76,9 @@ export class LevelManager extends Component {
     private readonly panelScale: Vec3 = new Vec3(1, 1, 1);
     private readonly seenTutorials = new Set<StageKind>();
     private installedCallbacks: StageCallbacks | null = null;
+    private feedbackCompleted: number = 0;
 
+    public get hasStarted(): boolean { return this.initialized; }
     public get currentOrderIndex(): number { return this.orderIndex; }
     public get currentLevelIndex(): number { return this.orderIndex; }
     public get currentStageIndex(): number { return this.stageIndex; }
@@ -72,7 +88,22 @@ export class LevelManager extends Component {
 
     protected start(): void {
         if (!this.hasBindings()) return;
+        if (this.autoStartOnSceneLoad) this.startFirstOrder();
+        else if (!this.initialized) {
+            this.runController!.pause();
+            this.stageHost!.deactivateStage();
+            this.completePanel!.active = false;
+            this.nextButton!.node.active = false;
+            this.nextButton!.interactable = false;
+            this.tutorialHint!.active = false;
+        }
+    }
+
+    /** The home button can request initial entry once without restarting an existing run. */
+    public startFirstOrder(): boolean {
+        if (!this.enabled || this.initialized || !this.hasBindings()) return false;
         this.loadOrder(0);
+        return this.initialized;
     }
 
     protected onEnable(): void {
@@ -112,13 +143,16 @@ export class LevelManager extends Component {
             this.panelScale.set(this.completePanel!.scale);
             this.initialized = true;
             run.startNewRun();
+            this.audioFeedback?.resetPlaybackHistory();
         }
         this.orderGeneration += 1;
         this.stageGeneration += 1;
         this.installedCallbacks = null;
         this.stageHost!.deactivateStage();
         this.stopPanelAnimation();
+        this.audioFeedback?.stopPlayback();
         this.completePanel!.active = false;
+        this.resultStars?.reset();
         this.completeLabel!.string = '订单完成';
         this.completeDetailLabel!.string = '';
         this.nextButton!.node.active = false;
@@ -145,7 +179,9 @@ export class LevelManager extends Component {
         host.setInputEnabled(false);
         this.stageGeneration += 1;
         this.stageIndex = index;
+        this.feedbackCompleted = 0;
         const stage = order.stages[index];
+        this.hudView?.showStage(order, this.orderIndex, this.orders.length, index);
         this.stageLabel!.string = `步骤 ${index + 1} / ${order.stages.length}`;
         this.levelTitleLabel!.string = stage.title === order.title ? order.title : `${order.title} · ${stage.title}`;
         this.statusLabel!.string = stage.instruction;
@@ -186,7 +222,35 @@ export class LevelManager extends Component {
         this.stageHost!.resetAll();
         this.stopPanelAnimation();
         this.runController!.startNewRun();
+        this.audioFeedback?.resetPlaybackHistory();
         this.loadOrder(0);
+    }
+
+    /** Final-only business reset. HomeController then reveals the existing HomeOverlay. */
+    public returnHomeFromFinal(): boolean {
+        if (!this.initialized || !this.enabled || this.gameState !== GameState.DemoComplete || !this.hasBindings()) return false;
+        this.orderGeneration += 1;
+        this.stageGeneration += 1;
+        this.installedCallbacks = null;
+        this.nextButton!.interactable = false;
+        this.nextButton!.node.active = false;
+        this.stageHost!.resetAll();
+        this.stopPanelAnimation();
+        this.resultStars?.stopEffects();
+        this.resultStars?.reset();
+        this.resultView?.hide();
+        this.audioFeedback?.resetPlaybackHistory();
+        this.completePanel!.active = false;
+        this.tutorialHint!.active = false;
+        this.runController!.startNewRun();
+        this.runController!.pause();
+        this.initialized = false;
+        this.orderIndex = 0;
+        this.stageIndex = 0;
+        this.feedbackCompleted = 0;
+        this.gameState = GameState.Playing;
+        this.hudView?.clear();
+        return true;
     }
 
     private makeCallbacks(): StageCallbacks {
@@ -202,18 +266,33 @@ export class LevelManager extends Component {
         return {
             onProgress: (progress): void => {
                 if (!valid()) return;
+                if (progress.completed > this.feedbackCompleted) {
+                    this.feedbackCompleted = progress.completed;
+                    if (stage.kind !== 'clean-swipe') {
+                        this.audioFeedback?.play('success', `${orderGeneration}:${stageGeneration}:${progress.completed}`);
+                    }
+                }
                 this.statusLabel!.string = `${stage.instruction}\n${formatStageProgress(stage.kind, progress)}`;
+                this.hudView?.showProgress(progress);
                 if (progress.completed > 0) {
                     this.seenTutorials.add(stage.kind);
                     this.tutorialHint!.active = false;
                 }
             },
             onMistake: (): void => {
-                if (valid() && stage.kind !== 'clean-swipe') this.runController!.recordMistake();
+                if (valid() && stage.kind !== 'clean-swipe') {
+                    this.runController!.recordMistake();
+                    this.audioFeedback?.play('mistake', `${orderGeneration}:${stageGeneration}:${this.runController!.currentMistakes}`);
+                }
             },
             onComplete: (): void => {
                 if (!valid()) return;
                 complete = true;
+                if (stage.kind === 'clean-swipe') {
+                    this.audioFeedback?.play('clean-complete', `${orderGeneration}:${stageGeneration}`);
+                } else if (stageIndex + 1 < this.orders[orderIndex].stages.length) {
+                    this.audioFeedback?.play('stage-complete', `${orderGeneration}:${stageGeneration}`);
+                }
                 this.stageHost!.setInputEnabled(false);
                 this.installedCallbacks = null;
                 if (stageIndex + 1 < this.orders[orderIndex].stages.length) this.loadStage(stageIndex + 1);
@@ -240,6 +319,15 @@ export class LevelManager extends Component {
         this.stopPanelAnimation();
         panel.setScale(this.scaledPanel(0.8));
         panel.active = true;
+        this.resultStars?.show(result.stars);
+        if (final) {
+            const results = this.runController!.levelResults;
+            const completed = this.orders.reduce((sum, order) => sum
+                + (results.some(entry => entry.levelId === order.id) ? order.stages.length : 0), 0);
+            const total = this.orders.reduce((sum, order) => sum + order.stages.length, 0);
+            this.resultView?.showRun(this.runController!.summary, this.orders.length, completed, total);
+        } else this.resultView?.showOrder(result, this.orderIndex + 1, this.totalStagesInCurrentOrder);
+        this.audioFeedback?.play(final ? 'run-complete' : 'order-complete', `${this.orderGeneration}`);
         this.panelTween = tween(panel)
             .to(0.14, { scale: this.scaledPanel(1.08) }, { easing: 'quadOut' })
             .to(0.1, { scale: this.panelScale.clone() }, { easing: 'quadInOut' }).start();
@@ -265,6 +353,9 @@ export class LevelManager extends Component {
     private suspend(): void {
         this.unbindNextButton();
         this.stopPanelAnimation();
+        this.resultStars?.stopEffects();
+        this.resultView?.stopEffects();
+        this.audioFeedback?.stopPlayback();
         this.stageGeneration += 1;
         this.installedCallbacks = null;
         this.stageHost?.deactivateStage();
@@ -284,8 +375,10 @@ export class LevelManager extends Component {
 
     private onActionButtonClicked(): void {
         if (!this.enabled) return;
+        const previousGeneration = this.orderGeneration;
         if (this.gameState === GameState.LevelComplete) this.nextOrder();
         else if (this.gameState === GameState.DemoComplete) this.playAgain();
+        if (this.orderGeneration !== previousGeneration) this.audioFeedback?.play('ui-click', `next-${this.orderGeneration}`);
     }
 
     private bindNextButton(): void {

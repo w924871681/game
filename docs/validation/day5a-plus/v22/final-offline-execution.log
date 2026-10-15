@@ -1,0 +1,14 @@
+{"label": "final-offline-execution", "command": ["C:\\Users\\<USER>\\anaconda3\\python.exe", "tools/verify_v22_offline.py", "--label", "final-offline"], "cwd": "D:/game", "startedAtUtc": "2026-10-15T15:56:23.441715+00:00", "endedAtUtc": "2026-10-15T15:56:49.104043+00:00", "exitCode": 0}
+{
+  "ok": true,
+  "isolatedProject": "D:/game-deliverables/V22_offline_final-offline_20261015T155623886264Z/project",
+  "exitCode": 0,
+  "typescriptVersion": "5.8.2",
+  "diagnosticCodes": [],
+  "passedBehaviorGroups": [
+    224
+  ],
+  "copyFileCount": 1060,
+  "originalProjectTempUnchanged": true
+}
+

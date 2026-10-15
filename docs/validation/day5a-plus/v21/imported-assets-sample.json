@@ -1,0 +1,65 @@
+{
+  "timestamp": "2026-10-15T12:06:26.978Z",
+  "bindings": [
+    {
+      "key": "v21/ports/power-head",
+      "bindingKey": "ports/power-head",
+      "url": "db://assets/art/v21/ports/power-head.png",
+      "uuid": "64f915cb-c8a6-46c4-9018-e68cf6f2cc17@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/ports/power-port",
+      "bindingKey": "ports/power-port",
+      "url": "db://assets/art/v21/ports/power-port.png",
+      "uuid": "864fcf4c-b715-4969-9d9c-60ebc64f4c6c@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/ports/display-head",
+      "bindingKey": "ports/display-head",
+      "url": "db://assets/art/v21/ports/display-head.png",
+      "uuid": "29150901-e491-4081-9d1b-aebc95f2434a@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/ports/display-port",
+      "bindingKey": "ports/display-port",
+      "url": "db://assets/art/v21/ports/display-port.png",
+      "uuid": "bd884c84-cea6-4991-9cfc-1733348856f4@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/ports/network-head",
+      "bindingKey": "ports/network-head",
+      "url": "db://assets/art/v21/ports/network-head.png",
+      "uuid": "506755db-13a2-4a24-aa02-e696fb9a7b1f@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/ports/network-port",
+      "bindingKey": "ports/network-port",
+      "url": "db://assets/art/v21/ports/network-port.png",
+      "uuid": "6ef46a5d-a64e-49d9-973e-2eff7b34cb01@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v2/gold-button",
+      "url": "db://assets/art/v2/gold-button.png",
+      "uuid": "047f7d6d-6382-4611-96ba-6975e0c15fdc@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v2/cable-anchor",
+      "url": "db://assets/art/v2/cable-anchor.png",
+      "uuid": "46dbaa20-7c9e-440f-9b10-b6addc7c0b7f@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v2/irregular-dust",
+      "url": "db://assets/art/v2/irregular-dust.png",
+      "uuid": "02f9975e-687e-4474-9c9d-3af8c64ccf7d@f9941",
+      "type": "SpriteFrame"
+    }
+  ]
+}

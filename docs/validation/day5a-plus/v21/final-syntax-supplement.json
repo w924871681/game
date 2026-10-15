@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "timestamp": "2026-10-15T13:48:24.189490+00:00",
+  "ok": true,
+  "scope": "Lightweight current Git-visible Python syntax supplement only. No npm, Creator, Preview, business-source edit, documentation edit, module import or pycache generation. The earlier final-commands evidence is retained unchanged.",
+  "cwd": "D:\\game",
+  "startedAtUtc": "2026-10-15T13:48:24.006919+00:00",
+  "endedAtUtc": "2026-10-15T13:48:24.189490+00:00",
+  "tool": {
+    "pythonExecutable": "C:\\Users\\<USER>\\anaconda3\\python.exe",
+    "pythonVersion": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+    "method": "Actual child Python process compiles every current Git-visible .py as UTF-8 source without executing or importing those modules",
+    "command": [
+      "C:\\Users\\<USER>\\anaconda3\\python.exe",
+      "-c",
+      "<the compile-only child script embedded in checkerSource>",
+      "tools/art/full_geometry.py",
+      "tools/art/generate_day5a.py",
+      "tools/art/generate_v2_ui.py",
+      "tools/art/v21/generate_v21.py",
+      "tools/compare_v21_previews.py",
+      "tools/compare_v2_previews.py",
+      "tools/package_v21_delivery.py",
+      "tools/package_v2_delivery.py",
+      "tools/verify_v21_offline.py",
+      "tools/verify_v21_preservation.py",
+      "tools/verify_v2_preservation.py"
+    ],
+    "checkerSource": "\nimport hashlib,json,pathlib,sys\nrows=[]\nfor name in sys.argv[1:]:\n data=pathlib.Path(name).read_bytes()\n try:\n  compile(data.decode('utf-8-sig'),name,'exec')\n  result={'status':'passed','error':None}\n except Exception as error:\n  result={'status':'failed','error':repr(error)}\n rows.append({'path':name,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest(),**result})\nprint(json.dumps({'files':rows,'passed':sum(row['status']=='passed' for row in rows),'failed':sum(row['status']=='failed' for row in rows)},ensure_ascii=False))\nsys.exit(int(any(row['status']=='failed' for row in rows)))\n"
+  },
+  "exitCode": 0,
+  "stdout": "{\"files\": [{\"path\": \"tools/art/full_geometry.py\", \"bytes\": 20292, \"sha256\": \"6b25cb8e6115ba0761713571cabfb5e41407ba4e3dae6f5141d39eea4d15a6f4\", \"status\": \"passed\", \"error\": null}, {\"path\": \"tools/art/generate_day5a.py\", \"bytes\": 16701, \"sha256\": \"35a9d27161e1afdbddc615edaed4f05c7bf58b201ade0fe83c78a635cafaa982\", \"status\": \"passed\", \"error\": null}, {\"path\": \"tools/art/generate_v2_ui.py\", \"bytes\": 15634, \"sha256\": \"20cd3c4627f3d1cccfc7789a44be7591a320624ab99fa2d76143a959af2c9ea8\", \"status\": \"passed\", \"error\": null}, {\"path\": \"tools/art/v21/generate_v21.py\", \"bytes\": 21879, \"sha256\": \"a21c7f0be80a925a532cdf8aaa0be16b8b14f2f183deeb6d988ca3f1a99b6912\", \"status\": \"passed\", \"error\": null}, {\"path\": \"tools/compare_v21_previews.py\", \"bytes\": 22197, \"sha256\": \"8cc5846fccb1cc86b90ba0293f60a2132a78c48b485a9f30ce8b95796f632498\", \"status\": \"passed\", \"error\": null}, {\"path\": \"tools/compare_v2_previews.py\", \"bytes\": 16030, \"sha256\": \"8629bbcdd861bdd46402864e8daf3861d4dc57fab2b76b732a20fce047fa5ff4\", \"status\": \"passed\", \"error\": null}, {\"path\": \"tools/package_v21_delivery.py\", \"bytes\": 29226, \"sha256\": \"c9b1c74a753010f43913921616be8b9a2d094dfc0eed2d9bbe47813739322d73\", \"status\": \"passed\", \"error\": null}, {\"path\": \"tools/package_v2_delivery.py\", \"bytes\": 19699, \"sha256\": \"820496dddfe2a40ff710f105cea879cfb6b965bdb6019c7f2a3c0afa952f52d1\", \"status\": \"passed\", \"error\": null}, {\"path\": \"tools/verify_v21_offline.py\", \"bytes\": 11464, \"sha256\": \"e9408b34f5107e019d7e6c5e390d402e9755613a3e7022cd726f7f61a9c238e3\", \"status\": \"passed\", \"error\": null}, {\"path\": \"tools/verify_v21_preservation.py\", \"bytes\": 34622, \"sha256\": \"654a6a7a8e54c0d5a732070523c05dcec23fd2ef8c24530e06dca98c5f91226e\", \"status\": \"passed\", \"error\": null}, {\"path\": \"tools/verify_v2_preservation.py\", \"bytes\": 28437, \"sha256\": \"3c049397a87b82bab269a46c95d4831330e56a0736152fb55716fea0fcd58807\", \"status\": \"passed\", \"error\": null}], \"passed\": 11, \"failed\": 0}\r\n",
+  "stderr": "",
+  "total": 11,
+  "passed": 11,
+  "failed": 0,
+  "files": [
+    {
+      "path": "tools/art/full_geometry.py",
+      "bytes": 20292,
+      "sha256": "6b25cb8e6115ba0761713571cabfb5e41407ba4e3dae6f5141d39eea4d15a6f4",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "path": "tools/art/generate_day5a.py",
+      "bytes": 16701,
+      "sha256": "35a9d27161e1afdbddc615edaed4f05c7bf58b201ade0fe83c78a635cafaa982",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "path": "tools/art/generate_v2_ui.py",
+      "bytes": 15634,
+      "sha256": "20cd3c4627f3d1cccfc7789a44be7591a320624ab99fa2d76143a959af2c9ea8",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "path": "tools/art/v21/generate_v21.py",
+      "bytes": 21879,
+      "sha256": "a21c7f0be80a925a532cdf8aaa0be16b8b14f2f183deeb6d988ca3f1a99b6912",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "path": "tools/compare_v21_previews.py",
+      "bytes": 22197,
+      "sha256": "8cc5846fccb1cc86b90ba0293f60a2132a78c48b485a9f30ce8b95796f632498",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "path": "tools/compare_v2_previews.py",
+      "bytes": 16030,
+      "sha256": "8629bbcdd861bdd46402864e8daf3861d4dc57fab2b76b732a20fce047fa5ff4",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "path": "tools/package_v21_delivery.py",
+      "bytes": 29226,
+      "sha256": "c9b1c74a753010f43913921616be8b9a2d094dfc0eed2d9bbe47813739322d73",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "path": "tools/package_v2_delivery.py",
+      "bytes": 19699,
+      "sha256": "820496dddfe2a40ff710f105cea879cfb6b965bdb6019c7f2a3c0afa952f52d1",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "path": "tools/verify_v21_offline.py",
+      "bytes": 11464,
+      "sha256": "e9408b34f5107e019d7e6c5e390d402e9755613a3e7022cd726f7f61a9c238e3",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "path": "tools/verify_v21_preservation.py",
+      "bytes": 34622,
+      "sha256": "654a6a7a8e54c0d5a732070523c05dcec23fd2ef8c24530e06dca98c5f91226e",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "path": "tools/verify_v2_preservation.py",
+      "bytes": 28437,
+      "sha256": "3c049397a87b82bab269a46c95d4831330e56a0736152fb55716fea0fcd58807",
+      "status": "passed",
+      "error": null
+    }
+  ],
+  "currentFrozenFiles": [
+    {
+      "path": "tools/compare_v21_previews.py",
+      "bytes": 22197,
+      "sha256": "8cc5846fccb1cc86b90ba0293f60a2132a78c48b485a9f30ce8b95796f632498",
+      "expectedSHA256": "8cc5846fccb1cc86b90ba0293f60a2132a78c48b485a9f30ce8b95796f632498",
+      "matchesExpectedFrozenSHA": true
+    },
+    {
+      "path": "docs/DAY5A_PLUS_V21_REFINEMENT.md",
+      "bytes": 21648,
+      "sha256": "945f1a3e17bba1a30c5f954d10b4580c30d5c3fa2670950d0ee6b102c14b10b7",
+      "expectedSHA256": "945f1a3e17bba1a30c5f954d10b4580c30d5c3fa2670950d0ee6b102c14b10b7",
+      "matchesExpectedFrozenSHA": true
+    }
+  ],
+  "sourceBytesUnchangedDuringCheck": true,
+  "originalFinalCommands": {
+    "path": "docs/validation/day5a-plus/v21/final-commands.json",
+    "bytes": 61679,
+    "sha256": "0d57dd5c48073cd67e74be9e90615d2ff601982111ad96059a5b14f357433041"
+  },
+  "originalFinalCommandsUnchanged": true,
+  "supersedesOnly": "The older Python syntax snapshot of tools/compare_v21_previews.py is supplemented with its final frozen current bytes; the 207-group runtime tests and Creator reports are not re-executed or rewritten."
+}

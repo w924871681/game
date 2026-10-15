@@ -4,6 +4,9 @@ import type { DragMatchStageDefinition } from '../data/StageDefinition';
 import { DraggableItem } from '../gameplay/DraggableItem';
 import { ElementPool } from './ElementPool';
 import type { StageCallbacks, StageProgress, StageRuntime } from './StageRuntime';
+import { VisualAssetRegistry } from '../visuals/VisualAssetRegistry';
+import { ElementVisual } from '../visuals/ElementVisual';
+import { dragVisualKey } from '../visuals/VisualCatalog';
 
 const { ccclass, property } = _decorator;
 
@@ -26,6 +29,9 @@ export class DragMatchStageController extends Component implements StageRuntime 
     private generation: number = 0;
     private complete: boolean = false;
     private inputEnabled: boolean = false;
+    private visualAssets: VisualAssetRegistry | null = null;
+
+    public bindVisualAssets(assets: VisualAssetRegistry | null): void { this.visualAssets = assets; }
 
     public get progress(): StageProgress {
         return Object.freeze({ completed: this.gameController?.completedItems ?? 0, total: this.definition?.pairs.length ?? 0 });
@@ -103,6 +109,15 @@ export class DragMatchStageController extends Component implements StageRuntime 
             const itemNode = items[index];
             this.configureVisual(target, pair.targetLabel, width, height);
             this.configureVisual(itemNode, pair.itemLabel, width, height);
+            if (this.visualAssets) {
+                const key = dragVisualKey(definition.id, pair.id);
+                const frame = this.visualAssets.requireFrame(key);
+                const targetVisual = target.getComponent(ElementVisual);
+                const itemVisual = itemNode.getComponent(ElementVisual);
+                if (!targetVisual || !itemVisual) throw new Error('[DragMatchStage] ElementVisual bindings are missing.');
+                targetVisual.configure(frame, key, pair.targetLabel, width, height, true);
+                itemVisual.configure(frame, key, pair.itemLabel, width, height, false);
+            }
             target.setPosition(pair.targetPosition.x, pair.targetPosition.y, 0);
             itemNode.setPosition(pair.itemStart.x, pair.itemStart.y, 0);
             const item = itemNode.getComponent(DraggableItem);
@@ -120,6 +135,7 @@ export class DragMatchStageController extends Component implements StageRuntime 
     }
 
     private configureVisual(node: Node, text: string, width: number, height: number): void {
+        node.getComponent(ElementVisual)?.hideArtwork();
         const transform = node.getComponent(UITransform);
         const label = node.getComponentInChildren(Label);
         if (!transform || !label) {
@@ -146,6 +162,12 @@ export class DragMatchStageController extends Component implements StageRuntime 
         const generation = this.generation;
         game.onProgressChanged = () => {
             if (generation === this.generation && !this.complete) {
+                for (const item of this.items) {
+                    if (item.isPlaced) {
+                        item.node.getComponent(ElementVisual)?.showComplete();
+                        item.target?.getComponent(ElementVisual)?.showComplete();
+                    }
+                }
                 this.callbacks?.onProgress(this.progress);
             }
         };

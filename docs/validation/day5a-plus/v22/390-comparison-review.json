@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-15T16:23:26.806958+00:00",
+  "reviewerRole": "Source/code author independently viewing complete original390x844 screenshots and reopened native comparison PNGs",
+  "reviewMethod": "Direct visual inspection plus lossless composition and explicit ROI RGB comparison; no browser state injection or source-image mutation",
+  "comparisons": 10,
+  "sourceProtection": {
+    "comparedBeforeAndAfter": 152,
+    "changedSources": []
+  },
+  "nativePairDimensions": [
+    840,
+    1046
+  ],
+  "sourceRectanglesRemainFull390x844": true,
+  "pairsReopenedPixelVerification": true,
+  "p0": {
+    "horizontal57": "Wiped band remains visible. Improvement at residual-dust edge is modest, not complete band elimination. No internal logic grid or newly hard cut seen.",
+    "diagonal57": "Localized residual dust remains natural; no new grid/row synchronization visible.",
+    "clean96": "Actual27/28; V21 and V22 input routes differ, so residual location is not a controlled algorithm comparison.",
+    "repeatChecks": [
+      {
+        "before": {
+          "path": "docs/validation/day5a-plus/v22/screenshots/clean-horizontal57-v22-390x844.jpg",
+          "bytes": 47699,
+          "sha256": "fc531aca88955ec3e5727a6cbd7e3b103b58049cf4707d14d2812d6c29b8e8af",
+          "dimensions": [
+            390,
+            844
+          ]
+        },
+        "after": {
+          "path": "docs/validation/day5a-plus/v22/screenshots/clean-local-repeat57-v22-390x844.jpg",
+          "bytes": 47716,
+          "sha256": "afe4b5619e28dc463c0225fc6ca4410e198a094347b3bed0b64eb6b822aa65be",
+          "dimensions": [
+            390,
+            844
+          ]
+        },
+        "keyboardRoiLTRB": [
+          57,
+          350,
+          333,
+          490
+        ],
+        "decodedKeyboardPixelsIdentical": true,
+        "differenceBBox": null,
+        "trueLogicalProgressBeforeAfter": [
+          57,
+          57
+        ],
+        "boundary": "Only keyboard ROI is compared; timestamps naturally differ. This is not FPS or whole-screen identity."
+      },
+      {
+        "before": {
+          "path": "docs/validation/day5a-plus/v22/screenshots/clean-diagonal57-v22-390x844.jpg",
+          "bytes": 47845,
+          "sha256": "5d2efb0b2d23a55aeb745f31f7b69099bef4c591cdbed8c8aaa29ab5170b91d6",
+          "dimensions": [
+            390,
+            844
+          ]
+        },
+        "after": {
+          "path": "docs/validation/day5a-plus/v22/screenshots/clean-diagonal-local-repeat57-v22-390x844.jpg",
+          "bytes": 47883,
+          "sha256": "3ffd401c4d0223575baf79509d4acfd29966f2028cef75ed00f244a3a9024a62",
+          "dimensions": [
+            390,
+            844
+          ]
+        },
+        "keyboardRoiLTRB": [
+          57,
+          350,
+          333,
+          490
+        ],
+        "decodedKeyboardPixelsIdentical": true,
+        "differenceBBox": null,
+        "trueLogicalProgressBeforeAfter": [
+          57,
+          57
+        ],
+        "boundary": "Only keyboard ROI is compared; timestamps naturally differ. This is not FPS or whole-screen identity."
+      }
+    ],
+    "decision": "Stop further parameter iteration; user reviews remaining visible band."
+  },
+  "p1": {
+    "order8": "Four distinct devices and all original caption nodes remain visible; outlined short text separates from art.",
+    "order9": "At3/4 motherboard/CPU/disk have real successful curves and lamps; fan remains left and unconnected. Head/port short captions remain simultaneously readable.",
+    "order5": "0/3 has no preconnected successful wire;1/3 shows exactly blue display connection and one successful lamp.",
+    "limitations": "Desktop390 viewport rendering only; no physical phone/touch/FPS or platform certification."
+  },
+  "userArtApproval": false,
+  "runtimeAndSourceScriptsModifiedByComparison": false
+}

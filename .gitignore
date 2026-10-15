@@ -13,3 +13,13 @@ Thumbs.db
 
 # Creator-generated documentation shortcut (not project source)
 /.creator/asset-template/typescript/Custom Script Template Help Documentation.url
+
+# Offline artwork generator cache
+/tools/art/__pycache__/
+/tools/art/**/*.pyc
+
+# Public V2.2 baseline: keep local cache and duplicate delivery archives locally
+**/__pycache__/
+/.pytest_cache/
+*.pyc
+*.zip

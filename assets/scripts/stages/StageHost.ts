@@ -1,10 +1,12 @@
-import { _decorator, Component, instantiate, Node, Prefab } from 'cc';
+import { _decorator, Component, instantiate, Node, Prefab, warn } from 'cc';
 import type { StageDefinition, StageKind } from '../data/StageDefinition';
 import { CableConnectStageController } from './CableConnectStageController';
 // Keep the three concrete controllers statically imported for Creator Prefab serialization.
 import { CleanSwipeStageController } from './CleanSwipeStageController';
 import { DragMatchStageController } from './DragMatchStageController';
 import type { StageCallbacks, StageRuntime } from './StageRuntime';
+import { VisualAssetRegistry } from '../visuals/VisualAssetRegistry';
+import { cableVisualKey, cleanVisualKey, dragVisualKey } from '../visuals/VisualCatalog';
 
 const { ccclass, property, disallowMultiple } = _decorator;
 
@@ -24,6 +26,12 @@ export class StageHost extends Component {
 
     @property(Prefab)
     public cleanSwipePrefab: Prefab | null = null;
+
+    @property(VisualAssetRegistry)
+    public visualAssets: VisualAssetRegistry | null = null;
+
+    @property({ tooltip: 'Temporary slice review only. Final visual assembly always disables this.' })
+    public slicePreview: boolean = false;
 
     private readonly cache = new Map<StageKind, CachedStage>();
     private current: CachedStage | null = null;
@@ -49,6 +57,7 @@ export class StageHost extends Component {
                 const entry = this.obtain(definition.kind, this.dragMatchPrefab, DragMatchStageController);
                 this.activate(entry);
                 const controller = entry.node.getComponent(DragMatchStageController)!;
+                controller.bindVisualAssets(this.assetsFor(definition));
                 controller.configure(definition, this.guard(callbacks));
                 break;
             }
@@ -56,6 +65,7 @@ export class StageHost extends Component {
                 const entry = this.obtain(definition.kind, this.cableConnectPrefab, CableConnectStageController);
                 this.activate(entry);
                 const controller = entry.node.getComponent(CableConnectStageController)!;
+                controller.bindVisualAssets(this.assetsFor(definition));
                 controller.configure(definition, this.guard(callbacks));
                 break;
             }
@@ -63,6 +73,7 @@ export class StageHost extends Component {
                 const entry = this.obtain(definition.kind, this.cleanSwipePrefab, CleanSwipeStageController);
                 this.activate(entry);
                 const controller = entry.node.getComponent(CleanSwipeStageController)!;
+                controller.bindVisualAssets(this.assetsFor(definition));
                 controller.configure(definition, this.guard(callbacks));
                 break;
             }
@@ -125,6 +136,19 @@ export class StageHost extends Component {
         this.current = entry;
         this.active = true;
         entry.node.active = true;
+    }
+
+    private assetsFor(definition: StageDefinition): VisualAssetRegistry | null {
+        if (!this.visualAssets || !this.slicePreview) return this.visualAssets;
+        const keys = definition.kind === 'drag-match'
+            ? definition.pairs.map(pair => dragVisualKey(definition.id, pair.id))
+            : definition.kind === 'cable-connect'
+                ? definition.cables.reduce<string[]>((all, cable) => all.concat([
+                    cableVisualKey(definition.id, cable.id, 'head'), cableVisualKey(definition.id, cable.id, 'port')]), [])
+                : definition.areas.map(area => cleanVisualKey(definition.id, area.id));
+        if (keys.every(key => this.visualAssets!.keys.indexOf(key) >= 0)) return this.visualAssets;
+        warn(`[StageHost] Slice preview: ${definition.id} retains its Day 4 text appearance pending artwork.`);
+        return null;
     }
 
     private obtain<T extends Component & StageRuntime>(kind: StageKind, prefab: Prefab | null,

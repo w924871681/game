@@ -1,0 +1,1606 @@
+{
+  "schemaVersion": 1,
+  "timestamp": "2026-10-15T12:38:21.550929+00:00",
+  "ok": true,
+  "scope": "Actual final local commands plus a fresh isolated source-copy regression. Mock behavior groups and synthetic engine probes do not claim physical input, audible playback, or visual approval.",
+  "checks": [
+    {
+      "name": "Mock regression keeps 174 prior groups plus 17 clean and 16 visual groups",
+      "ok": true
+    },
+    {
+      "name": "Actual Creator SDK project strict types pass",
+      "ok": true
+    },
+    {
+      "name": "SDK self-validation records actual exit1 and exactly102 existing installed SDK diagnostics",
+      "ok": true
+    },
+    {
+      "name": "All25 Git-visible JS/CJS/MJS parse",
+      "ok": true
+    },
+    {
+      "name": "All11 Git-visible Python sources compile without imports or pycache",
+      "ok": true
+    },
+    {
+      "name": "Fresh no-temp current-source isolated suite passes207",
+      "ok": true
+    },
+    {
+      "name": "Package final alpha3",
+      "ok": true
+    }
+  ],
+  "environment": {
+    "cwd": "D:\\game",
+    "node": "v22.19.0",
+    "nodePath": "C:\\Program Files\\nodejs\\node.EXE",
+    "npm": "10.9.3",
+    "npmPath": "C:\\Program Files\\nodejs\\npm.cmd",
+    "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+    "pythonPath": "C:\\Users\\<USER>\\anaconda3\\python.exe",
+    "typescriptVersion": "5.8.2"
+  },
+  "commands": [
+    {
+      "label": "final-tests",
+      "command": [
+        "C:\\Program Files\\nodejs\\npm.cmd",
+        "test"
+      ],
+      "cwd": "D:\\game",
+      "startedAtUtc": "2026-10-15T12:36:26.955794+00:00",
+      "endedAtUtc": "2026-10-15T12:36:33.904168+00:00",
+      "exitCode": 0,
+      "log": {
+        "path": "docs/validation/day5a-plus/v21/final-tests.log",
+        "bytes": 23118,
+        "sha256": "334318af835933ec4f0434647fd01c8ccf59fcd88ae6c743dcafb0696b3e906a"
+      },
+      "behaviorGroups": [
+        "207"
+      ],
+      "sdkDiagnostics": [],
+      "diagnosticErrorLineCount": 0,
+      "typescriptOutput": [
+        "TypeScript 5.8.2: C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\app.asar.unpacked\\node_modules\\typescript\\lib\\typescript.js",
+        "PASS project strict TypeScript checking against real editor-generated Cocos SDK references (strict/noUnusedLocals/noUnusedParameters enabled; SDK self-validation is separate)."
+      ],
+      "passLineCount": 210,
+      "newVisualGroups": 16,
+      "newCleanGroups": 17,
+      "sdkDiagnosticsExcludedFromProject": [
+        102
+      ],
+      "oldBehaviorGroupsPreserved": 174,
+      "expectedNewCleanGroups": 17,
+      "expectedNewVisualGroups": 16
+    },
+    {
+      "label": "final-cocos-types",
+      "command": [
+        "C:\\Program Files\\nodejs\\npm.cmd",
+        "run",
+        "check:cocos"
+      ],
+      "cwd": "D:\\game",
+      "startedAtUtc": "2026-10-15T12:36:26.838608+00:00",
+      "endedAtUtc": "2026-10-15T12:36:32.049003+00:00",
+      "exitCode": 0,
+      "log": {
+        "path": "docs/validation/day5a-plus/v21/final-cocos-types.log",
+        "bytes": 1257,
+        "sha256": "1c5584608da38557419da620b991814f5573a6e4b0a29a7bd77db679f15d0fae"
+      },
+      "behaviorGroups": [],
+      "sdkDiagnostics": [],
+      "diagnosticErrorLineCount": 0,
+      "typescriptOutput": [
+        "TypeScript 5.8.2: C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\app.asar.unpacked\\node_modules\\typescript\\lib\\typescript.js",
+        "PASS project strict TypeScript checking against real editor-generated Cocos SDK references (strict/noUnusedLocals/noUnusedParameters enabled; SDK self-validation is separate)."
+      ],
+      "passLineCount": 1,
+      "newVisualGroups": 0,
+      "newCleanGroups": 0,
+      "sdkDiagnosticsExcludedFromProject": [
+        102
+      ]
+    },
+    {
+      "label": "final-sdk-self",
+      "command": [
+        "C:\\Program Files\\nodejs\\npm.cmd",
+        "run",
+        "check:cocos",
+        "--",
+        "--check-sdk-declarations"
+      ],
+      "cwd": "D:\\game",
+      "startedAtUtc": "2026-10-15T12:36:26.838589+00:00",
+      "endedAtUtc": "2026-10-15T12:36:32.086619+00:00",
+      "exitCode": 1,
+      "log": {
+        "path": "docs/validation/day5a-plus/v21/final-sdk-self.log",
+        "bytes": 20239,
+        "sha256": "0c7e820ec40db44c325249060e015fbab1e88f3ca67536f9c10240ab473565d1"
+      },
+      "behaviorGroups": [],
+      "sdkDiagnostics": [],
+      "diagnosticErrorLineCount": 102,
+      "typescriptOutput": [
+        "TypeScript 5.8.2: C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\app.asar.unpacked\\node_modules\\typescript\\lib\\typescript.js"
+      ],
+      "passLineCount": 0,
+      "newVisualGroups": 0,
+      "newCleanGroups": 0,
+      "sdkDiagnosticsExcludedFromProject": []
+    },
+    {
+      "label": "final-syntax-js",
+      "method": [
+        "C:\\Program Files\\nodejs\\node.EXE",
+        "--check",
+        "<each Git-visible JS/CJS/MJS>"
+      ],
+      "cwd": "D:\\game",
+      "startedAtUtc": "2026-10-15T12:36:56.039004+00:00",
+      "endedAtUtc": "2026-10-15T12:36:57.939492+00:00",
+      "total": 25,
+      "passed": 25,
+      "failed": 0,
+      "exitCode": 0,
+      "nodeVersion": "v22.19.0",
+      "pythonVersion": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+      "pythonExecutable": "C:\\Users\\<USER>\\anaconda3\\python.exe",
+      "files": [
+        {
+          "path": "extensions/deskrescue-editor/day4-appearance.js",
+          "bytes": 6834,
+          "sha256": "c0cd7cb604d17a25b8277bc2c32dbdb7c048a2cbec4b33e76d3878693fabe0d4",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "extensions/deskrescue-editor/day4-audit.js",
+          "bytes": 27336,
+          "sha256": "b3afb8dc4010421e8d927d060f60c5443d1d4b28af0e0fd1e13ffa487b323a2d",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "extensions/deskrescue-editor/day4-probe.js",
+          "bytes": 32245,
+          "sha256": "cf77028127fb009663ff6b35e634c0c50a2d594144a91373d2a82b5b161711eb",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "extensions/deskrescue-editor/day4-scene.js",
+          "bytes": 11656,
+          "sha256": "6265689295cc9730b4fe24ea5ea56e89a6c541356ab3c126973cce3d084e61c4",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "extensions/deskrescue-editor/day5a-audit.js",
+          "bytes": 47363,
+          "sha256": "071d56b6079f24dad1ce98a7dac4bcf3fe2a803704c78c56ebc59a49a6f984d4",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "extensions/deskrescue-editor/day5a-main.js",
+          "bytes": 8209,
+          "sha256": "b9f6fc2272836742f70b83e6ccea1719172a78580114b5b7892ea3c6633dd216",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "extensions/deskrescue-editor/day5a-probe.js",
+          "bytes": 33576,
+          "sha256": "33a5009c69e937160fe78721a97db580691b30f38cbba06be95c3f6824bde51a",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "extensions/deskrescue-editor/day5a-scene.js",
+          "bytes": 18359,
+          "sha256": "7c6c3e5f5a71b70478218cb1dfc081b6ce30925d9cc6394f37a178a2a61cd01d",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "extensions/deskrescue-editor/main.js",
+          "bytes": 12359,
+          "sha256": "b14126dc4cf3cb8d8a712e8b16b843ba48c08bff966386e685d443e0ae2094ae",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "extensions/deskrescue-editor/probe.js",
+          "bytes": 18821,
+          "sha256": "1be4864e0fac75480ab5f73a6d3e62c4244bfd7378e181a5a27530d51de87c22",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "extensions/deskrescue-editor/scene.js",
+          "bytes": 21211,
+          "sha256": "002e5432c7179eb26fe64892cc5e663f864e73b2fb87ca1a3b36fda3df75077d",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "extensions/deskrescue-editor/v2-audit.js",
+          "bytes": 52064,
+          "sha256": "cc5edbf3563120912de85e6a3b6effdeb9ee0073d934a0fb272047b07a9c8bf1",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "extensions/deskrescue-editor/v2-main.js",
+          "bytes": 7185,
+          "sha256": "b9df6bfb64f0b0015f4e21109f8a055104c24f2449e5dd25b8e6184b1642c9c0",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "extensions/deskrescue-editor/v2-probe.js",
+          "bytes": 64311,
+          "sha256": "1d542f2238c6539a348948947e498d01d78e3b7b8748b8260a1cb4816ed9b4bc",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "extensions/deskrescue-editor/v2-scene.js",
+          "bytes": 28988,
+          "sha256": "f660b34e7967fc8b75be8a0abbd1834b66116c8fefe361c32ddbcf4848247d31",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "extensions/deskrescue-editor/v21-audit.js",
+          "bytes": 59425,
+          "sha256": "281952dcad2c4e111463b22fe27c3548e9c2ca5d13fae6e31d023d8ae645997a",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "extensions/deskrescue-editor/v21-main.js",
+          "bytes": 6040,
+          "sha256": "a40c835c5e8b9795403bbd0d14fb7c16287a5dd93786825e488b2062ff26d54a",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "extensions/deskrescue-editor/v21-probe.js",
+          "bytes": 83880,
+          "sha256": "e551c6b5ca6a5bb96c091ab10cc3e39b270163676633d8f5bc0c872728830e0e",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "extensions/deskrescue-editor/v21-scene.js",
+          "bytes": 11934,
+          "sha256": "a489d238370d3d012c1357ad575b6d7001994fbdca8665ba8136bdd4ec720ebb",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "tools/verify-day1.cjs",
+          "bytes": 97887,
+          "sha256": "f517bb5d184999bde3e891f28b6d84e24d57ca3229e8b81d8eede6eaa26f1245",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "tools/verify-day4.cjs",
+          "bytes": 56237,
+          "sha256": "9eb22a5bacabee48cdda53b20597717cab84f7a384319f84cc0e177312a6dd6a",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "tools/verify-day5a-v2.cjs",
+          "bytes": 29334,
+          "sha256": "e95980a19b71ba08a17a1d4021c8e6c306c4abbfdc9f9ccf08350b8e3f3c19f1",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "tools/verify-day5a-v21-clean.cjs",
+          "bytes": 15237,
+          "sha256": "a2636463dc15f88340d9cc5720895a9a84bc575357d227d496ca7f40b783d419",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "tools/verify-day5a.cjs",
+          "bytes": 31596,
+          "sha256": "23e6986a4b9388aaded604f68f82c61b2c40f95c2c5994457e79bfa511a9d121",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "tools/verify-v21-visuals.cjs",
+          "bytes": 19813,
+          "sha256": "b2b8cd90396e2fb2f75cc42062ffb186931defdcc2327516d5de885bf95eeb16",
+          "exitCode": 0,
+          "output": ""
+        }
+      ],
+      "log": {
+        "path": "docs/validation/day5a-plus/v21/final-syntax-js.log",
+        "bytes": 4855,
+        "sha256": "c7e46204041de66492b49da6307c54030b087ef38c217d8e3b28bf8eebb1e9a3"
+      },
+      "sdkDiagnosticsExcludedFromProject": []
+    },
+    {
+      "label": "final-syntax-python",
+      "method": [
+        "C:\\Users\\<USER>\\anaconda3\\python.exe",
+        "compile UTF-8 source without importing or creating __pycache__"
+      ],
+      "cwd": "D:\\game",
+      "startedAtUtc": "2026-10-15T12:36:57.987745+00:00",
+      "endedAtUtc": "2026-10-15T12:36:58.074567+00:00",
+      "total": 11,
+      "passed": 11,
+      "failed": 0,
+      "exitCode": 0,
+      "nodeVersion": "v22.19.0",
+      "pythonVersion": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+      "pythonExecutable": "C:\\Users\\<USER>\\anaconda3\\python.exe",
+      "files": [
+        {
+          "path": "tools/art/full_geometry.py",
+          "bytes": 20292,
+          "sha256": "6b25cb8e6115ba0761713571cabfb5e41407ba4e3dae6f5141d39eea4d15a6f4",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "tools/art/generate_day5a.py",
+          "bytes": 16701,
+          "sha256": "35a9d27161e1afdbddc615edaed4f05c7bf58b201ade0fe83c78a635cafaa982",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "tools/art/generate_v2_ui.py",
+          "bytes": 15634,
+          "sha256": "20cd3c4627f3d1cccfc7789a44be7591a320624ab99fa2d76143a959af2c9ea8",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "tools/art/v21/generate_v21.py",
+          "bytes": 21879,
+          "sha256": "a21c7f0be80a925a532cdf8aaa0be16b8b14f2f183deeb6d988ca3f1a99b6912",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "tools/compare_v21_previews.py",
+          "bytes": 8681,
+          "sha256": "bf7145a78b377f8317dbce94f7cb2ba7cb0ffeb0b18cff1e33b4a7935297b61c",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "tools/compare_v2_previews.py",
+          "bytes": 16030,
+          "sha256": "8629bbcdd861bdd46402864e8daf3861d4dc57fab2b76b732a20fce047fa5ff4",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "tools/package_v21_delivery.py",
+          "bytes": 29226,
+          "sha256": "c9b1c74a753010f43913921616be8b9a2d094dfc0eed2d9bbe47813739322d73",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "tools/package_v2_delivery.py",
+          "bytes": 19699,
+          "sha256": "820496dddfe2a40ff710f105cea879cfb6b965bdb6019c7f2a3c0afa952f52d1",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "tools/verify_v21_offline.py",
+          "bytes": 11464,
+          "sha256": "e9408b34f5107e019d7e6c5e390d402e9755613a3e7022cd726f7f61a9c238e3",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "tools/verify_v21_preservation.py",
+          "bytes": 34622,
+          "sha256": "654a6a7a8e54c0d5a732070523c05dcec23fd2ef8c24530e06dca98c5f91226e",
+          "exitCode": 0,
+          "output": ""
+        },
+        {
+          "path": "tools/verify_v2_preservation.py",
+          "bytes": 28437,
+          "sha256": "3c049397a87b82bab269a46c95d4831330e56a0736152fb55716fea0fcd58807",
+          "exitCode": 0,
+          "output": ""
+        }
+      ],
+      "log": {
+        "path": "docs/validation/day5a-plus/v21/final-syntax-python.log",
+        "bytes": 2358,
+        "sha256": "5298a7fe5c2fc570686f8cec7e480d7fbea08749a3a90b4ec7642e13638a7df1"
+      },
+      "sdkDiagnosticsExcludedFromProject": []
+    }
+  ],
+  "installedSdkSelfValidation": {
+    "status": "FAILED_INSTALLED_SDK_DECLARATIONS",
+    "exitCode": 1,
+    "actualDiagnosticCount": 102,
+    "expectedBaselineCount": 102,
+    "allDiagnosticsWithinInstalledCreatorSdk": true,
+    "diagnosticCodeCounts": {
+      "TS7010": 39,
+      "TS2304": 29,
+      "TS2314": 3,
+      "TS7008": 4,
+      "TS2552": 1,
+      "TS2833": 5,
+      "TS2503": 6,
+      "TS2307": 15
+    },
+    "diagnostics": [
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+        "line": 30,
+        "column": 25,
+        "code": "TS7010",
+        "message": "'setAccelerometerEnabled', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+        "line": 31,
+        "column": 25,
+        "code": "TS7010",
+        "message": "'setAccelerometerInterval', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+        "line": 172,
+        "column": 25,
+        "code": "TS7010",
+        "message": "'preload', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+        "line": 175,
+        "column": 25,
+        "code": "TS7010",
+        "message": "'pause', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+        "line": 176,
+        "column": 25,
+        "code": "TS7010",
+        "message": "'pauseAll', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+        "line": 177,
+        "column": 25,
+        "code": "TS7010",
+        "message": "'resume', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+        "line": 178,
+        "column": 25,
+        "code": "TS7010",
+        "message": "'resumeAll', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+        "line": 179,
+        "column": 25,
+        "code": "TS7010",
+        "message": "'stop', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+        "line": 180,
+        "column": 25,
+        "code": "TS7010",
+        "message": "'stopAll', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+        "line": 190,
+        "column": 25,
+        "code": "TS7010",
+        "message": "'setVolume', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+        "line": 191,
+        "column": 25,
+        "code": "TS7010",
+        "message": "'setLoop', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+        "line": 192,
+        "column": 25,
+        "code": "TS7010",
+        "message": "'setCurrentTime', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+        "line": 194,
+        "column": 25,
+        "code": "TS7010",
+        "message": "'uncache', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+        "line": 195,
+        "column": 25,
+        "code": "TS7010",
+        "message": "'uncacheAll', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+        "line": 196,
+        "column": 25,
+        "code": "TS7010",
+        "message": "'setErrorCallback', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+        "line": 197,
+        "column": 25,
+        "code": "TS7010",
+        "message": "'setFinishCallback', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+        "line": 213,
+        "column": 18,
+        "code": "TS2304",
+        "message": "Cannot find name 'TypedArray'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+        "line": 214,
+        "column": 17,
+        "code": "TS2304",
+        "message": "Cannot find name 'TypedArray'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 38222,
+        "column": 32,
+        "code": "TS2314",
+        "message": "Generic type 'Map<T>' requires 1 type argument(s)."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 38280,
+        "column": 37,
+        "code": "TS2314",
+        "message": "Generic type 'Map<T>' requires 1 type argument(s)."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 38281,
+        "column": 39,
+        "code": "TS2314",
+        "message": "Generic type 'Map<T>' requires 1 type argument(s)."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 41113,
+        "column": 22,
+        "code": "TS7008",
+        "message": "Member '_bones' implicitly has an 'any' type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 41132,
+        "column": 13,
+        "code": "TS7008",
+        "message": "Member '_animation' implicitly has an 'any' type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 45181,
+        "column": 24,
+        "code": "TS2304",
+        "message": "Cannot find name 'GPUCanvasContext'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 45197,
+        "column": 29,
+        "code": "TS2552",
+        "message": "Cannot find name 'GPUDevice'. Did you mean 'WebGPUDevice'?"
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 51993,
+        "column": 17,
+        "code": "TS7010",
+        "message": "'resize', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 51994,
+        "column": 17,
+        "code": "TS7010",
+        "message": "'set', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 51996,
+        "column": 17,
+        "code": "TS7010",
+        "message": "'delete', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 53208,
+        "column": 17,
+        "code": "TS7008",
+        "message": "Member 'worldX' implicitly has an 'any' type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 53209,
+        "column": 17,
+        "code": "TS7008",
+        "message": "Member 'worldY' implicitly has an 'any' type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 53227,
+        "column": 17,
+        "code": "TS7010",
+        "message": "'destroy', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 53228,
+        "column": 17,
+        "code": "TS7010",
+        "message": "'initSkeleton', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 53229,
+        "column": 17,
+        "code": "TS7010",
+        "message": "'getAnimationState', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 53231,
+        "column": 17,
+        "code": "TS7010",
+        "message": "'setSkin', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 53232,
+        "column": 17,
+        "code": "TS7010",
+        "message": "'setPremultipliedAlpha', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 53233,
+        "column": 17,
+        "code": "TS7010",
+        "message": "'setColor', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 53234,
+        "column": 17,
+        "code": "TS7010",
+        "message": "'setMix', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 53235,
+        "column": 17,
+        "code": "TS7010",
+        "message": "'updateAnimation', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 53236,
+        "column": 17,
+        "code": "TS7010",
+        "message": "'setUseTint', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 53237,
+        "column": 17,
+        "code": "TS7010",
+        "message": "'clearEffect', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 53238,
+        "column": 17,
+        "code": "TS7010",
+        "message": "'setJitterEffect', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 53239,
+        "column": 17,
+        "code": "TS7010",
+        "message": "'setSwirlEffect', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 53240,
+        "column": 17,
+        "code": "TS7010",
+        "message": "'updateRenderData', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 53241,
+        "column": 17,
+        "code": "TS7010",
+        "message": "'setListener', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 53242,
+        "column": 17,
+        "code": "TS7010",
+        "message": "'setDebugMode', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 53243,
+        "column": 17,
+        "code": "TS7010",
+        "message": "'getDebugShapes', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 53244,
+        "column": 17,
+        "code": "TS7010",
+        "message": "'resizeSlotRegion', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 53245,
+        "column": 17,
+        "code": "TS7010",
+        "message": "'setSlotTexture', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 53255,
+        "column": 24,
+        "code": "TS7010",
+        "message": "'registerSpineSkeletonDataWithUUID', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 53256,
+        "column": 24,
+        "code": "TS7010",
+        "message": "'destroySpineSkeletonDataWithUUID', which lacks return-type annotation, implicitly has an 'any' return type."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 61894,
+        "column": 55,
+        "code": "TS2833",
+        "message": "Cannot find namespace '____private'. Did you mean '__private'?"
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 61910,
+        "column": 125,
+        "code": "TS2833",
+        "message": "Cannot find namespace '____private'. Did you mean '__private'?"
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 61959,
+        "column": 33,
+        "code": "TS2304",
+        "message": "Cannot find name '_Motion'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 61960,
+        "column": 27,
+        "code": "TS2304",
+        "message": "Cannot find name '_Motion'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 61962,
+        "column": 47,
+        "code": "TS2833",
+        "message": "Cannot find namespace '____private'. Did you mean '__private'?"
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 61964,
+        "column": 17,
+        "code": "TS2833",
+        "message": "Cannot find namespace '____private'. Did you mean '__private'?"
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 61967,
+        "column": 33,
+        "code": "TS2833",
+        "message": "Cannot find namespace '____private'. Did you mean '__private'?"
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 61974,
+        "column": 50,
+        "code": "TS2304",
+        "message": "Cannot find name '_VariableDescription'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 61977,
+        "column": 48,
+        "code": "TS2304",
+        "message": "Cannot find name '_Motion'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 61978,
+        "column": 54,
+        "code": "TS2503",
+        "message": "Cannot find namespace '____private'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 61984,
+        "column": 27,
+        "code": "TS2503",
+        "message": "Cannot find namespace '____private'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 61987,
+        "column": 21,
+        "code": "TS2503",
+        "message": "Cannot find namespace '_poseGraphOp'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 61990,
+        "column": 27,
+        "code": "TS2503",
+        "message": "Cannot find namespace '_poseGraphOp'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 61992,
+        "column": 28,
+        "code": "TS2503",
+        "message": "Cannot find namespace '_poseGraphOp'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 61999,
+        "column": 19,
+        "code": "TS2503",
+        "message": "Cannot find namespace '____private'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 62000,
+        "column": 20,
+        "code": "TS2304",
+        "message": "Cannot find name '_PoseGraph'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 64833,
+        "column": 52,
+        "code": "TS2307",
+        "message": "Cannot find module 'pal/audio/type' or its corresponding type declarations."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 64841,
+        "column": 58,
+        "code": "TS2307",
+        "message": "Cannot find module 'pal/audio/type' or its corresponding type declarations."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 64849,
+        "column": 80,
+        "code": "TS2307",
+        "message": "Cannot find module 'pal/audio/type' or its corresponding type declarations."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 64864,
+        "column": 32,
+        "code": "TS2307",
+        "message": "Cannot find module 'pal/audio/type' or its corresponding type declarations."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 64869,
+        "column": 33,
+        "code": "TS2307",
+        "message": "Cannot find module 'pal/audio/type' or its corresponding type declarations."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 64897,
+        "column": 61,
+        "code": "TS2307",
+        "message": "Cannot find module 'pal/audio/type' or its corresponding type declarations."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 68133,
+        "column": 60,
+        "code": "TS2307",
+        "message": "Cannot find module 'pal/input/input-source' or its corresponding type declarations."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 68134,
+        "column": 58,
+        "code": "TS2307",
+        "message": "Cannot find module 'pal/input/input-source' or its corresponding type declarations."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 68135,
+        "column": 59,
+        "code": "TS2307",
+        "message": "Cannot find module 'pal/input/input-source' or its corresponding type declarations."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 68136,
+        "column": 62,
+        "code": "TS2307",
+        "message": "Cannot find module 'pal/input/input-source' or its corresponding type declarations."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 68137,
+        "column": 65,
+        "code": "TS2307",
+        "message": "Cannot find module 'pal/input/input-source' or its corresponding type declarations."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 69057,
+        "column": 24,
+        "code": "TS2304",
+        "message": "Cannot find name 'GPUBuffer'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 69097,
+        "column": 25,
+        "code": "TS2304",
+        "message": "Cannot find name 'GPUTexture'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 69104,
+        "column": 35,
+        "code": "TS2304",
+        "message": "Cannot find name 'GPUTextureView'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 69115,
+        "column": 37,
+        "code": "TS2304",
+        "message": "Cannot find name 'GPUTextureView'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 69123,
+        "column": 25,
+        "code": "TS2304",
+        "message": "Cannot find name 'GPUSampler'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 69146,
+        "column": 50,
+        "code": "TS2304",
+        "message": "Cannot find name 'GPUSampler'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 69182,
+        "column": 19,
+        "code": "TS2304",
+        "message": "Cannot find name 'GPUTextureView'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 69193,
+        "column": 29,
+        "code": "TS2304",
+        "message": "Cannot find name 'GPUTextureView'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 69221,
+        "column": 19,
+        "code": "TS2304",
+        "message": "Cannot find name 'GPUTextureView'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 69276,
+        "column": 23,
+        "code": "TS2304",
+        "message": "Cannot find name 'GPUQuerySet'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 69307,
+        "column": 33,
+        "code": "TS2304",
+        "message": "Cannot find name 'GPUQuerySet'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 69341,
+        "column": 24,
+        "code": "TS2304",
+        "message": "Cannot find name 'GPUBuffer'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 69426,
+        "column": 21,
+        "code": "TS2304",
+        "message": "Cannot find name 'GPUShaderModule'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 69631,
+        "column": 30,
+        "code": "TS2304",
+        "message": "Cannot find name 'GPUBindGroupLayout'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 69636,
+        "column": 34,
+        "code": "TS2304",
+        "message": "Cannot find name 'GPUBindGroupLayout'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 69639,
+        "column": 35,
+        "code": "TS2304",
+        "message": "Cannot find name 'GPUPipelineLayout'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 69649,
+        "column": 21,
+        "code": "TS2304",
+        "message": "Cannot find name 'GPUPipelineLayout'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 69899,
+        "column": 48,
+        "code": "TS2304",
+        "message": "Cannot find name 'GPUBindGroupLayout'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 69923,
+        "column": 24,
+        "code": "TS2304",
+        "message": "Cannot find name 'GPUBindGroup'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 69924,
+        "column": 30,
+        "code": "TS2304",
+        "message": "Cannot find name 'GPUBindGroupLayout'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 70022,
+        "column": 21,
+        "code": "TS2304",
+        "message": "Cannot find name 'GPUDevice'."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 75869,
+        "column": 109,
+        "code": "TS2307",
+        "message": "Cannot find module 'cc/editor/exotic-animation' or its corresponding type declarations."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 75870,
+        "column": 155,
+        "code": "TS2307",
+        "message": "Cannot find module 'cc/editor/embedded-player' or its corresponding type declarations."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 75871,
+        "column": 60,
+        "code": "TS2307",
+        "message": "Cannot find module 'cc/editor/new-gen-anim' or its corresponding type declarations."
+      },
+      {
+        "path": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+        "line": 75872,
+        "column": 26,
+        "code": "TS2307",
+        "message": "Cannot find module 'cc/editor/serialization' or its corresponding type declarations."
+      }
+    ],
+    "sdkOrGeneratedConfigurationModified": false,
+    "strictOptionsUnchanged": true,
+    "scope": "Installed Creator SDK declaration self-validation is separate from the passing project strict type check. Its actual nonzero exit is retained; this is not an SDK pass."
+  },
+  "baseline": {
+    "path": "docs/validation/day5a-plus/v21/baseline.json",
+    "bytes": 202924,
+    "sha256": "9b05be70ef51312b0f74ad9604f8b3ad023a7f104130b9a024b4ce41939ed09e"
+  },
+  "sourceSnapshot": [
+    {
+      "path": "assets/scripts/core/GameController.ts",
+      "bytes": 2453,
+      "sha256": "e1b3c357bc915746e20b240f88f48c8c89876c14116850bd55c688d2bb0e4297"
+    },
+    {
+      "path": "assets/scripts/core/LegacyLevelManager.ts",
+      "bytes": 12443,
+      "sha256": "2ef5ff4fbe16284c35a66010880cb3bdc2edb62b21368429c98b26af662ebf4b"
+    },
+    {
+      "path": "assets/scripts/core/LevelManager.ts",
+      "bytes": 18731,
+      "sha256": "02d0ed072a12b80d23ae6a790be7d8cfd01f5975e46f6f0fad2a97c6f30c54ab"
+    },
+    {
+      "path": "assets/scripts/core/RunController.ts",
+      "bytes": 6907,
+      "sha256": "064cac06b336ddf741b983c09a025f0fb33bd130bc2b45d37ef2ad0c9df64655"
+    },
+    {
+      "path": "assets/scripts/data/LevelCatalog.ts",
+      "bytes": 2561,
+      "sha256": "24e394aa8495e4c23a18a92b15ea727108161a3c28d8d2e1fdd863afc54f4e89"
+    },
+    {
+      "path": "assets/scripts/data/LevelDefinition.ts",
+      "bytes": 789,
+      "sha256": "7ffc204ef01fa5f0a7dcd65197776f27e1a98613eb4aa643c92c1cee7abbcc0f"
+    },
+    {
+      "path": "assets/scripts/data/OrderCatalog.ts",
+      "bytes": 13306,
+      "sha256": "a038ff6a9269993c9d650954a2e680c1962416ea38230bec4c1d8a9a7df43eb0"
+    },
+    {
+      "path": "assets/scripts/data/OrderDefinition.ts",
+      "bytes": 368,
+      "sha256": "c0fc93e4da57a591b1fd9bbab0014be7092179c6a05b583e2d365429dfe24b6d"
+    },
+    {
+      "path": "assets/scripts/data/StageDefinition.ts",
+      "bytes": 2046,
+      "sha256": "9b8255ecbd4dc7ddc5f70bff078a424a878ecf058ac34553caf552bc386fdd34"
+    },
+    {
+      "path": "assets/scripts/gameplay/CableConnector.ts",
+      "bytes": 10909,
+      "sha256": "d03076277b33508677cdd89ec6f13f8314db7f0d759d56245c58d22bb9bfa5bf"
+    },
+    {
+      "path": "assets/scripts/gameplay/Day1Prototype.ts",
+      "bytes": 4655,
+      "sha256": "91077917554d152a66d85662099fc4b5b48876e29ca1ece2e07c74a0eb398a10"
+    },
+    {
+      "path": "assets/scripts/gameplay/DraggableItem.ts",
+      "bytes": 11047,
+      "sha256": "1d09e9f352a78b677d1b6ad403cc7b08af7afc04e705c00df83212337397e367"
+    },
+    {
+      "path": "assets/scripts/stages/CableConnectStageController.ts",
+      "bytes": 7890,
+      "sha256": "709111e79010e8f230840071d043afa68c2990c96856d79401dee656a8355d9c"
+    },
+    {
+      "path": "assets/scripts/stages/CleanSwipeStageController.ts",
+      "bytes": 11885,
+      "sha256": "27552fce87f3241ae57769e2a2dbe025234a2f96beadab7b9d6a3408ba05bfd7"
+    },
+    {
+      "path": "assets/scripts/stages/DragMatchStageController.ts",
+      "bytes": 7839,
+      "sha256": "81dced5b37081c37f0d711e8c3c05ed5603f0cb8189cbd5c262e2d7531cc7295"
+    },
+    {
+      "path": "assets/scripts/stages/ElementPool.ts",
+      "bytes": 1074,
+      "sha256": "f551b622a412ad84752476facc3ce0f418958b5a7e14f516835ded02a705f2fc"
+    },
+    {
+      "path": "assets/scripts/stages/StageHost.ts",
+      "bytes": 7806,
+      "sha256": "d9667eac7821b62f44d2ce4c188502261dffd725d7416939c3ccdf3e635f3d03"
+    },
+    {
+      "path": "assets/scripts/stages/StageRuntime.ts",
+      "bytes": 578,
+      "sha256": "2d5aef6a6d45560fa2a6928d54cb0b83cbad2ff9600969061e1bfe7ee23e409e"
+    },
+    {
+      "path": "assets/scripts/ui/AudioFeedback.ts",
+      "bytes": 6355,
+      "sha256": "de9504b936cf39e462aed3446522272efcb4971b89654ab0af8cbbebdc2841da"
+    },
+    {
+      "path": "assets/scripts/ui/ButtonPressFeedback.ts",
+      "bytes": 2952,
+      "sha256": "db1f1b717239d2ff8ab40861bf9f47f9a8945a1d8070c12f3b512e52d7428c4c"
+    },
+    {
+      "path": "assets/scripts/ui/HomeController.ts",
+      "bytes": 6111,
+      "sha256": "b41972145b5a84bb4679baf6fab085244d37259ba89eabf11cbd8cd4c3412bbb"
+    },
+    {
+      "path": "assets/scripts/ui/PaperOrderHUD.ts",
+      "bytes": 4358,
+      "sha256": "029f641e5cad4e0da6bc957ba306f77ccdcb90d15c14e27168a4661cc03df280"
+    },
+    {
+      "path": "assets/scripts/ui/ResultStars.ts",
+      "bytes": 3031,
+      "sha256": "c54759a45085f607cac8658917e100dbd9dd106656504f61e39c1719d8e7bc47"
+    },
+    {
+      "path": "assets/scripts/ui/V2ResultView.ts",
+      "bytes": 4554,
+      "sha256": "8a1051f7920169ddf1c81d185c197e889638c802e720ee62fd37b3d42b09dd97"
+    },
+    {
+      "path": "assets/scripts/ui/WorkshopDecoration.ts",
+      "bytes": 2139,
+      "sha256": "0f18568d4113126c7bb079cac47382ffac32fe6554fce42a92626694650b28d2"
+    },
+    {
+      "path": "assets/scripts/visuals/CleanDeviceVisual.ts",
+      "bytes": 1147,
+      "sha256": "584129d4d206958236435fb7bcc80198916698c83dfd6dd84776129ffeaa0fee"
+    },
+    {
+      "path": "assets/scripts/visuals/ElementVisual.ts",
+      "bytes": 5371,
+      "sha256": "902cb340969117523a0239861dec79d47763512ecf1dc655fd6ea56367b47daf"
+    },
+    {
+      "path": "assets/scripts/visuals/V21CleanDustView.ts",
+      "bytes": 7786,
+      "sha256": "76f218a1c020c4ceb1e638a66407fc9ba525403511de8c6f749149bb0bb03933"
+    },
+    {
+      "path": "assets/scripts/visuals/V2CableLine.ts",
+      "bytes": 3562,
+      "sha256": "7bc74904c36de06fa59b6e03c5032077645fd0665c460a3d309fa285232bc533"
+    },
+    {
+      "path": "assets/scripts/visuals/V2DirtAppearance.ts",
+      "bytes": 1140,
+      "sha256": "9893695d9cce40ad88ac9c41207d929ad055fbc9d6fb32aa6afcd5aed6284742"
+    },
+    {
+      "path": "assets/scripts/visuals/V2ViewportTheme.ts",
+      "bytes": 1898,
+      "sha256": "cad88737ccdc5b79fe5b05458f405fc658db5bfbb7adc4a28311ff9aa7d681ae"
+    },
+    {
+      "path": "assets/scripts/visuals/VisualAssetRegistry.ts",
+      "bytes": 1022,
+      "sha256": "68511e09361ac0e709c9e22f10fda08b1c572c786b5cb49cae1c3992e1332671"
+    },
+    {
+      "path": "assets/scripts/visuals/VisualCatalog.ts",
+      "bytes": 2153,
+      "sha256": "03c58587302c5fc54ecf28894e6646a773234ac3deb560ea125e8f9ac5683d40"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-appearance.js",
+      "bytes": 6834,
+      "sha256": "c0cd7cb604d17a25b8277bc2c32dbdb7c048a2cbec4b33e76d3878693fabe0d4"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-audit.js",
+      "bytes": 27336,
+      "sha256": "b3afb8dc4010421e8d927d060f60c5443d1d4b28af0e0fd1e13ffa487b323a2d"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-probe.js",
+      "bytes": 32245,
+      "sha256": "cf77028127fb009663ff6b35e634c0c50a2d594144a91373d2a82b5b161711eb"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-scene.js",
+      "bytes": 11656,
+      "sha256": "6265689295cc9730b4fe24ea5ea56e89a6c541356ab3c126973cce3d084e61c4"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-audit.js",
+      "bytes": 47363,
+      "sha256": "071d56b6079f24dad1ce98a7dac4bcf3fe2a803704c78c56ebc59a49a6f984d4"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-main.js",
+      "bytes": 8209,
+      "sha256": "b9f6fc2272836742f70b83e6ccea1719172a78580114b5b7892ea3c6633dd216"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-probe.js",
+      "bytes": 33576,
+      "sha256": "33a5009c69e937160fe78721a97db580691b30f38cbba06be95c3f6824bde51a"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-scene.js",
+      "bytes": 18359,
+      "sha256": "7c6c3e5f5a71b70478218cb1dfc081b6ce30925d9cc6394f37a178a2a61cd01d"
+    },
+    {
+      "path": "extensions/deskrescue-editor/main.js",
+      "bytes": 12359,
+      "sha256": "b14126dc4cf3cb8d8a712e8b16b843ba48c08bff966386e685d443e0ae2094ae"
+    },
+    {
+      "path": "extensions/deskrescue-editor/package.json",
+      "bytes": 7467,
+      "sha256": "33a39e3a27e92f0e70e303851ca34da922ccec50a60d86cf1af5af3c464cfb4c"
+    },
+    {
+      "path": "extensions/deskrescue-editor/probe.js",
+      "bytes": 18821,
+      "sha256": "1be4864e0fac75480ab5f73a6d3e62c4244bfd7378e181a5a27530d51de87c22"
+    },
+    {
+      "path": "extensions/deskrescue-editor/scene.js",
+      "bytes": 21211,
+      "sha256": "002e5432c7179eb26fe64892cc5e663f864e73b2fb87ca1a3b36fda3df75077d"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-audit.js",
+      "bytes": 52064,
+      "sha256": "cc5edbf3563120912de85e6a3b6effdeb9ee0073d934a0fb272047b07a9c8bf1"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-main.js",
+      "bytes": 7185,
+      "sha256": "b9df6bfb64f0b0015f4e21109f8a055104c24f2449e5dd25b8e6184b1642c9c0"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-probe.js",
+      "bytes": 64311,
+      "sha256": "1d542f2238c6539a348948947e498d01d78e3b7b8748b8260a1cb4816ed9b4bc"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-scene.js",
+      "bytes": 28988,
+      "sha256": "f660b34e7967fc8b75be8a0abbd1834b66116c8fefe361c32ddbcf4848247d31"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v21-audit.js",
+      "bytes": 59425,
+      "sha256": "281952dcad2c4e111463b22fe27c3548e9c2ca5d13fae6e31d023d8ae645997a"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v21-main.js",
+      "bytes": 6040,
+      "sha256": "a40c835c5e8b9795403bbd0d14fb7c16287a5dd93786825e488b2062ff26d54a"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v21-probe.js",
+      "bytes": 83880,
+      "sha256": "e551c6b5ca6a5bb96c091ab10cc3e39b270163676633d8f5bc0c872728830e0e"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v21-scene.js",
+      "bytes": 11934,
+      "sha256": "a489d238370d3d012c1357ad575b6d7001994fbdca8665ba8136bdd4ec720ebb"
+    },
+    {
+      "path": "package.json",
+      "bytes": 306,
+      "sha256": "911389f7f40edbddb5bce6486a32e87fda17e4ba37533eaac601a40dcfe58604"
+    },
+    {
+      "path": "tools/art/full_geometry.py",
+      "bytes": 20292,
+      "sha256": "6b25cb8e6115ba0761713571cabfb5e41407ba4e3dae6f5141d39eea4d15a6f4"
+    },
+    {
+      "path": "tools/art/generate_day5a.py",
+      "bytes": 16701,
+      "sha256": "35a9d27161e1afdbddc615edaed4f05c7bf58b201ade0fe83c78a635cafaa982"
+    },
+    {
+      "path": "tools/art/generate_v2_ui.py",
+      "bytes": 15634,
+      "sha256": "20cd3c4627f3d1cccfc7789a44be7591a320624ab99fa2d76143a959af2c9ea8"
+    },
+    {
+      "path": "tools/art/v21/asset-sources.json",
+      "bytes": 45414,
+      "sha256": "b6bb64941e51d8b5412f6670451ef7fa03d5d9150a646285cdd0ee649c709dc0"
+    },
+    {
+      "path": "tools/art/v21/generate_v21.py",
+      "bytes": 21879,
+      "sha256": "a21c7f0be80a925a532cdf8aaa0be16b8b14f2f183deeb6d988ca3f1a99b6912"
+    },
+    {
+      "path": "tools/compare_v21_previews.py",
+      "bytes": 8681,
+      "sha256": "bf7145a78b377f8317dbce94f7cb2ba7cb0ffeb0b18cff1e33b4a7935297b61c"
+    },
+    {
+      "path": "tools/compare_v2_previews.py",
+      "bytes": 16030,
+      "sha256": "8629bbcdd861bdd46402864e8daf3861d4dc57fab2b76b732a20fce047fa5ff4"
+    },
+    {
+      "path": "tools/package_v21_delivery.py",
+      "bytes": 29226,
+      "sha256": "c9b1c74a753010f43913921616be8b9a2d094dfc0eed2d9bbe47813739322d73"
+    },
+    {
+      "path": "tools/package_v2_delivery.py",
+      "bytes": 19699,
+      "sha256": "820496dddfe2a40ff710f105cea879cfb6b965bdb6019c7f2a3c0afa952f52d1"
+    },
+    {
+      "path": "tools/test/cc.d.ts",
+      "bytes": 6269,
+      "sha256": "beaf77286261b73b4c527e0c8734e55ab0c61beb1da93e15cd1512ac1f83323c"
+    },
+    {
+      "path": "tools/verify-day1.cjs",
+      "bytes": 97887,
+      "sha256": "f517bb5d184999bde3e891f28b6d84e24d57ca3229e8b81d8eede6eaa26f1245"
+    },
+    {
+      "path": "tools/verify-day4.cjs",
+      "bytes": 56237,
+      "sha256": "9eb22a5bacabee48cdda53b20597717cab84f7a384319f84cc0e177312a6dd6a"
+    },
+    {
+      "path": "tools/verify-day5a-v2.cjs",
+      "bytes": 29334,
+      "sha256": "e95980a19b71ba08a17a1d4021c8e6c306c4abbfdc9f9ccf08350b8e3f3c19f1"
+    },
+    {
+      "path": "tools/verify-day5a-v21-clean.cjs",
+      "bytes": 15237,
+      "sha256": "a2636463dc15f88340d9cc5720895a9a84bc575357d227d496ca7f40b783d419"
+    },
+    {
+      "path": "tools/verify-day5a.cjs",
+      "bytes": 31596,
+      "sha256": "23e6986a4b9388aaded604f68f82c61b2c40f95c2c5994457e79bfa511a9d121"
+    },
+    {
+      "path": "tools/verify-v21-visuals.cjs",
+      "bytes": 19813,
+      "sha256": "b2b8cd90396e2fb2f75cc42062ffb186931defdcc2327516d5de885bf95eeb16"
+    },
+    {
+      "path": "tools/verify_v21_offline.py",
+      "bytes": 11464,
+      "sha256": "e9408b34f5107e019d7e6c5e390d402e9755613a3e7022cd726f7f61a9c238e3"
+    },
+    {
+      "path": "tools/verify_v21_preservation.py",
+      "bytes": 34622,
+      "sha256": "654a6a7a8e54c0d5a732070523c05dcec23fd2ef8c24530e06dca98c5f91226e"
+    },
+    {
+      "path": "tools/verify_v2_preservation.py",
+      "bytes": 28437,
+      "sha256": "3c049397a87b82bab269a46c95d4831330e56a0736152fb55716fea0fcd58807"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 214,
+      "sha256": "bd460a7db62db6c2e50d1766c98f5a830579ddab81c79c4d7e20cfda6fef4f9c"
+    }
+  ],
+  "sourceSnapshotCount": 74,
+  "currentReportSnapshot": [
+    {
+      "path": "docs/validation/day5a-plus/v21/build-current.json",
+      "bytes": 10240,
+      "sha256": "04c464aeede1442a8c8172046b8c6069963e1b516aa44a317ca4c6b090e32fe5"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/audit-current.json",
+      "bytes": 743774,
+      "sha256": "5453562c4411329c3e54321eac4a371af9c22e8e2f27d83ebc94406ae1a42116"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/engine-probe.json",
+      "bytes": 26298,
+      "sha256": "df65a384e3ec7ad8a01775203a5d17dfe2e509e131a26245acfee310e1a990ab"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/final-offline.json",
+      "bytes": 158734,
+      "sha256": "f5e4899675da78eeb1ec140d37b8c2ee8f62adbf97d4936ad474c401dae5ffed"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/final-offline.log",
+      "bytes": 22756,
+      "sha256": "4e1760dc62065a250a6e5c4f086579b17b0064003d19334070875ba8438a5b6c"
+    }
+  ],
+  "freshOffline": {
+    "report": {
+      "path": "docs/validation/day5a-plus/v21/final-offline.json",
+      "bytes": 158734,
+      "sha256": "f5e4899675da78eeb1ec140d37b8c2ee8f62adbf97d4936ad474c401dae5ffed"
+    },
+    "log": {
+      "path": "docs/validation/day5a-plus/v21/final-offline.log",
+      "bytes": 22756,
+      "sha256": "4e1760dc62065a250a6e5c4f086579b17b0064003d19334070875ba8438a5b6c"
+    },
+    "ok": true,
+    "mode": "current",
+    "isolatedProject": "D:/game-deliverables/V21_offline_final-offline_20261015T123656742584Z/project",
+    "copyFileCount": 845,
+    "exitCode": 0,
+    "passedBehaviorGroups": [
+      207
+    ],
+    "originalProjectTempUnchanged": true
+  }
+}

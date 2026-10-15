@@ -1,0 +1,590 @@
+{
+  "schemaVersion": 1,
+  "generatedAtUtc": "2026-10-14T17:33:56.026Z",
+  "displayTimezone": "Asia/Shanghai",
+  "projectRoot": "D:/game",
+  "projectVersion": "0.0.5-alpha.1",
+  "overall": "passed",
+  "commands": [
+    {
+      "command": "npm test",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "status": "passed",
+      "wallTimeSeconds": 6.34,
+      "log": "npm-test.log",
+      "performedAtUtc": "2026-10-14T17:33:50.574Z"
+    },
+    {
+      "command": "npm run check:cocos",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "status": "passed",
+      "wallTimeSeconds": 3.677,
+      "log": "check-cocos.log",
+      "performedAtUtc": "2026-10-14T17:33:54.256Z"
+    },
+    {
+      "command": "node tools/verify-day1.cjs --cocos-types --check-sdk-declarations",
+      "exitCode": 1,
+      "expectedExitCode": 1,
+      "status": "passed",
+      "wallTimeSeconds": 2.55,
+      "log": "sdk-declarations.log"
+    },
+    {
+      "command": "node --check every rg-visible .js/.cjs in extensions/deskrescue-editor and tools",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "status": "passed",
+      "checkedFiles": 14,
+      "log": "syntax-node.log",
+      "performedAtUtc": "2026-10-14T17:33:55.658Z"
+    },
+    {
+      "command": "python -c ast.parse for tools/art/*.py (read-only, no cache output)",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "status": "passed",
+      "wallTimeSeconds": 0.172,
+      "log": "syntax-python.log"
+    },
+    {
+      "command": "git status --short --branch",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "status": "passed",
+      "wallTimeSeconds": 0.078,
+      "log": "git-status.log",
+      "performedAtUtc": "2026-10-14T17:33:55.736Z"
+    },
+    {
+      "command": "git diff --check",
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "status": "passed",
+      "wallTimeSeconds": 0.088,
+      "log": "git-diff-check.log",
+      "performedAtUtc": "2026-10-14T17:33:55.825Z"
+    }
+  ],
+  "mockBehavior": {
+    "day1": 11,
+    "day2": 19,
+    "day3": 28,
+    "day4": 56,
+    "day5a": 32,
+    "total": 146,
+    "passed": true,
+    "historicalAssertionsPreserved": true,
+    "limitations": [
+      "Actual compiled project components execute against a limited Cocos mock; no Preview, rendering, browser input adapter, natural-clock tween or audio playback is claimed."
+    ]
+  },
+  "compileContracts": {
+    "passed": true,
+    "expectedNegativeDiagnostics": 9,
+    "countedAsBehaviorGroups": false
+  },
+  "realSdkProjectTypes": {
+    "passed": true,
+    "creator": "3.8.8",
+    "typescript": "5.8.2",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": false
+  },
+  "sdkSelfValidation": {
+    "passed": false,
+    "expectedExitCode": 1,
+    "actualExitCode": 1,
+    "diagnostics": 102,
+    "bySource": {
+      "jsbDts": 18,
+      "ccDts": 84
+    },
+    "scope": "Actual full installed SDK semantic check. Installed declaration-only diagnostics are separated from project source checking; no SDK/generated config was modified."
+  },
+  "nodeSyntax": {
+    "passed": true,
+    "checkedFiles": 14,
+    "files": [
+      "extensions/deskrescue-editor/day4-appearance.js",
+      "extensions/deskrescue-editor/day4-audit.js",
+      "extensions/deskrescue-editor/day4-probe.js",
+      "extensions/deskrescue-editor/day4-scene.js",
+      "extensions/deskrescue-editor/day5a-audit.js",
+      "extensions/deskrescue-editor/day5a-main.js",
+      "extensions/deskrescue-editor/day5a-probe.js",
+      "extensions/deskrescue-editor/day5a-scene.js",
+      "extensions/deskrescue-editor/main.js",
+      "extensions/deskrescue-editor/probe.js",
+      "extensions/deskrescue-editor/scene.js",
+      "tools/verify-day1.cjs",
+      "tools/verify-day4.cjs",
+      "tools/verify-day5a.cjs"
+    ],
+    "log": "syntax-node.log"
+  },
+  "pythonSyntax": {
+    "passed": true,
+    "log": "syntax-python.log"
+  },
+  "textHygiene": {
+    "checkedFiles": 288,
+    "invalidUtf8": [],
+    "trailingWhitespace": [],
+    "missingFinalNewline": [
+      "assets/prefabs/elements/Cable.prefab",
+      "assets/prefabs/elements/DirtCell.prefab",
+      "assets/prefabs/elements/DragItem.prefab",
+      "assets/prefabs/elements/DragTarget.prefab",
+      "assets/prefabs/elements/Port.prefab",
+      "assets/prefabs/stages/CableConnectStage.prefab",
+      "assets/prefabs/stages/CleanSwipeStage.prefab",
+      "assets/prefabs/stages/DragMatchStage.prefab",
+      "assets/scenes/Game.scene"
+    ],
+    "authoredMissingFinalNewline": [],
+    "conflictMarkers": [],
+    "personalPaths": [],
+    "passed": true,
+    "nativeSerializationEofException": "Creator Scene, Prefab and meta serialization is preserved; exact missing-newline paths are reported.",
+    "scope": "Point-in-time rg-visible project text, honoring .gitignore and excluding .git; screenshots/audio/PNG excluded. Later parent-owned documentation edits require their own final scan."
+  },
+  "historicalEvidence": {
+    "checkedDay3Day4Files": 67,
+    "unchanged": true,
+    "mismatches": [],
+    "baseline": "docs/validation/day5a/baseline.json"
+  },
+  "catalogPreservation": {
+    "checkedFiles": 10,
+    "unchanged": true,
+    "mismatches": []
+  },
+  "git": {
+    "baselineHead": "ffde65700d6fa8c5ddd6daf2ca43e30dbdf3ee22",
+    "currentHead": "ffde65700d6fa8c5ddd6daf2ca43e30dbdf3ee22",
+    "branch": "feature/day5a-visual-playable",
+    "statusLog": "git-status.log",
+    "currentHeadEqualsBaseline": true,
+    "commitPerformed": false,
+    "pushPerformed": false,
+    "diffCheckPassed": true,
+    "statusAtCheck": "## feature/day5a-visual-playable\n M .gitignore\n M assets/prefabs/elements/Cable.prefab\n M assets/prefabs/elements/DirtCell.prefab\n M assets/prefabs/elements/DragItem.prefab\n M assets/prefabs/elements/DragTarget.prefab\n M assets/prefabs/elements/Port.prefab\n M assets/prefabs/stages/CableConnectStage.prefab\n M assets/prefabs/stages/CleanSwipeStage.prefab\n M assets/prefabs/stages/DragMatchStage.prefab\n M assets/scenes/Game.scene\n M assets/scripts/core/LevelManager.ts\n M assets/scripts/stages/CableConnectStageController.ts\n M assets/scripts/stages/CleanSwipeStageController.ts\n M assets/scripts/stages/DragMatchStageController.ts\n M assets/scripts/stages/StageHost.ts\n M extensions/deskrescue-editor/main.js\n M extensions/deskrescue-editor/package.json\n M extensions/deskrescue-editor/scene.js\n M package.json\n M tools/test/cc.d.ts\n M tools/verify-day1.cjs\n?? assets/art.meta\n?? assets/art/\n?? assets/audio/sfx.meta\n?? assets/audio/sfx/\n?? assets/scripts/ui.meta\n?? assets/scripts/ui/\n?? assets/scripts/visuals.meta\n?? assets/scripts/visuals/\n?? docs/DAY5A_COCOS_SETUP.md\n?? docs/DAY5A_CREATOR_VALIDATION.md\n?? docs/DAY5A_VISUAL_ASSETS.md\n?? docs/DAY5A_VISUAL_STYLE_GUIDE.md\n?? docs/validation/day5a/\n?? extensions/deskrescue-editor/day5a-audit.js\n?? extensions/deskrescue-editor/day5a-main.js\n?? extensions/deskrescue-editor/day5a-probe.js\n?? extensions/deskrescue-editor/day5a-scene.js\n?? tools/art/\n?? tools/verify-day5a.cjs",
+    "diffCheckScope": "Tracked changes; untracked authored text is checked separately above."
+  },
+  "sourceSnapshot": [
+    {
+      "path": ".gitignore",
+      "bytes": 358,
+      "sha256": "1e5560af7dc02eb9aff3be160bdc22ec1be98912805ffffe9ee83a53128ba01b"
+    },
+    {
+      "path": "assets/scripts/core/GameController.ts",
+      "bytes": 2453,
+      "sha256": "e1b3c357bc915746e20b240f88f48c8c89876c14116850bd55c688d2bb0e4297"
+    },
+    {
+      "path": "assets/scripts/core/LegacyLevelManager.ts",
+      "bytes": 12443,
+      "sha256": "2ef5ff4fbe16284c35a66010880cb3bdc2edb62b21368429c98b26af662ebf4b"
+    },
+    {
+      "path": "assets/scripts/core/LevelManager.ts",
+      "bytes": 16639,
+      "sha256": "a0f4cdeca0dd48882b23c5957140ad9682a5723be17cafa4d9e8f09460efe99e"
+    },
+    {
+      "path": "assets/scripts/core/RunController.ts",
+      "bytes": 6907,
+      "sha256": "064cac06b336ddf741b983c09a025f0fb33bd130bc2b45d37ef2ad0c9df64655"
+    },
+    {
+      "path": "assets/scripts/data/LevelCatalog.ts",
+      "bytes": 2561,
+      "sha256": "24e394aa8495e4c23a18a92b15ea727108161a3c28d8d2e1fdd863afc54f4e89"
+    },
+    {
+      "path": "assets/scripts/data/LevelDefinition.ts",
+      "bytes": 789,
+      "sha256": "7ffc204ef01fa5f0a7dcd65197776f27e1a98613eb4aa643c92c1cee7abbcc0f"
+    },
+    {
+      "path": "assets/scripts/data/OrderCatalog.ts",
+      "bytes": 13306,
+      "sha256": "a038ff6a9269993c9d650954a2e680c1962416ea38230bec4c1d8a9a7df43eb0"
+    },
+    {
+      "path": "assets/scripts/data/OrderDefinition.ts",
+      "bytes": 368,
+      "sha256": "c0fc93e4da57a591b1fd9bbab0014be7092179c6a05b583e2d365429dfe24b6d"
+    },
+    {
+      "path": "assets/scripts/data/StageDefinition.ts",
+      "bytes": 2046,
+      "sha256": "9b8255ecbd4dc7ddc5f70bff078a424a878ecf058ac34553caf552bc386fdd34"
+    },
+    {
+      "path": "assets/scripts/gameplay/CableConnector.ts",
+      "bytes": 10909,
+      "sha256": "d03076277b33508677cdd89ec6f13f8314db7f0d759d56245c58d22bb9bfa5bf"
+    },
+    {
+      "path": "assets/scripts/gameplay/Day1Prototype.ts",
+      "bytes": 4655,
+      "sha256": "91077917554d152a66d85662099fc4b5b48876e29ca1ece2e07c74a0eb398a10"
+    },
+    {
+      "path": "assets/scripts/gameplay/DraggableItem.ts",
+      "bytes": 11047,
+      "sha256": "1d09e9f352a78b677d1b6ad403cc7b08af7afc04e705c00df83212337397e367"
+    },
+    {
+      "path": "assets/scripts/stages/CableConnectStageController.ts",
+      "bytes": 7890,
+      "sha256": "709111e79010e8f230840071d043afa68c2990c96856d79401dee656a8355d9c"
+    },
+    {
+      "path": "assets/scripts/stages/CleanSwipeStageController.ts",
+      "bytes": 11538,
+      "sha256": "9d33de4ec6527a740af4e3ad60311d6ea0b0d3fb1831b3741ff18d4df6203b20"
+    },
+    {
+      "path": "assets/scripts/stages/DragMatchStageController.ts",
+      "bytes": 7839,
+      "sha256": "81dced5b37081c37f0d711e8c3c05ed5603f0cb8189cbd5c262e2d7531cc7295"
+    },
+    {
+      "path": "assets/scripts/stages/ElementPool.ts",
+      "bytes": 1074,
+      "sha256": "f551b622a412ad84752476facc3ce0f418958b5a7e14f516835ded02a705f2fc"
+    },
+    {
+      "path": "assets/scripts/stages/StageHost.ts",
+      "bytes": 7806,
+      "sha256": "d9667eac7821b62f44d2ce4c188502261dffd725d7416939c3ccdf3e635f3d03"
+    },
+    {
+      "path": "assets/scripts/stages/StageRuntime.ts",
+      "bytes": 578,
+      "sha256": "2d5aef6a6d45560fa2a6928d54cb0b83cbad2ff9600969061e1bfe7ee23e409e"
+    },
+    {
+      "path": "assets/scripts/ui/AudioFeedback.ts",
+      "bytes": 6355,
+      "sha256": "de9504b936cf39e462aed3446522272efcb4971b89654ab0af8cbbebdc2841da"
+    },
+    {
+      "path": "assets/scripts/ui/HomeController.ts",
+      "bytes": 4740,
+      "sha256": "7288aa739e1590fac3774e805ea032e50a331595d3ac09b7db2e5ad667181867"
+    },
+    {
+      "path": "assets/scripts/ui/ResultStars.ts",
+      "bytes": 2663,
+      "sha256": "8cb8a3bba263a51dc78fa7579de2c867f522a70155a9bef5d7a271e6765153b7"
+    },
+    {
+      "path": "assets/scripts/visuals/CleanDeviceVisual.ts",
+      "bytes": 1147,
+      "sha256": "584129d4d206958236435fb7bcc80198916698c83dfd6dd84776129ffeaa0fee"
+    },
+    {
+      "path": "assets/scripts/visuals/ElementVisual.ts",
+      "bytes": 3261,
+      "sha256": "54f05ad7c1aae0a208ab704c2fff8cefbf77431c5b08cce974d9b1552d7682fd"
+    },
+    {
+      "path": "assets/scripts/visuals/VisualAssetRegistry.ts",
+      "bytes": 1010,
+      "sha256": "d59d226cde8ce45771c0a5951338764bfc8742c4528c1b4d169c0ff7594168a1"
+    },
+    {
+      "path": "assets/scripts/visuals/VisualCatalog.ts",
+      "bytes": 2153,
+      "sha256": "03c58587302c5fc54ecf28894e6646a773234ac3deb560ea125e8f9ac5683d40"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-appearance.js",
+      "bytes": 6834,
+      "sha256": "c0cd7cb604d17a25b8277bc2c32dbdb7c048a2cbec4b33e76d3878693fabe0d4"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-audit.js",
+      "bytes": 27336,
+      "sha256": "b3afb8dc4010421e8d927d060f60c5443d1d4b28af0e0fd1e13ffa487b323a2d"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-probe.js",
+      "bytes": 32245,
+      "sha256": "cf77028127fb009663ff6b35e634c0c50a2d594144a91373d2a82b5b161711eb"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-scene.js",
+      "bytes": 11656,
+      "sha256": "6265689295cc9730b4fe24ea5ea56e89a6c541356ab3c126973cce3d084e61c4"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-audit.js",
+      "bytes": 47363,
+      "sha256": "071d56b6079f24dad1ce98a7dac4bcf3fe2a803704c78c56ebc59a49a6f984d4"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-main.js",
+      "bytes": 8209,
+      "sha256": "b9f6fc2272836742f70b83e6ccea1719172a78580114b5b7892ea3c6633dd216"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-probe.js",
+      "bytes": 33576,
+      "sha256": "33a5009c69e937160fe78721a97db580691b30f38cbba06be95c3f6824bde51a"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-scene.js",
+      "bytes": 18359,
+      "sha256": "7c6c3e5f5a71b70478218cb1dfc081b6ce30925d9cc6394f37a178a2a61cd01d"
+    },
+    {
+      "path": "extensions/deskrescue-editor/main.js",
+      "bytes": 10687,
+      "sha256": "12c5a6917852df343cad30a7ddbbec08a59b116ce1d16660e6b0046640644ad5"
+    },
+    {
+      "path": "extensions/deskrescue-editor/package.json",
+      "bytes": 3998,
+      "sha256": "9f650ed9e97e44e7cc7a11039e00a8579cee373695aa7b9fd6c59623b225cff4"
+    },
+    {
+      "path": "extensions/deskrescue-editor/probe.js",
+      "bytes": 18821,
+      "sha256": "1be4864e0fac75480ab5f73a6d3e62c4244bfd7378e181a5a27530d51de87c22"
+    },
+    {
+      "path": "extensions/deskrescue-editor/scene.js",
+      "bytes": 20340,
+      "sha256": "903dd53c176299b249c6b11884ac7e4541040d5a36d003cb0f01122e7483c8bf"
+    },
+    {
+      "path": "package.json",
+      "bytes": 293,
+      "sha256": "27afbc7584507c8b55affcba838e3342b1cf49526e40e5670dcef164af8d7f51"
+    },
+    {
+      "path": "tools/art/asset-sources.json",
+      "bytes": 27663,
+      "sha256": "13d72ce0597ce16cc5ba9d7ed515fc7282e4590ff911bd1561a5fd8a18441a7b"
+    },
+    {
+      "path": "tools/art/full_geometry.py",
+      "bytes": 20292,
+      "sha256": "6b25cb8e6115ba0761713571cabfb5e41407ba4e3dae6f5141d39eea4d15a6f4"
+    },
+    {
+      "path": "tools/art/generate_day5a.py",
+      "bytes": 16701,
+      "sha256": "35a9d27161e1afdbddc615edaed4f05c7bf58b201ade0fe83c78a635cafaa982"
+    },
+    {
+      "path": "tools/test/cc.d.ts",
+      "bytes": 6157,
+      "sha256": "09fd49e2baea11db222669641b258abaee7492617d1268804e1264b41189b835"
+    },
+    {
+      "path": "tools/verify-day1.cjs",
+      "bytes": 96960,
+      "sha256": "70c6d77d1aa22fb5280eab38a8a5ee0d354d8fd39f1e0074aa29081dbeff5c65"
+    },
+    {
+      "path": "tools/verify-day4.cjs",
+      "bytes": 56237,
+      "sha256": "9eb22a5bacabee48cdda53b20597717cab84f7a384319f84cc0e177312a6dd6a"
+    },
+    {
+      "path": "tools/verify-day5a.cjs",
+      "bytes": 31596,
+      "sha256": "23e6986a4b9388aaded604f68f82c61b2c40f95c2c5994457e79bfa511a9d121"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 214,
+      "sha256": "bd460a7db62db6c2e50d1766c98f5a830579ddab81c79c4d7e20cfda6fef4f9c"
+    }
+  ],
+  "logSnapshot": [
+    {
+      "path": "docs/validation/day5a/npm-test.log",
+      "bytes": 15962,
+      "sha256": "93c3523007386734beea648f9de32984111e4f4015d67ac10a07338d40ce04c9"
+    },
+    {
+      "path": "docs/validation/day5a/check-cocos.log",
+      "bytes": 1121,
+      "sha256": "5e5e4480f2b3f81b5d0796f81466cc90c9258b17f16720f3ebb0660c441c2acf"
+    },
+    {
+      "path": "docs/validation/day5a/sdk-declarations.log",
+      "bytes": 19982,
+      "sha256": "30855b248c3b2cd14e5382c49dee72490abdf6404bc52f102968a3b4f3670df1"
+    },
+    {
+      "path": "docs/validation/day5a/syntax-node.log",
+      "bytes": 826,
+      "sha256": "9bcbc9000a41329931825088a29ebb5ffd1e8cb46a43e509fd1c236fe44a7ab7"
+    },
+    {
+      "path": "docs/validation/day5a/syntax-python.log",
+      "bytes": 193,
+      "sha256": "ccd7fa348e1e77e0a90d7b393d6d88790c77151e1bf7a0009d1b49953dbd8ec0"
+    },
+    {
+      "path": "docs/validation/day5a/git-status.log",
+      "bytes": 1543,
+      "sha256": "2b8bd3176c6c4e0b6e12a31e090aaf60e05aa221e498c35d40172b5878257086"
+    },
+    {
+      "path": "docs/validation/day5a/git-diff-check.log",
+      "bytes": 102,
+      "sha256": "73a228bc2c3c6c6548dd077ea2af567704eb592135570cc15c3699754fae8e20"
+    },
+    {
+      "path": "docs/validation/day5a/text-hygiene.log",
+      "bytes": 1011,
+      "sha256": "303ff998da83b542ed612b7c3ed3dc6226b8256ddd996cc930406fddbf40b3b3"
+    }
+  ],
+  "creatorEvidence": {
+    "engineProbe": {
+      "path": "docs/validation/day5a/engine-probe.json",
+      "bytes": 12463,
+      "sha256": "6ef185a0abb2486ca077f56d29a44cc0173fd30c24b2fa58161e71b285838f42",
+      "ok": true,
+      "timestamp": "2026-10-14T17:33:23.518Z",
+      "counts": {
+        "checks": 18,
+        "passed": 18,
+        "failed": 0,
+        "catalogOrders": 9,
+        "catalogStages": 13
+      },
+      "cleanup": {
+        "originalTweenSystemRestored": true,
+        "offSceneFixtures": 15,
+        "fixtureRootsScheduledForDestroy": 15,
+        "formalSceneUnchanged": true,
+        "errors": []
+      },
+      "limitations": [
+        "Not Preview natural-clock playback, rendering, clipping or UI hit testing",
+        "Not browser native touch adapters, native TOUCH_CANCEL, physical touch, mobile WebView or mini-game platforms",
+        "No audible playback or natural AudioSource ENDED is claimed; browser sound and listening require separate Preview checks"
+      ]
+    },
+    "sceneAudit": {
+      "path": "docs/validation/day5a/scene-audit.json",
+      "bytes": 310927,
+      "sha256": "d0a2472e6d65d45affc7f48d16f4647dc5d6cee6d7327c4238c530979ce4341e",
+      "ok": true,
+      "timestamp": "2026-10-14T17:33:04.084Z",
+      "passedChecks": 643,
+      "totalChecks": 643,
+      "counts": {
+        "coreAssets": 9,
+        "prefabs": 8,
+        "metadata": 111,
+        "uniqueProjectAssetUuids": 209,
+        "png": 49,
+        "audio": 7,
+        "registryKeys": 49,
+        "stableMappings": 46,
+        "nodes": 90
+      }
+    },
+    "assembly": {
+      "path": "docs/validation/day5a/full-build-report.json",
+      "bytes": 9022,
+      "sha256": "1a7f56950f930864a74e1053a303131d45ca318a6ffe7973460543d0119dd076",
+      "ok": true,
+      "idempotent": true,
+      "timestamp": "2026-10-14T17:33:03.113Z",
+      "repeatAddedNodes": {
+        "assets/prefabs/elements/DragItem.prefab": 0,
+        "assets/prefabs/elements/DragTarget.prefab": 0,
+        "assets/prefabs/elements/Port.prefab": 0,
+        "assets/prefabs/elements/Cable.prefab": 0,
+        "assets/prefabs/elements/DirtCell.prefab": 0,
+        "assets/prefabs/stages/DragMatchStage.prefab": 0,
+        "assets/prefabs/stages/CableConnectStage.prefab": 0,
+        "assets/prefabs/stages/CleanSwipeStage.prefab": 0,
+        "assets/scenes/Game.scene": 0
+      }
+    },
+    "preview": "Parent-owned actual Preview report and screenshots; automated code checks and isolated engine probes cannot substitute for runtime visual/audio verification.",
+    "naturalAudioPreview": {
+      "path": "docs/validation/day5a/audio-preview.json",
+      "bytes": 9851,
+      "sha256": "a2bb7cb0d9d8a3711457b50120c2988f514bde1f8331e9f1fa6518fb0fd1ca60",
+      "generatedAtUtc": "2026-10-14T17:30:31.627Z",
+      "method": "Real browser mouse clicks and drags, actual Cocos AudioSource STARTED/ENDED events, no synthetic emission or runtime game mutation",
+      "eventCount": 38,
+      "coreCues": [
+        {
+          "name": "ui_click",
+          "started": 4,
+          "ended": 4
+        },
+        {
+          "name": "mistake",
+          "started": 1,
+          "ended": 1
+        },
+        {
+          "name": "snap_success",
+          "started": 9,
+          "ended": 9
+        },
+        {
+          "name": "order_complete",
+          "started": 4,
+          "ended": 4
+        },
+        {
+          "name": "clean_progress",
+          "started": 1,
+          "ended": 1
+        }
+      ],
+      "atLeastFiveNaturalStartedAndEnded": true,
+      "independentListeningOrRecording": false
+    }
+  },
+  "audioObservabilityRecheck": {
+    "performedAtUtc": "2026-10-14T17:33:56.026Z",
+    "previousValidationGeneratedAtUtc": "2026-10-14T17:07:40.790Z",
+    "purpose": "Actual required final rechecks after audio event observation, exact STARTED/ENDED lifecycle contract, refreshed script import and Creator rounded 9-slice UI assembly/audit. Audio queue, scoring and order progression were not changed.",
+    "rerunCommands": [
+      "npm test",
+      "npm run check:cocos",
+      "node --check every rg-visible .js/.cjs in extensions/deskrescue-editor and tools",
+      "git status --short --branch",
+      "git diff --check"
+    ],
+    "listenerContract": "Existing Day 5A group now checks exactly one STARTED and one ENDED observer, no duplicates on repeated enable, zero of both on disable/destroy. It does not claim mock STARTED playback.",
+    "changedTextHygiene": {
+      "scope": "All current sourceSnapshot files after final audio/rounded UI edits; final parent-owned documentation is scanned separately.",
+      "checkedFiles": 47,
+      "passed": true,
+      "findings": []
+    },
+    "retainedSdkSelfValidation": {
+      "executedAtUtc": "2026-10-14T17:07:38.990Z",
+      "path": "docs/validation/day5a/sdk-declarations.log",
+      "sha256": "30855b248c3b2cd14e5382c49dee72490abdf6404bc52f102968a3b4f3670df1",
+      "diagnostics": 102,
+      "reason": "The installed SDK declarations remain unchanged; the prior actual full SDK diagnostic log remains byte-preserved with its original execution time. The current strict project type check ran again after all source edits."
+    },
+    "documentationBoundary": "Parent updates README, handoff and actual Preview validation after this source check and performs their final text scan."
+  }
+}

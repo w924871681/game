@@ -1,0 +1,3163 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-15T10:56:42Z",
+  "generator": "tools/compare_v2_previews.py",
+  "mode": "native-pixel-comparison",
+  "evaluation": "No visual/gameplay acceptance inferred; source captures remain authoritative",
+  "historicalSourceCount": 70,
+  "historicalChanges": [],
+  "requestedPairCount": 7,
+  "generatedPairCount": 7,
+  "pendingPairCount": 0,
+  "pairs": [
+    {
+      "key": "home",
+      "title": "HOME",
+      "expectedDimensions": [
+        390,
+        844
+      ],
+      "before": {
+        "path": "docs/validation/day5a/screenshots/home-390x844.jpg",
+        "exists": true,
+        "dimensions": [
+          390,
+          844
+        ],
+        "sha256": "daa00b6bf4cf52fbbae259433a0542147ab8449f821bcdb2ed0b79b2726af853",
+        "bytes": 23800
+      },
+      "after": {
+        "path": "docs/validation/day5a-plus/screenshots/home-v2-390x844.jpg",
+        "exists": true,
+        "dimensions": [
+          390,
+          844
+        ],
+        "sha256": "a68ea2c47145d33ce292eb022d72ccff3c78e168164800c5ba7eb021e9ebbe45",
+        "bytes": 55078
+      },
+      "pixelPolicy": "Full screenshots at native dimensions; only outside labels, padding and borders added",
+      "status": "generated",
+      "output": "docs/validation/day5a-plus/comparisons/home-day5a-to-v2.png",
+      "outputDimensions": [
+        840,
+        966
+      ],
+      "outputSha256": "1f1816fea1dc12c063be0f054c00a2f1d28d6ab2b706348503031d07774b328a",
+      "outputBytes": 507086,
+      "sourcePixelsPreserved": true
+    },
+    {
+      "key": "drag",
+      "title": "DRAG",
+      "expectedDimensions": [
+        390,
+        844
+      ],
+      "before": {
+        "path": "docs/validation/day5a/screenshots/drag-390x844.jpg",
+        "exists": true,
+        "dimensions": [
+          390,
+          844
+        ],
+        "sha256": "2f2eb0e34ad09030675baad4a54e2799287ca73aa3e125f64908749fb8f2fcc0",
+        "bytes": 25827
+      },
+      "after": {
+        "path": "docs/validation/day5a-plus/screenshots/drag-v2-order1-390x844.jpg",
+        "exists": true,
+        "dimensions": [
+          390,
+          844
+        ],
+        "sha256": "76366166b3862213b72421fc54e78ca62e834761ea4e336764732b7922a7c88a",
+        "bytes": 47516
+      },
+      "pixelPolicy": "Full screenshots at native dimensions; only outside labels, padding and borders added",
+      "status": "generated",
+      "output": "docs/validation/day5a-plus/comparisons/drag-day5a-to-v2.png",
+      "outputDimensions": [
+        840,
+        966
+      ],
+      "outputSha256": "9112925680e50abbab74033a8e6a41aee9b2351c15a27c8d79d7aab672edbf68",
+      "outputBytes": 424825,
+      "sourcePixelsPreserved": true
+    },
+    {
+      "key": "cable",
+      "title": "CABLE: INITIAL",
+      "expectedDimensions": [
+        390,
+        844
+      ],
+      "before": {
+        "path": "docs/validation/day5a/screenshots/cable-before-390x844.jpg",
+        "exists": true,
+        "dimensions": [
+          390,
+          844
+        ],
+        "sha256": "a9c868667b33854e3c9e94cc90d05650a087268be6835630d63a3c75099cbcec",
+        "bytes": 23360
+      },
+      "after": {
+        "path": "docs/validation/day5a-plus/screenshots/cable-v2-order5-0of3-390x844.jpg",
+        "exists": true,
+        "dimensions": [
+          390,
+          844
+        ],
+        "sha256": "9c949cb36ea80dafef00b13341e8112d14ab4fd13ec359393954933a45d764ca",
+        "bytes": 44760
+      },
+      "pixelPolicy": "Full screenshots at native dimensions; only outside labels, padding and borders added",
+      "status": "generated",
+      "output": "docs/validation/day5a-plus/comparisons/cable-day5a-to-v2.png",
+      "outputDimensions": [
+        840,
+        966
+      ],
+      "outputSha256": "99dc9b89c26b6181743929b6fd921600e3f76499eb89611b48a8aaa43c36063f",
+      "outputBytes": 399610,
+      "sourcePixelsPreserved": true
+    },
+    {
+      "key": "clean",
+      "title": "CLEAN: DIRTY",
+      "expectedDimensions": [
+        390,
+        844
+      ],
+      "before": {
+        "path": "docs/validation/day5a/screenshots/clean-dirty-390x844.jpg",
+        "exists": true,
+        "dimensions": [
+          390,
+          844
+        ],
+        "sha256": "4d4eda6a4b231871f15d7bfe336fe6ba91be303b1d94aa0ed53791a9f151924f",
+        "bytes": 27291
+      },
+      "after": {
+        "path": "docs/validation/day5a-plus/screenshots/clean-v2-order4-dirty-390x844.jpg",
+        "exists": true,
+        "dimensions": [
+          390,
+          844
+        ],
+        "sha256": "ca1e6f42025ff1f6b0bcbf77936576a921508bc925a4b4265ba86a94c3e98e4c",
+        "bytes": 50538
+      },
+      "pixelPolicy": "Full screenshots at native dimensions; only outside labels, padding and borders added",
+      "status": "generated",
+      "output": "docs/validation/day5a-plus/comparisons/clean-day5a-to-v2.png",
+      "outputDimensions": [
+        840,
+        966
+      ],
+      "outputSha256": "c20f0acd95a465af40a7469e55b3230d8b46a642e0dc3dc3762761dc373232a9",
+      "outputBytes": 470037,
+      "sourcePixelsPreserved": true
+    },
+    {
+      "key": "result",
+      "title": "ORDER RESULT",
+      "expectedDimensions": [
+        390,
+        844
+      ],
+      "before": {
+        "path": "docs/validation/day5a/screenshots/result-390x844.jpg",
+        "exists": true,
+        "dimensions": [
+          390,
+          844
+        ],
+        "sha256": "066dadbc0ebe1d47e1f98ab55f8874415694341bd56ec9cdb9260c424f0caeeb",
+        "bytes": 23349
+      },
+      "after": {
+        "path": "docs/validation/day5a-plus/screenshots/result-v2-390x844.jpg",
+        "exists": true,
+        "dimensions": [
+          390,
+          844
+        ],
+        "sha256": "39075bd9102112183367916358fe9a63c0455ab2c333d62fe105117ce68db82d",
+        "bytes": 33594
+      },
+      "pixelPolicy": "Full screenshots at native dimensions; only outside labels, padding and borders added",
+      "status": "generated",
+      "output": "docs/validation/day5a-plus/comparisons/result-day5a-to-v2.png",
+      "outputDimensions": [
+        840,
+        966
+      ],
+      "outputSha256": "07259dbb5bb4e6a91d7733e84f048fb5d965d886660cd71e3cb4a35dffc29437",
+      "outputBytes": 323013,
+      "sourcePixelsPreserved": true
+    },
+    {
+      "key": "final",
+      "title": "FINAL SUMMARY",
+      "expectedDimensions": [
+        1280,
+        720
+      ],
+      "before": {
+        "path": "docs/validation/day5a/screenshots/full-summary.jpg",
+        "exists": true,
+        "dimensions": [
+          1280,
+          720
+        ],
+        "sha256": "154b9ccbf771c0a223345a6aea1b53b241429ce5d107970d5cadf9ab52359a4e",
+        "bytes": 33730
+      },
+      "after": {
+        "path": "docs/validation/day5a-plus/screenshots/final-v2-1280x720.jpg",
+        "exists": true,
+        "dimensions": [
+          1280,
+          720
+        ],
+        "sha256": "54116d051b46fd84533b7ffeaf9ea80265322a1aec6d9c8e0dc75bd1f54161c6",
+        "bytes": 66546
+      },
+      "pixelPolicy": "Full screenshots at native dimensions; only outside labels, padding and borders added",
+      "status": "generated",
+      "output": "docs/validation/day5a-plus/comparisons/final-day5a-to-v2.png",
+      "outputDimensions": [
+        2620,
+        842
+      ],
+      "outputSha256": "f19764b9117485867a423e544a086a17302e3c506130bbca544240e534ca977f",
+      "outputBytes": 577831,
+      "sourcePixelsPreserved": true
+    },
+    {
+      "key": "clean-partial",
+      "title": "CLEAN: PARTIAL",
+      "expectedDimensions": [
+        390,
+        844
+      ],
+      "before": {
+        "path": "docs/validation/day5a/screenshots/clean-half-390x844.jpg",
+        "exists": true,
+        "dimensions": [
+          390,
+          844
+        ],
+        "sha256": "c528e19a4bfa8615dc4d895e409e63e14bb78c7b058b7a392f15613fd693e04e",
+        "bytes": 24313
+      },
+      "after": {
+        "path": "docs/validation/day5a-plus/screenshots/clean-v2-order4-partial-390x844.jpg",
+        "exists": true,
+        "dimensions": [
+          390,
+          844
+        ],
+        "sha256": "4ae16c06da151a6466ca7d2379d478c71168d12477d7fb6ef5193adec383e87e",
+        "bytes": 48346
+      },
+      "pixelPolicy": "Full screenshots at native dimensions; only outside labels, padding and borders added",
+      "status": "generated",
+      "output": "docs/validation/day5a-plus/comparisons/clean-partial-day5a-to-v2.png",
+      "outputDimensions": [
+        840,
+        966
+      ],
+      "outputSha256": "31ea6035032ad40bbd0e44f07dc95cf932de4583cb59d5bf4838c5c71e48b963",
+      "outputBytes": 416327,
+      "sourcePixelsPreserved": true
+    }
+  ],
+  "sixScreenContact": {
+    "sources": [
+      {
+        "path": "docs/validation/day5a-plus/screenshots/home-v2-390x844.jpg",
+        "exists": true,
+        "dimensions": [
+          390,
+          844
+        ],
+        "sha256": "a68ea2c47145d33ce292eb022d72ccff3c78e168164800c5ba7eb021e9ebbe45",
+        "bytes": 55078,
+        "thumbnailDimensions": [
+          260,
+          563
+        ],
+        "fullViewportIncluded": true,
+        "resampling": "Pillow LANCZOS",
+        "contactPosition": [
+          16,
+          64
+        ]
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/drag-v2-order1-390x844.jpg",
+        "exists": true,
+        "dimensions": [
+          390,
+          844
+        ],
+        "sha256": "76366166b3862213b72421fc54e78ca62e834761ea4e336764732b7922a7c88a",
+        "bytes": 47516,
+        "thumbnailDimensions": [
+          260,
+          563
+        ],
+        "fullViewportIncluded": true,
+        "resampling": "Pillow LANCZOS",
+        "contactPosition": [
+          292,
+          64
+        ]
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/cable-v2-order5-0of3-390x844.jpg",
+        "exists": true,
+        "dimensions": [
+          390,
+          844
+        ],
+        "sha256": "9c949cb36ea80dafef00b13341e8112d14ab4fd13ec359393954933a45d764ca",
+        "bytes": 44760,
+        "thumbnailDimensions": [
+          260,
+          563
+        ],
+        "fullViewportIncluded": true,
+        "resampling": "Pillow LANCZOS",
+        "contactPosition": [
+          568,
+          64
+        ]
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/clean-v2-order4-dirty-390x844.jpg",
+        "exists": true,
+        "dimensions": [
+          390,
+          844
+        ],
+        "sha256": "ca1e6f42025ff1f6b0bcbf77936576a921508bc925a4b4265ba86a94c3e98e4c",
+        "bytes": 50538,
+        "thumbnailDimensions": [
+          260,
+          563
+        ],
+        "fullViewportIncluded": true,
+        "resampling": "Pillow LANCZOS",
+        "contactPosition": [
+          844,
+          64
+        ]
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/result-v2-390x844.jpg",
+        "exists": true,
+        "dimensions": [
+          390,
+          844
+        ],
+        "sha256": "39075bd9102112183367916358fe9a63c0455ab2c333d62fe105117ce68db82d",
+        "bytes": 33594,
+        "thumbnailDimensions": [
+          260,
+          563
+        ],
+        "fullViewportIncluded": true,
+        "resampling": "Pillow LANCZOS",
+        "contactPosition": [
+          1120,
+          64
+        ]
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/final-v2-390x844.jpg",
+        "exists": true,
+        "dimensions": [
+          390,
+          844
+        ],
+        "sha256": "473ebc60c71d34899c1a9fa0c51dcc3664f068a813c430d8c928c9dc09720bf3",
+        "bytes": 55473,
+        "thumbnailDimensions": [
+          260,
+          563
+        ],
+        "fullViewportIncluded": true,
+        "resampling": "Pillow LANCZOS",
+        "contactPosition": [
+          1396,
+          64
+        ]
+      }
+    ],
+    "expectedSourceDimensions": [
+      390,
+      844
+    ],
+    "pixelPolicy": "Six real full phone viewports, uniformly thumbnailed; no crop, retouch or interface reconstruction",
+    "status": "generated",
+    "output": "docs/validation/day5a-plus/comparisons/six-screen-contact.png",
+    "outputDimensions": [
+      1672,
+      663
+    ],
+    "outputSha256": "6723bb51f974f6f136f24960e1890b8f54f640b79d832ee54b2cf55b34126d09",
+    "outputBytes": 691464
+  },
+  "framePixelChecks": {
+    "method": "Measure decoded original screenshot pixels; verify embedded source corners in lossless comparison PNGs",
+    "sourceEncodingNote": "Current captures are JPEG. PNG outputs preserve decoded JPEG RGB pixels without another lossy encode.",
+    "expectedMintRGB": [
+      195,
+      236,
+      224
+    ],
+    "perChannelTolerance": 4,
+    "edgeStripPixels": 8,
+    "nearBlackDefinition": "All RGB channels <= 16",
+    "measurementOnly": true,
+    "screenshots": [
+      {
+        "path": "docs/validation/day5a-plus/screenshots/cable-1of3-v2-768x1024.jpg",
+        "sha256": "41011ae570901932c72361ca04e0a9abd8bb1e5de5493aadc2960d00cb0c2eff",
+        "dimensions": [
+          768,
+          1024
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "left",
+          "right"
+        ],
+        "edgeMeasurements": {
+          "left": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "right": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/cable-v2-1280x720.jpg",
+        "sha256": "ceaec1257251039e3c3cec6e1a8017e09c80c06e7b2b76aa1be5993a9716dc24",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "left",
+          "right"
+        ],
+        "edgeMeasurements": {
+          "left": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "right": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/cable-v2-768x1024.jpg",
+        "sha256": "4f10e580303b18962486e030f563baf5d17caaf87a290ad499d50d0913bfce9a",
+        "dimensions": [
+          768,
+          1024
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "left",
+          "right"
+        ],
+        "edgeMeasurements": {
+          "left": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "right": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/cable-v2-order5-0of3-390x844.jpg",
+        "sha256": "9c949cb36ea80dafef00b13341e8112d14ab4fd13ec359393954933a45d764ca",
+        "dimensions": [
+          390,
+          844
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "top",
+          "bottom"
+        ],
+        "edgeMeasurements": {
+          "top": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "bottom": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/cable-v2-order5-1of3-390x844.jpg",
+        "sha256": "01a114a2116dc60aba0c47718e4ff0a79a74f50f7fe066d9db982c8411185745",
+        "dimensions": [
+          390,
+          844
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "top",
+          "bottom"
+        ],
+        "edgeMeasurements": {
+          "top": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "bottom": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/cable-v2-wrong-return-390x844.jpg",
+        "sha256": "8be03345aeac188e0a197135eba90587c3a4005f6dc522224b700ce8b056f619",
+        "dimensions": [
+          390,
+          844
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "top",
+          "bottom"
+        ],
+        "edgeMeasurements": {
+          "top": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "bottom": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/clean-partial-v2-768x1024.jpg",
+        "sha256": "577b0549ce18d02427bd9527be6a9f4c9bed86b6b9a49cb706706a1781fee214",
+        "dimensions": [
+          768,
+          1024
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "left",
+          "right"
+        ],
+        "edgeMeasurements": {
+          "left": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "right": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/clean-v2-1280x720.jpg",
+        "sha256": "613d378e13b47ed9ee57c995bb5821e7a4150cbe2d6aff16feebdbe24a0b749f",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "left",
+          "right"
+        ],
+        "edgeMeasurements": {
+          "left": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "right": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/clean-v2-768x1024.jpg",
+        "sha256": "ed39f0075651f81509d096d970ab539329fb9ea79a2521d521bac1e634473c6e",
+        "dimensions": [
+          768,
+          1024
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "left",
+          "right"
+        ],
+        "edgeMeasurements": {
+          "left": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "right": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/clean-v2-order4-96pct-390x844.jpg",
+        "sha256": "2c9f2e4ffb11655eca5dff117f57f96c201aa008292e91064f50a492cfbcc1e4",
+        "dimensions": [
+          390,
+          844
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "top",
+          "bottom"
+        ],
+        "edgeMeasurements": {
+          "top": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "bottom": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/clean-v2-order4-dirty-390x844.jpg",
+        "sha256": "ca1e6f42025ff1f6b0bcbf77936576a921508bc925a4b4265ba86a94c3e98e4c",
+        "dimensions": [
+          390,
+          844
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "top",
+          "bottom"
+        ],
+        "edgeMeasurements": {
+          "top": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "bottom": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/clean-v2-order4-partial-390x844.jpg",
+        "sha256": "4ae16c06da151a6466ca7d2379d478c71168d12477d7fb6ef5193adec383e87e",
+        "dimensions": [
+          390,
+          844
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "top",
+          "bottom"
+        ],
+        "edgeMeasurements": {
+          "top": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "bottom": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/drag-v2-1280x720.jpg",
+        "sha256": "1455044841edb3376a78dc0ee1d23ae1e2f4b1622a721a3efc11cf1e009e62f2",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "left",
+          "right"
+        ],
+        "edgeMeasurements": {
+          "left": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "right": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/drag-v2-768x1024.jpg",
+        "sha256": "b6e774780b4fe703bc4f93b9adece094a6d0eedff19b64b60ccf285f42b23101",
+        "dimensions": [
+          768,
+          1024
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "left",
+          "right"
+        ],
+        "edgeMeasurements": {
+          "left": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "right": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/drag-v2-order1-390x844.jpg",
+        "sha256": "76366166b3862213b72421fc54e78ca62e834761ea4e336764732b7922a7c88a",
+        "dimensions": [
+          390,
+          844
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "top",
+          "bottom"
+        ],
+        "edgeMeasurements": {
+          "top": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "bottom": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/drag-v2-wrong-return-390x844.jpg",
+        "sha256": "7267fa291eaded5e8cc8d80b34e0b4d3c9b901d39aa0b1e2f86aa412f09f2468",
+        "dimensions": [
+          390,
+          844
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "top",
+          "bottom"
+        ],
+        "edgeMeasurements": {
+          "top": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "bottom": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/final-replay-run-v2-1280x720.jpg",
+        "sha256": "0edee2995b8876a008002941868d99f57cdc1bd5211f32da54e9fe83564a1a0c",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "left",
+          "right"
+        ],
+        "edgeMeasurements": {
+          "left": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "right": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/final-v2-1280x720.jpg",
+        "sha256": "54116d051b46fd84533b7ffeaf9ea80265322a1aec6d9c8e0dc75bd1f54161c6",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "left",
+          "right"
+        ],
+        "edgeMeasurements": {
+          "left": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "right": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/final-v2-390x844.jpg",
+        "sha256": "473ebc60c71d34899c1a9fa0c51dcc3664f068a813c430d8c928c9dc09720bf3",
+        "dimensions": [
+          390,
+          844
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "top",
+          "bottom"
+        ],
+        "edgeMeasurements": {
+          "top": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "bottom": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/home-after-final-return-v2-390x844.jpg",
+        "sha256": "c6abadd5a7594b4b7ed8d8192672a8ebf9c2ad38a87954383195c2922b257193",
+        "dimensions": [
+          390,
+          844
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "top",
+          "bottom"
+        ],
+        "edgeMeasurements": {
+          "top": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "bottom": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/home-v2-1280x720.jpg",
+        "sha256": "0933779da1a9d710d06882f3e8963168889c04737a5f7ce9d052e10607286955",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "left",
+          "right"
+        ],
+        "edgeMeasurements": {
+          "left": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "right": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/home-v2-390x844.jpg",
+        "sha256": "a68ea2c47145d33ce292eb022d72ccff3c78e168164800c5ba7eb021e9ebbe45",
+        "dimensions": [
+          390,
+          844
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "top",
+          "bottom"
+        ],
+        "edgeMeasurements": {
+          "top": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "bottom": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/home-v2-768x1024.jpg",
+        "sha256": "b83942ebab59ac8d0bbbffdadfb72000f06e4d54d5506307b056f005e4c8997c",
+        "dimensions": [
+          768,
+          1024
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "left",
+          "right"
+        ],
+        "edgeMeasurements": {
+          "left": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "right": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/next-order-v2-768x1024.jpg",
+        "sha256": "7fd0a021994292c11c26a173d1c423811e047b5d3bf012501c43af7b44079443",
+        "dimensions": [
+          768,
+          1024
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "left",
+          "right"
+        ],
+        "edgeMeasurements": {
+          "left": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "right": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/order2-result-390x844.jpg",
+        "sha256": "2495538869ca7bcbc4e831989137f440c86b279fbd4e42ec2e1529f28a99ae44",
+        "dimensions": [
+          390,
+          844
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "top",
+          "bottom"
+        ],
+        "edgeMeasurements": {
+          "top": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "bottom": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/order4-result-390x844.jpg",
+        "sha256": "feb348820c51e5a9e4e635359b6cad2692563325c9fa479812bf283328fea1b0",
+        "dimensions": [
+          390,
+          844
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "top",
+          "bottom"
+        ],
+        "edgeMeasurements": {
+          "top": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "bottom": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/order5-result-390x844.jpg",
+        "sha256": "8d4c9313f32290f2fa1d32233deb8afbbeebbae326014e9eb96b560569883858",
+        "dimensions": [
+          390,
+          844
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "top",
+          "bottom"
+        ],
+        "edgeMeasurements": {
+          "top": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "bottom": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/order5-result-v2-768x1024.jpg",
+        "sha256": "c5426eca179b3374399943325d1fe7139af46cb0040ac7a5e516b841c6526129",
+        "dimensions": [
+          768,
+          1024
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "left",
+          "right"
+        ],
+        "edgeMeasurements": {
+          "left": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "right": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/order6-result-390x844.jpg",
+        "sha256": "2f55be7520c8d59c15218e973b3b50f78eb2be1b04d2db4bd3cbba9a91ce112b",
+        "dimensions": [
+          390,
+          844
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "top",
+          "bottom"
+        ],
+        "edgeMeasurements": {
+          "top": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "bottom": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/order6-step2-two-items-390x844.jpg",
+        "sha256": "04e9487c46af09061c06767957bb0c39d2a23987be6e950bce1c7035bf734b3d",
+        "dimensions": [
+          390,
+          844
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "top",
+          "bottom"
+        ],
+        "edgeMeasurements": {
+          "top": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "bottom": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/order7-result-1280x720.jpg",
+        "sha256": "a5fa0afac50fbe8418063f6a8859a62fc54edc18c717d9779499419c8601df3e",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "left",
+          "right"
+        ],
+        "edgeMeasurements": {
+          "left": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "right": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/order8-four-items-390x844.jpg",
+        "sha256": "d8f00b45857d825b644266bda237efbd67260ef0c40a1447a33c75c121645215",
+        "dimensions": [
+          390,
+          844
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "top",
+          "bottom"
+        ],
+        "edgeMeasurements": {
+          "top": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "bottom": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/order8-result-390x844.jpg",
+        "sha256": "4e38c67b30a136d472054d13d678730164d600c70921263a48aa162b5b9672db",
+        "dimensions": [
+          390,
+          844
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "top",
+          "bottom"
+        ],
+        "edgeMeasurements": {
+          "top": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "bottom": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/order8-step2-390x844.jpg",
+        "sha256": "3dbf52ae28587959803fbc5764aeda5a07a430229fa6b25313756d787c0b315b",
+        "dimensions": [
+          390,
+          844
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "top",
+          "bottom"
+        ],
+        "edgeMeasurements": {
+          "top": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "bottom": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/order9-step2-four-cables-390x844.jpg",
+        "sha256": "55b7eb3af10d27548e9ea38e5ccc2bb500fc02482a459e7ac65dbba15c14f7cf",
+        "dimensions": [
+          390,
+          844
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "top",
+          "bottom"
+        ],
+        "edgeMeasurements": {
+          "top": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "bottom": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/order9-step3-four-parts-390x844.jpg",
+        "sha256": "c735104112bb78381c80ff23a0c08072e1ac97c57df8efecaf05dbf3200eb637",
+        "dimensions": [
+          390,
+          844
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "top",
+          "bottom"
+        ],
+        "edgeMeasurements": {
+          "top": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "bottom": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/replay-muted-v2-1280x720.jpg",
+        "sha256": "66d42b83c245b50bc86d1ed28dad95a1cd607e3305ed63279c3c9f0052b19dae",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "left",
+          "right"
+        ],
+        "edgeMeasurements": {
+          "left": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "right": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/replay-v2-1280x720.jpg",
+        "sha256": "f44c038fbff67a97f08456e43ceae607f297e75b462ce08c80b1349487248fb2",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "left",
+          "right"
+        ],
+        "edgeMeasurements": {
+          "left": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "right": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/restart-after-home-muted-v2-1280x720.jpg",
+        "sha256": "9211cbd60b55abbc520c67e18feb592309dfa42227c1671bbed26829d0c8c935",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "left",
+          "right"
+        ],
+        "edgeMeasurements": {
+          "left": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "right": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/restart-after-home-v2-390x844.jpg",
+        "sha256": "c33723b4f8000695c1165c578f3f9548f15cc791b1ad0b6c3064659c534e9cb3",
+        "dimensions": [
+          390,
+          844
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "top",
+          "bottom"
+        ],
+        "edgeMeasurements": {
+          "top": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "bottom": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/result-v2-1280x720.jpg",
+        "sha256": "1dc0e0edeefb150027b1e713c40ee4c6a53fcfee5abcb07499889b29ed35e5b6",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "left",
+          "right"
+        ],
+        "edgeMeasurements": {
+          "left": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "right": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/result-v2-390x844.jpg",
+        "sha256": "39075bd9102112183367916358fe9a63c0455ab2c333d62fe105117ce68db82d",
+        "dimensions": [
+          390,
+          844
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "top",
+          "bottom"
+        ],
+        "edgeMeasurements": {
+          "top": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "bottom": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/result-v2-768x1024.jpg",
+        "sha256": "56c3835fadb37274e731b90304e6d271462e36fd611d3a9d502a6ea1798984a7",
+        "dimensions": [
+          768,
+          1024
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "left",
+          "right"
+        ],
+        "edgeMeasurements": {
+          "left": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "right": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/result-v2-modal-block-390x844.jpg",
+        "sha256": "8943199cec43ededab9a4dc13336ce07f4f4d1b37e708a1d6dc591959d7661f3",
+        "dimensions": [
+          390,
+          844
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "top",
+          "bottom"
+        ],
+        "edgeMeasurements": {
+          "top": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "bottom": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/return-home-muted-v2-1280x720.jpg",
+        "sha256": "7dc5861ed27303d5e6417cf102b0eab01473ed81d7f89bd4be9ce4cd10900c42",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "left",
+          "right"
+        ],
+        "edgeMeasurements": {
+          "left": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "right": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      },
+      {
+        "path": "docs/validation/day5a-plus/screenshots/return-home-v2-390x844.jpg",
+        "sha256": "c6abadd5a7594b4b7ed8d8192672a8ebf9c2ad38a87954383195c2922b257193",
+        "dimensions": [
+          390,
+          844
+        ],
+        "cornerRGB": {
+          "topLeft": [
+            194,
+            236,
+            224
+          ],
+          "topRight": [
+            194,
+            236,
+            224
+          ],
+          "bottomLeft": [
+            194,
+            236,
+            224
+          ],
+          "bottomRight": [
+            194,
+            236,
+            224
+          ]
+        },
+        "measuredLetterboxEdges": [
+          "top",
+          "bottom"
+        ],
+        "edgeMeasurements": {
+          "top": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          },
+          "bottom": {
+            "meanRGB": [
+              194.0,
+              236.0,
+              224.0
+            ],
+            "mintFraction": 1.0,
+            "nearBlackFraction": 0.0
+          }
+        }
+      }
+    ],
+    "embeddedComparisonPngChecks": [
+      {
+        "key": "home",
+        "png": "docs/validation/day5a-plus/comparisons/home-day5a-to-v2.png",
+        "sourceImageRectangle": [
+          432,
+          86,
+          390,
+          844
+        ],
+        "embeddedGameCornerRGB": [
+          [
+            194,
+            236,
+            224
+          ],
+          [
+            194,
+            236,
+            224
+          ],
+          [
+            194,
+            236,
+            224
+          ],
+          [
+            194,
+            236,
+            224
+          ]
+        ],
+        "allSourcePixelsIdentical": true
+      },
+      {
+        "key": "drag",
+        "png": "docs/validation/day5a-plus/comparisons/drag-day5a-to-v2.png",
+        "sourceImageRectangle": [
+          432,
+          86,
+          390,
+          844
+        ],
+        "embeddedGameCornerRGB": [
+          [
+            194,
+            236,
+            224
+          ],
+          [
+            194,
+            236,
+            224
+          ],
+          [
+            194,
+            236,
+            224
+          ],
+          [
+            194,
+            236,
+            224
+          ]
+        ],
+        "allSourcePixelsIdentical": true
+      },
+      {
+        "key": "cable",
+        "png": "docs/validation/day5a-plus/comparisons/cable-day5a-to-v2.png",
+        "sourceImageRectangle": [
+          432,
+          86,
+          390,
+          844
+        ],
+        "embeddedGameCornerRGB": [
+          [
+            194,
+            236,
+            224
+          ],
+          [
+            194,
+            236,
+            224
+          ],
+          [
+            194,
+            236,
+            224
+          ],
+          [
+            194,
+            236,
+            224
+          ]
+        ],
+        "allSourcePixelsIdentical": true
+      },
+      {
+        "key": "clean",
+        "png": "docs/validation/day5a-plus/comparisons/clean-day5a-to-v2.png",
+        "sourceImageRectangle": [
+          432,
+          86,
+          390,
+          844
+        ],
+        "embeddedGameCornerRGB": [
+          [
+            194,
+            236,
+            224
+          ],
+          [
+            194,
+            236,
+            224
+          ],
+          [
+            194,
+            236,
+            224
+          ],
+          [
+            194,
+            236,
+            224
+          ]
+        ],
+        "allSourcePixelsIdentical": true
+      },
+      {
+        "key": "result",
+        "png": "docs/validation/day5a-plus/comparisons/result-day5a-to-v2.png",
+        "sourceImageRectangle": [
+          432,
+          86,
+          390,
+          844
+        ],
+        "embeddedGameCornerRGB": [
+          [
+            194,
+            236,
+            224
+          ],
+          [
+            194,
+            236,
+            224
+          ],
+          [
+            194,
+            236,
+            224
+          ],
+          [
+            194,
+            236,
+            224
+          ]
+        ],
+        "allSourcePixelsIdentical": true
+      },
+      {
+        "key": "final",
+        "png": "docs/validation/day5a-plus/comparisons/final-day5a-to-v2.png",
+        "sourceImageRectangle": [
+          1322,
+          86,
+          1280,
+          720
+        ],
+        "embeddedGameCornerRGB": [
+          [
+            194,
+            236,
+            224
+          ],
+          [
+            194,
+            236,
+            224
+          ],
+          [
+            194,
+            236,
+            224
+          ],
+          [
+            194,
+            236,
+            224
+          ]
+        ],
+        "allSourcePixelsIdentical": true
+      },
+      {
+        "key": "clean-partial",
+        "png": "docs/validation/day5a-plus/comparisons/clean-partial-day5a-to-v2.png",
+        "sourceImageRectangle": [
+          432,
+          86,
+          390,
+          844
+        ],
+        "embeddedGameCornerRGB": [
+          [
+            194,
+            236,
+            224
+          ],
+          [
+            194,
+            236,
+            224
+          ],
+          [
+            194,
+            236,
+            224
+          ],
+          [
+            194,
+            236,
+            224
+          ]
+        ],
+        "allSourcePixelsIdentical": true
+      }
+    ],
+    "actualViewportDimensions": [
+      [
+        390,
+        844
+      ],
+      [
+        768,
+        1024
+      ],
+      [
+        1280,
+        720
+      ]
+    ]
+  }
+}

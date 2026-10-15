@@ -1,0 +1,38 @@
+[
+  {
+    "name": "final-tests",
+    "command": [
+      "node",
+      "tools/verify-day1.cjs"
+    ],
+    "startedAtUtc": "2026-10-15T10:36:40.123408+00:00",
+    "endedAtUtc": "2026-10-15T10:36:44.177164+00:00",
+    "exitCode": 0,
+    "log": "v2-final-tests.log"
+  },
+  {
+    "name": "final-cocos-types",
+    "command": [
+      "node",
+      "tools/verify-day1.cjs",
+      "--cocos-types"
+    ],
+    "startedAtUtc": "2026-10-15T10:36:44.177217+00:00",
+    "endedAtUtc": "2026-10-15T10:36:46.788089+00:00",
+    "exitCode": 0,
+    "log": "v2-final-cocos-types.log"
+  },
+  {
+    "name": "final-sdk-self",
+    "command": [
+      "node",
+      "tools/verify-day1.cjs",
+      "--cocos-types",
+      "--check-sdk-declarations"
+    ],
+    "startedAtUtc": "2026-10-15T10:36:46.788245+00:00",
+    "endedAtUtc": "2026-10-15T10:36:49.288045+00:00",
+    "exitCode": 1,
+    "log": "v2-final-sdk-self.log"
+  }
+]

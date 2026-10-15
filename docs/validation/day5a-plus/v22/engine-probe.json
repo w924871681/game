@@ -1,0 +1,1892 @@
+{
+  "schemaVersion": 1,
+  "ok": true,
+  "timestamp": "2026-10-15T15:38:25.897Z",
+  "engineVersion": "3.8.8",
+  "mode": "V2.2 re-executes unmodified V2.1 probe and appends current saved-Prefab off-scene feathering and caption fixtures; no formal gameplay state is injected",
+  "input": "Inherited46 use actual synthetic cc.Touch/EventTouch; added P0 checks call accepted-path visual API on off-scene saved-Prefab instances only",
+  "lifecycle": "Real node activator for off-scene fixtures; explicit controller cleanup because Editor suppresses game lifecycle",
+  "limitations": [
+    "Not Preview natural-clock playback, rendering, clipping or UI hit testing",
+    "Not browser native touch adapters, native TOUCH_CANCEL, physical touch, mobile WebView or mini-game platforms",
+    "No audible playback or natural AudioSource ENDED is claimed; browser sound and listening require separate Preview checks",
+    "P0 alpha arithmetic is not rendered-pixel quality, Preview input or user aesthetic approval"
+  ],
+  "legacyResult": {
+    "ok": true,
+    "timestamp": "2026-10-15T15:38:23.043Z",
+    "engineVersion": "3.8.8",
+    "mode": "newly executed V21 registered components/current saved Prefabs; all original 36 contracts plus new path-local dust/refined cable/stagger fixtures, isolated real Cocos ActionManager with manual delta time",
+    "input": "synthetic real cc.Touch and cc.EventTouch emitted to fixture nodes; Button clicks emitted to real fixture nodes",
+    "lifecycle": "real node activator marks only off-scene fixtures active; explicit component lifecycle because Editor suppresses game lifecycle",
+    "audio": "actual AudioSource and seven saved AudioClip references; silent fixture tests for locked/muted behavior and synthetic ENDED event binding only",
+    "limitations": [
+      "Not Preview natural-clock playback, rendering, clipping or UI hit testing",
+      "Not browser native touch adapters, native TOUCH_CANCEL, physical touch, mobile WebView or mini-game platforms",
+      "No audible playback or natural AudioSource ENDED is claimed; browser sound and listening require separate Preview checks"
+    ],
+    "checks": [
+      {
+        "name": "formal saved Scene keeps home waiting, complete inspector references and final visual mode",
+        "status": "PASS",
+        "evidence": {
+          "autoStartOnSceneLoad": false,
+          "slicePreview": false,
+          "overlayActive": true,
+          "managerUuid": "0d4chGpmFBGK9j17nnQK9D"
+        }
+      },
+      {
+        "name": "current registry retains all original artwork and 19 distinct device assets",
+        "status": "PASS",
+        "evidence": {
+          "boundFrames": 49,
+          "distinctDevices": 19,
+          "deviceUuids": [
+            "cfd0fd1d-3921-4cd2-88a2-af7e1f163316@f9941",
+            "0aaaddb3-1113-421b-8cd0-20759a1ce3dd@f9941",
+            "d959c75d-f1fe-49f3-b120-0f310031cc67@f9941",
+            "8a4fe825-5d33-4803-9b93-25158ed7680a@f9941",
+            "ef7fe151-7adf-412e-ac46-177ff9fa2497@f9941",
+            "0f7e5d03-8ba1-4622-b4a4-ef9485c2cc36@f9941",
+            "48bddd1c-7cee-4e6f-a27b-effa141d3aeb@f9941",
+            "bff2e09b-5847-4729-a724-4790f0260641@f9941",
+            "a9911568-a31b-42be-a76c-8b26f4950ec0@f9941",
+            "6381a9f5-6705-4430-8c20-a9f901618e96@f9941",
+            "463d6d22-9651-4f22-a373-612c9105865b@f9941",
+            "11f916d7-cbde-4ad4-9081-4bd5956bd399@f9941",
+            "706b8ed5-ff16-450c-8d14-0d30eca8f3c5@f9941",
+            "ec87833a-dbe6-445e-ba29-41a5ae8e2a88@f9941",
+            "177406cc-d885-4703-94f9-7a5d2f6c63c9@f9941",
+            "f85c8848-9b23-47e3-a5c1-4ab195aa56d3@f9941",
+            "d6b38c26-b854-4cd1-bac6-bc7b4491c814@f9941",
+            "195a4746-b058-4ede-becc-38a6dbd48c7e@f9941",
+            "efbb401a-c205-4628-ab43-49b447f5ac14@f9941"
+          ]
+        }
+      },
+      {
+        "name": "actual AudioSource binds seven distinct saved AudioClips and has no autoplay or loop",
+        "status": "PASS",
+        "evidence": {
+          "clipUuids": {
+            "uiClickClip": "9c8fe8da-0272-43a2-a278-53ce570eb3d7",
+            "successClip": "014ad3d8-08f1-447e-a6e8-5280b71f8926",
+            "mistakeClip": "490946b8-f3d2-475d-892f-96659fd1c76c",
+            "cleanCompleteClip": "d10f7dff-ec2c-4ae8-b084-723b49bb2aa3",
+            "stageCompleteClip": "30c94162-1dc0-4977-bd5f-dc7d7bc16e4c",
+            "orderCompleteClip": "25bce09b-a0ee-4755-a67c-1ba1c0d340e3",
+            "runCompleteClip": "655245fa-d578-4fb5-bdc4-fbfd70410e4c"
+          },
+          "playOnAwake": false,
+          "loop": false
+        }
+      },
+      {
+        "name": "home waiting survives start and update with zero time, results and Stage cache",
+        "status": "PASS",
+        "evidence": {
+          "elapsedMs": 0,
+          "cachedStages": 0,
+          "results": 0,
+          "audioUnlocked": false
+        }
+      },
+      {
+        "name": "real start Button rapid clicks enter order 1 once and preserve its generation",
+        "status": "PASS",
+        "evidence": {
+          "emittedClicks": 6,
+          "startedOrders": 1,
+          "generation": 4,
+          "cachedStages": 1,
+          "unlocked": true
+        }
+      },
+      {
+        "name": "Home disable, enable and destroy own exactly one real Button listener",
+        "status": "PASS",
+        "evidence": {
+          "repeatedEnableToggleCount": 1,
+          "disabledToggleCount": 0,
+          "restoredToggleCount": 1,
+          "destroyDetached": true
+        }
+      },
+      {
+        "name": "sound toggle on home changes icon/label without entering an order or unlocking audio",
+        "status": "PASS",
+        "evidence": {
+          "toggles": 2,
+          "started": false,
+          "unlocked": false,
+          "cachedStages": 0
+        }
+      },
+      {
+        "name": "AudioFeedback real ENDED event attaches once, detaches on disable/destroy and stays silent",
+        "status": "PASS",
+        "evidence": {
+          "syntheticEndedDeliveries": 2,
+          "duplicateEnableDeliveries": 1,
+          "detachedDeliveries": 0,
+          "audiblePlaybackTested": false
+        }
+      },
+      {
+        "name": "three real Stage Prefabs and five element Prefabs instantiate with typed visual references",
+        "status": "PASS",
+        "evidence": {
+          "prefabUuids": {
+            "dragMatchPrefab": "d7e32619-2acf-40bb-bca4-addfccbb49be",
+            "itemPrefab": "fefd5955-3eac-44ad-b9ec-d907012e16e1",
+            "targetPrefab": "baed1239-77f8-4e48-b00b-4de4c6d67830",
+            "cableConnectPrefab": "afa7f7c0-6a62-4d07-9295-6011af87cf7a",
+            "cablePrefab": "2ad8fe32-bebc-4d0e-8913-560ce3d72eac",
+            "portPrefab": "5147d16e-d660-4b36-983f-73c8cd3b203f",
+            "cleanSwipePrefab": "fa38d9cd-1551-4324-9805-acc21429befc",
+            "dirtCellPrefab": "c6243d95-8ebe-4646-8575-342bcf1f156f"
+          },
+          "cachedStages": 3
+        }
+      },
+      {
+        "name": "all six drag configurations bind 19 recognizable item frames and matching muted targets",
+        "status": "PASS",
+        "evidence": {
+          "configurations": [
+            {
+              "stage": "drag-1",
+              "count": 3
+            },
+            {
+              "stage": "drag-2",
+              "count": 3
+            },
+            {
+              "stage": "drag-3",
+              "count": 3
+            },
+            {
+              "stage": "mouse-parts",
+              "count": 2
+            },
+            {
+              "stage": "streaming-devices",
+              "count": 4
+            },
+            {
+              "stage": "case-parts",
+              "count": 4
+            }
+          ],
+          "deviceKeys": [
+            "devices/mouse",
+            "devices/keyboard",
+            "devices/headset",
+            "devices/power",
+            "devices/network",
+            "devices/usb",
+            "devices/router",
+            "devices/controller",
+            "devices/speaker",
+            "devices/battery",
+            "devices/wheel",
+            "devices/microphone",
+            "devices/camera",
+            "devices/light",
+            "devices/soundcard",
+            "devices/fan",
+            "devices/memory",
+            "devices/drive",
+            "devices/gpu"
+          ]
+        }
+      },
+      {
+        "name": "drag pooled nodes change artwork and stop old success decoration on reconfigure",
+        "status": "PASS",
+        "evidence": {
+          "reusedNode": "b3Y9kTV7NARb1FcdIWM39b",
+          "newKey": "devices/microphone",
+          "markerActive": false,
+          "completed": 0
+        }
+      },
+      {
+        "name": "all four cable configurations bind shaped head/port frames and reset pooled completion markers",
+        "status": "PASS",
+        "evidence": {
+          "configurations": [
+            {
+              "stage": "computer-cables",
+              "cables": 3
+            },
+            {
+              "stage": "router-cables",
+              "cables": 3
+            },
+            {
+              "stage": "streaming-cables",
+              "cables": 2
+            },
+            {
+              "stage": "case-cables",
+              "cables": 4
+            }
+          ],
+          "reusedCableUuid": "01tFd4NNVFuZrslGxZn6F0"
+        }
+      },
+      {
+        "name": "cable synthetic wrong drop returns once and correct snap displays green completion once",
+        "status": "PASS",
+        "evidence": {
+          "mistakes": 1,
+          "completedConnections": 1,
+          "headMarker": true,
+          "portMarker": true,
+          "input": "synthetic real EventTouch"
+        }
+      },
+      {
+        "name": "all three clean areas bind matching device positions/sizes below restored dirt cells",
+        "status": "PASS",
+        "evidence": [
+          {
+            "stage": "keyboard-clean",
+            "frame": "d0bc0a7d-178e-4969-9e61-cd02b2b488e8@f9941",
+            "dirt": 32,
+            "required": 28
+          },
+          {
+            "stage": "shell-clean",
+            "frame": "5c3c9143-0e96-48a6-875c-5cb0cdc16355@f9941",
+            "dirt": 20,
+            "required": 17
+          },
+          {
+            "stage": "case-clean",
+            "frame": "c83c41c5-7458-42c1-b62c-0f217f849ad2@f9941",
+            "dirt": 35,
+            "required": 32
+          }
+        ]
+      },
+      {
+        "name": "real clean fade interpolates then reconfigure restores reused dirt and switches device artwork",
+        "status": "PASS",
+        "evidence": {
+          "midpointOpacity": 127.5,
+          "fadeSeconds": 0.08,
+          "reusedCell": "b1Q0u3IFlEOohp2JWGGtNu",
+          "restoredOpacity": 255,
+          "cleanCount": 0
+        }
+      },
+      {
+        "name": "ResultStars uses real frames and .24 second tween; reset and stopEffects prevent late mutation",
+        "status": "PASS",
+        "evidence": {
+          "midpointScale": 1.0150000000000001,
+          "animationSeconds": 0.24,
+          "resetDisplayed": 0,
+          "stoppedRetainedRating": 3
+        }
+      },
+      {
+        "name": "late Stage callbacks and old decorative tweens cannot mutate new artwork/generation",
+        "status": "PASS",
+        "evidence": {
+          "previousGeneration": 3,
+          "currentGeneration": 5,
+          "newKey": "devices/router",
+          "staleCallbackCompletions": 0
+        }
+      },
+      {
+        "name": "actual skinned nine orders/thirteen stages preserve continuous time, 27 stars, cache and replay reset",
+        "status": "PASS",
+        "evidence": {
+          "sequence": [
+            {
+              "order": 1,
+              "stage": 1,
+              "kind": "drag-match",
+              "elapsedMs": 1250
+            },
+            {
+              "order": 2,
+              "stage": 1,
+              "kind": "drag-match",
+              "elapsedMs": 1250
+            },
+            {
+              "order": 3,
+              "stage": 1,
+              "kind": "drag-match",
+              "elapsedMs": 1250
+            },
+            {
+              "order": 4,
+              "stage": 1,
+              "kind": "clean-swipe",
+              "elapsedMs": 1250
+            },
+            {
+              "order": 5,
+              "stage": 1,
+              "kind": "cable-connect",
+              "elapsedMs": 1250
+            },
+            {
+              "order": 6,
+              "stage": 1,
+              "kind": "clean-swipe",
+              "elapsedMs": 1250
+            },
+            {
+              "order": 6,
+              "stage": 2,
+              "kind": "drag-match",
+              "elapsedMs": 2500
+            },
+            {
+              "order": 7,
+              "stage": 1,
+              "kind": "cable-connect",
+              "elapsedMs": 1250
+            },
+            {
+              "order": 8,
+              "stage": 1,
+              "kind": "drag-match",
+              "elapsedMs": 1250
+            },
+            {
+              "order": 8,
+              "stage": 2,
+              "kind": "cable-connect",
+              "elapsedMs": 2500
+            },
+            {
+              "order": 9,
+              "stage": 1,
+              "kind": "clean-swipe",
+              "elapsedMs": 1250
+            },
+            {
+              "order": 9,
+              "stage": 2,
+              "kind": "cable-connect",
+              "elapsedMs": 2500
+            },
+            {
+              "order": 9,
+              "stage": 3,
+              "kind": "drag-match",
+              "elapsedMs": 3750
+            }
+          ],
+          "summary": "完成订单：9 / 9\n总用时：16.3 秒\n总失误：0 次\n总评价：27 / 27 星\n总得分：8870\n完成步骤：13 / 13",
+          "replay": {
+            "order": 1,
+            "results": 0,
+            "elapsedMs": 0,
+            "stars": 0,
+            "retainedStageRoots": 3,
+            "homeVisible": false
+          }
+        }
+      },
+      {
+        "name": "V2 PaperOrderHUD derives order/step labels from supplied catalog dimensions",
+        "status": "PASS",
+        "evidence": {
+          "order": "订单 5 / 17",
+          "step": "步骤 2 / 2",
+          "title": "鼠标保养",
+          "elapsedMs": 0
+        }
+      },
+      {
+        "name": "V2 HUD kind groups are exclusive and clean has one 57/96/100 percent display",
+        "status": "PASS",
+        "evidence": {
+          "kinds": [
+            {
+              "kind": "drag-match",
+              "active": "__V21Probe_Drag"
+            },
+            {
+              "kind": "cable-connect",
+              "active": "__V21Probe_Cable"
+            },
+            {
+              "kind": "clean-swipe",
+              "active": "__V21Probe_Clean"
+            }
+          ],
+          "percents": [
+            "清洁进度 57%",
+            "清洁进度 96%",
+            "清洁进度 100%"
+          ],
+          "resizedFullWidth": 320
+        }
+      },
+      {
+        "name": "V2 actual keyboard input uses 32 internal cells, reaches 57 and 96 percent, completes at 28 once",
+        "status": "PASS",
+        "evidence": {
+          "totalLogicalCells": 32,
+          "required": 28,
+          "unvisitedLogicalCells": 4,
+          "snapshots": [
+            {
+              "cleaned": 16,
+              "progress": "清洁进度 57%",
+              "completions": 0
+            },
+            {
+              "cleaned": 27,
+              "progress": "清洁进度 96%",
+              "completions": 0
+            },
+            {
+              "cleaned": 28,
+              "progress": "清洁进度 100%",
+              "completions": 1
+            }
+          ],
+          "pixelLimitation": "No assertion that 28/32 physically visits or visibly clears all 32 cells; irregular dust appearance requires Preview."
+        }
+      },
+      {
+        "name": "V2 result example uses actual RunController formula: 28.7 seconds plus one mistake is 620 and two stars",
+        "status": "PASS",
+        "evidence": {
+          "frozen": {
+            "levelId": 4,
+            "elapsedMs": 28700,
+            "mistakes": 1,
+            "score": 620,
+            "stars": 2
+          },
+          "displayedScore": "620",
+          "displayedTime": "28.7 秒",
+          "source": "controlled actual RunController fixture"
+        }
+      },
+      {
+        "name": "V2 actual order completion activates only order group, true stars, dynamic values and modal shade",
+        "status": "PASS",
+        "evidence": {
+          "result": {
+            "levelId": 1,
+            "elapsedMs": 1250,
+            "mistakes": 0,
+            "score": 990,
+            "stars": 3
+          },
+          "orderVisible": true,
+          "finalVisible": false,
+          "shadeVisible": true,
+          "homeButtonAvailable": false
+        }
+      },
+      {
+        "name": "V2 final display derives all six values and star maximum from the supplied summary/catalog",
+        "status": "PASS",
+        "evidence": {
+          "labels": {
+            "summaryOrdersLabel": "4 / 17",
+            "summaryStarsLabel": "7 / 51",
+            "summaryScoreLabel": "2468",
+            "summaryStepsLabel": "8 / 31",
+            "summaryTimeLabel": "12.3 秒",
+            "summaryMistakesLabel": "6 次"
+          },
+          "orderVisible": false,
+          "finalVisible": true,
+          "ordinaryStarsVisible": false
+        }
+      },
+      {
+        "name": "V2 real BlockInputEvents stays full screen while the separate result card animates",
+        "status": "PASS",
+        "evidence": {
+          "bounds": {
+            "width": 720,
+            "height": 1280
+          },
+          "cardMidpoint": 1.01,
+          "syntheticPropagationStopped": true,
+          "limitation": "Node emission is not browser native hit testing; real Preview must test blocked screen corners."
+        }
+      },
+      {
+        "name": "V2 button pressure owns its child tween, ignores foreign release and preserves input hitbox/transform",
+        "status": "PASS",
+        "evidence": {
+          "midpointScale": 0.9775,
+          "pressedScale": 0.97,
+          "resetScale": 1,
+          "inputTransformAndHitboxUnchanged": true,
+          "started": false
+        }
+      },
+      {
+        "name": "V2 Home decorative tween stops when real Home dismisses, without moving its input root",
+        "status": "PASS",
+        "evidence": {
+          "hiddenHeroTweenStopped": true,
+          "scale": 1,
+          "inputPositionPreserved": true
+        }
+      },
+      {
+        "name": "V2 actual drag preserves foreign-touch ownership, CANCEL and exactly one wrong-release mistake",
+        "status": "PASS",
+        "evidence": {
+          "foreignEvents": 4,
+          "cancelMistakes": 0,
+          "wrongReleaseMistakes": 1,
+          "completed": 0
+        }
+      },
+      {
+        "name": "V2 actual cable preserves ownership/CANCEL and Graphics endpoint through transformed parents",
+        "status": "PASS",
+        "evidence": {
+          "foreignAndCancelMistakes": 0,
+          "completedConnections": 1,
+          "endpoint": {
+            "x": 100.23021651349046,
+            "y": -230.8001233726722
+          },
+          "transformValidated": true
+        }
+      },
+      {
+        "name": "V2 return Home is final-only and rejects waiting/playing/ordinary-order result",
+        "status": "PASS",
+        "evidence": {
+          "acceptedOutsideFinal": 0,
+          "retainedResults": 1,
+          "ordinaryResultStillOpen": true
+        }
+      },
+      {
+        "name": "V2 full final to Home clears metrics/stages/modal; rapid Start re-enters once and rejects old callbacks",
+        "status": "PASS",
+        "evidence": {
+          "completedBeforeHome": 9,
+          "stagesBeforeHome": 13,
+          "idleElapsedMs": 0,
+          "replayOrder": 1,
+          "cacheRoots": 3,
+          "newGeneration": 49,
+          "retainedTutorialSession": true
+        }
+      },
+      {
+        "name": "V2 Home return retains both sound states without playing audio in the fixture",
+        "status": "PASS",
+        "evidence": {
+          "states": [
+            {
+              "enabled": false,
+              "retained": false,
+              "unlocked": false,
+              "idleElapsedMs": 0
+            },
+            {
+              "enabled": true,
+              "retained": true,
+              "unlocked": false,
+              "idleElapsedMs": 0
+            }
+          ],
+          "audiblePlaybackTested": false
+        }
+      },
+      {
+        "name": "V2 final Replay immediately restarts order 1, hides all result/modal state and never flashes Home",
+        "status": "PASS",
+        "evidence": {
+          "order": 1,
+          "stage": 1,
+          "results": 0,
+          "modalVisible": false,
+          "homeVisible": false,
+          "preservedCache": 3
+        }
+      },
+      {
+        "name": "V2 actual Manager summary derives totals from a smaller real catalog fixture",
+        "status": "PASS",
+        "evidence": {
+          "fixtureCatalogOrders": 2,
+          "executedSteps": 2,
+          "orders": "2 / 2",
+          "stars": "6 / 6",
+          "steps": "2 / 2"
+        }
+      },
+      {
+        "name": "V2 actual cable artwork follows transformed endpoints and redraws color at a fixed endpoint",
+        "status": "PASS",
+        "evidence": {
+          "realCurveStrokesPerRefresh": 4,
+          "refinedStyle": true,
+          "centralStrokeWidth": 11,
+          "fixedEndpointColorRedraw": true,
+          "transformedEndpoints": true,
+          "methodObservation": "Fixture instance instrumentation delegates to actual Cocos Graphics methods"
+        }
+      },
+      {
+        "name": "V2 actual dirt child artwork overlaps and resizes without changing logical cell hitbox/position",
+        "status": "PASS",
+        "evidence": {
+          "reusedCell": "dbs/z1EutN/IUnLOP5ohim",
+          "childScaleFactor": 1.6,
+          "logicalTransformPreserved": true,
+          "runtimeCellCount": 20,
+          "retiredSpriteEnabled": false,
+          "limitation": "This preserved V2 check verifies only old child transforms/frame/pool. Its per-cell renderer is deliberately retired in V21; current independent particles are checked separately and natural appearance requires Preview."
+        }
+      },
+      {
+        "name": "V21 current clean Prefab binds 192 pooled path-local Sprites independently of 32 logical cells",
+        "status": "PASS",
+        "evidence": {
+          "logicalCells": 32,
+          "requiredCells": 28,
+          "visualParticles": 192,
+          "totalCreated": 192,
+          "diagnosticsDetachedAndFrozen": true,
+          "retiredCellRendererEnabled": false,
+          "limitation": "Irregular positions and soft-alpha renderer bindings are structural evidence; pixel appearance still requires real Preview."
+        }
+      },
+      {
+        "name": "V21 accepted diagonal and curved cleaning paths fade local particles under transformed input ancestors",
+        "status": "PASS",
+        "evidence": {
+          "path": [
+            [
+              -200,
+              -80
+            ],
+            [
+              -110,
+              30
+            ],
+            [
+              -30,
+              85
+            ],
+            [
+              60,
+              100
+            ],
+            [
+              145,
+              35
+            ]
+          ],
+          "changedParticles": 85,
+          "featheredParticles": 57,
+          "unaffectedParticles": 107,
+          "logicalCleaned": 9,
+          "completed": 0,
+          "mistakes": 0,
+          "transformedInput": true
+        }
+      },
+      {
+        "name": "V21 dust ignores unowned and foreign events while CANCEL retains only the accepted local erase",
+        "status": "PASS",
+        "evidence": {
+          "foreignEvents": 4,
+          "retainedLogicalCount": 2,
+          "ownedCancelRetainsDustState": true,
+          "mistakeCount": 0
+        }
+      },
+      {
+        "name": "V21 independent dust keeps the true 16/27/28 logical threshold and ignores all post-completion erasing",
+        "status": "PASS",
+        "evidence": {
+          "snapshots": [
+            {
+              "count": 16,
+              "total": 32,
+              "required": 28,
+              "completions": 0
+            },
+            {
+              "count": 27,
+              "total": 32,
+              "required": 28,
+              "completions": 0
+            },
+            {
+              "count": 28,
+              "total": 32,
+              "required": 28,
+              "completions": 1
+            }
+          ],
+          "completions": 1,
+          "logicalCellsUnvisited": 4,
+          "particlePool": 192,
+          "limitation": "Completion at 28 of 32 is not a claim that every logical cell was visited or every remaining particle was physically erased."
+        }
+      },
+      {
+        "name": "V21 reused clean stages restore the same 192 particles for each region and disable-enable preserves current erase",
+        "status": "PASS",
+        "evidence": {
+          "retainedEraseAcrossDisable": true,
+          "reusedParticles": 192,
+          "regions": [
+            {
+              "id": "shell-clean",
+              "logicalCells": 20,
+              "particles": 192,
+              "totalCreated": 192
+            },
+            {
+              "id": "case-clean",
+              "logicalCells": 35,
+              "particles": 192,
+              "totalCreated": 192
+            }
+          ]
+        }
+      },
+      {
+        "name": "V21 particle destruction schedules only its decorative nodes and leaves logical input/counters intact",
+        "status": "PASS",
+        "evidence": {
+          "ownedParticleDestructionScheduled": 192,
+          "logicalCellsStillValid": 32,
+          "logicalCountUnchanged": true,
+          "limitation": "Actual onDestroy is invoked explicitly because Editor fixtures suppress game lifecycle; deferred native destruction is scheduled, not falsely reported as a rendered-frame flush."
+        }
+      },
+      {
+        "name": "V21 saved refined cables share the lower artwork layer and show exactly one success lamp after actual snap",
+        "status": "PASS",
+        "evidence": {
+          "configuredCables": 3,
+          "successLampsBeforeSnap": 0,
+          "successLampsAfterFirstSnap": 1,
+          "successLampsAfterReuse": 0,
+          "sharedArtworkLayer": "V21CableArtworkLayer",
+          "inputParentsPreserved": true
+        }
+      },
+      {
+        "name": "V21 real four-layer cable has bounded sag and exact endpoints during accepted drag; CANCEL restores without score",
+        "status": "PASS",
+        "evidence": {
+          "layers": [
+            21,
+            15,
+            11,
+            3
+          ],
+          "actualSag": 58,
+          "exactEndpoints": true,
+          "cancelMistakes": 0,
+          "completed": 0,
+          "methodObservation": "Instance observers delegate to actual Cocos Graphics methods"
+        }
+      },
+      {
+        "name": "V21 actual refined plug child layout improves dimensions/font without moving or resizing its real Head input",
+        "status": "PASS",
+        "evidence": {
+          "key": "ports/power-head",
+          "legacyChild": {
+            "width": 73.60000000000001,
+            "height": 46
+          },
+          "refinedChild": {
+            "width": 89.60000000000001,
+            "height": 56
+          },
+          "fontSize": 28,
+          "actualInput": {
+            "width": 130,
+            "height": 80
+          },
+          "geometryAndListenersPreserved": true,
+          "limitation": "Dimensions/font are structural; actual label clipping/recognizability require Preview."
+        }
+      },
+      {
+        "name": "V21 actual Cocos stagger separates earned star entrances and reset/disable stop later mutation without changing rating",
+        "status": "PASS",
+        "evidence": {
+          "staggerSeconds": 0.075,
+          "scalesAt0_04": [
+            0.9473469387755102,
+            0.82,
+            0.82
+          ],
+          "scalesAt0_11": [
+            1.068061224489796,
+            0.9337500000000001,
+            0.82
+          ],
+          "resetDisplayed": 0,
+          "disableRetainedRating": 1,
+          "timing": "Actual Cocos ActionManager advanced with controlled synthetic delta, not natural Preview elapsed time"
+        }
+      }
+    ],
+    "cleanup": {
+      "originalTweenSystemRestored": true,
+      "offSceneFixtures": 44,
+      "fixtureRootsScheduledForDestroy": 44,
+      "formalSceneUnchanged": true,
+      "errors": []
+    },
+    "passedChecks": 46,
+    "failedChecks": 0,
+    "totalChecks": 46,
+    "counts": {
+      "checks": 46,
+      "passed": 46,
+      "failed": 0,
+      "currentCoreQualityChecksReexecuted": 18,
+      "currentV2ViewAndFlowChecksReexecuted": 18,
+      "newV21VisualChecks": 10,
+      "catalogOrders": 9,
+      "catalogStages": 13
+    }
+  },
+  "checks": [
+    {
+      "name": "formal saved Scene keeps home waiting, complete inspector references and final visual mode",
+      "status": "PASS",
+      "evidence": {
+        "autoStartOnSceneLoad": false,
+        "slicePreview": false,
+        "overlayActive": true,
+        "managerUuid": "0d4chGpmFBGK9j17nnQK9D"
+      }
+    },
+    {
+      "name": "current registry retains all original artwork and 19 distinct device assets",
+      "status": "PASS",
+      "evidence": {
+        "boundFrames": 49,
+        "distinctDevices": 19,
+        "deviceUuids": [
+          "cfd0fd1d-3921-4cd2-88a2-af7e1f163316@f9941",
+          "0aaaddb3-1113-421b-8cd0-20759a1ce3dd@f9941",
+          "d959c75d-f1fe-49f3-b120-0f310031cc67@f9941",
+          "8a4fe825-5d33-4803-9b93-25158ed7680a@f9941",
+          "ef7fe151-7adf-412e-ac46-177ff9fa2497@f9941",
+          "0f7e5d03-8ba1-4622-b4a4-ef9485c2cc36@f9941",
+          "48bddd1c-7cee-4e6f-a27b-effa141d3aeb@f9941",
+          "bff2e09b-5847-4729-a724-4790f0260641@f9941",
+          "a9911568-a31b-42be-a76c-8b26f4950ec0@f9941",
+          "6381a9f5-6705-4430-8c20-a9f901618e96@f9941",
+          "463d6d22-9651-4f22-a373-612c9105865b@f9941",
+          "11f916d7-cbde-4ad4-9081-4bd5956bd399@f9941",
+          "706b8ed5-ff16-450c-8d14-0d30eca8f3c5@f9941",
+          "ec87833a-dbe6-445e-ba29-41a5ae8e2a88@f9941",
+          "177406cc-d885-4703-94f9-7a5d2f6c63c9@f9941",
+          "f85c8848-9b23-47e3-a5c1-4ab195aa56d3@f9941",
+          "d6b38c26-b854-4cd1-bac6-bc7b4491c814@f9941",
+          "195a4746-b058-4ede-becc-38a6dbd48c7e@f9941",
+          "efbb401a-c205-4628-ab43-49b447f5ac14@f9941"
+        ]
+      }
+    },
+    {
+      "name": "actual AudioSource binds seven distinct saved AudioClips and has no autoplay or loop",
+      "status": "PASS",
+      "evidence": {
+        "clipUuids": {
+          "uiClickClip": "9c8fe8da-0272-43a2-a278-53ce570eb3d7",
+          "successClip": "014ad3d8-08f1-447e-a6e8-5280b71f8926",
+          "mistakeClip": "490946b8-f3d2-475d-892f-96659fd1c76c",
+          "cleanCompleteClip": "d10f7dff-ec2c-4ae8-b084-723b49bb2aa3",
+          "stageCompleteClip": "30c94162-1dc0-4977-bd5f-dc7d7bc16e4c",
+          "orderCompleteClip": "25bce09b-a0ee-4755-a67c-1ba1c0d340e3",
+          "runCompleteClip": "655245fa-d578-4fb5-bdc4-fbfd70410e4c"
+        },
+        "playOnAwake": false,
+        "loop": false
+      }
+    },
+    {
+      "name": "home waiting survives start and update with zero time, results and Stage cache",
+      "status": "PASS",
+      "evidence": {
+        "elapsedMs": 0,
+        "cachedStages": 0,
+        "results": 0,
+        "audioUnlocked": false
+      }
+    },
+    {
+      "name": "real start Button rapid clicks enter order 1 once and preserve its generation",
+      "status": "PASS",
+      "evidence": {
+        "emittedClicks": 6,
+        "startedOrders": 1,
+        "generation": 4,
+        "cachedStages": 1,
+        "unlocked": true
+      }
+    },
+    {
+      "name": "Home disable, enable and destroy own exactly one real Button listener",
+      "status": "PASS",
+      "evidence": {
+        "repeatedEnableToggleCount": 1,
+        "disabledToggleCount": 0,
+        "restoredToggleCount": 1,
+        "destroyDetached": true
+      }
+    },
+    {
+      "name": "sound toggle on home changes icon/label without entering an order or unlocking audio",
+      "status": "PASS",
+      "evidence": {
+        "toggles": 2,
+        "started": false,
+        "unlocked": false,
+        "cachedStages": 0
+      }
+    },
+    {
+      "name": "AudioFeedback real ENDED event attaches once, detaches on disable/destroy and stays silent",
+      "status": "PASS",
+      "evidence": {
+        "syntheticEndedDeliveries": 2,
+        "duplicateEnableDeliveries": 1,
+        "detachedDeliveries": 0,
+        "audiblePlaybackTested": false
+      }
+    },
+    {
+      "name": "three real Stage Prefabs and five element Prefabs instantiate with typed visual references",
+      "status": "PASS",
+      "evidence": {
+        "prefabUuids": {
+          "dragMatchPrefab": "d7e32619-2acf-40bb-bca4-addfccbb49be",
+          "itemPrefab": "fefd5955-3eac-44ad-b9ec-d907012e16e1",
+          "targetPrefab": "baed1239-77f8-4e48-b00b-4de4c6d67830",
+          "cableConnectPrefab": "afa7f7c0-6a62-4d07-9295-6011af87cf7a",
+          "cablePrefab": "2ad8fe32-bebc-4d0e-8913-560ce3d72eac",
+          "portPrefab": "5147d16e-d660-4b36-983f-73c8cd3b203f",
+          "cleanSwipePrefab": "fa38d9cd-1551-4324-9805-acc21429befc",
+          "dirtCellPrefab": "c6243d95-8ebe-4646-8575-342bcf1f156f"
+        },
+        "cachedStages": 3
+      }
+    },
+    {
+      "name": "all six drag configurations bind 19 recognizable item frames and matching muted targets",
+      "status": "PASS",
+      "evidence": {
+        "configurations": [
+          {
+            "stage": "drag-1",
+            "count": 3
+          },
+          {
+            "stage": "drag-2",
+            "count": 3
+          },
+          {
+            "stage": "drag-3",
+            "count": 3
+          },
+          {
+            "stage": "mouse-parts",
+            "count": 2
+          },
+          {
+            "stage": "streaming-devices",
+            "count": 4
+          },
+          {
+            "stage": "case-parts",
+            "count": 4
+          }
+        ],
+        "deviceKeys": [
+          "devices/mouse",
+          "devices/keyboard",
+          "devices/headset",
+          "devices/power",
+          "devices/network",
+          "devices/usb",
+          "devices/router",
+          "devices/controller",
+          "devices/speaker",
+          "devices/battery",
+          "devices/wheel",
+          "devices/microphone",
+          "devices/camera",
+          "devices/light",
+          "devices/soundcard",
+          "devices/fan",
+          "devices/memory",
+          "devices/drive",
+          "devices/gpu"
+        ]
+      }
+    },
+    {
+      "name": "drag pooled nodes change artwork and stop old success decoration on reconfigure",
+      "status": "PASS",
+      "evidence": {
+        "reusedNode": "b3Y9kTV7NARb1FcdIWM39b",
+        "newKey": "devices/microphone",
+        "markerActive": false,
+        "completed": 0
+      }
+    },
+    {
+      "name": "all four cable configurations bind shaped head/port frames and reset pooled completion markers",
+      "status": "PASS",
+      "evidence": {
+        "configurations": [
+          {
+            "stage": "computer-cables",
+            "cables": 3
+          },
+          {
+            "stage": "router-cables",
+            "cables": 3
+          },
+          {
+            "stage": "streaming-cables",
+            "cables": 2
+          },
+          {
+            "stage": "case-cables",
+            "cables": 4
+          }
+        ],
+        "reusedCableUuid": "01tFd4NNVFuZrslGxZn6F0"
+      }
+    },
+    {
+      "name": "cable synthetic wrong drop returns once and correct snap displays green completion once",
+      "status": "PASS",
+      "evidence": {
+        "mistakes": 1,
+        "completedConnections": 1,
+        "headMarker": true,
+        "portMarker": true,
+        "input": "synthetic real EventTouch"
+      }
+    },
+    {
+      "name": "all three clean areas bind matching device positions/sizes below restored dirt cells",
+      "status": "PASS",
+      "evidence": [
+        {
+          "stage": "keyboard-clean",
+          "frame": "d0bc0a7d-178e-4969-9e61-cd02b2b488e8@f9941",
+          "dirt": 32,
+          "required": 28
+        },
+        {
+          "stage": "shell-clean",
+          "frame": "5c3c9143-0e96-48a6-875c-5cb0cdc16355@f9941",
+          "dirt": 20,
+          "required": 17
+        },
+        {
+          "stage": "case-clean",
+          "frame": "c83c41c5-7458-42c1-b62c-0f217f849ad2@f9941",
+          "dirt": 35,
+          "required": 32
+        }
+      ]
+    },
+    {
+      "name": "real clean fade interpolates then reconfigure restores reused dirt and switches device artwork",
+      "status": "PASS",
+      "evidence": {
+        "midpointOpacity": 127.5,
+        "fadeSeconds": 0.08,
+        "reusedCell": "b1Q0u3IFlEOohp2JWGGtNu",
+        "restoredOpacity": 255,
+        "cleanCount": 0
+      }
+    },
+    {
+      "name": "ResultStars uses real frames and .24 second tween; reset and stopEffects prevent late mutation",
+      "status": "PASS",
+      "evidence": {
+        "midpointScale": 1.0150000000000001,
+        "animationSeconds": 0.24,
+        "resetDisplayed": 0,
+        "stoppedRetainedRating": 3
+      }
+    },
+    {
+      "name": "late Stage callbacks and old decorative tweens cannot mutate new artwork/generation",
+      "status": "PASS",
+      "evidence": {
+        "previousGeneration": 3,
+        "currentGeneration": 5,
+        "newKey": "devices/router",
+        "staleCallbackCompletions": 0
+      }
+    },
+    {
+      "name": "actual skinned nine orders/thirteen stages preserve continuous time, 27 stars, cache and replay reset",
+      "status": "PASS",
+      "evidence": {
+        "sequence": [
+          {
+            "order": 1,
+            "stage": 1,
+            "kind": "drag-match",
+            "elapsedMs": 1250
+          },
+          {
+            "order": 2,
+            "stage": 1,
+            "kind": "drag-match",
+            "elapsedMs": 1250
+          },
+          {
+            "order": 3,
+            "stage": 1,
+            "kind": "drag-match",
+            "elapsedMs": 1250
+          },
+          {
+            "order": 4,
+            "stage": 1,
+            "kind": "clean-swipe",
+            "elapsedMs": 1250
+          },
+          {
+            "order": 5,
+            "stage": 1,
+            "kind": "cable-connect",
+            "elapsedMs": 1250
+          },
+          {
+            "order": 6,
+            "stage": 1,
+            "kind": "clean-swipe",
+            "elapsedMs": 1250
+          },
+          {
+            "order": 6,
+            "stage": 2,
+            "kind": "drag-match",
+            "elapsedMs": 2500
+          },
+          {
+            "order": 7,
+            "stage": 1,
+            "kind": "cable-connect",
+            "elapsedMs": 1250
+          },
+          {
+            "order": 8,
+            "stage": 1,
+            "kind": "drag-match",
+            "elapsedMs": 1250
+          },
+          {
+            "order": 8,
+            "stage": 2,
+            "kind": "cable-connect",
+            "elapsedMs": 2500
+          },
+          {
+            "order": 9,
+            "stage": 1,
+            "kind": "clean-swipe",
+            "elapsedMs": 1250
+          },
+          {
+            "order": 9,
+            "stage": 2,
+            "kind": "cable-connect",
+            "elapsedMs": 2500
+          },
+          {
+            "order": 9,
+            "stage": 3,
+            "kind": "drag-match",
+            "elapsedMs": 3750
+          }
+        ],
+        "summary": "完成订单：9 / 9\n总用时：16.3 秒\n总失误：0 次\n总评价：27 / 27 星\n总得分：8870\n完成步骤：13 / 13",
+        "replay": {
+          "order": 1,
+          "results": 0,
+          "elapsedMs": 0,
+          "stars": 0,
+          "retainedStageRoots": 3,
+          "homeVisible": false
+        }
+      }
+    },
+    {
+      "name": "V2 PaperOrderHUD derives order/step labels from supplied catalog dimensions",
+      "status": "PASS",
+      "evidence": {
+        "order": "订单 5 / 17",
+        "step": "步骤 2 / 2",
+        "title": "鼠标保养",
+        "elapsedMs": 0
+      }
+    },
+    {
+      "name": "V2 HUD kind groups are exclusive and clean has one 57/96/100 percent display",
+      "status": "PASS",
+      "evidence": {
+        "kinds": [
+          {
+            "kind": "drag-match",
+            "active": "__V21Probe_Drag"
+          },
+          {
+            "kind": "cable-connect",
+            "active": "__V21Probe_Cable"
+          },
+          {
+            "kind": "clean-swipe",
+            "active": "__V21Probe_Clean"
+          }
+        ],
+        "percents": [
+          "清洁进度 57%",
+          "清洁进度 96%",
+          "清洁进度 100%"
+        ],
+        "resizedFullWidth": 320
+      }
+    },
+    {
+      "name": "V2 actual keyboard input uses 32 internal cells, reaches 57 and 96 percent, completes at 28 once",
+      "status": "PASS",
+      "evidence": {
+        "totalLogicalCells": 32,
+        "required": 28,
+        "unvisitedLogicalCells": 4,
+        "snapshots": [
+          {
+            "cleaned": 16,
+            "progress": "清洁进度 57%",
+            "completions": 0
+          },
+          {
+            "cleaned": 27,
+            "progress": "清洁进度 96%",
+            "completions": 0
+          },
+          {
+            "cleaned": 28,
+            "progress": "清洁进度 100%",
+            "completions": 1
+          }
+        ],
+        "pixelLimitation": "No assertion that 28/32 physically visits or visibly clears all 32 cells; irregular dust appearance requires Preview."
+      }
+    },
+    {
+      "name": "V2 result example uses actual RunController formula: 28.7 seconds plus one mistake is 620 and two stars",
+      "status": "PASS",
+      "evidence": {
+        "frozen": {
+          "levelId": 4,
+          "elapsedMs": 28700,
+          "mistakes": 1,
+          "score": 620,
+          "stars": 2
+        },
+        "displayedScore": "620",
+        "displayedTime": "28.7 秒",
+        "source": "controlled actual RunController fixture"
+      }
+    },
+    {
+      "name": "V2 actual order completion activates only order group, true stars, dynamic values and modal shade",
+      "status": "PASS",
+      "evidence": {
+        "result": {
+          "levelId": 1,
+          "elapsedMs": 1250,
+          "mistakes": 0,
+          "score": 990,
+          "stars": 3
+        },
+        "orderVisible": true,
+        "finalVisible": false,
+        "shadeVisible": true,
+        "homeButtonAvailable": false
+      }
+    },
+    {
+      "name": "V2 final display derives all six values and star maximum from the supplied summary/catalog",
+      "status": "PASS",
+      "evidence": {
+        "labels": {
+          "summaryOrdersLabel": "4 / 17",
+          "summaryStarsLabel": "7 / 51",
+          "summaryScoreLabel": "2468",
+          "summaryStepsLabel": "8 / 31",
+          "summaryTimeLabel": "12.3 秒",
+          "summaryMistakesLabel": "6 次"
+        },
+        "orderVisible": false,
+        "finalVisible": true,
+        "ordinaryStarsVisible": false
+      }
+    },
+    {
+      "name": "V2 real BlockInputEvents stays full screen while the separate result card animates",
+      "status": "PASS",
+      "evidence": {
+        "bounds": {
+          "width": 720,
+          "height": 1280
+        },
+        "cardMidpoint": 1.01,
+        "syntheticPropagationStopped": true,
+        "limitation": "Node emission is not browser native hit testing; real Preview must test blocked screen corners."
+      }
+    },
+    {
+      "name": "V2 button pressure owns its child tween, ignores foreign release and preserves input hitbox/transform",
+      "status": "PASS",
+      "evidence": {
+        "midpointScale": 0.9775,
+        "pressedScale": 0.97,
+        "resetScale": 1,
+        "inputTransformAndHitboxUnchanged": true,
+        "started": false
+      }
+    },
+    {
+      "name": "V2 Home decorative tween stops when real Home dismisses, without moving its input root",
+      "status": "PASS",
+      "evidence": {
+        "hiddenHeroTweenStopped": true,
+        "scale": 1,
+        "inputPositionPreserved": true
+      }
+    },
+    {
+      "name": "V2 actual drag preserves foreign-touch ownership, CANCEL and exactly one wrong-release mistake",
+      "status": "PASS",
+      "evidence": {
+        "foreignEvents": 4,
+        "cancelMistakes": 0,
+        "wrongReleaseMistakes": 1,
+        "completed": 0
+      }
+    },
+    {
+      "name": "V2 actual cable preserves ownership/CANCEL and Graphics endpoint through transformed parents",
+      "status": "PASS",
+      "evidence": {
+        "foreignAndCancelMistakes": 0,
+        "completedConnections": 1,
+        "endpoint": {
+          "x": 100.23021651349046,
+          "y": -230.8001233726722
+        },
+        "transformValidated": true
+      }
+    },
+    {
+      "name": "V2 return Home is final-only and rejects waiting/playing/ordinary-order result",
+      "status": "PASS",
+      "evidence": {
+        "acceptedOutsideFinal": 0,
+        "retainedResults": 1,
+        "ordinaryResultStillOpen": true
+      }
+    },
+    {
+      "name": "V2 full final to Home clears metrics/stages/modal; rapid Start re-enters once and rejects old callbacks",
+      "status": "PASS",
+      "evidence": {
+        "completedBeforeHome": 9,
+        "stagesBeforeHome": 13,
+        "idleElapsedMs": 0,
+        "replayOrder": 1,
+        "cacheRoots": 3,
+        "newGeneration": 49,
+        "retainedTutorialSession": true
+      }
+    },
+    {
+      "name": "V2 Home return retains both sound states without playing audio in the fixture",
+      "status": "PASS",
+      "evidence": {
+        "states": [
+          {
+            "enabled": false,
+            "retained": false,
+            "unlocked": false,
+            "idleElapsedMs": 0
+          },
+          {
+            "enabled": true,
+            "retained": true,
+            "unlocked": false,
+            "idleElapsedMs": 0
+          }
+        ],
+        "audiblePlaybackTested": false
+      }
+    },
+    {
+      "name": "V2 final Replay immediately restarts order 1, hides all result/modal state and never flashes Home",
+      "status": "PASS",
+      "evidence": {
+        "order": 1,
+        "stage": 1,
+        "results": 0,
+        "modalVisible": false,
+        "homeVisible": false,
+        "preservedCache": 3
+      }
+    },
+    {
+      "name": "V2 actual Manager summary derives totals from a smaller real catalog fixture",
+      "status": "PASS",
+      "evidence": {
+        "fixtureCatalogOrders": 2,
+        "executedSteps": 2,
+        "orders": "2 / 2",
+        "stars": "6 / 6",
+        "steps": "2 / 2"
+      }
+    },
+    {
+      "name": "V2 actual cable artwork follows transformed endpoints and redraws color at a fixed endpoint",
+      "status": "PASS",
+      "evidence": {
+        "realCurveStrokesPerRefresh": 4,
+        "refinedStyle": true,
+        "centralStrokeWidth": 11,
+        "fixedEndpointColorRedraw": true,
+        "transformedEndpoints": true,
+        "methodObservation": "Fixture instance instrumentation delegates to actual Cocos Graphics methods"
+      }
+    },
+    {
+      "name": "V2 actual dirt child artwork overlaps and resizes without changing logical cell hitbox/position",
+      "status": "PASS",
+      "evidence": {
+        "reusedCell": "dbs/z1EutN/IUnLOP5ohim",
+        "childScaleFactor": 1.6,
+        "logicalTransformPreserved": true,
+        "runtimeCellCount": 20,
+        "retiredSpriteEnabled": false,
+        "limitation": "This preserved V2 check verifies only old child transforms/frame/pool. Its per-cell renderer is deliberately retired in V21; current independent particles are checked separately and natural appearance requires Preview."
+      }
+    },
+    {
+      "name": "V21 current clean Prefab binds 192 pooled path-local Sprites independently of 32 logical cells",
+      "status": "PASS",
+      "evidence": {
+        "logicalCells": 32,
+        "requiredCells": 28,
+        "visualParticles": 192,
+        "totalCreated": 192,
+        "diagnosticsDetachedAndFrozen": true,
+        "retiredCellRendererEnabled": false,
+        "limitation": "Irregular positions and soft-alpha renderer bindings are structural evidence; pixel appearance still requires real Preview."
+      }
+    },
+    {
+      "name": "V21 accepted diagonal and curved cleaning paths fade local particles under transformed input ancestors",
+      "status": "PASS",
+      "evidence": {
+        "path": [
+          [
+            -200,
+            -80
+          ],
+          [
+            -110,
+            30
+          ],
+          [
+            -30,
+            85
+          ],
+          [
+            60,
+            100
+          ],
+          [
+            145,
+            35
+          ]
+        ],
+        "changedParticles": 85,
+        "featheredParticles": 57,
+        "unaffectedParticles": 107,
+        "logicalCleaned": 9,
+        "completed": 0,
+        "mistakes": 0,
+        "transformedInput": true
+      }
+    },
+    {
+      "name": "V21 dust ignores unowned and foreign events while CANCEL retains only the accepted local erase",
+      "status": "PASS",
+      "evidence": {
+        "foreignEvents": 4,
+        "retainedLogicalCount": 2,
+        "ownedCancelRetainsDustState": true,
+        "mistakeCount": 0
+      }
+    },
+    {
+      "name": "V21 independent dust keeps the true 16/27/28 logical threshold and ignores all post-completion erasing",
+      "status": "PASS",
+      "evidence": {
+        "snapshots": [
+          {
+            "count": 16,
+            "total": 32,
+            "required": 28,
+            "completions": 0
+          },
+          {
+            "count": 27,
+            "total": 32,
+            "required": 28,
+            "completions": 0
+          },
+          {
+            "count": 28,
+            "total": 32,
+            "required": 28,
+            "completions": 1
+          }
+        ],
+        "completions": 1,
+        "logicalCellsUnvisited": 4,
+        "particlePool": 192,
+        "limitation": "Completion at 28 of 32 is not a claim that every logical cell was visited or every remaining particle was physically erased."
+      }
+    },
+    {
+      "name": "V21 reused clean stages restore the same 192 particles for each region and disable-enable preserves current erase",
+      "status": "PASS",
+      "evidence": {
+        "retainedEraseAcrossDisable": true,
+        "reusedParticles": 192,
+        "regions": [
+          {
+            "id": "shell-clean",
+            "logicalCells": 20,
+            "particles": 192,
+            "totalCreated": 192
+          },
+          {
+            "id": "case-clean",
+            "logicalCells": 35,
+            "particles": 192,
+            "totalCreated": 192
+          }
+        ]
+      }
+    },
+    {
+      "name": "V21 particle destruction schedules only its decorative nodes and leaves logical input/counters intact",
+      "status": "PASS",
+      "evidence": {
+        "ownedParticleDestructionScheduled": 192,
+        "logicalCellsStillValid": 32,
+        "logicalCountUnchanged": true,
+        "limitation": "Actual onDestroy is invoked explicitly because Editor fixtures suppress game lifecycle; deferred native destruction is scheduled, not falsely reported as a rendered-frame flush."
+      }
+    },
+    {
+      "name": "V21 saved refined cables share the lower artwork layer and show exactly one success lamp after actual snap",
+      "status": "PASS",
+      "evidence": {
+        "configuredCables": 3,
+        "successLampsBeforeSnap": 0,
+        "successLampsAfterFirstSnap": 1,
+        "successLampsAfterReuse": 0,
+        "sharedArtworkLayer": "V21CableArtworkLayer",
+        "inputParentsPreserved": true
+      }
+    },
+    {
+      "name": "V21 real four-layer cable has bounded sag and exact endpoints during accepted drag; CANCEL restores without score",
+      "status": "PASS",
+      "evidence": {
+        "layers": [
+          21,
+          15,
+          11,
+          3
+        ],
+        "actualSag": 58,
+        "exactEndpoints": true,
+        "cancelMistakes": 0,
+        "completed": 0,
+        "methodObservation": "Instance observers delegate to actual Cocos Graphics methods"
+      }
+    },
+    {
+      "name": "V21 actual refined plug child layout improves dimensions/font without moving or resizing its real Head input",
+      "status": "PASS",
+      "evidence": {
+        "key": "ports/power-head",
+        "legacyChild": {
+          "width": 73.60000000000001,
+          "height": 46
+        },
+        "refinedChild": {
+          "width": 89.60000000000001,
+          "height": 56
+        },
+        "fontSize": 28,
+        "actualInput": {
+          "width": 130,
+          "height": 80
+        },
+        "geometryAndListenersPreserved": true,
+        "limitation": "Dimensions/font are structural; actual label clipping/recognizability require Preview."
+      }
+    },
+    {
+      "name": "V21 actual Cocos stagger separates earned star entrances and reset/disable stop later mutation without changing rating",
+      "status": "PASS",
+      "evidence": {
+        "staggerSeconds": 0.075,
+        "scalesAt0_04": [
+          0.9473469387755102,
+          0.82,
+          0.82
+        ],
+        "scalesAt0_11": [
+          1.068061224489796,
+          0.9337500000000001,
+          0.82
+        ],
+        "resetDisplayed": 0,
+        "disableRetainedRating": 1,
+        "timing": "Actual Cocos ActionManager advanced with controlled synthetic delta, not natural Preview elapsed time"
+      }
+    },
+    {
+      "name": "V22 saved192-particle horizontal path has a wider irregular partial-alpha edge than historical V21",
+      "status": "PASS",
+      "evidence": {
+        "partialParticles": 83,
+        "sameParticlesHistoricalPartial": 31,
+        "clearedParticles": 41,
+        "untouchedParticles": 68,
+        "realLogicalCells": 32,
+        "realRequiredCells": 28,
+        "logicalProgressUnchanged": true,
+        "limitation": "Same scalar-particle formula comparison; not a screenshot or aesthetic acceptance"
+      }
+    },
+    {
+      "name": "V22 horizontal repeat reverse and segmentation stay exact without dust regrowth",
+      "status": "PASS",
+      "evidence": {
+        "identicalReversePasses": 6,
+        "equivalentSegments": 20,
+        "monotonicNearbyPath": true,
+        "totalCreated": 192
+      }
+    },
+    {
+      "name": "V22 current savedCleanPrefab reuses exact192 particles through three seeds reset and disable-enable",
+      "status": "PASS",
+      "evidence": {
+        "regions": [
+          {
+            "id": "shell-clean",
+            "logicalCells": 20,
+            "requiredCells": 17
+          },
+          {
+            "id": "case-clean",
+            "logicalCells": 35,
+            "requiredCells": 32
+          },
+          {
+            "id": "keyboard-clean",
+            "logicalCells": 32,
+            "requiredCells": 28
+          }
+        ],
+        "disableRetainsErase": true,
+        "resetRestoresSameSeed": true,
+        "totalCreated": 192
+      }
+    },
+    {
+      "name": "V22 missing frame disables only decorative dust and a restored frame reuses its original pool",
+      "status": "PASS",
+      "evidence": {
+        "missingFrameSafe": true,
+        "restoredOriginalAlpha": true,
+        "logicalInputRetained": true,
+        "totalCreated": 192
+      }
+    },
+    {
+      "name": "V22 saved four element Prefabs enable child-only legibility with the original visible outlined captions",
+      "status": "PASS",
+      "evidence": {
+        "savedElements": [
+          {
+            "name": "DragItem",
+            "width": 180,
+            "height": 140,
+            "outlineWidth": 2
+          },
+          {
+            "name": "DragTarget",
+            "width": 180,
+            "height": 140,
+            "outlineWidth": 2
+          },
+          {
+            "name": "Port",
+            "width": 130,
+            "height": 80,
+            "outlineWidth": 2
+          },
+          {
+            "name": "Head",
+            "width": 130,
+            "height": 80,
+            "outlineWidth": 2
+          }
+        ],
+        "noAdditionalCaptionNodes": true
+      }
+    },
+    {
+      "name": "V22 actual order8 and order9 four-item stages show eight complete 28px short captions without moving their 140x110 roots",
+      "status": "PASS",
+      "evidence": {
+        "orders": [
+          {
+            "orderId": 8,
+            "captions": [
+              "麦克风",
+              "摄像头",
+              "补光灯",
+              "声卡"
+            ],
+            "fontSize": 28
+          },
+          {
+            "orderId": 9,
+            "captions": [
+              "风扇",
+              "内存",
+              "硬盘",
+              "显卡"
+            ],
+            "fontSize": 28
+          }
+        ],
+        "catalogNamesUnchanged": true,
+        "itemAndTargetGeometryUnchanged": true
+      }
+    },
+    {
+      "name": "V22 actual four-cable captions retain distinct short Head and Port labels, readable child bands and false initial success lights",
+      "status": "PASS",
+      "evidence": {
+        "rows": [
+          {
+            "id": "motherboard",
+            "head": "主板线",
+            "port": "主板口",
+            "headCaptionY": 36,
+            "portCaptionY": -58
+          },
+          {
+            "id": "cpu",
+            "head": "CPU线",
+            "port": "CPU口",
+            "headCaptionY": 36,
+            "portCaptionY": -58
+          },
+          {
+            "id": "sata",
+            "head": "硬盘线",
+            "port": "硬盘口",
+            "headCaptionY": 36,
+            "portCaptionY": -58
+          },
+          {
+            "id": "fan",
+            "head": "风扇线",
+            "port": "风扇口",
+            "headCaptionY": 36,
+            "portCaptionY": -58
+          }
+        ],
+        "actualInitialCount": {
+          "completed": 0,
+          "total": 4
+        },
+        "original46CheckRealSnapsAndLamps": true
+      }
+    }
+  ],
+  "supplementalCleanup": {
+    "originalTweenSystemRestored": true,
+    "offSceneFixtures": 7,
+    "fixtureRootsScheduledForDestroy": 7,
+    "formalSceneUnchanged": true,
+    "errors": []
+  },
+  "cleanup": {
+    "originalTweenSystemRestored": true,
+    "offSceneFixtures": 51,
+    "fixtureRootsScheduledForDestroy": 51,
+    "formalSceneUnchanged": true,
+    "errors": []
+  },
+  "passedChecks": 53,
+  "failedChecks": 0,
+  "totalChecks": 53,
+  "counts": {
+    "checks": 53,
+    "passed": 53,
+    "failed": 0,
+    "currentCoreQualityChecksReexecuted": 18,
+    "currentV2ViewAndFlowChecksReexecuted": 18,
+    "newV21VisualChecks": 10,
+    "catalogOrders": 9,
+    "catalogStages": 13,
+    "originalV21ChecksReexecuted": 46,
+    "newV22VisualChecks": 7
+  }
+}

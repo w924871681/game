@@ -1,0 +1,10 @@
+{
+  "recordedAtUtc": "2026-10-15T13:45:30.304121+00:00",
+  "sourceName": "DeskRescue_V21_Visual_Refinement_Codex_Prompt.md",
+  "sourceBytes": 22232,
+  "sourceSha256": "1bf7b4e438a309196bb5497b4f314a3817ddaa27ce8fc62dff764795f6b5f109",
+  "archivePath": "docs/DESKRESCUE_V21_TASK.md",
+  "metadataHeaderBytes": 259,
+  "payloadByteIdentical": true,
+  "scope": "User supplied task reference, not a completion report or additional authorization"
+}

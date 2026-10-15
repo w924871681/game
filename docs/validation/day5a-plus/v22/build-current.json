@@ -1,0 +1,113 @@
+{
+  "ok": true,
+  "phase": "full",
+  "scope": "V22 existing visual-child opt-in and caption outline only; P2 scene composition unchanged",
+  "coreUuids": {
+    "assets/prefabs/elements/DragItem.prefab": "fefd5955-3eac-44ad-b9ec-d907012e16e1",
+    "assets/prefabs/elements/DragTarget.prefab": "baed1239-77f8-4e48-b00b-4de4c6d67830",
+    "assets/prefabs/elements/Port.prefab": "5147d16e-d660-4b36-983f-73c8cd3b203f",
+    "assets/prefabs/elements/Cable.prefab": "2ad8fe32-bebc-4d0e-8913-560ce3d72eac",
+    "assets/prefabs/elements/DirtCell.prefab": "c6243d95-8ebe-4646-8575-342bcf1f156f",
+    "assets/prefabs/stages/DragMatchStage.prefab": "d7e32619-2acf-40bb-bca4-addfccbb49be",
+    "assets/prefabs/stages/CableConnectStage.prefab": "afa7f7c0-6a62-4d07-9295-6011af87cf7a",
+    "assets/prefabs/stages/CleanSwipeStage.prefab": "fa38d9cd-1551-4324-9805-acc21429befc"
+  },
+  "touchedResources": [
+    "assets/prefabs/elements/DragItem.prefab",
+    "assets/prefabs/elements/DragTarget.prefab",
+    "assets/prefabs/elements/Port.prefab",
+    "assets/prefabs/elements/Cable.prefab",
+    "assets/prefabs/stages/DragMatchStage.prefab",
+    "assets/prefabs/stages/CableConnectStage.prefab",
+    "assets/scenes/Game.scene"
+  ],
+  "beforeNodes": {
+    "assets/prefabs/elements/DragItem.prefab": 7,
+    "assets/prefabs/elements/DragTarget.prefab": 7,
+    "assets/prefabs/elements/Port.prefab": 7,
+    "assets/prefabs/elements/Cable.prefab": 13,
+    "assets/prefabs/elements/DirtCell.prefab": 2,
+    "assets/prefabs/stages/DragMatchStage.prefab": 1,
+    "assets/prefabs/stages/CableConnectStage.prefab": 2,
+    "assets/prefabs/stages/CleanSwipeStage.prefab": 5,
+    "assets/scenes/Game.scene": 247
+  },
+  "afterNodes": {
+    "assets/prefabs/elements/DragItem.prefab": 7,
+    "assets/prefabs/elements/DragTarget.prefab": 7,
+    "assets/prefabs/elements/Port.prefab": 7,
+    "assets/prefabs/elements/Cable.prefab": 13,
+    "assets/prefabs/elements/DirtCell.prefab": 2,
+    "assets/prefabs/stages/DragMatchStage.prefab": 1,
+    "assets/prefabs/stages/CableConnectStage.prefab": 2,
+    "assets/prefabs/stages/CleanSwipeStage.prefab": 5,
+    "assets/scenes/Game.scene": 247
+  },
+  "addedNodesByResource": {
+    "assets/prefabs/elements/DragItem.prefab": 0,
+    "assets/prefabs/elements/DragTarget.prefab": 0,
+    "assets/prefabs/elements/Port.prefab": 0,
+    "assets/prefabs/elements/Cable.prefab": 0,
+    "assets/prefabs/stages/DragMatchStage.prefab": 0,
+    "assets/prefabs/stages/CableConnectStage.prefab": 0,
+    "assets/scenes/Game.scene": 0
+  },
+  "savedSceneUuid": "ef51aae5-f3a0-4ba5-9918-6d84e400d36f",
+  "repeatPass": {
+    "ok": true,
+    "phase": "full",
+    "scope": "V22 existing visual-child opt-in and caption outline only; P2 scene composition unchanged",
+    "coreUuids": {
+      "assets/prefabs/elements/DragItem.prefab": "fefd5955-3eac-44ad-b9ec-d907012e16e1",
+      "assets/prefabs/elements/DragTarget.prefab": "baed1239-77f8-4e48-b00b-4de4c6d67830",
+      "assets/prefabs/elements/Port.prefab": "5147d16e-d660-4b36-983f-73c8cd3b203f",
+      "assets/prefabs/elements/Cable.prefab": "2ad8fe32-bebc-4d0e-8913-560ce3d72eac",
+      "assets/prefabs/elements/DirtCell.prefab": "c6243d95-8ebe-4646-8575-342bcf1f156f",
+      "assets/prefabs/stages/DragMatchStage.prefab": "d7e32619-2acf-40bb-bca4-addfccbb49be",
+      "assets/prefabs/stages/CableConnectStage.prefab": "afa7f7c0-6a62-4d07-9295-6011af87cf7a",
+      "assets/prefabs/stages/CleanSwipeStage.prefab": "fa38d9cd-1551-4324-9805-acc21429befc"
+    },
+    "touchedResources": [
+      "assets/prefabs/elements/DragItem.prefab",
+      "assets/prefabs/elements/DragTarget.prefab",
+      "assets/prefabs/elements/Port.prefab",
+      "assets/prefabs/elements/Cable.prefab",
+      "assets/prefabs/stages/DragMatchStage.prefab",
+      "assets/prefabs/stages/CableConnectStage.prefab",
+      "assets/scenes/Game.scene"
+    ],
+    "beforeNodes": {
+      "assets/prefabs/elements/DragItem.prefab": 7,
+      "assets/prefabs/elements/DragTarget.prefab": 7,
+      "assets/prefabs/elements/Port.prefab": 7,
+      "assets/prefabs/elements/Cable.prefab": 13,
+      "assets/prefabs/elements/DirtCell.prefab": 2,
+      "assets/prefabs/stages/DragMatchStage.prefab": 1,
+      "assets/prefabs/stages/CableConnectStage.prefab": 2,
+      "assets/prefabs/stages/CleanSwipeStage.prefab": 5,
+      "assets/scenes/Game.scene": 247
+    },
+    "afterNodes": {
+      "assets/prefabs/elements/DragItem.prefab": 7,
+      "assets/prefabs/elements/DragTarget.prefab": 7,
+      "assets/prefabs/elements/Port.prefab": 7,
+      "assets/prefabs/elements/Cable.prefab": 13,
+      "assets/prefabs/elements/DirtCell.prefab": 2,
+      "assets/prefabs/stages/DragMatchStage.prefab": 1,
+      "assets/prefabs/stages/CableConnectStage.prefab": 2,
+      "assets/prefabs/stages/CleanSwipeStage.prefab": 5,
+      "assets/scenes/Game.scene": 247
+    },
+    "addedNodesByResource": {
+      "assets/prefabs/elements/DragItem.prefab": 0,
+      "assets/prefabs/elements/DragTarget.prefab": 0,
+      "assets/prefabs/elements/Port.prefab": 0,
+      "assets/prefabs/elements/Cable.prefab": 0,
+      "assets/prefabs/stages/DragMatchStage.prefab": 0,
+      "assets/prefabs/stages/CableConnectStage.prefab": 0,
+      "assets/scenes/Game.scene": 0
+    }
+  },
+  "idempotent": true,
+  "timestamp": "2026-10-15T15:37:27.105Z"
+}

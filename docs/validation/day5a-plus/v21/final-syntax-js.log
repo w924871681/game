@@ -1,0 +1,27 @@
+{"label": "final-syntax-js", "method": ["C:\\Program Files\\nodejs\\node.EXE", "--check", "<each Git-visible JS/CJS/MJS>"], "cwd": "D:\\game", "startedAtUtc": "2026-10-15T12:36:56.039004+00:00", "endedAtUtc": "2026-10-15T12:36:57.939492+00:00", "total": 25, "passed": 25, "failed": 0, "exitCode": 0, "nodeVersion": "v22.19.0", "pythonVersion": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]", "pythonExecutable": "C:\\Users\\<USER>\\anaconda3\\python.exe"}
+
+{"path": "extensions/deskrescue-editor/day4-appearance.js", "bytes": 6834, "sha256": "c0cd7cb604d17a25b8277bc2c32dbdb7c048a2cbec4b33e76d3878693fabe0d4", "exitCode": 0, "output": ""}
+{"path": "extensions/deskrescue-editor/day4-audit.js", "bytes": 27336, "sha256": "b3afb8dc4010421e8d927d060f60c5443d1d4b28af0e0fd1e13ffa487b323a2d", "exitCode": 0, "output": ""}
+{"path": "extensions/deskrescue-editor/day4-probe.js", "bytes": 32245, "sha256": "cf77028127fb009663ff6b35e634c0c50a2d594144a91373d2a82b5b161711eb", "exitCode": 0, "output": ""}
+{"path": "extensions/deskrescue-editor/day4-scene.js", "bytes": 11656, "sha256": "6265689295cc9730b4fe24ea5ea56e89a6c541356ab3c126973cce3d084e61c4", "exitCode": 0, "output": ""}
+{"path": "extensions/deskrescue-editor/day5a-audit.js", "bytes": 47363, "sha256": "071d56b6079f24dad1ce98a7dac4bcf3fe2a803704c78c56ebc59a49a6f984d4", "exitCode": 0, "output": ""}
+{"path": "extensions/deskrescue-editor/day5a-main.js", "bytes": 8209, "sha256": "b9f6fc2272836742f70b83e6ccea1719172a78580114b5b7892ea3c6633dd216", "exitCode": 0, "output": ""}
+{"path": "extensions/deskrescue-editor/day5a-probe.js", "bytes": 33576, "sha256": "33a5009c69e937160fe78721a97db580691b30f38cbba06be95c3f6824bde51a", "exitCode": 0, "output": ""}
+{"path": "extensions/deskrescue-editor/day5a-scene.js", "bytes": 18359, "sha256": "7c6c3e5f5a71b70478218cb1dfc081b6ce30925d9cc6394f37a178a2a61cd01d", "exitCode": 0, "output": ""}
+{"path": "extensions/deskrescue-editor/main.js", "bytes": 12359, "sha256": "b14126dc4cf3cb8d8a712e8b16b843ba48c08bff966386e685d443e0ae2094ae", "exitCode": 0, "output": ""}
+{"path": "extensions/deskrescue-editor/probe.js", "bytes": 18821, "sha256": "1be4864e0fac75480ab5f73a6d3e62c4244bfd7378e181a5a27530d51de87c22", "exitCode": 0, "output": ""}
+{"path": "extensions/deskrescue-editor/scene.js", "bytes": 21211, "sha256": "002e5432c7179eb26fe64892cc5e663f864e73b2fb87ca1a3b36fda3df75077d", "exitCode": 0, "output": ""}
+{"path": "extensions/deskrescue-editor/v2-audit.js", "bytes": 52064, "sha256": "cc5edbf3563120912de85e6a3b6effdeb9ee0073d934a0fb272047b07a9c8bf1", "exitCode": 0, "output": ""}
+{"path": "extensions/deskrescue-editor/v2-main.js", "bytes": 7185, "sha256": "b9df6bfb64f0b0015f4e21109f8a055104c24f2449e5dd25b8e6184b1642c9c0", "exitCode": 0, "output": ""}
+{"path": "extensions/deskrescue-editor/v2-probe.js", "bytes": 64311, "sha256": "1d542f2238c6539a348948947e498d01d78e3b7b8748b8260a1cb4816ed9b4bc", "exitCode": 0, "output": ""}
+{"path": "extensions/deskrescue-editor/v2-scene.js", "bytes": 28988, "sha256": "f660b34e7967fc8b75be8a0abbd1834b66116c8fefe361c32ddbcf4848247d31", "exitCode": 0, "output": ""}
+{"path": "extensions/deskrescue-editor/v21-audit.js", "bytes": 59425, "sha256": "281952dcad2c4e111463b22fe27c3548e9c2ca5d13fae6e31d023d8ae645997a", "exitCode": 0, "output": ""}
+{"path": "extensions/deskrescue-editor/v21-main.js", "bytes": 6040, "sha256": "a40c835c5e8b9795403bbd0d14fb7c16287a5dd93786825e488b2062ff26d54a", "exitCode": 0, "output": ""}
+{"path": "extensions/deskrescue-editor/v21-probe.js", "bytes": 83880, "sha256": "e551c6b5ca6a5bb96c091ab10cc3e39b270163676633d8f5bc0c872728830e0e", "exitCode": 0, "output": ""}
+{"path": "extensions/deskrescue-editor/v21-scene.js", "bytes": 11934, "sha256": "a489d238370d3d012c1357ad575b6d7001994fbdca8665ba8136bdd4ec720ebb", "exitCode": 0, "output": ""}
+{"path": "tools/verify-day1.cjs", "bytes": 97887, "sha256": "f517bb5d184999bde3e891f28b6d84e24d57ca3229e8b81d8eede6eaa26f1245", "exitCode": 0, "output": ""}
+{"path": "tools/verify-day4.cjs", "bytes": 56237, "sha256": "9eb22a5bacabee48cdda53b20597717cab84f7a384319f84cc0e177312a6dd6a", "exitCode": 0, "output": ""}
+{"path": "tools/verify-day5a-v2.cjs", "bytes": 29334, "sha256": "e95980a19b71ba08a17a1d4021c8e6c306c4abbfdc9f9ccf08350b8e3f3c19f1", "exitCode": 0, "output": ""}
+{"path": "tools/verify-day5a-v21-clean.cjs", "bytes": 15237, "sha256": "a2636463dc15f88340d9cc5720895a9a84bc575357d227d496ca7f40b783d419", "exitCode": 0, "output": ""}
+{"path": "tools/verify-day5a.cjs", "bytes": 31596, "sha256": "23e6986a4b9388aaded604f68f82c61b2c40f95c2c5994457e79bfa511a9d121", "exitCode": 0, "output": ""}
+{"path": "tools/verify-v21-visuals.cjs", "bytes": 19813, "sha256": "b2b8cd90396e2fb2f75cc42062ffb186931defdcc2327516d5de885bf95eeb16", "exitCode": 0, "output": ""}

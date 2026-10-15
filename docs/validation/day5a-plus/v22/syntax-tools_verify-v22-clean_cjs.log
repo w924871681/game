@@ -1,0 +1,2 @@
+{"label": "syntax-tools_verify-v22-clean_cjs", "command": ["C:\\Program Files\\nodejs\\node.EXE", "--check", "tools/verify-v22-clean.cjs"], "cwd": "D:/game", "startedAtUtc": "2026-10-15T15:56:23.045712+00:00", "endedAtUtc": "2026-10-15T15:56:23.108802+00:00", "exitCode": 0}
+

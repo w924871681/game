@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-10-15T12:06:51.749340+00:00",
+  "ok": true,
+  "commands": [
+    {
+      "command": [
+        "npm",
+        "test"
+      ],
+      "cwd": "D:\\game",
+      "startedAtUtc": "2026-10-15T12:06:46.215498+00:00",
+      "endedAtUtc": "2026-10-15T12:06:51.732557+00:00",
+      "exitCode": 0,
+      "log": "docs/validation/day5a-plus/v21/rootvisual-20261015T120646199885Z-npm.log",
+      "logSha256": "164c264c337570d5fe0640f39eb4c687947a19d68b972cf098a1c7412d2772d2",
+      "typescript": [
+        "TypeScript 5.8.2: C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\app.asar.unpacked\\node_modules\\typescript\\lib\\typescript.js",
+        "TypeScript checking against real editor-generated Cocos SDK references (strict/noUnusedLocals/noUnusedParameters enabled; SDK self-validation is separate)."
+      ],
+      "groups": [
+        "207"
+      ],
+      "newVisualPasses": 16,
+      "sdkDiagnostics": [
+        "102"
+      ],
+      "tail": null
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "check:cocos"
+      ],
+      "cwd": "D:\\game",
+      "startedAtUtc": "2026-10-15T12:06:46.215867+00:00",
+      "endedAtUtc": "2026-10-15T12:06:50.076102+00:00",
+      "exitCode": 0,
+      "log": "docs/validation/day5a-plus/v21/rootvisual-20261015T120646199885Z-cocos.log",
+      "logSha256": "92bae9fdfb11cef305266507ec82596dbba8f6990f4f249da362fa701ef93dd9",
+      "typescript": [
+        "TypeScript 5.8.2: C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\app.asar.unpacked\\node_modules\\typescript\\lib\\typescript.js",
+        "TypeScript checking against real editor-generated Cocos SDK references (strict/noUnusedLocals/noUnusedParameters enabled; SDK self-validation is separate)."
+      ],
+      "groups": [],
+      "newVisualPasses": 0,
+      "sdkDiagnostics": [
+        "102"
+      ],
+      "tail": null
+    }
+  ]
+}

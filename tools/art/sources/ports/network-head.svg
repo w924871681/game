@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="128" viewBox="0 0 256 128">
+<title>DeskRescue original ports/network-head</title>
+<polyline points="8.00,66.00 67.00,66.00" fill="none" stroke="#68838c" stroke-opacity="1.0000" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="8.00,61.00 60.00,61.00" fill="none" stroke="#a9c0c3" stroke-opacity="1.0000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="48" y="43" width="32" height="46" rx="7" fill="#526b78" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<polyline points="56.00,47.00 56.00,85.00" fill="none" stroke="#94afb5" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="64.00,47.00 64.00,85.00" fill="none" stroke="#94afb5" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="72.00,47.00 72.00,85.00" fill="none" stroke="#94afb5" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="72" y="24" width="118" height="84" rx="10" fill="#c4ded8" fill-opacity="1.0000" stroke="#263d50" stroke-opacity="1.0000" stroke-width="4"/>
+<rect x="84" y="34" width="94" height="53" rx="4" fill="#e2f1e9" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="108" y="81" width="47" height="19" rx="3" fill="#8cb3ad" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="91" y="37" width="5" height="24" rx="1" fill="#d8ae58" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="101" y="37" width="5" height="24" rx="1" fill="#d8ae58" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="111" y="37" width="5" height="24" rx="1" fill="#d8ae58" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="121" y="37" width="5" height="24" rx="1" fill="#d8ae58" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="131" y="37" width="5" height="24" rx="1" fill="#d8ae58" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="141" y="37" width="5" height="24" rx="1" fill="#d8ae58" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="151" y="37" width="5" height="24" rx="1" fill="#d8ae58" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="161" y="37" width="5" height="24" rx="1" fill="#d8ae58" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<polygon points="108.00,21.00 155.00,21.00 150.00,6.00 113.00,6.00" fill="#deede2" fill-opacity="1.0000" stroke="#263d50" stroke-opacity="1.0000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

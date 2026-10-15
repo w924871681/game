@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "lastObservedAtUtc": "2026-10-15T16:36:34.625Z",
+  "ok": true,
+  "status": "LOCAL_SCOPED_DESKTOP_PREVIEW_COMPLETED_USER_ART_ACCEPTANCE_PENDING",
+  "project": "DeskRescue",
+  "version": "0.0.5-alpha.4",
+  "creator": "3.8.8",
+  "url": "http://localhost:7456/",
+  "method": "Actual desktop browser mouse down/move/up drags and visible buttons. No injected score, progress, order, event or engine state. DOM observations were read-only geometry/CSS. Synthetic cc.Touch engine fixtures are separate evidence.",
+  "viewports": [
+    {
+      "width": 390,
+      "height": 844,
+      "reload": true,
+      "coveredOrders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fullRuns": [
+        {
+          "orders": 9,
+          "steps": 13,
+          "score": 4210,
+          "stars": 17,
+          "starMaximum": 27,
+          "seconds": 613,
+          "mistakes": 0,
+          "final": "docs/validation/day5a-plus/v22/screenshots/final-v22-390x844.jpg",
+          "exitPath": "Final -> Home -> Start",
+          "exitEvidence": [
+            "docs/validation/day5a-plus/v22/screenshots/home-after-final-v22-390x844.jpg",
+            "docs/validation/day5a-plus/v22/screenshots/start-after-home-v22-390x844.jpg"
+          ]
+        }
+      ],
+      "additionalPartialRun": "Orders1-3 then order4 diagonal/arc57 and local repeat57. Not a second complete9-order run.",
+      "cases": [
+        "Order4 horizontal0 ->57 -> reverse/repeat57 ->96 -> threshold complete",
+        "Order4 independent reset0 -> diagonal/arc57 -> local repeat57",
+        "Order5 actual0/3 -> display success1/3 ->3/3",
+        "Order7 power/WAN/LAN distinct semantics",
+        "Order8 four devices0/4 then two cables",
+        "Order9 clean -> four cables0/4 -> stable3/4 -> fourth connection -> four parts0/4",
+        "Real order results, final9/9,13/13, Home and Start buttons"
+      ],
+      "cleanCounts": {
+        "logicalCells": 32,
+        "required": 28,
+        "at57": 16,
+        "at96": 27,
+        "completion": 28,
+        "meaning": "Accepted logical cells divided by required28, not dust-pixel percentage."
+      },
+      "geometry": "docs/validation/day5a-plus/v22/dom-390.json"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "reload": true,
+      "coveredOrders": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fullRuns": [],
+      "cases": [
+        "Home, first3 drag orders and real results/next buttons",
+        "Order4 clean0 -> stable57 -> result",
+        "Order5 cables0/3 -> display success1/3 ->3/3 and result"
+      ],
+      "order1Result": {
+        "score": 770,
+        "seconds": 23.5,
+        "mistakes": 0,
+        "stars": 2,
+        "evidence": "docs/validation/day5a-plus/v22/screenshots/order1-result-v22-768x1024.jpg"
+      },
+      "order4Result": {
+        "score": 120,
+        "seconds": 88.3,
+        "mistakes": 0,
+        "stars": 1,
+        "evidence": "docs/validation/day5a-plus/v22/screenshots/order4-result-v22-768x1024.jpg"
+      },
+      "order5Result": {
+        "score": 810,
+        "seconds": 19.9,
+        "mistakes": 0,
+        "stars": 3,
+        "evidence": "docs/validation/day5a-plus/v22/screenshots/order5-result-v22-768x1024.jpg"
+      },
+      "limitation": "Only first5 orders. Orders2/3 results observed in tool output; no standalone result image. No tablet final or replay claim.",
+      "geometry": "docs/validation/day5a-plus/v22/dom-768.json"
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "reload": true,
+      "coveredOrders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fullRuns": [
+        {
+          "orders": 9,
+          "steps": 13,
+          "score": 7820,
+          "stars": 27,
+          "starMaximum": 27,
+          "seconds": 123.5,
+          "mistakes": 0,
+          "final": "docs/validation/day5a-plus/v22/screenshots/final-v22-1280x720.jpg",
+          "exitPath": "Final -> direct Replay -> order1/9, step1/1,0/3, mistakes0",
+          "replay": "docs/validation/day5a-plus/v22/screenshots/replay-start-v22-1280x720.jpg",
+          "replayScreenshotElapsedSeconds": 11.2,
+          "prefix": "Complete resumed run starts at home-resumed; first3 result filenames contain resumed. Separate from earlier interrupted partial run."
+        }
+      ],
+      "earlierPartialRun": {
+        "coveredOrders": [
+          1,
+          2,
+          3
+        ],
+        "completedFullRun": false,
+        "reason": "Browser session interruption. Preserved home/order1-start/order1-3-result raw images without resumed prefix. Never combined with complete run."
+      },
+      "cases": [
+        "Three drag orders",
+        "Order4 clean0 -> horizontal57 -> complete",
+        "Order5 three cables",
+        "Order6 mouse clean then2 devices",
+        "Order7 power/WAN/LAN3 cables",
+        "Order8 four devices and2 cables",
+        "Order9 clean then4 cables0/4 -> stable3/4 -> fourth connection -> four parts",
+        "Final9/9,13/13 -> Replay resets progress/mistakes"
+      ],
+      "geometry": "docs/validation/day5a-plus/v22/dom-1280-resumed.json",
+      "pageConsole": {
+        "warnErrorEntries": 0,
+        "scope": "Retained complete wide run only. Excludes browser-tool Statsig diagnostics. Does not assert earlier sessions were error-free.",
+        "evidence": "docs/validation/day5a-plus/v22/preview-wide-console.json"
+      }
+    }
+  ],
+  "visualConclusions": {
+    "p0": "One bounded implementation, deterministic per-particle feather/edge shift. Horizontal57/96 still show a band; improvement modest, not complete elimination. No new internal grid observed. No further tuning this round.",
+    "repeat": "Horizontal and diagonal local-repeat pairs each keep57. Keyboard ROI(57,350,333,490), excluding clock, decoded RGB identical. Not whole-screen equality or FPS evidence.",
+    "p1": "Four-device/four-part names separated from icons. Head caption above and Port below. Stable-key aliases preserve IDs. Both selected old/new order9 three-cross images show3 success lamps with fan left/unconnected.",
+    "comparability": "Natural timing/sampling differs. Old96 diagonal/arc plus spot cleaning, new96 horizontal plus spot. Residue-position differences are not a controlled algorithm comparison.",
+    "userAestheticAcceptance": "PENDING"
+  },
+  "screenshots": {
+    "count": 63,
+    "ledger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+    "dimensionsAndSha256": "docs/validation/day5a-plus/v22/comparisons/screenshot-inventory.json",
+    "adjudications": "docs/validation/day5a-plus/v22/capture-adjudications.json",
+    "comparisons": "docs/validation/day5a-plus/v22/comparisons/comparison-manifest.json",
+    "independentReview": "docs/validation/day5a-plus/v22/390-comparison-review.json"
+  },
+  "linkedEvidence": {
+    "checks": "docs/validation/day5a-plus/v22/checks.json",
+    "creator": "docs/validation/day5a-plus/v22/creator-audit.json",
+    "probe": "docs/validation/day5a-plus/v22/engine-probe.json"
+  },
+  "interruptions": [
+    "Viewport switch showed black loading and screenshot/DOM timeout; a fresh independent tab in same browser recovered. No game/CSS/core-resource edits for recovery.",
+    "User Escape stopped computer control; later explicit continue authorized resume.",
+    "Old Creator V2.1 Port errors and partial/misnamed captures preserved and annotated.",
+    "390/768 previous-session complete console unavailable after recovery; no all-session zero-error claim."
+  ],
+  "endState": {
+    "viewportOverride": "reset",
+    "page": "Home reloaded and visually verified at actual default1280x720",
+    "evidence": "docs/validation/day5a-plus/v22/screenshots/home-default-v22.jpg",
+    "previewTabMarkedDeliverable": true
+  },
+  "notVerified": [
+    "Physical touchscreen",
+    "Browser-native Touch/CANCEL",
+    "Mobile WebView",
+    "WeChat/Douyin platform or phone device",
+    "Arbitrary live rotation",
+    "FPS benchmark",
+    "Independent audio listening",
+    "Second-computer Creator import",
+    "User final aesthetic acceptance"
+  ],
+  "authorization": "Local implementation/tests/Creator/Preview/docs/new externalZIP only. No Git mutation/publication/Day5B/5C/platform SDK/new systems.",
+  "timingNote": "Run times include tool waits and visual inspection, not performance/play-speed/score comparisons."
+}

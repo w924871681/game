@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="334" height="185" viewBox="26 58 334 185">
+<!-- V2.1 tight viewBox crop of original tools/art/sources/devices/controller.svg; original drawing coordinates retained. -->
+<title>DeskRescue original devices/controller</title>
+<ellipse cx="192.0" cy="224.5" rx="156.0" ry="12.5" fill="#526779" fill-opacity="0.1333" stroke="none" stroke-width="0"/>
+<polygon points="91.00,72.00 128.00,67.00 151.00,82.00 233.00,82.00 257.00,67.00 296.00,72.00 319.00,100.00 350.00,179.00 342.00,209.00 319.00,221.00 295.00,216.00 259.00,170.00 125.00,170.00 88.00,216.00 64.00,221.00 42.00,208.00 35.00,178.00 68.00,98.00" fill="#2eaaa8" fill-opacity="1.0000" stroke="#263d50" stroke-opacity="1.0000" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="87.00,84.00 115.00,79.00 133.00,90.00" fill="none" stroke="#9adace" stroke-opacity="1.0000" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="82" y="97" width="19" height="57" rx="4" fill="#263d50" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="63" y="116" width="57" height="19" rx="4" fill="#263d50" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<ellipse cx="277.0" cy="94.0" rx="9.0" ry="9.0" fill="#ffbe58" fill-opacity="1.0000" stroke="#263d50" stroke-opacity="1.0000" stroke-width="2"/>
+<ellipse cx="298.0" cy="116.0" rx="9.0" ry="9.0" fill="#e57a78" fill-opacity="1.0000" stroke="#263d50" stroke-opacity="1.0000" stroke-width="2"/>
+<ellipse cx="255.0" cy="116.0" rx="9.0" ry="9.0" fill="#82d2d4" fill-opacity="1.0000" stroke="#263d50" stroke-opacity="1.0000" stroke-width="2"/>
+<ellipse cx="277.0" cy="137.0" rx="9.0" ry="9.0" fill="#b5d86d" fill-opacity="1.0000" stroke="#263d50" stroke-opacity="1.0000" stroke-width="2"/>
+<ellipse cx="138.0" cy="151.0" rx="21.0" ry="21.0" fill="#263d50" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<ellipse cx="138.0" cy="151.0" rx="13.0" ry="13.0" fill="#7abbb4" fill-opacity="1.0000" stroke="#d0e6dc" stroke-opacity="1.0000" stroke-width="2"/>
+<ellipse cx="220.0" cy="151.0" rx="21.0" ry="21.0" fill="#263d50" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<ellipse cx="220.0" cy="151.0" rx="13.0" ry="13.0" fill="#7abbb4" fill-opacity="1.0000" stroke="#d0e6dc" stroke-opacity="1.0000" stroke-width="2"/>
+<rect x="177" y="110" width="31" height="9" rx="4" fill="#f8f3e9" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+</svg>

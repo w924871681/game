@@ -1,0 +1,283 @@
+{
+  "ok": true,
+  "phase": "a",
+  "sceneUuid": "ef51aae5-f3a0-4ba5-9918-6d84e400d36f",
+  "hostUuid": "b8jPFtT3BFVbZ+zyBrvTxe",
+  "classes": {
+    "LevelManager": "9c83cUZ7jJFqIYVj2Lnpn1H",
+    "RunController": "03dedAkeUJAHaCj+asn7SXG",
+    "StageHost": "b9b07S2IuBIoJ6NcDxKMZHI",
+    "DraggableItem": "3780awqOxhEPqgzYt6SXuvJ",
+    "CableConnector": "6b208drtWRN2p8YAULxM9XN",
+    "DragMatchStageController": "5a942JfarhBYYM+JSqrluNf",
+    "CableConnectStageController": "7b02eDuSJZBXJDBqfXYhWIL",
+    "CleanSwipeStageController": "9d4cdHas3NPQqAPoPPrLlqN",
+    "HomeController": "9cf719cvNVMZbnmtSq5YnDj",
+    "AudioFeedback": "16748HaxwZPZaUYthGa+BFh",
+    "ResultStars": "60b23AebJ9AlqMucCBr2zYV",
+    "VisualAssetRegistry": "450356OYQFLFbZG/bOIEVmD",
+    "ElementVisual": "4291f17TeBI0aGbsIUy5pHe",
+    "CleanDeviceVisual": "b08cb2FwCdNRYiSw57QVRXX",
+    "PaperOrderHUD": "0c6c924KaJA2aJg9r+6aCib",
+    "V2ResultView": "d2fbc7UMNlBwKfaAPVVH2PF",
+    "ButtonPressFeedback": "2fd39nUQoJEdYLNUpa9U9b5",
+    "WorkshopDecoration": "5e6b78Q71VAyKEW7uFuIzO3",
+    "V2ViewportTheme": "49bce1gUedN0IvZChRKuxBi",
+    "V2CableLine": "4957aD6XDpJ4qa+97Kp3DJi",
+    "V2DirtAppearance": "4010cAN3r5L6po4V/qh7ViM"
+  },
+  "registryKeys": [
+    "devices/mouse",
+    "devices/keyboard",
+    "devices/headset",
+    "ports/power-head",
+    "ports/power-port",
+    "ports/display-head",
+    "ports/display-port",
+    "ports/network-head",
+    "ports/network-port",
+    "workbench/keyboard-clean",
+    "dirt/dust",
+    "ui/card",
+    "ui/button",
+    "ui/check",
+    "ui/star",
+    "ui/star-empty",
+    "ui/sound-on",
+    "ui/sound-off",
+    "devices/power",
+    "devices/network",
+    "devices/usb",
+    "devices/router",
+    "devices/controller",
+    "devices/speaker",
+    "devices/battery",
+    "devices/wheel",
+    "devices/microphone",
+    "devices/camera",
+    "devices/light",
+    "devices/soundcard",
+    "devices/fan",
+    "devices/memory",
+    "devices/drive",
+    "devices/gpu",
+    "ports/audio-head",
+    "ports/audio-port",
+    "ports/usb-head",
+    "ports/usb-port",
+    "ports/motherboard-head",
+    "ports/motherboard-port",
+    "ports/cpu-head",
+    "ports/cpu-port",
+    "ports/sata-head",
+    "ports/sata-port",
+    "ports/fan-head",
+    "ports/fan-port",
+    "workbench/mouse-clean",
+    "workbench/case-clean",
+    "workbench/home-hero"
+  ],
+  "coreUuids": {
+    "assets/prefabs/elements/DragItem.prefab": "fefd5955-3eac-44ad-b9ec-d907012e16e1",
+    "assets/prefabs/elements/DragTarget.prefab": "baed1239-77f8-4e48-b00b-4de4c6d67830",
+    "assets/prefabs/stages/DragMatchStage.prefab": "d7e32619-2acf-40bb-bca4-addfccbb49be"
+  },
+  "nodeCountsBefore": {
+    "assets/prefabs/elements/DragItem.prefab": 7,
+    "assets/prefabs/elements/DragTarget.prefab": 7,
+    "assets/prefabs/stages/DragMatchStage.prefab": 1,
+    "assets/scenes/Game.scene": 210
+  },
+  "nodeCountsAfter": {
+    "assets/prefabs/elements/DragItem.prefab": 7,
+    "assets/prefabs/elements/DragTarget.prefab": 7,
+    "assets/prefabs/stages/DragMatchStage.prefab": 1,
+    "assets/scenes/Game.scene": 210
+  },
+  "addedNodesByResource": {
+    "assets/prefabs/elements/DragItem.prefab": 0,
+    "assets/prefabs/elements/DragTarget.prefab": 0,
+    "assets/prefabs/stages/DragMatchStage.prefab": 0,
+    "assets/scenes/Game.scene": 0
+  },
+  "designMapping": {
+    "canvas": [
+      720,
+      1280
+    ],
+    "actualStageCenter": [
+      360,
+      640
+    ],
+    "referenceAssumedStageCenter": [
+      360,
+      755
+    ],
+    "inputUnchanged": true,
+    "hudPaper": [
+      38,
+      164,
+      644,
+      132
+    ],
+    "stats": [
+      [
+        52,
+        304,
+        282,
+        48
+      ],
+      [
+        386,
+        304,
+        282,
+        48
+      ]
+    ],
+    "reason": "Preserved case-cable head at design y400 with original 80px hitbox; HUD ends352 before input top360."
+  },
+  "serializer": "Actual Creator Node/Component + Prefab.generatePrefabDataFromNode + asset-db.save-asset; Scene saved by main",
+  "savedSceneUuid": "ef51aae5-f3a0-4ba5-9918-6d84e400d36f",
+  "repeatPass": {
+    "ok": true,
+    "phase": "a",
+    "sceneUuid": "ef51aae5-f3a0-4ba5-9918-6d84e400d36f",
+    "hostUuid": "b8jPFtT3BFVbZ+zyBrvTxe",
+    "classes": {
+      "LevelManager": "9c83cUZ7jJFqIYVj2Lnpn1H",
+      "RunController": "03dedAkeUJAHaCj+asn7SXG",
+      "StageHost": "b9b07S2IuBIoJ6NcDxKMZHI",
+      "DraggableItem": "3780awqOxhEPqgzYt6SXuvJ",
+      "CableConnector": "6b208drtWRN2p8YAULxM9XN",
+      "DragMatchStageController": "5a942JfarhBYYM+JSqrluNf",
+      "CableConnectStageController": "7b02eDuSJZBXJDBqfXYhWIL",
+      "CleanSwipeStageController": "9d4cdHas3NPQqAPoPPrLlqN",
+      "HomeController": "9cf719cvNVMZbnmtSq5YnDj",
+      "AudioFeedback": "16748HaxwZPZaUYthGa+BFh",
+      "ResultStars": "60b23AebJ9AlqMucCBr2zYV",
+      "VisualAssetRegistry": "450356OYQFLFbZG/bOIEVmD",
+      "ElementVisual": "4291f17TeBI0aGbsIUy5pHe",
+      "CleanDeviceVisual": "b08cb2FwCdNRYiSw57QVRXX",
+      "PaperOrderHUD": "0c6c924KaJA2aJg9r+6aCib",
+      "V2ResultView": "d2fbc7UMNlBwKfaAPVVH2PF",
+      "ButtonPressFeedback": "2fd39nUQoJEdYLNUpa9U9b5",
+      "WorkshopDecoration": "5e6b78Q71VAyKEW7uFuIzO3",
+      "V2ViewportTheme": "49bce1gUedN0IvZChRKuxBi",
+      "V2CableLine": "4957aD6XDpJ4qa+97Kp3DJi",
+      "V2DirtAppearance": "4010cAN3r5L6po4V/qh7ViM"
+    },
+    "registryKeys": [
+      "devices/mouse",
+      "devices/keyboard",
+      "devices/headset",
+      "ports/power-head",
+      "ports/power-port",
+      "ports/display-head",
+      "ports/display-port",
+      "ports/network-head",
+      "ports/network-port",
+      "workbench/keyboard-clean",
+      "dirt/dust",
+      "ui/card",
+      "ui/button",
+      "ui/check",
+      "ui/star",
+      "ui/star-empty",
+      "ui/sound-on",
+      "ui/sound-off",
+      "devices/power",
+      "devices/network",
+      "devices/usb",
+      "devices/router",
+      "devices/controller",
+      "devices/speaker",
+      "devices/battery",
+      "devices/wheel",
+      "devices/microphone",
+      "devices/camera",
+      "devices/light",
+      "devices/soundcard",
+      "devices/fan",
+      "devices/memory",
+      "devices/drive",
+      "devices/gpu",
+      "ports/audio-head",
+      "ports/audio-port",
+      "ports/usb-head",
+      "ports/usb-port",
+      "ports/motherboard-head",
+      "ports/motherboard-port",
+      "ports/cpu-head",
+      "ports/cpu-port",
+      "ports/sata-head",
+      "ports/sata-port",
+      "ports/fan-head",
+      "ports/fan-port",
+      "workbench/mouse-clean",
+      "workbench/case-clean",
+      "workbench/home-hero"
+    ],
+    "coreUuids": {
+      "assets/prefabs/elements/DragItem.prefab": "fefd5955-3eac-44ad-b9ec-d907012e16e1",
+      "assets/prefabs/elements/DragTarget.prefab": "baed1239-77f8-4e48-b00b-4de4c6d67830",
+      "assets/prefabs/stages/DragMatchStage.prefab": "d7e32619-2acf-40bb-bca4-addfccbb49be"
+    },
+    "nodeCountsBefore": {
+      "assets/prefabs/elements/DragItem.prefab": 7,
+      "assets/prefabs/elements/DragTarget.prefab": 7,
+      "assets/prefabs/stages/DragMatchStage.prefab": 1,
+      "assets/scenes/Game.scene": 210
+    },
+    "nodeCountsAfter": {
+      "assets/prefabs/elements/DragItem.prefab": 7,
+      "assets/prefabs/elements/DragTarget.prefab": 7,
+      "assets/prefabs/stages/DragMatchStage.prefab": 1,
+      "assets/scenes/Game.scene": 210
+    },
+    "addedNodesByResource": {
+      "assets/prefabs/elements/DragItem.prefab": 0,
+      "assets/prefabs/elements/DragTarget.prefab": 0,
+      "assets/prefabs/stages/DragMatchStage.prefab": 0,
+      "assets/scenes/Game.scene": 0
+    },
+    "designMapping": {
+      "canvas": [
+        720,
+        1280
+      ],
+      "actualStageCenter": [
+        360,
+        640
+      ],
+      "referenceAssumedStageCenter": [
+        360,
+        755
+      ],
+      "inputUnchanged": true,
+      "hudPaper": [
+        38,
+        164,
+        644,
+        132
+      ],
+      "stats": [
+        [
+          52,
+          304,
+          282,
+          48
+        ],
+        [
+          386,
+          304,
+          282,
+          48
+        ]
+      ],
+      "reason": "Preserved case-cable head at design y400 with original 80px hitbox; HUD ends352 before input top360."
+    },
+    "serializer": "Actual Creator Node/Component + Prefab.generatePrefabDataFromNode + asset-db.save-asset; Scene saved by main"
+  },
+  "idempotent": true,
+  "timestamp": "2026-10-15T10:11:09.777Z"
+}

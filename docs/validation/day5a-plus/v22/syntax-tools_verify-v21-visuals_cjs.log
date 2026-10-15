@@ -1,0 +1,2 @@
+{"label": "syntax-tools_verify-v21-visuals_cjs", "command": ["C:\\Program Files\\nodejs\\node.EXE", "--check", "tools/verify-v21-visuals.cjs"], "cwd": "D:/game", "startedAtUtc": "2026-10-15T15:56:22.973710+00:00", "endedAtUtc": "2026-10-15T15:56:23.032047+00:00", "exitCode": 0}
+

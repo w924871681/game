@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 1,
+  "version": "0.0.5-alpha.3",
+  "status": "LOCAL_TECHNICAL_VISUAL_REVIEW_COMPLETED_WITH_DOCUMENTED_LIMITATIONS",
+  "userFinalArtApproval": false,
+  "scope": "Final V2.1 screenshots, native-size V2 comparisons, explicitly thumbnailed six-screen overview, capture adjudication and actual viewport coverage",
+  "reviewMethod": "Direct read-only inspection of selected original screenshots at all three viewports, every known misnamed/timeout/pending capture, final390 comparisons and contact sheet; root performed the actual Preview operations. Inventory covers every saved image, but does not claim every file was an independent completed test.",
+  "runtimeValidationLayers": {
+    "savedResourceAudit": {
+      "passed": 1319,
+      "total": 1319,
+      "source": "audit-full.json",
+      "boundary": "Saved identity/binding/input-resource checks, not aesthetic or physical input approval"
+    },
+    "engineFixture": {
+      "passed": 46,
+      "total": 46,
+      "source": "engine-probe.json",
+      "boundary": "Actual engine components and fixtures, not physical touch or natural audio listening"
+    },
+    "mockBehaviorGroups": {
+      "passed": 207,
+      "original": 174,
+      "newClean": 17,
+      "newOtherVisual": 16,
+      "source": "final-tests.log"
+    },
+    "isolatedWithoutCreatorTemp": {
+      "passed": 207,
+      "exitCode": 0,
+      "source": "final-offline.json"
+    },
+    "projectCocosTypes": {
+      "passed": true,
+      "source": "final-cocos-types.log",
+      "sdkSelfDiagnosticsExcludedAndSeparatelyDisclosed": 102,
+      "sdkSelfValidationPassed": false
+    }
+  },
+  "previewCoverage": [
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "ordersCompleted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fullRunsCompleted": 2,
+      "runs": [
+        {
+          "run": 1,
+          "orders": "9/9",
+          "steps": "13/13",
+          "stars": "19/27",
+          "score": 4290,
+          "seconds": 903.9,
+          "mistakes": 3,
+          "screenshot": "screenshots/final-run1-v21-390x844.jpg"
+        },
+        {
+          "run": 2,
+          "orders": "9/9",
+          "steps": "13/13",
+          "stars": "21/27",
+          "score": 5620,
+          "seconds": 686.7,
+          "mistakes": 0,
+          "screenshot": "screenshots/final-v21-390x844.jpg"
+        }
+      ],
+      "controls": "Final Home→Home→Start and direct Replay operated; capture links remain in the refinement document.",
+      "actualOrder1ResultUsedInComparison": {
+        "seconds": 499.2,
+        "mistakes": 2,
+        "score": 100,
+        "stars": 1,
+        "source": "screenshots/result-order1-v21-390x844.jpg",
+        "note": "Natural timer includes browser/tool timeout and observation dwell; values were not beautified"
+      }
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "ordersCompleted": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fullRunsCompleted": 0,
+      "coverage": "Home, orders1–3 drag, order4 clean0/57/96 and threshold result, order5 cable0/1 and actual3/3-triggered settlement; all three gameplay kinds and single-order result.",
+      "notCovered": "Orders6–9, nine-order final summary, final Replay/Home controls at this size.",
+      "noNineOrderClaim": true
+    },
+    {
+      "viewport": [
+        1280,
+        720
+      ],
+      "ordersCompleted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fullRunsCompleted": 2,
+      "runs": [
+        {
+          "run": 1,
+          "orders": "9/9",
+          "steps": "13/13",
+          "stars": "24/27",
+          "score": 6670,
+          "seconds": 296.6,
+          "mistakes": 0,
+          "screenshot": "screenshots/final-v21-1280x720.jpg"
+        },
+        {
+          "run": 2,
+          "orders": "9/9",
+          "steps": "13/13",
+          "stars": "26/27",
+          "score": 7160,
+          "seconds": 187.8,
+          "mistakes": 0,
+          "screenshot": "screenshots/final-run2-v21-1280x720.jpg"
+        }
+      ],
+      "replay": "Root observed direct fresh order1 at0.1/0.3seconds in tool output; the old replay-direct filename actually contains the previous final. A stable first-order result and complete second run are saved. No fresh-start screenshot is invented.",
+      "homeThenStart": {
+        "homeSource": "screenshots/home-after-run2-v21-1280x720.jpg",
+        "startSource": "screenshots/start-after-home-v21-1280x720.jpg",
+        "visibleStart": "Order1/9,step1/1,0/3,zero mistakes,soundOFF,144.4seconds",
+        "boundary": "Progress reset is visible; timer already includes observation dwell, not an immediate0.1second start capture"
+      }
+    }
+  ],
+  "timingBoundary": "All reported results use actual natural gameplay time, including tool pauses/timeouts/observation. None is a speed, FPS, latency or platform performance benchmark.",
+  "visualAssessment": {
+    "rootPriorSubjectiveSampleDecision": "Phase1 clean/cable technical visual samples accepted for propagation, explicitly not user final art approval; retained verbatim in phase1-review.json.",
+    "agentFinalDecision": "The local implementation and selected final screenshots show the intended conservative visual refinement. No additional blocking visual regression was found in this selected-file review; the listed limitations and user aesthetic decision remain open.",
+    "clean": "192 detached soft particles follow accepted paths without displaying the32-cell grid. Diagonal/arc57% shows local irregular removal;96% still has residual dust. The supplementary two-horizontal-row57% capture visibly retains a band-shaped boundary from the long straight wipe. It must not be presented as proof that every path is band-free.",
+    "cable": "Metal shapes, grooves and directions are more legible; only the actual connected cable has a success state. Four material line layers remain below input/endpoint labels. The final order5 decorative title is below the routes, improving the earlier title crossing. Compact right-side captions and multiple curve crossings remain matters for original-size aesthetic review.",
+    "drag": "Devices and silhouettes are larger and distinct in the reviewed3-item and4-item phone captures; the2-item and4-item orders were included in the full phone/wide runs. Input geometry was not moved to obtain the appearance.",
+    "results": "Golden badge, larger score/stars and character give a clearer hierarchy. One-star100point result is retained as real data; final summaries use actual aggregate x/y stars and both real buttons.",
+    "homeAndLetterbox": "Workshop and character composition remain coherent. SHOW_ALL mint margins remain obvious in wide view; no native backdrop extension or dynamic rotation support is inferred."
+  },
+  "captureEvidenceRules": [
+    "Preserve misnamed, timeout and pending originals with corrections, not deletion, renaming or retouching.",
+    "A head close to a socket and the number of visible curves do not prove counted success.",
+    "Phase1 raw0/1/2 remain2/3; raw3 is3/3 with an immediate modal. Order7 three-line transition is2/3 and order9 four-line transition is3/4.",
+    "No unobstructed3/3 or4/4 gameplay completion frame is claimed; the existing final0.15second snap settles in the same business frame.",
+    "The raw capture ledger is retained including mistaken notes; the inventory visibleState/correction annotations adjudicate known errors."
+  ],
+  "comparisonEvidence": {
+    "manifest": "comparisons/final-comparison-manifest.json",
+    "nativePairs": 5,
+    "fourPrimaryPairs": [
+      "home",
+      "clean57",
+      "cable1",
+      "result"
+    ],
+    "supplement": "clean57-horizontal",
+    "nativeSourceSize": [
+      390,
+      844
+    ],
+    "allEmbeddedNativeRGBPixelsIdenticalAfterReopen": true,
+    "overview": "comparisons/final-six-screen-contact.png",
+    "overviewPolicy": "Explicitly labeled uniform thumbnails; full viewports retained, no crop or repaint. Use originals/native pairs for detailed reading.",
+    "comparabilityCaveats": "Clean wiping paths/natural timers differ; cable old1/3 is red power while new1/3 is blue display; result times/errors/scores are actual different runs, not normalized."
+  },
+  "endState": {
+    "dom390": "dom-390.json",
+    "observedDebugIn390Record": "INFO",
+    "bodyBackgroundRGB": [
+      195,
+      236,
+      224
+    ],
+    "clip390": "inset(75.3333px 0px)",
+    "clip768": "inset(0px 96px)",
+    "clip1280": "inset(0px 437.5px)",
+    "canvasBoundsRemainViewportSized": true,
+    "viewportOverrideResetAndReloadedHome": true,
+    "defaultHomeSource": "screenshots/home-delivery-default-viewport.jpg",
+    "defaultHomeImageDimensions": [
+      1280,
+      720
+    ],
+    "retainedBrowserWarnErrorSource": "preview-console-final.json",
+    "retainedBrowserWarnErrorEntries": 0,
+    "consoleBoundary": "Only retained Browser warn/error entries at end of Preview verification; not the entire execution history or native Creator historical console"
+  },
+  "notClaimed": [
+    "User final aesthetic/art approval",
+    "768x1024 complete nine-order run or final controls",
+    "A saved fresh0.1/0.3second wide Replay screenshot",
+    "The144.4second Home→Start image being an immediate reset-time capture",
+    "Unobstructed3/3 or4/4 counted-success frame",
+    "All long horizontal wiping paths being free of band-shaped boundaries",
+    "Runtime live viewport switching/free rotation",
+    "Physical touch/native TOUCH_CANCEL/mobile WebView/WeChat/Douyin builds",
+    "Audio listening/recording acceptance or FPS/performance benchmark",
+    "Installed SDK declarations themselves having zero errors",
+    "Final delivery ZIP/preservation success merely from screenshots or script existence"
+  ],
+  "separateDeliveryBoundary": "Final project archive and whole-workspace preservation results are root-owned deliverable records; this visual review does not prefill their PASS status.",
+  "recordedAtUtc": "2026-10-15T13:46:56Z",
+  "screenshotInventory": {
+    "path": "comparisons/final-screenshot-inventory.json",
+    "fileCount": 112,
+    "dimensions": {
+      "1280x720": 35,
+      "390x844": 65,
+      "768x1024": 12
+    },
+    "knownAnnotatedFiles": 17,
+    "sourceProtection": {
+      "comparedBeforeAndAfter": 158,
+      "sourceChanges": []
+    }
+  },
+  "captureAnnotations": [
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/cable-order7-three-cross-transition-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "2ca6d028afa87cf5a168d2a258a27afc326d39607dadb6e03a8538aa01b19b8d",
+      "evidenceRole": "pending-snap-transition-not-settlement",
+      "visibleState": "2/3; third head near target but not yet counted",
+      "correction": "Three visible curves do not mean three recorded successes; no unobstructed3/3 is claimed."
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/cable-order7-two-cross-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "36fc20d10cfe5c754de365e4770471c38017c547638db3aef99a2a9ae7d5d2ad",
+      "evidenceRole": "in-progress-not-settlement",
+      "visibleState": "2/3; two recorded connections"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/cable-order8-two-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "b6db7999d7143e1c4b0e51849d1f4aa2304d3506333eb7c4cf6e74b8c044f7fc",
+      "evidenceRole": "initial-gameplay-not-settlement",
+      "visibleState": "0/2; filename refers to two available cables, not two connected cables"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/cable-order9-four-transition-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "cba4ba9394055c4963797df78444aae5c3ce4d061029deda7ff6dab1f669b3e3",
+      "evidenceRole": "pending-snap-transition-not-settlement",
+      "visibleState": "3/4; fourth snap pending",
+      "correction": "Four visible curves do not mean four recorded successes; no unobstructed4/4 is claimed."
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/cable-order9-four-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "377ec1102d262c067065a0e8fac88264175ff737cdd5739c9718733687d08383",
+      "evidenceRole": "initial-gameplay-not-settlement",
+      "visibleState": "0/4; filename describes four available cables, not4/4 completion"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/cable-order9-four-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "fc9410268e3757323140c94febbbda96013bb53b888a3cf3df0731dc45da31f9",
+      "evidenceRole": "initial-gameplay-not-settlement",
+      "visibleState": "0/4; filename describes four available cables, not4/4 completion"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/cable-order9-three-cross-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "a78cabc3a6e7e8aa338fcc83bba6af4d340fba71fffef4b422436aec897845ca",
+      "evidenceRole": "in-progress-not-settlement",
+      "visibleState": "3/4; three recorded connections"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/phase1-cable-last-snap-0.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "162dd5b449a57294fd440debddf29bce92b244669988b2d062470aede6854797",
+      "evidenceRole": "pending-snap-transition-not-settlement",
+      "visibleState": "2/3; final yellow snap pending",
+      "correction": "Head alignment/three visible lines do not mean3/3; no settlement or unobstructed3/3 claim."
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/phase1-cable-last-snap-1.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "c37abd2d1eaccbed9df1f79f432ac5a0d92cf189841cebd8fea22e4cc7df020b",
+      "evidenceRole": "pending-snap-transition-not-settlement",
+      "visibleState": "2/3; final yellow snap pending",
+      "correction": "Head alignment/three visible lines do not mean3/3; no settlement or unobstructed3/3 claim."
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/phase1-cable-last-snap-2.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "59360fcd4f8d455847f67a4af2855b0342351261f2fb368b524e31a2df634130",
+      "evidenceRole": "pending-snap-transition-not-settlement",
+      "visibleState": "2/3; final yellow snap pending",
+      "correction": "Head alignment/three visible lines do not mean3/3; no settlement or unobstructed3/3 claim."
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/phase1-cable-last-snap-3.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "d6c696f22c96e367dcb02bf7422d6991127b66ccc2fedb71b816b3d39c64eef7",
+      "evidenceRole": "settled-result-modal-obscures-gameplay",
+      "visibleState": "HUD3/3 with immediate result modal",
+      "correction": "Real completion, but not an unobstructed three-success gameplay image."
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/phase2-drag-wrong-return-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "a68ea2c47145d33ce292eb022d72ccff3c78e168164800c5ba7eb021e9ebbe45",
+      "evidenceRole": "misnamed-stale-home",
+      "visibleState": "Home screen; byte-identical to historical V2 home, not a wrong-return capture",
+      "correction": "Exclude from successful drag/return evidence; retain as capture diagnostic.",
+      "reliableReplacement": "drag-order1-wrong-return-v21-390x844.jpg"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/phase2-result-order1-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "a68ea2c47145d33ce292eb022d72ccff3c78e168164800c5ba7eb021e9ebbe45",
+      "evidenceRole": "misnamed-stale-home",
+      "visibleState": "Home screen; byte-identical to historical V2 home, not a settled order result",
+      "correction": "The final actual result is499.2s/2mistakes/100points/1star, not this home image.",
+      "reliableReplacement": "result-order1-v21-390x844.jpg"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/replay-direct-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "d90a7530df7c2aa1e31f5c69864729c43778452e7f7c0f9f7530cae2a7fc8875",
+      "evidenceRole": "misnamed-stale-final",
+      "visibleState": "First wide final summary; byte-identical to final-v21-1280x720.jpg",
+      "correction": "Replay was operated and fresh0.1/0.3s order1 was observed in tool output, but that state was not saved in this file. Do not claim a saved fresh-Replay screenshot.",
+      "reliableReplacement": "wide-run2-order1-result-stable.jpg",
+      "replacementBoundary": "Replacement proves a settled first order in the replay run, not a0.1s start image."
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/start-after-home-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "5ab99716fa2f3cc2eff8b50c210079bc9e68c0270c2c0b200a1d0ae2c80c98f6",
+      "evidenceRole": "valid-reset-evidence-with-observation-dwell",
+      "visibleState": "Order1/9,step1/1,0/3,0mistakes,soundOFF; elapsed144.4seconds",
+      "correction": "Shows reset progress after Home→Start, not an immediate0.1s fresh-start screenshot; natural clock includes observation dwell."
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/timeout-order1-not-result-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "sha256": "6ef25e6d6341b2142071ad3da1a771990be5cb3809380e909041cda05f1c0538",
+      "evidenceRole": "diagnostic-timeout-incomplete-gameplay",
+      "visibleState": "Order1 gameplay2/3,290.7seconds,1mistake; no result panel",
+      "correction": "Retain browser/tool timeout observation; it is not completion evidence.",
+      "reliableReplacement": "result-order1-v21-390x844.jpg"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/wide-run2-order1-result.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "afcf8621b67554e9719c7975fd5d966c816eb65dbf21dc564970ad7a1a2d5ada",
+      "evidenceRole": "misnamed-in-progress",
+      "visibleState": "Replay-run order1 gameplay1/3,4.9seconds,0mistakes; not settlement",
+      "correction": "Use the separately retained stable result for950points/5.6seconds/0mistakes/3stars.",
+      "reliableReplacement": "wide-run2-order1-result-stable.jpg"
+    }
+  ],
+  "sourceSnapshots": [
+    {
+      "path": "tools/compare_v21_previews.py",
+      "bytes": 22197,
+      "sha256": "8cc5846fccb1cc86b90ba0293f60a2132a78c48b485a9f30ce8b95796f632498"
+    },
+    {
+      "path": "docs/DAY5A_PLUS_V21_REFINEMENT.md",
+      "bytes": 21648,
+      "sha256": "945f1a3e17bba1a30c5f954d10b4580c30d5c3fa2670950d0ee6b102c14b10b7"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/comparisons/final-screenshot-inventory.json",
+      "bytes": 68277,
+      "sha256": "d3a8b503530d7f101bb4e39d8396503068ee4a1c50ca0b6ff6370588379e68ee"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/comparisons/final-comparison-manifest.json",
+      "bytes": 12042,
+      "sha256": "3967811f0e0333cb4df53ea49ee3f680467e249ccd2861f84776a0a5fff18a42"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/preview-capture-ledger.json",
+      "bytes": 27849,
+      "sha256": "fca3128b41ccf74160355262db7355fe99b6cafaa43fae7ee7e8f1509c102399"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/preview-console-final.json",
+      "bytes": 188,
+      "sha256": "9b2c3cb5211a821ca5ace5552f5beca40d9abea6c46e373a48cf5e024781d4bf"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/dom-390.json",
+      "bytes": 461,
+      "sha256": "d83b1a2b264bb8509be0d26b8da2fffb087499acdff71dc9102a01da3cb00093"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/dom-768.json",
+      "bytes": 315,
+      "sha256": "5aeb0216264f27bbffdbfcea2894706b7bf430aeba4dde06f47ee1434281f1e2"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/dom-1280.json",
+      "bytes": 318,
+      "sha256": "95492925405a9fb45c10fcaa0b476371207eda91741a23c3054b9009630e1b52"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/audit-full.json",
+      "bytes": 743774,
+      "sha256": "5453562c4411329c3e54321eac4a371af9c22e8e2f27d83ebc94406ae1a42116"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/engine-probe.json",
+      "bytes": 26298,
+      "sha256": "df65a384e3ec7ad8a01775203a5d17dfe2e509e131a26245acfee310e1a990ab"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/final-offline.json",
+      "bytes": 158734,
+      "sha256": "f5e4899675da78eeb1ec140d37b8c2ee8f62adbf97d4936ad474c401dae5ffed"
+    }
+  ]
+}

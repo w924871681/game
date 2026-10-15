@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-15T13:12:15Z",
+  "generator": "tools/compare_v21_previews.py",
+  "pythonVersion": "3.13.5",
+  "pillowVersion": "12.3.0",
+  "mode": "final-native-comparisons-and-thumbnail-overview",
+  "pixelPolicy": "No resize/crop/repaint/tint; external captions/borders only. Decoded JPEG RGB is copied to lossless PNG and compared after reopening. Only the explicitly labeled six-screen overview is uniformly thumbnailed. The five native pairs, including the horizontal supplement, retain every original RGB pixel.",
+  "acceptance": "Evidence composition is not user art approval, rendering automation or platform testing.",
+  "protectedSourceCount": 113,
+  "protectedSourceChanges": [],
+  "comparisons": [
+    {
+      "key": "home",
+      "before": {
+        "path": "docs/validation/day5a-plus/screenshots/home-v2-390x844.jpg",
+        "dimensions": [
+          390,
+          844
+        ],
+        "bytes": 55078,
+        "sha256": "a68ea2c47145d33ce292eb022d72ccff3c78e168164800c5ba7eb021e9ebbe45"
+      },
+      "after": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/home-v21-390x844.jpg",
+        "dimensions": [
+          390,
+          844
+        ],
+        "bytes": 55473,
+        "sha256": "4f8933730226d1acdb1982e7def4e3035285da4250193c7ba566e1e9dc562454"
+      },
+      "observedStateDifference": "Different natural captures; layout and artwork are compared without pixel normalization.",
+      "labels": [
+        "V2 | original home",
+        "V2.1 | refined logo / character / props"
+      ],
+      "output": {
+        "path": "docs/validation/day5a-plus/v21/comparisons/final-home-v2-to-v21.png",
+        "dimensions": [
+          840,
+          1020
+        ],
+        "bytes": 466243,
+        "sha256": "50598039a8e26b7c211957afac7c88d583cf5a9ea0b4963c54ec6cac4d974e58",
+        "embeddedSourcePixelsIdenticalAfterReopen": true
+      },
+      "status": "generated",
+      "sourceRectanglesXYWH": [
+        [
+          18,
+          120,
+          390,
+          844
+        ],
+        [
+          432,
+          120,
+          390,
+          844
+        ]
+      ]
+    },
+    {
+      "key": "clean57",
+      "before": {
+        "path": "docs/validation/day5a-plus/screenshots/clean-v2-order4-partial-390x844.jpg",
+        "dimensions": [
+          390,
+          844
+        ],
+        "bytes": 48346,
+        "sha256": "4ae16c06da151a6466ca7d2379d478c71168d12477d7fb6ef5193adec383e87e"
+      },
+      "after": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/clean-order4-about57pct-v21-390x844.jpg",
+        "dimensions": [
+          390,
+          844
+        ],
+        "bytes": 47870,
+        "sha256": "3218ca8bee5223c9f1cf89db90c3605a9db0e706f44e4c867506d24abd78277e"
+      },
+      "observedStateDifference": "Different accepted wiping paths; both images visibly render 57%.",
+      "labels": [
+        "V2 | 57% | row-oriented path",
+        "V2.1 | 57% | diagonal + arc path"
+      ],
+      "output": {
+        "path": "docs/validation/day5a-plus/v21/comparisons/final-clean57-v2-to-v21.png",
+        "dimensions": [
+          840,
+          1020
+        ],
+        "bytes": 386111,
+        "sha256": "9fb6d89a409f56e0415d7ea28b74a68106fd65b4082fc74eab10e953b1aa2e57",
+        "embeddedSourcePixelsIdenticalAfterReopen": true
+      },
+      "status": "generated",
+      "sourceRectanglesXYWH": [
+        [
+          18,
+          120,
+          390,
+          844
+        ],
+        [
+          432,
+          120,
+          390,
+          844
+        ]
+      ]
+    },
+    {
+      "key": "cable1",
+      "before": {
+        "path": "docs/validation/day5a-plus/screenshots/cable-v2-order5-1of3-390x844.jpg",
+        "dimensions": [
+          390,
+          844
+        ],
+        "bytes": 43947,
+        "sha256": "01a114a2116dc60aba0c47718e4ff0a79a74f50f7fe066d9db982c8411185745"
+      },
+      "after": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/cable-order5-1of3-v21-390x844.jpg",
+        "dimensions": [
+          390,
+          844
+        ],
+        "bytes": 45240,
+        "sha256": "2b1ae653b3408b4ec38a6f7a65d3f7a7c4441c91b721d227562bf9cf7cc3620c"
+      },
+      "observedStateDifference": "The successfully connected cable differs; timers and mistake totals also differ.",
+      "labels": [
+        "V2 | power connected | 1 / 3",
+        "V2.1 | display connected | 1 / 3"
+      ],
+      "output": {
+        "path": "docs/validation/day5a-plus/v21/comparisons/final-cable1-v2-to-v21.png",
+        "dimensions": [
+          840,
+          1020
+        ],
+        "bytes": 389673,
+        "sha256": "67a2ecf6a0fcabf1c131b9d4e5d6d470e92e634074c6503bb6bdf4ffd878eccf",
+        "embeddedSourcePixelsIdenticalAfterReopen": true
+      },
+      "status": "generated",
+      "sourceRectanglesXYWH": [
+        [
+          18,
+          120,
+          390,
+          844
+        ],
+        [
+          432,
+          120,
+          390,
+          844
+        ]
+      ]
+    },
+    {
+      "key": "result",
+      "before": {
+        "path": "docs/validation/day5a-plus/screenshots/result-v2-390x844.jpg",
+        "dimensions": [
+          390,
+          844
+        ],
+        "bytes": 33594,
+        "sha256": "39075bd9102112183367916358fe9a63c0455ab2c333d62fe105117ce68db82d"
+      },
+      "after": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/result-order1-v21-390x844.jpg",
+        "dimensions": [
+          390,
+          844
+        ],
+        "bytes": 36570,
+        "sha256": "7cc77db420f1f1ea5963734cc6ee1f7e0b8fb90d4f1ba8aa758fad89cc9d267d"
+      },
+      "observedStateDifference": "V2 is79.9s/1mistake/110points/1star; V2.1 is499.2s/2mistakes/100points/1star, including browser/tool timeout dwell.",
+      "labels": [
+        "V2 | 79.9s / 1 error / 110 / 1 star",
+        "V2.1 | 499.2s / 2 errors / 100 / 1 star"
+      ],
+      "output": {
+        "path": "docs/validation/day5a-plus/v21/comparisons/final-result-v2-to-v21.png",
+        "dimensions": [
+          840,
+          1020
+        ],
+        "bytes": 364244,
+        "sha256": "4e06e143e9b12af0c4f882013ad00c8ef498c1377bbe9319deb32512d237db76",
+        "embeddedSourcePixelsIdenticalAfterReopen": true
+      },
+      "status": "generated",
+      "sourceRectanglesXYWH": [
+        [
+          18,
+          120,
+          390,
+          844
+        ],
+        [
+          432,
+          120,
+          390,
+          844
+        ]
+      ]
+    },
+    {
+      "key": "clean57-horizontal",
+      "before": {
+        "path": "docs/validation/day5a-plus/screenshots/clean-v2-order4-partial-390x844.jpg",
+        "dimensions": [
+          390,
+          844
+        ],
+        "bytes": 48346,
+        "sha256": "4ae16c06da151a6466ca7d2379d478c71168d12477d7fb6ef5193adec383e87e"
+      },
+      "after": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/clean-order4-horizontal57-v21-390x844.jpg",
+        "dimensions": [
+          390,
+          844
+        ],
+        "bytes": 47783,
+        "sha256": "0271f1437019a457dbb4fcfb2cd3f74569b8a5640638bfc377f25ef683c4b17c"
+      },
+      "observedStateDifference": "More comparable horizontal wiping style, not identical recorded input. A long straight wipe still produces a band-shaped boundary; V2.1 uses soft scattered dust rather than visible logic cells.",
+      "labels": [
+        "V2 | 57% | row-oriented path",
+        "V2.1 | 57% | two horizontal rows"
+      ],
+      "output": {
+        "path": "docs/validation/day5a-plus/v21/comparisons/final-clean57-horizontal-v2-to-v21.png",
+        "dimensions": [
+          840,
+          1020
+        ],
+        "bytes": 379826,
+        "sha256": "ba5c035a183d2f14e8c3d6edc0b05f36761c0abfb56c739c72958cb36fe2afd9",
+        "embeddedSourcePixelsIdenticalAfterReopen": true
+      },
+      "status": "generated",
+      "sourceRectanglesXYWH": [
+        [
+          18,
+          120,
+          390,
+          844
+        ],
+        [
+          432,
+          120,
+          390,
+          844
+        ]
+      ]
+    }
+  ],
+  "lastSnapSequence": null,
+  "sixScreenContact": {
+    "sources": [
+      {
+        "path": "docs/validation/day5a-plus/v21/screenshots/home-v21-390x844.jpg",
+        "dimensions": [
+          390,
+          844
+        ],
+        "bytes": 55473,
+        "sha256": "4f8933730226d1acdb1982e7def4e3035285da4250193c7ba566e1e9dc562454",
+        "thumbnailDimensions": [
+          260,
+          563
+        ],
+        "thumbnailRectangleXYWH": [
+          16,
+          80,
+          260,
+          563
+        ]
+      },
+      {
+        "path": "docs/validation/day5a-plus/v21/screenshots/drag-order1-v21-390x844.jpg",
+        "dimensions": [
+          390,
+          844
+        ],
+        "bytes": 48797,
+        "sha256": "743dea6d4e9dbf2b1269d6f0f3e780ad74cddcb7a20faee555927a982a204ed5",
+        "thumbnailDimensions": [
+          260,
+          563
+        ],
+        "thumbnailRectangleXYWH": [
+          292,
+          80,
+          260,
+          563
+        ]
+      },
+      {
+        "path": "docs/validation/day5a-plus/v21/screenshots/cable-order5-1of3-v21-390x844.jpg",
+        "dimensions": [
+          390,
+          844
+        ],
+        "bytes": 45240,
+        "sha256": "2b1ae653b3408b4ec38a6f7a65d3f7a7c4441c91b721d227562bf9cf7cc3620c",
+        "thumbnailDimensions": [
+          260,
+          563
+        ],
+        "thumbnailRectangleXYWH": [
+          568,
+          80,
+          260,
+          563
+        ]
+      },
+      {
+        "path": "docs/validation/day5a-plus/v21/screenshots/clean-order4-about57pct-v21-390x844.jpg",
+        "dimensions": [
+          390,
+          844
+        ],
+        "bytes": 47870,
+        "sha256": "3218ca8bee5223c9f1cf89db90c3605a9db0e706f44e4c867506d24abd78277e",
+        "thumbnailDimensions": [
+          260,
+          563
+        ],
+        "thumbnailRectangleXYWH": [
+          844,
+          80,
+          260,
+          563
+        ]
+      },
+      {
+        "path": "docs/validation/day5a-plus/v21/screenshots/result-order1-v21-390x844.jpg",
+        "dimensions": [
+          390,
+          844
+        ],
+        "bytes": 36570,
+        "sha256": "7cc77db420f1f1ea5963734cc6ee1f7e0b8fb90d4f1ba8aa758fad89cc9d267d",
+        "thumbnailDimensions": [
+          260,
+          563
+        ],
+        "thumbnailRectangleXYWH": [
+          1120,
+          80,
+          260,
+          563
+        ]
+      },
+      {
+        "path": "docs/validation/day5a-plus/v21/screenshots/final-v21-390x844.jpg",
+        "dimensions": [
+          390,
+          844
+        ],
+        "bytes": 55827,
+        "sha256": "b59888b392d674ad455c31dabb3e4592ba96fac711f31dbc05ef582a15cf437c",
+        "thumbnailDimensions": [
+          260,
+          563
+        ],
+        "thumbnailRectangleXYWH": [
+          1396,
+          80,
+          260,
+          563
+        ]
+      }
+    ],
+    "policy": "Six complete390x844 viewports uniformly thumbnailed; no crop or retouch. Read original files or native comparisons for pixels/text.",
+    "sourceRectanglesRetainFullViewport": true,
+    "thumbnailResampling": "Pillow LANCZOS",
+    "output": {
+      "path": "docs/validation/day5a-plus/v21/comparisons/final-six-screen-contact.png",
+      "dimensions": [
+        1672,
+        699
+      ],
+      "bytes": 714874,
+      "sha256": "3b56e1db86d2bc3624b622cedc93751fc9775a1d764dd82de2e93266e3cb58d1",
+      "embeddedThumbnailPixelsIdenticalAfterReopen": true
+    },
+    "status": "generated",
+    "gamePixelsResampledOnlyForThisOverview": true
+  },
+  "inventoryStatus": "Multi-viewport inventory intentionally deferred; run --inventory-only after all sizes are ready."
+}

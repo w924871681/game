@@ -1,0 +1,28 @@
+{
+  "label": "final-sdk-self",
+  "command": [
+    "C:\\Program Files\\nodejs\\npm.cmd",
+    "run",
+    "check:cocos",
+    "--",
+    "--check-sdk-declarations"
+  ],
+  "cwd": "D:\\game",
+  "startedAtUtc": "2026-10-15T12:36:26.838589+00:00",
+  "endedAtUtc": "2026-10-15T12:36:32.086619+00:00",
+  "exitCode": 1,
+  "log": {
+    "path": "docs/validation/day5a-plus/v21/final-sdk-self.log",
+    "bytes": 20239,
+    "sha256": "0c7e820ec40db44c325249060e015fbab1e88f3ca67536f9c10240ab473565d1"
+  },
+  "behaviorGroups": [],
+  "sdkDiagnostics": [],
+  "diagnosticErrorLineCount": 102,
+  "typescriptOutput": [
+    "TypeScript 5.8.2: C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\app.asar.unpacked\\node_modules\\typescript\\lib\\typescript.js"
+  ],
+  "passLineCount": 0,
+  "newVisualGroups": 0,
+  "newCleanGroups": 0
+}

@@ -1,0 +1,1231 @@
+{
+  "schemaVersion": 1,
+  "phase": "full",
+  "generator": "tools/art/v21/generate_v21.py",
+  "method": "Original shared connector Canvas geometry -> SVG/Pillow PNG; original device PNG integer crops plus matching SVG viewBox crops",
+  "licensing": "Original DeskRescue project geometry, no third-party downloaded assets or new repository license",
+  "runtimeBindingPolicy": "Keep existing ports/... and devices/... keys in VisualAssetRegistry; bind these new SpriteFrames to them",
+  "protectedFileCount": 154,
+  "protectedChanges": [],
+  "runtimeAssets": [
+    {
+      "key": "v21/ports/power-head",
+      "bindingKey": "ports/power-head",
+      "phase": "sample",
+      "path": "assets/art/v21/ports/power-head.png",
+      "source": "tools/art/v21/sources/ports/power-head.svg",
+      "sourceSha256": "6e4c7c061a2e2f7e6eafd17195901b53dfb51c5579df35a2eac7cdd9aad6ba0b",
+      "width": 256,
+      "height": 160,
+      "mode": "RGBA",
+      "bytes": 16333,
+      "sha256": "ca0e55fcc0731ea65422631fd0282b5419e9470beca2aca56df0670205d369d2",
+      "features": [
+        "power keyed connector geometry",
+        "Upper-left highlight and dark bevel",
+        "Large readable pins or recessed slot"
+      ],
+      "direction": "head inserts to the right",
+      "origin": "Original project SVG geometry; no image API, downloaded art, text, logos or emojis"
+    },
+    {
+      "key": "v21/ports/power-port",
+      "bindingKey": "ports/power-port",
+      "phase": "sample",
+      "path": "assets/art/v21/ports/power-port.png",
+      "source": "tools/art/v21/sources/ports/power-port.svg",
+      "sourceSha256": "47914f0297712360d089c168e97243424b23398b2c82da45fcaf64704d575cce",
+      "width": 256,
+      "height": 160,
+      "mode": "RGBA",
+      "bytes": 11171,
+      "sha256": "8b1af6a4fea900baf1336e0a4500cb95b7a1d39a83c494babd7522c82f8a6ee3",
+      "features": [
+        "power keyed connector geometry",
+        "Upper-left highlight and dark bevel",
+        "Large readable pins or recessed slot"
+      ],
+      "direction": "socket face to the left, thickness recedes right",
+      "origin": "Original project SVG geometry; no image API, downloaded art, text, logos or emojis"
+    },
+    {
+      "key": "v21/ports/display-head",
+      "bindingKey": "ports/display-head",
+      "phase": "sample",
+      "path": "assets/art/v21/ports/display-head.png",
+      "source": "tools/art/v21/sources/ports/display-head.svg",
+      "sourceSha256": "8cf42e0aac101fec1e540a658c6b61309b35a67f8fdbe6e4374d567d6419635e",
+      "width": 256,
+      "height": 160,
+      "mode": "RGBA",
+      "bytes": 15712,
+      "sha256": "cd288cff5b953dfccbcdf5594bc6919b8c59f9fd6cc78396537486d7e41856b9",
+      "features": [
+        "display keyed connector geometry",
+        "Upper-left highlight and dark bevel",
+        "Large readable pins or recessed slot"
+      ],
+      "direction": "head inserts to the right",
+      "origin": "Original project SVG geometry; no image API, downloaded art, text, logos or emojis"
+    },
+    {
+      "key": "v21/ports/display-port",
+      "bindingKey": "ports/display-port",
+      "phase": "sample",
+      "path": "assets/art/v21/ports/display-port.png",
+      "source": "tools/art/v21/sources/ports/display-port.svg",
+      "sourceSha256": "34eee8691846b1f847134e90467bb5c7b487aff2b03cac34469dceca3613ab70",
+      "width": 256,
+      "height": 160,
+      "mode": "RGBA",
+      "bytes": 11891,
+      "sha256": "c03e4270420b8b3508ac716d2d63e03f129ec5c5dbea32ac78e5c64b69ef785a",
+      "features": [
+        "display keyed connector geometry",
+        "Upper-left highlight and dark bevel",
+        "Large readable pins or recessed slot"
+      ],
+      "direction": "socket face to the left, thickness recedes right",
+      "origin": "Original project SVG geometry; no image API, downloaded art, text, logos or emojis"
+    },
+    {
+      "key": "v21/ports/network-head",
+      "bindingKey": "ports/network-head",
+      "phase": "sample",
+      "path": "assets/art/v21/ports/network-head.png",
+      "source": "tools/art/v21/sources/ports/network-head.svg",
+      "sourceSha256": "80d02d53334af6dc1b8061984c13240096a1a94ba5520b8939e713902b45197d",
+      "width": 256,
+      "height": 160,
+      "mode": "RGBA",
+      "bytes": 18400,
+      "sha256": "63f1f455c800a276f2114eefac60285eb729c84a5f68c6502709fee2dc96e5dc",
+      "features": [
+        "network keyed connector geometry",
+        "Upper-left highlight and dark bevel",
+        "Large readable pins or recessed slot"
+      ],
+      "direction": "head inserts to the right",
+      "origin": "Original project SVG geometry; no image API, downloaded art, text, logos or emojis"
+    },
+    {
+      "key": "v21/ports/network-port",
+      "bindingKey": "ports/network-port",
+      "phase": "sample",
+      "path": "assets/art/v21/ports/network-port.png",
+      "source": "tools/art/v21/sources/ports/network-port.svg",
+      "sourceSha256": "4301596a6a2e374b6c274eaa25b0e72cb85f4828b468248e615823d1892d6419",
+      "width": 256,
+      "height": 160,
+      "mode": "RGBA",
+      "bytes": 10081,
+      "sha256": "2445ffdf50d869e93b3792fdda622ef5e0164bdba0e19c415406c37d831065e0",
+      "features": [
+        "network keyed connector geometry",
+        "Upper-left highlight and dark bevel",
+        "Large readable pins or recessed slot"
+      ],
+      "direction": "socket face to the left, thickness recedes right",
+      "origin": "Original project SVG geometry; no image API, downloaded art, text, logos or emojis"
+    },
+    {
+      "key": "v21/ports/audio-head",
+      "bindingKey": "ports/audio-head",
+      "phase": "full",
+      "path": "assets/art/v21/ports/audio-head.png",
+      "source": "tools/art/v21/sources/ports/audio-head.svg",
+      "sourceSha256": "b6967af0334a221b568a9e7c928208fa0afd5b9f3197eb04faf5ac2cdd1c35aa",
+      "width": 256,
+      "height": 160,
+      "mode": "RGBA",
+      "bytes": 11353,
+      "sha256": "5a5c018a567dbb6b59509f427a3f24972e8974fc0634eded38a1c0e554cf678b",
+      "features": [
+        "audio keyed connector geometry",
+        "Upper-left highlight and dark bevel",
+        "Large readable pins or recessed slot"
+      ],
+      "direction": "head inserts to the right",
+      "origin": "Original project SVG geometry; no image API, downloaded art, text, logos or emojis"
+    },
+    {
+      "key": "v21/ports/audio-port",
+      "bindingKey": "ports/audio-port",
+      "phase": "full",
+      "path": "assets/art/v21/ports/audio-port.png",
+      "source": "tools/art/v21/sources/ports/audio-port.svg",
+      "sourceSha256": "cf0e05fd147b2a98b7a416c0e1d21148b1102aef747d7269d7e35e22ab289de5",
+      "width": 256,
+      "height": 160,
+      "mode": "RGBA",
+      "bytes": 20303,
+      "sha256": "2907018343f7f0ffdf9b6cc151e606ff95ad343938139cdf5dba10eef6d2568b",
+      "features": [
+        "audio keyed connector geometry",
+        "Upper-left highlight and dark bevel",
+        "Large readable pins or recessed slot"
+      ],
+      "direction": "socket face to the left, thickness recedes right",
+      "origin": "Original project SVG geometry; no image API, downloaded art, text, logos or emojis"
+    },
+    {
+      "key": "v21/ports/usb-head",
+      "bindingKey": "ports/usb-head",
+      "phase": "full",
+      "path": "assets/art/v21/ports/usb-head.png",
+      "source": "tools/art/v21/sources/ports/usb-head.svg",
+      "sourceSha256": "e3d10c3e4f8dce862bb9e175dc695d3386689a6a59b78136c9f099ee12f1565e",
+      "width": 256,
+      "height": 160,
+      "mode": "RGBA",
+      "bytes": 14706,
+      "sha256": "fa6dd24f9f60ea1c96fd5b2f168ebd3e9ebf430f11b9aef26a3d1dbc3d4f340d",
+      "features": [
+        "usb keyed connector geometry",
+        "Upper-left highlight and dark bevel",
+        "Large readable pins or recessed slot"
+      ],
+      "direction": "head inserts to the right",
+      "origin": "Original project SVG geometry; no image API, downloaded art, text, logos or emojis"
+    },
+    {
+      "key": "v21/ports/usb-port",
+      "bindingKey": "ports/usb-port",
+      "phase": "full",
+      "path": "assets/art/v21/ports/usb-port.png",
+      "source": "tools/art/v21/sources/ports/usb-port.svg",
+      "sourceSha256": "e3986b0b748c6488d7bc4c0e4d0e2eb3dccb035705586ffaf791e721371349e2",
+      "width": 256,
+      "height": 160,
+      "mode": "RGBA",
+      "bytes": 10037,
+      "sha256": "381e2b29766bcb719e0597f68bd8c8b346fa398cda033ac9141c1601463bbd4c",
+      "features": [
+        "usb keyed connector geometry",
+        "Upper-left highlight and dark bevel",
+        "Large readable pins or recessed slot"
+      ],
+      "direction": "socket face to the left, thickness recedes right",
+      "origin": "Original project SVG geometry; no image API, downloaded art, text, logos or emojis"
+    },
+    {
+      "key": "v21/ports/motherboard-head",
+      "bindingKey": "ports/motherboard-head",
+      "phase": "full",
+      "path": "assets/art/v21/ports/motherboard-head.png",
+      "source": "tools/art/v21/sources/ports/motherboard-head.svg",
+      "sourceSha256": "409dcd47158597f813d6f35c72e42bef92b19900d898060f4b5b45b6445ee20c",
+      "width": 256,
+      "height": 160,
+      "mode": "RGBA",
+      "bytes": 16644,
+      "sha256": "52967fa2ae3d2bc068eed5877a060fa1e96f19ad9cf812a3b35126521a52d1c0",
+      "features": [
+        "motherboard keyed connector geometry",
+        "Upper-left highlight and dark bevel",
+        "Large readable pins or recessed slot"
+      ],
+      "direction": "head inserts to the right",
+      "origin": "Original project SVG geometry; no image API, downloaded art, text, logos or emojis"
+    },
+    {
+      "key": "v21/ports/motherboard-port",
+      "bindingKey": "ports/motherboard-port",
+      "phase": "full",
+      "path": "assets/art/v21/ports/motherboard-port.png",
+      "source": "tools/art/v21/sources/ports/motherboard-port.svg",
+      "sourceSha256": "1dfaaed7a44e3cebc5412615a717cc576732ca05ddbb5e596a47e3b5ea8c7767",
+      "width": 256,
+      "height": 160,
+      "mode": "RGBA",
+      "bytes": 10901,
+      "sha256": "c1cb26730e76b12a26dfad8b0f9241fb2fbdbff57d857ec7b7dbcdc0cca7eb73",
+      "features": [
+        "motherboard keyed connector geometry",
+        "Upper-left highlight and dark bevel",
+        "Large readable pins or recessed slot"
+      ],
+      "direction": "socket face to the left, thickness recedes right",
+      "origin": "Original project SVG geometry; no image API, downloaded art, text, logos or emojis"
+    },
+    {
+      "key": "v21/ports/cpu-head",
+      "bindingKey": "ports/cpu-head",
+      "phase": "full",
+      "path": "assets/art/v21/ports/cpu-head.png",
+      "source": "tools/art/v21/sources/ports/cpu-head.svg",
+      "sourceSha256": "cd4771798c0721b4309642a060a76d8d473d325e2a28efee1a8df0c305614049",
+      "width": 256,
+      "height": 160,
+      "mode": "RGBA",
+      "bytes": 14810,
+      "sha256": "5a2b389eccb9d040e5221169517b38769b55caff1b6eeb2c08c90a703b00e0ca",
+      "features": [
+        "cpu keyed connector geometry",
+        "Upper-left highlight and dark bevel",
+        "Large readable pins or recessed slot"
+      ],
+      "direction": "head inserts to the right",
+      "origin": "Original project SVG geometry; no image API, downloaded art, text, logos or emojis"
+    },
+    {
+      "key": "v21/ports/cpu-port",
+      "bindingKey": "ports/cpu-port",
+      "phase": "full",
+      "path": "assets/art/v21/ports/cpu-port.png",
+      "source": "tools/art/v21/sources/ports/cpu-port.svg",
+      "sourceSha256": "f45ed0fe92eee343510d08e02d4ad4d7ca2fc838dcde63da1506db0f80af0bc2",
+      "width": 256,
+      "height": 160,
+      "mode": "RGBA",
+      "bytes": 10717,
+      "sha256": "b95129e5398a894d95a86aaa561199b19ddb5c76ac98b5a0afa98ac32d0671c6",
+      "features": [
+        "cpu keyed connector geometry",
+        "Upper-left highlight and dark bevel",
+        "Large readable pins or recessed slot"
+      ],
+      "direction": "socket face to the left, thickness recedes right",
+      "origin": "Original project SVG geometry; no image API, downloaded art, text, logos or emojis"
+    },
+    {
+      "key": "v21/ports/sata-head",
+      "bindingKey": "ports/sata-head",
+      "phase": "full",
+      "path": "assets/art/v21/ports/sata-head.png",
+      "source": "tools/art/v21/sources/ports/sata-head.svg",
+      "sourceSha256": "73c3eed7e3f744e25519998f42a0d606144c5159041f8917eacc8328d306359b",
+      "width": 256,
+      "height": 160,
+      "mode": "RGBA",
+      "bytes": 15057,
+      "sha256": "288fc408244f6112ccb76f2b4a19167a51cbee18a2b894ad7493d152b6e72c1d",
+      "features": [
+        "sata keyed connector geometry",
+        "Upper-left highlight and dark bevel",
+        "Large readable pins or recessed slot"
+      ],
+      "direction": "head inserts to the right",
+      "origin": "Original project SVG geometry; no image API, downloaded art, text, logos or emojis"
+    },
+    {
+      "key": "v21/ports/sata-port",
+      "bindingKey": "ports/sata-port",
+      "phase": "full",
+      "path": "assets/art/v21/ports/sata-port.png",
+      "source": "tools/art/v21/sources/ports/sata-port.svg",
+      "sourceSha256": "b822d9338f91f66176990671671f16d1d435174a60d18137c6870413eb3e3646",
+      "width": 256,
+      "height": 160,
+      "mode": "RGBA",
+      "bytes": 9428,
+      "sha256": "db92b0a7553d67f788c52f51e15487dd84800d516195547031d2cf7fefd83337",
+      "features": [
+        "sata keyed connector geometry",
+        "Upper-left highlight and dark bevel",
+        "Large readable pins or recessed slot"
+      ],
+      "direction": "socket face to the left, thickness recedes right",
+      "origin": "Original project SVG geometry; no image API, downloaded art, text, logos or emojis"
+    },
+    {
+      "key": "v21/ports/fan-head",
+      "bindingKey": "ports/fan-head",
+      "phase": "full",
+      "path": "assets/art/v21/ports/fan-head.png",
+      "source": "tools/art/v21/sources/ports/fan-head.svg",
+      "sourceSha256": "31c26ff6f7f05d197553e107d9ca5d953e5c1f46b7ef19b073b7aaa0aab9273a",
+      "width": 256,
+      "height": 160,
+      "mode": "RGBA",
+      "bytes": 14783,
+      "sha256": "5c3f48b326b6ef57c4ab61c3ca8d30475dc82c0ae16757cd25d437dcc0ece5d7",
+      "features": [
+        "fan keyed connector geometry",
+        "Upper-left highlight and dark bevel",
+        "Large readable pins or recessed slot"
+      ],
+      "direction": "head inserts to the right",
+      "origin": "Original project SVG geometry; no image API, downloaded art, text, logos or emojis"
+    },
+    {
+      "key": "v21/ports/fan-port",
+      "bindingKey": "ports/fan-port",
+      "phase": "full",
+      "path": "assets/art/v21/ports/fan-port.png",
+      "source": "tools/art/v21/sources/ports/fan-port.svg",
+      "sourceSha256": "857192622c6881ef23ad444f380faa635a0a1849e1b07e2d1ccc820bf756ea40",
+      "width": 256,
+      "height": 160,
+      "mode": "RGBA",
+      "bytes": 10531,
+      "sha256": "8e2f5eba28ec8bc24368bd17bf64fb7a0aa3b70df51e7b138a41ccd9c061b704",
+      "features": [
+        "fan keyed connector geometry",
+        "Upper-left highlight and dark bevel",
+        "Large readable pins or recessed slot"
+      ],
+      "direction": "socket face to the left, thickness recedes right",
+      "origin": "Original project SVG geometry; no image API, downloaded art, text, logos or emojis"
+    },
+    {
+      "key": "v21/devices/mouse",
+      "bindingKey": "devices/mouse",
+      "phase": "full",
+      "path": "assets/art/v21/devices/mouse.png",
+      "source": "tools/art/v21/sources/devices/mouse.svg",
+      "sourceSha256": "3278eb31fd6b8bd0b7548977996c768ba2a0ea4509664b57975c77980412bab0",
+      "width": 194,
+      "height": 243,
+      "mode": "RGBA",
+      "bytes": 20954,
+      "sha256": "e7a2b84b11426214613026a1c1e814befa1a6830856141074e6ffc872ece12c2",
+      "features": [
+        "Egg-shaped shell",
+        "Split buttons",
+        "Notched scroll wheel",
+        "Tighter transparent margin; original device pixels and shape preserved"
+      ],
+      "origin": "Derived from existing original project device PNG/SVG; no new external image material",
+      "method": "Lossless integer crop of original RGBA PNG; matching SVG viewBox crop without changing geometry",
+      "originalPng": "assets/art/devices/mouse.png",
+      "originalPngSha256": "fc2d7ac7522722e75cd22775f28c34782b88df30dad3974f3b8bbef8217266bc",
+      "originalSvg": "tools/art/sources/devices/mouse.svg",
+      "originalSvgSha256": "2987b53f436a2092cebb053da412078e30f3673d92cb07558d9deb8ab47fe6f6",
+      "originalSize": [
+        384,
+        256
+      ],
+      "alphaContentBounds": [
+        101,
+        13,
+        283,
+        244
+      ],
+      "alphaThreshold": 24,
+      "transparentPaddingPixels": 6,
+      "cropBox": [
+        95,
+        7,
+        289,
+        250
+      ],
+      "croppedPixelsPreserved": true
+    },
+    {
+      "key": "v21/devices/keyboard",
+      "bindingKey": "devices/keyboard",
+      "phase": "full",
+      "path": "assets/art/v21/devices/keyboard.png",
+      "source": "tools/art/v21/sources/devices/keyboard.svg",
+      "sourceSha256": "a80a9aae82cfb5dd7f9f2b3c60d72fc374357e618a211c61b3fff1828070a0b9",
+      "width": 365,
+      "height": 196,
+      "mode": "RGBA",
+      "bytes": 10620,
+      "sha256": "ff149c0139a91282b044607d7aaf0f4fa212b8921435b671163a7300b95cb093",
+      "features": [
+        "Wide rounded shell",
+        "Three rows of keycaps",
+        "Space bar and indicator lights",
+        "Tighter transparent margin; original device pixels and shape preserved"
+      ],
+      "origin": "Derived from existing original project device PNG/SVG; no new external image material",
+      "method": "Lossless integer crop of original RGBA PNG; matching SVG viewBox crop without changing geometry",
+      "originalPng": "assets/art/devices/keyboard.png",
+      "originalPngSha256": "a338d4f3d5d003055ab5155fb3526a47f54b5a5af0e82bc98e244bd0226c33ef",
+      "originalSvg": "tools/art/sources/devices/keyboard.svg",
+      "originalSvgSha256": "5788e7f81318d3eb2eb8584e85840525af98f523ee447ddeceb2190541f7a71f",
+      "originalSize": [
+        384,
+        256
+      ],
+      "alphaContentBounds": [
+        16,
+        42,
+        369,
+        226
+      ],
+      "alphaThreshold": 24,
+      "transparentPaddingPixels": 6,
+      "cropBox": [
+        10,
+        36,
+        375,
+        232
+      ],
+      "croppedPixelsPreserved": true
+    },
+    {
+      "key": "v21/devices/headset",
+      "bindingKey": "devices/headset",
+      "phase": "full",
+      "path": "assets/art/v21/devices/headset.png",
+      "source": "tools/art/v21/sources/devices/headset.svg",
+      "sourceSha256": "15003a2a6f804715dc788808cbc58db4d47997bfdbac4db7800a6a3f290e207f",
+      "width": 265,
+      "height": 244,
+      "mode": "RGBA",
+      "bytes": 25891,
+      "sha256": "266d602242fa513e88db3532f6ecc3e103566e6ed3c4ebc32644ca06e64fce31",
+      "features": [
+        "Padded arched headband",
+        "Two earcups",
+        "Microphone boom",
+        "Tighter transparent margin; original device pixels and shape preserved"
+      ],
+      "origin": "Derived from existing original project device PNG/SVG; no new external image material",
+      "method": "Lossless integer crop of original RGBA PNG; matching SVG viewBox crop without changing geometry",
+      "originalPng": "assets/art/devices/headset.png",
+      "originalPngSha256": "787609e11218bb6d8eac252f023579cfc9d0bf2946344eecf3741fa97a57f561",
+      "originalSvg": "tools/art/sources/devices/headset.svg",
+      "originalSvgSha256": "a312aa252769ece35080bd5047dcb173affb5b09fa14c708d725ae8dd881ba38",
+      "originalSize": [
+        384,
+        256
+      ],
+      "alphaContentBounds": [
+        66,
+        9,
+        319,
+        241
+      ],
+      "alphaThreshold": 24,
+      "transparentPaddingPixels": 6,
+      "cropBox": [
+        60,
+        3,
+        325,
+        247
+      ],
+      "croppedPixelsPreserved": true
+    },
+    {
+      "key": "v21/devices/power",
+      "bindingKey": "devices/power",
+      "phase": "full",
+      "path": "assets/art/v21/devices/power.png",
+      "source": "tools/art/v21/sources/devices/power.svg",
+      "sourceSha256": "ed78766d7c94ba8c4efd9d9760972f61b9118a0f87718ea37e00af446dd13365",
+      "width": 303,
+      "height": 222,
+      "mode": "RGBA",
+      "bytes": 21164,
+      "sha256": "8e7d1797fbe001e53fa9db56f7e93f856c82877c99bfe4eb10ecbf5c14be8ec8",
+      "features": [
+        "Two-pin electrical plug",
+        "Looped flexible cable",
+        "Ribbed strain relief",
+        "Tighter transparent margin; original device pixels and shape preserved"
+      ],
+      "origin": "Derived from existing original project device PNG/SVG; no new external image material",
+      "method": "Lossless integer crop of original RGBA PNG; matching SVG viewBox crop without changing geometry",
+      "originalPng": "assets/art/devices/power.png",
+      "originalPngSha256": "c848aa9552e3c5a2aa1dfbddd2955ba8ff28911be1eb1829ddfeaace3c625de1",
+      "originalSvg": "tools/art/sources/devices/power.svg",
+      "originalSvgSha256": "77d20a7f597efc97e43a4a2c1264e7cc6f3c83aa40aa06f9ed364835fad4e62d",
+      "originalSize": [
+        384,
+        256
+      ],
+      "alphaContentBounds": [
+        51,
+        26,
+        342,
+        236
+      ],
+      "alphaThreshold": 24,
+      "transparentPaddingPixels": 6,
+      "cropBox": [
+        45,
+        20,
+        348,
+        242
+      ],
+      "croppedPixelsPreserved": true
+    },
+    {
+      "key": "v21/devices/network",
+      "bindingKey": "devices/network",
+      "phase": "full",
+      "path": "assets/art/v21/devices/network.png",
+      "source": "tools/art/v21/sources/devices/network.svg",
+      "sourceSha256": "0f43aed105928b4617d5fa82a7c15803de92e853a6a9bb22c19213dbab9ce7e6",
+      "width": 302,
+      "height": 204,
+      "mode": "RGBA",
+      "bytes": 22425,
+      "sha256": "41009d4e4d5e259de20ab64d563db42e4702484a2630e4e6d26f776494e4a1e4",
+      "features": [
+        "Clear RJ45 rectangular plug",
+        "Eight gold contacts",
+        "Raised latch and cable",
+        "Tighter transparent margin; original device pixels and shape preserved"
+      ],
+      "origin": "Derived from existing original project device PNG/SVG; no new external image material",
+      "method": "Lossless integer crop of original RGBA PNG; matching SVG viewBox crop without changing geometry",
+      "originalPng": "assets/art/devices/network.png",
+      "originalPngSha256": "e48aa995d7ba9fe8a7d73fc2b52aaebff66cf1e3d90c7a71a3f940e83bf97eea",
+      "originalSvg": "tools/art/sources/devices/network.svg",
+      "originalSvgSha256": "b8eb919b32481b8dbf51e6df96d606f5bab0177691b77f5e6aeff040828cb19f",
+      "originalSize": [
+        384,
+        256
+      ],
+      "alphaContentBounds": [
+        44,
+        41,
+        334,
+        233
+      ],
+      "alphaThreshold": 24,
+      "transparentPaddingPixels": 6,
+      "cropBox": [
+        38,
+        35,
+        340,
+        239
+      ],
+      "croppedPixelsPreserved": true
+    },
+    {
+      "key": "v21/devices/usb",
+      "bindingKey": "devices/usb",
+      "phase": "full",
+      "path": "assets/art/v21/devices/usb.png",
+      "source": "tools/art/v21/sources/devices/usb.svg",
+      "sourceSha256": "d0002ac8729c2ec1e7d0b6dc0be4c659b89058d15ad4bb36a051865dd290d64e",
+      "width": 305,
+      "height": 167,
+      "mode": "RGBA",
+      "bytes": 21633,
+      "sha256": "c34bec74c6aaa408f1e09f4445225c5a175b7ba7d429776e4264f56d003035ed",
+      "features": [
+        "USB-A metal tongue",
+        "Two locking holes",
+        "Moulded shell and looped cable",
+        "Tighter transparent margin; original device pixels and shape preserved"
+      ],
+      "origin": "Derived from existing original project device PNG/SVG; no new external image material",
+      "method": "Lossless integer crop of original RGBA PNG; matching SVG viewBox crop without changing geometry",
+      "originalPng": "assets/art/devices/usb.png",
+      "originalPngSha256": "a4a0a0d0f6d30a0ab4de669105efce6b00fc694186bbde5f966b9d743e542c00",
+      "originalSvg": "tools/art/sources/devices/usb.svg",
+      "originalSvgSha256": "8505c9de13982adb6a6d4904d1f4b1834158bed599b28b3e9ef5d4cc1b66c7af",
+      "originalSize": [
+        384,
+        256
+      ],
+      "alphaContentBounds": [
+        37,
+        79,
+        330,
+        234
+      ],
+      "alphaThreshold": 24,
+      "transparentPaddingPixels": 6,
+      "cropBox": [
+        31,
+        73,
+        336,
+        240
+      ],
+      "croppedPixelsPreserved": true
+    },
+    {
+      "key": "v21/devices/router",
+      "bindingKey": "devices/router",
+      "phase": "full",
+      "path": "assets/art/v21/devices/router.png",
+      "source": "tools/art/v21/sources/devices/router.svg",
+      "sourceSha256": "605a196cdd6708fdf91e42051798d024f54837c0f5d08ef1ad853edf6854ca1c",
+      "width": 329,
+      "height": 233,
+      "mode": "RGBA",
+      "bytes": 12705,
+      "sha256": "6ef036425e87322ffd413911aac49c200c7522339ec6c2e965f6af8f5b7d3578",
+      "features": [
+        "Twin raised antennas",
+        "Low router enclosure",
+        "Status lights and vent slots",
+        "Tighter transparent margin; original device pixels and shape preserved"
+      ],
+      "origin": "Derived from existing original project device PNG/SVG; no new external image material",
+      "method": "Lossless integer crop of original RGBA PNG; matching SVG viewBox crop without changing geometry",
+      "originalPng": "assets/art/devices/router.png",
+      "originalPngSha256": "c3a6df721184633c7d63ed93a56b0b125f5f1717c2eb98f44436f661d54847bc",
+      "originalSvg": "tools/art/sources/devices/router.svg",
+      "originalSvgSha256": "5570848dbe260bd77f76dc858547d80859ac8ce9cb8aabbf93386094266d34a9",
+      "originalSize": [
+        384,
+        256
+      ],
+      "alphaContentBounds": [
+        36,
+        20,
+        353,
+        241
+      ],
+      "alphaThreshold": 24,
+      "transparentPaddingPixels": 6,
+      "cropBox": [
+        30,
+        14,
+        359,
+        247
+      ],
+      "croppedPixelsPreserved": true
+    },
+    {
+      "key": "v21/devices/controller",
+      "bindingKey": "devices/controller",
+      "phase": "full",
+      "path": "assets/art/v21/devices/controller.png",
+      "source": "tools/art/v21/sources/devices/controller.svg",
+      "sourceSha256": "c1c7215395006834d54c3cae4ca68d6d61c97ae6c1fdcc09447ded182932a66b",
+      "width": 334,
+      "height": 185,
+      "mode": "RGBA",
+      "bytes": 23786,
+      "sha256": "8cded51523cabf595b10a3e551154e1746204a3b79792d52211f15f819af73fc",
+      "features": [
+        "Two hand grips",
+        "Twin analog sticks",
+        "Cross pad and four face buttons",
+        "Tighter transparent margin; original device pixels and shape preserved"
+      ],
+      "origin": "Derived from existing original project device PNG/SVG; no new external image material",
+      "method": "Lossless integer crop of original RGBA PNG; matching SVG viewBox crop without changing geometry",
+      "originalPng": "assets/art/devices/controller.png",
+      "originalPngSha256": "92fadc3f1475821c0fec80a2b2cba6499f9abccb9eacd002c68fb2a4604fd5eb",
+      "originalSvg": "tools/art/sources/devices/controller.svg",
+      "originalSvgSha256": "a7bdc2c2538a99438769264a4543f77cf50a509b36bd2f56834764f82427b7b4",
+      "originalSize": [
+        384,
+        256
+      ],
+      "alphaContentBounds": [
+        32,
+        64,
+        354,
+        237
+      ],
+      "alphaThreshold": 24,
+      "transparentPaddingPixels": 6,
+      "cropBox": [
+        26,
+        58,
+        360,
+        243
+      ],
+      "croppedPixelsPreserved": true
+    },
+    {
+      "key": "v21/devices/speaker",
+      "bindingKey": "devices/speaker",
+      "phase": "full",
+      "path": "assets/art/v21/devices/speaker.png",
+      "source": "tools/art/v21/sources/devices/speaker.svg",
+      "sourceSha256": "1c21e38d86c29661ad91e6d1916f2dc6ab0149d4cd3a5818462d64206e460465",
+      "width": 179,
+      "height": 238,
+      "mode": "RGBA",
+      "bytes": 20737,
+      "sha256": "4cf4651dbda69f40ef22ab0a3107a9a737accfb7f2ee7a1bf6ae68bc442f7c26",
+      "features": [
+        "Tall wooden enclosure",
+        "Two concentric speaker drivers",
+        "Inset dark front grille",
+        "Tighter transparent margin; original device pixels and shape preserved"
+      ],
+      "origin": "Derived from existing original project device PNG/SVG; no new external image material",
+      "method": "Lossless integer crop of original RGBA PNG; matching SVG viewBox crop without changing geometry",
+      "originalPng": "assets/art/devices/speaker.png",
+      "originalPngSha256": "df692226945f2090c8de1f447cbf14fd64dd8a7c3cdfe8848d83c193cd6f4588",
+      "originalSvg": "tools/art/sources/devices/speaker.svg",
+      "originalSvgSha256": "6aea4bc102aa783b59684fc407003ca1943fd42adace211987b79343699806f8",
+      "originalSize": [
+        384,
+        256
+      ],
+      "alphaContentBounds": [
+        109,
+        20,
+        276,
+        246
+      ],
+      "alphaThreshold": 24,
+      "transparentPaddingPixels": 6,
+      "cropBox": [
+        103,
+        14,
+        282,
+        252
+      ],
+      "croppedPixelsPreserved": true
+    },
+    {
+      "key": "v21/devices/battery",
+      "bindingKey": "devices/battery",
+      "phase": "full",
+      "path": "assets/art/v21/devices/battery.png",
+      "source": "tools/art/v21/sources/devices/battery.svg",
+      "sourceSha256": "745c22a927a7d517778da9bf904f4096825f77db3dceaac2b60310267ba62c3c",
+      "width": 302,
+      "height": 139,
+      "mode": "RGBA",
+      "bytes": 7825,
+      "sha256": "5383656bdfe5b3a750ad17e703a42facb26822dfe006858b952c9ac6eea12d24",
+      "features": [
+        "Rounded cylindrical cell",
+        "Raised positive terminal",
+        "Positive polarity symbol",
+        "Tighter transparent margin; original device pixels and shape preserved"
+      ],
+      "origin": "Derived from existing original project device PNG/SVG; no new external image material",
+      "method": "Lossless integer crop of original RGBA PNG; matching SVG viewBox crop without changing geometry",
+      "originalPng": "assets/art/devices/battery.png",
+      "originalPngSha256": "027f2204edeadedd974141417e6a678e77293f54647c3bc613c7b9720f5bc68b",
+      "originalSvg": "tools/art/sources/devices/battery.svg",
+      "originalSvgSha256": "8d40c410a48030e00b62e65e9fa7ffcc279b97f7ec5f84d0fe25cbd18aec18f5",
+      "originalSize": [
+        384,
+        256
+      ],
+      "alphaContentBounds": [
+        47,
+        71,
+        337,
+        198
+      ],
+      "alphaThreshold": 24,
+      "transparentPaddingPixels": 6,
+      "cropBox": [
+        41,
+        65,
+        343,
+        204
+      ],
+      "croppedPixelsPreserved": true
+    },
+    {
+      "key": "v21/devices/wheel",
+      "bindingKey": "devices/wheel",
+      "phase": "full",
+      "path": "assets/art/v21/devices/wheel.png",
+      "source": "tools/art/v21/sources/devices/wheel.svg",
+      "sourceSha256": "43c9c37ad6ac7556da4dcfc60c49468a492df20634ce39ae5385bc97b4f04154",
+      "width": 305,
+      "height": 196,
+      "mode": "RGBA",
+      "bytes": 15914,
+      "sha256": "d06380ad913ada4d25a816986265a848e5bcb0f00499e81eb1ab8adb98db1d03",
+      "features": [
+        "Ribbed rubber cylinder",
+        "Metal axle",
+        "Circular side hub",
+        "Tighter transparent margin; original device pixels and shape preserved"
+      ],
+      "origin": "Derived from existing original project device PNG/SVG; no new external image material",
+      "method": "Lossless integer crop of original RGBA PNG; matching SVG viewBox crop without changing geometry",
+      "originalPng": "assets/art/devices/wheel.png",
+      "originalPngSha256": "be109f0361f55e85accabb457e0be8aa825b6e558ac816000a3d17b46ecaa8cc",
+      "originalSvg": "tools/art/sources/devices/wheel.svg",
+      "originalSvgSha256": "faee27c0dfdc937f5ffa6092fef593980735fbbce74598097e0afc59f8a58343",
+      "originalSize": [
+        384,
+        256
+      ],
+      "alphaContentBounds": [
+        48,
+        49,
+        341,
+        233
+      ],
+      "alphaThreshold": 24,
+      "transparentPaddingPixels": 6,
+      "cropBox": [
+        42,
+        43,
+        347,
+        239
+      ],
+      "croppedPixelsPreserved": true
+    },
+    {
+      "key": "v21/devices/microphone",
+      "bindingKey": "devices/microphone",
+      "phase": "full",
+      "path": "assets/art/v21/devices/microphone.png",
+      "source": "tools/art/v21/sources/devices/microphone.svg",
+      "sourceSha256": "afc933fc43d61cede00288b8df849290a50c8f38cf54b014934308cf23f41556",
+      "width": 182,
+      "height": 232,
+      "mode": "RGBA",
+      "bytes": 14823,
+      "sha256": "3edf074167e11e471a9ae9328ae533c3705807458de9a9ffdd53776218cebe4e",
+      "features": [
+        "Capsule microphone grille",
+        "U-shaped suspension",
+        "Desktop stand",
+        "Tighter transparent margin; original device pixels and shape preserved"
+      ],
+      "origin": "Derived from existing original project device PNG/SVG; no new external image material",
+      "method": "Lossless integer crop of original RGBA PNG; matching SVG viewBox crop without changing geometry",
+      "originalPng": "assets/art/devices/microphone.png",
+      "originalPngSha256": "2ad527a2db44e51cb99f89be891dc790ee7168ac76b8ab8ad892d374cf375e3f",
+      "originalSvg": "tools/art/sources/devices/microphone.svg",
+      "originalSvgSha256": "5efcc15ea76956772fe5cefce63e0c8f564e749ae5a273a789eff8f8568ce3bf",
+      "originalSize": [
+        384,
+        256
+      ],
+      "alphaContentBounds": [
+        111,
+        23,
+        281,
+        243
+      ],
+      "alphaThreshold": 24,
+      "transparentPaddingPixels": 6,
+      "cropBox": [
+        105,
+        17,
+        287,
+        249
+      ],
+      "croppedPixelsPreserved": true
+    },
+    {
+      "key": "v21/devices/camera",
+      "bindingKey": "devices/camera",
+      "phase": "full",
+      "path": "assets/art/v21/devices/camera.png",
+      "source": "tools/art/v21/sources/devices/camera.svg",
+      "sourceSha256": "3cd1548e146df1fa93d3978454a2ad2085a8c16e51e1d10f4931e612edbd62a3",
+      "width": 283,
+      "height": 189,
+      "mode": "RGBA",
+      "bytes": 19413,
+      "sha256": "fbc16aef175bc5befdcda8d655659de3b93a0e025a099b8099857abd7dc2cb9b",
+      "features": [
+        "Wide webcam body",
+        "Large lens with highlight",
+        "Monitor mounting clip",
+        "Tighter transparent margin; original device pixels and shape preserved"
+      ],
+      "origin": "Derived from existing original project device PNG/SVG; no new external image material",
+      "method": "Lossless integer crop of original RGBA PNG; matching SVG viewBox crop without changing geometry",
+      "originalPng": "assets/art/devices/camera.png",
+      "originalPngSha256": "63e61689dcfe147a55ce68b9cf443867da17e71cec4c3d654bf256421a2a1ea4",
+      "originalSvg": "tools/art/sources/devices/camera.svg",
+      "originalSvgSha256": "58757a325acdd48ce83ebe355f1c806fca1110a81ebdd4a1cfecc7321c69855b",
+      "originalSize": [
+        384,
+        256
+      ],
+      "alphaContentBounds": [
+        56,
+        59,
+        327,
+        236
+      ],
+      "alphaThreshold": 24,
+      "transparentPaddingPixels": 6,
+      "cropBox": [
+        50,
+        53,
+        333,
+        242
+      ],
+      "croppedPixelsPreserved": true
+    },
+    {
+      "key": "v21/devices/light",
+      "bindingKey": "devices/light",
+      "phase": "full",
+      "path": "assets/art/v21/devices/light.png",
+      "source": "tools/art/v21/sources/devices/light.svg",
+      "sourceSha256": "4b1bbdf060abf08bfff477db569a40d350a4a487ec35c08477f210b99f374b3f",
+      "width": 197,
+      "height": 243,
+      "mode": "RGBA",
+      "bytes": 24426,
+      "sha256": "25050b78355cbb3870deaf141a11ccf4eca0a06f80dbea14725f49427f3fa4ae",
+      "features": [
+        "Circular light ring",
+        "Visible LED segments",
+        "Tripod support",
+        "Tighter transparent margin; original device pixels and shape preserved"
+      ],
+      "origin": "Derived from existing original project device PNG/SVG; no new external image material",
+      "method": "Lossless integer crop of original RGBA PNG; matching SVG viewBox crop without changing geometry",
+      "originalPng": "assets/art/devices/light.png",
+      "originalPngSha256": "04b7af5bd29e74981acf13c45cdc09b92eb570ef151988bf3eff5c602bda5a0c",
+      "originalSvg": "tools/art/sources/devices/light.svg",
+      "originalSvgSha256": "ef7bbb6972432b3b4d839cdd6f981a44437bf53e7d4758f473fb3f8fddce7c34",
+      "originalSize": [
+        384,
+        256
+      ],
+      "alphaContentBounds": [
+        104,
+        13,
+        289,
+        244
+      ],
+      "alphaThreshold": 24,
+      "transparentPaddingPixels": 6,
+      "cropBox": [
+        98,
+        7,
+        295,
+        250
+      ],
+      "croppedPixelsPreserved": true
+    },
+    {
+      "key": "v21/devices/soundcard",
+      "bindingKey": "devices/soundcard",
+      "phase": "full",
+      "path": "assets/art/v21/devices/soundcard.png",
+      "source": "tools/art/v21/sources/devices/soundcard.svg",
+      "sourceSha256": "543949508c74958ab6a27a10e2abf7fce59d282d983dcbaeb46c0abc42ea2b9f",
+      "width": 325,
+      "height": 178,
+      "mode": "RGBA",
+      "bytes": 15298,
+      "sha256": "5762eb0d146713ea00998e932c52cc180af64ba20261707661d606015ea5e18a",
+      "features": [
+        "Audio interface box",
+        "Large gain knob",
+        "Three circular input sockets",
+        "Tighter transparent margin; original device pixels and shape preserved"
+      ],
+      "origin": "Derived from existing original project device PNG/SVG; no new external image material",
+      "method": "Lossless integer crop of original RGBA PNG; matching SVG viewBox crop without changing geometry",
+      "originalPng": "assets/art/devices/soundcard.png",
+      "originalPngSha256": "37c10e8eb564b577fac6280ada6db4144a0c7dd06c5821732174fbeb1192d3a7",
+      "originalSvg": "tools/art/sources/devices/soundcard.svg",
+      "originalSvgSha256": "ce9a06684ce65f86c488c3cb2b3015f57a47c875c263e0d6227b770fa5d73f9f",
+      "originalSize": [
+        384,
+        256
+      ],
+      "alphaContentBounds": [
+        36,
+        58,
+        349,
+        224
+      ],
+      "alphaThreshold": 24,
+      "transparentPaddingPixels": 6,
+      "cropBox": [
+        30,
+        52,
+        355,
+        230
+      ],
+      "croppedPixelsPreserved": true
+    },
+    {
+      "key": "v21/devices/fan",
+      "bindingKey": "devices/fan",
+      "phase": "full",
+      "path": "assets/art/v21/devices/fan.png",
+      "source": "tools/art/v21/sources/devices/fan.svg",
+      "sourceSha256": "23e65e4fd79e9e236b3a195b4e8745655ca0575361f5584d6da5789d888b4e25",
+      "width": 226,
+      "height": 238,
+      "mode": "RGBA",
+      "bytes": 29991,
+      "sha256": "f52df1ead3cc147bb1bf15e7619e750c98721f29b04600b8f97191ced9add791",
+      "features": [
+        "Square frame and four screw holes",
+        "Seven curved blades",
+        "Central bearing",
+        "Tighter transparent margin; original device pixels and shape preserved"
+      ],
+      "origin": "Derived from existing original project device PNG/SVG; no new external image material",
+      "method": "Lossless integer crop of original RGBA PNG; matching SVG viewBox crop without changing geometry",
+      "originalPng": "assets/art/devices/fan.png",
+      "originalPngSha256": "2d3cdc51a9b495f8a574680cac6f65a3f7206ebb7a2bf576d9f7015a65a816f3",
+      "originalSvg": "tools/art/sources/devices/fan.svg",
+      "originalSvgSha256": "a4e25edfccf9c7b8d7e18ef062d4a4aad491d3ea10c3626b86cd06251785c52c",
+      "originalSize": [
+        384,
+        256
+      ],
+      "alphaContentBounds": [
+        86,
+        17,
+        300,
+        243
+      ],
+      "alphaThreshold": 24,
+      "transparentPaddingPixels": 6,
+      "cropBox": [
+        80,
+        11,
+        306,
+        249
+      ],
+      "croppedPixelsPreserved": true
+    },
+    {
+      "key": "v21/devices/memory",
+      "bindingKey": "devices/memory",
+      "phase": "full",
+      "path": "assets/art/v21/devices/memory.png",
+      "source": "tools/art/v21/sources/devices/memory.svg",
+      "sourceSha256": "7d79260626ffca6230b2999b63a422060efcc85bb3f1c478f6fc9defe7df58bc",
+      "width": 351,
+      "height": 148,
+      "mode": "RGBA",
+      "bytes": 6786,
+      "sha256": "6f359cc29906c2ff78cd18ff131af4a668765a47ffe56596a34e8b19dd8b9f1d",
+      "features": [
+        "Long green memory PCB",
+        "Four rectangular chips",
+        "Gold fingers and keyed notch",
+        "Tighter transparent margin; original device pixels and shape preserved"
+      ],
+      "origin": "Derived from existing original project device PNG/SVG; no new external image material",
+      "method": "Lossless integer crop of original RGBA PNG; matching SVG viewBox crop without changing geometry",
+      "originalPng": "assets/art/devices/memory.png",
+      "originalPngSha256": "55ba126c034135643ae6cb03bb04860c431782aaaec7538a5d4ec87d5a92668e",
+      "originalSvg": "tools/art/sources/devices/memory.svg",
+      "originalSvgSha256": "2aceaf0d53f1785ebeac108845438dca100dbe0f4f9d280555dce45f094012e5",
+      "originalSize": [
+        384,
+        256
+      ],
+      "alphaContentBounds": [
+        23,
+        70,
+        362,
+        206
+      ],
+      "alphaThreshold": 24,
+      "transparentPaddingPixels": 6,
+      "cropBox": [
+        17,
+        64,
+        368,
+        212
+      ],
+      "croppedPixelsPreserved": true
+    },
+    {
+      "key": "v21/devices/drive",
+      "bindingKey": "devices/drive",
+      "phase": "full",
+      "path": "assets/art/v21/devices/drive.png",
+      "source": "tools/art/v21/sources/devices/drive.svg",
+      "sourceSha256": "82af9136ba0b9b3590c4fde47e038e419edc6a6a296c397b2b8234568df52409",
+      "width": 275,
+      "height": 220,
+      "mode": "RGBA",
+      "bytes": 9284,
+      "sha256": "782cc84f86fb7685ac8dcd33a3ef006aba136e1f1ac7eab6aa7e8a0e98578da7",
+      "features": [
+        "Flat SSD enclosure",
+        "Inset label area",
+        "Gold connector and mounting screws",
+        "Tighter transparent margin; original device pixels and shape preserved"
+      ],
+      "origin": "Derived from existing original project device PNG/SVG; no new external image material",
+      "method": "Lossless integer crop of original RGBA PNG; matching SVG viewBox crop without changing geometry",
+      "originalPng": "assets/art/devices/drive.png",
+      "originalPngSha256": "01b048ad53737c24f35fe6b15cb884482e1ede4791d7d37cbf4a6dd6d59b1e85",
+      "originalSvg": "tools/art/sources/devices/drive.svg",
+      "originalSvgSha256": "bbdedb729153511f2e6d18fbefc6b1ab56daa44b6c85a5f73bc60d230d5e5c45",
+      "originalSize": [
+        384,
+        256
+      ],
+      "alphaContentBounds": [
+        65,
+        31,
+        328,
+        239
+      ],
+      "alphaThreshold": 24,
+      "transparentPaddingPixels": 6,
+      "cropBox": [
+        59,
+        25,
+        334,
+        245
+      ],
+      "croppedPixelsPreserved": true
+    },
+    {
+      "key": "v21/devices/gpu",
+      "bindingKey": "devices/gpu",
+      "phase": "full",
+      "path": "assets/art/v21/devices/gpu.png",
+      "source": "tools/art/v21/sources/devices/gpu.svg",
+      "sourceSha256": "96995a3de37302d6e2b41cbc96a6811f48d7cc9bad9a09bac22738a4adb602b7",
+      "width": 369,
+      "height": 196,
+      "mode": "RGBA",
+      "bytes": 23950,
+      "sha256": "5adc2275af4ef1d4a0090d2929ecad9577b839b1706dd6ccbe0990fd7b102b14",
+      "features": [
+        "Long graphics board",
+        "Twin cooling fans",
+        "Side bracket and gold edge connector",
+        "Tighter transparent margin; original device pixels and shape preserved"
+      ],
+      "origin": "Derived from existing original project device PNG/SVG; no new external image material",
+      "method": "Lossless integer crop of original RGBA PNG; matching SVG viewBox crop without changing geometry",
+      "originalPng": "assets/art/devices/gpu.png",
+      "originalPngSha256": "262ab26274e7c4d7bb36c7938f20d8c5400accbd2acc0b1a1424054f68cbaa84",
+      "originalSvg": "tools/art/sources/devices/gpu.svg",
+      "originalSvgSha256": "c640c913cef363e8543a79d3156367e06f177a02813b8574d2fdd93a03acf5ec",
+      "originalSize": [
+        384,
+        256
+      ],
+      "alphaContentBounds": [
+        11,
+        47,
+        368,
+        231
+      ],
+      "alphaThreshold": 24,
+      "transparentPaddingPixels": 6,
+      "cropBox": [
+        5,
+        41,
+        374,
+        237
+      ],
+      "croppedPixelsPreserved": true
+    }
+  ],
+  "runtimeAssetCount": 37,
+  "runtimeBytes": 590483,
+  "artContact": {
+    "path": "tools/art/v21/previews/sample-contact.png",
+    "sha256": "50da9816adcd41daca9258c0a5032254d8b6e087383b8ee74ce9117204726e89",
+    "bytes": 64123,
+    "kind": "Art-making contact sheet, not runtime evidence"
+  },
+  "fullArtContacts": [
+    {
+      "path": "tools/art/v21/previews/full-ports-contact.png",
+      "sha256": "3e2e683a90bffd4f0486b3f0cbbe9f34e1dc59e27f9172b7772611a321f21e72",
+      "bytes": 165981,
+      "kind": "Art-making contact sheet, not runtime evidence"
+    },
+    {
+      "path": "tools/art/v21/previews/full-devices-contact.png",
+      "sha256": "21800435b56bb3326c57002c6c2a46482adc1f42fe9c378e6b506712d5b57a0c",
+      "bytes": 215386,
+      "kind": "Art-making contact sheet, not runtime evidence"
+    }
+  ],
+  "runtimeAcceptance": "Requires real Creator import, saved binding and Preview; no acceptance inferred from art generation"
+}

@@ -25,6 +25,25 @@ exports.load = function () {
 exports.unload = function () {};
 
 exports.methods = {
+    async applyV22() { return v22Operation('apply'); },
+    async refreshV22() { return v22Operation('refresh'); },
+    async auditV22() { return v22Operation('audit'); },
+    async probeV22() { return v22Operation('probe'); },
+    async applyV21Sample() { return v21Operation('apply', 'sample'); },
+    async applyV21Refine() { return v21Operation('apply', 'refine'); },
+    async applyV21Full() { return v21Operation('apply', 'full'); },
+    async refreshV21() { return v21Operation('refresh'); },
+    async auditV21() { return v21Operation('audit'); },
+    async probeV21() { return v21Operation('probe'); },
+    async applyV2A() { return v2Operation('apply', 'a'); },
+    async applyV2() { return v2Operation('apply', 'full'); },
+    async refreshV2() { return v2Operation('refresh'); },
+    async auditV2() { return v2Operation('audit'); },
+    async probeV2() { return v2Operation('probe'); },
+    async applyDay5A() { return day5aOperation('apply'); },
+    async auditDay5A() { return day5aOperation('audit'); },
+    async refreshDay5A() { return day5aOperation('refresh'); },
+    async probeDay5A() { return day5aOperation('probe'); },
     async correctDay4Appearance() {
         return day4Operation('correctDay4Appearance', 'appearance-report.json', false);
     },
@@ -176,6 +195,49 @@ exports.methods = {
         }
     },
 };
+
+function requireFreshDay5A() {
+    for (const name of ['./day5a-main', './day5a-audit']) delete require.cache[require.resolve(name)];
+    return require('./day5a-main');
+}
+
+async function day5aOperation(method) {
+    if (method === 'apply' && require('fs').existsSync(require('path').join(Editor.Project.path, 'docs/validation/day5a-plus/v2-build-report.json'))) {
+        console.warn('[DeskRescue V2] Existing V2 assembly protected: use DeskRescue/V2 actions.');
+        return { ok: false, error: 'Use V2 assembly; old visual skin would overwrite new UI.' };
+    }
+    if (building) return { ok: false, error: 'Another Creator scene operation is running.' };
+    building = true;
+    try { return await requireFreshDay5A()[method](); }
+    finally { building = false; }
+}
+
+async function v2Operation(method, phase) {
+    if (building) return { ok: false, error: 'Another Creator operation is running.' };
+    building = true;
+    try {
+        delete require.cache[require.resolve('./v2-main')];
+        return await require('./v2-main')[method](phase);
+    } finally { building = false; }
+}
+
+async function v21Operation(method, phase) {
+    if (building) return { ok: false, error: 'Another scene operation is in progress.' };
+    building = true;
+    try {
+        delete require.cache[require.resolve('./v21-main')];
+        return await require('./v21-main')[method](phase);
+    } finally { building = false; }
+}
+
+async function v22Operation(method) {
+    if (building) return { ok: false, error: 'Another scene operation is in progress.' };
+    building = true;
+    try {
+        delete require.cache[require.resolve('./v22-main')];
+        return await require('./v22-main')[method]();
+    } finally { building = false; }
+}
 
 function saveDay4Report(name, result) {
     const fs = require('fs');

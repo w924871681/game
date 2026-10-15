@@ -1,0 +1,23 @@
+{
+  "bodyBackground": "rgb(195, 236, 224)",
+  "canvas": [
+    {
+      "clipPath": "inset(0px 437.5px)",
+      "rect": {
+        "bottom": 720,
+        "height": 720,
+        "left": 0,
+        "right": 1280,
+        "top": 0,
+        "width": 1280,
+        "x": 0,
+        "y": 0
+      }
+    }
+  ],
+  "debug": "INFO",
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  }
+}

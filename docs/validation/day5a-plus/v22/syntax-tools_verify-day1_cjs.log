@@ -1,0 +1,2 @@
+{"label": "syntax-tools_verify-day1_cjs", "command": ["C:\\Program Files\\nodejs\\node.EXE", "--check", "tools/verify-day1.cjs"], "cwd": "D:/game", "startedAtUtc": "2026-10-15T15:56:22.606768+00:00", "endedAtUtc": "2026-10-15T15:56:22.678923+00:00", "exitCode": 0}
+

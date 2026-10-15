@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="384" height="256" viewBox="0 0 384 256">
+<title>DeskRescue original devices/wheel</title>
+<ellipse cx="198.0" cy="221.0" rx="102.0" ry="12.0" fill="#526779" fill-opacity="0.1333" stroke="none" stroke-width="0"/>
+<polyline points="56.00,129.00 332.00,129.00" fill="none" stroke="#bbcdc7" stroke-opacity="1.0000" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="111" y="52" width="162" height="153" rx="44" fill="#263d50" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<ellipse cx="130.0" cy="129.0" rx="31.0" ry="80.0" fill="#416473" fill-opacity="1.0000" stroke="#263d50" stroke-opacity="1.0000" stroke-width="5"/>
+<ellipse cx="257.0" cy="129.0" rx="31.0" ry="80.0" fill="#2eaaa8" fill-opacity="1.0000" stroke="#263d50" stroke-opacity="1.0000" stroke-width="5"/>
+<polyline points="145.00,64.00 145.00,193.00" fill="none" stroke="#7eaca9" stroke-opacity="1.0000" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="159.00,64.00 159.00,193.00" fill="none" stroke="#7eaca9" stroke-opacity="1.0000" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="173.00,64.00 173.00,193.00" fill="none" stroke="#7eaca9" stroke-opacity="1.0000" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="187.00,64.00 187.00,193.00" fill="none" stroke="#7eaca9" stroke-opacity="1.0000" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="201.00,64.00 201.00,193.00" fill="none" stroke="#7eaca9" stroke-opacity="1.0000" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="215.00,64.00 215.00,193.00" fill="none" stroke="#7eaca9" stroke-opacity="1.0000" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="257.5" cy="128.0" rx="15.5" ry="33.0" fill="#c3e6da" fill-opacity="1.0000" stroke="#263d50" stroke-opacity="1.0000" stroke-width="4"/>
+<ellipse cx="257.5" cy="127.5" rx="8.5" ry="15.5" fill="#708d90" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+</svg>

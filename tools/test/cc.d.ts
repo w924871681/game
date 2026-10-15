@@ -6,6 +6,7 @@
  * to check against the editor-generated real engine typings instead.
  */
 declare module 'cc' {
+    export const CCString: unknown;
     export const _decorator: {
         ccclass(name: string): ClassDecorator;
         property(...configuration: unknown[]): PropertyDecorator;
@@ -101,6 +102,10 @@ declare module 'cc' {
     }
     export function tween<T extends object>(target: T): Tween<T>;
     export class Color {
+        r: number;
+        g: number;
+        b: number;
+        a: number;
         constructor(r?: number, g?: number, b?: number, a?: number);
     }
     export class Graphics extends Component {
@@ -119,8 +124,23 @@ declare module 'cc' {
     export function instantiate(original: Prefab): Node;
     export class Sprite extends Component {
         static readonly Type: { readonly SIMPLE: number; readonly SLICED: number };
+        static readonly SizeMode: { readonly CUSTOM: number; readonly TRIMMED: number; readonly RAW: number };
         color: Color;
         type: number;
+        sizeMode: number;
+        spriteFrame: SpriteFrame | null;
+    }
+    export class SpriteFrame { name: string; readonly originalSize: { readonly width: number; readonly height: number }; }
+    export class AudioClip { name: string; }
+    export class AudioSource extends Component {
+        static readonly EventType: { readonly ENDED: string; readonly STARTED: string };
+        clip: AudioClip | null;
+        loop: boolean;
+        playOnAwake: boolean;
+        volume: number;
+        play(): void;
+        playOneShot(clip: AudioClip, volumeScale?: number): void;
+        stop(): void;
     }
     export class UIOpacity extends Component { opacity: number; }
     export const Layers: { readonly Enum: { readonly UI_2D: number } };

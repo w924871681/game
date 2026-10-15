@@ -1,0 +1,2 @@
+{"label": "syntax-extensions_deskrescue-editor_v21-probe_js", "command": ["C:\\Program Files\\nodejs\\node.EXE", "--check", "extensions/deskrescue-editor/v21-probe.js"], "cwd": "D:/game", "startedAtUtc": "2026-10-15T15:56:22.148419+00:00", "endedAtUtc": "2026-10-15T15:56:22.231289+00:00", "exitCode": 0}
+

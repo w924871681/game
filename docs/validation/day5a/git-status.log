@@ -1,0 +1,46 @@
+Executed at UTC: 2026-10-14T17:33:55.736Z
+Command: git status --short --branch
+Exit code: 0
+Wall seconds: 0.078
+
+## feature/day5a-visual-playable
+ M .gitignore
+ M assets/prefabs/elements/Cable.prefab
+ M assets/prefabs/elements/DirtCell.prefab
+ M assets/prefabs/elements/DragItem.prefab
+ M assets/prefabs/elements/DragTarget.prefab
+ M assets/prefabs/elements/Port.prefab
+ M assets/prefabs/stages/CableConnectStage.prefab
+ M assets/prefabs/stages/CleanSwipeStage.prefab
+ M assets/prefabs/stages/DragMatchStage.prefab
+ M assets/scenes/Game.scene
+ M assets/scripts/core/LevelManager.ts
+ M assets/scripts/stages/CableConnectStageController.ts
+ M assets/scripts/stages/CleanSwipeStageController.ts
+ M assets/scripts/stages/DragMatchStageController.ts
+ M assets/scripts/stages/StageHost.ts
+ M extensions/deskrescue-editor/main.js
+ M extensions/deskrescue-editor/package.json
+ M extensions/deskrescue-editor/scene.js
+ M package.json
+ M tools/test/cc.d.ts
+ M tools/verify-day1.cjs
+?? assets/art.meta
+?? assets/art/
+?? assets/audio/sfx.meta
+?? assets/audio/sfx/
+?? assets/scripts/ui.meta
+?? assets/scripts/ui/
+?? assets/scripts/visuals.meta
+?? assets/scripts/visuals/
+?? docs/DAY5A_COCOS_SETUP.md
+?? docs/DAY5A_CREATOR_VALIDATION.md
+?? docs/DAY5A_VISUAL_ASSETS.md
+?? docs/DAY5A_VISUAL_STYLE_GUIDE.md
+?? docs/validation/day5a/
+?? extensions/deskrescue-editor/day5a-audit.js
+?? extensions/deskrescue-editor/day5a-main.js
+?? extensions/deskrescue-editor/day5a-probe.js
+?? extensions/deskrescue-editor/day5a-scene.js
+?? tools/art/
+?? tools/verify-day5a.cjs

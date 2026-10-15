@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "phase": "slice",
+  "recordedAtUtc": "2026-10-14T16:55:15.397Z",
+  "input": "Real browser mouse clicks and drags through CUA; no runtime state mutation",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "observations": [
+    {
+      "check": "Home visible and no stage timer before click; entering starts from ~0.3 seconds",
+      "passed": true
+    },
+    {
+      "check": "Sound state icon+label toggles off and on",
+      "passed": true
+    },
+    {
+      "check": "Order1 three distinct device sprites and silhouettes; all3 mouse drags settle",
+      "passed": true,
+      "result": {
+        "seconds": 35.5,
+        "mistakes": 0,
+        "stars": 2,
+        "score": 650
+      }
+    },
+    {
+      "check": "Order2/3 retain text appearance with explicit slice warnings; normal order flow maintained",
+      "passed": true
+    },
+    {
+      "check": "Order4 actual clean changes expose clean keyboard at0,57,85percent and complete at100",
+      "passed": true,
+      "result": {
+        "seconds": 87.5,
+        "mistakes": 0,
+        "stars": 1,
+        "score": 130
+      }
+    },
+    {
+      "check": "Order5 wrong port returns and records exactly1 mistake; correct3 lines and green checks settle",
+      "passed": true,
+      "result": {
+        "seconds": 34.9,
+        "mistakes": 1,
+        "stars": 2,
+        "score": 560
+      }
+    }
+  ],
+  "screenshots": [
+    "slice-cable-before-390x844.jpg",
+    "slice-cable-connected-390x844.jpg",
+    "slice-cable-result-390x844.jpg",
+    "slice-cable-wrong-390x844.jpg",
+    "slice-clean-dirty-390x844.jpg",
+    "slice-clean-done-390x844.jpg",
+    "slice-clean-half-390x844.jpg",
+    "slice-clean-nearly-390x844.jpg",
+    "slice-drag-390x844.jpg",
+    "slice-home-390x844.jpg",
+    "slice-result-390x844.jpg"
+  ],
+  "limitations": [
+    "Only representative artwork slices reviewed; full visual coverage not yet assembled.",
+    "Completion overlay covers the device after threshold; clean-done screenshot shows100percent and result; nearly-clean screenshot shows exposed base artwork.",
+    "No physical touch or native CANCEL; sound bindings and toggle observed, audio hearing is not independently recorded."
+  ]
+}

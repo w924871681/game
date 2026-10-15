@@ -1,0 +1,2 @@
+{"label": "syntax-extensions_deskrescue-editor_v21-audit_js", "command": ["C:\\Program Files\\nodejs\\node.EXE", "--check", "extensions/deskrescue-editor/v21-audit.js"], "cwd": "D:/game", "startedAtUtc": "2026-10-15T15:56:22.021925+00:00", "endedAtUtc": "2026-10-15T15:56:22.071098+00:00", "exitCode": 0}
+

@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-15T13:44:29.215903+00:00",
+  "project": "DeskRescue",
+  "version": "0.0.5-alpha.3",
+  "creator": "3.8.8",
+  "url": "http://localhost:7456/",
+  "method": "Actual desktop Browser UI mouse click/drag. Each viewport override followed by reload; source/resources frozen. No injected input, scores, completion flags or game state. Real registered cc.Touch fixtures are separate evidence.",
+  "status": "LOCAL_IMPLEMENTATION_AND_SCOPED_DESKTOP_PREVIEW_COMPLETED_USER_ART_REVIEW_PENDING",
+  "viewports": [
+    {
+      "width": 390,
+      "height": 844,
+      "reload": true,
+      "coveredOrders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fullRuns": [
+        {
+          "orders": 9,
+          "steps": 13,
+          "stars": 19,
+          "starMaximum": 27,
+          "score": 4290,
+          "seconds": 903.9,
+          "mistakes": 3,
+          "final": {
+            "path": "docs/validation/day5a-plus/v21/screenshots/final-run1-v21-390x844.jpg",
+            "bytes": 55347,
+            "sha256": "3ae155fce5882a79bbb960704e860394f6826579418225565518ef2f55d7fb1b"
+          },
+          "exitPath": "Final -> Home -> Start"
+        },
+        {
+          "orders": 9,
+          "steps": 13,
+          "stars": 21,
+          "starMaximum": 27,
+          "score": 5620,
+          "seconds": 686.7,
+          "mistakes": 0,
+          "final": {
+            "path": "docs/validation/day5a-plus/v21/screenshots/final-v21-390x844.jpg",
+            "bytes": 55827,
+            "sha256": "b59888b392d674ad455c31dabb3e4592ba96fac711f31dbc05ef582a15cf437c"
+          },
+          "exitPath": "Final -> direct Replay -> order1"
+        }
+      ],
+      "cases": [
+        "Home waiting/start/sound toggle",
+        "order1 3 devices/wrong return/correct snap/real result",
+        "order4 0/57/96 percent; accepted diagonal/arc strokes; local repeat stays57; horizontal57 supplemental",
+        "order5 0/3,1/3,wrong return,true connected lamp and immediate final result",
+        "order6 clean then2 devices",
+        "order8 four devices then2 cables",
+        "order9 clean then4 cables then4 devices",
+        "final six metrics/Home/Start/direct Replay"
+      ],
+      "cleanCounts": {
+        "logicalCells": 32,
+        "required": 28,
+        "observed57": 16,
+        "observed96": 27,
+        "completion": 28
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "reload": true,
+      "coveredOrders": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "fullRuns": [],
+      "cases": [
+        "Home",
+        "3-device drag",
+        "results and next order",
+        "clean0/57/96 and threshold completion",
+        "cable0/1/3 with result"
+      ],
+      "firstOrderResult": {
+        "score": 990,
+        "seconds": 1.4,
+        "mistakes": 0,
+        "stars": 3
+      },
+      "notClaimed": [
+        "all9 orders",
+        "13 steps",
+        "Final buttons"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "reload": true,
+      "coveredOrders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fullRuns": [
+        {
+          "orders": 9,
+          "steps": 13,
+          "stars": 24,
+          "starMaximum": 27,
+          "score": 6670,
+          "seconds": 296.6,
+          "mistakes": 0,
+          "final": {
+            "path": "docs/validation/day5a-plus/v21/screenshots/final-v21-1280x720.jpg",
+            "bytes": 66851,
+            "sha256": "d90a7530df7c2aa1e31f5c69864729c43778452e7f7c0f9f7530cae2a7fc8875"
+          },
+          "exitPath": "Final -> direct Replay -> order1. New order1 visible in tool screenshot; named replay-direct file was captured too early and still shows Final."
+        },
+        {
+          "orders": 9,
+          "steps": 13,
+          "stars": 26,
+          "starMaximum": 27,
+          "score": 7160,
+          "seconds": 187.8,
+          "mistakes": 0,
+          "final": {
+            "path": "docs/validation/day5a-plus/v21/screenshots/final-run2-v21-1280x720.jpg",
+            "bytes": 66914,
+            "sha256": "72bd18c59230ea12a70f21d3f9b631bfc3ec000e020a6541b0aba548818f952f"
+          },
+          "exitPath": "Final -> Home -> Start, sound OFF retained",
+          "home": {
+            "path": "docs/validation/day5a-plus/v21/screenshots/home-after-run2-v21-1280x720.jpg",
+            "bytes": 66385,
+            "sha256": "be4c43c9ea9c7db3c727d350abe85de6f36a7e95743b401f472978f729471fda"
+          },
+          "start": {
+            "path": "docs/validation/day5a-plus/v21/screenshots/start-after-home-v21-1280x720.jpg",
+            "bytes": 57452,
+            "sha256": "5ab99716fa2f3cc2eff8b50c210079bc9e68c0270c2c0b200a1d0ae2c80c98f6"
+          },
+          "startCaptureNote": "The saved image shows new order1/9, 0/3, 0 mistakes and natural elapsed144.4s; not a zero-second screenshot."
+        }
+      ],
+      "cases": [
+        "Home",
+        "all3 gameplay modes",
+        "clean0/57/96 and threshold",
+        "3/4 crossing cables",
+        "2/3/4 devices",
+        "all order results and final six metrics",
+        "direct Replay/full second run/Home/Start",
+        "sound OFF retained"
+      ]
+    }
+  ],
+  "showAll": {
+    "canvasRectMatchesEachViewport": true,
+    "cssMintBackground": "rgb(195, 236, 224)",
+    "clips": {
+      "390x844": "inset(75.3333px 0px)",
+      "768x1024": "inset(0px 96px)",
+      "1280x720": "inset(0px 437.5px)"
+    },
+    "domEvidence": [
+      {
+        "path": "docs/validation/day5a-plus/v21/dom-390.json",
+        "bytes": 461,
+        "sha256": "d83b1a2b264bb8509be0d26b8da2fffb087499acdff71dc9102a01da3cb00093"
+      },
+      {
+        "path": "docs/validation/day5a-plus/v21/dom-768.json",
+        "bytes": 315,
+        "sha256": "5aeb0216264f27bbffdbfcea2894706b7bf430aeba4dde06f47ee1434281f1e2"
+      },
+      {
+        "path": "docs/validation/day5a-plus/v21/dom-1280.json",
+        "bytes": 318,
+        "sha256": "95492925405a9fb45c10fcaa0b476371207eda91741a23c3054b9009630e1b52"
+      }
+    ],
+    "runtimeFreeRotationTested": false,
+    "nativeFullBleedBackgroundClaimed": false
+  },
+  "console": {
+    "path": "docs/validation/day5a-plus/v21/preview-console-final.json",
+    "bytes": 188,
+    "sha256": "9b2c3cb5211a821ca5ace5552f5beca40d9abea6c46e373a48cf5e024781d4bf",
+    "retainedBrowserWarnings": 0,
+    "retainedBrowserErrors": 0,
+    "limitation": "Only entries retained by Browser capture service at final read. Not whole historical Creator session zero errors."
+  },
+  "historyAndCorrections": [
+    "Initial Port import failure kept in failure-1792065909697.json; bounded actual load retry then successful sample/refine/full audits and46 engine fixtures.",
+    "Resource import auto-reloaded Preview Home during two phase2 captures; these are stale/misnamed and not gameplay evidence.",
+    "Browser control timeouts and capture-before-animation produced pending captures. Kept original raw files, separate stable captures, inventory adjudications.",
+    "390 first order natural499.2 seconds /2 mistakes /100 points /1star includes interruption and recovery. Whole first run3 mistakes.",
+    "No unobstructed3/3 success picture: last cable completion immediately opens result. Snap sequence0/1/2 still2/3 pending, sequence3 already result over3/3.",
+    "order7-three-cross-transition remains2/3 and order9-four-transition remains3/4; not all-connected success pictures.",
+    "replay-direct-v21-1280x720 is first Final, not new order1 screenshot. Actual Replay transition was seen in tool output and second full run completed.",
+    "wide-run2-order1-result is1/3 pending; stable suffixed replacement shows950/5.6s/0mistakes/3stars."
+  ],
+  "visualReview": {
+    "userFinalApproval": false,
+    "diagonalArcClean57": "Locally scattered residual soft dust follows accepted strokes, no logical grid outlines.",
+    "horizontalClean57": "Long straight strokes still create a perceptible cleared band; no claim all input paths eliminate banding. User natural-erasure preference unconfirmed.",
+    "differencesFromReference": [
+      "Conservative Home/Final proportions retain original composition",
+      "Existing device illustration style remains",
+      "3/4 crossing cables and compact port text require original-size subjective review",
+      "SHOW_ALL mint letterboxing remains"
+    ]
+  },
+  "unverified": [
+    "physical touch",
+    "browser native touch adapter/TOUCH_CANCEL",
+    "phone WebView",
+    "WeChat/Douyin platform/build",
+    "runtime free rotation",
+    "FPS/frame-time benchmarks",
+    "independent audible playback/listening",
+    "user final six-screen visual approval"
+  ],
+  "endState": {
+    "viewportOverrideReset": true,
+    "reloadedHome": true,
+    "tabMarkedDeliverable": true,
+    "screenshot": {
+      "path": "docs/validation/day5a-plus/v21/screenshots/home-delivery-default-viewport.jpg",
+      "bytes": 70715,
+      "sha256": "d38eba7a5fcc8a93cd066572ca7c1bf851b69421b5f655c75d4ace9ac3cca7f9"
+    }
+  },
+  "evidenceIndexes": [
+    "comparisons/final-comparison-manifest.json",
+    "comparisons/final-screenshot-inventory.json",
+    "preview-capture-ledger.json",
+    "phase1-review.json"
+  ]
+}

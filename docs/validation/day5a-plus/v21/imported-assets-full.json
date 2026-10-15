@@ -1,0 +1,282 @@
+{
+  "timestamp": "2026-10-15T12:31:30.637Z",
+  "bindings": [
+    {
+      "key": "v21/ports/power-head",
+      "bindingKey": "ports/power-head",
+      "url": "db://assets/art/v21/ports/power-head.png",
+      "uuid": "64f915cb-c8a6-46c4-9018-e68cf6f2cc17@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/ports/power-port",
+      "bindingKey": "ports/power-port",
+      "url": "db://assets/art/v21/ports/power-port.png",
+      "uuid": "864fcf4c-b715-4969-9d9c-60ebc64f4c6c@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/ports/display-head",
+      "bindingKey": "ports/display-head",
+      "url": "db://assets/art/v21/ports/display-head.png",
+      "uuid": "29150901-e491-4081-9d1b-aebc95f2434a@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/ports/display-port",
+      "bindingKey": "ports/display-port",
+      "url": "db://assets/art/v21/ports/display-port.png",
+      "uuid": "bd884c84-cea6-4991-9cfc-1733348856f4@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/ports/network-head",
+      "bindingKey": "ports/network-head",
+      "url": "db://assets/art/v21/ports/network-head.png",
+      "uuid": "506755db-13a2-4a24-aa02-e696fb9a7b1f@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/ports/network-port",
+      "bindingKey": "ports/network-port",
+      "url": "db://assets/art/v21/ports/network-port.png",
+      "uuid": "6ef46a5d-a64e-49d9-973e-2eff7b34cb01@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/ports/audio-head",
+      "bindingKey": "ports/audio-head",
+      "url": "db://assets/art/v21/ports/audio-head.png",
+      "uuid": "de3bd84e-b193-4858-a844-3cc078cd3d3c@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/ports/audio-port",
+      "bindingKey": "ports/audio-port",
+      "url": "db://assets/art/v21/ports/audio-port.png",
+      "uuid": "1dce999f-146a-4117-bf26-9aa9a414e408@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/ports/usb-head",
+      "bindingKey": "ports/usb-head",
+      "url": "db://assets/art/v21/ports/usb-head.png",
+      "uuid": "78e46cf6-7bc7-48ce-a8e4-ee367f24636b@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/ports/usb-port",
+      "bindingKey": "ports/usb-port",
+      "url": "db://assets/art/v21/ports/usb-port.png",
+      "uuid": "20feaafd-6288-487a-b02d-dda71d196f16@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/ports/motherboard-head",
+      "bindingKey": "ports/motherboard-head",
+      "url": "db://assets/art/v21/ports/motherboard-head.png",
+      "uuid": "e9d7376f-8aaa-474f-aa8d-f52482d74b72@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/ports/motherboard-port",
+      "bindingKey": "ports/motherboard-port",
+      "url": "db://assets/art/v21/ports/motherboard-port.png",
+      "uuid": "44b54eee-f43d-4e87-8c4d-4521a450fa1c@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/ports/cpu-head",
+      "bindingKey": "ports/cpu-head",
+      "url": "db://assets/art/v21/ports/cpu-head.png",
+      "uuid": "fe3eecab-e7df-4854-ad95-6c8dbbc7e131@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/ports/cpu-port",
+      "bindingKey": "ports/cpu-port",
+      "url": "db://assets/art/v21/ports/cpu-port.png",
+      "uuid": "6939a2a9-1812-4f72-91cd-a2fbc88dc106@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/ports/sata-head",
+      "bindingKey": "ports/sata-head",
+      "url": "db://assets/art/v21/ports/sata-head.png",
+      "uuid": "da30913a-27ba-4ec4-aeca-0b4f704d0d12@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/ports/sata-port",
+      "bindingKey": "ports/sata-port",
+      "url": "db://assets/art/v21/ports/sata-port.png",
+      "uuid": "0e0b3a01-8d60-4b0a-beb4-0d24b985e590@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/ports/fan-head",
+      "bindingKey": "ports/fan-head",
+      "url": "db://assets/art/v21/ports/fan-head.png",
+      "uuid": "e470cb25-c574-4dba-9539-e5eddd903173@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/ports/fan-port",
+      "bindingKey": "ports/fan-port",
+      "url": "db://assets/art/v21/ports/fan-port.png",
+      "uuid": "ec7a5d8a-7d59-43d0-856b-a09d04cafe70@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/devices/mouse",
+      "bindingKey": "devices/mouse",
+      "url": "db://assets/art/v21/devices/mouse.png",
+      "uuid": "cfd0fd1d-3921-4cd2-88a2-af7e1f163316@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/devices/keyboard",
+      "bindingKey": "devices/keyboard",
+      "url": "db://assets/art/v21/devices/keyboard.png",
+      "uuid": "0aaaddb3-1113-421b-8cd0-20759a1ce3dd@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/devices/headset",
+      "bindingKey": "devices/headset",
+      "url": "db://assets/art/v21/devices/headset.png",
+      "uuid": "d959c75d-f1fe-49f3-b120-0f310031cc67@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/devices/power",
+      "bindingKey": "devices/power",
+      "url": "db://assets/art/v21/devices/power.png",
+      "uuid": "8a4fe825-5d33-4803-9b93-25158ed7680a@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/devices/network",
+      "bindingKey": "devices/network",
+      "url": "db://assets/art/v21/devices/network.png",
+      "uuid": "ef7fe151-7adf-412e-ac46-177ff9fa2497@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/devices/usb",
+      "bindingKey": "devices/usb",
+      "url": "db://assets/art/v21/devices/usb.png",
+      "uuid": "0f7e5d03-8ba1-4622-b4a4-ef9485c2cc36@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/devices/router",
+      "bindingKey": "devices/router",
+      "url": "db://assets/art/v21/devices/router.png",
+      "uuid": "48bddd1c-7cee-4e6f-a27b-effa141d3aeb@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/devices/controller",
+      "bindingKey": "devices/controller",
+      "url": "db://assets/art/v21/devices/controller.png",
+      "uuid": "bff2e09b-5847-4729-a724-4790f0260641@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/devices/speaker",
+      "bindingKey": "devices/speaker",
+      "url": "db://assets/art/v21/devices/speaker.png",
+      "uuid": "a9911568-a31b-42be-a76c-8b26f4950ec0@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/devices/battery",
+      "bindingKey": "devices/battery",
+      "url": "db://assets/art/v21/devices/battery.png",
+      "uuid": "6381a9f5-6705-4430-8c20-a9f901618e96@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/devices/wheel",
+      "bindingKey": "devices/wheel",
+      "url": "db://assets/art/v21/devices/wheel.png",
+      "uuid": "463d6d22-9651-4f22-a373-612c9105865b@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/devices/microphone",
+      "bindingKey": "devices/microphone",
+      "url": "db://assets/art/v21/devices/microphone.png",
+      "uuid": "11f916d7-cbde-4ad4-9081-4bd5956bd399@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/devices/camera",
+      "bindingKey": "devices/camera",
+      "url": "db://assets/art/v21/devices/camera.png",
+      "uuid": "706b8ed5-ff16-450c-8d14-0d30eca8f3c5@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/devices/light",
+      "bindingKey": "devices/light",
+      "url": "db://assets/art/v21/devices/light.png",
+      "uuid": "ec87833a-dbe6-445e-ba29-41a5ae8e2a88@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/devices/soundcard",
+      "bindingKey": "devices/soundcard",
+      "url": "db://assets/art/v21/devices/soundcard.png",
+      "uuid": "177406cc-d885-4703-94f9-7a5d2f6c63c9@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/devices/fan",
+      "bindingKey": "devices/fan",
+      "url": "db://assets/art/v21/devices/fan.png",
+      "uuid": "f85c8848-9b23-47e3-a5c1-4ab195aa56d3@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/devices/memory",
+      "bindingKey": "devices/memory",
+      "url": "db://assets/art/v21/devices/memory.png",
+      "uuid": "d6b38c26-b854-4cd1-bac6-bc7b4491c814@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/devices/drive",
+      "bindingKey": "devices/drive",
+      "url": "db://assets/art/v21/devices/drive.png",
+      "uuid": "195a4746-b058-4ede-becc-38a6dbd48c7e@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v21/devices/gpu",
+      "bindingKey": "devices/gpu",
+      "url": "db://assets/art/v21/devices/gpu.png",
+      "uuid": "efbb401a-c205-4628-ab43-49b447f5ac14@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v2/gold-button",
+      "url": "db://assets/art/v2/gold-button.png",
+      "uuid": "047f7d6d-6382-4611-96ba-6975e0c15fdc@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v2/cable-anchor",
+      "url": "db://assets/art/v2/cable-anchor.png",
+      "uuid": "46dbaa20-7c9e-440f-9b10-b6addc7c0b7f@f9941",
+      "type": "SpriteFrame"
+    },
+    {
+      "key": "v2/irregular-dust",
+      "url": "db://assets/art/v2/irregular-dust.png",
+      "uuid": "02f9975e-687e-4474-9c9d-3af8c64ccf7d@f9941",
+      "type": "SpriteFrame"
+    }
+  ]
+}

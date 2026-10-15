@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "timestamp": "2026-10-15T11:50:22.583377+00:00",
+  "ok": true,
+  "phase": "V2.1 Phase 0",
+  "checks": {
+    "baseline654EntriesCapturedAndVerified": true,
+    "nativeBaseline174AndRealTypes": true,
+    "sdk102SeparatelyDisclosed": true,
+    "actualBeforeFailureExactlyFourTS2339": true,
+    "after174LimitedMockPass": true,
+    "onlySourceContractChanged": true,
+    "isolatedCopiesDifferOnlyByExactContract": true,
+    "allIsolatedGeneratedFoldersAbsent": true,
+    "originalTempNotDeletedMovedOrChanged": true,
+    "existingRuntimeColorNumericChannels": true,
+    "headBranchUnchangedAndNoStaging": true
+  },
+  "errors": [],
+  "baseline": {
+    "path": "docs/validation/day5a-plus/v21/baseline.json",
+    "bytes": 202924,
+    "sha256": "9b05be70ef51312b0f74ad9604f8b3ad023a7f104130b9a024b4ce41939ed09e"
+  },
+  "externalBackup": {
+    "path": "D:/game-deliverables/V21_before_20261015T114609262242Z.zip",
+    "bytes": 35926325,
+    "sha256": "3cd85aa30ae878042df41d1c7bf11c0c1e6809f27a8f6892fb16252db1ba79ac",
+    "testzipPassed": true,
+    "entries": 654,
+    "allEntryBytesVerified": true
+  },
+  "initialGit": {
+    "head": "ffde65700d6fa8c5ddd6daf2ca43e30dbdf3ee22",
+    "branch": "feature/day5a-visual-playable",
+    "statusEntries": 512,
+    "statusFullIn": "baseline.json"
+  },
+  "currentGit": {
+    "head": "ffde65700d6fa8c5ddd6daf2ca43e30dbdf3ee22",
+    "branch": "feature/day5a-visual-playable",
+    "stagedPaths": []
+  },
+  "baselineKnownFilesUnchangedExceptContract": 653,
+  "changedOriginalFiles": [
+    {
+      "path": "tools/test/cc.d.ts",
+      "before": {
+        "path": "tools/test/cc.d.ts",
+        "bytes": 6193,
+        "sha256": "7b7fce4bb6a78470f63f37cb623d6960d9985a31f446c2c6556087503c1044f7"
+      },
+      "after": {
+        "path": "tools/test/cc.d.ts",
+        "bytes": 6269,
+        "sha256": "beaf77286261b73b4c527e0c8734e55ab0c61beb1da93e15cd1512ac1f83323c"
+      }
+    }
+  ],
+  "missingOriginalFiles": [],
+  "isolatedCopyDelta": [
+    "tools/test/cc.d.ts"
+  ],
+  "before": {
+    "isolatedProject": "D:/game-deliverables/V21_offline_phase0-offline-before_20261015T114845833086Z/project",
+    "exitCode": 1,
+    "typescriptPath": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\app.asar.unpacked\\node_modules\\typescript\\lib\\typescript.js",
+    "typescriptVersion": "5.8.2",
+    "diagnosticCodes": [
+      "2339",
+      "2339",
+      "2339",
+      "2339"
+    ],
+    "missingColorChannels": [
+      "r",
+      "g",
+      "b",
+      "a"
+    ],
+    "passedBehaviorGroups": []
+  },
+  "after": {
+    "isolatedProject": "D:/game-deliverables/V21_offline_phase0-offline-after_20261015T114912831405Z/project",
+    "exitCode": 0,
+    "typescriptPath": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\app.asar.unpacked\\node_modules\\typescript\\lib\\typescript.js",
+    "typescriptVersion": "5.8.2",
+    "passedBehaviorGroups": [
+      174
+    ],
+    "limitedMockContract": true
+  },
+  "runtimeColor": {
+    "ok": true,
+    "mode": "Exact existing mock Color class statement executed; no replacement class added",
+    "explicit": {
+      "r": 11,
+      "g": 22,
+      "b": 33,
+      "a": 44
+    },
+    "defaults": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "sourceClassSha256": "510d5e5ae23fd4c5e2a076f3414d02b9d292a8de15d2c314560c69e9e599a765"
+  },
+  "nativeBaselineCommands": [
+    {
+      "label": "phase0-baseline-npm",
+      "command": [
+        "npm",
+        "test"
+      ],
+      "cwd": "D:\\game",
+      "startedAtUtc": "2026-10-15T11:46:52.227632+00:00",
+      "endedAtUtc": "2026-10-15T11:46:56.997876+00:00",
+      "exitCode": 0,
+      "node": "v22.19.0",
+      "npm": "10.9.3",
+      "log": {
+        "path": "docs/validation/day5a-plus/v21/phase0-baseline-npm.log",
+        "bytes": 19162,
+        "sha256": "0f7147af7ab72cdb83a004563cf36e8aaa9f848cdf67c60952ef0108eb6edf69"
+      },
+      "typescriptOutput": [
+        "TypeScript 5.8.2: C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\app.asar.unpacked\\node_modules\\typescript\\lib\\typescript.js",
+        "TypeScript checking against real editor-generated Cocos SDK references (strict/noUnusedLocals/noUnusedParameters enabled; SDK self-validation is separate)."
+      ],
+      "behaviorGroups": [
+        "174"
+      ],
+      "sdkDiagnostics": [
+        "102"
+      ]
+    },
+    {
+      "label": "phase0-baseline-cocos",
+      "command": [
+        "npm",
+        "run",
+        "check:cocos"
+      ],
+      "cwd": "D:\\game",
+      "startedAtUtc": "2026-10-15T11:46:52.227876+00:00",
+      "endedAtUtc": "2026-10-15T11:46:56.000750+00:00",
+      "exitCode": 0,
+      "node": "v22.19.0",
+      "npm": "10.9.3",
+      "log": {
+        "path": "docs/validation/day5a-plus/v21/phase0-baseline-cocos.log",
+        "bytes": 1267,
+        "sha256": "af0ab663dd494c66c51d1750e137a051af38d7b9da8922623c954ee8aa769f2d"
+      },
+      "typescriptOutput": [
+        "TypeScript 5.8.2: C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\app.asar.unpacked\\node_modules\\typescript\\lib\\typescript.js",
+        "TypeScript checking against real editor-generated Cocos SDK references (strict/noUnusedLocals/noUnusedParameters enabled; SDK self-validation is separate)."
+      ],
+      "behaviorGroups": [],
+      "sdkDiagnostics": [
+        "102"
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "docs/validation/day5a-plus/v21/baseline.json",
+      "bytes": 202924,
+      "sha256": "9b05be70ef51312b0f74ad9604f8b3ad023a7f104130b9a024b4ce41939ed09e"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/phase0-baseline-commands.json",
+      "bytes": 2109,
+      "sha256": "02fc460cc09e1156f0f0d96184277b0a3508fdb22f0eab5f45207a79e737bfaa"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/phase0-baseline-npm.log",
+      "bytes": 19162,
+      "sha256": "0f7147af7ab72cdb83a004563cf36e8aaa9f848cdf67c60952ef0108eb6edf69"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/phase0-baseline-cocos.log",
+      "bytes": 1267,
+      "sha256": "af0ab663dd494c66c51d1750e137a051af38d7b9da8922623c954ee8aa769f2d"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/phase0-offline-before.json",
+      "bytes": 123311,
+      "sha256": "1444ac3a20000bd446913450277956b040c65061cc6d11ab41839b9a02abf718"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/phase0-offline-before.log",
+      "bytes": 2078,
+      "sha256": "81a61ec68ee24ab513e09316ee03bbbac577a7cbe2664cdec502790588d0f319"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/phase0-offline-after.json",
+      "bytes": 123309,
+      "sha256": "21508b5c01fd018a2302febcffd835338adf02bac46986819881a0ff2451c547"
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/phase0-offline-after.log",
+      "bytes": 18800,
+      "sha256": "634ace1b4f7a87161e2f38ad1975d1687732e429a207e720e111e3f26f17226e"
+    }
+  ],
+  "newReusableTool": {
+    "path": "tools/verify_v21_offline.py",
+    "bytes": 11464,
+    "sha256": "e9408b34f5107e019d7e6c5e390d402e9755613a3e7022cd726f7f61a9c238e3"
+  },
+  "finalRerun": "python tools/verify_v21_offline.py --mode current --label final-offline",
+  "limits": [
+    "Baseline native Cocos project strict check passed while 102 installed SDK declaration diagnostics remain separately disclosed. No SDK self-check success is claimed.",
+    "Offline suites execute existing compiled components with the limited mock; they do not certify Creator rendering, touch hit-testing, audio or mobile platforms.",
+    "No Scene/Prefab/meta/business/controller/config/SDK or old report was changed in Phase 0; only the four Color declaration fields and new V21 evidence/tooling were written."
+  ]
+}

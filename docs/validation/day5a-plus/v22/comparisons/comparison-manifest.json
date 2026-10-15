@@ -1,0 +1,688 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-15T16:21:23Z",
+  "generator": "tools/compare_v22_previews.py",
+  "pythonVersion": "3.13.5",
+  "pillowVersion": "12.3.0",
+  "mode": "native-comparisons",
+  "pixelPolicy": "No resize/crop/repaint/tint; full390x844 decoded source RGB copied to PNG and verified after reopen. Labels and borders outside source pixels.",
+  "userArtApproval": false,
+  "sourceProtection": {
+    "comparedBeforeAndAfter": 152,
+    "changedSources": []
+  },
+  "requiredPairKeys": [
+    "clean-horizontal57",
+    "clean-diagonal57",
+    "clean-local-repeat",
+    "clean96",
+    "order8-four-items",
+    "order9-three-cross"
+  ],
+  "pendingRequiredPairs": [],
+  "baselineOptions": {
+    "clean-horizontal57": {
+      "before": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/clean-order4-horizontal57-v21-390x844.jpg",
+        "bytes": 47783,
+        "sha256": "0271f1437019a457dbb4fcfb2cd3f74569b8a5640638bfc377f25ef683c4b17c",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "title": "Order 4 | horizontal wipe",
+      "visibleBeforeState": "57% / 16 of 28"
+    },
+    "clean-diagonal57": {
+      "before": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/clean-order4-about57pct-v21-390x844.jpg",
+        "bytes": 47870,
+        "sha256": "3218ca8bee5223c9f1cf89db90c3605a9db0e706f44e4c867506d24abd78277e",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "title": "Order 4 | diagonal / arc wipe",
+      "visibleBeforeState": "57% / 16 of 28"
+    },
+    "clean-local-repeat": {
+      "before": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/clean-local-repeat-v21-390x844.jpg",
+        "bytes": 47888,
+        "sha256": "cc2878476e972d1f4ecfcfe34c37ad7c1ec7aa73dbf34f28a93418565f02aef1",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "title": "Order 4 | local repeated wipe",
+      "visibleBeforeState": "57% / 16 of 28"
+    },
+    "clean96": {
+      "before": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/clean-order4-about96pct-v21-390x844.jpg",
+        "bytes": 47442,
+        "sha256": "d220a65baf58709cd88a2671be30b7a505c01a2678fdc45191909e412f295be2",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "title": "Order 4 | near-threshold clean",
+      "visibleBeforeState": "96% / 27 of 28"
+    },
+    "order8-four-items": {
+      "before": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/drag-order8-four-v21-390x844.jpg",
+        "bytes": 48753,
+        "sha256": "f9f024af9a09104491207e23b1a658d3c93f9ae2f170fb9560c09d368d89d484",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "title": "Order 8 | four devices",
+      "visibleBeforeState": "0 / 4 placed"
+    },
+    "order9-three-cross": {
+      "before": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/cable-order9-three-cross-v21-390x844.jpg",
+        "bytes": 48856,
+        "sha256": "a78cabc3a6e7e8aa338fcc83bba6af4d340fba71fffef4b422436aec897845ca",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "title": "Order 9 | three connected cross-lines",
+      "visibleBeforeState": "3 / 4 connected"
+    },
+    "order9-four-cables-before": {
+      "before": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/cable-order9-four-v21-390x844.jpg",
+        "bytes": 46659,
+        "sha256": "fc9410268e3757323140c94febbbda96013bb53b888a3cf3df0731dc45da31f9",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "title": "Order 9 | four available cables",
+      "visibleBeforeState": "0 / 4 connected"
+    },
+    "order9-four-items": {
+      "before": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/drag-order9-four-v21-390x844.jpg",
+        "bytes": 48575,
+        "sha256": "0ab09a0d28ea9b1a89b29b8bc5730c8e8ea3c7f631a9f278782cce4bd8b1ac29",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "title": "Order 9 | four components",
+      "visibleBeforeState": "0 / 4 placed"
+    },
+    "order5-0of3": {
+      "before": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/cable-order5-0of3-v21-390x844.jpg",
+        "bytes": 45686,
+        "sha256": "b6f3fef1dead363b5a30c098d18843f3e9270c20e881bd39896fb541c58df285",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "title": "Order 5 | before connection",
+      "visibleBeforeState": "0 / 3 connected"
+    },
+    "order5-1of3": {
+      "before": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/cable-order5-1of3-v21-390x844.jpg",
+        "bytes": 45240,
+        "sha256": "2b1ae653b3408b4ec38a6f7a65d3f7a7c4441c91b721d227562bf9cf7cc3620c",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "title": "Order 5 | one connected cable",
+      "visibleBeforeState": "1 / 3 connected"
+    }
+  },
+  "comparisons": [
+    {
+      "key": "clean-horizontal57",
+      "title": "Order 4 | horizontal wipe",
+      "before": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/clean-order4-horizontal57-v21-390x844.jpg",
+        "bytes": 47783,
+        "sha256": "0271f1437019a457dbb4fcfb2cd3f74569b8a5640638bfc377f25ef683c4b17c",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "after": {
+        "path": "docs/validation/day5a-plus/v22/screenshots/clean-horizontal57-v22-390x844.jpg",
+        "bytes": 47699,
+        "sha256": "fc531aca88955ec3e5727a6cbd7e3b103b58049cf4707d14d2812d6c29b8e8af",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "beforeState": "57% / 16 of 28",
+      "afterState": "57% / 16 of 28",
+      "observationBasis": "Agent directly viewed V21 and V22 complete390x844 source JPGs; root reported actual input path",
+      "pathDifference": "Both use long horizontal wiping; natural sampling/timing differ, not identical-input replay.",
+      "remainingDifference": "A broad horizontal wiped band remains; soft-edge improvement is modest, not complete elimination.",
+      "sourcePixelPolicy": "Complete390x844 decoded RGB copied at1:1, no crop/resize/retouch/normalization; all captions outside source rectangles",
+      "status": "generated",
+      "output": {
+        "path": "docs/validation/day5a-plus/v22/comparisons/clean-horizontal57-v21-to-v22.png",
+        "bytes": 362654,
+        "sha256": "d242e34f1cdcfe9b4a27696a694f62b556ed7625a034551ebd72e41bacd35075",
+        "dimensions": [
+          840,
+          1046
+        ]
+      },
+      "embeddedPixelsIdenticalAfterReopen": true,
+      "sourceRectanglesXYWH": [
+        [
+          18,
+          120,
+          390,
+          844
+        ],
+        [
+          432,
+          120,
+          390,
+          844
+        ]
+      ]
+    },
+    {
+      "key": "clean-diagonal57",
+      "title": "Order 4 | diagonal / arc wipe",
+      "before": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/clean-order4-about57pct-v21-390x844.jpg",
+        "bytes": 47870,
+        "sha256": "3218ca8bee5223c9f1cf89db90c3605a9db0e706f44e4c867506d24abd78277e",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "after": {
+        "path": "docs/validation/day5a-plus/v22/screenshots/clean-diagonal57-v22-390x844.jpg",
+        "bytes": 47845,
+        "sha256": "5d2efb0b2d23a55aeb745f31f7b69099bef4c591cdbed8c8aaa29ab5170b91d6",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "beforeState": "57% / 16 of 28",
+      "afterState": "57% / 16 of 28",
+      "observationBasis": "Agent directly viewed V21 and V22 complete390x844 source JPGs; root reported actual input path",
+      "pathDifference": "Both follow the four-segment diagonal/arc route; natural sampling/timing may differ.",
+      "remainingDifference": "Scattered local residual dust remains; no visible logical grid or newly hard-edged row cut.",
+      "sourcePixelPolicy": "Complete390x844 decoded RGB copied at1:1, no crop/resize/retouch/normalization; all captions outside source rectangles",
+      "status": "generated",
+      "output": {
+        "path": "docs/validation/day5a-plus/v22/comparisons/clean-diagonal57-v21-to-v22.png",
+        "bytes": 368401,
+        "sha256": "08a135f29fcf2ab33ec547c253598a733cf2f4bce83230eaf7924715733d2e32",
+        "dimensions": [
+          840,
+          1046
+        ]
+      },
+      "embeddedPixelsIdenticalAfterReopen": true,
+      "sourceRectanglesXYWH": [
+        [
+          18,
+          120,
+          390,
+          844
+        ],
+        [
+          432,
+          120,
+          390,
+          844
+        ]
+      ]
+    },
+    {
+      "key": "clean-local-repeat",
+      "title": "Order 4 | local repeated wipe",
+      "before": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/clean-local-repeat-v21-390x844.jpg",
+        "bytes": 47888,
+        "sha256": "cc2878476e972d1f4ecfcfe34c37ad7c1ec7aa73dbf34f28a93418565f02aef1",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "after": {
+        "path": "docs/validation/day5a-plus/v22/screenshots/clean-diagonal-local-repeat57-v22-390x844.jpg",
+        "bytes": 47883,
+        "sha256": "3ffd401c4d0223575baf79509d4acfd29966f2028cef75ed00f244a3a9024a62",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "beforeState": "57% / 16 of 28",
+      "afterState": "57% after local repeat",
+      "observationBasis": "Agent directly viewed V21 and V22 complete390x844 source JPGs; root reported actual input path",
+      "pathDifference": "Both are local back-and-forth checks following diagonal/arc wiping; timers differ.",
+      "remainingDifference": "Repeated local motion retains57%; compare the paired current pre/post keyboard pixels separately.",
+      "sourcePixelPolicy": "Complete390x844 decoded RGB copied at1:1, no crop/resize/retouch/normalization; all captions outside source rectangles",
+      "status": "generated",
+      "output": {
+        "path": "docs/validation/day5a-plus/v22/comparisons/clean-local-repeat-v21-to-v22.png",
+        "bytes": 372627,
+        "sha256": "c64a7fba8df3a371f873656a999bf0d00903999c5c5dab40abfc3081b559859a",
+        "dimensions": [
+          840,
+          1046
+        ]
+      },
+      "embeddedPixelsIdenticalAfterReopen": true,
+      "sourceRectanglesXYWH": [
+        [
+          18,
+          120,
+          390,
+          844
+        ],
+        [
+          432,
+          120,
+          390,
+          844
+        ]
+      ]
+    },
+    {
+      "key": "clean96",
+      "title": "Order 4 | near-threshold clean",
+      "before": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/clean-order4-about96pct-v21-390x844.jpg",
+        "bytes": 47442,
+        "sha256": "d220a65baf58709cd88a2671be30b7a505c01a2678fdc45191909e412f295be2",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "after": {
+        "path": "docs/validation/day5a-plus/v22/screenshots/clean-horizontal96-v22-390x844.jpg",
+        "bytes": 47391,
+        "sha256": "fb1350c51012b9d14b63baf51007131bae9893ca66c21a13ee73e210fb8f51c4",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "beforeState": "96% / 27 of 28",
+      "afterState": "96% / 27 of 28",
+      "observationBasis": "Agent directly viewed V21 and V22 complete390x844 source JPGs; root reported actual input path",
+      "pathDifference": "V21 follows diagonal/arc+dabs; V22 follows horizontal+dabs. Same true progress, different routes.",
+      "remainingDifference": "Residual dust location differs with input; this is not equal-path or pixel-removal-rate evidence.",
+      "sourcePixelPolicy": "Complete390x844 decoded RGB copied at1:1, no crop/resize/retouch/normalization; all captions outside source rectangles",
+      "status": "generated",
+      "output": {
+        "path": "docs/validation/day5a-plus/v22/comparisons/clean96-v21-to-v22.png",
+        "bytes": 368582,
+        "sha256": "ea98caf5a07233bbed5fcc90a5848a9f282b0be151761f063666facf1720e151",
+        "dimensions": [
+          840,
+          1046
+        ]
+      },
+      "embeddedPixelsIdenticalAfterReopen": true,
+      "sourceRectanglesXYWH": [
+        [
+          18,
+          120,
+          390,
+          844
+        ],
+        [
+          432,
+          120,
+          390,
+          844
+        ]
+      ]
+    },
+    {
+      "key": "order8-four-items",
+      "title": "Order 8 | four devices",
+      "before": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/drag-order8-four-v21-390x844.jpg",
+        "bytes": 48753,
+        "sha256": "f9f024af9a09104491207e23b1a658d3c93f9ae2f170fb9560c09d368d89d484",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "after": {
+        "path": "docs/validation/day5a-plus/v22/screenshots/order8-four-items-v22-390x844.jpg",
+        "bytes": 50036,
+        "sha256": "dbc873854c0a3e263a46e23e3cfa80564fbd9a95047e53858e708fabfaddb4ff",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "beforeState": "0 / 4 placed",
+      "afterState": "0 / 4 placed",
+      "observationBasis": "Agent directly viewed V21 and V22 complete390x844 source JPGs; root reported actual input path",
+      "pathDifference": "Same formal order and four stable devices, with different natural elapsed time.",
+      "remainingDifference": "Larger outlined short captions improve separation; sprites and real hitboxes are different layers.",
+      "sourcePixelPolicy": "Complete390x844 decoded RGB copied at1:1, no crop/resize/retouch/normalization; all captions outside source rectangles",
+      "status": "generated",
+      "output": {
+        "path": "docs/validation/day5a-plus/v22/comparisons/order8-four-items-v21-to-v22.png",
+        "bytes": 426019,
+        "sha256": "13dfd1f4652aaa711d3954aaac5f2eba84d651074ce40c1313c9cb063fad67c2",
+        "dimensions": [
+          840,
+          1046
+        ]
+      },
+      "embeddedPixelsIdenticalAfterReopen": true,
+      "sourceRectanglesXYWH": [
+        [
+          18,
+          120,
+          390,
+          844
+        ],
+        [
+          432,
+          120,
+          390,
+          844
+        ]
+      ]
+    },
+    {
+      "key": "order9-three-cross",
+      "title": "Order 9 | three connected cross-lines",
+      "before": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/cable-order9-three-cross-v21-390x844.jpg",
+        "bytes": 48856,
+        "sha256": "a78cabc3a6e7e8aa338fcc83bba6af4d340fba71fffef4b422436aec897845ca",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "after": {
+        "path": "docs/validation/day5a-plus/v22/screenshots/order9-three-cross-v22-390x844.jpg",
+        "bytes": 50711,
+        "sha256": "27739c4b06b499b317e67e2e419b14d6361b7c9e3d4703b64a927f7fbf70557a",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "beforeState": "3 / 4 connected",
+      "afterState": "3 / 4 connected",
+      "observationBasis": "Agent directly viewed V21 and V22 complete390x844 source JPGs; root reported actual input path",
+      "pathDifference": "Both show motherboard/CPU/disk connected and fan still unconnected; natural times differ.",
+      "remainingDifference": "Three real success lamps/curves; no fourth-success or unobstructed4/4 claim.",
+      "sourcePixelPolicy": "Complete390x844 decoded RGB copied at1:1, no crop/resize/retouch/normalization; all captions outside source rectangles",
+      "status": "generated",
+      "output": {
+        "path": "docs/validation/day5a-plus/v22/comparisons/order9-three-cross-v21-to-v22.png",
+        "bytes": 420366,
+        "sha256": "8144092a5f63ef2cbc2036a9ffec025d9f68cfe41723097f44d969333f192f91",
+        "dimensions": [
+          840,
+          1046
+        ]
+      },
+      "embeddedPixelsIdenticalAfterReopen": true,
+      "sourceRectanglesXYWH": [
+        [
+          18,
+          120,
+          390,
+          844
+        ],
+        [
+          432,
+          120,
+          390,
+          844
+        ]
+      ]
+    },
+    {
+      "key": "order9-four-cables-before",
+      "title": "Order 9 | four available cables",
+      "before": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/cable-order9-four-v21-390x844.jpg",
+        "bytes": 46659,
+        "sha256": "fc9410268e3757323140c94febbbda96013bb53b888a3cf3df0731dc45da31f9",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "after": {
+        "path": "docs/validation/day5a-plus/v22/screenshots/order9-four-cables-before-v22-390x844.jpg",
+        "bytes": 47893,
+        "sha256": "8bfc5853bbb52ff3f02f435fa878bb19aacb7eeff207a8b4d9c1e21101251654",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "beforeState": "0 / 4 connected",
+      "afterState": "0 / 4 connected",
+      "observationBasis": "Agent directly viewed V21 and V22 complete390x844 source JPGs; root reported actual input path",
+      "pathDifference": "Same four formal cables/ports and initial connection count; timers differ.",
+      "remainingDifference": "Head captions above and port captions below keep both labels without moving real input roots.",
+      "sourcePixelPolicy": "Complete390x844 decoded RGB copied at1:1, no crop/resize/retouch/normalization; all captions outside source rectangles",
+      "status": "generated",
+      "output": {
+        "path": "docs/validation/day5a-plus/v22/comparisons/order9-four-cables-before-v21-to-v22.png",
+        "bytes": 410063,
+        "sha256": "43cf7373cae8c77e7771aa13d73ab69be2919a95118ea1b97cce45d7033f3bad",
+        "dimensions": [
+          840,
+          1046
+        ]
+      },
+      "embeddedPixelsIdenticalAfterReopen": true,
+      "sourceRectanglesXYWH": [
+        [
+          18,
+          120,
+          390,
+          844
+        ],
+        [
+          432,
+          120,
+          390,
+          844
+        ]
+      ]
+    },
+    {
+      "key": "order9-four-items",
+      "title": "Order 9 | four components",
+      "before": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/drag-order9-four-v21-390x844.jpg",
+        "bytes": 48575,
+        "sha256": "0ab09a0d28ea9b1a89b29b8bc5730c8e8ea3c7f631a9f278782cce4bd8b1ac29",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "after": {
+        "path": "docs/validation/day5a-plus/v22/screenshots/order9-four-items-v22-390x844.jpg",
+        "bytes": 49662,
+        "sha256": "78651cf20f350b887c55e9ff8fb0a38a7c1bfc1dc2734941fe99519250376aed",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "beforeState": "0 / 4 placed",
+      "afterState": "0 / 4 placed",
+      "observationBasis": "Agent directly viewed V21 and V22 complete390x844 source JPGs; root reported actual input path",
+      "pathDifference": "Same four computer parts and stable target mapping; natural elapsed time differs.",
+      "remainingDifference": "Short captions stay visible and separated from sprites; business names remain in original catalog.",
+      "sourcePixelPolicy": "Complete390x844 decoded RGB copied at1:1, no crop/resize/retouch/normalization; all captions outside source rectangles",
+      "status": "generated",
+      "output": {
+        "path": "docs/validation/day5a-plus/v22/comparisons/order9-four-items-v21-to-v22.png",
+        "bytes": 422894,
+        "sha256": "5442adeb92f6e03b4ecf871413f5801d9bc325fd51cb5bf41ac9603ac813cb86",
+        "dimensions": [
+          840,
+          1046
+        ]
+      },
+      "embeddedPixelsIdenticalAfterReopen": true,
+      "sourceRectanglesXYWH": [
+        [
+          18,
+          120,
+          390,
+          844
+        ],
+        [
+          432,
+          120,
+          390,
+          844
+        ]
+      ]
+    },
+    {
+      "key": "order5-0of3",
+      "title": "Order 5 | before connection",
+      "before": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/cable-order5-0of3-v21-390x844.jpg",
+        "bytes": 45686,
+        "sha256": "b6f3fef1dead363b5a30c098d18843f3e9270c20e881bd39896fb541c58df285",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "after": {
+        "path": "docs/validation/day5a-plus/v22/screenshots/order5-0of3-v22-390x844.jpg",
+        "bytes": 46598,
+        "sha256": "5385e3c202932de282635026dcdd67a3240168c29decf358fba508463182480a",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "beforeState": "0 / 3 connected",
+      "afterState": "0 / 3 connected",
+      "observationBasis": "Agent directly viewed V21 and V22 complete390x844 source JPGs; root reported actual input path",
+      "pathDifference": "Both show all three available cables and zero recorded successes; times differ.",
+      "remainingDifference": "No fixed successful wire or prematurely lit success lamp at0/3.",
+      "sourcePixelPolicy": "Complete390x844 decoded RGB copied at1:1, no crop/resize/retouch/normalization; all captions outside source rectangles",
+      "status": "generated",
+      "output": {
+        "path": "docs/validation/day5a-plus/v22/comparisons/order5-0of3-v21-to-v22.png",
+        "bytes": 378062,
+        "sha256": "678b5b3e2c9d078b477d2e30102568b8aa646eba667838eff6e4247bd325d159",
+        "dimensions": [
+          840,
+          1046
+        ]
+      },
+      "embeddedPixelsIdenticalAfterReopen": true,
+      "sourceRectanglesXYWH": [
+        [
+          18,
+          120,
+          390,
+          844
+        ],
+        [
+          432,
+          120,
+          390,
+          844
+        ]
+      ]
+    },
+    {
+      "key": "order5-1of3",
+      "title": "Order 5 | one connected cable",
+      "before": {
+        "path": "docs/validation/day5a-plus/v21/screenshots/cable-order5-1of3-v21-390x844.jpg",
+        "bytes": 45240,
+        "sha256": "2b1ae653b3408b4ec38a6f7a65d3f7a7c4441c91b721d227562bf9cf7cc3620c",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "after": {
+        "path": "docs/validation/day5a-plus/v22/screenshots/order5-1of3-v22-390x844.jpg",
+        "bytes": 46207,
+        "sha256": "6d8c440b9db3804065429e68e497fa462e0bd3b581c15351223ee65e5ffae2b8",
+        "dimensions": [
+          390,
+          844
+        ]
+      },
+      "beforeState": "1 / 3 connected",
+      "afterState": "1 / 3 connected",
+      "observationBasis": "Agent directly viewed V21 and V22 complete390x844 source JPGs; root reported actual input path",
+      "pathDifference": "Both show the blue display cable connected; timers differ.",
+      "remainingDifference": "Exactly one successful blue line/lamp; head and display-port labels remain separately readable.",
+      "sourcePixelPolicy": "Complete390x844 decoded RGB copied at1:1, no crop/resize/retouch/normalization; all captions outside source rectangles",
+      "status": "generated",
+      "output": {
+        "path": "docs/validation/day5a-plus/v22/comparisons/order5-1of3-v21-to-v22.png",
+        "bytes": 373661,
+        "sha256": "439c2a5a20210305a3bfc038579d8ed63fe39485a0fd9e3827a273c3b6e04a19",
+        "dimensions": [
+          840,
+          1046
+        ]
+      },
+      "embeddedPixelsIdenticalAfterReopen": true,
+      "sourceRectanglesXYWH": [
+        [
+          18,
+          120,
+          390,
+          844
+        ],
+        [
+          432,
+          120,
+          390,
+          844
+        ]
+      ]
+    }
+  ],
+  "inventoryFileCount": 40
+}

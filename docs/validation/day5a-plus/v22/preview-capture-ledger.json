@@ -1,0 +1,380 @@
+[
+  {
+    "name": "home-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/home-v22-390x844.jpg",
+    "note": "Fresh390x844 Home; P2composition unchanged.",
+    "time": "2026-10-15T15:42:18.735Z"
+  },
+  {
+    "name": "order1-start-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order1-start-v22-390x844.jpg",
+    "note": "Actual first order0/3, zero mistakes, sound OFF; captures are natural elapsed time, not zero-time benchmarks.",
+    "time": "2026-10-15T15:43:10.957Z"
+  },
+  {
+    "name": "order1-result-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order1-result-v22-390x844.jpg",
+    "note": "Order1 real result530points47.8seconds0mistakes1star; P2 result layout retained.",
+    "time": "2026-10-15T15:43:28.923Z"
+  },
+  {
+    "name": "order2-result-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order2-result-v22-390x844.jpg",
+    "note": "Order2 real730points27.0seconds0mistakes2stars.",
+    "time": "2026-10-15T15:44:21.715Z"
+  },
+  {
+    "name": "order3-result-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order3-result-v22-390x844.jpg",
+    "note": "Order3 real820points18.8seconds0mistakes3stars.",
+    "time": "2026-10-15T15:44:57.214Z"
+  },
+  {
+    "name": "clean-horizontal0-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/clean-horizontal0-v22-390x844.jpg",
+    "note": "Order4 real0percent before accepted horizontal strokes.",
+    "time": "2026-10-15T15:45:21.189Z"
+  },
+  {
+    "name": "clean-horizontal57-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/clean-horizontal57-v22-390x844.jpg",
+    "note": "Order4 observed57percent=16/28 after long horizontal strokes y475 and440. Natural clean band still exists; inspect edge against V21 original.",
+    "time": "2026-10-15T15:45:40.994Z"
+  },
+  {
+    "name": "clean-local-repeat57-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/clean-local-repeat57-v22-390x844.jpg",
+    "note": "After reverse/repeat of the same y440 horizontal track, actual progress remains57percent and visible dust does not regrow.",
+    "time": "2026-10-15T15:46:06.637Z"
+  },
+  {
+    "name": "clean-horizontal96-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/clean-horizontal96-v22-390x844.jpg",
+    "note": "Observed96percent=27/28 after third horizontal row and three top-cell dabs. Some residual dust remains; visual dust quantity is not logical percentage.",
+    "time": "2026-10-15T15:46:46.308Z"
+  },
+  {
+    "name": "clean-horizontal-result-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/clean-horizontal-result-v22-390x844.jpg",
+    "note": "True28/28 completion, order4 real100points109.1seconds0mistakes1star; no score/time changes for screenshot.",
+    "time": "2026-10-15T15:47:08.262Z"
+  },
+  {
+    "name": "order5-0of3-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order5-0of3-v22-390x844.jpg",
+    "note": "Order5 actual0/3. All3 Head labels above icons, Port labels below; no false successful curves.",
+    "time": "2026-10-15T15:47:59.103Z"
+  },
+  {
+    "name": "order5-1of3-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order5-1of3-v22-390x844.jpg",
+    "note": "Order5 real1/3, only display connected with true lamp/check. Head显示线 above and Port显示口 below remain separately visible.",
+    "time": "2026-10-15T15:48:16.195Z"
+  },
+  {
+    "name": "order5-result-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order5-result-v22-390x844.jpg",
+    "note": "Order5 true3/3 opens result320points68.5seconds0mistakes1star.",
+    "time": "2026-10-15T15:48:33.607Z"
+  },
+  {
+    "name": "order6-clean0-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order6-clean0-v22-390x844.jpg",
+    "note": "New mouse clean stage0percent after keyboard stage completion; dust reset.",
+    "time": "2026-10-15T15:48:51.102Z"
+  },
+  {
+    "name": "order6-result-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order6-result-v22-390x844.jpg",
+    "note": "Order6 two steps completed660points34.2seconds0mistakes3stars.",
+    "time": "2026-10-15T15:49:23.370Z"
+  },
+  {
+    "name": "order7-0of3-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order7-0of3-v22-390x844.jpg",
+    "note": "Router original0/3, 入户网线/电脑网线 and WAN/LAN distinctions retained.",
+    "time": "2026-10-15T15:49:42.158Z"
+  },
+  {
+    "name": "order7-2of3-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order7-2of3-v22-390x844.jpg",
+    "note": "Router real2/3; Head/Port captions separately visible on successful endpoints, last cable remains unconnected.",
+    "time": "2026-10-15T15:50:25.555Z"
+  },
+  {
+    "name": "order7-result-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order7-result-v22-390x844.jpg",
+    "note": "Order7 true3/3 result380points62.5seconds0mistakes2stars.",
+    "time": "2026-10-15T15:50:48.865Z"
+  },
+  {
+    "name": "order8-four-items-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order8-four-items-v22-390x844.jpg",
+    "note": "Order8 actual0/4: microphone,camera,ringlight,soundcard and all four matching short captions visible in original390pixels; root hitboxes unchanged.",
+    "time": "2026-10-15T15:51:07.082Z"
+  },
+  {
+    "name": "order8-two-cables-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order8-two-cables-v22-390x844.jpg",
+    "note": "Order8 actual step2/2,0/2. Microphone/camera labels and both distinct endpoints remain visible.",
+    "time": "2026-10-15T15:51:31.902Z"
+  },
+  {
+    "name": "order8-result-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order8-result-v22-390x844.jpg",
+    "note": "Order8 real570points43.5seconds0mistakes3stars; both stages complete.",
+    "time": "2026-10-15T15:51:57.686Z"
+  },
+  {
+    "name": "order9-clean0-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order9-clean0-v22-390x844.jpg",
+    "note": "Case clean begins0percent, third clean definition reset with unchanged geometry/threshold.",
+    "time": "2026-10-15T15:54:16.845Z"
+  },
+  {
+    "name": "order9-four-cables-before-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order9-four-cables-before-v22-390x844.jpg",
+    "note": "Order9 actual0/4; original four input roots/port locations retained, display aliases only.",
+    "time": "2026-10-15T15:54:39.358Z"
+  },
+  {
+    "name": "order9-three-cross-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order9-three-cross-v22-390x844.jpg",
+    "note": "Order9 actual3/4 with three successful red/blue/yellow curves, correct true lamps, CPU/主板/硬盘 Head labels above and Port labels below; fan remains unconnected.",
+    "time": "2026-10-15T15:54:59.659Z"
+  },
+  {
+    "name": "order9-four-items-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order9-four-items-v22-390x844.jpg",
+    "note": "Order9 step3/3 actual0/4; fan,memory,drive,GPU short captions fully visible on items and targets.",
+    "time": "2026-10-15T15:55:18.459Z"
+  },
+  {
+    "name": "final-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/final-v22-390x844.jpg",
+    "note": "Actual first full390 run9/9orders13/13steps17/27stars4210points613.0seconds0mistakes. All time/score natural.",
+    "time": "2026-10-15T15:55:37.611Z"
+  },
+  {
+    "name": "home-after-final-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/home-after-final-v22-390x844.jpg",
+    "note": "Actual Final Home returned to unchanged Home, sound OFF retained.",
+    "time": "2026-10-15T15:56:44.099Z"
+  },
+  {
+    "name": "start-after-home-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/start-after-home-v22-390x844.jpg",
+    "note": "Final Home -> Start accepted new order1 0/3, zero mistakes, OFF retained; subsequent run used to test diagonal reset.",
+    "time": "2026-10-15T15:57:59.369Z"
+  },
+  {
+    "name": "clean-diagonal-reset0-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/clean-diagonal-reset0-v22-390x844.jpg",
+    "note": "After Final Home -> Start and prior3 orders, order4 returns0percent with same seeded dirty artwork.",
+    "time": "2026-10-15T16:01:13.883Z"
+  },
+  {
+    "name": "clean-diagonal57-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/clean-diagonal57-v22-390x844.jpg",
+    "note": "Order4 observed57percent=16/28 after diagonal+three bent/arc segments, same viewport/order/progress as V21 reference but natural timings differ.",
+    "time": "2026-10-15T16:01:52.962Z"
+  },
+  {
+    "name": "clean-diagonal-local-repeat57-v22-390x844",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/clean-diagonal-local-repeat57-v22-390x844.jpg",
+    "note": "Local back-and-forth on the accepted diagonal region remains real57percent; no duplicate logical count or dust regrowth observed.",
+    "time": "2026-10-15T16:02:39.409Z"
+  },
+  {
+    "name": "home-v22-768x1024",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/home-v22-768x1024.jpg",
+    "note": "Fresh independent768x1024 Home after reload; original SHOW_ALL side letterbox retained.",
+    "time": "2026-10-15T16:08:42.474Z"
+  },
+  {
+    "name": "order1-start-v22-768x1024",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order1-start-v22-768x1024.jpg",
+    "note": "Tablet first order0/3 at actual viewport768x1024.",
+    "time": "2026-10-15T16:09:05.175Z"
+  },
+  {
+    "name": "order1-result-v22-768x1024",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order1-result-v22-768x1024.jpg",
+    "note": "Tablet actual order1 result770points23.5seconds0mistakes2stars.",
+    "time": "2026-10-15T16:09:26.408Z"
+  },
+  {
+    "name": "clean0-v22-768x1024",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/clean0-v22-768x1024.jpg",
+    "note": "Tablet order4 actual0percent.",
+    "time": "2026-10-15T16:11:23.668Z"
+  },
+  {
+    "name": "clean-horizontal57-v22-768x1024",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/clean-horizontal57-v22-768x1024.jpg",
+    "note": "Tablet stable 57 percent after two horizontal rows; prior transient 53 percent was not saved.",
+    "time": "2026-10-15T16:15:18.338Z"
+  },
+  {
+    "name": "order4-result-v22-768x1024",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order4-result-v22-768x1024.jpg",
+    "note": "Tablet order4 actual result 120 points, 88.3 seconds, zero mistakes.",
+    "time": "2026-10-15T16:15:48.900Z"
+  },
+  {
+    "name": "order5-0of3-v22-768x1024",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order5-0of3-v22-768x1024.jpg",
+    "note": "Tablet order5 actual zero of three, saved after scene settled.",
+    "time": "2026-10-15T16:15:59.788Z"
+  },
+  {
+    "name": "order5-1of3-v22-768x1024",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order5-1of3-v22-768x1024.jpg",
+    "note": "Tablet order5 actual one of three: display connected, power/network pending.",
+    "time": "2026-10-15T16:16:09.528Z"
+  },
+  {
+    "name": "order5-result-v22-768x1024",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order5-result-v22-768x1024.jpg",
+    "note": "Tablet scoped test ends after order5: actual 810 points,19.9 seconds,zero mistakes; not a full nine-order run.",
+    "time": "2026-10-15T16:16:22.019Z"
+  },
+  {
+    "name": "home-v22-1280x720",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/home-v22-1280x720.jpg",
+    "note": "Wide fresh Home, full centered portrait content and mint side regions.",
+    "time": "2026-10-15T16:21:54.986Z"
+  },
+  {
+    "name": "order1-start-v22-1280x720",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order1-start-v22-1280x720.jpg",
+    "note": "Wide order1 starts 0 of3, zero mistakes, all root geometry unchanged.",
+    "time": "2026-10-15T16:22:40.068Z"
+  },
+  {
+    "name": "order1-result-v22-1280x720",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order1-result-v22-1280x720.jpg",
+    "note": "Wide actual result710 points29.1 seconds zero mistakes2stars.",
+    "time": "2026-10-15T16:23:22.620Z"
+  },
+  {
+    "name": "order2-result-v22-1280x720",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order2-result-v22-1280x720.jpg",
+    "note": "Wide actual result810 points19.8 seconds zero mistakes3stars.",
+    "time": "2026-10-15T16:23:51.896Z"
+  },
+  {
+    "name": "order3-result-v22-1280x720",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order3-result-v22-1280x720.jpg",
+    "note": "Wide order3 result900 points10.2 seconds zero mistakes3stars.",
+    "time": "2026-10-15T16:24:46.050Z"
+  },
+  {
+    "name": "home-resumed-v22-1280x720",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/home-resumed-v22-1280x720.jpg",
+    "note": "Fresh complete wide run after browser session interruption; earlier order1-3 belong only to interrupted partial run.",
+    "time": "2026-10-15T16:28:15.513Z"
+  },
+  {
+    "name": "order1-resumed-result-v22-1280x720",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order1-resumed-result-v22-1280x720.jpg",
+    "note": "Complete wide run order1 950 points6.0seconds0mistakes3stars.",
+    "time": "2026-10-15T16:28:27.719Z"
+  },
+  {
+    "name": "order2-resumed-result-v22-1280x720",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order2-resumed-result-v22-1280x720.jpg",
+    "note": "Complete wide run order2 820points18.7seconds0mistakes3stars.",
+    "time": "2026-10-15T16:28:52.525Z"
+  },
+  {
+    "name": "order3-resumed-result-v22-1280x720",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order3-resumed-result-v22-1280x720.jpg",
+    "note": "Complete wide run order3 940points6.2seconds0mistakes3stars.",
+    "time": "2026-10-15T16:29:04.714Z"
+  },
+  {
+    "name": "clean0-v22-1280x720",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/clean0-v22-1280x720.jpg",
+    "note": "Complete wide run order4 true0.",
+    "time": "2026-10-15T16:29:10.393Z"
+  },
+  {
+    "name": "clean-horizontal57-v22-1280x720",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/clean-horizontal57-v22-1280x720.jpg",
+    "note": "Wide horizontal two rows true57 percent, zero mistakes.",
+    "time": "2026-10-15T16:29:17.096Z"
+  },
+  {
+    "name": "order4-result-v22-1280x720",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order4-result-v22-1280x720.jpg",
+    "note": "Complete wide run order4 880points12.7seconds0mistakes3stars.",
+    "time": "2026-10-15T16:29:26.015Z"
+  },
+  {
+    "name": "order5-result-v22-1280x720",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order5-result-v22-1280x720.jpg",
+    "note": "Complete wide run order5 930points7.9seconds0mistakes3stars.",
+    "time": "2026-10-15T16:29:39.956Z"
+  },
+  {
+    "name": "order6-result-v22-1280x720",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order6-result-v22-1280x720.jpg",
+    "note": "Complete wide run order6 880points12.7seconds0mistakes3stars two steps.",
+    "time": "2026-10-15T16:29:58.603Z"
+  },
+  {
+    "name": "order7-result-v22-1280x720",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order7-result-v22-1280x720.jpg",
+    "note": "Complete wide run order7 910points9.0seconds0mistakes3stars.",
+    "time": "2026-10-15T16:30:41.269Z"
+  },
+  {
+    "name": "order8-four-items-v22-1280x720",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order8-four-items-v22-1280x720.jpg",
+    "note": "Wide actual four devices 0 of4 with shorter readable captions.",
+    "time": "2026-10-15T16:30:56.560Z"
+  },
+  {
+    "name": "order8-result-v22-1280x720",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order8-result-v22-1280x720.jpg",
+    "note": "Complete wide run order8 830points17.7seconds0mistakes3stars two steps.",
+    "time": "2026-10-15T16:31:10.471Z"
+  },
+  {
+    "name": "order9-four-cables-before-v22-1280x720",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order9-four-cables-before-v22-1280x720.jpg",
+    "note": "Wide order9 step2 actual0 of4 before any cable input.",
+    "time": "2026-10-15T16:31:25.070Z"
+  },
+  {
+    "name": "order9-three-cross-v22-1280x720",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order9-three-cross-v22-1280x720.jpg",
+    "note": "Wide actual3 of4 three crossing cables; motherboard CPU SATA successful, fan still unconnected.",
+    "time": "2026-10-15T16:31:33.422Z"
+  },
+  {
+    "name": "order9-four-items-v22-1280x720",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/order9-four-items-v22-1280x720.jpg",
+    "note": "Wide order9 final step actual0 of4 fan memory drive GPU.",
+    "time": "2026-10-15T16:31:41.129Z"
+  },
+  {
+    "name": "final-v22-1280x720",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/final-v22-1280x720.jpg",
+    "note": "Complete wide run final actual9of9 orders13of13 steps27of27 stars7820points123.5seconds0mistakes.",
+    "time": "2026-10-15T16:31:49.615Z"
+  },
+  {
+    "name": "replay-start-v22-1280x720",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/replay-start-v22-1280x720.jpg",
+    "note": "Direct Replay reset confirmed order1of9 step1of1 counter0of3 mistakes0; not a second full run.",
+    "time": "2026-10-15T16:32:00.937Z"
+  },
+  {
+    "name": "home-default-v22",
+    "path": "D:/game/docs/validation/day5a-plus/v22/screenshots/home-default-v22.jpg",
+    "note": "Temporary viewport override reset; Preview reloaded; actual default screenshot is 1280x720 Home with mint SHOW_ALL margins.",
+    "time": "2026-10-15T16:36:34.625Z"
+  }
+]

@@ -1,9 +1,9 @@
 {
   "package_version": 2,
-  "version": "0.0.4",
+  "version": "0.0.5-alpha.4",
   "name": "deskrescue-editor",
   "private": true,
-  "description": "DeskRescue Day 3 / Day 4 Editor assembly, asset audit and real engine probes.",
+  "description": "DeskRescue Creator assembly, original visual assets, audits and engine validation.",
   "editor": ">=3.8.8",
   "main": "./main.js",
   "contributions": {
@@ -55,6 +55,101 @@
         "path": "DeskRescue/Day 4",
         "label": "Correct Clean Stage Appearance",
         "message": "correct-day4-appearance"
+      },
+      {
+        "path": "DeskRescue/Day 5A",
+        "label": "Apply Visual Skin",
+        "message": "apply-day5a"
+      },
+      {
+        "path": "DeskRescue/Day 5A",
+        "label": "Audit Visual Assets",
+        "message": "audit-day5a"
+      },
+      {
+        "path": "DeskRescue/Day 5A",
+        "label": "Refresh Day 5A Scripts",
+        "message": "refresh-day5a"
+      },
+      {
+        "path": "DeskRescue/Day 5A",
+        "label": "Run Real Engine Probe",
+        "message": "probe-day5a"
+      },
+      {
+        "path": "DeskRescue/V2",
+        "label": "A: Home and first order",
+        "message": "v2-a"
+      },
+      {
+        "path": "DeskRescue/V2",
+        "label": "B/C: Complete six screens",
+        "message": "v2-full"
+      },
+      {
+        "path": "DeskRescue/V2",
+        "label": "Refresh current scripts",
+        "message": "v2-refresh"
+      },
+      {
+        "path": "DeskRescue/V2",
+        "label": "Audit saved V2 resources",
+        "message": "v2-audit"
+      },
+      {
+        "path": "DeskRescue/V2",
+        "label": "Run current real engine probe",
+        "message": "v2-probe"
+      },
+      {
+        "path": "DeskRescue/V2.1",
+        "label": "Sample clean + cable",
+        "message": "v21-sample"
+      },
+      {
+        "path": "DeskRescue/V2.1",
+        "label": "Refine drag + rewards",
+        "message": "v21-refine"
+      },
+      {
+        "path": "DeskRescue/V2.1",
+        "label": "Finish V2.1",
+        "message": "v21-full"
+      },
+      {
+        "path": "DeskRescue/V2.1",
+        "label": "Refresh V2.1 scripts",
+        "message": "v21-refresh"
+      },
+      {
+        "path": "DeskRescue/V2.1",
+        "label": "Audit V2.1 saved assets",
+        "message": "v21-audit"
+      },
+      {
+        "path": "DeskRescue/V2.1",
+        "label": "Run V2.1 real engine probe",
+        "message": "v21-probe"
+      },
+      {
+        "path": "DeskRescue/V2.2",
+        "label": "Save bounded visual closeout",
+        "message": "v22-apply"
+      },
+      {
+        "path": "DeskRescue/V2.2",
+        "label": "Refresh two visual scripts",
+        "message": "v22-refresh"
+      },
+      {
+        "path": "DeskRescue/V2.2",
+        "label": "Audit saved V2.2 assets",
+        "message": "v22-audit"
+      },
+      {
+        "path": "DeskRescue/V2.2",
+        "label": "Run V2.2 real engine probe",
+        "message": "v22-probe"
       }
     ],
     "messages": {
@@ -102,6 +197,101 @@
         "methods": [
           "correctDay4Appearance"
         ]
+      },
+      "apply-day5a": {
+        "methods": [
+          "applyDay5A"
+        ]
+      },
+      "audit-day5a": {
+        "methods": [
+          "auditDay5A"
+        ]
+      },
+      "refresh-day5a": {
+        "methods": [
+          "refreshDay5A"
+        ]
+      },
+      "probe-day5a": {
+        "methods": [
+          "probeDay5A"
+        ]
+      },
+      "v2-a": {
+        "methods": [
+          "applyV2A"
+        ]
+      },
+      "v2-full": {
+        "methods": [
+          "applyV2"
+        ]
+      },
+      "v2-refresh": {
+        "methods": [
+          "refreshV2"
+        ]
+      },
+      "v2-audit": {
+        "methods": [
+          "auditV2"
+        ]
+      },
+      "v2-probe": {
+        "methods": [
+          "probeV2"
+        ]
+      },
+      "v21-sample": {
+        "methods": [
+          "applyV21Sample"
+        ]
+      },
+      "v21-refine": {
+        "methods": [
+          "applyV21Refine"
+        ]
+      },
+      "v21-full": {
+        "methods": [
+          "applyV21Full"
+        ]
+      },
+      "v21-refresh": {
+        "methods": [
+          "refreshV21"
+        ]
+      },
+      "v21-audit": {
+        "methods": [
+          "auditV21"
+        ]
+      },
+      "v21-probe": {
+        "methods": [
+          "probeV21"
+        ]
+      },
+      "v22-apply": {
+        "methods": [
+          "applyV22"
+        ]
+      },
+      "v22-refresh": {
+        "methods": [
+          "refreshV22"
+        ]
+      },
+      "v22-audit": {
+        "methods": [
+          "auditV22"
+        ]
+      },
+      "v22-probe": {
+        "methods": [
+          "probeV22"
+        ]
       }
     },
     "shortcuts": [
@@ -124,6 +314,82 @@
       {
         "message": "correct-day4-appearance",
         "win": "ctrl+alt+8"
+      },
+      {
+        "message": "apply-day5a",
+        "win": "ctrl+alt+9"
+      },
+      {
+        "message": "audit-day5a",
+        "win": "ctrl+alt+0"
+      },
+      {
+        "message": "refresh-day5a",
+        "win": "ctrl+alt+r"
+      },
+      {
+        "message": "probe-day5a",
+        "win": "ctrl+alt+2"
+      },
+      {
+        "message": "v2-a",
+        "win": "ctrl+alt+a"
+      },
+      {
+        "message": "v2-full",
+        "win": "ctrl+alt+b"
+      },
+      {
+        "message": "v2-refresh",
+        "win": "ctrl+alt+i"
+      },
+      {
+        "message": "v2-audit",
+        "win": "ctrl+alt+u"
+      },
+      {
+        "message": "v2-probe",
+        "win": "ctrl+alt+p"
+      },
+      {
+        "message": "v21-sample",
+        "win": "ctrl+alt+s"
+      },
+      {
+        "message": "v21-refine",
+        "win": "ctrl+alt+d"
+      },
+      {
+        "message": "v21-full",
+        "win": "ctrl+alt+f"
+      },
+      {
+        "message": "v21-refresh",
+        "win": "ctrl+alt+j"
+      },
+      {
+        "message": "v21-audit",
+        "win": "ctrl+alt+k"
+      },
+      {
+        "message": "v21-probe",
+        "win": "ctrl+alt+l"
+      },
+      {
+        "message": "v22-apply",
+        "win": "ctrl+alt+shift+f5"
+      },
+      {
+        "message": "v22-refresh",
+        "win": "ctrl+alt+shift+f6"
+      },
+      {
+        "message": "v22-audit",
+        "win": "ctrl+alt+shift+f7"
+      },
+      {
+        "message": "v22-probe",
+        "win": "ctrl+alt+shift+f8"
       }
     ]
   }

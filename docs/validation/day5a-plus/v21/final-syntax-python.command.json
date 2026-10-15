@@ -1,0 +1,101 @@
+{
+  "label": "final-syntax-python",
+  "method": [
+    "C:\\Users\\<USER>\\anaconda3\\python.exe",
+    "compile UTF-8 source without importing or creating __pycache__"
+  ],
+  "cwd": "D:\\game",
+  "startedAtUtc": "2026-10-15T12:36:57.987745+00:00",
+  "endedAtUtc": "2026-10-15T12:36:58.074567+00:00",
+  "total": 11,
+  "passed": 11,
+  "failed": 0,
+  "exitCode": 0,
+  "nodeVersion": "v22.19.0",
+  "pythonVersion": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+  "pythonExecutable": "C:\\Users\\<USER>\\anaconda3\\python.exe",
+  "files": [
+    {
+      "path": "tools/art/full_geometry.py",
+      "bytes": 20292,
+      "sha256": "6b25cb8e6115ba0761713571cabfb5e41407ba4e3dae6f5141d39eea4d15a6f4",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/art/generate_day5a.py",
+      "bytes": 16701,
+      "sha256": "35a9d27161e1afdbddc615edaed4f05c7bf58b201ade0fe83c78a635cafaa982",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/art/generate_v2_ui.py",
+      "bytes": 15634,
+      "sha256": "20cd3c4627f3d1cccfc7789a44be7591a320624ab99fa2d76143a959af2c9ea8",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/art/v21/generate_v21.py",
+      "bytes": 21879,
+      "sha256": "a21c7f0be80a925a532cdf8aaa0be16b8b14f2f183deeb6d988ca3f1a99b6912",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/compare_v21_previews.py",
+      "bytes": 8681,
+      "sha256": "bf7145a78b377f8317dbce94f7cb2ba7cb0ffeb0b18cff1e33b4a7935297b61c",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/compare_v2_previews.py",
+      "bytes": 16030,
+      "sha256": "8629bbcdd861bdd46402864e8daf3861d4dc57fab2b76b732a20fce047fa5ff4",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/package_v21_delivery.py",
+      "bytes": 29226,
+      "sha256": "c9b1c74a753010f43913921616be8b9a2d094dfc0eed2d9bbe47813739322d73",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/package_v2_delivery.py",
+      "bytes": 19699,
+      "sha256": "820496dddfe2a40ff710f105cea879cfb6b965bdb6019c7f2a3c0afa952f52d1",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/verify_v21_offline.py",
+      "bytes": 11464,
+      "sha256": "e9408b34f5107e019d7e6c5e390d402e9755613a3e7022cd726f7f61a9c238e3",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/verify_v21_preservation.py",
+      "bytes": 34622,
+      "sha256": "654a6a7a8e54c0d5a732070523c05dcec23fd2ef8c24530e06dca98c5f91226e",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/verify_v2_preservation.py",
+      "bytes": 28437,
+      "sha256": "3c049397a87b82bab269a46c95d4831330e56a0736152fb55716fea0fcd58807",
+      "exitCode": 0,
+      "output": ""
+    }
+  ],
+  "log": {
+    "path": "docs/validation/day5a-plus/v21/final-syntax-python.log",
+    "bytes": 2358,
+    "sha256": "5298a7fe5c2fc570686f8cec7e480d7fbea08749a3a90b4ec7642e13638a7df1"
+  }
+}

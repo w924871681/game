@@ -1,0 +1,823 @@
+{
+  "schemaVersion": 1,
+  "phase": "full",
+  "generator": "tools/art/generate_day5a.py",
+  "method": "Shared original vector primitives -> SVG source and native Pillow 3x antialiased PNG; wave PCM synthesis",
+  "licensing": "Original project material created for DeskRescue; no third-party art/audio or brand logos",
+  "runtimeAssets": [
+    {
+      "key": "devices/mouse",
+      "path": "assets/art/devices/mouse.png",
+      "source": "tools/art/sources/devices/mouse.svg",
+      "width": 384,
+      "height": 256,
+      "bytes": 21938,
+      "sha256": "fc2d7ac7522722e75cd22775f28c34782b88df30dad3974f3b8bbef8217266bc",
+      "features": [
+        "Egg-shaped shell",
+        "Split buttons",
+        "Notched scroll wheel"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "devices/keyboard",
+      "path": "assets/art/devices/keyboard.png",
+      "source": "tools/art/sources/devices/keyboard.svg",
+      "width": 384,
+      "height": 256,
+      "bytes": 10937,
+      "sha256": "a338d4f3d5d003055ab5155fb3526a47f54b5a5af0e82bc98e244bd0226c33ef",
+      "features": [
+        "Wide rounded shell",
+        "Three rows of keycaps",
+        "Space bar and indicator lights"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "devices/headset",
+      "path": "assets/art/devices/headset.png",
+      "source": "tools/art/sources/devices/headset.svg",
+      "width": 384,
+      "height": 256,
+      "bytes": 26429,
+      "sha256": "787609e11218bb6d8eac252f023579cfc9d0bf2946344eecf3741fa97a57f561",
+      "features": [
+        "Padded arched headband",
+        "Two earcups",
+        "Microphone boom"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ports/power-head",
+      "path": "assets/art/ports/power-head.png",
+      "source": "tools/art/sources/ports/power-head.svg",
+      "width": 256,
+      "height": 128,
+      "bytes": 4851,
+      "sha256": "8d5ff1aba1b0f8dbfe310c891ad3cf28f56a062aa9d55fc4e88d53d9c065d4db",
+      "features": [
+        "power connector shape",
+        "head shell",
+        "Pins or socket aperture"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ports/power-port",
+      "path": "assets/art/ports/power-port.png",
+      "source": "tools/art/sources/ports/power-port.svg",
+      "width": 256,
+      "height": 128,
+      "bytes": 6106,
+      "sha256": "0840afe2c370b5ec40d6efdb5d0d6dc01de13cfb49799c4eac45fffb74446cf7",
+      "features": [
+        "power connector shape",
+        "port shell",
+        "Pins or socket aperture"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ports/display-head",
+      "path": "assets/art/ports/display-head.png",
+      "source": "tools/art/sources/ports/display-head.svg",
+      "width": 256,
+      "height": 128,
+      "bytes": 5163,
+      "sha256": "7afa7f1a782b27c2d24e65e1ffe87243b36940f38cbd423bb413699ebca61b37",
+      "features": [
+        "display connector shape",
+        "head shell",
+        "Pins or socket aperture"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ports/display-port",
+      "path": "assets/art/ports/display-port.png",
+      "source": "tools/art/sources/ports/display-port.svg",
+      "width": 256,
+      "height": 128,
+      "bytes": 5423,
+      "sha256": "7c66a5eb382bdd63f4d58eba72959b7be7caf6cf4caf53a0aa3b66434903816d",
+      "features": [
+        "display connector shape",
+        "port shell",
+        "Pins or socket aperture"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ports/network-head",
+      "path": "assets/art/ports/network-head.png",
+      "source": "tools/art/sources/ports/network-head.svg",
+      "width": 256,
+      "height": 128,
+      "bytes": 5112,
+      "sha256": "53c70a398a972f102a0efa95072ba4a2c2bc9e093ecf5e2f9a687ca9b8068a5e",
+      "features": [
+        "network connector shape",
+        "head shell",
+        "Pins or socket aperture"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ports/network-port",
+      "path": "assets/art/ports/network-port.png",
+      "source": "tools/art/sources/ports/network-port.svg",
+      "width": 256,
+      "height": 128,
+      "bytes": 5361,
+      "sha256": "ed578358bd621d266ee3ede5a1eaa61f1cad7880ded389d7d8e71051201a410b",
+      "features": [
+        "network connector shape",
+        "port shell",
+        "Pins or socket aperture"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "workbench/keyboard-clean",
+      "path": "assets/art/workbench/keyboard-clean.png",
+      "source": "tools/art/sources/workbench/keyboard-clean.svg",
+      "width": 1040,
+      "height": 520,
+      "bytes": 39432,
+      "sha256": "7c29f01d2e73984917762164f2c8e2905f65f78aa1156c1182560b51a76d5033",
+      "features": [
+        "Clean keyboard base",
+        "Individual keycaps",
+        "No dirt baked into image"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "dirt/dust",
+      "path": "assets/art/dirt/dust.png",
+      "source": "tools/art/sources/dirt/dust.svg",
+      "width": 192,
+      "height": 192,
+      "bytes": 48501,
+      "sha256": "83303b59e01e42b5d39077964333424ae9604318956891ecf563daa5dacbe0dc",
+      "features": [
+        "Irregular transparent powder",
+        "Feathered clumps",
+        "Seeded speckles"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ui/card",
+      "path": "assets/art/ui/card.png",
+      "source": "tools/art/sources/ui/card.svg",
+      "width": 192,
+      "height": 128,
+      "bytes": 2842,
+      "sha256": "3a12cac9fb54f0f52477cbb58b9065889176f0311aeed52e3b9db846d5b6064b",
+      "features": [
+        "Original rounded UI primitive",
+        "No text baked into image"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ui/button",
+      "path": "assets/art/ui/button.png",
+      "source": "tools/art/sources/ui/button.svg",
+      "width": 192,
+      "height": 128,
+      "bytes": 3499,
+      "sha256": "97d758737af170164843d0e980b4a3fe77981eb3697f75b1e6f21e786174f8c9",
+      "features": [
+        "Original rounded UI primitive",
+        "No text baked into image"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ui/check",
+      "path": "assets/art/ui/check.png",
+      "source": "tools/art/sources/ui/check.svg",
+      "width": 128,
+      "height": 128,
+      "bytes": 6614,
+      "sha256": "7b58fa60f9076a9f602796b7d908ad164babae08231a9df1f5d29f5d5c8962a4",
+      "features": [
+        "Original rounded UI primitive",
+        "No text baked into image"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ui/star",
+      "path": "assets/art/ui/star.png",
+      "source": "tools/art/sources/ui/star.svg",
+      "width": 128,
+      "height": 128,
+      "bytes": 6620,
+      "sha256": "89169b4638887288deb08bf1cd4e402bf0db98785f3f4ac2faa692c17bcb4388",
+      "features": [
+        "Original rounded UI primitive",
+        "No text baked into image"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ui/star-empty",
+      "path": "assets/art/ui/star-empty.png",
+      "source": "tools/art/sources/ui/star-empty.svg",
+      "width": 128,
+      "height": 128,
+      "bytes": 7503,
+      "sha256": "f9039fd6a06258dbb8a1d5d350819fedbe678d2e1919f94354b9db1d9f89889a",
+      "features": [
+        "Original rounded UI primitive",
+        "No text baked into image"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ui/sound-on",
+      "path": "assets/art/ui/sound-on.png",
+      "source": "tools/art/sources/ui/sound-on.svg",
+      "width": 128,
+      "height": 128,
+      "bytes": 5385,
+      "sha256": "71b2051b2e0ed481eac159b45850b163fd2badfd0f783ac2384ced61dcbcdcc5",
+      "features": [
+        "Original rounded UI primitive",
+        "No text baked into image"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ui/sound-off",
+      "path": "assets/art/ui/sound-off.png",
+      "source": "tools/art/sources/ui/sound-off.svg",
+      "width": 128,
+      "height": 128,
+      "bytes": 4365,
+      "sha256": "43c3ef5e49eb0064794d836eace32f3dc0ae8a5c4f6828649872f1f9ce86f53e",
+      "features": [
+        "Original rounded UI primitive",
+        "No text baked into image"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ui_click",
+      "path": "assets/audio/sfx/ui_click.wav",
+      "source": "tools/art/generate_day5a.py:SOUNDS",
+      "durationSeconds": 0.08997732426303855,
+      "sampleRate": 22050,
+      "channels": 1,
+      "peakAmplitude": 0.27927,
+      "bytes": 4012,
+      "sha256": "94bab3d44dc300c03a0df467364b53d1f84e5696d8b3b58d313cd568779926c7",
+      "origin": "Original sine/harmonic synthesis; no samples or external recordings"
+    },
+    {
+      "key": "snap_success",
+      "path": "assets/audio/sfx/snap_success.wav",
+      "source": "tools/art/generate_day5a.py:SOUNDS",
+      "durationSeconds": 0.2,
+      "sampleRate": 22050,
+      "channels": 1,
+      "peakAmplitude": 0.31382,
+      "bytes": 8864,
+      "sha256": "d730a239e36709266d89b6e297c1bb029c8e48e09c52bc92a80d26e0e07512b8",
+      "origin": "Original sine/harmonic synthesis; no samples or external recordings"
+    },
+    {
+      "key": "mistake",
+      "path": "assets/audio/sfx/mistake.wav",
+      "source": "tools/art/generate_day5a.py:SOUNDS",
+      "durationSeconds": 0.17002267573696145,
+      "sampleRate": 22050,
+      "channels": 1,
+      "peakAmplitude": 0.21796,
+      "bytes": 7542,
+      "sha256": "90eb2921d770aa31d5122ec087de8fc74bf920a87933f258483f664085cbeb08",
+      "origin": "Original sine/harmonic synthesis; no samples or external recordings"
+    },
+    {
+      "key": "clean_progress",
+      "path": "assets/audio/sfx/clean_progress.wav",
+      "source": "tools/art/generate_day5a.py:SOUNDS",
+      "durationSeconds": 0.1,
+      "sampleRate": 22050,
+      "channels": 1,
+      "peakAmplitude": 0.11277,
+      "bytes": 4454,
+      "sha256": "88ef7ee3a2d2b98a003f68cc87d4cfac503874f029876244e30e0abd2fe05648",
+      "origin": "Original sine/harmonic synthesis; no samples or external recordings"
+    },
+    {
+      "key": "stage_complete",
+      "path": "assets/audio/sfx/stage_complete.wav",
+      "source": "tools/art/generate_day5a.py:SOUNDS",
+      "durationSeconds": 0.31002267573696146,
+      "sampleRate": 22050,
+      "channels": 1,
+      "peakAmplitude": 0.26292,
+      "bytes": 13716,
+      "sha256": "61d4a876970e34cbd9500dafc7cf34e444658200cdcba1b1264af3baf392e475",
+      "origin": "Original sine/harmonic synthesis; no samples or external recordings"
+    },
+    {
+      "key": "order_complete",
+      "path": "assets/audio/sfx/order_complete.wav",
+      "source": "tools/art/generate_day5a.py:SOUNDS",
+      "durationSeconds": 0.47002267573696144,
+      "sampleRate": 22050,
+      "channels": 1,
+      "peakAmplitude": 0.27381,
+      "bytes": 20772,
+      "sha256": "d33c6dd8cddc138fe1778b0f8205502a382b2b95e450395767562ab9de4dbda4",
+      "origin": "Original sine/harmonic synthesis; no samples or external recordings"
+    },
+    {
+      "key": "run_complete",
+      "path": "assets/audio/sfx/run_complete.wav",
+      "source": "tools/art/generate_day5a.py:SOUNDS",
+      "durationSeconds": 0.6,
+      "sampleRate": 22050,
+      "channels": 1,
+      "peakAmplitude": 0.26942,
+      "bytes": 26504,
+      "sha256": "9859da09c024651841c2eef1f5abad49e3a62af986bb3fa046e13ebaf2313d60",
+      "origin": "Original sine/harmonic synthesis; no samples or external recordings"
+    },
+    {
+      "key": "devices/power",
+      "path": "assets/art/devices/power.png",
+      "source": "tools/art/sources/devices/power.svg",
+      "width": 384,
+      "height": 256,
+      "bytes": 21516,
+      "sha256": "c848aa9552e3c5a2aa1dfbddd2955ba8ff28911be1eb1829ddfeaace3c625de1",
+      "features": [
+        "Two-pin electrical plug",
+        "Looped flexible cable",
+        "Ribbed strain relief"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "devices/network",
+      "path": "assets/art/devices/network.png",
+      "source": "tools/art/sources/devices/network.svg",
+      "width": 384,
+      "height": 256,
+      "bytes": 22970,
+      "sha256": "e48aa995d7ba9fe8a7d73fc2b52aaebff66cf1e3d90c7a71a3f940e83bf97eea",
+      "features": [
+        "Clear RJ45 rectangular plug",
+        "Eight gold contacts",
+        "Raised latch and cable"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "devices/usb",
+      "path": "assets/art/devices/usb.png",
+      "source": "tools/art/sources/devices/usb.svg",
+      "width": 384,
+      "height": 256,
+      "bytes": 22361,
+      "sha256": "a4a0a0d0f6d30a0ab4de669105efce6b00fc694186bbde5f966b9d743e542c00",
+      "features": [
+        "USB-A metal tongue",
+        "Two locking holes",
+        "Moulded shell and looped cable"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "devices/router",
+      "path": "assets/art/devices/router.png",
+      "source": "tools/art/sources/devices/router.svg",
+      "width": 384,
+      "height": 256,
+      "bytes": 13329,
+      "sha256": "c3a6df721184633c7d63ed93a56b0b125f5f1717c2eb98f44436f661d54847bc",
+      "features": [
+        "Twin raised antennas",
+        "Low router enclosure",
+        "Status lights and vent slots"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "devices/controller",
+      "path": "assets/art/devices/controller.png",
+      "source": "tools/art/sources/devices/controller.svg",
+      "width": 384,
+      "height": 256,
+      "bytes": 24834,
+      "sha256": "92fadc3f1475821c0fec80a2b2cba6499f9abccb9eacd002c68fb2a4604fd5eb",
+      "features": [
+        "Two hand grips",
+        "Twin analog sticks",
+        "Cross pad and four face buttons"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "devices/speaker",
+      "path": "assets/art/devices/speaker.png",
+      "source": "tools/art/sources/devices/speaker.svg",
+      "width": 384,
+      "height": 256,
+      "bytes": 22165,
+      "sha256": "df692226945f2090c8de1f447cbf14fd64dd8a7c3cdfe8848d83c193cd6f4588",
+      "features": [
+        "Tall wooden enclosure",
+        "Two concentric speaker drivers",
+        "Inset dark front grille"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "devices/battery",
+      "path": "assets/art/devices/battery.png",
+      "source": "tools/art/sources/devices/battery.svg",
+      "width": 384,
+      "height": 256,
+      "bytes": 8350,
+      "sha256": "027f2204edeadedd974141417e6a678e77293f54647c3bc613c7b9720f5bc68b",
+      "features": [
+        "Rounded cylindrical cell",
+        "Raised positive terminal",
+        "Positive polarity symbol"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "devices/wheel",
+      "path": "assets/art/devices/wheel.png",
+      "source": "tools/art/sources/devices/wheel.svg",
+      "width": 384,
+      "height": 256,
+      "bytes": 16583,
+      "sha256": "be109f0361f55e85accabb457e0be8aa825b6e558ac816000a3d17b46ecaa8cc",
+      "features": [
+        "Ribbed rubber cylinder",
+        "Metal axle",
+        "Circular side hub"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "devices/microphone",
+      "path": "assets/art/devices/microphone.png",
+      "source": "tools/art/sources/devices/microphone.svg",
+      "width": 384,
+      "height": 256,
+      "bytes": 15772,
+      "sha256": "2ad527a2db44e51cb99f89be891dc790ee7168ac76b8ab8ad892d374cf375e3f",
+      "features": [
+        "Capsule microphone grille",
+        "U-shaped suspension",
+        "Desktop stand"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "devices/camera",
+      "path": "assets/art/devices/camera.png",
+      "source": "tools/art/sources/devices/camera.svg",
+      "width": 384,
+      "height": 256,
+      "bytes": 20055,
+      "sha256": "63e61689dcfe147a55ce68b9cf443867da17e71cec4c3d654bf256421a2a1ea4",
+      "features": [
+        "Wide webcam body",
+        "Large lens with highlight",
+        "Monitor mounting clip"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "devices/light",
+      "path": "assets/art/devices/light.png",
+      "source": "tools/art/sources/devices/light.svg",
+      "width": 384,
+      "height": 256,
+      "bytes": 25993,
+      "sha256": "04b7af5bd29e74981acf13c45cdc09b92eb570ef151988bf3eff5c602bda5a0c",
+      "features": [
+        "Circular light ring",
+        "Visible LED segments",
+        "Tripod support"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "devices/soundcard",
+      "path": "assets/art/devices/soundcard.png",
+      "source": "tools/art/sources/devices/soundcard.svg",
+      "width": 384,
+      "height": 256,
+      "bytes": 15784,
+      "sha256": "37c10e8eb564b577fac6280ada6db4144a0c7dd06c5821732174fbeb1192d3a7",
+      "features": [
+        "Audio interface box",
+        "Large gain knob",
+        "Three circular input sockets"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "devices/fan",
+      "path": "assets/art/devices/fan.png",
+      "source": "tools/art/sources/devices/fan.svg",
+      "width": 384,
+      "height": 256,
+      "bytes": 31300,
+      "sha256": "2d3cdc51a9b495f8a574680cac6f65a3f7206ebb7a2bf576d9f7015a65a816f3",
+      "features": [
+        "Square frame and four screw holes",
+        "Seven curved blades",
+        "Central bearing"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "devices/memory",
+      "path": "assets/art/devices/memory.png",
+      "source": "tools/art/sources/devices/memory.svg",
+      "width": 384,
+      "height": 256,
+      "bytes": 7244,
+      "sha256": "55ba126c034135643ae6cb03bb04860c431782aaaec7538a5d4ec87d5a92668e",
+      "features": [
+        "Long green memory PCB",
+        "Four rectangular chips",
+        "Gold fingers and keyed notch"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "devices/drive",
+      "path": "assets/art/devices/drive.png",
+      "source": "tools/art/sources/devices/drive.svg",
+      "width": 384,
+      "height": 256,
+      "bytes": 9600,
+      "sha256": "01b048ad53737c24f35fe6b15cb884482e1ede4791d7d37cbf4a6dd6d59b1e85",
+      "features": [
+        "Flat SSD enclosure",
+        "Inset label area",
+        "Gold connector and mounting screws"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "devices/gpu",
+      "path": "assets/art/devices/gpu.png",
+      "source": "tools/art/sources/devices/gpu.svg",
+      "width": 384,
+      "height": 256,
+      "bytes": 24351,
+      "sha256": "262ab26274e7c4d7bb36c7938f20d8c5400accbd2acc0b1a1424054f68cbaa84",
+      "features": [
+        "Long graphics board",
+        "Twin cooling fans",
+        "Side bracket and gold edge connector"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ports/audio-head",
+      "path": "assets/art/ports/audio-head.png",
+      "source": "tools/art/sources/ports/audio-head.svg",
+      "width": 256,
+      "height": 128,
+      "bytes": 4974,
+      "sha256": "76693b193ca580ccf6d3760cb47ee55f0a252044bab66afba5ab925b81403a7d",
+      "features": [
+        "audio shaped connector",
+        "head shell",
+        "Distinct socket or pin layout"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ports/audio-port",
+      "path": "assets/art/ports/audio-port.png",
+      "source": "tools/art/sources/ports/audio-port.svg",
+      "width": 256,
+      "height": 128,
+      "bytes": 16802,
+      "sha256": "a7d1ecea5d0136df8e2d811d205ce86d73d103780adf0a2ee3e740b6233a1de2",
+      "features": [
+        "audio shaped connector",
+        "port shell",
+        "Distinct socket or pin layout"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ports/usb-head",
+      "path": "assets/art/ports/usb-head.png",
+      "source": "tools/art/sources/ports/usb-head.svg",
+      "width": 256,
+      "height": 128,
+      "bytes": 4110,
+      "sha256": "c1bde024954e5d22cd518be91cfb85181df457888029b5051cf0bc53b460652c",
+      "features": [
+        "usb shaped connector",
+        "head shell",
+        "Distinct socket or pin layout"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ports/usb-port",
+      "path": "assets/art/ports/usb-port.png",
+      "source": "tools/art/sources/ports/usb-port.svg",
+      "width": 256,
+      "height": 128,
+      "bytes": 5250,
+      "sha256": "41d8a490175afc3bdee71323fad558ed84891ba36e8795d1d122d093f0fa368a",
+      "features": [
+        "usb shaped connector",
+        "port shell",
+        "Distinct socket or pin layout"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ports/motherboard-head",
+      "path": "assets/art/ports/motherboard-head.png",
+      "source": "tools/art/sources/ports/motherboard-head.svg",
+      "width": 256,
+      "height": 128,
+      "bytes": 5656,
+      "sha256": "6dba881f9d4fa302d5cb85088dcb5831b44375ccdb886f42be22174332695a8c",
+      "features": [
+        "motherboard shaped connector",
+        "head shell",
+        "Distinct socket or pin layout"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ports/motherboard-port",
+      "path": "assets/art/ports/motherboard-port.png",
+      "source": "tools/art/sources/ports/motherboard-port.svg",
+      "width": 256,
+      "height": 128,
+      "bytes": 5398,
+      "sha256": "2ce9875e5cee54af6159719a831f3ab2ae19d4625b43868e4d330cda60cd023f",
+      "features": [
+        "motherboard shaped connector",
+        "port shell",
+        "Distinct socket or pin layout"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ports/cpu-head",
+      "path": "assets/art/ports/cpu-head.png",
+      "source": "tools/art/sources/ports/cpu-head.svg",
+      "width": 256,
+      "height": 128,
+      "bytes": 5891,
+      "sha256": "904693ef3fd120cb23974dfc5db415eccb5bfc246762e424754d90e851bc2e84",
+      "features": [
+        "cpu shaped connector",
+        "head shell",
+        "Distinct socket or pin layout"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ports/cpu-port",
+      "path": "assets/art/ports/cpu-port.png",
+      "source": "tools/art/sources/ports/cpu-port.svg",
+      "width": 256,
+      "height": 128,
+      "bytes": 5295,
+      "sha256": "4e9fee1b1b0066397343c94268c60bcb461ea402bb7b3bb466e025ac552f432d",
+      "features": [
+        "cpu shaped connector",
+        "port shell",
+        "Distinct socket or pin layout"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ports/sata-head",
+      "path": "assets/art/ports/sata-head.png",
+      "source": "tools/art/sources/ports/sata-head.svg",
+      "width": 256,
+      "height": 128,
+      "bytes": 3769,
+      "sha256": "406bbb00f21d27d679f1d0e8b0e16b426dd4ec224e23f5044c9ec0e571535bb7",
+      "features": [
+        "sata shaped connector",
+        "head shell",
+        "Distinct socket or pin layout"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ports/sata-port",
+      "path": "assets/art/ports/sata-port.png",
+      "source": "tools/art/sources/ports/sata-port.svg",
+      "width": 256,
+      "height": 128,
+      "bytes": 4914,
+      "sha256": "b437196a804c4ecd0697163ed5b1930f2996a29a9a8b6c22e6ff9c4052455f61",
+      "features": [
+        "sata shaped connector",
+        "port shell",
+        "Distinct socket or pin layout"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ports/fan-head",
+      "path": "assets/art/ports/fan-head.png",
+      "source": "tools/art/sources/ports/fan-head.svg",
+      "width": 256,
+      "height": 128,
+      "bytes": 4882,
+      "sha256": "0eb95304ea25fe4b8aa5b4f63727f7facd484b81cdf6747babcae01355e5ed2f",
+      "features": [
+        "fan shaped connector",
+        "head shell",
+        "Distinct socket or pin layout"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "ports/fan-port",
+      "path": "assets/art/ports/fan-port.png",
+      "source": "tools/art/sources/ports/fan-port.svg",
+      "width": 256,
+      "height": 128,
+      "bytes": 5102,
+      "sha256": "60a2b35153cee110923d2053af1adfa9909a70a60782adfa4d32562cbead96a8",
+      "features": [
+        "fan shaped connector",
+        "port shell",
+        "Distinct socket or pin layout"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "workbench/mouse-clean",
+      "path": "assets/art/workbench/mouse-clean.png",
+      "source": "tools/art/sources/workbench/mouse-clean.svg",
+      "width": 664,
+      "height": 584,
+      "bytes": 42013,
+      "sha256": "cf5230467188c685e2938973c440ed88d7eeecbfa5ff612aa1e9da1ea38cd0ef",
+      "features": [
+        "Wide clean mouse shell",
+        "Button split and scroll wheel",
+        "No dirt baked into base"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "workbench/case-clean",
+      "path": "assets/art/workbench/case-clean.png",
+      "source": "tools/art/sources/workbench/case-clean.svg",
+      "width": 984,
+      "height": 744,
+      "bytes": 100269,
+      "sha256": "c57949393bf00ee2bda4cc1e2df9123eb5701b89ded81a3ed73a597516d07b3b",
+      "features": [
+        "Open chassis repair panel",
+        "Large visible fan blades",
+        "Motherboard and vent grille, no baked dirt"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    },
+    {
+      "key": "workbench/home-hero",
+      "path": "assets/art/workbench/home-hero.png",
+      "source": "tools/art/sources/workbench/home-hero.svg",
+      "width": 1040,
+      "height": 640,
+      "bytes": 90002,
+      "sha256": "55e97040a169a2eee15d2aa01b6ab60c6d5bae8b05399b88afa29830b9a5a81f",
+      "features": [
+        "Warm wood repair table and inset work mat",
+        "Keyboard, mouse and headset silhouettes",
+        "Screwdriver and spanner, no text or brand logos"
+      ],
+      "origin": "Original procedural geometry; no downloaded material"
+    }
+  ],
+  "runtimeAssetCount": 56,
+  "runtimeBytes": 908479
+}

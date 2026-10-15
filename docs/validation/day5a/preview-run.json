@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-14T17:22:44.258Z",
+  "input": "Actual browser mouse drag/click; no game runtime mutation",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "orders": [
+    {
+      "order": 1,
+      "steps": 1,
+      "seconds": 23.5,
+      "mistakes": 1,
+      "stars": 2,
+      "score": 670
+    },
+    {
+      "order": 2,
+      "steps": 1,
+      "seconds": 8.2,
+      "mistakes": 0,
+      "stars": 3,
+      "score": 920
+    },
+    {
+      "order": 3,
+      "steps": 1,
+      "seconds": 7.3,
+      "mistakes": 0,
+      "stars": 3,
+      "score": 930
+    },
+    {
+      "order": 4,
+      "steps": 1,
+      "seconds": 14,
+      "mistakes": 0,
+      "stars": 3,
+      "score": 860
+    },
+    {
+      "order": 5,
+      "steps": 1,
+      "seconds": 11.1,
+      "mistakes": 1,
+      "stars": 2,
+      "score": 790
+    },
+    {
+      "order": 6,
+      "steps": 2,
+      "seconds": 30.4,
+      "mistakes": 0,
+      "stars": 3,
+      "score": 700
+    },
+    {
+      "order": 7,
+      "steps": 1,
+      "seconds": 32,
+      "mistakes": 0,
+      "stars": 3,
+      "score": 680
+    },
+    {
+      "order": 8,
+      "steps": 2,
+      "seconds": 40.6,
+      "mistakes": 0,
+      "stars": 3,
+      "score": 600
+    },
+    {
+      "order": 9,
+      "steps": 3,
+      "seconds": null,
+      "mistakes": 0,
+      "stars": 3,
+      "score": 240,
+      "source": "Integer score/stars/mistakes derived from observed run totals minus first eight results; final panel shows only run total time."
+    }
+  ],
+  "summary": {
+    "completedOrders": 9,
+    "completedStages": 13,
+    "earnedStars": 25,
+    "maxStars": 27,
+    "totalMistakes": 2,
+    "totalScore": 6390,
+    "displayedTotalSeconds": 243.6
+  },
+  "replay": {
+    "returnedToOrder": 1,
+    "stage": 1,
+    "progress": "0/3",
+    "mistakes": 0,
+    "displayedElapsedSeconds": 0.3,
+    "completionMarksVisible": false,
+    "homeVisible": false
+  },
+  "limitations": [
+    "Displayed time includes tool and human observation delays, not a player performance baseline.",
+    "Per-order seconds are observed one-decimal display values; final order panel shows run summary only.",
+    "No physical touch or native TOUCH_CANCEL."
+  ]
+}

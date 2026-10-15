@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="384" height="256" viewBox="0 0 384 256">
+<title>DeskRescue original devices/drive</title>
+<ellipse cx="198.0" cy="228.0" rx="130.0" ry="11.0" fill="#526779" fill-opacity="0.1333" stroke="none" stroke-width="0"/>
+<rect x="67" y="39" width="251" height="185" rx="18" fill="#263d50" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="65" y="31" width="251" height="181" rx="17" fill="#d5ded7" fill-opacity="1.0000" stroke="#263d50" stroke-opacity="1.0000" stroke-width="5"/>
+<rect x="81" y="47" width="219" height="147" rx="12" fill="#6c9498" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="104" y="64" width="173" height="90" rx="8" fill="#f8f3e9" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<polyline points="121.00,86.00 246.00,86.00" fill="none" stroke="#a6c8c3" stroke-opacity="1.0000" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="121.00,103.00 202.00,103.00" fill="none" stroke="#c6ded4" stroke-opacity="1.0000" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse cx="131.0" cy="134.0" rx="8.0" ry="8.0" fill="#2eaaa8" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="108" y="181" width="19" height="19" rx="2" fill="#d3a654" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="140" y="181" width="19" height="19" rx="2" fill="#d3a654" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="173" y="181" width="19" height="19" rx="2" fill="#d3a654" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="206" y="181" width="19" height="19" rx="2" fill="#d3a654" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="239" y="181" width="19" height="19" rx="2" fill="#d3a654" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="272" y="181" width="19" height="19" rx="2" fill="#d3a654" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<ellipse cx="77.0" cy="43.0" rx="4.0" ry="4.0" fill="#263d50" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<ellipse cx="305.0" cy="43.0" rx="4.0" ry="4.0" fill="#263d50" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<ellipse cx="77.0" cy="199.0" rx="4.0" ry="4.0" fill="#263d50" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<ellipse cx="305.0" cy="199.0" rx="4.0" ry="4.0" fill="#263d50" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+</svg>

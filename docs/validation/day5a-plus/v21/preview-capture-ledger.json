@@ -1,0 +1,650 @@
+[
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/phase1-clean-order4-0pct-390x844.jpg",
+    "name": "phase1-clean-order4-0pct-390x844",
+    "note": "Actual order4 progress0%, sample.",
+    "time": "2026-10-15T12:09:28.241Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/phase1-clean-order4-about57pct-390x844.jpg",
+    "name": "phase1-clean-order4-about57pct-390x844",
+    "note": "Diagonal then three short arc-like segments; expected16/28, verify rendered percentage.",
+    "time": "2026-10-15T12:11:08.410Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/phase1-clean-local-backforth-390x844.jpg",
+    "name": "phase1-clean-local-backforth-390x844",
+    "note": "Local repeated back-and-forth in already wiped area; rendered57% retained.",
+    "time": "2026-10-15T12:11:21.043Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/phase1-clean-order4-about96pct-390x844.jpg",
+    "name": "phase1-clean-order4-about96pct-390x844",
+    "note": "Rendered96%,27/28 after accepted local dabs; no completion beforethreshold.",
+    "time": "2026-10-15T12:12:18.589Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/phase1-clean-threshold-result-390x844.jpg",
+    "name": "phase1-clean-threshold-result-390x844",
+    "note": "The28th real logical cell triggers result; not claiming32/32cleared.",
+    "time": "2026-10-15T12:13:27.322Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/phase1-cable-order5-0of3-390x844.jpg",
+    "name": "phase1-cable-order5-0of3-390x844",
+    "note": "Actual0/3; three unconnected left heads and right sockets.",
+    "time": "2026-10-15T12:13:35.053Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/phase1-cable-order5-1of3-390x844.jpg",
+    "name": "phase1-cable-order5-1of3-390x844",
+    "note": "Onlydisplay connected; rendered1/3, one success lamp.",
+    "time": "2026-10-15T12:13:46.081Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/phase1-cable-wrong-return-390x844.jpg",
+    "name": "phase1-cable-wrong-return-390x844",
+    "note": "Power released on network socket returns; still1/3 and actualmistake1.",
+    "time": "2026-10-15T12:13:54.986Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/phase1-cable-order5-complete-390x844.jpg",
+    "name": "phase1-cable-order5-complete-390x844",
+    "note": "Natural last0.15ssnap completes3/3 and immediate result, no introducedpause.",
+    "time": "2026-10-15T12:14:22.539Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/phase2-drag-order1-390x844.jpg",
+    "name": "phase2-drag-order1-390x844",
+    "note": "Refinedchild layout on old frames pendingalpha-trim art; inputrootunchanged.",
+    "time": "2026-10-15T12:23:02.202Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/phase2-drag-wrong-return-390x844.jpg",
+    "name": "phase2-drag-wrong-return-390x844",
+    "note": "INVALID AS GAMEPLAY EVIDENCE: full art import auto-reloaded Preview to Home between observations. Filename is historical; image is Home, no wrong/score assertion.",
+    "time": "2026-10-15T12:29:06.793Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/phase2-result-order1-390x844.jpg",
+    "name": "phase2-result-order1-390x844",
+    "note": "INVALID AS GAMEPLAY EVIDENCE: full art import auto-reloaded Preview to Home between observations. Filename is historical; image is Home, no wrong/score assertion.",
+    "time": "2026-10-15T12:29:07.939Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/home-v21-390x844.jpg",
+    "name": "home-v21-390x844",
+    "note": "Finalfullalpha3 freshreload; enlargedbrand/character, samecomposition/SHOW_ALL.",
+    "time": "2026-10-15T12:37:19.916Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/home-muted-v21-390x844.jpg",
+    "name": "home-muted-v21-390x844",
+    "note": "Actual sound toggle off before start.",
+    "time": "2026-10-15T12:37:20.277Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/drag-order1-v21-390x844.jpg",
+    "name": "drag-order1-v21-390x844",
+    "note": "Final37-frame bindings;3items, highercontrast targets, enlargedcaption/art, timer0.3afterstart.",
+    "time": "2026-10-15T12:37:20.697Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/drag-order1-wrong-return-v21-390x844.jpg",
+    "name": "drag-order1-wrong-return-v21-390x844",
+    "note": "Actualwrongkeyboardtarget,0/3,mistake1,mousefullyreturned.",
+    "time": "2026-10-15T12:42:27.979Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/result-order1-v21-390x844.jpg",
+    "name": "result-order1-v21-390x844",
+    "note": "Actualfinalfullorder1: score100, elapsed283+secondsfromtoolstall,1mistake/1star. Read exactrenderedtime; not performancebenchmark.",
+    "time": "2026-10-15T12:43:50.024Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/result-order1-v21-390x844.jpg",
+    "name": "result-order1-v21-390x844",
+    "note": "Confirmedactualresult:100points,499.2seconds,2mistakes,1earnedstar; elapsedincludesconnectionstall.",
+    "time": "2026-10-15T12:47:37.512Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/order2-result-v21-390x844.jpg",
+    "name": "order2-result-v21-390x844",
+    "note": "Actual order2 fullskin result.",
+    "time": "2026-10-15T12:49:39.029Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/order3-result-v21-390x844.jpg",
+    "name": "order3-result-v21-390x844",
+    "note": "Real order3 result.",
+    "time": "2026-10-15T12:50:06.411Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/clean-order4-0pct-v21-390x844.jpg",
+    "name": "clean-order4-0pct-v21-390x844",
+    "note": "Finalfull clean order4 actual0%.",
+    "time": "2026-10-15T12:50:06.756Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/clean-order4-about57pct-v21-390x844.jpg",
+    "name": "clean-order4-about57pct-v21-390x844",
+    "note": "Confirmedrendered57%=16/28 afterdiagonal+3arcsegments,fullalpha3.",
+    "time": "2026-10-15T12:50:24.796Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/clean-local-repeat-v21-390x844.jpg",
+    "name": "clean-local-repeat-v21-390x844",
+    "note": "Rendered57% retainedonlocalback/forth.",
+    "time": "2026-10-15T12:50:25.352Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/clean-order4-about96pct-v21-390x844.jpg",
+    "name": "clean-order4-about96pct-v21-390x844",
+    "note": "Actualrendered96%=27/28;notyetcompleted.",
+    "time": "2026-10-15T12:51:17.522Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/order4-threshold-result-v21-390x844.jpg",
+    "name": "order4-threshold-result-v21-390x844",
+    "note": "Real28/28 threshold result;4unvisitedlogicalcellsnotforcecleaned.",
+    "time": "2026-10-15T12:51:17.922Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/cable-order5-0of3-v21-390x844.jpg",
+    "name": "cable-order5-0of3-v21-390x844",
+    "note": "Finalfull3ports0/3; captionmovedbelowwirepaths.",
+    "time": "2026-10-15T12:51:18.309Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/cable-order5-1of3-v21-390x844.jpg",
+    "name": "cable-order5-1of3-v21-390x844",
+    "note": "Actual1/3onlydisplayconnected; other2headsunfixed.",
+    "time": "2026-10-15T12:51:33.637Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/cable-order5-wrong-return-v21-390x844.jpg",
+    "name": "cable-order5-wrong-return-v21-390x844",
+    "note": "Actual1/3retained;onewrongpower-to-networkrelease,mistake1,headreturned.",
+    "time": "2026-10-15T12:51:34.189Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/order5-result-v21-390x844.jpg",
+    "name": "order5-result-v21-390x844",
+    "note": "Actual3/3completesandfreezesresult.",
+    "time": "2026-10-15T12:51:51.785Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/clean-order6-0pct-v21-390x844.jpg",
+    "name": "clean-order6-0pct-v21-390x844",
+    "note": "Reused192particlepool resetfor20logicalcellmousearea.",
+    "time": "2026-10-15T12:51:52.186Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/drag-order6-two-v21-390x844.jpg",
+    "name": "drag-order6-two-v21-390x844",
+    "note": "Order6samecontinuousrun: true17/20cleancells ->2partdrag, freshartandcheckreset.",
+    "time": "2026-10-15T12:52:17.792Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/order6-result-v21-390x844.jpg",
+    "name": "order6-result-v21-390x844",
+    "note": "Actual2stepscontinuousresult.",
+    "time": "2026-10-15T12:52:18.564Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/cable-order7-0of3-v21-390x844.jpg",
+    "name": "cable-order7-0of3-v21-390x844",
+    "note": "3routercables reset0/3, nooldwire/lamp.",
+    "time": "2026-10-15T12:52:19.002Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/cable-order7-two-cross-v21-390x844.jpg",
+    "name": "cable-order7-two-cross-v21-390x844",
+    "note": "Actual2/3crossed;allportlabelsremainabovewirelayer.",
+    "time": "2026-10-15T12:53:08.917Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/order7-result-v21-390x844.jpg",
+    "name": "order7-result-v21-390x844",
+    "note": "Thirdcrossingcableactualsnapcompletesorder;noaddedcompletedwell.",
+    "time": "2026-10-15T12:53:09.498Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/drag-order8-four-v21-390x844.jpg",
+    "name": "drag-order8-four-v21-390x844",
+    "note": "4tightcroppeddevicesandlabels;noinputrootchanges.",
+    "time": "2026-10-15T12:53:09.871Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/cable-order8-two-v21-390x844.jpg",
+    "name": "cable-order8-two-v21-390x844",
+    "note": "Order8after4realplacements,2differentplugshapesreset0/2.",
+    "time": "2026-10-15T12:53:32.654Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/order8-result-v21-390x844.jpg",
+    "name": "order8-result-v21-390x844",
+    "note": "Actualtwo-steporder8result.",
+    "time": "2026-10-15T12:53:33.778Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/clean-order9-0pct-v21-390x844.jpg",
+    "name": "clean-order9-0pct-v21-390x844",
+    "note": "Fresh35logicalcellcasearea; pooleddustreset.",
+    "time": "2026-10-15T12:53:34.148Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/cable-order9-four-v21-390x844.jpg",
+    "name": "cable-order9-four-v21-390x844",
+    "note": "Actualorder9step2:4distinctinternalplugs/ports,reset0/4; noobstruction.",
+    "time": "2026-10-15T12:53:58.258Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/cable-order9-three-cross-v21-390x844.jpg",
+    "name": "cable-order9-three-cross-v21-390x844",
+    "note": "Actual3/4,3connectedcurvesbelowalllabels;fourthstillfree.",
+    "time": "2026-10-15T12:53:59.325Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/drag-order9-four-v21-390x844.jpg",
+    "name": "drag-order9-four-v21-390x844",
+    "note": "Actualstep3:4partsafter4realconnections; oldcablevisualhidden.",
+    "time": "2026-10-15T12:54:22.750Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/final-v21-390x844.jpg",
+    "name": "final-v21-390x844",
+    "note": "Actual9orders13stepsfinal;6summaryvaluesreadfromrenderedpanel.",
+    "time": "2026-10-15T12:54:24.302Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/return-home-v21-390x844.jpg",
+    "name": "return-home-v21-390x844",
+    "note": "FinalHomebuttonactuallyreturnsHome;noactivegameplay.",
+    "time": "2026-10-15T12:54:56.109Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/start-after-home-v21-390x844.jpg",
+    "name": "start-after-home-v21-390x844",
+    "note": "Home->doubleStartentersonefreshorder1,0/3,mistake0,clockfresh.",
+    "time": "2026-10-15T12:54:56.576Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/run2-order1-result-390x844.jpg",
+    "name": "run2-order1-result-390x844",
+    "note": "Second390runactualresult.",
+    "time": "2026-10-15T12:55:23.256Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/run2-order2-result-390x844.jpg",
+    "name": "run2-order2-result-390x844",
+    "note": "Second390runorder2.",
+    "time": "2026-10-15T12:55:45.574Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/run2-order3-result-390x844.jpg",
+    "name": "run2-order3-result-390x844",
+    "note": "Second390runorder3.",
+    "time": "2026-10-15T12:58:59.689Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/run2-clean-order4-reset-390x844.jpg",
+    "name": "run2-clean-order4-reset-390x844",
+    "note": "Second390runfresh0%reset,noresidualholes.",
+    "time": "2026-10-15T12:59:00.076Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/clean-order4-horizontal57-v21-390x844.jpg",
+    "name": "clean-order4-horizontal57-v21-390x844",
+    "note": "Secondrun16/28aftertwohorizontalrows; alternativepathboundaryforfairreview.",
+    "time": "2026-10-15T13:04:32.058Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/run2-order4-result-390x844.jpg",
+    "name": "run2-order4-result-390x844",
+    "note": "Second390runcleantrue28threshold.",
+    "time": "2026-10-15T13:04:32.743Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/run2-order5-result-390x844.jpg",
+    "name": "run2-order5-result-390x844",
+    "note": "Second390run3/3completed.",
+    "time": "2026-10-15T13:05:26.896Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/run2-order6-result-390x844.jpg",
+    "name": "run2-order6-result-390x844",
+    "note": "Second390run2steps.",
+    "time": "2026-10-15T13:05:28.879Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/run2-order7-result-390x844.jpg",
+    "name": "run2-order7-result-390x844",
+    "note": "Second390runrouter3/3.",
+    "time": "2026-10-15T13:06:05.221Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/run2-order8-result-390x844.jpg",
+    "name": "run2-order8-result-390x844",
+    "note": "Second390runstreaming4items+2cables.",
+    "time": "2026-10-15T13:06:07.962Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/final-run2-v21-390x844.jpg",
+    "name": "final-run2-v21-390x844",
+    "note": "Second390complete9/13actualfinalvalues.",
+    "time": "2026-10-15T13:06:26.395Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/final-v21-390x844.jpg",
+    "name": "final-v21-390x844",
+    "note": "Second390runstablefinal:9/9,21/27stars,5620points,13/13,686.7seconds,0mistakes. First903.9srunretainedasfinal-run1.",
+    "time": "2026-10-15T13:06:49.221Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/replay-direct-v21-390x844.jpg",
+    "name": "replay-direct-v21-390x844",
+    "note": "ActualfinalReplaydirecttoorder1,mistake0,0/3;rapidsecondclickdoesnotrestartagain.",
+    "time": "2026-10-15T13:06:50.455Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/home-v21-768x1024.jpg",
+    "name": "home-v21-768x1024",
+    "note": "Fresh768reloadmintsidebars;coreview576x1024x96.",
+    "time": "2026-10-15T13:11:50.584Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/drag-order1-v21-768x1024.jpg",
+    "name": "drag-order1-v21-768x1024",
+    "note": "Tablet3items,alllabelsvisible.",
+    "time": "2026-10-15T13:11:50.984Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/result-order1-v21-768x1024.jpg",
+    "name": "result-order1-v21-768x1024",
+    "note": "Tabletactualorder1result.",
+    "time": "2026-10-15T13:11:52.192Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/order2-result-v21-768x1024.jpg",
+    "name": "order2-result-v21-768x1024",
+    "note": "Tabletorder2result.",
+    "time": "2026-10-15T13:12:17.157Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/order3-result-v21-768x1024.jpg",
+    "name": "order3-result-v21-768x1024",
+    "note": "Tabletorder3result.",
+    "time": "2026-10-15T13:12:18.724Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/clean-order4-0pct-v21-768x1024.jpg",
+    "name": "clean-order4-0pct-v21-768x1024",
+    "note": "Tabletfresh0%.",
+    "time": "2026-10-15T13:12:19.138Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/clean-order4-57pct-v21-768x1024.jpg",
+    "name": "clean-order4-57pct-v21-768x1024",
+    "note": "Tabletdiagonal/arc16/28actual57%.",
+    "time": "2026-10-15T13:12:45.495Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/clean-order4-96pct-v21-768x1024.jpg",
+    "name": "clean-order4-96pct-v21-768x1024",
+    "note": "Actualtablet27/28=96%.",
+    "time": "2026-10-15T13:12:46.305Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/order4-result-v21-768x1024.jpg",
+    "name": "order4-result-v21-768x1024",
+    "note": "Tabletrealthresholdresult.",
+    "time": "2026-10-15T13:12:46.704Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/cable-order5-0of3-v21-768x1024.jpg",
+    "name": "cable-order5-0of3-v21-768x1024",
+    "note": "Tabletthreeports0/3.",
+    "time": "2026-10-15T13:12:47.093Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/cable-order5-1of3-v21-768x1024.jpg",
+    "name": "cable-order5-1of3-v21-768x1024",
+    "note": "Tabletactual1displayconnected.",
+    "time": "2026-10-15T13:13:07.241Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/order5-result-v21-768x1024.jpg",
+    "name": "order5-result-v21-768x1024",
+    "note": "Tabletcompletedorders1to5only,nofull9claim.",
+    "time": "2026-10-15T13:13:08.443Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/home-v21-1280x720.jpg",
+    "name": "home-v21-1280x720",
+    "note": "Fresh1280reload;mintsidebars,visible405x720corex437.5.",
+    "time": "2026-10-15T13:13:44.255Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/drag-order1-v21-1280x720.jpg",
+    "name": "drag-order1-v21-1280x720",
+    "note": "Wide3itemsactualhitmapping.",
+    "time": "2026-10-15T13:13:44.711Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/order1-result-v21-1280x720.jpg",
+    "name": "order1-result-v21-1280x720",
+    "note": "Wideorder1result.",
+    "time": "2026-10-15T13:13:45.775Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/order2-result-v21-1280x720.jpg",
+    "name": "order2-result-v21-1280x720",
+    "note": "Wideorder2.",
+    "time": "2026-10-15T13:14:54.493Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/order2-result-v21-1280x720.jpg",
+    "name": "order2-result-v21-1280x720",
+    "note": "Confirmed actual27.5s,0wrong,730,2stars afterbrowserconnectiontimeout; freezeunchanged.",
+    "time": "2026-10-15T13:17:37.008Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/order3-result-v21-1280x720.jpg",
+    "name": "order3-result-v21-1280x720",
+    "note": "Wideorder3actual.",
+    "time": "2026-10-15T13:18:01.896Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/clean-order4-0pct-v21-1280x720.jpg",
+    "name": "clean-order4-0pct-v21-1280x720",
+    "note": "Widecleanfresh0%.",
+    "time": "2026-10-15T13:18:02.262Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/clean-order4-57pct-v21-1280x720.jpg",
+    "name": "clean-order4-57pct-v21-1280x720",
+    "note": "Wideactual16/28=57%path.",
+    "time": "2026-10-15T13:18:03.183Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/clean-order4-96pct-v21-1280x720.jpg",
+    "name": "clean-order4-96pct-v21-1280x720",
+    "note": "Wide27/28actual96%.",
+    "time": "2026-10-15T13:18:30.473Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/order4-result-v21-1280x720.jpg",
+    "name": "order4-result-v21-1280x720",
+    "note": "Widecleanthresholdresult.",
+    "time": "2026-10-15T13:18:30.866Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/cable-order5-0of3-v21-1280x720.jpg",
+    "name": "cable-order5-0of3-v21-1280x720",
+    "note": "Wide0/3.",
+    "time": "2026-10-15T13:18:31.252Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/cable-order5-1of3-v21-1280x720.jpg",
+    "name": "cable-order5-1of3-v21-1280x720",
+    "note": "Wideonlydisplayconnected1/3.",
+    "time": "2026-10-15T13:18:31.994Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/order5-result-v21-1280x720.jpg",
+    "name": "order5-result-v21-1280x720",
+    "note": "Wide3/3realresult.",
+    "time": "2026-10-15T13:18:58.449Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/drag-order6-two-v21-1280x720.jpg",
+    "name": "drag-order6-two-v21-1280x720",
+    "note": "Widetwoitemsaftertrue17cleancells.",
+    "time": "2026-10-15T13:19:00.209Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/order6-result-v21-1280x720.jpg",
+    "name": "order6-result-v21-1280x720",
+    "note": "Widecontinuous2steps.",
+    "time": "2026-10-15T13:19:01.082Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/order7-result-v21-1280x720.jpg",
+    "name": "order7-result-v21-1280x720",
+    "note": "Widerouter3crossescomplete.",
+    "time": "2026-10-15T13:19:34.245Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/drag-order8-four-v21-1280x720.jpg",
+    "name": "drag-order8-four-v21-1280x720",
+    "note": "Wide4readabledevices.",
+    "time": "2026-10-15T13:19:34.588Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/order8-result-v21-1280x720.jpg",
+    "name": "order8-result-v21-1280x720",
+    "note": "Wide4items2cablescompleted.",
+    "time": "2026-10-15T13:19:36.508Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/clean-order9-0pct-v21-1280x720.jpg",
+    "name": "clean-order9-0pct-v21-1280x720",
+    "note": "Widecasecleanfresh.",
+    "time": "2026-10-15T13:19:36.938Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/cable-order9-four-v21-1280x720.jpg",
+    "name": "cable-order9-four-v21-1280x720",
+    "note": "Wide4portsafter32/35cleanthreshold.",
+    "time": "2026-10-15T13:22:10.645Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/drag-order9-four-v21-1280x720.jpg",
+    "name": "drag-order9-four-v21-1280x720",
+    "note": "Wide4partsafter4connections.",
+    "time": "2026-10-15T13:22:18.801Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/final-v21-1280x720.jpg",
+    "name": "final-v21-1280x720",
+    "note": "Widefull9/13actualfinalreadvalues.",
+    "time": "2026-10-15T13:22:19.795Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/final-v21-1280x720.jpg",
+    "name": "final-v21-1280x720",
+    "note": "Stablefirstwidefinal:9/9,24/27,6670,13/13,296.6seconds,0mistakes.",
+    "time": "2026-10-15T13:24:30.641Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/replay-direct-v21-1280x720.jpg",
+    "name": "replay-direct-v21-1280x720",
+    "note": "ActualwideReplaydirectfreshorder1.",
+    "time": "2026-10-15T13:24:31.045Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/wide-run2-order1-result.jpg",
+    "name": "wide-run2-order1-result",
+    "note": "Secondwideactualorder1; soundoff.",
+    "time": "2026-10-15T13:24:58.972Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/wide-run2-order1-result-stable.jpg",
+    "name": "wide-run2-order1-result-stable",
+    "note": "1280x720 replay run order 1, actual settled result: 950 points, 5.6 seconds, zero mistakes, 3 stars. Earlier similarly named capture was pending animation.",
+    "time": "2026-10-15T13:29:58.166Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/wide-run2-order2-result.jpg",
+    "name": "wide-run2-order2-result",
+    "note": "1280x720 replay run order 2: 840 points, 16.6 seconds, 0 mistakes, 3 stars.",
+    "time": "2026-10-15T13:30:47.902Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/wide-run2-order3-result.jpg",
+    "name": "wide-run2-order3-result",
+    "note": "1280x720 replay run order 3 actual result: 850 points, 15.2 seconds, zero mistakes.",
+    "time": "2026-10-15T13:31:19.533Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/wide-run2-order4-result.jpg",
+    "name": "wide-run2-order4-result",
+    "note": "1280x720 replay run order 4 actual result: 740 points, 26.9 seconds, 0 mistakes, 2 stars.",
+    "time": "2026-10-15T13:32:23.321Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/wide-run2-order5-result.jpg",
+    "name": "wide-run2-order5-result",
+    "note": "1280x720 replay run order 5: 850 points, 15.7 seconds, 0 mistakes, 3 stars.",
+    "time": "2026-10-15T13:32:48.979Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/wide-run2-order6-result.jpg",
+    "name": "wide-run2-order6-result",
+    "note": "1280x720 replay run order 6, both steps complete: 760 points, 24.2 seconds, zero mistakes.",
+    "time": "2026-10-15T13:33:20.899Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/wide-run2-order7-result.jpg",
+    "name": "wide-run2-order7-result",
+    "note": "1280x720 replay run order 7: 760 points, 24.4 seconds, zero mistakes.",
+    "time": "2026-10-15T13:34:04.757Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/wide-run2-order8-result.jpg",
+    "name": "wide-run2-order8-result",
+    "note": "1280x720 replay run order 8, two steps complete: 730 points, 27.1 seconds, zero mistakes.",
+    "time": "2026-10-15T13:34:40.252Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/final-run2-v21-1280x720.jpg",
+    "name": "final-run2-v21-1280x720",
+    "note": "1280x720 second full run after direct Replay: 9/9 orders, 13/13 steps, 26/27 stars, 7160 points, 187.8 seconds, 0 mistakes.",
+    "time": "2026-10-15T13:35:20.199Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/home-after-run2-v21-1280x720.jpg",
+    "name": "home-after-run2-v21-1280x720",
+    "note": "Final Home button returned to Home; sound remains OFF.",
+    "time": "2026-10-15T13:35:46.230Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/start-after-home-v21-1280x720.jpg",
+    "name": "start-after-home-v21-1280x720",
+    "note": "Final Home -> Start, new order 1/9, step 1/1, 0/3, zero mistakes, sound OFF retained.",
+    "time": "2026-10-15T13:38:10.705Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/home-final-reload-v21-390x844.jpg",
+    "name": "home-final-reload-v21-390x844",
+    "note": "Final static Home after fresh 390x844 reload, Info debug mode, full asset promotion.",
+    "time": "2026-10-15T13:39:10.970Z"
+  },
+  {
+    "path": "D:/game/docs/validation/day5a-plus/v21/screenshots/home-delivery-default-viewport.jpg",
+    "name": "home-delivery-default-viewport",
+    "note": "Browser viewport override reset; default viewport Home after fresh reload.",
+    "time": "2026-10-15T13:39:21.630Z"
+  }
+]

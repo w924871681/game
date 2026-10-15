@@ -1,0 +1,464 @@
+{
+  "screenshots": [
+    {
+      "path": "docs/validation/day5a-plus/screenshots/cable-1of3-v2-768x1024.jpg",
+      "viewport": [
+        768,
+        1024
+      ],
+      "bytes": 80514,
+      "sha256": "41011ae570901932c72361ca04e0a9abd8bb1e5de5493aadc2960d00cb0c2eff",
+      "savedAtUtc": "2026-10-15T10:42:14.398368+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/cable-v2-1280x720.jpg",
+      "viewport": [
+        1280,
+        720
+      ],
+      "bytes": 53825,
+      "sha256": "ceaec1257251039e3c3cec6e1a8017e09c80c06e7b2b76aa1be5993a9716dc24",
+      "savedAtUtc": "2026-10-15T10:31:49.574498+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/cable-v2-768x1024.jpg",
+      "viewport": [
+        768,
+        1024
+      ],
+      "bytes": 81409,
+      "sha256": "4f10e580303b18962486e030f563baf5d17caaf87a290ad499d50d0913bfce9a",
+      "savedAtUtc": "2026-10-15T10:41:53.965700+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/cable-v2-order5-0of3-390x844.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 44760,
+      "sha256": "9c949cb36ea80dafef00b13341e8112d14ab4fd13ec359393954933a45d764ca",
+      "savedAtUtc": "2026-10-15T10:24:14.115389+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/cable-v2-order5-1of3-390x844.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 43947,
+      "sha256": "01a114a2116dc60aba0c47718e4ff0a79a74f50f7fe066d9db982c8411185745",
+      "savedAtUtc": "2026-10-15T10:24:38.836195+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/cable-v2-wrong-return-390x844.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 44816,
+      "sha256": "8be03345aeac188e0a197135eba90587c3a4005f6dc522224b700ce8b056f619",
+      "savedAtUtc": "2026-10-15T10:24:38.313747+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/clean-partial-v2-768x1024.jpg",
+      "viewport": [
+        768,
+        1024
+      ],
+      "bytes": 89193,
+      "sha256": "577b0549ce18d02427bd9527be6a9f4c9bed86b6b9a49cb706706a1781fee214",
+      "savedAtUtc": "2026-10-15T10:41:52.951436+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/clean-v2-1280x720.jpg",
+      "viewport": [
+        1280,
+        720
+      ],
+      "bytes": 60259,
+      "sha256": "613d378e13b47ed9ee57c995bb5821e7a4150cbe2d6aff16feebdbe24a0b749f",
+      "savedAtUtc": "2026-10-15T10:31:34.698212+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/clean-v2-768x1024.jpg",
+      "viewport": [
+        768,
+        1024
+      ],
+      "bytes": 93210,
+      "sha256": "ed39f0075651f81509d096d970ab539329fb9ea79a2521d521bac1e634473c6e",
+      "savedAtUtc": "2026-10-15T10:41:34.495009+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/clean-v2-order4-96pct-390x844.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 47626,
+      "sha256": "2c9f2e4ffb11655eca5dff117f57f96c201aa008292e91064f50a492cfbcc1e4",
+      "savedAtUtc": "2026-10-15T10:24:00.251551+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/clean-v2-order4-dirty-390x844.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 50538,
+      "sha256": "ca1e6f42025ff1f6b0bcbf77936576a921508bc925a4b4265ba86a94c3e98e4c",
+      "savedAtUtc": "2026-10-15T10:22:58.809355+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/clean-v2-order4-partial-390x844.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 48346,
+      "sha256": "4ae16c06da151a6466ca7d2379d478c71168d12477d7fb6ef5193adec383e87e",
+      "savedAtUtc": "2026-10-15T10:23:38.570688+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/drag-v2-1280x720.jpg",
+      "viewport": [
+        1280,
+        720
+      ],
+      "bytes": 56741,
+      "sha256": "1455044841edb3376a78dc0ee1d23ae1e2f4b1622a721a3efc11cf1e009e62f2",
+      "savedAtUtc": "2026-10-15T10:31:04.033405+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/drag-v2-768x1024.jpg",
+      "viewport": [
+        768,
+        1024
+      ],
+      "bytes": 86328,
+      "sha256": "b6e774780b4fe703bc4f93b9adece094a6d0eedff19b64b60ccf285f42b23101",
+      "savedAtUtc": "2026-10-15T10:40:11.233956+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/drag-v2-order1-390x844.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 47516,
+      "sha256": "76366166b3862213b72421fc54e78ca62e834761ea4e336764732b7922a7c88a",
+      "savedAtUtc": "2026-10-15T10:20:26.710214+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/drag-v2-wrong-return-390x844.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 47575,
+      "sha256": "7267fa291eaded5e8cc8d80b34e0b4d3c9b901d39aa0b1e2f86aa412f09f2468",
+      "savedAtUtc": "2026-10-15T10:21:45.696743+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/final-replay-run-v2-1280x720.jpg",
+      "viewport": [
+        1280,
+        720
+      ],
+      "bytes": 66509,
+      "sha256": "0edee2995b8876a008002941868d99f57cdc1bd5211f32da54e9fe83564a1a0c",
+      "savedAtUtc": "2026-10-15T10:38:20.690746+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/final-v2-1280x720.jpg",
+      "viewport": [
+        1280,
+        720
+      ],
+      "bytes": 66546,
+      "sha256": "54116d051b46fd84533b7ffeaf9ea80265322a1aec6d9c8e0dc75bd1f54161c6",
+      "savedAtUtc": "2026-10-15T10:35:03.805008+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/final-v2-390x844.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 55473,
+      "sha256": "473ebc60c71d34899c1a9fa0c51dcc3664f068a813c430d8c928c9dc09720bf3",
+      "savedAtUtc": "2026-10-15T10:27:47.535550+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/home-after-final-return-v2-390x844.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 55083,
+      "sha256": "c6abadd5a7594b4b7ed8d8192672a8ebf9c2ad38a87954383195c2922b257193",
+      "savedAtUtc": "2026-10-15T10:51:36.772779+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/home-v2-1280x720.jpg",
+      "viewport": [
+        1280,
+        720
+      ],
+      "bytes": 65988,
+      "sha256": "0933779da1a9d710d06882f3e8963168889c04737a5f7ce9d052e10607286955",
+      "savedAtUtc": "2026-10-15T10:30:48.831465+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/home-v2-390x844.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 55078,
+      "sha256": "a68ea2c47145d33ce292eb022d72ccff3c78e168164800c5ba7eb021e9ebbe45",
+      "savedAtUtc": "2026-10-15T10:20:26.245587+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/home-v2-768x1024.jpg",
+      "viewport": [
+        768,
+        1024
+      ],
+      "bytes": 100619,
+      "sha256": "b83942ebab59ac8d0bbbffdadfb72000f06e4d54d5506307b056f005e4c8997c",
+      "savedAtUtc": "2026-10-15T10:40:10.711316+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/next-order-v2-768x1024.jpg",
+      "viewport": [
+        768,
+        1024
+      ],
+      "bytes": 84416,
+      "sha256": "7fd0a021994292c11c26a173d1c423811e047b5d3bf012501c43af7b44079443",
+      "savedAtUtc": "2026-10-15T10:41:12.132087+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/order2-result-390x844.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 34044,
+      "sha256": "2495538869ca7bcbc4e831989137f440c86b279fbd4e42ec2e1529f28a99ae44",
+      "savedAtUtc": "2026-10-15T10:22:28.166549+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/order4-result-390x844.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 34730,
+      "sha256": "feb348820c51e5a9e4e635359b6cad2692563325c9fa479812bf283328fea1b0",
+      "savedAtUtc": "2026-10-15T10:24:13.695001+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/order5-result-390x844.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 33635,
+      "sha256": "8d4c9313f32290f2fa1d32233deb8afbbeebbae326014e9eb96b560569883858",
+      "savedAtUtc": "2026-10-15T10:25:21.462287+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/order5-result-v2-768x1024.jpg",
+      "viewport": [
+        768,
+        1024
+      ],
+      "bytes": 60557,
+      "sha256": "c5426eca179b3374399943325d1fe7139af46cb0040ac7a5e516b841c6526129",
+      "savedAtUtc": "2026-10-15T10:42:15.043917+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/order6-result-390x844.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 34085,
+      "sha256": "2f55be7520c8d59c15218e973b3b50f78eb2be1b04d2db4bd3cbba9a91ce112b",
+      "savedAtUtc": "2026-10-15T10:25:46.713943+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/order6-step2-two-items-390x844.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 44314,
+      "sha256": "04e9487c46af09061c06767957bb0c39d2a23987be6e950bce1c7035bf734b3d",
+      "savedAtUtc": "2026-10-15T10:25:35.316559+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/order7-result-1280x720.jpg",
+      "viewport": [
+        1280,
+        720
+      ],
+      "bytes": 41687,
+      "sha256": "a5fa0afac50fbe8418063f6a8859a62fc54edc18c717d9779499419c8601df3e",
+      "savedAtUtc": "2026-10-15T10:33:58.206742+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/order8-four-items-390x844.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 47012,
+      "sha256": "d8f00b45857d825b644266bda237efbd67260ef0c40a1447a33c75c121645215",
+      "savedAtUtc": "2026-10-15T10:26:16.516476+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/order8-result-390x844.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 33946,
+      "sha256": "4e38c67b30a136d472054d13d678730164d600c70921263a48aa162b5b9672db",
+      "savedAtUtc": "2026-10-15T10:26:42.715860+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/order8-step2-390x844.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 42861,
+      "sha256": "3dbf52ae28587959803fbc5764aeda5a07a430229fa6b25313756d787c0b315b",
+      "savedAtUtc": "2026-10-15T10:26:29.968395+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/order9-step2-four-cables-390x844.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 45235,
+      "sha256": "55b7eb3af10d27548e9ea38e5ccc2bb500fc02482a459e7ac65dbba15c14f7cf",
+      "savedAtUtc": "2026-10-15T10:26:54.915631+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/order9-step3-four-parts-390x844.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 47122,
+      "sha256": "c735104112bb78381c80ff23a0c08072e1ac97c57df8efecaf05dbf3200eb637",
+      "savedAtUtc": "2026-10-15T10:27:08.722930+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/replay-muted-v2-1280x720.jpg",
+      "viewport": [
+        1280,
+        720
+      ],
+      "bytes": 55790,
+      "sha256": "66d42b83c245b50bc86d1ed28dad95a1cd607e3305ed63279c3c9f0052b19dae",
+      "savedAtUtc": "2026-10-15T10:35:44.948043+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/replay-v2-1280x720.jpg",
+      "viewport": [
+        1280,
+        720
+      ],
+      "bytes": 55808,
+      "sha256": "f44c038fbff67a97f08456e43ceae607f297e75b462ce08c80b1349487248fb2",
+      "savedAtUtc": "2026-10-15T10:35:04.182879+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/restart-after-home-muted-v2-1280x720.jpg",
+      "viewport": [
+        1280,
+        720
+      ],
+      "bytes": 55799,
+      "sha256": "9211cbd60b55abbc520c67e18feb592309dfa42227c1671bbed26829d0c8c935",
+      "savedAtUtc": "2026-10-15T10:38:21.494067+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/restart-after-home-v2-390x844.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 46499,
+      "sha256": "c33723b4f8000695c1165c578f3f9548f15cc791b1ad0b6c3064659c534e9cb3",
+      "savedAtUtc": "2026-10-15T10:28:56.443928+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/result-v2-1280x720.jpg",
+      "viewport": [
+        1280,
+        720
+      ],
+      "bytes": 41805,
+      "sha256": "1dc0e0edeefb150027b1e713c40ee4c6a53fcfee5abcb07499889b29ed35e5b6",
+      "savedAtUtc": "2026-10-15T10:31:04.828287+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/result-v2-390x844.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 33594,
+      "sha256": "39075bd9102112183367916358fe9a63c0455ab2c333d62fe105117ce68db82d",
+      "savedAtUtc": "2026-10-15T10:21:46.498389+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/result-v2-768x1024.jpg",
+      "viewport": [
+        768,
+        1024
+      ],
+      "bytes": 60908,
+      "sha256": "56c3835fadb37274e731b90304e6d271462e36fd611d3a9d502a6ea1798984a7",
+      "savedAtUtc": "2026-10-15T10:41:11.748468+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/result-v2-modal-block-390x844.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 34149,
+      "sha256": "8943199cec43ededab9a4dc13336ce07f4f4d1b37e708a1d6dc591959d7661f3",
+      "savedAtUtc": "2026-10-15T10:22:02.921939+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/return-home-muted-v2-1280x720.jpg",
+      "viewport": [
+        1280,
+        720
+      ],
+      "bytes": 66007,
+      "sha256": "7dc5861ed27303d5e6417cf102b0eab01473ed81d7f89bd4be9ce4cd10900c42",
+      "savedAtUtc": "2026-10-15T10:38:21.075982+00:00"
+    },
+    {
+      "path": "docs/validation/day5a-plus/screenshots/return-home-v2-390x844.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "bytes": 55083,
+      "sha256": "c6abadd5a7594b4b7ed8d8192672a8ebf9c2ad38a87954383195c2922b257193",
+      "savedAtUtc": "2026-10-15T10:27:47.900220+00:00"
+    }
+  ]
+}

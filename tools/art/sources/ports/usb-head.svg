@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="128" viewBox="0 0 256 128">
+<title>DeskRescue original ports/usb-head</title>
+<polyline points="8.00,66.00 67.00,66.00" fill="none" stroke="#68838c" stroke-opacity="1.0000" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="8.00,61.00 60.00,61.00" fill="none" stroke="#a9c0c3" stroke-opacity="1.0000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="48" y="43" width="32" height="46" rx="7" fill="#526b78" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<polyline points="56.00,47.00 56.00,85.00" fill="none" stroke="#94afb5" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="64.00,47.00 64.00,85.00" fill="none" stroke="#94afb5" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="72.00,47.00 72.00,85.00" fill="none" stroke="#94afb5" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="67" y="33" width="128" height="67" rx="7" fill="#d8e4de" fill-opacity="1.0000" stroke="#263d50" stroke-opacity="1.0000" stroke-width="4"/>
+<rect x="79" y="44" width="104" height="43" rx="4" fill="#557481" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="91" y="48" width="20" height="14" rx="3" fill="#b2c8c2" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="146" y="48" width="20" height="14" rx="3" fill="#b2c8c2" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="99" y="72" width="9" height="10" rx="1" fill="#ffbe58" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="118" y="72" width="9" height="10" rx="1" fill="#ffbe58" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="137" y="72" width="9" height="10" rx="1" fill="#ffbe58" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="156" y="72" width="9" height="10" rx="1" fill="#ffbe58" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+</svg>

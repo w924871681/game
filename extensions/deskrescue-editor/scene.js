@@ -25,6 +25,27 @@ async function loadBlockSpriteFrame(cc) {
 }
 
 exports.methods = {
+    async applyV22() { delete require.cache[require.resolve('./v22-scene')]; return require('./v22-scene').apply(require('cc')); },
+    inspectV22() { delete require.cache[require.resolve('./v22-scene')]; return require('./v22-scene').inspect(require('cc')); },
+    probeV22() { delete require.cache[require.resolve('./v22-probe')]; return require('./v22-probe').run(require('cc')); },
+    async applyV21(input) {
+        delete require.cache[require.resolve('./v21-scene')];
+        return require('./v21-scene').apply(require('cc'), input);
+    },
+    inspectV21(phase) {
+        delete require.cache[require.resolve('./v21-scene')];
+        return require('./v21-scene').inspect(require('cc'), phase);
+    },
+    probeV21() {
+        delete require.cache[require.resolve('./v21-probe')];
+        return require('./v21-probe').run(require('cc'));
+    },
+    async applyV2(input) { delete require.cache[require.resolve('./v2-scene')]; return require('./v2-scene').apply(require('cc'), input); },
+    inspectV2(phase) { delete require.cache[require.resolve('./v2-scene')]; return require('./v2-scene').inspect(require('cc'), phase); },
+    probeV2() { delete require.cache[require.resolve('./v2-probe')]; return require('./v2-probe').run(require('cc')); },
+    async applyDay5A(input) { delete require.cache[require.resolve('./day5a-scene')]; return require('./day5a-scene').apply(require('cc'), input); },
+    inspectDay5A(phase) { delete require.cache[require.resolve('./day5a-scene')]; return require('./day5a-scene').inspect(require('cc'), phase); },
+    probeDay5A() { delete require.cache[require.resolve('./day5a-probe')]; return require('./day5a-probe').run(require('cc')); },
     async correctDay4Appearance() {
         return require('./day4-appearance').run(require('cc'));
     },

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="128" viewBox="0 0 256 128">
+<title>DeskRescue original ports/fan-port</title>
+<rect x="29" y="11" width="197" height="108" rx="19" fill="#c3d8d6" fill-opacity="1.0000" stroke="#263d50" stroke-opacity="1.0000" stroke-width="4"/>
+<ellipse cx="43.5" cy="61.5" rx="3.5" ry="3.5" fill="#6d8990" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<ellipse cx="215.5" cy="61.5" rx="3.5" ry="3.5" fill="#6d8990" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="77.0" y="45.0" width="106" height="46" rx="7" fill="#263d50" fill-opacity="1.0000" stroke="#263d50" stroke-opacity="1.0000" stroke-width="4"/>
+<rect x="85.0" y="54.0" width="19.5" height="18" rx="2" fill="#173341" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="107.5" y="54.0" width="19.5" height="18" rx="2" fill="#173341" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="130.0" y="54.0" width="19.5" height="18" rx="2" fill="#173341" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="152.5" y="54.0" width="19.5" height="18" rx="2" fill="#173341" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="109" y="33.0" width="43" height="13" rx="3" fill="#263d50" fill-opacity="1.0000" stroke="#263d50" stroke-opacity="1.0000" stroke-width="2"/>
+<polyline points="72.00,92.00 193.00,92.00" fill="none" stroke="#8fada9" stroke-opacity="1.0000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

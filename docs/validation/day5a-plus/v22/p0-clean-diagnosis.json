@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-15T15:14:10.4950999Z",
+  "status": "SOURCE_IMPLEMENTED_MOCK_CHECKED_PREVIEW_PENDING",
+  "source": {
+    "path": "D:\\game\\assets\\scripts\\visuals\\V21CleanDustView.ts",
+    "sha256": "e00cde3d58068d3f402026f8c241fb6a8a8764e07763a1264f12cb15ba7ab66e"
+  },
+  "suite": {
+    "path": "D:\\game\\tools\\verify-v22-clean.cjs",
+    "sha256": "7c661b001f5ea16dd0bcb473af68ed649d71b1da3e710478f840b60eb038aaa0",
+    "export": "runV22CleanTests(runtime)",
+    "newGroups": 8,
+    "standaloneMockExit": 0
+  },
+  "historicalCleanGroups": 17,
+  "historicalCleanExit": 0,
+  "limitedContractStrictCompileExit": 0,
+  "particleCount": 192,
+  "coordinatesSizesBaseAlphaChanged": false,
+  "serializedApiChanged": false,
+  "screenshotSources": [
+    "docs/validation/day5a-plus/v21/comparisons/final-clean57-horizontal-v2-to-v21.png",
+    "docs/validation/day5a-plus/v21/comparisons/final-clean57-v2-to-v21.png"
+  ],
+  "numericSample": {
+    "mode": "Actual compiled view new alpha; exact historical V2.1 falloff applied to identical scalar particles",
+    "path": [
+      -260,
+      -32.5,
+      260,
+      -32.5
+    ],
+    "radius": 46,
+    "newPartialAlpha": 83,
+    "historicalPartialAlpha": 31,
+    "newZeroAlpha": 41,
+    "newUnchangedAlpha": 68,
+    "businessProgressClaim": false,
+    "pixelQualityClaim": false
+  },
+  "changes": [
+    "Precompute per-particle stable edgeShift and featherScale only during configure",
+    "Broaden one smoothstep and retain min(previousAlpha,targetAlpha)",
+    "Replace guard array allocation with explicit Number.isFinite checks"
+  ],
+  "pending": [
+    "Root full207plus8 suite run",
+    "Real Creator SDK types/audit/engine probe",
+    "Real natural horizontal diagonal repeat Preview",
+    "User aesthetic approval"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "capturedAt": "2026-10-15T15:57:04.889Z",
+  "background": "rgb(195, 236, 224)",
+  "canvases": [
+    {
+      "clipPath": "inset(75.3333px 0px)",
+      "height": 844,
+      "id": "GameCanvas",
+      "rect": {
+        "height": 844,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "width": 390
+    }
+  ],
+  "debug": "INFO",
+  "viewport": {
+    "height": 844,
+    "width": 390
+  }
+}

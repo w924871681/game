@@ -1,0 +1,254 @@
+{
+  "generatedAtUtc": "2026-10-14T17:30:31.627Z",
+  "sinceUtc": "2026-10-14T17:28:33.388Z",
+  "method": "Real browser mouse clicks and drags, actual Cocos AudioSource STARTED/ENDED events, no synthetic emission or runtime game mutation",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "orders": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "corePlaybackNames": [
+    "ui_click",
+    "mistake",
+    "snap_success",
+    "order_complete",
+    "clean_progress"
+  ],
+  "atLeastFiveNaturalCues": true,
+  "independentListeningOrRecording": false,
+  "events": [
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] started ui_click",
+      "timestamp": "2026-10-14T17:28:45.434Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] ended ui_click",
+      "timestamp": "2026-10-14T17:28:45.536Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] started mistake",
+      "timestamp": "2026-10-14T17:28:54.714Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] ended mistake",
+      "timestamp": "2026-10-14T17:28:54.886Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] started snap_success",
+      "timestamp": "2026-10-14T17:29:05.670Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] ended snap_success",
+      "timestamp": "2026-10-14T17:29:05.873Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] started snap_success",
+      "timestamp": "2026-10-14T17:29:05.873Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] ended snap_success",
+      "timestamp": "2026-10-14T17:29:06.074Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] started snap_success",
+      "timestamp": "2026-10-14T17:29:06.074Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] ended snap_success",
+      "timestamp": "2026-10-14T17:29:06.276Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] started order_complete",
+      "timestamp": "2026-10-14T17:29:06.276Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] ended order_complete",
+      "timestamp": "2026-10-14T17:29:06.747Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] started ui_click",
+      "timestamp": "2026-10-14T17:29:14.712Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] ended ui_click",
+      "timestamp": "2026-10-14T17:29:14.802Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] started snap_success",
+      "timestamp": "2026-10-14T17:29:26.134Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] ended snap_success",
+      "timestamp": "2026-10-14T17:29:26.335Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] started snap_success",
+      "timestamp": "2026-10-14T17:29:26.335Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] ended snap_success",
+      "timestamp": "2026-10-14T17:29:26.538Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] started snap_success",
+      "timestamp": "2026-10-14T17:29:26.540Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] ended snap_success",
+      "timestamp": "2026-10-14T17:29:26.741Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] started order_complete",
+      "timestamp": "2026-10-14T17:29:26.741Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] ended order_complete",
+      "timestamp": "2026-10-14T17:29:27.211Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] started ui_click",
+      "timestamp": "2026-10-14T17:29:34.943Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] ended ui_click",
+      "timestamp": "2026-10-14T17:29:35.040Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] started snap_success",
+      "timestamp": "2026-10-14T17:29:43.630Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] ended snap_success",
+      "timestamp": "2026-10-14T17:29:43.830Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] started snap_success",
+      "timestamp": "2026-10-14T17:29:43.830Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] ended snap_success",
+      "timestamp": "2026-10-14T17:29:44.032Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] started snap_success",
+      "timestamp": "2026-10-14T17:29:44.033Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] ended snap_success",
+      "timestamp": "2026-10-14T17:29:44.233Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] started order_complete",
+      "timestamp": "2026-10-14T17:29:44.233Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] ended order_complete",
+      "timestamp": "2026-10-14T17:29:44.704Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] started ui_click",
+      "timestamp": "2026-10-14T17:29:53.912Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] ended ui_click",
+      "timestamp": "2026-10-14T17:29:54.005Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] started clean_progress",
+      "timestamp": "2026-10-14T17:30:07.818Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] ended clean_progress",
+      "timestamp": "2026-10-14T17:30:07.919Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] started order_complete",
+      "timestamp": "2026-10-14T17:30:07.919Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    },
+    {
+      "level": "info",
+      "message": "[DeskRescue Audio] ended order_complete",
+      "timestamp": "2026-10-14T17:30:08.391Z",
+      "url": "http://localhost:7456/scripting/x/chunks/79/7951b5b282266e9149f0c5757af53d072d8aed2a.js"
+    }
+  ]
+}

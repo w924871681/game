@@ -1,0 +1,2495 @@
+{
+  "schemaVersion": 1,
+  "timestamp": "2026-10-15T15:56:49.251922+00:00",
+  "ok": true,
+  "scope": "Actual local commands and fresh source copy. Mock groups, project types, installed SDK self-check and real Creator/Preview are distinct evidence layers.",
+  "checks": [
+    {
+      "name": "Actual npm behavior regression includes original207 and separate V22 suites",
+      "ok": true
+    },
+    {
+      "name": "Actual Creator SDK project strict types",
+      "ok": true
+    },
+    {
+      "name": "Installed SDK diagnostics separately observed without source/config modification",
+      "ok": true
+    },
+    {
+      "name": "Every Git-visible JS/CJS/MJS source parsed",
+      "ok": true
+    },
+    {
+      "name": "Every Git-visible Python source compiled without imports or pycache",
+      "ok": true
+    },
+    {
+      "name": "Fresh no-temp isolated current-source regression",
+      "ok": true
+    },
+    {
+      "name": "Runtime/tool/configuration sources unchanged during commands",
+      "ok": true
+    },
+    {
+      "name": "Version-only final alpha4",
+      "ok": true
+    }
+  ],
+  "commands": [
+    {
+      "label": "final-tests",
+      "command": [
+        "C:\\Program Files\\nodejs\\npm.cmd",
+        "test"
+      ],
+      "cwd": "D:/game",
+      "startedAtUtc": "2026-10-15T15:56:13.675380+00:00",
+      "endedAtUtc": "2026-10-15T15:56:20.858220+00:00",
+      "exitCode": 0,
+      "log": {
+        "path": "docs/validation/day5a-plus/v22/final-tests.log",
+        "bytes": 25081,
+        "sha256": "3ac0cca0c9e1c1eea09406ec423a6f9d8f193e4885687cc1466991d9c2d6867d"
+      },
+      "behaviorGroups": [
+        224
+      ],
+      "diagnosticErrorLineCount": 0,
+      "typescriptOutput": [
+        "TypeScript 5.8.2: C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\app.asar.unpacked\\node_modules\\typescript\\lib\\typescript.js",
+        "TypeScript checking against real editor-generated Cocos SDK references (strict/noUnusedLocals/noUnusedParameters enabled; SDK self-validation is separate)."
+      ],
+      "sdkDiagnosticsExcludedFromProject": [
+        102
+      ],
+      "diagnostics": []
+    },
+    {
+      "label": "final-cocos-types",
+      "command": [
+        "C:\\Program Files\\nodejs\\npm.cmd",
+        "run",
+        "check:cocos"
+      ],
+      "cwd": "D:/game",
+      "startedAtUtc": "2026-10-15T15:56:13.676004+00:00",
+      "endedAtUtc": "2026-10-15T15:56:18.180382+00:00",
+      "exitCode": 0,
+      "log": {
+        "path": "docs/validation/day5a-plus/v22/final-cocos-types.log",
+        "bytes": 1256,
+        "sha256": "8ec938e225c9d153e732f1deffacb0ed4ce5811c216af2b1320b71ae1abb1db8"
+      },
+      "behaviorGroups": [],
+      "diagnosticErrorLineCount": 0,
+      "typescriptOutput": [
+        "TypeScript 5.8.2: C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\app.asar.unpacked\\node_modules\\typescript\\lib\\typescript.js",
+        "TypeScript checking against real editor-generated Cocos SDK references (strict/noUnusedLocals/noUnusedParameters enabled; SDK self-validation is separate)."
+      ],
+      "sdkDiagnosticsExcludedFromProject": [
+        102
+      ],
+      "diagnostics": []
+    },
+    {
+      "label": "final-sdk-self",
+      "command": [
+        "C:\\Program Files\\nodejs\\npm.cmd",
+        "run",
+        "check:cocos",
+        "--",
+        "--check-sdk-declarations"
+      ],
+      "cwd": "D:/game",
+      "startedAtUtc": "2026-10-15T15:56:13.676332+00:00",
+      "endedAtUtc": "2026-10-15T15:56:18.178671+00:00",
+      "exitCode": 1,
+      "log": {
+        "path": "docs/validation/day5a-plus/v22/final-sdk-self.log",
+        "bytes": 20238,
+        "sha256": "8646f099209884bdbc9505f3aa7a3478e9097375bf7a8f97d76a1393481b35b8"
+      },
+      "behaviorGroups": [],
+      "diagnosticErrorLineCount": 102,
+      "typescriptOutput": [
+        "TypeScript 5.8.2: C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\app.asar.unpacked\\node_modules\\typescript\\lib\\typescript.js"
+      ],
+      "sdkDiagnosticsExcludedFromProject": [],
+      "diagnostics": [
+        {
+          "file": "FAIL Error: C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+          "line": 30,
+          "column": 25,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+          "line": 31,
+          "column": 25,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+          "line": 172,
+          "column": 25,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+          "line": 175,
+          "column": 25,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+          "line": 176,
+          "column": 25,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+          "line": 177,
+          "column": 25,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+          "line": 178,
+          "column": 25,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+          "line": 179,
+          "column": 25,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+          "line": 180,
+          "column": 25,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+          "line": 190,
+          "column": 25,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+          "line": 191,
+          "column": 25,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+          "line": 192,
+          "column": 25,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+          "line": 194,
+          "column": 25,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+          "line": 195,
+          "column": 25,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+          "line": 196,
+          "column": 25,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+          "line": 197,
+          "column": 25,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+          "line": 213,
+          "column": 18,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts",
+          "line": 214,
+          "column": 17,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 38222,
+          "column": 32,
+          "code": 2314
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 38280,
+          "column": 37,
+          "code": 2314
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 38281,
+          "column": 39,
+          "code": 2314
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 41113,
+          "column": 22,
+          "code": 7008
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 41132,
+          "column": 13,
+          "code": 7008
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 45181,
+          "column": 24,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 45197,
+          "column": 29,
+          "code": 2552
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 51993,
+          "column": 17,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 51994,
+          "column": 17,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 51996,
+          "column": 17,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 53208,
+          "column": 17,
+          "code": 7008
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 53209,
+          "column": 17,
+          "code": 7008
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 53227,
+          "column": 17,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 53228,
+          "column": 17,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 53229,
+          "column": 17,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 53231,
+          "column": 17,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 53232,
+          "column": 17,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 53233,
+          "column": 17,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 53234,
+          "column": 17,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 53235,
+          "column": 17,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 53236,
+          "column": 17,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 53237,
+          "column": 17,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 53238,
+          "column": 17,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 53239,
+          "column": 17,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 53240,
+          "column": 17,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 53241,
+          "column": 17,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 53242,
+          "column": 17,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 53243,
+          "column": 17,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 53244,
+          "column": 17,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 53245,
+          "column": 17,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 53255,
+          "column": 24,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 53256,
+          "column": 24,
+          "code": 7010
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 61894,
+          "column": 55,
+          "code": 2833
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 61910,
+          "column": 125,
+          "code": 2833
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 61959,
+          "column": 33,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 61960,
+          "column": 27,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 61962,
+          "column": 47,
+          "code": 2833
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 61964,
+          "column": 17,
+          "code": 2833
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 61967,
+          "column": 33,
+          "code": 2833
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 61974,
+          "column": 50,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 61977,
+          "column": 48,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 61978,
+          "column": 54,
+          "code": 2503
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 61984,
+          "column": 27,
+          "code": 2503
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 61987,
+          "column": 21,
+          "code": 2503
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 61990,
+          "column": 27,
+          "code": 2503
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 61992,
+          "column": 28,
+          "code": 2503
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 61999,
+          "column": 19,
+          "code": 2503
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 62000,
+          "column": 20,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 64833,
+          "column": 52,
+          "code": 2307
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 64841,
+          "column": 58,
+          "code": 2307
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 64849,
+          "column": 80,
+          "code": 2307
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 64864,
+          "column": 32,
+          "code": 2307
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 64869,
+          "column": 33,
+          "code": 2307
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 64897,
+          "column": 61,
+          "code": 2307
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 68133,
+          "column": 60,
+          "code": 2307
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 68134,
+          "column": 58,
+          "code": 2307
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 68135,
+          "column": 59,
+          "code": 2307
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 68136,
+          "column": 62,
+          "code": 2307
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 68137,
+          "column": 65,
+          "code": 2307
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 69057,
+          "column": 24,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 69097,
+          "column": 25,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 69104,
+          "column": 35,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 69115,
+          "column": 37,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 69123,
+          "column": 25,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 69146,
+          "column": 50,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 69182,
+          "column": 19,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 69193,
+          "column": 29,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 69221,
+          "column": 19,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 69276,
+          "column": 23,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 69307,
+          "column": 33,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 69341,
+          "column": 24,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 69426,
+          "column": 21,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 69631,
+          "column": 30,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 69636,
+          "column": 34,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 69639,
+          "column": 35,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 69649,
+          "column": 21,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 69899,
+          "column": 48,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 69923,
+          "column": 24,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 69924,
+          "column": 30,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 70022,
+          "column": 21,
+          "code": 2304
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 75869,
+          "column": 109,
+          "code": 2307
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 75870,
+          "column": 155,
+          "code": 2307
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 75871,
+          "column": 60,
+          "code": 2307
+        },
+        {
+          "file": "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts",
+          "line": 75872,
+          "column": 26,
+          "code": 2307
+        }
+      ]
+    },
+    {
+      "label": "final-offline-execution",
+      "command": [
+        "C:\\Users\\<USER>\\anaconda3\\python.exe",
+        "tools/verify_v22_offline.py",
+        "--label",
+        "final-offline"
+      ],
+      "cwd": "D:/game",
+      "startedAtUtc": "2026-10-15T15:56:23.441715+00:00",
+      "endedAtUtc": "2026-10-15T15:56:49.104043+00:00",
+      "exitCode": 0,
+      "log": {
+        "path": "docs/validation/day5a-plus/v22/final-offline-execution.log",
+        "bytes": 599,
+        "sha256": "04be37b75cf9a6b8616ad08f221eeceffc49428f2bb6b60a027f450effe81259"
+      },
+      "behaviorGroups": [],
+      "diagnosticErrorLineCount": 0,
+      "typescriptOutput": [],
+      "sdkDiagnosticsExcludedFromProject": [],
+      "diagnostics": []
+    }
+  ],
+  "javascriptSyntax": {
+    "files": 31,
+    "passed": 31,
+    "commands": [
+      {
+        "label": "syntax-extensions_deskrescue-editor_day4-appearance_js",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "extensions/deskrescue-editor/day4-appearance.js"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:20.931803+00:00",
+        "endedAtUtc": "2026-10-15T15:56:21.000642+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-extensions_deskrescue-editor_day4-appearance_js.log",
+          "bytes": 318,
+          "sha256": "4022d74c9bc68d63dd727c10d6d795efc3440d593983c07bf05a5a85c4bbc8c2"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-extensions_deskrescue-editor_day4-audit_js",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "extensions/deskrescue-editor/day4-audit.js"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:21.013580+00:00",
+        "endedAtUtc": "2026-10-15T15:56:21.065683+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-extensions_deskrescue-editor_day4-audit_js.log",
+          "bytes": 308,
+          "sha256": "df7c0789fb590c09aaeb6af7700f56c46194d24a7dae02d14830c357d9114e9c"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-extensions_deskrescue-editor_day4-probe_js",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "extensions/deskrescue-editor/day4-probe.js"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:21.073675+00:00",
+        "endedAtUtc": "2026-10-15T15:56:21.126336+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-extensions_deskrescue-editor_day4-probe_js.log",
+          "bytes": 308,
+          "sha256": "e982ca288d494108d7e52e397aeebe68947662257b5ce798a5259be77bfd521b"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-extensions_deskrescue-editor_day4-scene_js",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "extensions/deskrescue-editor/day4-scene.js"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:21.136791+00:00",
+        "endedAtUtc": "2026-10-15T15:56:21.204450+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-extensions_deskrescue-editor_day4-scene_js.log",
+          "bytes": 308,
+          "sha256": "38aa0259b19a0e56badfbd1528fa8b6b035f1b9e952109817521823007218242"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-extensions_deskrescue-editor_day5a-audit_js",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "extensions/deskrescue-editor/day5a-audit.js"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:21.215074+00:00",
+        "endedAtUtc": "2026-10-15T15:56:21.265974+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-extensions_deskrescue-editor_day5a-audit_js.log",
+          "bytes": 310,
+          "sha256": "1d7c5bfcfd5be6aab947f835a09d215e68bf2c2a07c4d38bde8b0bb032e8fd5e"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-extensions_deskrescue-editor_day5a-main_js",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "extensions/deskrescue-editor/day5a-main.js"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:21.275043+00:00",
+        "endedAtUtc": "2026-10-15T15:56:21.331191+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-extensions_deskrescue-editor_day5a-main_js.log",
+          "bytes": 308,
+          "sha256": "6738bafd8f11ab35bb564b012fa503ecd1d05b7c89b24f7f8cf57c0085a16f0c"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-extensions_deskrescue-editor_day5a-probe_js",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "extensions/deskrescue-editor/day5a-probe.js"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:21.343702+00:00",
+        "endedAtUtc": "2026-10-15T15:56:21.405131+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-extensions_deskrescue-editor_day5a-probe_js.log",
+          "bytes": 310,
+          "sha256": "4b74edf9fbca6e3d82f8c2163477ffd1719446b08668ec2cde321c90244ea9ee"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-extensions_deskrescue-editor_day5a-scene_js",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "extensions/deskrescue-editor/day5a-scene.js"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:21.414407+00:00",
+        "endedAtUtc": "2026-10-15T15:56:21.480426+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-extensions_deskrescue-editor_day5a-scene_js.log",
+          "bytes": 310,
+          "sha256": "2012e7786084b80b938b1256dfc055c85260f5541712739726c60992444d24ca"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-extensions_deskrescue-editor_main_js",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "extensions/deskrescue-editor/main.js"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:21.495929+00:00",
+        "endedAtUtc": "2026-10-15T15:56:21.563088+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-extensions_deskrescue-editor_main_js.log",
+          "bytes": 296,
+          "sha256": "c49be29bee36b08deca1a242ff283b9345bfde5e955f043f2d1d4dd657784c69"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-extensions_deskrescue-editor_probe_js",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "extensions/deskrescue-editor/probe.js"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:21.582684+00:00",
+        "endedAtUtc": "2026-10-15T15:56:21.652143+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-extensions_deskrescue-editor_probe_js.log",
+          "bytes": 298,
+          "sha256": "192108b999e47d1130a5922fe5a0d8cec2aed923f3e841b6b84ee86e1f8ca96f"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-extensions_deskrescue-editor_scene_js",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "extensions/deskrescue-editor/scene.js"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:21.662304+00:00",
+        "endedAtUtc": "2026-10-15T15:56:21.721235+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-extensions_deskrescue-editor_scene_js.log",
+          "bytes": 298,
+          "sha256": "701e94654a4d54cadfe1d078c5a58daeb838915624fbb81d9da92ed70b0653fc"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-extensions_deskrescue-editor_v2-audit_js",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "extensions/deskrescue-editor/v2-audit.js"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:21.731635+00:00",
+        "endedAtUtc": "2026-10-15T15:56:21.787075+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-extensions_deskrescue-editor_v2-audit_js.log",
+          "bytes": 304,
+          "sha256": "9b97e325a4295a8226a7d3aaf59ce79c87e8079e6bace4e3ba28d265aec2c19b"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-extensions_deskrescue-editor_v2-main_js",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "extensions/deskrescue-editor/v2-main.js"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:21.798908+00:00",
+        "endedAtUtc": "2026-10-15T15:56:21.864765+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-extensions_deskrescue-editor_v2-main_js.log",
+          "bytes": 302,
+          "sha256": "e2831cdf6ddefbc75a9c548986981da7330eea9b0825133e7ea007c347684813"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-extensions_deskrescue-editor_v2-probe_js",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "extensions/deskrescue-editor/v2-probe.js"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:21.878752+00:00",
+        "endedAtUtc": "2026-10-15T15:56:21.951539+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-extensions_deskrescue-editor_v2-probe_js.log",
+          "bytes": 304,
+          "sha256": "78baefc27c3579b133d6b179e47e3ba40a0738f665dc5a784b8370a6313b414c"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-extensions_deskrescue-editor_v2-scene_js",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "extensions/deskrescue-editor/v2-scene.js"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:21.961263+00:00",
+        "endedAtUtc": "2026-10-15T15:56:22.011421+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-extensions_deskrescue-editor_v2-scene_js.log",
+          "bytes": 304,
+          "sha256": "d0d2126aff3be820f35738b32a2d3a1817f75f677260bf58754a0912359bf917"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-extensions_deskrescue-editor_v21-audit_js",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "extensions/deskrescue-editor/v21-audit.js"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:22.021925+00:00",
+        "endedAtUtc": "2026-10-15T15:56:22.071098+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-extensions_deskrescue-editor_v21-audit_js.log",
+          "bytes": 306,
+          "sha256": "f326e13dbc6f96449affaf710ad0008751f430d0da90885d9ad2375035303575"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-extensions_deskrescue-editor_v21-main_js",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "extensions/deskrescue-editor/v21-main.js"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:22.081568+00:00",
+        "endedAtUtc": "2026-10-15T15:56:22.136439+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-extensions_deskrescue-editor_v21-main_js.log",
+          "bytes": 304,
+          "sha256": "1ec405f4af45ad83b9a975948da0fc8491c2f7abb5639d0927cff079ec6ef36d"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-extensions_deskrescue-editor_v21-probe_js",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "extensions/deskrescue-editor/v21-probe.js"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:22.148419+00:00",
+        "endedAtUtc": "2026-10-15T15:56:22.231289+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-extensions_deskrescue-editor_v21-probe_js.log",
+          "bytes": 306,
+          "sha256": "b4ee77e7ad9f6871890f8f6e4909525c1549b7a26a9c025b1e9b88853d8e86ea"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-extensions_deskrescue-editor_v21-scene_js",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "extensions/deskrescue-editor/v21-scene.js"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:22.244627+00:00",
+        "endedAtUtc": "2026-10-15T15:56:22.309820+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-extensions_deskrescue-editor_v21-scene_js.log",
+          "bytes": 306,
+          "sha256": "625c3ec3e71f92da193d39fc4afe74f52e8cd31a8426b3b77194d7cf2dbb9f5b"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-extensions_deskrescue-editor_v22-audit_js",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "extensions/deskrescue-editor/v22-audit.js"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:22.326246+00:00",
+        "endedAtUtc": "2026-10-15T15:56:22.383001+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-extensions_deskrescue-editor_v22-audit_js.log",
+          "bytes": 306,
+          "sha256": "90dd58abb062babea0d845b3325fbf044758e2f3c51a86372dd116206b201a28"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-extensions_deskrescue-editor_v22-main_js",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "extensions/deskrescue-editor/v22-main.js"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:22.393669+00:00",
+        "endedAtUtc": "2026-10-15T15:56:22.448171+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-extensions_deskrescue-editor_v22-main_js.log",
+          "bytes": 304,
+          "sha256": "d25b5c269bc3108e24da2db31b2d7929850f04eaffc65d79931c4a3b4c92659e"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-extensions_deskrescue-editor_v22-probe_js",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "extensions/deskrescue-editor/v22-probe.js"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:22.457095+00:00",
+        "endedAtUtc": "2026-10-15T15:56:22.509743+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-extensions_deskrescue-editor_v22-probe_js.log",
+          "bytes": 306,
+          "sha256": "10c5689939501086bb1d49605fe19cb0b90324b7076997a05388af97ed7ebed9"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-extensions_deskrescue-editor_v22-scene_js",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "extensions/deskrescue-editor/v22-scene.js"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:22.525970+00:00",
+        "endedAtUtc": "2026-10-15T15:56:22.589550+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-extensions_deskrescue-editor_v22-scene_js.log",
+          "bytes": 306,
+          "sha256": "65af3d258251223094bd29097395ccecab2c5a3321ef48fa2230cb37c3c23861"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-tools_verify-day1_cjs",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "tools/verify-day1.cjs"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:22.606768+00:00",
+        "endedAtUtc": "2026-10-15T15:56:22.678923+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-tools_verify-day1_cjs.log",
+          "bytes": 266,
+          "sha256": "04e728d09c3026afb221e89cbdc062b26778906b74cbf426aef88079d3effcef"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-tools_verify-day4_cjs",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "tools/verify-day4.cjs"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:22.689250+00:00",
+        "endedAtUtc": "2026-10-15T15:56:22.746951+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-tools_verify-day4_cjs.log",
+          "bytes": 266,
+          "sha256": "d121d08b78af5929ecf9c59d406ca51e31ba6e5cbc7d04a3d959b5d7fd8f0d31"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-tools_verify-day5a-v2_cjs",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "tools/verify-day5a-v2.cjs"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:22.756621+00:00",
+        "endedAtUtc": "2026-10-15T15:56:22.820165+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-tools_verify-day5a-v2_cjs.log",
+          "bytes": 274,
+          "sha256": "8e54ee7cfe8ec272a628e0384bfd4e16fc468c1fc9eebcbc36400cfd8196b841"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-tools_verify-day5a-v21-clean_cjs",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "tools/verify-day5a-v21-clean.cjs"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:22.828594+00:00",
+        "endedAtUtc": "2026-10-15T15:56:22.893664+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-tools_verify-day5a-v21-clean_cjs.log",
+          "bytes": 288,
+          "sha256": "97eaeebbda6b9165450eb15d0c285f4a50d12de23374ed6869282c05f4f41251"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-tools_verify-day5a_cjs",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "tools/verify-day5a.cjs"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:22.908354+00:00",
+        "endedAtUtc": "2026-10-15T15:56:22.964095+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-tools_verify-day5a_cjs.log",
+          "bytes": 268,
+          "sha256": "9139c14a4185412ddf4d11699dc860ba9303346225786c4413b0b2131ea6c4e9"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-tools_verify-v21-visuals_cjs",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "tools/verify-v21-visuals.cjs"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:22.973710+00:00",
+        "endedAtUtc": "2026-10-15T15:56:23.032047+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-tools_verify-v21-visuals_cjs.log",
+          "bytes": 280,
+          "sha256": "fa0da0a3b2de1dad98a838830c60a47f75f366f3e584bb9743fc38c99717b2ec"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-tools_verify-v22-clean_cjs",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "tools/verify-v22-clean.cjs"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:23.045712+00:00",
+        "endedAtUtc": "2026-10-15T15:56:23.108802+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-tools_verify-v22-clean_cjs.log",
+          "bytes": 276,
+          "sha256": "d904fa9374b6528762d6b602ed8acab583f1b8fd22e7e5f2d4705a55f22a8a03"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      },
+      {
+        "label": "syntax-tools_verify-v22-readability_cjs",
+        "command": [
+          "C:\\Program Files\\nodejs\\node.EXE",
+          "--check",
+          "tools/verify-v22-readability.cjs"
+        ],
+        "cwd": "D:/game",
+        "startedAtUtc": "2026-10-15T15:56:23.123836+00:00",
+        "endedAtUtc": "2026-10-15T15:56:23.190765+00:00",
+        "exitCode": 0,
+        "log": {
+          "path": "docs/validation/day5a-plus/v22/syntax-tools_verify-v22-readability_cjs.log",
+          "bytes": 288,
+          "sha256": "97dc25eb9f5fac5944fab0d31a0d6dceabd5c3f5a2ad77c1c6a16b243e9659d4"
+        },
+        "behaviorGroups": [],
+        "diagnosticErrorLineCount": 0,
+        "typescriptOutput": [],
+        "sdkDiagnosticsExcludedFromProject": [],
+        "diagnostics": []
+      }
+    ]
+  },
+  "pythonSyntax": {
+    "files": 16,
+    "passed": 16,
+    "results": [
+      {
+        "path": "tools/art/full_geometry.py",
+        "ok": true
+      },
+      {
+        "path": "tools/art/generate_day5a.py",
+        "ok": true
+      },
+      {
+        "path": "tools/art/generate_v2_ui.py",
+        "ok": true
+      },
+      {
+        "path": "tools/art/v21/generate_v21.py",
+        "ok": true
+      },
+      {
+        "path": "tools/compare_v21_previews.py",
+        "ok": true
+      },
+      {
+        "path": "tools/compare_v22_previews.py",
+        "ok": true
+      },
+      {
+        "path": "tools/compare_v2_previews.py",
+        "ok": true
+      },
+      {
+        "path": "tools/package_v21_delivery.py",
+        "ok": true
+      },
+      {
+        "path": "tools/package_v22_delivery.py",
+        "ok": true
+      },
+      {
+        "path": "tools/package_v2_delivery.py",
+        "ok": true
+      },
+      {
+        "path": "tools/run_v22_checks.py",
+        "ok": true
+      },
+      {
+        "path": "tools/verify_v21_offline.py",
+        "ok": true
+      },
+      {
+        "path": "tools/verify_v21_preservation.py",
+        "ok": true
+      },
+      {
+        "path": "tools/verify_v22_offline.py",
+        "ok": true
+      },
+      {
+        "path": "tools/verify_v22_preservation.py",
+        "ok": true
+      },
+      {
+        "path": "tools/verify_v2_preservation.py",
+        "ok": true
+      }
+    ]
+  },
+  "sdkSelfValidation": {
+    "status": "FAILED_INSTALLED_SDK_DECLARATIONS",
+    "exitCode": 1,
+    "actualDiagnostics": 102,
+    "previousV21Diagnostics": 102,
+    "differenceFromV21": 0,
+    "diagnosticsOnlyInInstalledSdk": true,
+    "sources": {
+      "FAIL Error: C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts": 1,
+      "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts": 17,
+      "C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts": 84
+    },
+    "note": "The SDK self-check remains a real nonzero failure when diagnostics exist. Its separate successful recording is not a claim that SDK declarations pass."
+  },
+  "isolatedOffline": {
+    "path": "docs/validation/day5a-plus/v22/final-offline.json",
+    "bytes": 203057,
+    "sha256": "b20607f7593389a87d78c438d89a120b1a27422eb07ff7bea0bd9c948bba78a1",
+    "ok": true,
+    "behaviorGroups": [
+      224
+    ]
+  },
+  "environment": {
+    "nodePath": "C:\\Program Files\\nodejs\\node.EXE",
+    "nodeVersion": "v22.19.0",
+    "npmPath": "C:\\Program Files\\nodejs\\npm.cmd",
+    "npmVersion": "10.9.3",
+    "pythonPath": "C:\\Users\\<USER>\\anaconda3\\python.exe",
+    "pythonVersion": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+    "typescriptVersion": "5.8.2"
+  },
+  "sourceSnapshotBefore": [
+    {
+      "path": "assets/scripts/core/GameController.ts",
+      "bytes": 2453,
+      "sha256": "e1b3c357bc915746e20b240f88f48c8c89876c14116850bd55c688d2bb0e4297"
+    },
+    {
+      "path": "assets/scripts/core/LegacyLevelManager.ts",
+      "bytes": 12443,
+      "sha256": "2ef5ff4fbe16284c35a66010880cb3bdc2edb62b21368429c98b26af662ebf4b"
+    },
+    {
+      "path": "assets/scripts/core/LevelManager.ts",
+      "bytes": 18731,
+      "sha256": "02d0ed072a12b80d23ae6a790be7d8cfd01f5975e46f6f0fad2a97c6f30c54ab"
+    },
+    {
+      "path": "assets/scripts/core/RunController.ts",
+      "bytes": 6907,
+      "sha256": "064cac06b336ddf741b983c09a025f0fb33bd130bc2b45d37ef2ad0c9df64655"
+    },
+    {
+      "path": "assets/scripts/data/LevelCatalog.ts",
+      "bytes": 2561,
+      "sha256": "24e394aa8495e4c23a18a92b15ea727108161a3c28d8d2e1fdd863afc54f4e89"
+    },
+    {
+      "path": "assets/scripts/data/LevelDefinition.ts",
+      "bytes": 789,
+      "sha256": "7ffc204ef01fa5f0a7dcd65197776f27e1a98613eb4aa643c92c1cee7abbcc0f"
+    },
+    {
+      "path": "assets/scripts/data/OrderCatalog.ts",
+      "bytes": 13306,
+      "sha256": "a038ff6a9269993c9d650954a2e680c1962416ea38230bec4c1d8a9a7df43eb0"
+    },
+    {
+      "path": "assets/scripts/data/OrderDefinition.ts",
+      "bytes": 368,
+      "sha256": "c0fc93e4da57a591b1fd9bbab0014be7092179c6a05b583e2d365429dfe24b6d"
+    },
+    {
+      "path": "assets/scripts/data/StageDefinition.ts",
+      "bytes": 2046,
+      "sha256": "9b8255ecbd4dc7ddc5f70bff078a424a878ecf058ac34553caf552bc386fdd34"
+    },
+    {
+      "path": "assets/scripts/gameplay/CableConnector.ts",
+      "bytes": 10909,
+      "sha256": "d03076277b33508677cdd89ec6f13f8314db7f0d759d56245c58d22bb9bfa5bf"
+    },
+    {
+      "path": "assets/scripts/gameplay/Day1Prototype.ts",
+      "bytes": 4655,
+      "sha256": "91077917554d152a66d85662099fc4b5b48876e29ca1ece2e07c74a0eb398a10"
+    },
+    {
+      "path": "assets/scripts/gameplay/DraggableItem.ts",
+      "bytes": 11047,
+      "sha256": "1d09e9f352a78b677d1b6ad403cc7b08af7afc04e705c00df83212337397e367"
+    },
+    {
+      "path": "assets/scripts/stages/CableConnectStageController.ts",
+      "bytes": 7890,
+      "sha256": "709111e79010e8f230840071d043afa68c2990c96856d79401dee656a8355d9c"
+    },
+    {
+      "path": "assets/scripts/stages/CleanSwipeStageController.ts",
+      "bytes": 11885,
+      "sha256": "27552fce87f3241ae57769e2a2dbe025234a2f96beadab7b9d6a3408ba05bfd7"
+    },
+    {
+      "path": "assets/scripts/stages/DragMatchStageController.ts",
+      "bytes": 7839,
+      "sha256": "81dced5b37081c37f0d711e8c3c05ed5603f0cb8189cbd5c262e2d7531cc7295"
+    },
+    {
+      "path": "assets/scripts/stages/ElementPool.ts",
+      "bytes": 1074,
+      "sha256": "f551b622a412ad84752476facc3ce0f418958b5a7e14f516835ded02a705f2fc"
+    },
+    {
+      "path": "assets/scripts/stages/StageHost.ts",
+      "bytes": 7806,
+      "sha256": "d9667eac7821b62f44d2ce4c188502261dffd725d7416939c3ccdf3e635f3d03"
+    },
+    {
+      "path": "assets/scripts/stages/StageRuntime.ts",
+      "bytes": 578,
+      "sha256": "2d5aef6a6d45560fa2a6928d54cb0b83cbad2ff9600969061e1bfe7ee23e409e"
+    },
+    {
+      "path": "assets/scripts/ui/AudioFeedback.ts",
+      "bytes": 6355,
+      "sha256": "de9504b936cf39e462aed3446522272efcb4971b89654ab0af8cbbebdc2841da"
+    },
+    {
+      "path": "assets/scripts/ui/ButtonPressFeedback.ts",
+      "bytes": 2952,
+      "sha256": "db1f1b717239d2ff8ab40861bf9f47f9a8945a1d8070c12f3b512e52d7428c4c"
+    },
+    {
+      "path": "assets/scripts/ui/HomeController.ts",
+      "bytes": 6111,
+      "sha256": "b41972145b5a84bb4679baf6fab085244d37259ba89eabf11cbd8cd4c3412bbb"
+    },
+    {
+      "path": "assets/scripts/ui/PaperOrderHUD.ts",
+      "bytes": 4358,
+      "sha256": "029f641e5cad4e0da6bc957ba306f77ccdcb90d15c14e27168a4661cc03df280"
+    },
+    {
+      "path": "assets/scripts/ui/ResultStars.ts",
+      "bytes": 3031,
+      "sha256": "c54759a45085f607cac8658917e100dbd9dd106656504f61e39c1719d8e7bc47"
+    },
+    {
+      "path": "assets/scripts/ui/V2ResultView.ts",
+      "bytes": 4554,
+      "sha256": "8a1051f7920169ddf1c81d185c197e889638c802e720ee62fd37b3d42b09dd97"
+    },
+    {
+      "path": "assets/scripts/ui/WorkshopDecoration.ts",
+      "bytes": 2139,
+      "sha256": "0f18568d4113126c7bb079cac47382ffac32fe6554fce42a92626694650b28d2"
+    },
+    {
+      "path": "assets/scripts/visuals/CleanDeviceVisual.ts",
+      "bytes": 1147,
+      "sha256": "584129d4d206958236435fb7bcc80198916698c83dfd6dd84776129ffeaa0fee"
+    },
+    {
+      "path": "assets/scripts/visuals/ElementVisual.ts",
+      "bytes": 7978,
+      "sha256": "6be9b7406a1afa7ccfe5eb9a563a72169fb42efc283185eebf3fc91ef40eff2b"
+    },
+    {
+      "path": "assets/scripts/visuals/V21CleanDustView.ts",
+      "bytes": 8432,
+      "sha256": "e00cde3d58068d3f402026f8c241fb6a8a8764e07763a1264f12cb15ba7ab66e"
+    },
+    {
+      "path": "assets/scripts/visuals/V2CableLine.ts",
+      "bytes": 3562,
+      "sha256": "7bc74904c36de06fa59b6e03c5032077645fd0665c460a3d309fa285232bc533"
+    },
+    {
+      "path": "assets/scripts/visuals/V2DirtAppearance.ts",
+      "bytes": 1140,
+      "sha256": "9893695d9cce40ad88ac9c41207d929ad055fbc9d6fb32aa6afcd5aed6284742"
+    },
+    {
+      "path": "assets/scripts/visuals/V2ViewportTheme.ts",
+      "bytes": 1898,
+      "sha256": "cad88737ccdc5b79fe5b05458f405fc658db5bfbb7adc4a28311ff9aa7d681ae"
+    },
+    {
+      "path": "assets/scripts/visuals/VisualAssetRegistry.ts",
+      "bytes": 1022,
+      "sha256": "68511e09361ac0e709c9e22f10fda08b1c572c786b5cb49cae1c3992e1332671"
+    },
+    {
+      "path": "assets/scripts/visuals/VisualCatalog.ts",
+      "bytes": 2153,
+      "sha256": "03c58587302c5fc54ecf28894e6646a773234ac3deb560ea125e8f9ac5683d40"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-appearance.js",
+      "bytes": 6834,
+      "sha256": "c0cd7cb604d17a25b8277bc2c32dbdb7c048a2cbec4b33e76d3878693fabe0d4"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-audit.js",
+      "bytes": 27336,
+      "sha256": "b3afb8dc4010421e8d927d060f60c5443d1d4b28af0e0fd1e13ffa487b323a2d"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-probe.js",
+      "bytes": 32245,
+      "sha256": "cf77028127fb009663ff6b35e634c0c50a2d594144a91373d2a82b5b161711eb"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-scene.js",
+      "bytes": 11656,
+      "sha256": "6265689295cc9730b4fe24ea5ea56e89a6c541356ab3c126973cce3d084e61c4"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-audit.js",
+      "bytes": 47363,
+      "sha256": "071d56b6079f24dad1ce98a7dac4bcf3fe2a803704c78c56ebc59a49a6f984d4"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-main.js",
+      "bytes": 8209,
+      "sha256": "b9f6fc2272836742f70b83e6ccea1719172a78580114b5b7892ea3c6633dd216"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-probe.js",
+      "bytes": 33576,
+      "sha256": "33a5009c69e937160fe78721a97db580691b30f38cbba06be95c3f6824bde51a"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-scene.js",
+      "bytes": 18359,
+      "sha256": "7c6c3e5f5a71b70478218cb1dfc081b6ce30925d9cc6394f37a178a2a61cd01d"
+    },
+    {
+      "path": "extensions/deskrescue-editor/main.js",
+      "bytes": 12900,
+      "sha256": "c34877e26dba13342f8d4c76efa013dc6316ac204f755cd7395b1de1ad6628ed"
+    },
+    {
+      "path": "extensions/deskrescue-editor/package.json",
+      "bytes": 8714,
+      "sha256": "b18e617bcc06d799eb57cf2480897343935c36fa71aeb614762fb6f2552bde40"
+    },
+    {
+      "path": "extensions/deskrescue-editor/probe.js",
+      "bytes": 18821,
+      "sha256": "1be4864e0fac75480ab5f73a6d3e62c4244bfd7378e181a5a27530d51de87c22"
+    },
+    {
+      "path": "extensions/deskrescue-editor/scene.js",
+      "bytes": 21597,
+      "sha256": "29be0b8d2e965962d22f32e9de0e56d256d9c372441598abc658ba6008d79035"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-audit.js",
+      "bytes": 52064,
+      "sha256": "cc5edbf3563120912de85e6a3b6effdeb9ee0073d934a0fb272047b07a9c8bf1"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-main.js",
+      "bytes": 7185,
+      "sha256": "b9df6bfb64f0b0015f4e21109f8a055104c24f2449e5dd25b8e6184b1642c9c0"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-probe.js",
+      "bytes": 64311,
+      "sha256": "1d542f2238c6539a348948947e498d01d78e3b7b8748b8260a1cb4816ed9b4bc"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-scene.js",
+      "bytes": 28988,
+      "sha256": "f660b34e7967fc8b75be8a0abbd1834b66116c8fefe361c32ddbcf4848247d31"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v21-audit.js",
+      "bytes": 59425,
+      "sha256": "281952dcad2c4e111463b22fe27c3548e9c2ca5d13fae6e31d023d8ae645997a"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v21-main.js",
+      "bytes": 6040,
+      "sha256": "a40c835c5e8b9795403bbd0d14fb7c16287a5dd93786825e488b2062ff26d54a"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v21-probe.js",
+      "bytes": 83880,
+      "sha256": "e551c6b5ca6a5bb96c091ab10cc3e39b270163676633d8f5bc0c872728830e0e"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v21-scene.js",
+      "bytes": 11934,
+      "sha256": "a489d238370d3d012c1357ad575b6d7001994fbdca8665ba8136bdd4ec720ebb"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v22-audit.js",
+      "bytes": 22835,
+      "sha256": "ce131d9eee29229ca058a1287c6e5bac182c9f463b80779f5c428192c9165dce"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v22-main.js",
+      "bytes": 3429,
+      "sha256": "6faf91f2d7369bfd003ed1ef1839aa984535bc9e3978c627a04984de4e44e61c"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v22-probe.js",
+      "bytes": 20831,
+      "sha256": "c8166a89520c707fc58c8cfdd3d8a916796a8c3f2ecf36475efac671ba490c63"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v22-scene.js",
+      "bytes": 5311,
+      "sha256": "d667d501b5549f2afebdfb9fbce5e372785c9fab56fd015e4e95e198b2a0231e"
+    },
+    {
+      "path": "package.json",
+      "bytes": 306,
+      "sha256": "70f7e351a8e87a3e617778d29942e019815567c259e97e81eee942026e0a24dc"
+    },
+    {
+      "path": "settings/v2/packages/builder.json",
+      "bytes": 29,
+      "sha256": "a3e1a8df580b6ebec15ad16c9bbef785806567bfbc093821852bb3606028e702"
+    },
+    {
+      "path": "settings/v2/packages/cocos-service.json",
+      "bytes": 374,
+      "sha256": "290f48ac8c1bdaaf15584fcfbaaaa331a9e40940497c79cd7b51351cf3b2e4e1"
+    },
+    {
+      "path": "settings/v2/packages/device.json",
+      "bytes": 29,
+      "sha256": "93af91e0b90038cedc84d08651f845e1c2e2ae460321c19f083c27a178e451f8"
+    },
+    {
+      "path": "settings/v2/packages/engine.json",
+      "bytes": 30,
+      "sha256": "e3755683f34745346f06b4dd665d172252183004e1aa50f90ca579837c2f244f"
+    },
+    {
+      "path": "settings/v2/packages/information.json",
+      "bytes": 588,
+      "sha256": "1f70b91f0419411cdbdebcb1fcddb261556de1de6e3659c3c51ede92ac77de91"
+    },
+    {
+      "path": "settings/v2/packages/program.json",
+      "bytes": 29,
+      "sha256": "d914f9f19ffe02724337936d8c7907798c8666566902b78243eb1aa8da0baedd"
+    },
+    {
+      "path": "settings/v2/packages/project.json",
+      "bytes": 171,
+      "sha256": "95486b12b0983135c3e0459df681a89f8a2e38ed46269bc10fe87b127f9a4fe9"
+    },
+    {
+      "path": "tools/art/asset-sources-v2.json",
+      "bytes": 17608,
+      "sha256": "081060ec52fa0d34c62cb5a5c1ce8174be43bf86b52612aeb228b30c82de6e4f"
+    },
+    {
+      "path": "tools/art/asset-sources.json",
+      "bytes": 27663,
+      "sha256": "13d72ce0597ce16cc5ba9d7ed515fc7282e4590ff911bd1561a5fd8a18441a7b"
+    },
+    {
+      "path": "tools/art/full_geometry.py",
+      "bytes": 20292,
+      "sha256": "6b25cb8e6115ba0761713571cabfb5e41407ba4e3dae6f5141d39eea4d15a6f4"
+    },
+    {
+      "path": "tools/art/generate_day5a.py",
+      "bytes": 16701,
+      "sha256": "35a9d27161e1afdbddc615edaed4f05c7bf58b201ade0fe83c78a635cafaa982"
+    },
+    {
+      "path": "tools/art/generate_v2_ui.py",
+      "bytes": 15634,
+      "sha256": "20cd3c4627f3d1cccfc7789a44be7591a320624ab99fa2d76143a959af2c9ea8"
+    },
+    {
+      "path": "tools/art/v21/asset-sources.json",
+      "bytes": 45414,
+      "sha256": "b6bb64941e51d8b5412f6670451ef7fa03d5d9150a646285cdd0ee649c709dc0"
+    },
+    {
+      "path": "tools/art/v21/generate_v21.py",
+      "bytes": 21879,
+      "sha256": "a21c7f0be80a925a532cdf8aaa0be16b8b14f2f183deeb6d988ca3f1a99b6912"
+    },
+    {
+      "path": "tools/compare_v21_previews.py",
+      "bytes": 22197,
+      "sha256": "8cc5846fccb1cc86b90ba0293f60a2132a78c48b485a9f30ce8b95796f632498"
+    },
+    {
+      "path": "tools/compare_v22_previews.py",
+      "bytes": 14662,
+      "sha256": "64ae3d5ab1457d0ababfdb31e67105cc955687bbbe86bee9a082640d60ae3a0b"
+    },
+    {
+      "path": "tools/compare_v2_previews.py",
+      "bytes": 16030,
+      "sha256": "8629bbcdd861bdd46402864e8daf3861d4dc57fab2b76b732a20fce047fa5ff4"
+    },
+    {
+      "path": "tools/package_v21_delivery.py",
+      "bytes": 29226,
+      "sha256": "c9b1c74a753010f43913921616be8b9a2d094dfc0eed2d9bbe47813739322d73"
+    },
+    {
+      "path": "tools/package_v22_delivery.py",
+      "bytes": 31209,
+      "sha256": "012a56c468e5e69c69defcb9c651f85e0e4bbb027ce568d7c8a04a440becffb6"
+    },
+    {
+      "path": "tools/package_v2_delivery.py",
+      "bytes": 19699,
+      "sha256": "820496dddfe2a40ff710f105cea879cfb6b965bdb6019c7f2a3c0afa952f52d1"
+    },
+    {
+      "path": "tools/run_v22_checks.py",
+      "bytes": 8690,
+      "sha256": "285c0ffb0842417711fcadc8ae6339d59bdd04fc89fe42752a7f014337a0d0af"
+    },
+    {
+      "path": "tools/test/cc.d.ts",
+      "bytes": 6269,
+      "sha256": "beaf77286261b73b4c527e0c8734e55ab0c61beb1da93e15cd1512ac1f83323c"
+    },
+    {
+      "path": "tools/verify-day1.cjs",
+      "bytes": 98528,
+      "sha256": "7d21ca22d5a2e3d2f6a74e32f58caf65bc54ed7a96e0d2c576ee9f72e9fc3865"
+    },
+    {
+      "path": "tools/verify-day4.cjs",
+      "bytes": 56237,
+      "sha256": "9eb22a5bacabee48cdda53b20597717cab84f7a384319f84cc0e177312a6dd6a"
+    },
+    {
+      "path": "tools/verify-day5a-v2.cjs",
+      "bytes": 29334,
+      "sha256": "e95980a19b71ba08a17a1d4021c8e6c306c4abbfdc9f9ccf08350b8e3f3c19f1"
+    },
+    {
+      "path": "tools/verify-day5a-v21-clean.cjs",
+      "bytes": 15237,
+      "sha256": "a2636463dc15f88340d9cc5720895a9a84bc575357d227d496ca7f40b783d419"
+    },
+    {
+      "path": "tools/verify-day5a.cjs",
+      "bytes": 31596,
+      "sha256": "23e6986a4b9388aaded604f68f82c61b2c40f95c2c5994457e79bfa511a9d121"
+    },
+    {
+      "path": "tools/verify-v21-visuals.cjs",
+      "bytes": 19813,
+      "sha256": "b2b8cd90396e2fb2f75cc42062ffb186931defdcc2327516d5de885bf95eeb16"
+    },
+    {
+      "path": "tools/verify-v22-clean.cjs",
+      "bytes": 7574,
+      "sha256": "7c661b001f5ea16dd0bcb473af68ed649d71b1da3e710478f840b60eb038aaa0"
+    },
+    {
+      "path": "tools/verify-v22-readability.cjs",
+      "bytes": 16202,
+      "sha256": "c48b68cbf644d66600af14d9899f06d3bc7d651c951f28c01b9778c1f51482b3"
+    },
+    {
+      "path": "tools/verify_v21_offline.py",
+      "bytes": 11464,
+      "sha256": "e9408b34f5107e019d7e6c5e390d402e9755613a3e7022cd726f7f61a9c238e3"
+    },
+    {
+      "path": "tools/verify_v21_preservation.py",
+      "bytes": 34622,
+      "sha256": "654a6a7a8e54c0d5a732070523c05dcec23fd2ef8c24530e06dca98c5f91226e"
+    },
+    {
+      "path": "tools/verify_v22_offline.py",
+      "bytes": 7703,
+      "sha256": "4b1eeea3c2b1fd4029e50d6133b8eacb24c3236fb4bd84ce01d35e2c7402cde8"
+    },
+    {
+      "path": "tools/verify_v22_preservation.py",
+      "bytes": 24747,
+      "sha256": "6d688382f5dd2c7458d79b250341d0b2b63e8629f3e6fdda26fc7bab9b2288ca"
+    },
+    {
+      "path": "tools/verify_v2_preservation.py",
+      "bytes": 28437,
+      "sha256": "3c049397a87b82bab269a46c95d4831330e56a0736152fb55716fea0fcd58807"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 214,
+      "sha256": "bd460a7db62db6c2e50d1766c98f5a830579ddab81c79c4d7e20cfda6fef4f9c"
+    }
+  ],
+  "sourceSnapshotAfter": [
+    {
+      "path": "assets/scripts/core/GameController.ts",
+      "bytes": 2453,
+      "sha256": "e1b3c357bc915746e20b240f88f48c8c89876c14116850bd55c688d2bb0e4297"
+    },
+    {
+      "path": "assets/scripts/core/LegacyLevelManager.ts",
+      "bytes": 12443,
+      "sha256": "2ef5ff4fbe16284c35a66010880cb3bdc2edb62b21368429c98b26af662ebf4b"
+    },
+    {
+      "path": "assets/scripts/core/LevelManager.ts",
+      "bytes": 18731,
+      "sha256": "02d0ed072a12b80d23ae6a790be7d8cfd01f5975e46f6f0fad2a97c6f30c54ab"
+    },
+    {
+      "path": "assets/scripts/core/RunController.ts",
+      "bytes": 6907,
+      "sha256": "064cac06b336ddf741b983c09a025f0fb33bd130bc2b45d37ef2ad0c9df64655"
+    },
+    {
+      "path": "assets/scripts/data/LevelCatalog.ts",
+      "bytes": 2561,
+      "sha256": "24e394aa8495e4c23a18a92b15ea727108161a3c28d8d2e1fdd863afc54f4e89"
+    },
+    {
+      "path": "assets/scripts/data/LevelDefinition.ts",
+      "bytes": 789,
+      "sha256": "7ffc204ef01fa5f0a7dcd65197776f27e1a98613eb4aa643c92c1cee7abbcc0f"
+    },
+    {
+      "path": "assets/scripts/data/OrderCatalog.ts",
+      "bytes": 13306,
+      "sha256": "a038ff6a9269993c9d650954a2e680c1962416ea38230bec4c1d8a9a7df43eb0"
+    },
+    {
+      "path": "assets/scripts/data/OrderDefinition.ts",
+      "bytes": 368,
+      "sha256": "c0fc93e4da57a591b1fd9bbab0014be7092179c6a05b583e2d365429dfe24b6d"
+    },
+    {
+      "path": "assets/scripts/data/StageDefinition.ts",
+      "bytes": 2046,
+      "sha256": "9b8255ecbd4dc7ddc5f70bff078a424a878ecf058ac34553caf552bc386fdd34"
+    },
+    {
+      "path": "assets/scripts/gameplay/CableConnector.ts",
+      "bytes": 10909,
+      "sha256": "d03076277b33508677cdd89ec6f13f8314db7f0d759d56245c58d22bb9bfa5bf"
+    },
+    {
+      "path": "assets/scripts/gameplay/Day1Prototype.ts",
+      "bytes": 4655,
+      "sha256": "91077917554d152a66d85662099fc4b5b48876e29ca1ece2e07c74a0eb398a10"
+    },
+    {
+      "path": "assets/scripts/gameplay/DraggableItem.ts",
+      "bytes": 11047,
+      "sha256": "1d09e9f352a78b677d1b6ad403cc7b08af7afc04e705c00df83212337397e367"
+    },
+    {
+      "path": "assets/scripts/stages/CableConnectStageController.ts",
+      "bytes": 7890,
+      "sha256": "709111e79010e8f230840071d043afa68c2990c96856d79401dee656a8355d9c"
+    },
+    {
+      "path": "assets/scripts/stages/CleanSwipeStageController.ts",
+      "bytes": 11885,
+      "sha256": "27552fce87f3241ae57769e2a2dbe025234a2f96beadab7b9d6a3408ba05bfd7"
+    },
+    {
+      "path": "assets/scripts/stages/DragMatchStageController.ts",
+      "bytes": 7839,
+      "sha256": "81dced5b37081c37f0d711e8c3c05ed5603f0cb8189cbd5c262e2d7531cc7295"
+    },
+    {
+      "path": "assets/scripts/stages/ElementPool.ts",
+      "bytes": 1074,
+      "sha256": "f551b622a412ad84752476facc3ce0f418958b5a7e14f516835ded02a705f2fc"
+    },
+    {
+      "path": "assets/scripts/stages/StageHost.ts",
+      "bytes": 7806,
+      "sha256": "d9667eac7821b62f44d2ce4c188502261dffd725d7416939c3ccdf3e635f3d03"
+    },
+    {
+      "path": "assets/scripts/stages/StageRuntime.ts",
+      "bytes": 578,
+      "sha256": "2d5aef6a6d45560fa2a6928d54cb0b83cbad2ff9600969061e1bfe7ee23e409e"
+    },
+    {
+      "path": "assets/scripts/ui/AudioFeedback.ts",
+      "bytes": 6355,
+      "sha256": "de9504b936cf39e462aed3446522272efcb4971b89654ab0af8cbbebdc2841da"
+    },
+    {
+      "path": "assets/scripts/ui/ButtonPressFeedback.ts",
+      "bytes": 2952,
+      "sha256": "db1f1b717239d2ff8ab40861bf9f47f9a8945a1d8070c12f3b512e52d7428c4c"
+    },
+    {
+      "path": "assets/scripts/ui/HomeController.ts",
+      "bytes": 6111,
+      "sha256": "b41972145b5a84bb4679baf6fab085244d37259ba89eabf11cbd8cd4c3412bbb"
+    },
+    {
+      "path": "assets/scripts/ui/PaperOrderHUD.ts",
+      "bytes": 4358,
+      "sha256": "029f641e5cad4e0da6bc957ba306f77ccdcb90d15c14e27168a4661cc03df280"
+    },
+    {
+      "path": "assets/scripts/ui/ResultStars.ts",
+      "bytes": 3031,
+      "sha256": "c54759a45085f607cac8658917e100dbd9dd106656504f61e39c1719d8e7bc47"
+    },
+    {
+      "path": "assets/scripts/ui/V2ResultView.ts",
+      "bytes": 4554,
+      "sha256": "8a1051f7920169ddf1c81d185c197e889638c802e720ee62fd37b3d42b09dd97"
+    },
+    {
+      "path": "assets/scripts/ui/WorkshopDecoration.ts",
+      "bytes": 2139,
+      "sha256": "0f18568d4113126c7bb079cac47382ffac32fe6554fce42a92626694650b28d2"
+    },
+    {
+      "path": "assets/scripts/visuals/CleanDeviceVisual.ts",
+      "bytes": 1147,
+      "sha256": "584129d4d206958236435fb7bcc80198916698c83dfd6dd84776129ffeaa0fee"
+    },
+    {
+      "path": "assets/scripts/visuals/ElementVisual.ts",
+      "bytes": 7978,
+      "sha256": "6be9b7406a1afa7ccfe5eb9a563a72169fb42efc283185eebf3fc91ef40eff2b"
+    },
+    {
+      "path": "assets/scripts/visuals/V21CleanDustView.ts",
+      "bytes": 8432,
+      "sha256": "e00cde3d58068d3f402026f8c241fb6a8a8764e07763a1264f12cb15ba7ab66e"
+    },
+    {
+      "path": "assets/scripts/visuals/V2CableLine.ts",
+      "bytes": 3562,
+      "sha256": "7bc74904c36de06fa59b6e03c5032077645fd0665c460a3d309fa285232bc533"
+    },
+    {
+      "path": "assets/scripts/visuals/V2DirtAppearance.ts",
+      "bytes": 1140,
+      "sha256": "9893695d9cce40ad88ac9c41207d929ad055fbc9d6fb32aa6afcd5aed6284742"
+    },
+    {
+      "path": "assets/scripts/visuals/V2ViewportTheme.ts",
+      "bytes": 1898,
+      "sha256": "cad88737ccdc5b79fe5b05458f405fc658db5bfbb7adc4a28311ff9aa7d681ae"
+    },
+    {
+      "path": "assets/scripts/visuals/VisualAssetRegistry.ts",
+      "bytes": 1022,
+      "sha256": "68511e09361ac0e709c9e22f10fda08b1c572c786b5cb49cae1c3992e1332671"
+    },
+    {
+      "path": "assets/scripts/visuals/VisualCatalog.ts",
+      "bytes": 2153,
+      "sha256": "03c58587302c5fc54ecf28894e6646a773234ac3deb560ea125e8f9ac5683d40"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-appearance.js",
+      "bytes": 6834,
+      "sha256": "c0cd7cb604d17a25b8277bc2c32dbdb7c048a2cbec4b33e76d3878693fabe0d4"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-audit.js",
+      "bytes": 27336,
+      "sha256": "b3afb8dc4010421e8d927d060f60c5443d1d4b28af0e0fd1e13ffa487b323a2d"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-probe.js",
+      "bytes": 32245,
+      "sha256": "cf77028127fb009663ff6b35e634c0c50a2d594144a91373d2a82b5b161711eb"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-scene.js",
+      "bytes": 11656,
+      "sha256": "6265689295cc9730b4fe24ea5ea56e89a6c541356ab3c126973cce3d084e61c4"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-audit.js",
+      "bytes": 47363,
+      "sha256": "071d56b6079f24dad1ce98a7dac4bcf3fe2a803704c78c56ebc59a49a6f984d4"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-main.js",
+      "bytes": 8209,
+      "sha256": "b9f6fc2272836742f70b83e6ccea1719172a78580114b5b7892ea3c6633dd216"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-probe.js",
+      "bytes": 33576,
+      "sha256": "33a5009c69e937160fe78721a97db580691b30f38cbba06be95c3f6824bde51a"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-scene.js",
+      "bytes": 18359,
+      "sha256": "7c6c3e5f5a71b70478218cb1dfc081b6ce30925d9cc6394f37a178a2a61cd01d"
+    },
+    {
+      "path": "extensions/deskrescue-editor/main.js",
+      "bytes": 12900,
+      "sha256": "c34877e26dba13342f8d4c76efa013dc6316ac204f755cd7395b1de1ad6628ed"
+    },
+    {
+      "path": "extensions/deskrescue-editor/package.json",
+      "bytes": 8714,
+      "sha256": "b18e617bcc06d799eb57cf2480897343935c36fa71aeb614762fb6f2552bde40"
+    },
+    {
+      "path": "extensions/deskrescue-editor/probe.js",
+      "bytes": 18821,
+      "sha256": "1be4864e0fac75480ab5f73a6d3e62c4244bfd7378e181a5a27530d51de87c22"
+    },
+    {
+      "path": "extensions/deskrescue-editor/scene.js",
+      "bytes": 21597,
+      "sha256": "29be0b8d2e965962d22f32e9de0e56d256d9c372441598abc658ba6008d79035"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-audit.js",
+      "bytes": 52064,
+      "sha256": "cc5edbf3563120912de85e6a3b6effdeb9ee0073d934a0fb272047b07a9c8bf1"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-main.js",
+      "bytes": 7185,
+      "sha256": "b9df6bfb64f0b0015f4e21109f8a055104c24f2449e5dd25b8e6184b1642c9c0"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-probe.js",
+      "bytes": 64311,
+      "sha256": "1d542f2238c6539a348948947e498d01d78e3b7b8748b8260a1cb4816ed9b4bc"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-scene.js",
+      "bytes": 28988,
+      "sha256": "f660b34e7967fc8b75be8a0abbd1834b66116c8fefe361c32ddbcf4848247d31"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v21-audit.js",
+      "bytes": 59425,
+      "sha256": "281952dcad2c4e111463b22fe27c3548e9c2ca5d13fae6e31d023d8ae645997a"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v21-main.js",
+      "bytes": 6040,
+      "sha256": "a40c835c5e8b9795403bbd0d14fb7c16287a5dd93786825e488b2062ff26d54a"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v21-probe.js",
+      "bytes": 83880,
+      "sha256": "e551c6b5ca6a5bb96c091ab10cc3e39b270163676633d8f5bc0c872728830e0e"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v21-scene.js",
+      "bytes": 11934,
+      "sha256": "a489d238370d3d012c1357ad575b6d7001994fbdca8665ba8136bdd4ec720ebb"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v22-audit.js",
+      "bytes": 22835,
+      "sha256": "ce131d9eee29229ca058a1287c6e5bac182c9f463b80779f5c428192c9165dce"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v22-main.js",
+      "bytes": 3429,
+      "sha256": "6faf91f2d7369bfd003ed1ef1839aa984535bc9e3978c627a04984de4e44e61c"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v22-probe.js",
+      "bytes": 20831,
+      "sha256": "c8166a89520c707fc58c8cfdd3d8a916796a8c3f2ecf36475efac671ba490c63"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v22-scene.js",
+      "bytes": 5311,
+      "sha256": "d667d501b5549f2afebdfb9fbce5e372785c9fab56fd015e4e95e198b2a0231e"
+    },
+    {
+      "path": "package.json",
+      "bytes": 306,
+      "sha256": "70f7e351a8e87a3e617778d29942e019815567c259e97e81eee942026e0a24dc"
+    },
+    {
+      "path": "settings/v2/packages/builder.json",
+      "bytes": 29,
+      "sha256": "a3e1a8df580b6ebec15ad16c9bbef785806567bfbc093821852bb3606028e702"
+    },
+    {
+      "path": "settings/v2/packages/cocos-service.json",
+      "bytes": 374,
+      "sha256": "290f48ac8c1bdaaf15584fcfbaaaa331a9e40940497c79cd7b51351cf3b2e4e1"
+    },
+    {
+      "path": "settings/v2/packages/device.json",
+      "bytes": 29,
+      "sha256": "93af91e0b90038cedc84d08651f845e1c2e2ae460321c19f083c27a178e451f8"
+    },
+    {
+      "path": "settings/v2/packages/engine.json",
+      "bytes": 30,
+      "sha256": "e3755683f34745346f06b4dd665d172252183004e1aa50f90ca579837c2f244f"
+    },
+    {
+      "path": "settings/v2/packages/information.json",
+      "bytes": 588,
+      "sha256": "1f70b91f0419411cdbdebcb1fcddb261556de1de6e3659c3c51ede92ac77de91"
+    },
+    {
+      "path": "settings/v2/packages/program.json",
+      "bytes": 29,
+      "sha256": "d914f9f19ffe02724337936d8c7907798c8666566902b78243eb1aa8da0baedd"
+    },
+    {
+      "path": "settings/v2/packages/project.json",
+      "bytes": 171,
+      "sha256": "95486b12b0983135c3e0459df681a89f8a2e38ed46269bc10fe87b127f9a4fe9"
+    },
+    {
+      "path": "tools/art/asset-sources-v2.json",
+      "bytes": 17608,
+      "sha256": "081060ec52fa0d34c62cb5a5c1ce8174be43bf86b52612aeb228b30c82de6e4f"
+    },
+    {
+      "path": "tools/art/asset-sources.json",
+      "bytes": 27663,
+      "sha256": "13d72ce0597ce16cc5ba9d7ed515fc7282e4590ff911bd1561a5fd8a18441a7b"
+    },
+    {
+      "path": "tools/art/full_geometry.py",
+      "bytes": 20292,
+      "sha256": "6b25cb8e6115ba0761713571cabfb5e41407ba4e3dae6f5141d39eea4d15a6f4"
+    },
+    {
+      "path": "tools/art/generate_day5a.py",
+      "bytes": 16701,
+      "sha256": "35a9d27161e1afdbddc615edaed4f05c7bf58b201ade0fe83c78a635cafaa982"
+    },
+    {
+      "path": "tools/art/generate_v2_ui.py",
+      "bytes": 15634,
+      "sha256": "20cd3c4627f3d1cccfc7789a44be7591a320624ab99fa2d76143a959af2c9ea8"
+    },
+    {
+      "path": "tools/art/v21/asset-sources.json",
+      "bytes": 45414,
+      "sha256": "b6bb64941e51d8b5412f6670451ef7fa03d5d9150a646285cdd0ee649c709dc0"
+    },
+    {
+      "path": "tools/art/v21/generate_v21.py",
+      "bytes": 21879,
+      "sha256": "a21c7f0be80a925a532cdf8aaa0be16b8b14f2f183deeb6d988ca3f1a99b6912"
+    },
+    {
+      "path": "tools/compare_v21_previews.py",
+      "bytes": 22197,
+      "sha256": "8cc5846fccb1cc86b90ba0293f60a2132a78c48b485a9f30ce8b95796f632498"
+    },
+    {
+      "path": "tools/compare_v22_previews.py",
+      "bytes": 14662,
+      "sha256": "64ae3d5ab1457d0ababfdb31e67105cc955687bbbe86bee9a082640d60ae3a0b"
+    },
+    {
+      "path": "tools/compare_v2_previews.py",
+      "bytes": 16030,
+      "sha256": "8629bbcdd861bdd46402864e8daf3861d4dc57fab2b76b732a20fce047fa5ff4"
+    },
+    {
+      "path": "tools/package_v21_delivery.py",
+      "bytes": 29226,
+      "sha256": "c9b1c74a753010f43913921616be8b9a2d094dfc0eed2d9bbe47813739322d73"
+    },
+    {
+      "path": "tools/package_v22_delivery.py",
+      "bytes": 31209,
+      "sha256": "012a56c468e5e69c69defcb9c651f85e0e4bbb027ce568d7c8a04a440becffb6"
+    },
+    {
+      "path": "tools/package_v2_delivery.py",
+      "bytes": 19699,
+      "sha256": "820496dddfe2a40ff710f105cea879cfb6b965bdb6019c7f2a3c0afa952f52d1"
+    },
+    {
+      "path": "tools/run_v22_checks.py",
+      "bytes": 8690,
+      "sha256": "285c0ffb0842417711fcadc8ae6339d59bdd04fc89fe42752a7f014337a0d0af"
+    },
+    {
+      "path": "tools/test/cc.d.ts",
+      "bytes": 6269,
+      "sha256": "beaf77286261b73b4c527e0c8734e55ab0c61beb1da93e15cd1512ac1f83323c"
+    },
+    {
+      "path": "tools/verify-day1.cjs",
+      "bytes": 98528,
+      "sha256": "7d21ca22d5a2e3d2f6a74e32f58caf65bc54ed7a96e0d2c576ee9f72e9fc3865"
+    },
+    {
+      "path": "tools/verify-day4.cjs",
+      "bytes": 56237,
+      "sha256": "9eb22a5bacabee48cdda53b20597717cab84f7a384319f84cc0e177312a6dd6a"
+    },
+    {
+      "path": "tools/verify-day5a-v2.cjs",
+      "bytes": 29334,
+      "sha256": "e95980a19b71ba08a17a1d4021c8e6c306c4abbfdc9f9ccf08350b8e3f3c19f1"
+    },
+    {
+      "path": "tools/verify-day5a-v21-clean.cjs",
+      "bytes": 15237,
+      "sha256": "a2636463dc15f88340d9cc5720895a9a84bc575357d227d496ca7f40b783d419"
+    },
+    {
+      "path": "tools/verify-day5a.cjs",
+      "bytes": 31596,
+      "sha256": "23e6986a4b9388aaded604f68f82c61b2c40f95c2c5994457e79bfa511a9d121"
+    },
+    {
+      "path": "tools/verify-v21-visuals.cjs",
+      "bytes": 19813,
+      "sha256": "b2b8cd90396e2fb2f75cc42062ffb186931defdcc2327516d5de885bf95eeb16"
+    },
+    {
+      "path": "tools/verify-v22-clean.cjs",
+      "bytes": 7574,
+      "sha256": "7c661b001f5ea16dd0bcb473af68ed649d71b1da3e710478f840b60eb038aaa0"
+    },
+    {
+      "path": "tools/verify-v22-readability.cjs",
+      "bytes": 16202,
+      "sha256": "c48b68cbf644d66600af14d9899f06d3bc7d651c951f28c01b9778c1f51482b3"
+    },
+    {
+      "path": "tools/verify_v21_offline.py",
+      "bytes": 11464,
+      "sha256": "e9408b34f5107e019d7e6c5e390d402e9755613a3e7022cd726f7f61a9c238e3"
+    },
+    {
+      "path": "tools/verify_v21_preservation.py",
+      "bytes": 34622,
+      "sha256": "654a6a7a8e54c0d5a732070523c05dcec23fd2ef8c24530e06dca98c5f91226e"
+    },
+    {
+      "path": "tools/verify_v22_offline.py",
+      "bytes": 7703,
+      "sha256": "4b1eeea3c2b1fd4029e50d6133b8eacb24c3236fb4bd84ce01d35e2c7402cde8"
+    },
+    {
+      "path": "tools/verify_v22_preservation.py",
+      "bytes": 24747,
+      "sha256": "6d688382f5dd2c7458d79b250341d0b2b63e8629f3e6fdda26fc7bab9b2288ca"
+    },
+    {
+      "path": "tools/verify_v2_preservation.py",
+      "bytes": 28437,
+      "sha256": "3c049397a87b82bab269a46c95d4831330e56a0736152fb55716fea0fcd58807"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 214,
+      "sha256": "bd460a7db62db6c2e50d1766c98f5a830579ddab81c79c4d7e20cfda6fef4f9c"
+    }
+  ],
+  "sourceFilesUnchanged": true,
+  "gitMutations": false
+}

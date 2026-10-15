@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-15 Asia/Shanghai",
+  "version": "0.0.5-alpha.2",
+  "url": "http://localhost:7456/",
+  "status": "LOCAL_PREVIEW_VERIFIED_WITH_LIMITATIONS",
+  "method": "Actual saved Creator Preview; Browser Use mouse clicks/drags; rendered screenshots reviewed; read-only DOM bounds/styles. No hidden engine state or injected page input.",
+  "fullRuns": [
+    {"viewport": [390, 844], "orders": 9, "steps": 13, "stars": 21, "score": 4890, "seconds": 395.7, "mistakes": 2, "finalScreenshot": "final-v2-390x844.jpg", "flow": "Final -> Return Home -> Start; wrong drag/cable, clean0/57/96%"},
+    {"viewport": [1280, 720], "orders": 9, "steps": 13, "stars": 26, "score": 6970, "seconds": 208.0, "mistakes": 0, "finalScreenshot": "final-v2-1280x720.jpg", "flow": "Home -> full run -> Replay directly order1"},
+    {"viewport": [1280, 720], "orders": 9, "steps": 13, "stars": 23, "score": 7240, "seconds": 180.5, "mistakes": 0, "finalScreenshot": "final-replay-run-v2-1280x720.jpg", "flow": "Replay -> muted full run -> Return Home -> Start; mute retained"}
+  ],
+  "tablet": {"viewport": [768, 1024], "completedOrders": [1, 2, 3, 4, 5], "scope": "Home/first order/result/next, clean0/57%, cable0/3 and1/3 then complete; not a full nine-order run"},
+  "domSamples": [
+    {"viewport": [390, 844], "canvasRect": [0, 0, 390, 844], "visibleDesignRect": [0, 75.333333, 390, 693.333333], "clip": "inset(75.3333px 0px)"},
+    {"viewport": [1280, 720], "canvasRect": [0, 0, 1280, 720], "visibleDesignRect": [437.5, 0, 405, 720], "clip": "inset(0px 437.5px)"},
+    {"viewport": [768, 1024], "canvasRect": [0, 0, 768, 1024], "visibleDesignRect": [96, 0, 576, 1024], "clip": "inset(0px 96px)"}
+  ],
+  "observedChecks": ["Home Start, Replay and Return Home real clicks", "Wrong drop and wrong cable return and count", "One connected cable at1/3", "Two/three/four item layouts and multistep continuity", "Single clean percentage at0/57/96", "Modal blocks underlying sound click", "Natural snap/return/dust fade/result scale/stars/character entrance", "Mute retained across final/home/start"],
+  "consoleEvidence": "v2-preview-console.json; captured warning/error entries empty",
+  "screenshotInventory": "v2-screenshot-inventory.json",
+  "limitations": [
+    "Natural clock includes tool observation/screenshot pauses; not a speed or performance benchmark",
+    "Physical touch, browser native Touch/TOUCH_CANCEL, phone WebView, WeChat/Douyin platform, audible listening NOT_RUN; synthetic cc.Touch is separate real engine fixture evidence",
+    "Live viewport switch retained stale Creator Preview frame dimensions; reload used before each final size, no dynamic orientation pass claimed",
+    "Original layered visual approximations; poster device texture and fully organic cleaning boundary are not pixel-equivalent",
+    "No FPS benchmark, platform build, publishing or external independent verification"
+  ],
+  "temporaryViewportReset": true
+}

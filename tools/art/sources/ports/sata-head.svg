@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="128" viewBox="0 0 256 128">
+<title>DeskRescue original ports/sata-head</title>
+<polyline points="8.00,66.00 67.00,66.00" fill="none" stroke="#68838c" stroke-opacity="1.0000" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="8.00,61.00 60.00,61.00" fill="none" stroke="#a9c0c3" stroke-opacity="1.0000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="48" y="43" width="32" height="46" rx="7" fill="#526b78" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<polyline points="56.00,47.00 56.00,85.00" fill="none" stroke="#94afb5" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="64.00,47.00 64.00,85.00" fill="none" stroke="#94afb5" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="72.00,47.00 72.00,85.00" fill="none" stroke="#94afb5" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="65" y="35" width="139" height="63" rx="7" fill="#d8e4de" fill-opacity="1.0000" stroke="#263d50" stroke-opacity="1.0000" stroke-width="4"/>
+<polygon points="77.00,46.00 188.00,46.00 188.00,79.00 170.00,79.00 170.00,64.00 77.00,64.00" fill="#557481" fill-opacity="1.0000" stroke="#263d50" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="85" y="50" width="4" height="10" rx="1" fill="#ffbe58" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="95" y="50" width="4" height="10" rx="1" fill="#ffbe58" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="105" y="50" width="4" height="10" rx="1" fill="#ffbe58" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="115" y="50" width="4" height="10" rx="1" fill="#ffbe58" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="125" y="50" width="4" height="10" rx="1" fill="#ffbe58" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="135" y="50" width="4" height="10" rx="1" fill="#ffbe58" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="145" y="50" width="4" height="10" rx="1" fill="#ffbe58" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<polyline points="76.00,87.00 191.00,87.00" fill="none" stroke="#91b6ad" stroke-opacity="1.0000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

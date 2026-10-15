@@ -1,0 +1,27 @@
+{
+  "label": "final-cocos-types",
+  "command": [
+    "C:\\Program Files\\nodejs\\npm.cmd",
+    "run",
+    "check:cocos"
+  ],
+  "cwd": "D:\\game",
+  "startedAtUtc": "2026-10-15T12:36:26.838608+00:00",
+  "endedAtUtc": "2026-10-15T12:36:32.049003+00:00",
+  "exitCode": 0,
+  "log": {
+    "path": "docs/validation/day5a-plus/v21/final-cocos-types.log",
+    "bytes": 1257,
+    "sha256": "1c5584608da38557419da620b991814f5573a6e4b0a29a7bd77db679f15d0fae"
+  },
+  "behaviorGroups": [],
+  "sdkDiagnostics": [],
+  "diagnosticErrorLineCount": 0,
+  "typescriptOutput": [
+    "TypeScript 5.8.2: C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\app.asar.unpacked\\node_modules\\typescript\\lib\\typescript.js",
+    "PASS project strict TypeScript checking against real editor-generated Cocos SDK references (strict/noUnusedLocals/noUnusedParameters enabled; SDK self-validation is separate)."
+  ],
+  "passLineCount": 1,
+  "newVisualGroups": 0,
+  "newCleanGroups": 0
+}

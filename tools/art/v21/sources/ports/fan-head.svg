@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="160" viewBox="0 0 256 160">
+<title>DeskRescue V2.1 original ports/fan-head</title>
+<ellipse cx="144.5" cy="135.5" rx="95.5" ry="9.5" fill="#3e3425" fill-opacity="0.1255" stroke="none" stroke-width="0"/>
+<polyline points="9.00,86.00 71.00,86.00" fill="none" stroke="#263f46" stroke-opacity="1.0000" stroke-width="19" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="10.00,81.00 65.00,81.00" fill="none" stroke="#8baeaa" stroke-opacity="1.0000" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="41" y="66" width="36" height="42" rx="9" fill="#324f57" fill-opacity="1.0000" stroke="#253f47" stroke-opacity="1.0000" stroke-width="2"/>
+<polyline points="49.00,72.00 49.00,102.00" fill="none" stroke="#7a9996" stroke-opacity="1.0000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="58.00,72.00 58.00,102.00" fill="none" stroke="#7a9996" stroke-opacity="1.0000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="67.00,72.00 67.00,102.00" fill="none" stroke="#7a9996" stroke-opacity="1.0000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="72.00,47.00 153.00,40.00 176.00,59.00 172.00,126.00 73.00,134.00 57.00,118.00" fill="#496f70" fill-opacity="1.0000" stroke="#253f47" stroke-opacity="1.0000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="72.00,47.00 153.00,40.00 176.00,59.00 91.00,67.00 59.00,62.00" fill="#8aafa5" fill-opacity="1.0000" stroke="#253f47" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="60.00,64.00 89.00,70.00 88.00,126.00 73.00,132.00 59.00,117.00" fill="#385c62" fill-opacity="1.0000" stroke="none" stroke-width="0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="98.00,72.00 148.00,67.00" fill="none" stroke="#a8c8b8" stroke-opacity="1.0000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="103.00,84.00 102.00,119.00" fill="none" stroke="#2e5158" stroke-opacity="1.0000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="106.00,84.00 105.00,118.00" fill="none" stroke="#6f9692" stroke-opacity="1.0000" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="117.00,84.00 116.00,119.00" fill="none" stroke="#2e5158" stroke-opacity="1.0000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="120.00,84.00 119.00,118.00" fill="none" stroke="#6f9692" stroke-opacity="1.0000" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="131.00,84.00 130.00,119.00" fill="none" stroke="#2e5158" stroke-opacity="1.0000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="134.00,84.00 133.00,118.00" fill="none" stroke="#6f9692" stroke-opacity="1.0000" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="131.00,65.00 230.00,70.00 244.00,83.00 242.00,120.00 132.00,132.00 120.00,118.00 122.00,79.00" fill="#b8cabc" fill-opacity="1.0000" stroke="#253f47" stroke-opacity="1.0000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="134.00,71.00 226.00,76.00 237.00,86.00 236.00,117.00 135.00,125.00 127.00,115.00 128.00,83.00" fill="#e5e9d1" fill-opacity="1.0000" stroke="#fff7d9" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="154" y="49" width="50" height="19" rx="4" fill="#a5beb0" fill-opacity="1.0000" stroke="#253f47" stroke-opacity="1.0000" stroke-width="2"/>
+<polyline points="161.00,53.00 198.00,53.00" fill="none" stroke="#e8edce" stroke-opacity="1.0000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="136.0" y="88" width="21.5" height="21" rx="1.8" fill="#10292f" fill-opacity="1.0000" stroke="#78938a" stroke-opacity="1.0000" stroke-width="1"/>
+<rect x="143.75" y="92" width="6" height="13" rx="1" fill="#e3bd6b" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="159.5" y="88" width="21.5" height="21" rx="1.8" fill="#10292f" fill-opacity="1.0000" stroke="#78938a" stroke-opacity="1.0000" stroke-width="1"/>
+<rect x="167.25" y="92" width="6" height="13" rx="1" fill="#e3bd6b" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="183.0" y="88" width="21.5" height="21" rx="1.8" fill="#10292f" fill-opacity="1.0000" stroke="#78938a" stroke-opacity="1.0000" stroke-width="1"/>
+<rect x="190.75" y="92" width="6" height="13" rx="1" fill="#e3bd6b" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="206.5" y="88" width="21.5" height="21" rx="1.8" fill="#10292f" fill-opacity="1.0000" stroke="#78938a" stroke-opacity="1.0000" stroke-width="1"/>
+<rect x="214.25" y="92" width="6" height="13" rx="1" fill="#e3bd6b" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<polyline points="135.00,75.00 225.00,80.00" fill="none" stroke="#ffffff" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

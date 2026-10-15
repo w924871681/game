@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-10-15T13:49:05.354516+00:00",
+  "scope": "New V21 sections of README/GPT plus entire V21 validation/refinement; historical sections excluded",
+  "links": 129,
+  "ok": false,
+  "missing": [
+    {
+      "document": "docs/GPT_HANDOFF.md",
+      "target": "validation/day5a-plus/v21/preservation.json",
+      "exists": false
+    },
+    {
+      "document": "docs/DAY5A_PLUS_V21_CREATOR_VALIDATION.md",
+      "target": "validation/day5a-plus/v21/preservation.json",
+      "exists": false
+    }
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "37f9c162577c4cfd6e3adb249285de459c012a79f11d60f497d91edef252b0c4"
+    },
+    {
+      "path": "docs/GPT_HANDOFF.md",
+      "sha256": "83a7ffba364539c605cc05a864f4601cb51822bc7252fdb925ab95f69df5fccb"
+    },
+    {
+      "path": "docs/DAY5A_PLUS_V21_CREATOR_VALIDATION.md",
+      "sha256": "6a0e77958d4bdd7e90b6f443f1e9336877788322c220fe169dd292b3f8442b53"
+    },
+    {
+      "path": "docs/DAY5A_PLUS_V21_REFINEMENT.md",
+      "sha256": "945f1a3e17bba1a30c5f954d10b4580c30d5c3fa2670950d0ee6b102c14b10b7"
+    }
+  ],
+  "explanation": "This initial read ran before the concurrently generated preservation.json existed. Both missing links target that one generated report. Retained as a timing diagnostic, then checked sequentially after preservation completion."
+}

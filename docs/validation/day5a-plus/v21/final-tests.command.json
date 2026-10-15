@@ -1,0 +1,28 @@
+{
+  "label": "final-tests",
+  "command": [
+    "C:\\Program Files\\nodejs\\npm.cmd",
+    "test"
+  ],
+  "cwd": "D:\\game",
+  "startedAtUtc": "2026-10-15T12:36:26.955794+00:00",
+  "endedAtUtc": "2026-10-15T12:36:33.904168+00:00",
+  "exitCode": 0,
+  "log": {
+    "path": "docs/validation/day5a-plus/v21/final-tests.log",
+    "bytes": 23118,
+    "sha256": "334318af835933ec4f0434647fd01c8ccf59fcd88ae6c743dcafb0696b3e906a"
+  },
+  "behaviorGroups": [
+    "207"
+  ],
+  "sdkDiagnostics": [],
+  "diagnosticErrorLineCount": 0,
+  "typescriptOutput": [
+    "TypeScript 5.8.2: C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\app.asar.unpacked\\node_modules\\typescript\\lib\\typescript.js",
+    "PASS project strict TypeScript checking against real editor-generated Cocos SDK references (strict/noUnusedLocals/noUnusedParameters enabled; SDK self-validation is separate)."
+  ],
+  "passLineCount": 210,
+  "newVisualGroups": 16,
+  "newCleanGroups": 18
+}

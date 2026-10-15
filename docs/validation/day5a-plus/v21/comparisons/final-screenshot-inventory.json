@@ -1,0 +1,1980 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-15T13:42:24Z",
+  "generator": "tools/compare_v21_previews.py --inventory-only",
+  "scope": "docs/validation/day5a-plus/v21/screenshots",
+  "projectVersion": "0.0.5-alpha.3",
+  "fileCount": 112,
+  "actualViewportDimensions": [
+    [
+      390,
+      844
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      1280,
+      720
+    ]
+  ],
+  "coverageBoundary": "Inventory records actual files and hashes; file existence or filename does not imply successful input, all-orders completion or visual acceptance. Raw ledger notes can be wrong; visibleState/correction fields adjudicate the known mistakes without altering historical notes.",
+  "correctionPolicy": "Preserve every misnamed, timeout and pending original; annotate instead of deleting/renaming/retouching. Byte equality alone does not imply a failed capture: static Home screens may legitimately repeat.",
+  "knownAnnotatedFiles": 17,
+  "rawLedger": {
+    "path": "docs/validation/day5a-plus/v21/preview-capture-ledger.json",
+    "bytes": 27849,
+    "sha256": "fca3128b41ccf74160355262db7355fe99b6cafaa43fae7ee7e8f1509c102399"
+  },
+  "files": [
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/cable-order5-0of3-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 54959,
+      "sha256": "3cf8d563d6ba909bbb5deed0e6f35a99badcbd054630ccd7b5785bb5eebde5af",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:18:31.252Z",
+          "rawNote": "Wide0/3."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/cable-order5-0of3-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 45686,
+      "sha256": "b6f3fef1dead363b5a30c098d18843f3e9270c20e881bd39896fb541c58df285",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:51:18.309Z",
+          "rawNote": "Finalfull3ports0/3; captionmovedbelowwirepaths."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/cable-order5-0of3-v21-768x1024.jpg",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "bytes": 83105,
+      "sha256": "4b20a564f12f62424af3928f0746affbd4cc16d939eac55308ee5dad1b1b6901",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:12:47.093Z",
+          "rawNote": "Tabletthreeports0/3."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/cable-order5-1of3-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 54540,
+      "sha256": "efd57a3658f6d7e894eca519fdc3265d05e0da2d3fbdad0e77be7287be84c752",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:18:31.994Z",
+          "rawNote": "Wideonlydisplayconnected1/3."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/cable-order5-1of3-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 45240,
+      "sha256": "2b1ae653b3408b4ec38a6f7a65d3f7a7c4441c91b721d227562bf9cf7cc3620c",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:51:33.637Z",
+          "rawNote": "Actual1/3onlydisplayconnected; other2headsunfixed."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/cable-order5-1of3-v21-768x1024.jpg",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "bytes": 82698,
+      "sha256": "6d2a66d9a21bdfa2e1c20f247ebd789ecedd3f622574df2d1a361a2557cd35ea",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:13:07.241Z",
+          "rawNote": "Tabletactual1displayconnected."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/cable-order5-wrong-return-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 45219,
+      "sha256": "a3594adef7e4bb8b4d1a88ee02869be0b6faa84909bb5e194f3bf5c1ca0bc75c",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:51:34.189Z",
+          "rawNote": "Actual1/3retained;onewrongpower-to-networkrelease,mistake1,headreturned."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/cable-order7-0of3-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 44936,
+      "sha256": "b33d57ff2ca48640d93e4d0f7dd21e41ed91077ee47c22b5a5c8e4996a0334b8",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:52:19.002Z",
+          "rawNote": "3routercables reset0/3, nooldwire/lamp."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/cable-order7-three-cross-transition-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 47131,
+      "sha256": "2ca6d028afa87cf5a168d2a258a27afc326d39607dadb6e03a8538aa01b19b8d",
+      "evidenceRole": "pending-snap-transition-not-settlement",
+      "visibleState": "2/3; third head near target but not yet counted",
+      "correction": "Three visible curves do not mean three recorded successes; no unobstructed3/3 is claimed.",
+      "annotationBasis": "Direct original-image inspection plus explicitly reported root operations; raw ledger retained without rewriting",
+      "rawCaptureLedgerNotes": [],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/cable-order7-two-cross-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 46393,
+      "sha256": "36fc20d10cfe5c754de365e4770471c38017c547638db3aef99a2a9ae7d5d2ad",
+      "evidenceRole": "in-progress-not-settlement",
+      "visibleState": "2/3; two recorded connections",
+      "annotationBasis": "Direct original-image inspection plus explicitly reported root operations; raw ledger retained without rewriting",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:53:08.917Z",
+          "rawNote": "Actual2/3crossed;allportlabelsremainabovewirelayer."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/cable-order8-two-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 43505,
+      "sha256": "b6db7999d7143e1c4b0e51849d1f4aa2304d3506333eb7c4cf6e74b8c044f7fc",
+      "evidenceRole": "initial-gameplay-not-settlement",
+      "visibleState": "0/2; filename refers to two available cables, not two connected cables",
+      "annotationBasis": "Direct original-image inspection plus explicitly reported root operations; raw ledger retained without rewriting",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:53:32.654Z",
+          "rawNote": "Order8after4realplacements,2differentplugshapesreset0/2."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/cable-order9-four-transition-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 49579,
+      "sha256": "cba4ba9394055c4963797df78444aae5c3ce4d061029deda7ff6dab1f669b3e3",
+      "evidenceRole": "pending-snap-transition-not-settlement",
+      "visibleState": "3/4; fourth snap pending",
+      "correction": "Four visible curves do not mean four recorded successes; no unobstructed4/4 is claimed.",
+      "annotationBasis": "Direct original-image inspection plus explicitly reported root operations; raw ledger retained without rewriting",
+      "rawCaptureLedgerNotes": [],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/cable-order9-four-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 56043,
+      "sha256": "377ec1102d262c067065a0e8fac88264175ff737cdd5739c9718733687d08383",
+      "evidenceRole": "initial-gameplay-not-settlement",
+      "visibleState": "0/4; filename describes four available cables, not4/4 completion",
+      "annotationBasis": "Direct original-image inspection plus explicitly reported root operations; raw ledger retained without rewriting",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:22:10.645Z",
+          "rawNote": "Wide4portsafter32/35cleanthreshold."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/cable-order9-four-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 46659,
+      "sha256": "fc9410268e3757323140c94febbbda96013bb53b888a3cf3df0731dc45da31f9",
+      "evidenceRole": "initial-gameplay-not-settlement",
+      "visibleState": "0/4; filename describes four available cables, not4/4 completion",
+      "annotationBasis": "Direct original-image inspection plus explicitly reported root operations; raw ledger retained without rewriting",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:53:58.258Z",
+          "rawNote": "Actualorder9step2:4distinctinternalplugs/ports,reset0/4; noobstruction."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/cable-order9-three-cross-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 48856,
+      "sha256": "a78cabc3a6e7e8aa338fcc83bba6af4d340fba71fffef4b422436aec897845ca",
+      "evidenceRole": "in-progress-not-settlement",
+      "visibleState": "3/4; three recorded connections",
+      "annotationBasis": "Direct original-image inspection plus explicitly reported root operations; raw ledger retained without rewriting",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:53:59.325Z",
+          "rawNote": "Actual3/4,3connectedcurvesbelowalllabels;fourthstillfree."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/clean-local-repeat-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 47888,
+      "sha256": "cc2878476e972d1f4ecfcfe34c37ad7c1ec7aa73dbf34f28a93418565f02aef1",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:50:25.352Z",
+          "rawNote": "Rendered57% retainedonlocalback/forth."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/clean-order4-0pct-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 59078,
+      "sha256": "093bdf630eb78a34926f17dc906985aca6a03e648a645e65bcdb2fa62b4cb1e5",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:18:02.262Z",
+          "rawNote": "Widecleanfresh0%."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/clean-order4-0pct-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 49430,
+      "sha256": "a56e997e8086472822b05c3c01df6baacf4eb7e59482bd54f974299bbeecec02",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:50:06.756Z",
+          "rawNote": "Finalfull clean order4 actual0%."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/clean-order4-0pct-v21-768x1024.jpg",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "bytes": 90792,
+      "sha256": "780abdfbf6ea5b6d464bc8508fe6a3077718a66cfe29aea3ec80186b343dea18",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:12:19.138Z",
+          "rawNote": "Tabletfresh0%."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/clean-order4-57pct-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 57451,
+      "sha256": "13db541e2ab349ba32f5b4fa841df04e1b9099e5ea412cddb30f1b7c50c9c184",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:18:03.183Z",
+          "rawNote": "Wideactual16/28=57%path."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/clean-order4-57pct-v21-768x1024.jpg",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "bytes": 88032,
+      "sha256": "4f99b6b2e5cc38c9694b952e3c49dbbba912a67cb113314b8d420d36e4d46813",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:12:45.495Z",
+          "rawNote": "Tabletdiagonal/arc16/28actual57%."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/clean-order4-96pct-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 56978,
+      "sha256": "bdde0f4b142806ec0ea9c29ff19521270e74a1b5f5635bcba2ec9ce33b389a0f",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:18:30.473Z",
+          "rawNote": "Wide27/28actual96%."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/clean-order4-96pct-v21-768x1024.jpg",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "bytes": 86964,
+      "sha256": "9cff819b956d4aeee5ab2e2f91c964458c8fdb45f1a13fd37e29e1b9477ccebd",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:12:46.305Z",
+          "rawNote": "Actualtablet27/28=96%."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/clean-order4-about57pct-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 47870,
+      "sha256": "3218ca8bee5223c9f1cf89db90c3605a9db0e706f44e4c867506d24abd78277e",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:50:24.796Z",
+          "rawNote": "Confirmedrendered57%=16/28 afterdiagonal+3arcsegments,fullalpha3."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/clean-order4-about96pct-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 47442,
+      "sha256": "d220a65baf58709cd88a2671be30b7a505c01a2678fdc45191909e412f295be2",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:51:17.522Z",
+          "rawNote": "Actualrendered96%=27/28;notyetcompleted."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/clean-order4-horizontal57-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 47783,
+      "sha256": "0271f1437019a457dbb4fcfb2cd3f74569b8a5640638bfc377f25ef683c4b17c",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:04:32.058Z",
+          "rawNote": "Secondrun16/28aftertwohorizontalrows; alternativepathboundaryforfairreview."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/clean-order6-0pct-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 43519,
+      "sha256": "8abad47100e1bb775541bd0456ec8bb755d45262066bbf0d11c45b0747313695",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:51:52.186Z",
+          "rawNote": "Reused192particlepool resetfor20logicalcellmousearea."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/clean-order9-0pct-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 60500,
+      "sha256": "9a9433f02321f2750efafe4e40a959b78b9ed5fba300d1104e04f2fc94100afb",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:19:36.938Z",
+          "rawNote": "Widecasecleanfresh."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/clean-order9-0pct-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 50939,
+      "sha256": "296b55b5718e7c3249921b2c9125638d22a439b8338f9bc756a8222d7c124f6f",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:53:34.148Z",
+          "rawNote": "Fresh35logicalcellcasearea; pooleddustreset."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/drag-order1-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 58375,
+      "sha256": "ff92c1dc9578ae186277643dd03e6e95b37befdbdcb0fadd907dcbfdaa296227",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:13:44.711Z",
+          "rawNote": "Wide3itemsactualhitmapping."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/drag-order1-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 48797,
+      "sha256": "743dea6d4e9dbf2b1269d6f0f3e780ad74cddcb7a20faee555927a982a204ed5",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:37:20.697Z",
+          "rawNote": "Final37-frame bindings;3items, highercontrast targets, enlargedcaption/art, timer0.3afterstart."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/drag-order1-v21-768x1024.jpg",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "bytes": 88726,
+      "sha256": "a14c76b9fbbb2a0609417e21dfb6b8ac03680c68d0b5f3e74efa153b001e26cd",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:11:50.984Z",
+          "rawNote": "Tablet3items,alllabelsvisible."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/drag-order1-wrong-return-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 48513,
+      "sha256": "98d566c3f5eca7275be09af6a4c2a8c32b5df9399609738abc8eb27bac47e4d9",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:42:27.979Z",
+          "rawNote": "Actualwrongkeyboardtarget,0/3,mistake1,mousefullyreturned."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/drag-order6-two-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 54899,
+      "sha256": "ca258ffc11dfc88a7c15ba3738890d058d0022ef77deee31a994ad931dd57972",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:19:00.209Z",
+          "rawNote": "Widetwoitemsaftertrue17cleancells."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/drag-order6-two-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 45564,
+      "sha256": "63de786ffbaf972f0bb154a6244e9944d2240f7495f0ef207e2390b5f71bbba6",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:52:17.792Z",
+          "rawNote": "Order6samecontinuousrun: true17/20cleancells ->2partdrag, freshartandcheckreset."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/drag-order8-four-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 58649,
+      "sha256": "2c99f0a77729bb4c7fd56286d2e453d623d3f287614dea9b8a0d57a318700cb2",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:19:34.588Z",
+          "rawNote": "Wide4readabledevices."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/drag-order8-four-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 48753,
+      "sha256": "f9f024af9a09104491207e23b1a658d3c93f9ae2f170fb9560c09d368d89d484",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:53:09.871Z",
+          "rawNote": "4tightcroppeddevicesandlabels;noinputrootchanges."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/drag-order9-four-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 58821,
+      "sha256": "23169a13cf4263480ef3b9768c48c111b6e41ad92231659d8190bab086f49e87",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:22:18.801Z",
+          "rawNote": "Wide4partsafter4connections."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/drag-order9-four-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 48575,
+      "sha256": "0ab09a0d28ea9b1a89b29b8bc5730c8e8ea3c7f631a9f278782cce4bd8b1ac29",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:54:22.750Z",
+          "rawNote": "Actualstep3:4partsafter4realconnections; oldcablevisualhidden."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/final-run1-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 55347,
+      "sha256": "3ae155fce5882a79bbb960704e860394f6826579418225565518ef2f55d7fb1b",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/final-run2-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 66914,
+      "sha256": "72bd18c59230ea12a70f21d3f9b631bfc3ec000e020a6541b0aba548818f952f",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:35:20.199Z",
+          "rawNote": "1280x720 second full run after direct Replay: 9/9 orders, 13/13 steps, 26/27 stars, 7160 points, 187.8 seconds, 0 mistakes."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/final-run2-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 54340,
+      "sha256": "423484ac151419639a84e1382d77497cd0501593bcc0e8434e266d5ec64eee52",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:06:26.395Z",
+          "rawNote": "Second390complete9/13actualfinalvalues."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/final-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 66851,
+      "sha256": "d90a7530df7c2aa1e31f5c69864729c43778452e7f7c0f9f7530cae2a7fc8875",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:22:19.795Z",
+          "rawNote": "Widefull9/13actualfinalreadvalues."
+        },
+        {
+          "time": "2026-10-15T13:24:30.641Z",
+          "rawNote": "Stablefirstwidefinal:9/9,24/27,6670,13/13,296.6seconds,0mistakes."
+        }
+      ],
+      "byteIdenticalOtherFiles": [
+        "docs/validation/day5a-plus/v21/screenshots/replay-direct-v21-1280x720.jpg"
+      ]
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/final-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 55827,
+      "sha256": "b59888b392d674ad455c31dabb3e4592ba96fac711f31dbc05ef582a15cf437c",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:54:24.302Z",
+          "rawNote": "Actual9orders13stepsfinal;6summaryvaluesreadfromrenderedpanel."
+        },
+        {
+          "time": "2026-10-15T13:06:49.221Z",
+          "rawNote": "Second390runstablefinal:9/9,21/27stars,5620points,13/13,686.7seconds,0mistakes. First903.9srunretainedasfinal-run1."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/home-after-run2-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 66385,
+      "sha256": "be4c43c9ea9c7db3c727d350abe85de6f36a7e95743b401f472978f729471fda",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:35:46.230Z",
+          "rawNote": "Final Home button returned to Home; sound remains OFF."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/home-delivery-default-viewport.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 70715,
+      "sha256": "d38eba7a5fcc8a93cd066572ca7c1bf851b69421b5f655c75d4ace9ac3cca7f9",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:39:21.630Z",
+          "rawNote": "Browser viewport override reset; default viewport Home after fresh reload."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/home-final-reload-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 55473,
+      "sha256": "4f8933730226d1acdb1982e7def4e3035285da4250193c7ba566e1e9dc562454",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:39:10.970Z",
+          "rawNote": "Final static Home after fresh 390x844 reload, Info debug mode, full asset promotion."
+        }
+      ],
+      "byteIdenticalOtherFiles": [
+        "docs/validation/day5a-plus/v21/screenshots/home-v21-390x844.jpg"
+      ]
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/home-muted-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 55469,
+      "sha256": "8441b9f39e14e3942d3e4d514faa1350ae42f998283c1d0c98a8c15e0bc4d294",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:37:20.277Z",
+          "rawNote": "Actual sound toggle off before start."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/home-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 66408,
+      "sha256": "18fd919755c9aa6690ec724bff3689aa9c9e68e4053500ebfd0603674c693893",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:13:44.255Z",
+          "rawNote": "Fresh1280reload;mintsidebars,visible405x720corex437.5."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/home-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 55473,
+      "sha256": "4f8933730226d1acdb1982e7def4e3035285da4250193c7ba566e1e9dc562454",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:37:19.916Z",
+          "rawNote": "Finalfullalpha3 freshreload; enlargedbrand/character, samecomposition/SHOW_ALL."
+        }
+      ],
+      "byteIdenticalOtherFiles": [
+        "docs/validation/day5a-plus/v21/screenshots/home-final-reload-v21-390x844.jpg"
+      ]
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/home-v21-768x1024.jpg",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "bytes": 101324,
+      "sha256": "1db5f3f8976fd9d201a6c7af7c61cbc1dcd763947610076b2d099e0ea2c9bc8b",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:11:50.584Z",
+          "rawNote": "Fresh768reloadmintsidebars;coreview576x1024x96."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/order1-result-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 44483,
+      "sha256": "765251166fd858d51133ca2d60fb6262d185e51871c71cf5023cd591f93a1eff",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:13:45.775Z",
+          "rawNote": "Wideorder1result."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/order2-result-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 44522,
+      "sha256": "455c9216a309794163d95c968e6fbf9ab9da6ff8f62536ade2597edf429b40a0",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:14:54.493Z",
+          "rawNote": "Wideorder2."
+        },
+        {
+          "time": "2026-10-15T13:17:37.008Z",
+          "rawNote": "Confirmed actual27.5s,0wrong,730,2stars afterbrowserconnectiontimeout; freezeunchanged."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/order2-result-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 35638,
+      "sha256": "20e2dc3dce774681b5a9c16af6fce8fdc47a7d4deac402b331c7c89b2f91ad20",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:49:39.029Z",
+          "rawNote": "Actual order2 fullskin result."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/order2-result-v21-768x1024.jpg",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "bytes": 63420,
+      "sha256": "e3e8777a8463a76b2d5836e37c30c59b4f627659ee6956a49274696f10c83669",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:12:17.157Z",
+          "rawNote": "Tabletorder2result."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/order3-result-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 44153,
+      "sha256": "5c52ceb0eb9242f4096d3b2bea96d29e7bbe139c7a381f0e5700aadb9d37f7fb",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:18:01.896Z",
+          "rawNote": "Wideorder3actual."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/order3-result-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 35708,
+      "sha256": "3ba636194494a784dcc9732fd601a4574e77b0e9d78dcaa6ad5655d91efd0b9b",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:50:06.411Z",
+          "rawNote": "Real order3 result."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/order3-result-v21-768x1024.jpg",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "bytes": 63442,
+      "sha256": "25b289c0b23c184d3c60375da5106ea1b282053aa72beeb88cb4723e24264a98",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:12:18.724Z",
+          "rawNote": "Tabletorder3result."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/order4-result-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 44731,
+      "sha256": "8d5900f79d9170c854c91193a1c44428a3eb7218732d0050166ec9b0d2b28261",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:18:30.866Z",
+          "rawNote": "Widecleanthresholdresult."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/order4-result-v21-768x1024.jpg",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "bytes": 65109,
+      "sha256": "193198610315bd96f8a22b119b42f0c98cefe19bb8feea6de2b186c39a3e160e",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:12:46.704Z",
+          "rawNote": "Tabletrealthresholdresult."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/order4-threshold-result-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 36717,
+      "sha256": "ad8607a5232a7c0f6b86c0a490c4c12a8271d69d67460c76f7ab013e5a79836d",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:51:17.922Z",
+          "rawNote": "Real28/28 threshold result;4unvisitedlogicalcellsnotforcecleaned."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/order5-result-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 44429,
+      "sha256": "8ee3787bd6918c354e8606f43ecf7e7f238ac1e4273b806bf0c684f8a5fa3a18",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:18:58.449Z",
+          "rawNote": "Wide3/3realresult."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/order5-result-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 35429,
+      "sha256": "bb06fe02b2ed4c8c786987929c3794cb0255715f6500f20befda4de262bcf0be",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:51:51.785Z",
+          "rawNote": "Actual3/3completesandfreezesresult."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/order5-result-v21-768x1024.jpg",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "bytes": 64312,
+      "sha256": "420b303d5335b28c664c9b8fdb9f7f58e8c74927cb5a308f415b03df09dd8606",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:13:08.443Z",
+          "rawNote": "Tabletcompletedorders1to5only,nofull9claim."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/order6-result-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 44565,
+      "sha256": "a8e3beb01b945c7555182ac592352bade628e8b0807e2ff8fff84eeae6db7fd6",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:19:01.082Z",
+          "rawNote": "Widecontinuous2steps."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/order6-result-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 35807,
+      "sha256": "66ff9e701de321cb15733b75fbd7082dc852ae68a5cf4018dedacfa6d9dc08c9",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:52:18.564Z",
+          "rawNote": "Actual2stepscontinuousresult."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/order7-result-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 44257,
+      "sha256": "0cfe7c50ea394980e2c5cfd6fe087ae1790161786c2dd0ea703f99f694bc413e",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:19:34.245Z",
+          "rawNote": "Widerouter3crossescomplete."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/order7-result-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 35628,
+      "sha256": "a386ae970f4246faf9bbe912240a830acd01801e0b9a91880a7013873ec79861",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:53:09.498Z",
+          "rawNote": "Thirdcrossingcableactualsnapcompletesorder;noaddedcompletedwell."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/order8-result-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 44150,
+      "sha256": "59588d6bf73eb49e4da52a603a73791fddbf14cf032e72269e8000375632153a",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:19:36.508Z",
+          "rawNote": "Wide4items2cablescompleted."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/order8-result-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 35456,
+      "sha256": "2b17a83e2a6d310e2c7cd8f65693010571f9ccaeadee0b9b6fff082dad1407cf",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:53:33.778Z",
+          "rawNote": "Actualtwo-steporder8result."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/phase1-cable-last-snap-0.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 46240,
+      "sha256": "162dd5b449a57294fd440debddf29bce92b244669988b2d062470aede6854797",
+      "evidenceRole": "pending-snap-transition-not-settlement",
+      "visibleState": "2/3; final yellow snap pending",
+      "correction": "Head alignment/three visible lines do not mean3/3; no settlement or unobstructed3/3 claim.",
+      "annotationBasis": "Direct original-image inspection plus explicitly reported root operations; raw ledger retained without rewriting",
+      "rawCaptureLedgerNotes": [],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/phase1-cable-last-snap-1.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 46240,
+      "sha256": "c37abd2d1eaccbed9df1f79f432ac5a0d92cf189841cebd8fea22e4cc7df020b",
+      "evidenceRole": "pending-snap-transition-not-settlement",
+      "visibleState": "2/3; final yellow snap pending",
+      "correction": "Head alignment/three visible lines do not mean3/3; no settlement or unobstructed3/3 claim.",
+      "annotationBasis": "Direct original-image inspection plus explicitly reported root operations; raw ledger retained without rewriting",
+      "rawCaptureLedgerNotes": [],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/phase1-cable-last-snap-2.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 46204,
+      "sha256": "59360fcd4f8d455847f67a4af2855b0342351261f2fb368b524e31a2df634130",
+      "evidenceRole": "pending-snap-transition-not-settlement",
+      "visibleState": "2/3; final yellow snap pending",
+      "correction": "Head alignment/three visible lines do not mean3/3; no settlement or unobstructed3/3 claim.",
+      "annotationBasis": "Direct original-image inspection plus explicitly reported root operations; raw ledger retained without rewriting",
+      "rawCaptureLedgerNotes": [],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/phase1-cable-last-snap-3.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 31835,
+      "sha256": "d6c696f22c96e367dcb02bf7422d6991127b66ccc2fedb71b816b3d39c64eef7",
+      "evidenceRole": "settled-result-modal-obscures-gameplay",
+      "visibleState": "HUD3/3 with immediate result modal",
+      "correction": "Real completion, but not an unobstructed three-success gameplay image.",
+      "annotationBasis": "Direct original-image inspection plus explicitly reported root operations; raw ledger retained without rewriting",
+      "rawCaptureLedgerNotes": [],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/phase1-cable-order5-0of3-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 45653,
+      "sha256": "74e25881ef2f4e5ef00da511e7f19c22a6622dca931e23584270f02818f88498",
+      "evidenceRole": "historical-iteration",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:13:35.053Z",
+          "rawNote": "Actual0/3; three unconnected left heads and right sockets."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/phase1-cable-order5-1of3-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 45038,
+      "sha256": "4c1d85014d97deca462995be518a68e08104031370dc4f7f94c19291bceaeeca",
+      "evidenceRole": "historical-iteration",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:13:46.081Z",
+          "rawNote": "Onlydisplay connected; rendered1/3, one success lamp."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/phase1-cable-order5-complete-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 34034,
+      "sha256": "5da56092e419d33140afb2a7bb99483dc617220d70b4557fdd169b95d2b557f7",
+      "evidenceRole": "historical-iteration",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:14:22.539Z",
+          "rawNote": "Natural last0.15ssnap completes3/3 and immediate result, no introducedpause."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/phase1-cable-wrong-return-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 45039,
+      "sha256": "4ab24289cc79004055b13f782a8529f6a6ba5c3a50165e72f881682f22310ede",
+      "evidenceRole": "historical-iteration",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:13:54.986Z",
+          "rawNote": "Power released on network socket returns; still1/3 and actualmistake1."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/phase1-clean-local-backforth-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 47911,
+      "sha256": "321a499cdf37d85bdd60d1ab8eeb80f8edd2861deacf4fbcb69a1e97d9a578b3",
+      "evidenceRole": "historical-iteration",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:11:21.043Z",
+          "rawNote": "Local repeated back-and-forth in already wiped area; rendered57% retained."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/phase1-clean-order4-0pct-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 49428,
+      "sha256": "fd853a53c7026480c807fec8c795c24eb96ec9d40a5ef2ba854b46107f789fbe",
+      "evidenceRole": "historical-iteration",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:09:28.241Z",
+          "rawNote": "Actual order4 progress0%, sample."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/phase1-clean-order4-about57pct-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 47937,
+      "sha256": "c52c2dad76df174a987f113cfc3b200b096815f12260c908a5c1256a6a005584",
+      "evidenceRole": "historical-iteration",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:11:08.410Z",
+          "rawNote": "Diagonal then three short arc-like segments; expected16/28, verify rendered percentage."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/phase1-clean-order4-about96pct-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 47492,
+      "sha256": "53d6c483a118519c6cdc5184034d407da9e50a4d03f3229dbf24109caf4e802c",
+      "evidenceRole": "historical-iteration",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:12:18.589Z",
+          "rawNote": "Rendered96%,27/28 after accepted local dabs; no completion beforethreshold."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/phase1-clean-threshold-result-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 34680,
+      "sha256": "e0dcc1ca50a5f16fa5b716724fa3bff89a6b95679206e33fcaa7165d294edcb1",
+      "evidenceRole": "historical-iteration",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:13:27.322Z",
+          "rawNote": "The28th real logical cell triggers result; not claiming32/32cleared."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/phase2-drag-order1-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 48308,
+      "sha256": "28e5e0ce9a21cd16ac3e96ba8a4ece6a7462e65975e5c17bcf410da8670c43a7",
+      "evidenceRole": "historical-iteration",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:23:02.202Z",
+          "rawNote": "Refinedchild layout on old frames pendingalpha-trim art; inputrootunchanged."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/phase2-drag-wrong-return-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 55078,
+      "sha256": "a68ea2c47145d33ce292eb022d72ccff3c78e168164800c5ba7eb021e9ebbe45",
+      "evidenceRole": "misnamed-stale-home",
+      "visibleState": "Home screen; byte-identical to historical V2 home, not a wrong-return capture",
+      "correction": "Exclude from successful drag/return evidence; retain as capture diagnostic.",
+      "reliableReplacement": "drag-order1-wrong-return-v21-390x844.jpg",
+      "annotationBasis": "Direct original-image inspection plus explicitly reported root operations; raw ledger retained without rewriting",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:29:06.793Z",
+          "rawNote": "INVALID AS GAMEPLAY EVIDENCE: full art import auto-reloaded Preview to Home between observations. Filename is historical; image is Home, no wrong/score assertion."
+        }
+      ],
+      "byteIdenticalOtherFiles": [
+        "docs/validation/day5a-plus/v21/screenshots/phase2-result-order1-390x844.jpg"
+      ]
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/phase2-result-order1-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 55078,
+      "sha256": "a68ea2c47145d33ce292eb022d72ccff3c78e168164800c5ba7eb021e9ebbe45",
+      "evidenceRole": "misnamed-stale-home",
+      "visibleState": "Home screen; byte-identical to historical V2 home, not a settled order result",
+      "correction": "The final actual result is499.2s/2mistakes/100points/1star, not this home image.",
+      "reliableReplacement": "result-order1-v21-390x844.jpg",
+      "annotationBasis": "Direct original-image inspection plus explicitly reported root operations; raw ledger retained without rewriting",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:29:07.939Z",
+          "rawNote": "INVALID AS GAMEPLAY EVIDENCE: full art import auto-reloaded Preview to Home between observations. Filename is historical; image is Home, no wrong/score assertion."
+        }
+      ],
+      "byteIdenticalOtherFiles": [
+        "docs/validation/day5a-plus/v21/screenshots/phase2-drag-wrong-return-390x844.jpg"
+      ]
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/replay-direct-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 66851,
+      "sha256": "d90a7530df7c2aa1e31f5c69864729c43778452e7f7c0f9f7530cae2a7fc8875",
+      "evidenceRole": "misnamed-stale-final",
+      "visibleState": "First wide final summary; byte-identical to final-v21-1280x720.jpg",
+      "correction": "Replay was operated and fresh0.1/0.3s order1 was observed in tool output, but that state was not saved in this file. Do not claim a saved fresh-Replay screenshot.",
+      "reliableReplacement": "wide-run2-order1-result-stable.jpg",
+      "replacementBoundary": "Replacement proves a settled first order in the replay run, not a0.1s start image.",
+      "annotationBasis": "Direct original-image inspection plus explicitly reported root operations; raw ledger retained without rewriting",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:24:31.045Z",
+          "rawNote": "ActualwideReplaydirectfreshorder1."
+        }
+      ],
+      "byteIdenticalOtherFiles": [
+        "docs/validation/day5a-plus/v21/screenshots/final-v21-1280x720.jpg"
+      ]
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/replay-direct-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 47745,
+      "sha256": "fa7ba06e762a510ce15a93230c4dfd1facbf3efeeae5b1385ff1f084bbc56c6c",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:06:50.455Z",
+          "rawNote": "ActualfinalReplaydirecttoorder1,mistake0,0/3;rapidsecondclickdoesnotrestartagain."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/result-order1-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 36570,
+      "sha256": "7cc77db420f1f1ea5963734cc6ee1f7e0b8fb90d4f1ba8aa758fad89cc9d267d",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:43:50.024Z",
+          "rawNote": "Actualfinalfullorder1: score100, elapsed283+secondsfromtoolstall,1mistake/1star. Read exactrenderedtime; not performancebenchmark."
+        },
+        {
+          "time": "2026-10-15T12:47:37.512Z",
+          "rawNote": "Confirmedactualresult:100points,499.2seconds,2mistakes,1earnedstar; elapsedincludesconnectionstall."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/result-order1-v21-768x1024.jpg",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "bytes": 63352,
+      "sha256": "73ba35620616ec300d084a029a0cab1d89b7263925464a66ad59933cbcd5446b",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:11:52.192Z",
+          "rawNote": "Tabletactualorder1result."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/return-home-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 55476,
+      "sha256": "b908f714c915f2fe00f39f1c5079b8fa3c32b487b14f455fee35113e61d511f3",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:54:56.109Z",
+          "rawNote": "FinalHomebuttonactuallyreturnsHome;noactivegameplay."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/run2-clean-order4-reset-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 48311,
+      "sha256": "d0f2853adddbbef906d98d28342bc4fa61c9643a8d13dff01314192030172098",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:59:00.076Z",
+          "rawNote": "Second390runfresh0%reset,noresidualholes."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/run2-order1-result-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 35502,
+      "sha256": "d90ce294f7098c10b239677306e1daa912a5971695f94b8d974ab78ce07ebe36",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:55:23.256Z",
+          "rawNote": "Second390runactualresult."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/run2-order2-result-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 35459,
+      "sha256": "fdf3732a7f36f922734a02b41be1b8928d28495e8e79c1f5d90239ff1c42a621",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:55:45.574Z",
+          "rawNote": "Second390runorder2."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/run2-order3-result-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 36062,
+      "sha256": "32e67940c1b5cca3ec882f57104dd6ebff2cd10e1ed117a731da1f9500e77486",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:58:59.689Z",
+          "rawNote": "Second390runorder3."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/run2-order4-result-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 36653,
+      "sha256": "7134f7f4a083e965a79c8a274408d68893845869a6139e7b017d9dade5280fb3",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:04:32.743Z",
+          "rawNote": "Second390runcleantrue28threshold."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/run2-order5-result-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 35946,
+      "sha256": "bb4a49ef895c4be00aaadc4dadc85a80f8a13babf16c9dd4f5d1ad79fbb5d69e",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:05:26.896Z",
+          "rawNote": "Second390run3/3completed."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/run2-order6-result-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 36103,
+      "sha256": "1b38a75097e518e4445e5f453a218d3f2a98b1ee2f95b4576a04513ff42e5365",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:05:28.879Z",
+          "rawNote": "Second390run2steps."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/run2-order7-result-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 36115,
+      "sha256": "f3a89d47960852fe175c8bc20660382b07ae3fa835e4c44060fe238c2bab8d31",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:06:05.221Z",
+          "rawNote": "Second390runrouter3/3."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/run2-order8-result-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 36097,
+      "sha256": "18c0aae4ac26611331dd528f0a90bd5188ddb9c6379326b08eb948873ce76e29",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:06:07.962Z",
+          "rawNote": "Second390runstreaming4items+2cables."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/start-after-home-v21-1280x720.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 57452,
+      "sha256": "5ab99716fa2f3cc2eff8b50c210079bc9e68c0270c2c0b200a1d0ae2c80c98f6",
+      "evidenceRole": "valid-reset-evidence-with-observation-dwell",
+      "visibleState": "Order1/9,step1/1,0/3,0mistakes,soundOFF; elapsed144.4seconds",
+      "correction": "Shows reset progress after Home→Start, not an immediate0.1s fresh-start screenshot; natural clock includes observation dwell.",
+      "annotationBasis": "Direct original-image inspection plus explicitly reported root operations; raw ledger retained without rewriting",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:38:10.705Z",
+          "rawNote": "Final Home -> Start, new order 1/9, step 1/1, 0/3, zero mistakes, sound OFF retained."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/start-after-home-v21-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 47783,
+      "sha256": "53f8fe216d00384c03a521fbd2a364a18f16f099564afee4c4ad1d5bb98ec610",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T12:54:56.576Z",
+          "rawNote": "Home->doubleStartentersonefreshorder1,0/3,mistake0,clockfresh."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/timeout-order1-not-result-390x844.jpg",
+      "dimensions": [
+        390,
+        844
+      ],
+      "bytes": 45609,
+      "sha256": "6ef25e6d6341b2142071ad3da1a771990be5cb3809380e909041cda05f1c0538",
+      "evidenceRole": "diagnostic-timeout-incomplete-gameplay",
+      "visibleState": "Order1 gameplay2/3,290.7seconds,1mistake; no result panel",
+      "correction": "Retain browser/tool timeout observation; it is not completion evidence.",
+      "reliableReplacement": "result-order1-v21-390x844.jpg",
+      "annotationBasis": "Direct original-image inspection plus explicitly reported root operations; raw ledger retained without rewriting",
+      "rawCaptureLedgerNotes": [],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/wide-run2-order1-result-stable.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 44591,
+      "sha256": "3359a688d0349fc6c84e570b31d399c995424b2c61d1f7eed278f984680cb52c",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:29:58.166Z",
+          "rawNote": "1280x720 replay run order 1, actual settled result: 950 points, 5.6 seconds, zero mistakes, 3 stars. Earlier similarly named capture was pending animation."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/wide-run2-order1-result.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 53405,
+      "sha256": "afcf8621b67554e9719c7975fd5d966c816eb65dbf21dc564970ad7a1a2d5ada",
+      "evidenceRole": "misnamed-in-progress",
+      "visibleState": "Replay-run order1 gameplay1/3,4.9seconds,0mistakes; not settlement",
+      "correction": "Use the separately retained stable result for950points/5.6seconds/0mistakes/3stars.",
+      "reliableReplacement": "wide-run2-order1-result-stable.jpg",
+      "annotationBasis": "Direct original-image inspection plus explicitly reported root operations; raw ledger retained without rewriting",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:24:58.972Z",
+          "rawNote": "Secondwideactualorder1; soundoff."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/wide-run2-order2-result.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 44697,
+      "sha256": "0eff0beb93ef9cbcf511f2a2bd6bde51830cf98f6f49776c0b9f4f629e0856e1",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:30:47.902Z",
+          "rawNote": "1280x720 replay run order 2: 840 points, 16.6 seconds, 0 mistakes, 3 stars."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/wide-run2-order3-result.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 44703,
+      "sha256": "c9cb78596f6d5b12aedf4ee16fbbf817dc56daa871ed42976adb0e9d58c655ff",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:31:19.533Z",
+          "rawNote": "1280x720 replay run order 3 actual result: 850 points, 15.2 seconds, zero mistakes."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/wide-run2-order4-result.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 44621,
+      "sha256": "fa78888038aba12cae426896535747e499413d70a5f2433169b17e3affb4148e",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:32:23.321Z",
+          "rawNote": "1280x720 replay run order 4 actual result: 740 points, 26.9 seconds, 0 mistakes, 2 stars."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/wide-run2-order5-result.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 44568,
+      "sha256": "e5afc1f4336f3661649d46246793590c7c1a6637e5baf6df73a8ccc1b384fe01",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:32:48.979Z",
+          "rawNote": "1280x720 replay run order 5: 850 points, 15.7 seconds, 0 mistakes, 3 stars."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/wide-run2-order6-result.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 44676,
+      "sha256": "f46031fcd4d0c93dfb2d9dddb698601d19a504b7ced025696f20911ae1774093",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:33:20.899Z",
+          "rawNote": "1280x720 replay run order 6, both steps complete: 760 points, 24.2 seconds, zero mistakes."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/wide-run2-order7-result.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 44544,
+      "sha256": "de74dbb55f8c38aa25808e7141f884fee7778678a97fef3333693bf4d5c6a62c",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:34:04.757Z",
+          "rawNote": "1280x720 replay run order 7: 760 points, 24.4 seconds, zero mistakes."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v21/screenshots/wide-run2-order8-result.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 44611,
+      "sha256": "9a6f4b067ca5f78fec912ef25e2f0f0335d4ce7ce5c4149497eebc3c942b74a5",
+      "evidenceRole": "preview-capture",
+      "rawCaptureLedgerNotes": [
+        {
+          "time": "2026-10-15T13:34:40.252Z",
+          "rawNote": "1280x720 replay run order 8, two steps complete: 730 points, 27.1 seconds, zero mistakes."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    }
+  ],
+  "sourceProtection": {
+    "comparedBeforeAndAfter": 158,
+    "sourceChanges": []
+  }
+}

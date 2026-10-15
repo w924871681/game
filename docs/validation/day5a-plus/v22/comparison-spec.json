@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-15T16:21:21.204444+00:00",
+  "scope": "Native390x844 original-image review; actual natural progress, no pixel or scoring edits",
+  "pairs": [
+    {
+      "key": "clean-horizontal57",
+      "after": "clean-horizontal57-v22-390x844.jpg",
+      "afterState": "57% / 16 of 28",
+      "reviewedOriginal": true,
+      "observationBasis": "Agent directly viewed V21 and V22 complete390x844 source JPGs; root reported actual input path",
+      "pathDifference": "Both use long horizontal wiping; natural sampling/timing differ, not identical-input replay.",
+      "remainingDifference": "A broad horizontal wiped band remains; soft-edge improvement is modest, not complete elimination."
+    },
+    {
+      "key": "clean-diagonal57",
+      "after": "clean-diagonal57-v22-390x844.jpg",
+      "afterState": "57% / 16 of 28",
+      "reviewedOriginal": true,
+      "observationBasis": "Agent directly viewed V21 and V22 complete390x844 source JPGs; root reported actual input path",
+      "pathDifference": "Both follow the four-segment diagonal/arc route; natural sampling/timing may differ.",
+      "remainingDifference": "Scattered local residual dust remains; no visible logical grid or newly hard-edged row cut."
+    },
+    {
+      "key": "clean-local-repeat",
+      "after": "clean-diagonal-local-repeat57-v22-390x844.jpg",
+      "afterState": "57% after local repeat",
+      "reviewedOriginal": true,
+      "observationBasis": "Agent directly viewed V21 and V22 complete390x844 source JPGs; root reported actual input path",
+      "pathDifference": "Both are local back-and-forth checks following diagonal/arc wiping; timers differ.",
+      "remainingDifference": "Repeated local motion retains57%; compare the paired current pre/post keyboard pixels separately."
+    },
+    {
+      "key": "clean96",
+      "after": "clean-horizontal96-v22-390x844.jpg",
+      "afterState": "96% / 27 of 28",
+      "reviewedOriginal": true,
+      "observationBasis": "Agent directly viewed V21 and V22 complete390x844 source JPGs; root reported actual input path",
+      "pathDifference": "V21 follows diagonal/arc+dabs; V22 follows horizontal+dabs. Same true progress, different routes.",
+      "remainingDifference": "Residual dust location differs with input; this is not equal-path or pixel-removal-rate evidence."
+    },
+    {
+      "key": "order8-four-items",
+      "after": "order8-four-items-v22-390x844.jpg",
+      "afterState": "0 / 4 placed",
+      "reviewedOriginal": true,
+      "observationBasis": "Agent directly viewed V21 and V22 complete390x844 source JPGs; root reported actual input path",
+      "pathDifference": "Same formal order and four stable devices, with different natural elapsed time.",
+      "remainingDifference": "Larger outlined short captions improve separation; sprites and real hitboxes are different layers."
+    },
+    {
+      "key": "order9-three-cross",
+      "after": "order9-three-cross-v22-390x844.jpg",
+      "afterState": "3 / 4 connected",
+      "reviewedOriginal": true,
+      "observationBasis": "Agent directly viewed V21 and V22 complete390x844 source JPGs; root reported actual input path",
+      "pathDifference": "Both show motherboard/CPU/disk connected and fan still unconnected; natural times differ.",
+      "remainingDifference": "Three real success lamps/curves; no fourth-success or unobstructed4/4 claim."
+    },
+    {
+      "key": "order9-four-cables-before",
+      "after": "order9-four-cables-before-v22-390x844.jpg",
+      "afterState": "0 / 4 connected",
+      "reviewedOriginal": true,
+      "observationBasis": "Agent directly viewed V21 and V22 complete390x844 source JPGs; root reported actual input path",
+      "pathDifference": "Same four formal cables/ports and initial connection count; timers differ.",
+      "remainingDifference": "Head captions above and port captions below keep both labels without moving real input roots."
+    },
+    {
+      "key": "order9-four-items",
+      "after": "order9-four-items-v22-390x844.jpg",
+      "afterState": "0 / 4 placed",
+      "reviewedOriginal": true,
+      "observationBasis": "Agent directly viewed V21 and V22 complete390x844 source JPGs; root reported actual input path",
+      "pathDifference": "Same four computer parts and stable target mapping; natural elapsed time differs.",
+      "remainingDifference": "Short captions stay visible and separated from sprites; business names remain in original catalog."
+    },
+    {
+      "key": "order5-0of3",
+      "after": "order5-0of3-v22-390x844.jpg",
+      "afterState": "0 / 3 connected",
+      "reviewedOriginal": true,
+      "observationBasis": "Agent directly viewed V21 and V22 complete390x844 source JPGs; root reported actual input path",
+      "pathDifference": "Both show all three available cables and zero recorded successes; times differ.",
+      "remainingDifference": "No fixed successful wire or prematurely lit success lamp at0/3."
+    },
+    {
+      "key": "order5-1of3",
+      "after": "order5-1of3-v22-390x844.jpg",
+      "afterState": "1 / 3 connected",
+      "reviewedOriginal": true,
+      "observationBasis": "Agent directly viewed V21 and V22 complete390x844 source JPGs; root reported actual input path",
+      "pathDifference": "Both show the blue display cable connected; timers differ.",
+      "remainingDifference": "Exactly one successful blue line/lamp; head and display-port labels remain separately readable."
+    }
+  ]
+}

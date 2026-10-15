@@ -1,0 +1,23 @@
+{
+  "performedAtUtc": "2026-10-14T17:07:40.560Z",
+  "checkedFiles": 288,
+  "invalidUtf8": [],
+  "trailingWhitespace": [],
+  "missingFinalNewline": [
+    "assets/prefabs/elements/Cable.prefab",
+    "assets/prefabs/elements/DirtCell.prefab",
+    "assets/prefabs/elements/DragItem.prefab",
+    "assets/prefabs/elements/DragTarget.prefab",
+    "assets/prefabs/elements/Port.prefab",
+    "assets/prefabs/stages/CableConnectStage.prefab",
+    "assets/prefabs/stages/CleanSwipeStage.prefab",
+    "assets/prefabs/stages/DragMatchStage.prefab",
+    "assets/scenes/Game.scene"
+  ],
+  "authoredMissingFinalNewline": [],
+  "conflictMarkers": [],
+  "personalPaths": [],
+  "passed": true,
+  "nativeSerializationEofException": "Creator Scene, Prefab and meta serialization is preserved; exact missing-newline paths are reported.",
+  "scope": "Point-in-time rg-visible project text, honoring .gitignore and excluding .git; screenshots/audio/PNG excluded. Later parent-owned documentation edits require their own final scan."
+}

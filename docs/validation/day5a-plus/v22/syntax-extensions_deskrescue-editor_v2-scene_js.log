@@ -1,0 +1,2 @@
+{"label": "syntax-extensions_deskrescue-editor_v2-scene_js", "command": ["C:\\Program Files\\nodejs\\node.EXE", "--check", "extensions/deskrescue-editor/v2-scene.js"], "cwd": "D:/game", "startedAtUtc": "2026-10-15T15:56:21.961263+00:00", "endedAtUtc": "2026-10-15T15:56:22.011421+00:00", "exitCode": 0}
+

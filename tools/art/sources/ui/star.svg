@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+<title>DeskRescue original ui/star</title>
+<polygon points="64.00,18.00 78.69,49.77 113.45,53.93 87.78,77.73 94.56,112.07 64.00,95.00 33.44,112.07 40.22,77.73 14.55,53.93 49.31,49.77" fill="#dda247" fill-opacity="1.0000" stroke="none" stroke-width="0" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="64.00,13.00 78.69,44.77 113.45,48.93 87.78,72.73 94.56,107.07 64.00,90.00 33.44,107.07 40.22,72.73 14.55,48.93 49.31,44.77" fill="#ffbe58" fill-opacity="1.0000" stroke="#e5a340" stroke-opacity="1.0000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="64.00,27.00 57.00,45.00 37.00,49.00" fill="none" stroke="#ffe8a9" stroke-opacity="1.0000" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

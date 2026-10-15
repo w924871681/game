@@ -1,0 +1,185 @@
+{
+  "ok": true,
+  "phase": "full",
+  "timestamp": "2026-10-14T17:33:03.118Z",
+  "sceneUuid": "ef51aae5-f3a0-4ba5-9918-6d84e400d36f",
+  "hostUuid": "b8jPFtT3BFVbZ+zyBrvTxe",
+  "registryKeys": [
+    "devices/mouse",
+    "devices/keyboard",
+    "devices/headset",
+    "ports/power-head",
+    "ports/power-port",
+    "ports/display-head",
+    "ports/display-port",
+    "ports/network-head",
+    "ports/network-port",
+    "workbench/keyboard-clean",
+    "dirt/dust",
+    "ui/card",
+    "ui/button",
+    "ui/check",
+    "ui/star",
+    "ui/star-empty",
+    "ui/sound-on",
+    "ui/sound-off",
+    "devices/power",
+    "devices/network",
+    "devices/usb",
+    "devices/router",
+    "devices/controller",
+    "devices/speaker",
+    "devices/battery",
+    "devices/wheel",
+    "devices/microphone",
+    "devices/camera",
+    "devices/light",
+    "devices/soundcard",
+    "devices/fan",
+    "devices/memory",
+    "devices/drive",
+    "devices/gpu",
+    "ports/audio-head",
+    "ports/audio-port",
+    "ports/usb-head",
+    "ports/usb-port",
+    "ports/motherboard-head",
+    "ports/motherboard-port",
+    "ports/cpu-head",
+    "ports/cpu-port",
+    "ports/sata-head",
+    "ports/sata-port",
+    "ports/fan-head",
+    "ports/fan-port",
+    "workbench/mouse-clean",
+    "workbench/case-clean",
+    "workbench/home-hero"
+  ],
+  "classes": {
+    "LevelManager": "9c83cUZ7jJFqIYVj2Lnpn1H",
+    "RunController": "03dedAkeUJAHaCj+asn7SXG",
+    "GameController": "ad134sCDVxPrK99BTzoLoxl",
+    "StageHost": "b9b07S2IuBIoJ6NcDxKMZHI",
+    "DraggableItem": "3780awqOxhEPqgzYt6SXuvJ",
+    "CableConnector": "6b208drtWRN2p8YAULxM9XN",
+    "DragMatchStageController": "5a942JfarhBYYM+JSqrluNf",
+    "CableConnectStageController": "7b02eDuSJZBXJDBqfXYhWIL",
+    "CleanSwipeStageController": "9d4cdHas3NPQqAPoPPrLlqN",
+    "HomeController": "9cf719cvNVMZbnmtSq5YnDj",
+    "AudioFeedback": "16748HaxwZPZaUYthGa+BFh",
+    "ResultStars": "60b23AebJ9AlqMucCBr2zYV",
+    "VisualAssetRegistry": "450356OYQFLFbZG/bOIEVmD",
+    "ElementVisual": "4291f17TeBI0aGbsIUy5pHe",
+    "CleanDeviceVisual": "b08cb2FwCdNRYiSw57QVRXX"
+  },
+  "autoStartOnSceneLoad": false,
+  "slicePreview": false,
+  "orders": [
+    {
+      "id": 1,
+      "key": "day3-1",
+      "stages": [
+        {
+          "id": "drag-1",
+          "kind": "drag-match"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "key": "day3-2",
+      "stages": [
+        {
+          "id": "drag-2",
+          "kind": "drag-match"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "key": "day3-3",
+      "stages": [
+        {
+          "id": "drag-3",
+          "kind": "drag-match"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "key": "keyboard-clean",
+      "stages": [
+        {
+          "id": "keyboard-clean",
+          "kind": "clean-swipe"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "key": "computer-cables",
+      "stages": [
+        {
+          "id": "computer-cables",
+          "kind": "cable-connect"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "key": "mouse-maintenance",
+      "stages": [
+        {
+          "id": "shell-clean",
+          "kind": "clean-swipe"
+        },
+        {
+          "id": "mouse-parts",
+          "kind": "drag-match"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "key": "router-cables",
+      "stages": [
+        {
+          "id": "router-cables",
+          "kind": "cable-connect"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "key": "streaming-desk",
+      "stages": [
+        {
+          "id": "streaming-devices",
+          "kind": "drag-match"
+        },
+        {
+          "id": "streaming-cables",
+          "kind": "cable-connect"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "key": "computer-repair",
+      "stages": [
+        {
+          "id": "case-clean",
+          "kind": "clean-swipe"
+        },
+        {
+          "id": "case-cables",
+          "kind": "cable-connect"
+        },
+        {
+          "id": "case-parts",
+          "kind": "drag-match"
+        }
+      ]
+    }
+  ]
+}

@@ -4,6 +4,9 @@ import { CableConnector, cableStyleColor } from '../gameplay/CableConnector';
 import type { CableCallbacks } from '../gameplay/CableConnector';
 import { ElementPool } from './ElementPool';
 import type { StageCallbacks, StageProgress, StageRuntime } from './StageRuntime';
+import { VisualAssetRegistry } from '../visuals/VisualAssetRegistry';
+import { ElementVisual } from '../visuals/ElementVisual';
+import { cableVisualKey } from '../visuals/VisualCatalog';
 
 const { ccclass, property } = _decorator;
 
@@ -24,6 +27,9 @@ export class CableConnectStageController extends Component implements StageRunti
     private completedCount: number = 0;
     private complete: boolean = false;
     private inputEnabled: boolean = false;
+    private visualAssets: VisualAssetRegistry | null = null;
+
+    public bindVisualAssets(assets: VisualAssetRegistry | null): void { this.visualAssets = assets; }
 
     public get progress(): StageProgress {
         return Object.freeze({ completed: this.completedCount, total: this.definition?.cables.length ?? 0 });
@@ -64,7 +70,7 @@ export class CableConnectStageController extends Component implements StageRunti
         this.generation += 1;
         this.callbacks = callbacks;
         for (const connector of this.connectors) {
-            connector.resumeConnector(this.connectorCallbacks());
+            connector.resumeConnector(this.connectorCallbacks(connector.head, connector.currentPort));
         }
         callbacks.onProgress(this.progress);
     }
@@ -112,7 +118,16 @@ export class CableConnectStageController extends Component implements StageRunti
             if (portSprite) {
                 portSprite.color = cableStyleColor(cable.style);
             }
-            connector.configure(port, cable.snapDistance, cable.style, this.connectorCallbacks());
+            connector.configure(port, cable.snapDistance, cable.style, this.connectorCallbacks(connector.head, port));
+            if (this.visualAssets) {
+                const portKey = cableVisualKey(definition.id, cable.id, 'port');
+                const headKey = cableVisualKey(definition.id, cable.id, 'head');
+                const portVisual = port.getComponent(ElementVisual);
+                const headVisual = connector.head.getComponent(ElementVisual);
+                if (!portVisual || !headVisual) throw new Error('[CableConnectStage] ElementVisual bindings are missing.');
+                portVisual.configure(this.visualAssets.requireFrame(portKey), portKey, cable.portLabel, 130, 80, false);
+                headVisual.configure(this.visualAssets.requireFrame(headKey), headKey, cable.cableLabel, 130, 80, false);
+            }
             this.connectors.push(connector);
             port.active = true;
             cableNode.active = true;
@@ -121,6 +136,7 @@ export class CableConnectStageController extends Component implements StageRunti
     }
 
     private configureVisual(node: Node, text: string): void {
+        node.getComponent(ElementVisual)?.hideArtwork();
         const transform = node.getComponent(UITransform);
         const label = node.getComponentInChildren(Label);
         if (!transform || !label) {
@@ -131,7 +147,7 @@ export class CableConnectStageController extends Component implements StageRunti
         label.string = text;
     }
 
-    private connectorCallbacks(): CableCallbacks {
+    private connectorCallbacks(head: Node | null = null, port: Node | null = null): CableCallbacks {
         const generation = this.generation;
         let reported = false;
         return {
@@ -140,6 +156,8 @@ export class CableConnectStageController extends Component implements StageRunti
                     return;
                 }
                 reported = true;
+                head?.getComponent(ElementVisual)?.showComplete();
+                port?.getComponent(ElementVisual)?.showComplete();
                 this.completedCount += 1;
                 const complete = this.completedCount === this.definition?.cables.length;
                 if (complete) {

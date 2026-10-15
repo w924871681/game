@@ -1,0 +1,13 @@
+{
+  "label": "baseline-cocos-types",
+  "command": [
+    "npm.cmd",
+    "run",
+    "check:cocos"
+  ],
+  "cwd": "D:\\game",
+  "startedAtUtc": "2026-10-15T15:10:38.255918+00:00",
+  "endedAtUtc": "2026-10-15T15:10:43.912493+00:00",
+  "exitCode": 0,
+  "log": "docs/validation/day5a-plus/v22/baseline-cocos-types.log"
+}

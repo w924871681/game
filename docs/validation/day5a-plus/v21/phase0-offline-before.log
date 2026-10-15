@@ -1,0 +1,23 @@
+{"mode": "baseline-before", "command": ["npm", "test"], "cwd": "D:/game-deliverables/V21_offline_phase0-offline-before_20261015T114845833086Z/project", "startedAtUtc": "2026-10-15T11:48:45.833086+00:00", "endedAtUtc": "2026-10-15T11:48:58.358432+00:00", "exitCode": 1, "typescriptPath": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\app.asar.unpacked\\node_modules\\typescript\\lib\\typescript.js", "typescriptVersion": "5.8.2"}
+
+> DeskRescue@0.0.5-alpha.2 test
+> node tools/verify-day1.cjs
+
+TypeScript 5.8.2: C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar.unpacked\node_modules\typescript\lib\typescript.js
+MOCKED HARNESS: no Cocos Preview, native engine build, rendering, or mini-game platform test is performed.
+FAIL Error: assets/scripts/visuals/V2CableLine.ts(28,116): error TS2339: Property 'r' does not exist on type 'Color'.
+assets/scripts/visuals/V2CableLine.ts(28,127): error TS2339: Property 'g' does not exist on type 'Color'.
+assets/scripts/visuals/V2CableLine.ts(28,138): error TS2339: Property 'b' does not exist on type 'Color'.
+assets/scripts/visuals/V2CableLine.ts(28,149): error TS2339: Property 'a' does not exist on type 'Color'.
+
+    at failDiagnostics (D:\game-deliverables\V21_offline_phase0-offline-before_20261015T114845833086Z\project\tools\verify-day1.cjs:72:11)
+    at compileAndLoad (D:\game-deliverables\V21_offline_phase0-offline-before_20261015T114845833086Z\project\tools\verify-day1.cjs:163:9)
+    at Object.<anonymous> (D:\game-deliverables\V21_offline_phase0-offline-before_20261015T114845833086Z\project\tools\verify-day1.cjs:1259:21)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+

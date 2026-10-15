@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-14T17:45:39.097Z",
+  "sceneAuditTimestampUtc": "2026-10-14T17:33:04.084Z",
+  "input": "Actual browser mouse clicks/drags; no game runtime mutation",
+  "style": "Final original nine-slice rounded card/button SpriteFrames",
+  "ratios": [
+    {
+      "width": 390,
+      "height": 844,
+      "scope": "Home sound off/on, orders 1-5 complete, all three kinds, wrong cable, clean 0/57/85/100%, results"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "scope": "Home/start, order1 three drags, result, next enters order2"
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "scope": "Full 9 orders / 13 stages, wrong drag+cable, summary, replay"
+    }
+  ],
+  "orders": [
+    {
+      "order": 1,
+      "steps": 1,
+      "seconds": 29.4,
+      "mistakes": 1,
+      "stars": 2,
+      "score": 610
+    },
+    {
+      "order": 2,
+      "steps": 1,
+      "seconds": 11.8,
+      "mistakes": 0,
+      "stars": 3,
+      "score": 890
+    },
+    {
+      "order": 3,
+      "steps": 1,
+      "seconds": 11,
+      "mistakes": 0,
+      "stars": 3,
+      "score": 900
+    },
+    {
+      "order": 4,
+      "steps": 1,
+      "seconds": 35.5,
+      "mistakes": 0,
+      "stars": 2,
+      "score": 650
+    },
+    {
+      "order": 5,
+      "steps": 1,
+      "seconds": 35.2,
+      "mistakes": 1,
+      "stars": 2,
+      "score": 550
+    },
+    {
+      "order": 6,
+      "steps": 2,
+      "seconds": 35.5,
+      "mistakes": 0,
+      "stars": 3,
+      "score": 650
+    },
+    {
+      "order": 7,
+      "steps": 1,
+      "seconds": 12.2,
+      "mistakes": 0,
+      "stars": 3,
+      "score": 880
+    },
+    {
+      "order": 8,
+      "steps": 2,
+      "seconds": 25.2,
+      "mistakes": 0,
+      "stars": 3,
+      "score": 750
+    },
+    {
+      "order": 9,
+      "steps": 3,
+      "seconds": null,
+      "mistakes": 0,
+      "stars": 3,
+      "score": 370,
+      "source": "Integer score/stars/mistakes derived from observed final run totals minus first eight results; final panel shows run total time only."
+    }
+  ],
+  "summary": {
+    "completedOrders": 9,
+    "completedStages": 13,
+    "earnedStars": 24,
+    "maxStars": 27,
+    "totalMistakes": 2,
+    "totalScore": 6250,
+    "displayedTotalSeconds": 259.2
+  },
+  "replay": {
+    "returnedToOrder": 1,
+    "stage": 1,
+    "progress": "0/3",
+    "mistakes": 0,
+    "displayedElapsedSeconds": 5.2,
+    "completionMarksVisible": false,
+    "homeVisible": false
+  },
+  "warnings": 0,
+  "errors": 0,
+  "limitations": [
+    "Natural displayed time includes tool/observation delays, not performance or player speed.",
+    "Final order individual time is not displayed; integer score/stars/mistakes derived from observed total minus first eight.",
+    "No physical touch, native TOUCH_CANCEL or mobile/platform claims."
+  ]
+}

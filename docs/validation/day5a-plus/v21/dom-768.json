@@ -1,0 +1,22 @@
+{
+  "canvas": [
+    {
+      "clip": "inset(0px 96px)",
+      "id": "GameCanvas",
+      "rect": {
+        "bottom": 1024,
+        "height": 1024,
+        "left": 0,
+        "right": 768,
+        "top": 0,
+        "width": 768,
+        "x": 0,
+        "y": 0
+      }
+    }
+  ],
+  "viewport": [
+    768,
+    1024
+  ]
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="302" height="139" viewBox="41 65 302 139">
+<!-- V2.1 tight viewBox crop of original tools/art/sources/devices/battery.svg; original drawing coordinates retained. -->
+<title>DeskRescue original devices/battery</title>
+<ellipse cx="195.5" cy="185.5" rx="140.5" ry="12.5" fill="#526779" fill-opacity="0.1333" stroke="none" stroke-width="0"/>
+<rect x="301" y="103" width="35" height="47" rx="8" fill="#d1d9cb" fill-opacity="1.0000" stroke="#263d50" stroke-opacity="1.0000" stroke-width="4"/>
+<rect x="47" y="71" width="263" height="106" rx="25" fill="#ffbe58" fill-opacity="1.0000" stroke="#263d50" stroke-opacity="1.0000" stroke-width="6"/>
+<rect x="49" y="73" width="76" height="102" rx="22" fill="#2eaaa8" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<polyline points="72.00,83.00 287.00,83.00" fill="none" stroke="#ffe1a1" stroke-opacity="1.0000" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="70.00,125.00 96.00,125.00" fill="none" stroke="#f8f3e9" stroke-opacity="1.0000" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="280.00,115.00 280.00,139.00" fill="none" stroke="#263d50" stroke-opacity="1.0000" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="268.00,127.00 292.00,127.00" fill="none" stroke="#263d50" stroke-opacity="1.0000" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="148.00,153.00 243.00,153.00" fill="none" stroke="#df9f40" stroke-opacity="1.0000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

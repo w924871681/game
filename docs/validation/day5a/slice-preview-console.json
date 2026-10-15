@@ -1,0 +1,18 @@
+{
+  "capturedAtUtc": "2026-10-14T16:54:17.142Z",
+  "phase": "slice",
+  "logs": [
+    {
+      "level": "warn",
+      "message": "[StageHost] Slice preview: drag-2 retains its Day 4 text appearance pending artwork.",
+      "timestamp": "2026-10-14T16:51:01.912Z",
+      "url": "http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js"
+    },
+    {
+      "level": "warn",
+      "message": "[StageHost] Slice preview: drag-3 retains its Day 4 text appearance pending artwork.",
+      "timestamp": "2026-10-14T16:51:20.184Z",
+      "url": "http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js"
+    }
+  ]
+}

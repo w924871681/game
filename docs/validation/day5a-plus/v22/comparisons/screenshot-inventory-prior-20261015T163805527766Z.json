@@ -1,0 +1,1233 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-15T16:33:36Z",
+  "scope": "docs/validation/day5a-plus/v22/screenshots",
+  "fileCount": 62,
+  "actualViewportDimensions": [
+    [
+      390,
+      844
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      1280,
+      720
+    ]
+  ],
+  "coverageBoundary": "File existence and names do not prove visual state, completed input, all-orders coverage or user art approval",
+  "failurePolicy": "Retain mistaken, stale, pending and timeout originals; append correction, never delete/rename/retouch a source image",
+  "ledgers": [
+    {
+      "path": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+      "bytes": 17795,
+      "sha256": "e498bd0e5710a4ab812ae85fa37ce65166b4e42e7aee01ba290e75853b945942"
+    }
+  ],
+  "adjudications": {
+    "path": "docs/validation/day5a-plus/v22/capture-adjudications.json",
+    "bytes": 7043,
+    "sha256": "f9e7301d27e80178f99e0521ad14b0faeb8de3a38e775f1840f157521ba26999"
+  },
+  "files": [
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/clean-diagonal-local-repeat57-v22-390x844.jpg",
+      "bytes": 47883,
+      "sha256": "3ffd401c4d0223575baf79509d4acfd29966f2028cef75ed00f244a3a9024a62",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "reviewed-natural-gameplay-original",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:02:39.409Z",
+          "rawNote": "Local back-and-forth on the accepted diagonal region remains real57percent; no duplicate logical count or dust regrowth observed."
+        }
+      ],
+      "visibleState": "57% after local repeat",
+      "correction": "Filename is descriptive only; this reviewed visible state is authoritative.",
+      "boundary": "Repeated local motion retains57%; compare the paired current pre/post keyboard pixels separately.",
+      "annotationBasis": "Explicit direct-original-image adjudication; original filename/bytes and raw ledger notes retained",
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/clean-diagonal-reset0-v22-390x844.jpg",
+      "bytes": 48341,
+      "sha256": "5af2eed9ffe06cbaa1a30b9abbc539720055a6b7c20ca38ac01487679a4b8ef0",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "reviewed-input-sequence-original",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:01:13.883Z",
+          "rawNote": "After Final Home -> Start and prior3 orders, order4 returns0percent with same seeded dirty artwork."
+        }
+      ],
+      "visibleState": "Second natural entry to Order4, true0%",
+      "boundary": "Does not by itself prove the whole run, rendering speed or physical touch.",
+      "annotationBasis": "Explicit direct-original-image adjudication; original filename/bytes and raw ledger notes retained",
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/clean-diagonal57-v22-390x844.jpg",
+      "bytes": 47845,
+      "sha256": "5d2efb0b2d23a55aeb745f31f7b69099bef4c591cdbed8c8aaa29ab5170b91d6",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "reviewed-natural-gameplay-original",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:01:52.962Z",
+          "rawNote": "Order4 observed57percent=16/28 after diagonal+three bent/arc segments, same viewport/order/progress as V21 reference but natural timings differ."
+        }
+      ],
+      "visibleState": "57% / 16 of 28",
+      "correction": "Filename is descriptive only; this reviewed visible state is authoritative.",
+      "boundary": "Scattered local residual dust remains; no visible logical grid or newly hard-edged row cut.",
+      "annotationBasis": "Explicit direct-original-image adjudication; original filename/bytes and raw ledger notes retained",
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/clean-horizontal-result-v22-390x844.jpg",
+      "bytes": 36638,
+      "sha256": "c78404a4f477c9671189eb1b00f34ffba7a9c555a633fa3868256880852cd60f",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:47:08.262Z",
+          "rawNote": "True28/28 completion, order4 real100points109.1seconds0mistakes1star; no score/time changes for screenshot."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/clean-horizontal0-v22-390x844.jpg",
+      "bytes": 49472,
+      "sha256": "f22c50be38f2e2f77cd90e57876495459a96b1aac5fb0066212fa55ad31576e5",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "reviewed-input-sequence-original",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:45:21.189Z",
+          "rawNote": "Order4 real0percent before accepted horizontal strokes."
+        }
+      ],
+      "visibleState": "Order4 before natural horizontal input, true0%",
+      "boundary": "Does not by itself prove the whole run, rendering speed or physical touch.",
+      "annotationBasis": "Explicit direct-original-image adjudication; original filename/bytes and raw ledger notes retained",
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/clean-horizontal57-v22-1280x720.jpg",
+      "bytes": 60740,
+      "sha256": "69efd1644b202526777acdc8ba6bcc7960351d08d2638573f19e32f1f2f7b5c4",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:29:17.096Z",
+          "rawNote": "Wide horizontal two rows true57 percent, zero mistakes."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/clean-horizontal57-v22-390x844.jpg",
+      "bytes": 47699,
+      "sha256": "fc531aca88955ec3e5727a6cbd7e3b103b58049cf4707d14d2812d6c29b8e8af",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "reviewed-natural-gameplay-original",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:45:40.994Z",
+          "rawNote": "Order4 observed57percent=16/28 after long horizontal strokes y475 and440. Natural clean band still exists; inspect edge against V21 original."
+        }
+      ],
+      "visibleState": "57% / 16 of 28",
+      "correction": "Filename is descriptive only; this reviewed visible state is authoritative.",
+      "boundary": "A broad horizontal wiped band remains; soft-edge improvement is modest, not complete elimination.",
+      "annotationBasis": "Explicit direct-original-image adjudication; original filename/bytes and raw ledger notes retained",
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/clean-horizontal57-v22-768x1024.jpg",
+      "bytes": 87777,
+      "sha256": "9cda3cd1072121586e793981c1e3a25ceca7a76ea37aeb8b48e582bf943fc0fb",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:15:18.338Z",
+          "rawNote": "Tablet stable 57 percent after two horizontal rows; prior transient 53 percent was not saved."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/clean-horizontal96-v22-390x844.jpg",
+      "bytes": 47391,
+      "sha256": "fb1350c51012b9d14b63baf51007131bae9893ca66c21a13ee73e210fb8f51c4",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "reviewed-natural-gameplay-original",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:46:46.308Z",
+          "rawNote": "Observed96percent=27/28 after third horizontal row and three top-cell dabs. Some residual dust remains; visual dust quantity is not logical percentage."
+        }
+      ],
+      "visibleState": "96% / 27 of 28",
+      "correction": "Filename is descriptive only; this reviewed visible state is authoritative.",
+      "boundary": "Residual dust location differs with input; this is not equal-path or pixel-removal-rate evidence.",
+      "annotationBasis": "Explicit direct-original-image adjudication; original filename/bytes and raw ledger notes retained",
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/clean-local-repeat57-v22-390x844.jpg",
+      "bytes": 47716,
+      "sha256": "afe4b5619e28dc463c0225fc6ca4410e198a094347b3bed0b64eb6b822aa65be",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "reviewed-input-sequence-original",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:46:06.637Z",
+          "rawNote": "After reverse/repeat of the same y440 horizontal track, actual progress remains57percent and visible dust does not regrow."
+        }
+      ],
+      "visibleState": "Order4 horizontal local repeat, true57%",
+      "boundary": "Does not by itself prove the whole run, rendering speed or physical touch.",
+      "annotationBasis": "Explicit direct-original-image adjudication; original filename/bytes and raw ledger notes retained",
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/clean0-v22-1280x720.jpg",
+      "bytes": 62687,
+      "sha256": "b6063648179170752f18b663960f9902c0a51466cdc4aa2376c5b8309f30d0c8",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:29:10.393Z",
+          "rawNote": "Complete wide run order4 true0."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/clean0-v22-768x1024.jpg",
+      "bytes": 90944,
+      "sha256": "c947eee227d3eb5f9c7ec38ac768ec83ff790aec8268e540701313551b3b45eb",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:11:23.668Z",
+          "rawNote": "Tablet order4 actual0percent."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/final-v22-1280x720.jpg",
+      "bytes": 71051,
+      "sha256": "da5c0f6dcd7ff31e64f327901fc5efcfdbce51b5cdf55b85cc28e7e106cedbd5",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "evidenceRole": "reviewed-complete-natural-run-summary",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:31:49.615Z",
+          "rawNote": "Complete wide run final actual9of9 orders13of13 steps27of27 stars7820points123.5seconds0mistakes."
+        }
+      ],
+      "visibleState": "9/9 orders,13/13 stages,27/27 stars,7820 points,123.5 seconds,0 mistakes",
+      "boundary": "Actual resumed full run. Earlier interrupted first-three-order images remain separate partial evidence.",
+      "annotationBasis": "Explicit direct-original-image adjudication; original filename/bytes and raw ledger notes retained",
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/final-v22-390x844.jpg",
+      "bytes": 55817,
+      "sha256": "45390f617fef6293cdd0439b012ec3341dc44a83028848216130fa7f12e5bf7f",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:55:37.611Z",
+          "rawNote": "Actual first full390 run9/9orders13/13steps17/27stars4210points613.0seconds0mistakes. All time/score natural."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/home-after-final-v22-390x844.jpg",
+      "bytes": 55460,
+      "sha256": "a77a4b29e325d3d3db4bfe20fb1f9f42338506663692a9248000bfaeea1316d2",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:56:44.099Z",
+          "rawNote": "Actual Final Home returned to unchanged Home, sound OFF retained."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/home-resumed-v22-1280x720.jpg",
+      "bytes": 70715,
+      "sha256": "d38eba7a5fcc8a93cd066572ca7c1bf851b69421b5f655c75d4ace9ac3cca7f9",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:28:15.513Z",
+          "rawNote": "Fresh complete wide run after browser session interruption; earlier order1-3 belong only to interrupted partial run."
+        }
+      ],
+      "byteIdenticalOtherFiles": [
+        "docs/validation/day5a-plus/v22/screenshots/home-v22-1280x720.jpg"
+      ]
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/home-v22-1280x720.jpg",
+      "bytes": 70715,
+      "sha256": "d38eba7a5fcc8a93cd066572ca7c1bf851b69421b5f655c75d4ace9ac3cca7f9",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:21:54.986Z",
+          "rawNote": "Wide fresh Home, full centered portrait content and mint side regions."
+        }
+      ],
+      "byteIdenticalOtherFiles": [
+        "docs/validation/day5a-plus/v22/screenshots/home-resumed-v22-1280x720.jpg"
+      ]
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/home-v22-390x844.jpg",
+      "bytes": 55473,
+      "sha256": "4f8933730226d1acdb1982e7def4e3035285da4250193c7ba566e1e9dc562454",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:42:18.735Z",
+          "rawNote": "Fresh390x844 Home; P2composition unchanged."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/home-v22-768x1024.jpg",
+      "bytes": 101324,
+      "sha256": "1db5f3f8976fd9d201a6c7af7c61cbc1dcd763947610076b2d099e0ea2c9bc8b",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:08:42.474Z",
+          "rawNote": "Fresh independent768x1024 Home after reload; original SHOW_ALL side letterbox retained."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order1-result-v22-1280x720.jpg",
+      "bytes": 46480,
+      "sha256": "8b9eddaec30d77bedde2809069717ce19bbf087f4cd6ab4db21c2d909ac11295",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "evidenceRole": "interrupted-partial-session-order-result",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:23:22.620Z",
+          "rawNote": "Wide actual result710 points29.1 seconds zero mistakes2stars."
+        }
+      ],
+      "visibleState": "Order1 result in earlier interrupted partial session",
+      "boundary": "Not joined to the resumed complete run. Use the distinct orderN-resumed-result originals plus subsequent chain for full-run evidence.",
+      "annotationBasis": "Explicit direct-original-image adjudication; original filename/bytes and raw ledger notes retained",
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order1-result-v22-390x844.jpg",
+      "bytes": 36639,
+      "sha256": "782e164f530ef07c0fae126dfacc3d2e5bcd99ea35d1569fffc1ce268d9e8a0b",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:43:28.923Z",
+          "rawNote": "Order1 real result530points47.8seconds0mistakes1star; P2 result layout retained."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order1-result-v22-768x1024.jpg",
+      "bytes": 64856,
+      "sha256": "b51661ea5979973fce5d628ad5e58637012d4f4ed82a30d35ac16e74322fe3db",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:09:26.408Z",
+          "rawNote": "Tablet actual order1 result770points23.5seconds0mistakes2stars."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order1-resumed-result-v22-1280x720.jpg",
+      "bytes": 46779,
+      "sha256": "dc7e3b82df0ad03c4498ab530a9575bd9b2ea4331e83fd6524a6cbcceadaddd7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "evidenceRole": "resumed-full-run-order-result",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:28:27.719Z",
+          "rawNote": "Complete wide run order1 950 points6.0seconds0mistakes3stars."
+        }
+      ],
+      "visibleState": "Order1 result in the newly started run that eventually reached9/9 and13/13",
+      "boundary": "Classification follows root actual input provenance; specific score/rating remain as shown in raw image and ledger.",
+      "annotationBasis": "Explicit direct-original-image adjudication; original filename/bytes and raw ledger notes retained",
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order1-start-v22-1280x720.jpg",
+      "bytes": 63249,
+      "sha256": "66ec7df85d63b53fa2a50ae27b469bb31ae7532fb0eee88ceb6b18779803341b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:22:40.068Z",
+          "rawNote": "Wide order1 starts 0 of3, zero mistakes, all root geometry unchanged."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order1-start-v22-390x844.jpg",
+      "bytes": 49467,
+      "sha256": "a7f3cacc72516f00bf4030ccb980b05322e7cd805542a353aab64126afc6f5ba",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:43:10.957Z",
+          "rawNote": "Actual first order0/3, zero mistakes, sound OFF; captures are natural elapsed time, not zero-time benchmarks."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order1-start-v22-768x1024.jpg",
+      "bytes": 90130,
+      "sha256": "fd9a28e4c0a65db522a53a752813193b80ecb754aaba0e60beac6f95e910a03a",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:09:05.175Z",
+          "rawNote": "Tablet first order0/3 at actual viewport768x1024."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order2-result-v22-1280x720.jpg",
+      "bytes": 46750,
+      "sha256": "9d20f807e7de963b74264053c6fa993634f662aa0ca9f1236aba12ce4f9cc744",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "evidenceRole": "interrupted-partial-session-order-result",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:23:51.896Z",
+          "rawNote": "Wide actual result810 points19.8 seconds zero mistakes3stars."
+        }
+      ],
+      "visibleState": "Order2 result in earlier interrupted partial session",
+      "boundary": "Not joined to the resumed complete run. Use the distinct orderN-resumed-result originals plus subsequent chain for full-run evidence.",
+      "annotationBasis": "Explicit direct-original-image adjudication; original filename/bytes and raw ledger notes retained",
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order2-result-v22-390x844.jpg",
+      "bytes": 36721,
+      "sha256": "db6b9a8c59c95fed8282903f14b04468ad07ed0e11f9ce65f8277b3e2ee221f8",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:44:21.715Z",
+          "rawNote": "Order2 real730points27.0seconds0mistakes2stars."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order2-resumed-result-v22-1280x720.jpg",
+      "bytes": 46907,
+      "sha256": "d6c09ec8d83ca1a079af03f420bde58b7e2bfb6db352086f886b78bd3763e75e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "evidenceRole": "resumed-full-run-order-result",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:28:52.525Z",
+          "rawNote": "Complete wide run order2 820points18.7seconds0mistakes3stars."
+        }
+      ],
+      "visibleState": "Order2 result in the newly started run that eventually reached9/9 and13/13",
+      "boundary": "Classification follows root actual input provenance; specific score/rating remain as shown in raw image and ledger.",
+      "annotationBasis": "Explicit direct-original-image adjudication; original filename/bytes and raw ledger notes retained",
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order3-result-v22-1280x720.jpg",
+      "bytes": 46866,
+      "sha256": "cdbbd6c662e16d4981b58fd9c6246d1c503e2e7f476d9c8baf3584c81e54fc00",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "evidenceRole": "interrupted-partial-session-order-result",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:24:46.050Z",
+          "rawNote": "Wide order3 result900 points10.2 seconds zero mistakes3stars."
+        }
+      ],
+      "visibleState": "Order3 result in earlier interrupted partial session",
+      "boundary": "Not joined to the resumed complete run. Use the distinct orderN-resumed-result originals plus subsequent chain for full-run evidence.",
+      "annotationBasis": "Explicit direct-original-image adjudication; original filename/bytes and raw ledger notes retained",
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order3-result-v22-390x844.jpg",
+      "bytes": 36865,
+      "sha256": "2713078b365898b6516df345f9941568a617eff505d59cfae6768ed09117f598",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:44:57.214Z",
+          "rawNote": "Order3 real820points18.8seconds0mistakes3stars."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order3-resumed-result-v22-1280x720.jpg",
+      "bytes": 46797,
+      "sha256": "46c28a7c5b5895a1b633b689e2671cffac6375f3aa86f3ff12ac1bdce9e7283d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "evidenceRole": "resumed-full-run-order-result",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:29:04.714Z",
+          "rawNote": "Complete wide run order3 940points6.2seconds0mistakes3stars."
+        }
+      ],
+      "visibleState": "Order3 result in the newly started run that eventually reached9/9 and13/13",
+      "boundary": "Classification follows root actual input provenance; specific score/rating remain as shown in raw image and ledger.",
+      "annotationBasis": "Explicit direct-original-image adjudication; original filename/bytes and raw ledger notes retained",
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order4-result-v22-1280x720.jpg",
+      "bytes": 47083,
+      "sha256": "ff9b5fe66a5427e3d567ccfbc18470e2968f403a2b1327533a9f38d8ed735171",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:29:26.015Z",
+          "rawNote": "Complete wide run order4 880points12.7seconds0mistakes3stars."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order4-result-v22-768x1024.jpg",
+      "bytes": 64933,
+      "sha256": "f4704fde0dd8d6a1af48cb701fec2fc96bf566e9d1f99710698b617c7392d824",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:15:48.900Z",
+          "rawNote": "Tablet order4 actual result 120 points, 88.3 seconds, zero mistakes."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order5-0of3-v22-390x844.jpg",
+      "bytes": 46598,
+      "sha256": "5385e3c202932de282635026dcdd67a3240168c29decf358fba508463182480a",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "reviewed-natural-gameplay-original",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:47:59.103Z",
+          "rawNote": "Order5 actual0/3. All3 Head labels above icons, Port labels below; no false successful curves."
+        }
+      ],
+      "visibleState": "0 / 3 connected",
+      "correction": "Filename is descriptive only; this reviewed visible state is authoritative.",
+      "boundary": "No fixed successful wire or prematurely lit success lamp at0/3.",
+      "annotationBasis": "Explicit direct-original-image adjudication; original filename/bytes and raw ledger notes retained",
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order5-0of3-v22-768x1024.jpg",
+      "bytes": 84584,
+      "sha256": "9acb794c33ad20e3b30c76758bd84004ae09aa992340b18a3823db8ef1b33075",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:15:59.788Z",
+          "rawNote": "Tablet order5 actual zero of three, saved after scene settled."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order5-1of3-v22-390x844.jpg",
+      "bytes": 46207,
+      "sha256": "6d8c440b9db3804065429e68e497fa462e0bd3b581c15351223ee65e5ffae2b8",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "reviewed-natural-gameplay-original",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:48:16.195Z",
+          "rawNote": "Order5 real1/3, only display connected with true lamp/check. Head显示线 above and Port显示口 below remain separately visible."
+        }
+      ],
+      "visibleState": "1 / 3 connected",
+      "correction": "Filename is descriptive only; this reviewed visible state is authoritative.",
+      "boundary": "Exactly one successful blue line/lamp; head and display-port labels remain separately readable.",
+      "annotationBasis": "Explicit direct-original-image adjudication; original filename/bytes and raw ledger notes retained",
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order5-1of3-v22-768x1024.jpg",
+      "bytes": 84486,
+      "sha256": "e4f73ccc300b83502a558218d54cb0e7d910db8764b9ee728919cefaf4347816",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:16:09.528Z",
+          "rawNote": "Tablet order5 actual one of three: display connected, power/network pending."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order5-result-v22-1280x720.jpg",
+      "bytes": 46752,
+      "sha256": "8046c2c87d40f03015f74b43c95731d191e0ca9d8ea2f2080f8519881450d11d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:29:39.956Z",
+          "rawNote": "Complete wide run order5 930points7.9seconds0mistakes3stars."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order5-result-v22-390x844.jpg",
+      "bytes": 36728,
+      "sha256": "a964fbe42639bf3582e2bfca9c8b23d2a95f545a61c0909273285446e7e09d2e",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:48:33.607Z",
+          "rawNote": "Order5 true3/3 opens result320points68.5seconds0mistakes1star."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order5-result-v22-768x1024.jpg",
+      "bytes": 64954,
+      "sha256": "359dd72d8405a1d931f6ea618467d889e38db7468d0ca4620b13c18dfbf58c86",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:16:22.019Z",
+          "rawNote": "Tablet scoped test ends after order5: actual 810 points,19.9 seconds,zero mistakes; not a full nine-order run."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order6-clean0-v22-390x844.jpg",
+      "bytes": 43532,
+      "sha256": "ad6d01270a221ce2419447879016f7925c014dbe95d5b8890e557967c310b4b1",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:48:51.102Z",
+          "rawNote": "New mouse clean stage0percent after keyboard stage completion; dust reset."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order6-result-v22-1280x720.jpg",
+      "bytes": 46993,
+      "sha256": "1de242d6a9cded2713042e053a1ac5b7bfffc60018ec3e5f9b7b08af739364a6",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:29:58.603Z",
+          "rawNote": "Complete wide run order6 880points12.7seconds0mistakes3stars two steps."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order6-result-v22-390x844.jpg",
+      "bytes": 36915,
+      "sha256": "56cce003359df017cf847a4603ba161ac41b026b360e943fa6faa5faaf40c73f",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:49:23.370Z",
+          "rawNote": "Order6 two steps completed660points34.2seconds0mistakes3stars."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order7-0of3-v22-390x844.jpg",
+      "bytes": 46109,
+      "sha256": "ffea0cb777bb5f2e836bff56cf8481df3bd19cadd0ca0d2a45fe7348c2adf799",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:49:42.158Z",
+          "rawNote": "Router original0/3, 入户网线/电脑网线 and WAN/LAN distinctions retained."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order7-2of3-v22-390x844.jpg",
+      "bytes": 47907,
+      "sha256": "557e58768827664e8edcc2533d21a9808956193d5c7e524c4c14afb576a1f333",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:50:25.555Z",
+          "rawNote": "Router real2/3; Head/Port captions separately visible on successful endpoints, last cable remains unconnected."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order7-result-v22-1280x720.jpg",
+      "bytes": 46606,
+      "sha256": "ca4966758c1bab64f454e624c0a7e9797fe9e507ddb76a343b9c2378d2987ca6",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:30:41.269Z",
+          "rawNote": "Complete wide run order7 910points9.0seconds0mistakes3stars."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order7-result-v22-390x844.jpg",
+      "bytes": 36856,
+      "sha256": "ef75da312f0763f37f2ddbf534e82f670d1b0f92ccf40c70d11e7aea2b02514a",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:50:48.865Z",
+          "rawNote": "Order7 true3/3 result380points62.5seconds0mistakes2stars."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order8-four-items-v22-1280x720.jpg",
+      "bytes": 63901,
+      "sha256": "ef46ab256eb29480a699407002d7a6c4e367056cc7646040e8c592d4c6cd28af",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:30:56.560Z",
+          "rawNote": "Wide actual four devices 0 of4 with shorter readable captions."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order8-four-items-v22-390x844.jpg",
+      "bytes": 50036,
+      "sha256": "dbc873854c0a3e263a46e23e3cfa80564fbd9a95047e53858e708fabfaddb4ff",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "reviewed-natural-gameplay-original",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:51:07.082Z",
+          "rawNote": "Order8 actual0/4: microphone,camera,ringlight,soundcard and all four matching short captions visible in original390pixels; root hitboxes unchanged."
+        }
+      ],
+      "visibleState": "0 / 4 placed",
+      "correction": "Filename is descriptive only; this reviewed visible state is authoritative.",
+      "boundary": "Larger outlined short captions improve separation; sprites and real hitboxes are different layers.",
+      "annotationBasis": "Explicit direct-original-image adjudication; original filename/bytes and raw ledger notes retained",
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order8-result-v22-1280x720.jpg",
+      "bytes": 46938,
+      "sha256": "4bb2a300fa4cfb7cc800995520c228254f74cff60b22c7bd004f00ecc3f392d2",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:31:10.471Z",
+          "rawNote": "Complete wide run order8 830points17.7seconds0mistakes3stars two steps."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order8-result-v22-390x844.jpg",
+      "bytes": 36876,
+      "sha256": "484dd4bfcaaa34b65c83adaa5a4405ef8156729aede49cbdac14cf47bcc7996d",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:51:57.686Z",
+          "rawNote": "Order8 real570points43.5seconds0mistakes3stars; both stages complete."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order8-two-cables-v22-390x844.jpg",
+      "bytes": 44282,
+      "sha256": "a14fd60f892d5e4f4da5bbbc8dec050542a459090b9f5fca18913a47e163c05c",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:51:31.902Z",
+          "rawNote": "Order8 actual step2/2,0/2. Microphone/camera labels and both distinct endpoints remain visible."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order9-clean0-v22-390x844.jpg",
+      "bytes": 51006,
+      "sha256": "b7f56db73f37488362e855a206a81f52020fa8c290308a1b05d5cab46428236f",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:54:16.845Z",
+          "rawNote": "Case clean begins0percent, third clean definition reset with unchanged geometry/threshold."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order9-four-cables-before-v22-1280x720.jpg",
+      "bytes": 61387,
+      "sha256": "6c2d16cc05889b833d2fe8d430581f6825b7ee5eb5a390e03bda74e077d6dffb",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:31:25.070Z",
+          "rawNote": "Wide order9 step2 actual0 of4 before any cable input."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order9-four-cables-before-v22-390x844.jpg",
+      "bytes": 47893,
+      "sha256": "8bfc5853bbb52ff3f02f435fa878bb19aacb7eeff207a8b4d9c1e21101251654",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "reviewed-natural-gameplay-original",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:54:39.358Z",
+          "rawNote": "Order9 actual0/4; original four input roots/port locations retained, display aliases only."
+        }
+      ],
+      "visibleState": "0 / 4 connected",
+      "correction": "Filename is descriptive only; this reviewed visible state is authoritative.",
+      "boundary": "Head captions above and port captions below keep both labels without moving real input roots.",
+      "annotationBasis": "Explicit direct-original-image adjudication; original filename/bytes and raw ledger notes retained",
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order9-four-items-v22-1280x720.jpg",
+      "bytes": 63286,
+      "sha256": "91ffb8b461d0c4586517a6fea15dac663ba83695801193e5188a1e56cdd53cf8",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:31:41.129Z",
+          "rawNote": "Wide order9 final step actual0 of4 fan memory drive GPU."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order9-four-items-v22-390x844.jpg",
+      "bytes": 49662,
+      "sha256": "78651cf20f350b887c55e9ff8fb0a38a7c1bfc1dc2734941fe99519250376aed",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "reviewed-natural-gameplay-original",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:55:18.459Z",
+          "rawNote": "Order9 step3/3 actual0/4; fan,memory,drive,GPU short captions fully visible on items and targets."
+        }
+      ],
+      "visibleState": "0 / 4 placed",
+      "correction": "Filename is descriptive only; this reviewed visible state is authoritative.",
+      "boundary": "Short captions stay visible and separated from sprites; business names remain in original catalog.",
+      "annotationBasis": "Explicit direct-original-image adjudication; original filename/bytes and raw ledger notes retained",
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order9-three-cross-v22-1280x720.jpg",
+      "bytes": 65276,
+      "sha256": "2c877828e6ad62c2b2babfa31801caaf1a65cfa5b15ada48f8b6d7ae445ef55b",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:31:33.422Z",
+          "rawNote": "Wide actual3 of4 three crossing cables; motherboard CPU SATA successful, fan still unconnected."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/order9-three-cross-v22-390x844.jpg",
+      "bytes": 50711,
+      "sha256": "27739c4b06b499b317e67e2e419b14d6361b7c9e3d4703b64a927f7fbf70557a",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "reviewed-natural-gameplay-original",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:54:59.659Z",
+          "rawNote": "Order9 actual3/4 with three successful red/blue/yellow curves, correct true lamps, CPU/主板/硬盘 Head labels above and Port labels below; fan remains unconnected."
+        }
+      ],
+      "visibleState": "3 / 4 connected",
+      "correction": "Filename is descriptive only; this reviewed visible state is authoritative.",
+      "boundary": "Three real success lamps/curves; no fourth-success or unobstructed4/4 claim.",
+      "annotationBasis": "Explicit direct-original-image adjudication; original filename/bytes and raw ledger notes retained",
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/replay-start-v22-1280x720.jpg",
+      "bytes": 62125,
+      "sha256": "d889270c9ab9efe98bdfb11fbb2917d012f01d041eaa7a1e733391653d512a52",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "evidenceRole": "reviewed-direct-replay-reset-original",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T16:32:00.937Z",
+          "rawNote": "Direct Replay reset confirmed order1of9 step1of1 counter0of3 mistakes0; not a second full run."
+        }
+      ],
+      "visibleState": "Order1/9,step1/1,counter0/3,0 mistakes,11.2 seconds elapsed",
+      "boundary": "Shows real replay reset after final, not an immediate zero-second screenshot or physical-touch claim.",
+      "annotationBasis": "Explicit direct-original-image adjudication; original filename/bytes and raw ledger notes retained",
+      "byteIdenticalOtherFiles": []
+    },
+    {
+      "path": "docs/validation/day5a-plus/v22/screenshots/start-after-home-v22-390x844.jpg",
+      "bytes": 48459,
+      "sha256": "a449fc528b6870bf1a1d9ec46bba2e0f754c21bc3ee1f0687ed84818d84b578a",
+      "dimensions": [
+        390,
+        844
+      ],
+      "evidenceRole": "unadjudicated-original-capture-not-proof-of-success",
+      "rawCaptureLedgerNotes": [
+        {
+          "sourceLedger": "docs/validation/day5a-plus/v22/preview-capture-ledger.json",
+          "time": "2026-10-15T15:57:59.369Z",
+          "rawNote": "Final Home -> Start accepted new order1 0/3, zero mistakes, OFF retained; subsequent run used to test diagonal reset."
+        }
+      ],
+      "byteIdenticalOtherFiles": []
+    }
+  ],
+  "sourceProtection": {
+    "comparedBeforeAndAfter": 174,
+    "changedSources": []
+  }
+}

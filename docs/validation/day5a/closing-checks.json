@@ -1,0 +1,655 @@
+{
+  "schemaVersion": 1,
+  "generatedAtUtc": "2026-10-14T17:54:42.741124+00:00",
+  "displayTimezone": "Asia/Shanghai",
+  "mode": "Read-only final text, document, actual artifact and snapshot consistency checks; behavior/types and real Editor checks are separately recorded",
+  "textHygiene": {
+    "checkedFiles": 299,
+    "serializedJsonFiles": 165,
+    "issues": [],
+    "nativeCreatorNoFinalNewlineExceptions": [
+      "assets/prefabs/elements/Cable.prefab",
+      "assets/prefabs/elements/DirtCell.prefab",
+      "assets/prefabs/elements/DragItem.prefab",
+      "assets/prefabs/elements/DragTarget.prefab",
+      "assets/prefabs/elements/Port.prefab",
+      "assets/prefabs/stages/CableConnectStage.prefab",
+      "assets/prefabs/stages/CleanSwipeStage.prefab",
+      "assets/prefabs/stages/DragMatchStage.prefab",
+      "assets/scenes/Game.scene"
+    ]
+  },
+  "markdown": {
+    "checkedFiles": 7,
+    "localLinks": 456,
+    "brokenLinks": []
+  },
+  "publicReadyTextScan": {
+    "scope": "Changed/new text files only; credential-pattern and local user-directory checks",
+    "credentialPatternFiles": [],
+    "personalUserDirectoryFiles": []
+  },
+  "automatedSnapshot": {
+    "checked": 59,
+    "mismatches": []
+  },
+  "historicalAndCatalogPreservation": {
+    "checked": 77,
+    "mismatches": []
+  },
+  "actualCreatorResourceSnapshot": {
+    "checked": 204,
+    "mismatches": [],
+    "auditPassed": 643,
+    "auditTotal": 643
+  },
+  "runtimeAssets": {
+    "checked": 56,
+    "bytes": 908479,
+    "mismatches": []
+  },
+  "editableSvgSources": {
+    "checked": 49,
+    "snapshot": "Current changed-files.json actual content SHA; source manifest provides source paths rather than historical source SHA",
+    "mismatches": []
+  },
+  "screenshots": {
+    "count": 70,
+    "failures": [],
+    "files": [
+      {
+        "path": "docs/validation/day5a/screenshots/before-after-comparison.jpg",
+        "width": 1560,
+        "height": 890,
+        "bytes": 189189,
+        "sha256": "a9fde14e4b583027ceaf77bc24ca3669401237ced61374c431796d723ab622d5"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/before-day4-start.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 16963,
+        "sha256": "849b0bf9957c018cdb396eb6c8d48a0cef9b2285c5aaad6d3126148396377c2f"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/cable-before-390x844.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 23360,
+        "sha256": "a9c868667b33854e3c9e94cc90d05650a087268be6835630d63a3c75099cbcec"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/cable-connected-1280x720.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 28795,
+        "sha256": "13bd34764f597c3b4d9433a6933d9b9c0856b9386e7f1f2d934c692bc078401e"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/cable-connected-390x844.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 22514,
+        "sha256": "ae1dbafd9b8430b824b2c3a96af149b7da9336e8c47d165a49c8a2dbac53366e"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/cable-result-390x844.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 23402,
+        "sha256": "05eb0dc45183be020ac377fce51ce9e7e9dbf2fdcfbcf13ffba8a4ea42780acb"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/cable-wrong-390x844.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 23371,
+        "sha256": "338f972d24f5f812f35d3feaf386515ce6eb4f1a3aac2c8055a9d4e734bb0574"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/clean-comparison.jpg",
+        "width": 1170,
+        "height": 890,
+        "bytes": 154085,
+        "sha256": "2b82f40d29825684bc57548fc7c06845c6cce33e906906659baab877285c500b"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/clean-dirty-1280x720.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 34491,
+        "sha256": "a076f7dc68f999a89886916e945a6fecf49c8d16c3b984bb77dd922937c1dbb9"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/clean-dirty-390x844.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 27291,
+        "sha256": "4d4eda6a4b231871f15d7bfe336fe6ba91be303b1d94aa0ed53791a9f151924f"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/clean-done-390x844.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 23868,
+        "sha256": "01344d82fe19342d0b932f490b6d75684270362ff9db6510673a3294f0226915"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/clean-half-1280x720.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 31305,
+        "sha256": "233b8848692b2a4d48da49d4dc90cfd7f9d4e330312acf03f62d908f0c27ae30"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/clean-half-390x844.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 24313,
+        "sha256": "c528e19a4bfa8615dc4d895e409e63e14bb78c7b058b7a392f15613fd693e04e"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/clean-nearly-390x844.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 23745,
+        "sha256": "a04fc3cf5dbfcf2a316cee3bcda20bb748775aa1a99e54ad07585d0427a1767c"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/drag-390x844.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 25827,
+        "sha256": "2f2eb0e34ad09030675baad4a54e2799287ca73aa3e125f64908749fb8f2fcc0"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/drag-768x1024.jpg",
+        "width": 768,
+        "height": 1024,
+        "bytes": 46519,
+        "sha256": "4c8e85118ab2a58240772e1323b0e3a0fea51ca509228a36c104cecd3ffc2829"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/drag-cables-390x844.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 24025,
+        "sha256": "8b5a91dd64873ac24293da8091890dd1160347373dfa7e2cb7d7204ed1b8d179"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/drag-devices-390x844.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 24396,
+        "sha256": "72b0f7ea6e1f8751c5838a4df5f06f6f59de11bd5edb757a0b94518f9150b253"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/drag-wrong-1280x720.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 32493,
+        "sha256": "62d70843b63aaa9b7a12208f351a834ad69f23e2a2a09881300b8ec0ab53f0e1"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/final-ready-home.jpg",
+        "width": 1049,
+        "height": 764,
+        "bytes": 33233,
+        "sha256": "f71d0828784ce7f12060d32a3d979f591c48528e89696390423fdfb62ffa504f"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/first-run-full-summary.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 32518,
+        "sha256": "a479fb233dd8e6f748ac6f5d938ca5281641ac0c39684abbcc1414168f8aac9d"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/first-run-order1-result.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 26619,
+        "sha256": "83754ff545f4eb34d173780ef0950434908eb416669e1b0c3860e6e6cae9fc4b"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/first-run-order2-result.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 26870,
+        "sha256": "8d118ab73b415111fac8f6bbf62d53510ba88fe3420224e7b47f241394d252f9"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/first-run-order3-result.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 26986,
+        "sha256": "6e1b8e6b37068f0274333c55cf04724b75be1e5ec54bb07ee77cf9dba0d5832e"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/first-run-order4-result.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 28298,
+        "sha256": "80a3b6b0567cbc5b13e93eb9b4f6d71ca93377e9185e01a229997b616f45a050"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/first-run-order5-result.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 27378,
+        "sha256": "ebb21bab9214c8916b303ea04b2012ced42383d9a67afad2a48003d9e995ee1d"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/first-run-order6-result.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 28391,
+        "sha256": "ba08fad796150cd39488407d3d5e618c3ac19647783fd8d27387c7eb30ac79c3"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/first-run-order7-result.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 27700,
+        "sha256": "882b25c9f7b05ecf8e46070c442801bb0b0a5484492ef41132ca7b32b77869ee"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/first-run-order8-result.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 29059,
+        "sha256": "3ec9fb0a12f4044638c9ae3bddfd46c8dcc597dddd74418e851249e4b89cc3fe"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/first-run-replay.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 29596,
+        "sha256": "84c44d02c152c2a2a2dcc6b33664d36c4645383249746e9fe329ed263a936bef"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/full-summary.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 33730,
+        "sha256": "154b9ccbf771c0a223345a6aea1b53b241429ce5d107970d5cadf9ab52359a4e"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/home-1280x720.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 31510,
+        "sha256": "7b0bf1abef1fb3070904c11df6c8edddbfa4b954fcc72317461abd82ecb733c8"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/home-390x844.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 23800,
+        "sha256": "daa00b6bf4cf52fbbae259433a0542147ab8449f821bcdb2ed0b79b2726af853"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/home-768x1024.jpg",
+        "width": 768,
+        "height": 1024,
+        "bytes": 42965,
+        "sha256": "b8af51b6c3c0c6ec92eb3ec73ea3e303f70e19ba4785f59d36c75115a13164ab"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/next-768x1024.jpg",
+        "width": 768,
+        "height": 1024,
+        "bytes": 42825,
+        "sha256": "8ed029ed8d4fbcbf04e94bfeb830dc6d42dd704df9ea6cf89cfc540883561ed6"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/order1-result.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 28516,
+        "sha256": "5edfa5e375d82739184e0f998cb2283ffb8a70c42bbefdfe91b84e5ed8ab4800"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/order2-result.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 28645,
+        "sha256": "8dc3d51047e7f93f2f437c8deaafd7f59b7ddf8a17f1ece223b0aa4d30c56b4a"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/order3-result.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 28806,
+        "sha256": "89db559da2bff1085f12bf829a56474a33e53d5888ccf93a414ec7ff190c65e7"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/order4-result.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 29244,
+        "sha256": "9445959c0ec8e2c4aca95671c180a076b15a02c343b68df22c57d163f891eb63"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/order5-result.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 28703,
+        "sha256": "baf9dbf78afbc7ff19d66daa64ee3fb0bc7ee8e47d1e1d353db3394326672278"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/order6-clean-dirty.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 27148,
+        "sha256": "ee49d45d3f9c79d4e69cf5ae8362abaff8e2c34638acc05a9228d553b5498760"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/order6-clean-half.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 26328,
+        "sha256": "a152947b8659cbca329cb58ec218b07f21f75b197b8405a4f8ee074d6b0fc699"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/order6-result.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 30214,
+        "sha256": "8e608526d6edb912aff4879e56273f6ebaac8512d55ee649d3016503ff6675a9"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/order6-stage2.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 27998,
+        "sha256": "c25cc46277aa035dcf4d0d0c45cfa92588c82dd87e9f4380beb403cfc2eb9bbc"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/order7-cables.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 28100,
+        "sha256": "598dbd490398ec18da58b59392c6fe02e3ff41eab27d0b3b454037063984d666"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/order7-result.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 29404,
+        "sha256": "ef8c111c983ce4e5f817ec1498f48e708876214bc33b51b0a0138fc2befc5025"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/order8-four-items.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 31421,
+        "sha256": "11693cd4aa5a4912a2710e7554d16f10ae3155785ee74ee0ea2b15c087dbd60c"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/order8-result.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 30841,
+        "sha256": "3d6e31ad6f396bf8ff9e13bed5c718817de01d1d0e384d5fd5dbe534ec784cbd"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/order8-stage2.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 27578,
+        "sha256": "61dff9e03d158d2f9d64d45cc17c6a21254c3ea5563601245caa8eebb34fa302"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/order9-clean-dirty.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 35439,
+        "sha256": "88528df19bfce79a34d2da2a7da962ef463ef93c99a1bc8c062850c4c84aa1d0"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/order9-clean-half.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 34565,
+        "sha256": "7e7f3cdb95def17216379e3a97d2ae13c47b13d4b671ae82fcb126a01fe527be"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/order9-complete.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 33730,
+        "sha256": "154b9ccbf771c0a223345a6aea1b53b241429ce5d107970d5cadf9ab52359a4e"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/order9-stage2.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 31608,
+        "sha256": "1d5e4ac22695fb0a660110cfd6c6d901005c65d183b1129de473eaf0615ecfde"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/order9-stage3.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 31599,
+        "sha256": "07a223600a2c188761c3c948a9270ca545e8b47be64461160ccc15b90fa9a81f"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/replay.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 30544,
+        "sha256": "75f94e159c9a7a9203a1f6938a92b0e9eeae9e69dee502e8625a72c456cec135"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/result-390x844.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 23349,
+        "sha256": "066dadbc0ebe1d47e1f98ab55f8874415694341bd56ec9cdb9260c424f0caeeb"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/result-768x1024.jpg",
+        "width": 768,
+        "height": 1024,
+        "bytes": 41539,
+        "sha256": "dee04d05f11809513b11e17e3d056cf7a37692af3783faae2294b4b86417d4a6"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/slice-cable-before-390x844.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 22922,
+        "sha256": "a56d3c73b6a2f1f6c575ee2c1daf4ad683f8e497d2eeda90abc665cee5ca7545"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/slice-cable-connected-390x844.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 21679,
+        "sha256": "3a891b9108017a1119daaca2ffdf299409da34a0508d73f77eeccaa73a943c68"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/slice-cable-result-390x844.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 21423,
+        "sha256": "cee4b54ccdd9208192213c7625a3636a9f2040c444bebee5fc99b03ca3f110cb"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/slice-cable-wrong-390x844.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 22958,
+        "sha256": "061d51605c7ca7c21fb84620cce0aba204849af9ce046a88d2e762d56e58b3ec"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/slice-clean-dirty-390x844.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 26862,
+        "sha256": "6a8c1a14f3bd81a62b4d44ab82b64f07370607a712758f16e0daaa313afbd8eb"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/slice-clean-done-390x844.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 21668,
+        "sha256": "f01622d0fc4e8257dfe12762c3816754227d36b7f174bdec7160123104c69a04"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/slice-clean-half-390x844.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 24007,
+        "sha256": "c8a43c78ae4e3365263cb9440f83d82113b8ee8ed51afa37b62a858fcc0136ae"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/slice-clean-nearly-390x844.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 23447,
+        "sha256": "32935515121b2edde49b6eab373d7d75279ba523f97a1adf2370db47220b31e7"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/slice-drag-390x844.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 24762,
+        "sha256": "68d4d97e8e0ad358932e9a49e0a1d5f52c4e1d1540521413cdc0c4506a5824c1"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/slice-home-390x844.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 22500,
+        "sha256": "1b34270cac8d567e645839a31114fe88c93a994759bc9e32b82418c919705c02"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/slice-result-390x844.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 21372,
+        "sha256": "d61c2534c26e2919ea8bc3cf30ede56055e44c2e7532c01271103ec22fc9b3df"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/sound-off-390x844.jpg",
+        "width": 390,
+        "height": 844,
+        "bytes": 23784,
+        "sha256": "f635c40e2573bc364852f3c2f7544d18db599680fb5887e0991df274cf9ec301"
+      },
+      {
+        "path": "docs/validation/day5a/screenshots/start-1280x720.jpg",
+        "width": 1280,
+        "height": 720,
+        "bytes": 32418,
+        "sha256": "0b5b46243fe46bf809eca02b89d82eb9f6f45b16f4ea35dacff29b4e2db6ce3d"
+      }
+    ]
+  },
+  "finalNaturalAudio": {
+    "events": 114,
+    "cues": [
+      {
+        "name": "clean_progress",
+        "started": 3,
+        "ended": 3
+      },
+      {
+        "name": "mistake",
+        "started": 2,
+        "ended": 2
+      },
+      {
+        "name": "order_complete",
+        "started": 8,
+        "ended": 8
+      },
+      {
+        "name": "run_complete",
+        "started": 1,
+        "ended": 1
+      },
+      {
+        "name": "snap_success",
+        "started": 31,
+        "ended": 31
+      },
+      {
+        "name": "stage_complete",
+        "started": 2,
+        "ended": 2
+      },
+      {
+        "name": "ui_click",
+        "started": 10,
+        "ended": 10
+      }
+    ],
+    "pairErrors": [],
+    "independentListeningOrRecording": false
+  },
+  "finalMousePreview": {
+    "path": "docs/validation/day5a/preview-final-skin.json",
+    "summary": {
+      "completedOrders": 9,
+      "completedStages": 13,
+      "earnedStars": 24,
+      "maxStars": 27,
+      "totalMistakes": 2,
+      "totalScore": 6250,
+      "displayedTotalSeconds": 259.2
+    },
+    "ledgerConsistent": true,
+    "ratios": [
+      {
+        "width": 390,
+        "height": 844,
+        "scope": "Home sound off/on, orders 1-5 complete, all three kinds, wrong cable, clean 0/57/85/100%, results"
+      },
+      {
+        "width": 768,
+        "height": 1024,
+        "scope": "Home/start, order1 three drags, result, next enters order2"
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "scope": "Full 9 orders / 13 stages, wrong drag+cable, summary, replay"
+      }
+    ],
+    "replay": {
+      "returnedToOrder": 1,
+      "stage": 1,
+      "progress": "0/3",
+      "mistakes": 0,
+      "displayedElapsedSeconds": 5.2,
+      "completionMarksVisible": false,
+      "homeVisible": false
+    }
+  },
+  "changedManifest": {
+    "changedFileCount": 329,
+    "modified": 23,
+    "new": 306,
+    "contentMismatches": [],
+    "fileSetMatchesGit": true,
+    "selfHashExclusions": [
+      "docs/validation/day5a/changed-files.json",
+      "docs/validation/day5a/closing-checks.json"
+    ]
+  },
+  "git": {
+    "branch": "feature/day5a-visual-playable",
+    "head": "ffde65700d6fa8c5ddd6daf2ca43e30dbdf3ee22",
+    "baselineHeadUnchanged": true,
+    "stagedFiles": [],
+    "diffCheckExitCode": 0,
+    "diffCheckOutput": "",
+    "shortBranchLine": "## feature/day5a-visual-playable",
+    "automaticCommitPush": false
+  },
+  "ok": true
+}

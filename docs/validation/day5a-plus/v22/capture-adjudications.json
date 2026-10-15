@@ -1,0 +1,117 @@
+{
+  "clean-horizontal57-v22-390x844.jpg": {
+    "evidenceRole": "reviewed-natural-gameplay-original",
+    "visibleState": "57% / 16 of 28",
+    "correction": "Filename is descriptive only; this reviewed visible state is authoritative.",
+    "boundary": "A broad horizontal wiped band remains; soft-edge improvement is modest, not complete elimination."
+  },
+  "clean-diagonal57-v22-390x844.jpg": {
+    "evidenceRole": "reviewed-natural-gameplay-original",
+    "visibleState": "57% / 16 of 28",
+    "correction": "Filename is descriptive only; this reviewed visible state is authoritative.",
+    "boundary": "Scattered local residual dust remains; no visible logical grid or newly hard-edged row cut."
+  },
+  "clean-diagonal-local-repeat57-v22-390x844.jpg": {
+    "evidenceRole": "reviewed-natural-gameplay-original",
+    "visibleState": "57% after local repeat",
+    "correction": "Filename is descriptive only; this reviewed visible state is authoritative.",
+    "boundary": "Repeated local motion retains57%; compare the paired current pre/post keyboard pixels separately."
+  },
+  "clean-horizontal96-v22-390x844.jpg": {
+    "evidenceRole": "reviewed-natural-gameplay-original",
+    "visibleState": "96% / 27 of 28",
+    "correction": "Filename is descriptive only; this reviewed visible state is authoritative.",
+    "boundary": "Residual dust location differs with input; this is not equal-path or pixel-removal-rate evidence."
+  },
+  "order8-four-items-v22-390x844.jpg": {
+    "evidenceRole": "reviewed-natural-gameplay-original",
+    "visibleState": "0 / 4 placed",
+    "correction": "Filename is descriptive only; this reviewed visible state is authoritative.",
+    "boundary": "Larger outlined short captions improve separation; sprites and real hitboxes are different layers."
+  },
+  "order9-three-cross-v22-390x844.jpg": {
+    "evidenceRole": "reviewed-natural-gameplay-original",
+    "visibleState": "3 / 4 connected",
+    "correction": "Filename is descriptive only; this reviewed visible state is authoritative.",
+    "boundary": "Three real success lamps/curves; no fourth-success or unobstructed4/4 claim."
+  },
+  "order9-four-cables-before-v22-390x844.jpg": {
+    "evidenceRole": "reviewed-natural-gameplay-original",
+    "visibleState": "0 / 4 connected",
+    "correction": "Filename is descriptive only; this reviewed visible state is authoritative.",
+    "boundary": "Head captions above and port captions below keep both labels without moving real input roots."
+  },
+  "order9-four-items-v22-390x844.jpg": {
+    "evidenceRole": "reviewed-natural-gameplay-original",
+    "visibleState": "0 / 4 placed",
+    "correction": "Filename is descriptive only; this reviewed visible state is authoritative.",
+    "boundary": "Short captions stay visible and separated from sprites; business names remain in original catalog."
+  },
+  "order5-0of3-v22-390x844.jpg": {
+    "evidenceRole": "reviewed-natural-gameplay-original",
+    "visibleState": "0 / 3 connected",
+    "correction": "Filename is descriptive only; this reviewed visible state is authoritative.",
+    "boundary": "No fixed successful wire or prematurely lit success lamp at0/3."
+  },
+  "order5-1of3-v22-390x844.jpg": {
+    "evidenceRole": "reviewed-natural-gameplay-original",
+    "visibleState": "1 / 3 connected",
+    "correction": "Filename is descriptive only; this reviewed visible state is authoritative.",
+    "boundary": "Exactly one successful blue line/lamp; head and display-port labels remain separately readable."
+  },
+  "clean-local-repeat57-v22-390x844.jpg": {
+    "evidenceRole": "reviewed-input-sequence-original",
+    "visibleState": "Order4 horizontal local repeat, true57%",
+    "boundary": "Does not by itself prove the whole run, rendering speed or physical touch."
+  },
+  "clean-horizontal0-v22-390x844.jpg": {
+    "evidenceRole": "reviewed-input-sequence-original",
+    "visibleState": "Order4 before natural horizontal input, true0%",
+    "boundary": "Does not by itself prove the whole run, rendering speed or physical touch."
+  },
+  "clean-diagonal-reset0-v22-390x844.jpg": {
+    "evidenceRole": "reviewed-input-sequence-original",
+    "visibleState": "Second natural entry to Order4, true0%",
+    "boundary": "Does not by itself prove the whole run, rendering speed or physical touch."
+  },
+  "final-v22-1280x720.jpg": {
+    "evidenceRole": "reviewed-complete-natural-run-summary",
+    "visibleState": "9/9 orders,13/13 stages,27/27 stars,7820 points,123.5 seconds,0 mistakes",
+    "boundary": "Actual resumed full run. Earlier interrupted first-three-order images remain separate partial evidence."
+  },
+  "replay-start-v22-1280x720.jpg": {
+    "evidenceRole": "reviewed-direct-replay-reset-original",
+    "visibleState": "Order1/9,step1/1,counter0/3,0 mistakes,11.2 seconds elapsed",
+    "boundary": "Shows real replay reset after final, not an immediate zero-second screenshot or physical-touch claim."
+  },
+  "order1-result-v22-1280x720.jpg": {
+    "evidenceRole": "interrupted-partial-session-order-result",
+    "visibleState": "Order1 result in earlier interrupted partial session",
+    "boundary": "Not joined to the resumed complete run. Use the distinct orderN-resumed-result originals plus subsequent chain for full-run evidence."
+  },
+  "order1-resumed-result-v22-1280x720.jpg": {
+    "evidenceRole": "resumed-full-run-order-result",
+    "visibleState": "Order1 result in the newly started run that eventually reached9/9 and13/13",
+    "boundary": "Classification follows root actual input provenance; specific score/rating remain as shown in raw image and ledger."
+  },
+  "order2-result-v22-1280x720.jpg": {
+    "evidenceRole": "interrupted-partial-session-order-result",
+    "visibleState": "Order2 result in earlier interrupted partial session",
+    "boundary": "Not joined to the resumed complete run. Use the distinct orderN-resumed-result originals plus subsequent chain for full-run evidence."
+  },
+  "order2-resumed-result-v22-1280x720.jpg": {
+    "evidenceRole": "resumed-full-run-order-result",
+    "visibleState": "Order2 result in the newly started run that eventually reached9/9 and13/13",
+    "boundary": "Classification follows root actual input provenance; specific score/rating remain as shown in raw image and ledger."
+  },
+  "order3-result-v22-1280x720.jpg": {
+    "evidenceRole": "interrupted-partial-session-order-result",
+    "visibleState": "Order3 result in earlier interrupted partial session",
+    "boundary": "Not joined to the resumed complete run. Use the distinct orderN-resumed-result originals plus subsequent chain for full-run evidence."
+  },
+  "order3-resumed-result-v22-1280x720.jpg": {
+    "evidenceRole": "resumed-full-run-order-result",
+    "visibleState": "Order3 result in the newly started run that eventually reached9/9 and13/13",
+    "boundary": "Classification follows root actual input provenance; specific score/rating remain as shown in raw image and ledger."
+  }
+}

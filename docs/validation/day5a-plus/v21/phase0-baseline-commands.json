@@ -1,0 +1,61 @@
+{
+  "timestamp": "2026-10-15T11:46:57.009728+00:00",
+  "ok": true,
+  "commands": [
+    {
+      "label": "phase0-baseline-npm",
+      "command": [
+        "npm",
+        "test"
+      ],
+      "cwd": "D:\\game",
+      "startedAtUtc": "2026-10-15T11:46:52.227632+00:00",
+      "endedAtUtc": "2026-10-15T11:46:56.997876+00:00",
+      "exitCode": 0,
+      "node": "v22.19.0",
+      "npm": "10.9.3",
+      "log": {
+        "path": "docs/validation/day5a-plus/v21/phase0-baseline-npm.log",
+        "bytes": 19162,
+        "sha256": "0f7147af7ab72cdb83a004563cf36e8aaa9f848cdf67c60952ef0108eb6edf69"
+      },
+      "typescriptOutput": [
+        "TypeScript 5.8.2: C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\app.asar.unpacked\\node_modules\\typescript\\lib\\typescript.js",
+        "TypeScript checking against real editor-generated Cocos SDK references (strict/noUnusedLocals/noUnusedParameters enabled; SDK self-validation is separate)."
+      ],
+      "behaviorGroups": [
+        "174"
+      ],
+      "sdkDiagnostics": [
+        "102"
+      ]
+    },
+    {
+      "label": "phase0-baseline-cocos",
+      "command": [
+        "npm",
+        "run",
+        "check:cocos"
+      ],
+      "cwd": "D:\\game",
+      "startedAtUtc": "2026-10-15T11:46:52.227876+00:00",
+      "endedAtUtc": "2026-10-15T11:46:56.000750+00:00",
+      "exitCode": 0,
+      "node": "v22.19.0",
+      "npm": "10.9.3",
+      "log": {
+        "path": "docs/validation/day5a-plus/v21/phase0-baseline-cocos.log",
+        "bytes": 1267,
+        "sha256": "af0ab663dd494c66c51d1750e137a051af38d7b9da8922623c954ee8aa769f2d"
+      },
+      "typescriptOutput": [
+        "TypeScript 5.8.2: C:\\ProgramData\\cocos\\editors\\Creator\\3.8.8\\resources\\app.asar.unpacked\\node_modules\\typescript\\lib\\typescript.js",
+        "TypeScript checking against real editor-generated Cocos SDK references (strict/noUnusedLocals/noUnusedParameters enabled; SDK self-validation is separate)."
+      ],
+      "behaviorGroups": [],
+      "sdkDiagnostics": [
+        "102"
+      ]
+    }
+  ]
+}

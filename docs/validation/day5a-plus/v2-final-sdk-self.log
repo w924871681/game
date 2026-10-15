@@ -1,0 +1,114 @@
+TypeScript 5.8.2: C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar.unpacked\node_modules\typescript\lib\typescript.js
+FAIL Error: C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts(30,25): error TS7010: 'setAccelerometerEnabled', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts(31,25): error TS7010: 'setAccelerometerInterval', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts(172,25): error TS7010: 'preload', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts(175,25): error TS7010: 'pause', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts(176,25): error TS7010: 'pauseAll', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts(177,25): error TS7010: 'resume', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts(178,25): error TS7010: 'resumeAll', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts(179,25): error TS7010: 'stop', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts(180,25): error TS7010: 'stopAll', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts(190,25): error TS7010: 'setVolume', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts(191,25): error TS7010: 'setLoop', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts(192,25): error TS7010: 'setCurrentTime', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts(194,25): error TS7010: 'uncache', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts(195,25): error TS7010: 'uncacheAll', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts(196,25): error TS7010: 'setErrorCallback', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts(197,25): error TS7010: 'setFinishCallback', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts(213,18): error TS2304: Cannot find name 'TypedArray'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts(214,17): error TS2304: Cannot find name 'TypedArray'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(38222,32): error TS2314: Generic type 'Map<T>' requires 1 type argument(s).
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(38280,37): error TS2314: Generic type 'Map<T>' requires 1 type argument(s).
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(38281,39): error TS2314: Generic type 'Map<T>' requires 1 type argument(s).
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(41113,22): error TS7008: Member '_bones' implicitly has an 'any' type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(41132,13): error TS7008: Member '_animation' implicitly has an 'any' type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(45181,24): error TS2304: Cannot find name 'GPUCanvasContext'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(45197,29): error TS2552: Cannot find name 'GPUDevice'. Did you mean 'WebGPUDevice'?
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(51993,17): error TS7010: 'resize', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(51994,17): error TS7010: 'set', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(51996,17): error TS7010: 'delete', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(53208,17): error TS7008: Member 'worldX' implicitly has an 'any' type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(53209,17): error TS7008: Member 'worldY' implicitly has an 'any' type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(53227,17): error TS7010: 'destroy', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(53228,17): error TS7010: 'initSkeleton', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(53229,17): error TS7010: 'getAnimationState', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(53231,17): error TS7010: 'setSkin', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(53232,17): error TS7010: 'setPremultipliedAlpha', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(53233,17): error TS7010: 'setColor', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(53234,17): error TS7010: 'setMix', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(53235,17): error TS7010: 'updateAnimation', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(53236,17): error TS7010: 'setUseTint', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(53237,17): error TS7010: 'clearEffect', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(53238,17): error TS7010: 'setJitterEffect', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(53239,17): error TS7010: 'setSwirlEffect', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(53240,17): error TS7010: 'updateRenderData', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(53241,17): error TS7010: 'setListener', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(53242,17): error TS7010: 'setDebugMode', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(53243,17): error TS7010: 'getDebugShapes', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(53244,17): error TS7010: 'resizeSlotRegion', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(53245,17): error TS7010: 'setSlotTexture', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(53255,24): error TS7010: 'registerSpineSkeletonDataWithUUID', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(53256,24): error TS7010: 'destroySpineSkeletonDataWithUUID', which lacks return-type annotation, implicitly has an 'any' return type.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(61894,55): error TS2833: Cannot find namespace '____private'. Did you mean '__private'?
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(61910,125): error TS2833: Cannot find namespace '____private'. Did you mean '__private'?
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(61959,33): error TS2304: Cannot find name '_Motion'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(61960,27): error TS2304: Cannot find name '_Motion'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(61962,47): error TS2833: Cannot find namespace '____private'. Did you mean '__private'?
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(61964,17): error TS2833: Cannot find namespace '____private'. Did you mean '__private'?
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(61967,33): error TS2833: Cannot find namespace '____private'. Did you mean '__private'?
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(61974,50): error TS2304: Cannot find name '_VariableDescription'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(61977,48): error TS2304: Cannot find name '_Motion'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(61978,54): error TS2503: Cannot find namespace '____private'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(61984,27): error TS2503: Cannot find namespace '____private'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(61987,21): error TS2503: Cannot find namespace '_poseGraphOp'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(61990,27): error TS2503: Cannot find namespace '_poseGraphOp'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(61992,28): error TS2503: Cannot find namespace '_poseGraphOp'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(61999,19): error TS2503: Cannot find namespace '____private'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(62000,20): error TS2304: Cannot find name '_PoseGraph'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(64833,52): error TS2307: Cannot find module 'pal/audio/type' or its corresponding type declarations.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(64841,58): error TS2307: Cannot find module 'pal/audio/type' or its corresponding type declarations.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(64849,80): error TS2307: Cannot find module 'pal/audio/type' or its corresponding type declarations.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(64864,32): error TS2307: Cannot find module 'pal/audio/type' or its corresponding type declarations.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(64869,33): error TS2307: Cannot find module 'pal/audio/type' or its corresponding type declarations.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(64897,61): error TS2307: Cannot find module 'pal/audio/type' or its corresponding type declarations.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(68133,60): error TS2307: Cannot find module 'pal/input/input-source' or its corresponding type declarations.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(68134,58): error TS2307: Cannot find module 'pal/input/input-source' or its corresponding type declarations.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(68135,59): error TS2307: Cannot find module 'pal/input/input-source' or its corresponding type declarations.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(68136,62): error TS2307: Cannot find module 'pal/input/input-source' or its corresponding type declarations.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(68137,65): error TS2307: Cannot find module 'pal/input/input-source' or its corresponding type declarations.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(69057,24): error TS2304: Cannot find name 'GPUBuffer'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(69097,25): error TS2304: Cannot find name 'GPUTexture'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(69104,35): error TS2304: Cannot find name 'GPUTextureView'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(69115,37): error TS2304: Cannot find name 'GPUTextureView'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(69123,25): error TS2304: Cannot find name 'GPUSampler'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(69146,50): error TS2304: Cannot find name 'GPUSampler'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(69182,19): error TS2304: Cannot find name 'GPUTextureView'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(69193,29): error TS2304: Cannot find name 'GPUTextureView'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(69221,19): error TS2304: Cannot find name 'GPUTextureView'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(69276,23): error TS2304: Cannot find name 'GPUQuerySet'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(69307,33): error TS2304: Cannot find name 'GPUQuerySet'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(69341,24): error TS2304: Cannot find name 'GPUBuffer'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(69426,21): error TS2304: Cannot find name 'GPUShaderModule'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(69631,30): error TS2304: Cannot find name 'GPUBindGroupLayout'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(69636,34): error TS2304: Cannot find name 'GPUBindGroupLayout'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(69639,35): error TS2304: Cannot find name 'GPUPipelineLayout'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(69649,21): error TS2304: Cannot find name 'GPUPipelineLayout'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(69899,48): error TS2304: Cannot find name 'GPUBindGroupLayout'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(69923,24): error TS2304: Cannot find name 'GPUBindGroup'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(69924,30): error TS2304: Cannot find name 'GPUBindGroupLayout'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(70022,21): error TS2304: Cannot find name 'GPUDevice'.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(75869,109): error TS2307: Cannot find module 'cc/editor/exotic-animation' or its corresponding type declarations.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(75870,155): error TS2307: Cannot find module 'cc/editor/embedded-player' or its corresponding type declarations.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(75871,60): error TS2307: Cannot find module 'cc/editor/new-gen-anim' or its corresponding type declarations.
+C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts(75872,26): error TS2307: Cannot find module 'cc/editor/serialization' or its corresponding type declarations.
+
+    at failDiagnostics (D:\game\tools\verify-day1.cjs:72:11)
+    at compileAndLoad (D:\game\tools\verify-day1.cjs:160:9)
+    at Object.<anonymous> (D:\game\tools\verify-day1.cjs:1259:21)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)

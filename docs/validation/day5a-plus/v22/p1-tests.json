@@ -1,0 +1,28 @@
+{
+  "command": "npm test",
+  "cwd": "D:/game",
+  "startedUtc": "2026-10-15T15:15:48.3278138Z",
+  "finishedUtc": "2026-10-15T15:15:53.6624375Z",
+  "exitCode": 0,
+  "log": "docs/validation/day5a-plus/v22/p1-tests.log",
+  "behaviorGroups": "224",
+  "newReadabilityGroups": 9,
+  "sourceSnapshot": [
+    {
+      "path": "assets/scripts/visuals/ElementVisual.ts",
+      "size": 7978,
+      "sha256": "6be9b7406a1afa7ccfe5eb9a563a72169fb42efc283185eebf3fc91ef40eff2b"
+    },
+    {
+      "path": "tools/verify-v22-readability.cjs",
+      "size": 16202,
+      "sha256": "c48b68cbf644d66600af14d9899f06d3bc7d651c951f28c01b9778c1f51482b3"
+    },
+    {
+      "path": "tools/verify-day1.cjs",
+      "size": 98528,
+      "sha256": "7d21ca22d5a2e3d2f6a74e32f58caf65bc54ed7a96e0d2c576ee9f72e9fc3865"
+    }
+  ],
+  "evidenceScope": "Finite mock executes compiled production components; not Preview pixels, real Tween interpolation or physical touch."
+}

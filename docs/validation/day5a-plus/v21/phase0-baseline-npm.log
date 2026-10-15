@@ -1,0 +1,196 @@
+{"label": "phase0-baseline-npm", "command": ["npm", "test"], "cwd": "D:\\game", "startedAtUtc": "2026-10-15T11:46:52.227632+00:00", "endedAtUtc": "2026-10-15T11:46:56.997876+00:00", "exitCode": 0, "node": "v22.19.0", "npm": "10.9.3"}
+
+> DeskRescue@0.0.5-alpha.2 test
+> node tools/verify-day1.cjs
+
+TypeScript 5.8.2: C:\ProgramData\cocos\editors\Creator\3.8.8\resources\app.asar.unpacked\node_modules\typescript\lib\typescript.js
+MOCKED HARNESS: no Cocos Preview, native engine build, rendering, or mini-game platform test is performed.
+SDK DECLARATION LIMITATION: 102 semantic diagnostics in installed Creator SDK .d.ts files are excluded from the project check (skipLibCheck remains false).
+  18: C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts
+  84: C:/ProgramData/cocos/editors/Creator/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts
+Use --cocos-types --check-sdk-declarations to make these SDK diagnostics fatal; no SDK or generated configuration is modified.
+PASS project strict TypeScript checking against real editor-generated Cocos SDK references (strict/noUnusedLocals/noUnusedParameters enabled; SDK self-validation is separate).
+PASS Day 4 compile contract (not a mock behavior group): union narrowing, readonly objects/arrays, and nonempty tuples reject invalid inputs.
+PASS actual Day1Prototype creates portrait UI, A/B/C components and matching bindings
+PASS all six A/B/C wrong-target combinations roll back without counting
+PASS distance exactly equal to snapDistance snaps; immediately outside rolls back
+PASS A/B/C success locks each item, counts once, and displays 1/3, 2/3, then done
+PASS TOUCH_CANCEL far from and near the correct target rolls back and never counts
+PASS touch ID 0 owns drag; foreign start/move/end/cancel cannot steal or finish it
+PASS release uses final pointer position even without a final TOUCH_MOVE
+PASS drag preserves grab offset and scale under different translated/rotated/nonuniform parents
+PASS disable cancels active drag; repeated disable/re-enable does not leak listeners
+PASS onDestroy explicitly unsubscribes all four handlers; destroyed component cannot count
+PASS missing target/controller bindings refuse drag without crashing or counting
+PASS Day 2: typed catalog contains the exact three orders, labels and decreasing snap radius
+PASS Day 2: beginLevel resets count and status, then notifies completion only once per level
+PASS Day 2: stable Inspector-bound scene loads every configured position, label and reference
+PASS Day 2: all three levels complete through item events and Next button without replacing nodes
+PASS Day 2: each new snap radius applies at its exact boundary; wrong target never counts
+PASS Day 2: pickup requests a small 0.08–0.12 second scale tween and permits movement
+PASS Day 2: snap delays lock/count until tween completion and blocks repeated input during settlement
+PASS Day 2: wrong return requests 0.15–0.22 seconds, rejects rapid reclicks, then becomes draggable
+PASS Day 2: configure stops pickup, snap and return; obsolete callbacks cannot mutate the new level
+PASS Day 2: direct configure independently replaces target/origin/radius and invalidates all owned callbacks
+PASS Day 2: animated snap keeps grab offset, transformed target coordinates and nonuniform baseline scale
+PASS Day 2: disable/destroy stop owned animations, unsubscribe input and reject stale completion
+PASS Day 2: completion panel plays the three-scale feedback and blocks all item input
+PASS Day 2: restart resets a completed level and cancels the old panel animation
+PASS Day 2: premature Next, invalid indices and rapid duplicate Next never skip or exceed the catalog
+PASS Day 2: Day1Prototype guard prevents a second UI when a formal LevelManager scene exists
+PASS Day 2: LevelManager unregisters Next and completion callbacks across disable and destroy
+PASS Day 2: re-enabling a completed manager keeps input locked until Next or Restart
+PASS Day 2: GameController never imports LevelManager, avoiding a decorator import cycle
+PASS Day 3: Chinese catalog preserves every original id, position, radius and exact scoring threshold
+PASS Day 3: all three star rules include the exact three-star time and mistake boundaries
+PASS Day 3: all two-star rules require both conditions and include both exact upper boundaries
+PASS Day 3: exceeding either two-star boundary yields one star for every order
+PASS Day 3: central score formula floors whole seconds, charges mistakes and clamps at 100
+PASS Day 3: component update advances deterministic milliseconds, formats one decimal and freezes after finish
+PASS Day 3: pause blocks time and mistakes; resume continues only an unfinished active order
+PASS Day 3: finishLevel is idempotent and external arrays, results, summaries and input rules cannot mutate run state
+PASS Day 3: discardLastResult only removes the matching tail and preserves earlier immutable history
+PASS Day 3: wrong animated release reports immediately once and bounce or duplicate release never repeats it
+PASS Day 3: wrong release without animations records one mistake and restores position synchronously
+PASS Day 3: near-target and distant TOUCH_CANCEL restore origin with zero mistakes and no progress
+PASS Day 3: foreign ids, invalid bindings, reparent, disable, destroy and configure cancellation never charge a mistake
+PASS Day 3: GameController updates Chinese status before progress and progress before completion exactly once
+PASS Day 3: successful snap finishes progress and stops time only after the last animation callback
+PASS Day 3: repeated manager completion and finishLevel calls cannot duplicate a result or summary
+PASS Day 3: single-order result uses four exact lines; Next preserves history and resets all current HUD data
+PASS Day 3: restart while Playing and after completion resets this order while preserving only earlier results
+PASS Day 3: three finished orders produce the exact dynamic summary and five Chinese final-result lines
+PASS Day 3: replay clears the whole run, resets existing nodes and ignores a second rapid click
+PASS Day 3: first successful counted placement hides the session hint; wrong, cancel, pickup and pending snap do not
+PASS Day 3: disabling a Playing manager pauses data and clears input, listeners and all owned callbacks
+PASS Day 3: completed and final managers never resume timer or item input on re-enable; destroy removes owned handlers
+PASS Day 3: stable callbacks survive level loads and cleanup preserves callbacks another owner installed later
+PASS Day 3: restart from final state discards only the last order and recompletion produces no duplicate ids
+PASS Day 3: stale pickup, snap, return and panel callbacks cannot change data or placement after restart, Next, replay or configure
+PASS Day 3: a re-entrant mistake callback cannot reuse its consumed touch or bounce after a restart
+PASS Day 3: dependency direction and deterministic component clock remain explicit without a global state framework
+PASS Day 4: catalog contains nine orders, thirteen stages and all three discriminants
+PASS Day 4: orders one to three preserve every Day 3 coordinate, label, radius and score rule
+PASS Day 4: catalog identities are unique at each scope and thresholds retain inclusive order
+PASS Day 4: drag and cable catalogs exercise two, three and four pooled elements
+PASS Day 4: clean catalog has the specified 20, 32 and 35 cell geometries and ceil thresholds
+PASS Day 4: invalid IDs, duplicate identities, stage counts and unsupported kinds throw
+PASS Day 4: invalid element sizes, finite coordinates, radii, ratios and grid budgets throw
+PASS Day 4: readonly order graph is deeply frozen and cannot be changed by consumers
+PASS Day 4: drag element pool grows 2→4 only by the deficit and reuses identical nodes on 4→2→4
+PASS Day 4: reused drag nodes update labels, positions, targets, dimensions and progress for the new stage
+PASS Day 4: actual drag stage completes 2 items once only after each snap callback
+PASS Day 4: actual drag stage completes 3 items once only after each snap callback
+PASS Day 4: actual drag stage completes 4 items once only after each snap callback
+PASS Day 4: wrong drag END reports exactly once, while foreign input and CANCEL keep progress and mistakes unchanged
+PASS Day 4: reconfiguring drag invalidates old snap, return, progress and completion callbacks
+PASS Day 4: deactivated drag clears listeners and callbacks; destruction releases pooled nodes
+PASS Day 4: actual cable stage connects 2 designated ports once after 0.15-second snaps
+PASS Day 4: actual cable stage connects 3 designated ports once after 0.15-second snaps
+PASS Day 4: actual cable stage connects 4 designated ports once after 0.15-second snaps
+PASS Day 4: cable wrong port release reports once, ignores animation input and returns in 0.18 seconds
+PASS Day 4: cable blank release reports once, ignores animation input and returns in 0.18 seconds
+PASS Day 4: cable CANCEL near or far returns immediately and foreign touch cannot steal ownership
+PASS Day 4: cable head, port, anchor and line use translated rotated nonuniform parent coordinates with grab offset
+PASS Day 4: cable inclusive snap boundary accepts radius and rejects a point just outside
+PASS Day 4: cable reconfigure and component disable stop old tween and stale callbacks cannot count
+PASS Day 4: cable pool 2→4→2→4 preserves node identity, clears recycled listeners and updates labels and ports
+PASS Day 4: cable graphics retain the fixed anchor while every head movement refreshes endpoint and color
+PASS Day 4: clean TOUCH_START cleans immediately, a cell counts once and fades after exactly 0.08 seconds
+PASS Day 4: clean fast MOVE sweeps intermediate cells along the segment and reaches only the ceil threshold
+PASS Day 4: clean threshold is ceil and completion locks input exactly once at requiredCells
+PASS Day 4: clean foreign events cannot end or steal a stroke and CANCEL keeps already cleaned cells
+PASS Day 4: empty clean strokes and CANCEL never produce mistakes or progress
+PASS Day 4: clean converts world pointer into a separately transformed dirt layer
+PASS Day 4: clean reset restores every active cell and opacity and invalidates pending old fade callbacks
+PASS Day 4: clean pool grows 20→35 by fifteen and reuses all cells after shrinking and resetting
+PASS Day 4: clean deactivation stops owned fades and onDisable/onDestroy remove all input listeners
+PASS Day 4: StageHost union selects typed controllers and allocates each of three stage prefabs only once
+PASS Day 4: StageHost generation rejects old progress, mistake and completion callbacks after switch
+PASS Day 4: StageHost disable invalidates callbacks and resume preserves progress without duplicating input listeners
+PASS Day 4: StageHost resetAll retains cache identities but clears progress; destroy releases all pooled elements
+PASS Day 4: StageHost rejects missing Prefabs and wrong controller types with clear runtime errors
+PASS Day 4: formal LevelManager boots one-step order with complete HUD and settles through actual drag events
+PASS Day 4: multi-step order preserves elapsed time and mistakes and creates no intermediate result
+PASS Day 4: stage configuration pauses the actual RunController, resumes active input, and omits the construction frame
+PASS Day 4: old manager stage callbacks cannot skip steps, alter new order, or duplicate finish
+PASS Day 4: nine-order real input run advances all thirteen stages and produces 9/9 orders and 27-star summary
+PASS Day 4: restart a partially completed multi-step order returns to stage zero and retains earlier results
+PASS Day 4: playAgain clears every result and step, preserves cached roots and is idempotent under rapid repeat clicks
+PASS Day 4: invalid load indices, premature next and rapid repeated next never skip an order
+PASS Day 4: manager lifecycle pauses time and clears input; repeated re-enable resumes one set of listeners and existing progress
+PASS Day 4: all three deterministic progress strings use the exact completed/required values
+PASS Day 4: drag-match first-session tutorial survives mistake/CANCEL and hides only on first effective progress
+PASS Day 4: cable-connect first-session tutorial survives mistake/CANCEL and hides only on first effective progress
+PASS Day 4: clean-swipe first-session tutorial survives mistake/CANCEL and hides only on first effective progress
+PASS Day 4: every kind tutorial stays hidden on subsequent stages and replay, while a fresh Scene session shows it again
+PASS Day 4: clean callbacks cannot charge mistakes even if a stale or erroneous producer invokes them
+PASS Day 4 quality audit (not counted as runtime groups): dependency direction, no untyped bypass/global framework/network loading, strict and unused flags.
+PASS Day 5A: home idles without a Stage, running clock or background sound
+PASS Day 5A: one real start click opens first order and its first stage
+PASS Day 5A: rapid repeated starts cannot recreate a stage, reset time or duplicate the start cue
+PASS Day 5A: Home disable and re-enable binds each button once and never starts the order
+PASS Day 5A: destroyed Home releases exact listeners and cannot start from a stale click
+PASS Day 5A: legacy LevelManager default autoStart remains true and boots the existing first order
+PASS Day 5A: sound toggle changes session state without starting an order
+PASS Day 5A: audio stays silent before a gesture and allows a new event after unlocking
+PASS Day 5A: muting prevents playback and re-enabling restores distinct events
+[DeskRescue Audio] ended orderComplete
+PASS Day 5A: audio deduplicates an event key while preserving different completion events
+[DeskRescue Audio] ended cleanComplete
+PASS Day 5A: queued clean and order completion remain separate clips in the intended order
+PASS Day 5A: audio disable/destroy clears queue and detaches exact STARTED/ENDED observers
+PASS Day 5A: one erroneous input release cannot duplicate mistake audio or score on repeated END
+[DeskRescue Audio] ended cleanComplete
+PASS Day 5A: clean completion emits one clean and one settlement cue despite stale repeated callbacks
+PASS Day 5A: audio missing clip and playback failure degrade without affecting the run
+PASS Day 5A: result stars show one, two and three earned frames and reset explicitly
+PASS Day 5A: Day 4 immutable order coordinates, identities, thresholds and scoring source remain byte-identical
+PASS Day 5A: home-started nine-order run executes thirteen stages, settlement and replay without changing totals
+PASS Day 5A: all nineteen stable device IDs resolve distinctly and do not depend on translated labels
+PASS Day 5A: every cable endpoint resolves to an explicit head and matching port shape across four orders
+PASS Day 5A: all three cleaning definitions resolve to distinct clean device backgrounds
+PASS Day 5A: real registry validates Inspector arrays and rejects missing, duplicate or misaligned references
+PASS Day 5A: ElementVisual keeps root hitbox, position, scale and input listeners intact
+PASS Day 5A: target silhouette keeps the same device frame with a muted color and readable caption
+PASS Day 5A: pooled ElementVisual updates its frame and clears completed state and tween when reconfigured
+PASS Day 5A: decoration completion is idempotent and disable/destroy stop owned tweens
+PASS Day 5A: missing element Inspector references fail explicitly instead of producing an empty device
+PASS Day 5A: clean device artwork changes across reused orders without altering InputSurface hitbox or adding listeners
+PASS Day 5A: StageHost reuses actual drag nodes while updating icons, labels and completed checks for mouse parts
+PASS Day 5A: reused cleaning Stage changes its device and restores all dirt before stale fade callbacks run
+PASS Day 5A: disabling Manager stops owned result star animation while preserving the settled rating
+PASS Day 5A: Day 3 and Day 4 verification evidence remains byte-identical to the captured baseline
+PASS Day 5A V2: paper HUD separates dynamic order/chapter/title/step/instruction without mutating the catalog
+PASS Day 5A V2: drag and cable show actual n/N while zero/invalid progress remains bounded
+PASS Day 5A V2: clean progress uses the real required-cell denominator once: 16/28=57, 27/28=96, 28/28=100
+PASS Day 5A V2: clean bar follows track resize without changing fill height or any input root
+PASS Day 5A V2: HUD switching and clear remove old cleaning percentage and decoration state
+PASS Day 5A V2: single-order view displays frozen score/time/mistakes once and shows only its own group
+PASS Day 5A V2: document example is actual RunController 28.7s + one mistake = 620 points and two matching Sprite stars
+PASS Day 5A V2: final six values and star upper bound derive from supplied catalog sizes, without three full gold stars
+PASS Day 5A V2: result reuse restores the correct group and moves only the common action Button UI position
+PASS Day 5A V2: modal shade is an independent sibling so the result panel scale never shrinks its full-size coverage
+PASS Day 5A V2: modal shade is cleared on result component disable and destroy, including during final celebration
+PASS Day 5A V2: button feedback scales decoration only and preserves root hitbox, position, scale and propagation
+PASS Day 5A V2: button feedback respects touch ownership and CANCEL without generating clicks
+PASS Day 5A V2: button disable/destroy stops owned animation, restores decoration and preserves another owner listener
+PASS Day 5A V2: button repeated onEnable binds exactly three owned listeners; disabled Button cannot begin feedback
+PASS Day 5A V2: feedback rejects its Button root or unrelated nodes as decoration
+PASS Day 5A V2: workshop entrance is finite, restart owns one tween, and disable restores both original transforms
+PASS Day 5A V2: actual nine-order final Home closes all stages/results and stops time while preserving cache identities
+PASS Day 5A V2: Home return then rapid Start starts exactly one fresh order and repeated Home is harmless
+PASS Day 5A V2: return Home preserves both muted and enabled audio session settings across another Start
+PASS Day 5A V2: final Replay remains direct to order one and ignores rapid replay/Home clicks
+PASS Day 5A V2: new Home-started run clears scores/stars/mistakes/progress and keeps seen tutorial session policy
+PASS Day 5A V2: ordinary order completion never permits Home; final groups and Home-only button stay mutually exclusive
+PASS Day 5A V2: late stage callbacks and result animation callbacks after Home cannot restart timing or settle old data
+PASS Day 5A V2: Home disable/enable/destroy owns one Start, Sound and Return listener without orphan callbacks
+PASS Day 5A V2: manager re-enable at returned Home remains paused, and next Start still works once
+PASS Day 5A V2: a second complete run can return Home again without leaving either final button permanently disabled
+PASS Day 5A V2: manager result/HUD counts use a different catalog length and a multi-step order without hardcoded 9/13
+
+Day 1: 11; Day 2: 19; Day 3: 28; Day 4: 56; Day 5A: 32; Day 5A V2: 28.
+
+174 mock behavior groups passed against the actual compiled project scripts.
+

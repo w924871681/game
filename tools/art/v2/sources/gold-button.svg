@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="128" viewBox="0 0 256 128">
+<title>DeskRescue V2 original gold-button</title>
+<rect x="4" y="14" width="248" height="108" rx="53" fill="#844b18" fill-opacity="0.0275" stroke="none" stroke-width="0"/>
+<rect x="6" y="16" width="244" height="104" rx="51" fill="#844b18" fill-opacity="0.0471" stroke="none" stroke-width="0"/>
+<rect x="8" y="18" width="240" height="100" rx="49" fill="#844b18" fill-opacity="0.0980" stroke="none" stroke-width="0"/>
+<rect x="8" y="14" width="240" height="101" rx="48" fill="#d48a36" fill-opacity="1.0000" stroke="#9c6631" stroke-opacity="1.0000" stroke-width="2"/>
+<rect x="8" y="6" width="240" height="101" rx="48" fill="#ffbd54" fill-opacity="1.0000" stroke="#f2a33e" stroke-opacity="1.0000" stroke-width="2"/>
+<rect x="14" y="10" width="228" height="86" rx="41" fill="#ffd66b" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="18" y="11" width="220" height="68" rx="35" fill="#ffe57d" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<rect x="20" y="13" width="216" height="40" rx="22" fill="#ffeaa3" fill-opacity="1.0000" stroke="none" stroke-width="0"/>
+<polyline points="45.00,20.00 211.00,20.00" fill="none" stroke="#fff5c1" stroke-opacity="1.0000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="31.33,75.08 30.93,74.49 30.54,73.90 30.17,73.30 29.80,72.70 29.45,72.09 29.11,71.47 28.79,70.84 28.48,70.21 28.18,69.57 27.89,68.92 27.61,68.27 27.35,67.61 27.10,66.95 26.87,66.29 26.65,65.62 26.44,64.94 26.25,64.26 26.07,63.58 25.90,62.89 25.75,62.20 25.61,61.51 25.49,60.81 25.38,60.12 25.28,59.42 25.20,58.72 25.13,58.01 25.08,57.31 25.04,56.60 25.01,55.90 25.00,55.19 25.00,54.48 25.02,53.78 25.05,53.07 25.10,52.37 25.16,51.66 25.23,50.96 25.32,50.26 25.42,49.56 25.54,48.87 25.67,48.17 25.82,47.48 25.98,46.79 26.15,46.11 26.33,45.43 26.53,44.75 26.75,44.08 26.98,43.41 27.22,42.74 27.47,42.08 27.74,41.43 28.02,40.78 28.31,40.14 28.62,39.50 28.94,38.87 29.27,38.25 29.61,37.63 29.97,37.02 30.34,36.42 30.72,35.83 31.11,35.24 31.52,34.66 31.93,34.09 32.36,33.53 32.80,32.97" fill="none" stroke="#ffffe6" stroke-opacity="0.7137" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="52.00,100.00 205.00,100.00" fill="none" stroke="#f4a33f" stroke-opacity="1.0000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

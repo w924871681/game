@@ -1,0 +1,4 @@
+{
+  "scope": "Page console during complete wide run; excludes browser-tool Statsig diagnostics",
+  "entries": []
+}
