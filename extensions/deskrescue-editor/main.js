@@ -25,6 +25,9 @@ exports.load = function () {
 exports.unload = function () {};
 
 exports.methods = {
+    async applyDay5B() { return day5bOperation('apply'); },
+    async auditDay5B() { return day5bOperation('audit'); },
+    async probeDay5B() { return day5bOperation('probe'); },
     async applyV22() { return v22Operation('apply'); },
     async refreshV22() { return v22Operation('refresh'); },
     async auditV22() { return v22Operation('audit'); },
@@ -195,6 +198,13 @@ exports.methods = {
         }
     },
 };
+
+async function day5bOperation(method) {
+    if (building) return { ok: false, error: 'Another Creator operation is running.' };
+    building = true;
+    try { delete require.cache[require.resolve('./day5b-main')]; return await require('./day5b-main')[method](); }
+    finally { building = false; }
+}
 
 function requireFreshDay5A() {
     for (const name of ['./day5a-main', './day5a-audit']) delete require.cache[require.resolve(name)];

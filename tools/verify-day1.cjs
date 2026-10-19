@@ -177,6 +177,7 @@ function compileAndLoad(ts, files, config) {
         emitted.set(path.resolve(filename), output.outputText);
     }
     const mock = createMock();
+    const environment = { PREVIEW: true, BUILD: false };
     const loaded = new Map();
     function load(filename) {
         filename = path.resolve(filename);
@@ -187,6 +188,7 @@ function compileAndLoad(ts, files, config) {
         loaded.set(filename, module);
         const scopedRequire = (name) => {
             if (name === 'cc') return mock.cc;
+            if (name === 'cc/env') return environment;
             assert.ok(name.startsWith('.'), `Unexpected dependency: ${name}`);
             return load(path.resolve(path.dirname(filename), `${name}.ts`));
         };
@@ -196,6 +198,7 @@ function compileAndLoad(ts, files, config) {
     }
     return {
         mock,
+        environment,
         load: (relative) => load(path.join(scriptDirectory, relative)),
         GameController: load(path.join(scriptDirectory, 'core', 'GameController.ts')).GameController,
         DraggableItem: load(path.join(scriptDirectory, 'gameplay', 'DraggableItem.ts')).DraggableItem,
@@ -1266,7 +1269,10 @@ try {
         const day5aV21Visuals = require('./verify-v21-visuals.cjs').runV21VisualTests(runtime);
         const day5aV22Clean = require('./verify-v22-clean.cjs').runV22CleanTests(runtime);
         const day5aV22Readability = require('./verify-v22-readability.cjs').runV22ReadabilityTests(runtime);
-        const groups = day1 + day2 + day3 + day4 + day5a + day5aV2 + day5aV21Clean + day5aV21Visuals + day5aV22Clean + day5aV22Readability;
+        const historical = day1 + day2 + day3 + day4 + day5a + day5aV2 + day5aV21Clean + day5aV21Visuals + day5aV22Clean + day5aV22Readability;
+        assert.equal(historical, 224, 'All224 historical behavior groups remain intact');
+        const day5b = require('./verify-day5b.cjs').runDay5BTests(runtime);
+        const groups = historical + day5b;
         assert.equal(day1, 11, 'All original Day 1 groups must remain');
         assert.equal(day2, 19, 'All original Day 2 groups must remain');
         assert.equal(day3, 28, 'All 28 original Day 3 groups must remain');
@@ -1280,6 +1286,8 @@ try {
         assert.equal(day1 + day2 + day3 + day4 + day5a + day5aV2 + day5aV21Clean + day5aV21Visuals, 207, 'All 207 historical behavior groups remain intact');
         assert.ok(day5aV22Clean >= 8, 'V2.2 deterministic horizontal feathering and existing clean lifecycle must execute');
         assert.ok(day5aV22Readability >= 9, 'V2.2 display-only small-screen captions and input geometry must execute');
+        assert.ok(day5b >= 48, 'Day5B catalog, gesture, lifecycle and complete fifteen-order integration groups execute');
+        console.log(`Day5B: ${day5b}; historical: ${historical}.`);
         console.log(`\nDay 1: ${day1}; Day 2: ${day2}; Day 3: ${day3}; Day 4: ${day4}; Day 5A: ${day5a}; Day 5A V2: ${day5aV2}.`);
         console.log(`\n${groups} mock behavior groups passed against the actual compiled project scripts.`);
     }

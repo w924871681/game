@@ -1,0 +1,2453 @@
+{
+  "scope": "All pending Day5B versus frozen V22 HEAD; phase compared against captured alpha5",
+  "excludedSelfAndFinalAuditHashes": [
+    "change-inventory.json",
+    "public-audit.json"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1596,
+      "sha256": "4d542c6500ddf2394d00fa47f7701d222809e3af2a34fe75265ae8a3d7b5de10",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "545c645009834549fd6fd1c7550d46194e81e82bfe17d9c5b9da4aa152ada90d"
+    },
+    {
+      "path": "assets/art/day5b.meta",
+      "bytes": 169,
+      "sha256": "debfe94bf38b92a6416f5d7f1dd54fb9476b746de118eaf39fac1f827c11774e",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "debfe94bf38b92a6416f5d7f1dd54fb9476b746de118eaf39fac1f827c11774e"
+    },
+    {
+      "path": "assets/art/day5b/devices.meta",
+      "bytes": 169,
+      "sha256": "5330531b518de2fa46c9fe518ae3076ee4fc42eff7d1e1d1b1f04e6a78d8f639",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "5330531b518de2fa46c9fe518ae3076ee4fc42eff7d1e1d1b1f04e6a78d8f639"
+    },
+    {
+      "path": "assets/art/day5b/devices/controller.png",
+      "bytes": 109276,
+      "sha256": "ea39e070c82bf1366cd4a7a215045e762b111a66ce6b73976d49534c91ffc984",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "ea39e070c82bf1366cd4a7a215045e762b111a66ce6b73976d49534c91ffc984"
+    },
+    {
+      "path": "assets/art/day5b/devices/controller.png.meta",
+      "bytes": 2814,
+      "sha256": "f7dbb3ef4b3835e59f571b9d1920e7249c03e331093e5cb1d3819818da348b8c",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "f7dbb3ef4b3835e59f571b9d1920e7249c03e331093e5cb1d3819818da348b8c"
+    },
+    {
+      "path": "assets/art/day5b/devices/fan.png",
+      "bytes": 86672,
+      "sha256": "969331aff62209b27f6b2de42fc530e6702e985b7dbf2df2fec499fada7caffc",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "969331aff62209b27f6b2de42fc530e6702e985b7dbf2df2fec499fada7caffc"
+    },
+    {
+      "path": "assets/art/day5b/devices/fan.png.meta",
+      "bytes": 2800,
+      "sha256": "54bfca561bc772c357d114a5f3d068a0c23fbbd6bf936af8bc7f8c2d1a182f81",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "54bfca561bc772c357d114a5f3d068a0c23fbbd6bf936af8bc7f8c2d1a182f81"
+    },
+    {
+      "path": "assets/art/day5b/devices/headset.png",
+      "bytes": 68062,
+      "sha256": "bc8cbbed6c851bd62de981e3cfc9723c09330cb645e8ebb095813a8d36daefa1",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "bc8cbbed6c851bd62de981e3cfc9723c09330cb645e8ebb095813a8d36daefa1"
+    },
+    {
+      "path": "assets/art/day5b/devices/headset.png.meta",
+      "bytes": 2808,
+      "sha256": "e0f0b5e8a7ebf9c4201fc6ed4eb33d973a39b90d85eda2f931d1d17d0b7c734e",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "e0f0b5e8a7ebf9c4201fc6ed4eb33d973a39b90d85eda2f931d1d17d0b7c734e"
+    },
+    {
+      "path": "assets/art/day5b/devices/keyboard.png",
+      "bytes": 26627,
+      "sha256": "ca7f7dd186b29ffd61f202934e4c60d5c00d4a73fd85c0f4eaeeb0f209108e83",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "ca7f7dd186b29ffd61f202934e4c60d5c00d4a73fd85c0f4eaeeb0f209108e83"
+    },
+    {
+      "path": "assets/art/day5b/devices/keyboard.png.meta",
+      "bytes": 2810,
+      "sha256": "f367ce27dae4f807f97e864caed5093483c428fea4b6c09990306a50aee1f3b4",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "f367ce27dae4f807f97e864caed5093483c428fea4b6c09990306a50aee1f3b4"
+    },
+    {
+      "path": "assets/art/day5b/devices/livestream.png",
+      "bytes": 49330,
+      "sha256": "9a424d5dd77b1dd09a45af59b78cb5ebb3313dffe1a981a3fa3d735fd927d87b",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "9a424d5dd77b1dd09a45af59b78cb5ebb3313dffe1a981a3fa3d735fd927d87b"
+    },
+    {
+      "path": "assets/art/day5b/devices/livestream.png.meta",
+      "bytes": 2814,
+      "sha256": "3687f9106c506f19a653c22076035333f099945755a79b4c277fbd3cecbb3850",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "3687f9106c506f19a653c22076035333f099945755a79b4c277fbd3cecbb3850"
+    },
+    {
+      "path": "assets/art/day5b/devices/printer.png",
+      "bytes": 38365,
+      "sha256": "75cc12e3e7e4622121f54994c95925a3c1ed7d7e9f32c54eb4b638925ee64447",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "75cc12e3e7e4622121f54994c95925a3c1ed7d7e9f32c54eb4b638925ee64447"
+    },
+    {
+      "path": "assets/art/day5b/devices/printer.png.meta",
+      "bytes": 2808,
+      "sha256": "59a0a8c7f79bc9dc3f2d2226c485e1ee75e21191170571af2080998d70fabeb7",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "59a0a8c7f79bc9dc3f2d2226c485e1ee75e21191170571af2080998d70fabeb7"
+    },
+    {
+      "path": "assets/art/day5b/layers.meta",
+      "bytes": 169,
+      "sha256": "614affeef6b6aa537237fc638da85f4aa335c1aba5e1bec1d73214e6ad3a72ef",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "614affeef6b6aa537237fc638da85f4aa335c1aba5e1bec1d73214e6ad3a72ef"
+    },
+    {
+      "path": "assets/art/day5b/layers/fan-blades.png",
+      "bytes": 42893,
+      "sha256": "a6079513e8a4e7840ada0a06f607c16a8b62da77709a34765593935af27576d2",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "a6079513e8a4e7840ada0a06f607c16a8b62da77709a34765593935af27576d2"
+    },
+    {
+      "path": "assets/art/day5b/layers/fan-blades.png.meta",
+      "bytes": 2814,
+      "sha256": "ad508d278e3c9bd83f6c04c996d431ed516a002c7b491c1e6b1fdd3f43c391f3",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "ad508d278e3c9bd83f6c04c996d431ed516a002c7b491c1e6b1fdd3f43c391f3"
+    },
+    {
+      "path": "assets/art/day5b/layers/fan-cover.png",
+      "bytes": 69126,
+      "sha256": "0d4a628802ea827208d8b9a65a9f1f33df7cb5b93c8cb4cdf0224053dda1dfe7",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "0d4a628802ea827208d8b9a65a9f1f33df7cb5b93c8cb4cdf0224053dda1dfe7"
+    },
+    {
+      "path": "assets/art/day5b/layers/fan-cover.png.meta",
+      "bytes": 2812,
+      "sha256": "44a0fe8b642b62f8babf0ea59918bc1eb46dc271f8b199220ba088338bb6906c",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "44a0fe8b642b62f8babf0ea59918bc1eb46dc271f8b199220ba088338bb6906c"
+    },
+    {
+      "path": "assets/art/day5b/layers/joystick.png",
+      "bytes": 29491,
+      "sha256": "870fa05c8092897c0e33cc9f053b67d4e7996e3eac279688f6dd7aa68ee6b373",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "870fa05c8092897c0e33cc9f053b67d4e7996e3eac279688f6dd7aa68ee6b373"
+    },
+    {
+      "path": "assets/art/day5b/layers/joystick.png.meta",
+      "bytes": 2810,
+      "sha256": "8ee528770120a41c3acf75fd83385854b9a439f655922becd8c91b3b12a16c41",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "8ee528770120a41c3acf75fd83385854b9a439f655922becd8c91b3b12a16c41"
+    },
+    {
+      "path": "assets/art/day5b/layers/keycap.png",
+      "bytes": 5548,
+      "sha256": "2114379d49d41bf02979ce503abf94d3822c22f23e54a5b60aef1f4a6f423fef",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "2114379d49d41bf02979ce503abf94d3822c22f23e54a5b60aef1f4a6f423fef"
+    },
+    {
+      "path": "assets/art/day5b/layers/keycap.png.meta",
+      "bytes": 2794,
+      "sha256": "ebffa81fcef604deb326519841618b6f3d98b847ceec074dbd2476bf8b03ecea",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "ebffa81fcef604deb326519841618b6f3d98b847ceec074dbd2476bf8b03ecea"
+    },
+    {
+      "path": "assets/art/day5b/layers/paper-crumpled.png",
+      "bytes": 27293,
+      "sha256": "2ad74a6e720e2141ccc333c9fd55f2a7de0a6a46bfd74b82622df77e413eed01",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "2ad74a6e720e2141ccc333c9fd55f2a7de0a6a46bfd74b82622df77e413eed01"
+    },
+    {
+      "path": "assets/art/day5b/layers/paper-crumpled.png.meta",
+      "bytes": 2822,
+      "sha256": "83e06003c3b7cc59599b3078d1bfe014d272709ca9f0d67ae7bf38906a633a04",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "83e06003c3b7cc59599b3078d1bfe014d272709ca9f0d67ae7bf38906a633a04"
+    },
+    {
+      "path": "assets/art/day5b/layers/paper-test.png",
+      "bytes": 20677,
+      "sha256": "54795e20127551630c91790ef676bdb91dcecb4c3ae42c82bf037b9b73f37ed9",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "54795e20127551630c91790ef676bdb91dcecb4c3ae42c82bf037b9b73f37ed9"
+    },
+    {
+      "path": "assets/art/day5b/layers/paper-test.png.meta",
+      "bytes": 2814,
+      "sha256": "9ac51f55e2424e44701a42791984fe3043e35a3da961fe2dc81de89f5659e95f",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "9ac51f55e2424e44701a42791984fe3043e35a3da961fe2dc81de89f5659e95f"
+    },
+    {
+      "path": "assets/art/day5b/layers/screw.png",
+      "bytes": 22216,
+      "sha256": "d7e80eebf2c7cf9bcba4c0e1fb131413f5b30cf1b0b55c4ad95f5a14fd2a0a8c",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "d7e80eebf2c7cf9bcba4c0e1fb131413f5b30cf1b0b55c4ad95f5a14fd2a0a8c"
+    },
+    {
+      "path": "assets/art/day5b/layers/screw.png.meta",
+      "bytes": 2792,
+      "sha256": "4167720b8732daa4fb1d315f0ba67965ee07897f42b0e96d55e6d66cd4885ff1",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "4167720b8732daa4fb1d315f0ba67965ee07897f42b0e96d55e6d66cd4885ff1"
+    },
+    {
+      "path": "assets/art/day5b/layers/slider-thumb.png",
+      "bytes": 7907,
+      "sha256": "98127e42ba64efb8a745e23c8d7d6f273c15e7c20c647f03238a2e8043802f35",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "98127e42ba64efb8a745e23c8d7d6f273c15e7c20c647f03238a2e8043802f35"
+    },
+    {
+      "path": "assets/art/day5b/layers/slider-thumb.png.meta",
+      "bytes": 2806,
+      "sha256": "7eed09b8bcab11ba5f4c0702ee1efdf289056c3ef3f09663f98401fc204f1b68",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "7eed09b8bcab11ba5f4c0702ee1efdf289056c3ef3f09663f98401fc204f1b68"
+    },
+    {
+      "path": "assets/art/day5b/layers/trace-handle.png",
+      "bytes": 19309,
+      "sha256": "15e20338076438ed901d1966bcb123eeab2728cad3e367caffb30d195d3fc52e",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "15e20338076438ed901d1966bcb123eeab2728cad3e367caffb30d195d3fc52e"
+    },
+    {
+      "path": "assets/art/day5b/layers/trace-handle.png.meta",
+      "bytes": 2867,
+      "sha256": "9fcf0792ed9eb5ceea1691c202bf58cb236a027f0b9313b3f8486f31e1da17db",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "9fcf0792ed9eb5ceea1691c202bf58cb236a027f0b9313b3f8486f31e1da17db"
+    },
+    {
+      "path": "assets/prefabs/stages/FaultSpotStage.prefab",
+      "bytes": 17292,
+      "sha256": "287e33372d688bbe0bcf9e8fecc754a26bfdc5462aac5a54c25de5874dac477a",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "287e33372d688bbe0bcf9e8fecc754a26bfdc5462aac5a54c25de5874dac477a"
+    },
+    {
+      "path": "assets/prefabs/stages/FaultSpotStage.prefab.meta",
+      "bytes": 222,
+      "sha256": "166abd43c67826b04d5178b041dee110f4f15aa0a56fe77ba0351f3f23c426af",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "166abd43c67826b04d5178b041dee110f4f15aa0a56fe77ba0351f3f23c426af"
+    },
+    {
+      "path": "assets/prefabs/stages/GaugeTuneStage.prefab",
+      "bytes": 17292,
+      "sha256": "627fac7d34077ed92da3e983c7c8a3c5d71002c20c3cdad6324635a50cbcb2de",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "627fac7d34077ed92da3e983c7c8a3c5d71002c20c3cdad6324635a50cbcb2de"
+    },
+    {
+      "path": "assets/prefabs/stages/GaugeTuneStage.prefab.meta",
+      "bytes": 222,
+      "sha256": "4988b8106d34e1a17a19652b3496f749dfc4a9e034a1ea359e921117bc159542",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "4988b8106d34e1a17a19652b3496f749dfc4a9e034a1ea359e921117bc159542"
+    },
+    {
+      "path": "assets/prefabs/stages/GuidedTraceStage.prefab",
+      "bytes": 17296,
+      "sha256": "da17d48a8527bc56c8eecd68e384ecf68796c88dbd9a13ce3f67c92f35edad57",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "da17d48a8527bc56c8eecd68e384ecf68796c88dbd9a13ce3f67c92f35edad57"
+    },
+    {
+      "path": "assets/prefabs/stages/GuidedTraceStage.prefab.meta",
+      "bytes": 224,
+      "sha256": "4222bc8b2a1597eb9e4374a897afad684610692a92ab318dacee6b50429efef6",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "4222bc8b2a1597eb9e4374a897afad684610692a92ab318dacee6b50429efef6"
+    },
+    {
+      "path": "assets/prefabs/stages/RotaryControlStage.prefab",
+      "bytes": 17300,
+      "sha256": "0d39a5ca2bbecdb94a448f945df2e25fb3c9233a274a6d349c20ca03c095053f",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "0d39a5ca2bbecdb94a448f945df2e25fb3c9233a274a6d349c20ca03c095053f"
+    },
+    {
+      "path": "assets/prefabs/stages/RotaryControlStage.prefab.meta",
+      "bytes": 226,
+      "sha256": "c37d10461f09d8248894a468b40ecbd3473d9fd3b7a6fded84c1d0c67fb2a730",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "c37d10461f09d8248894a468b40ecbd3473d9fd3b7a6fded84c1d0c67fb2a730"
+    },
+    {
+      "path": "assets/prefabs/stages/SequenceTestStage.prefab",
+      "bytes": 17298,
+      "sha256": "ec0be438483ab3b37e015e9e1a425cd964f33ec5875e51c926127e11a80df5ed",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "ec0be438483ab3b37e015e9e1a425cd964f33ec5875e51c926127e11a80df5ed"
+    },
+    {
+      "path": "assets/prefabs/stages/SequenceTestStage.prefab.meta",
+      "bytes": 225,
+      "sha256": "05dc0ae73030a3ce624eea41ef3cd947a942870e7bb838f318133c879fc93397",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "05dc0ae73030a3ce624eea41ef3cd947a942870e7bb838f318133c879fc93397"
+    },
+    {
+      "path": "assets/scenes/Game.scene",
+      "bytes": 445526,
+      "sha256": "f2579495c3b67501a3696803c0b78b41baa66de89cb1eb4d654380a5f45ad348",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "4af0eeea4aad4e95be940de8646774271642aae8754a4e354cba6061f0083c0b"
+    },
+    {
+      "path": "assets/scripts/core/LevelManager.ts",
+      "bytes": 20088,
+      "sha256": "636cf53533a667f9638831e0ed5fa8b4f1ad7317131f5fdd989c1a8f1be6f982",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "636cf53533a667f9638831e0ed5fa8b4f1ad7317131f5fdd989c1a8f1be6f982"
+    },
+    {
+      "path": "assets/scripts/data/Day5BOrderCatalog.ts",
+      "bytes": 11160,
+      "sha256": "183ddf3219c31150d19ca7445c9d28190c6ecd38e7e5ab292a28761964ee1d48",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "58b78335c0cebb7ce19420234df82963895b07bcfc8beeb4b634a10b7f4f2b99"
+    },
+    {
+      "path": "assets/scripts/data/Day5BOrderCatalog.ts.meta",
+      "bytes": 171,
+      "sha256": "3b359abb5ccb9c39c6f71ab9e40801e5e742a3da65efc8166e6c6d7a561f49d5",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "3b359abb5ccb9c39c6f71ab9e40801e5e742a3da65efc8166e6c6d7a561f49d5"
+    },
+    {
+      "path": "assets/scripts/data/Day5BStageDefinition.ts",
+      "bytes": 3553,
+      "sha256": "d7bdb45a9e3dd537b9b48e54da86f2e1ae17c6c0d9c63aa1d6e0df7461edfdf7",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "a0f3fa6482a581c010e079641968e1c3aba254a927ca09ebe9541ec619018584"
+    },
+    {
+      "path": "assets/scripts/data/Day5BStageDefinition.ts.meta",
+      "bytes": 171,
+      "sha256": "6cd18fe2a3ff44f333d097c8a7937efb68777a6a88d8a6a8680a20f8f1bedaef",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "6cd18fe2a3ff44f333d097c8a7937efb68777a6a88d8a6a8680a20f8f1bedaef"
+    },
+    {
+      "path": "assets/scripts/data/Day5BStageValidation.ts",
+      "bytes": 5350,
+      "sha256": "d114c6bd52a0aa49cd0f1eb41750c2a47065dea9c3e683524034e6d75a3a4984",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "64a862739b401b399522dbe75ecf3b4ca17d11c21b8084e7b13f1e2757c8d9c6"
+    },
+    {
+      "path": "assets/scripts/data/Day5BStageValidation.ts.meta",
+      "bytes": 171,
+      "sha256": "4c7e3d5de33ebe8b82f5c7eaa4e57880391a1abffede97f169d1678c9049679e",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "4c7e3d5de33ebe8b82f5c7eaa4e57880391a1abffede97f169d1678c9049679e"
+    },
+    {
+      "path": "assets/scripts/stages/Day5BMotionMath.ts",
+      "bytes": 2097,
+      "sha256": "30dc5cb8878de41a7b5bc67858289c4875989c7f92362abbb04e0120330e1080",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "30dc5cb8878de41a7b5bc67858289c4875989c7f92362abbb04e0120330e1080"
+    },
+    {
+      "path": "assets/scripts/stages/Day5BMotionMath.ts.meta",
+      "bytes": 171,
+      "sha256": "872497e5ec5ebad738fd9cd6f9d37d679d92391546c07556b337d19b5f6fcfcc",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "872497e5ec5ebad738fd9cd6f9d37d679d92391546c07556b337d19b5f6fcfcc"
+    },
+    {
+      "path": "assets/scripts/stages/Day5BStageController.ts",
+      "bytes": 9010,
+      "sha256": "4c164765f7b30181dcccce7d56648f0dc2f7efed828be5397c5e9af72a2f9a06",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "4c164765f7b30181dcccce7d56648f0dc2f7efed828be5397c5e9af72a2f9a06"
+    },
+    {
+      "path": "assets/scripts/stages/Day5BStageController.ts.meta",
+      "bytes": 171,
+      "sha256": "e41f9d280b88ac4f71e07887ee4d3aefcdd22fd27d530bd07f154255658995a6",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "e41f9d280b88ac4f71e07887ee4d3aefcdd22fd27d530bd07f154255658995a6"
+    },
+    {
+      "path": "assets/scripts/stages/FaultSpotStageController.ts",
+      "bytes": 7133,
+      "sha256": "9165dcd20281b16a95d9af3e78a5bb7cee5cc07d140a3f3b7886f4099e5f730a",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "2affc5d58028f36bc7c8f8f2ff7de48c353ec54d0b641346fef6aa7eea01f42d"
+    },
+    {
+      "path": "assets/scripts/stages/FaultSpotStageController.ts.meta",
+      "bytes": 171,
+      "sha256": "bb6574217f298844c9e3d276edd59a6f092bb6655a0b19798b583f9c542177ec",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "bb6574217f298844c9e3d276edd59a6f092bb6655a0b19798b583f9c542177ec"
+    },
+    {
+      "path": "assets/scripts/stages/GaugeTuneStageController.ts",
+      "bytes": 9233,
+      "sha256": "50f1a0507f8acc1bf8de9455172c3129714656dad28de1b654db56d47c6db5b4",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "332227630f4820d5c5fad60aa6aaf8f2e1d8fb5c8fd785c39a5db041dc340017"
+    },
+    {
+      "path": "assets/scripts/stages/GaugeTuneStageController.ts.meta",
+      "bytes": 171,
+      "sha256": "13e888aeabcebc04cb0a0b74b106dfe3594b36c19590f21a321badcf806f684c",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "13e888aeabcebc04cb0a0b74b106dfe3594b36c19590f21a321badcf806f684c"
+    },
+    {
+      "path": "assets/scripts/stages/GuidedTraceStageController.ts",
+      "bytes": 10498,
+      "sha256": "06f108817729b58f073099101f5db080b523b71bb0efbdff527165f2b1d5c935",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "db5c0eb452c846827df86350491d76521cdf55ed4e4937071204cc4175537d85"
+    },
+    {
+      "path": "assets/scripts/stages/GuidedTraceStageController.ts.meta",
+      "bytes": 171,
+      "sha256": "41bd02327fab6b2c29d90f1b15d4710cc3103c174a307b8b93b8e9f1105f9831",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "41bd02327fab6b2c29d90f1b15d4710cc3103c174a307b8b93b8e9f1105f9831"
+    },
+    {
+      "path": "assets/scripts/stages/RotaryControlStageController.ts",
+      "bytes": 15281,
+      "sha256": "269f1cf114d874c6ef1d45ab220bfbbd2b0495e78d8b18352087c2fae4260081",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "269f1cf114d874c6ef1d45ab220bfbbd2b0495e78d8b18352087c2fae4260081"
+    },
+    {
+      "path": "assets/scripts/stages/RotaryControlStageController.ts.meta",
+      "bytes": 171,
+      "sha256": "d8513e19996cddc7cdc648cae46008ba91cb2dea14a53e7e33c0e235eef03017",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "d8513e19996cddc7cdc648cae46008ba91cb2dea14a53e7e33c0e235eef03017"
+    },
+    {
+      "path": "assets/scripts/stages/SequenceTestStageController.ts",
+      "bytes": 3502,
+      "sha256": "fe7052092441e512c4d1e9be4c9ac4773cb22751adc6c837e3fa4adc19450caf",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "fe7052092441e512c4d1e9be4c9ac4773cb22751adc6c837e3fa4adc19450caf"
+    },
+    {
+      "path": "assets/scripts/stages/SequenceTestStageController.ts.meta",
+      "bytes": 171,
+      "sha256": "ab87250fba17d889c8399ca017210f4c13087ad505085a004ba401403c225f58",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "ab87250fba17d889c8399ca017210f4c13087ad505085a004ba401403c225f58"
+    },
+    {
+      "path": "assets/scripts/stages/StageHost.ts",
+      "bytes": 10473,
+      "sha256": "de8b56163d9c98f27cf28b476f1a0c848bb2699f050cdedc95f7368e5f9400c5",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "de8b56163d9c98f27cf28b476f1a0c848bb2699f050cdedc95f7368e5f9400c5"
+    },
+    {
+      "path": "assets/scripts/ui/Day5BReviewLauncher.ts",
+      "bytes": 2319,
+      "sha256": "1a71d1c4ffec79627c95753ca001183edc36d3fb8613aae8dede681d5d06bb59",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "7d2eef88c752f20522c540dc0fda39288497e72bc06f939cc7ffa5739ef0cedd"
+    },
+    {
+      "path": "assets/scripts/ui/Day5BReviewLauncher.ts.meta",
+      "bytes": 171,
+      "sha256": "2386496163882e1b514691d4f834efe1f0bce878480b219e1ee12f4929cdcd1d",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "2386496163882e1b514691d4f834efe1f0bce878480b219e1ee12f4929cdcd1d"
+    },
+    {
+      "path": "assets/scripts/ui/PaperOrderHUD.ts",
+      "bytes": 4900,
+      "sha256": "18180491fec99dad3b128cdce2974ad05a96858c75f57d6e50da072a2a3f10a0",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "18180491fec99dad3b128cdce2974ad05a96858c75f57d6e50da072a2a3f10a0"
+    },
+    {
+      "path": "assets/scripts/visuals/Day5BStageView.ts",
+      "bytes": 11083,
+      "sha256": "983db2588f7e9cfc8aabe3f700d27bbb8cf19cd1e15fc06dfa8d9cab53f3015b",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "0663dd67d15020c43786960678596b11f2826d5a0493586c97cc30bc3ecaf93a"
+    },
+    {
+      "path": "assets/scripts/visuals/Day5BStageView.ts.meta",
+      "bytes": 171,
+      "sha256": "c5943acac0fe18240369f8e28cc97c7d2b61eb437af3a6191084929aafbb12c9",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "c5943acac0fe18240369f8e28cc97c7d2b61eb437af3a6191084929aafbb12c9"
+    },
+    {
+      "path": "assets/scripts/visuals/Day5BVisualCatalog.ts",
+      "bytes": 1260,
+      "sha256": "7f6aa3727cfaeae59e1c10638646d455ac6d09927ffde4506bfed0769e4e1e46",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "7f6aa3727cfaeae59e1c10638646d455ac6d09927ffde4506bfed0769e4e1e46"
+    },
+    {
+      "path": "assets/scripts/visuals/Day5BVisualCatalog.ts.meta",
+      "bytes": 171,
+      "sha256": "ca8137711511805f8c5d82c019764245d16dad97dbef4411dec50071a7e9f3a9",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "ca8137711511805f8c5d82c019764245d16dad97dbef4411dec50071a7e9f3a9"
+    },
+    {
+      "path": "docs/DAY5B_ARCHITECTURE.md",
+      "bytes": 3610,
+      "sha256": "e4cd6a08370c4270372929d7ac2ab63acd9ae099024c689a0aca99258038af75",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "e4cd6a08370c4270372929d7ac2ab63acd9ae099024c689a0aca99258038af75"
+    },
+    {
+      "path": "docs/DAY5B_CHANGELOG.md",
+      "bytes": 3508,
+      "sha256": "25c3e1f6b1c53944b87aee4cf24879640c807004fc116f95e5753f5e19b6f5c7",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "25c3e1f6b1c53944b87aee4cf24879640c807004fc116f95e5753f5e19b6f5c7"
+    },
+    {
+      "path": "docs/DAY5B_COCOS_SETUP.md",
+      "bytes": 2641,
+      "sha256": "684ff07a7b61dca7e5980ae7c39523360e97768d872839fd81d163c693fd4fad",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "684ff07a7b61dca7e5980ae7c39523360e97768d872839fd81d163c693fd4fad"
+    },
+    {
+      "path": "docs/DAY5B_CREATOR_VALIDATION.md",
+      "bytes": 7460,
+      "sha256": "ec69878c17b5f3367e9460724890c7155de931b7077676ab6e2ce58c0285d689",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "2ad381d853c40089a31b4de2d96381479ad5f0c381c1b47e1d457d952579f99a"
+    },
+    {
+      "path": "docs/DAY5B_FINAL_CREATOR_VALIDATION.md",
+      "bytes": 5119,
+      "sha256": "06bde650b0cde8b38753ee12d2347d7bacac9aae6d12103a2b9c928906d30877",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/DAY5B_FINAL_POLISH.md",
+      "bytes": 4920,
+      "sha256": "db87528aca229e16cf45f868327ac033865a6a8efcbdf35811acb04d509e4b6b",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/DAY5B_VISUAL_ASSET_MANIFEST.md",
+      "bytes": 1586,
+      "sha256": "8ff2c18277c261d27629e4c96cf44e5f417ac0f95de3ab68c2a9b6c920a72aba",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "8ff2c18277c261d27629e4c96cf44e5f417ac0f95de3ab68c2a9b6c920a72aba"
+    },
+    {
+      "path": "docs/GPT_HANDOFF.md",
+      "bytes": 3899,
+      "sha256": "90c092fcfd27282c068ed4f290318365ed7a3fa150ccc33680bc0b83cd949c37",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "af8637766d9f3ab7205754708dc65a7e16e63e17e630dbbf51e358556509a90b"
+    },
+    {
+      "path": "docs/design/day5b/DAY5B_CODEX_IMPLEMENTATION_PROMPT.md",
+      "bytes": 27012,
+      "sha256": "8ce26a7c832e0a733eb35e8b14e860415a1ce81b47137e0dae7c1ede0455ea11",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "5e3d4465ddcee429e5aacec3b37007606406223d23b43e23a110d6b9d3cf6719"
+    },
+    {
+      "path": "docs/design/day5b/DAY5B_SIX_ORDERS_FINAL_DESIGN_SPEC.md",
+      "bytes": 32512,
+      "sha256": "8e52ca7775937f3ff081386b6c70380af0e503db7cdf7ecb1b5cae762421cd2d",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "1b19faab17e5b91d75bea2b68abc17b7b99c17d3c3c1913990c5bbda8fc99e76"
+    },
+    {
+      "path": "docs/design/day5b/README_START_HERE.md",
+      "bytes": 2677,
+      "sha256": "d4d86dff084fc2ef291e52a93504cbde41cab39815431c333c5490bfeecf72c9",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "38561e360bc09c37c06fd1bec72d7bcb6c60d9f6d21867eb3e61d088b9591b13"
+    },
+    {
+      "path": "docs/design/day5b/references/MANIFEST.json",
+      "bytes": 1825,
+      "sha256": "7e41dc1b4707b533cbbd4839dea39baa8d0f2b894a3c89d2ea8bde5c84f83065",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "7e41dc1b4707b533cbbd4839dea39baa8d0f2b894a3c89d2ea8bde5c84f83065"
+    },
+    {
+      "path": "docs/design/day5b/references/order10_controller.png",
+      "bytes": 2119418,
+      "sha256": "569b8fcbed38f0f59e8af4b5e125c57678f9c45961f395c41c9effa277b70d27",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "569b8fcbed38f0f59e8af4b5e125c57678f9c45961f395c41c9effa277b70d27"
+    },
+    {
+      "path": "docs/design/day5b/references/order11_printer.png",
+      "bytes": 2135371,
+      "sha256": "6ef8ca4b4e1fa7fa9c27e06aa04d2c586cb764cdd9eb6f6d0836cbdb23afb723",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "6ef8ca4b4e1fa7fa9c27e06aa04d2c586cb764cdd9eb6f6d0836cbdb23afb723"
+    },
+    {
+      "path": "docs/design/day5b/references/order12_keyboard.png",
+      "bytes": 2128572,
+      "sha256": "bdbac083aefd4bf02f4d9e6237c0ebe59dcc3f3ea9b64beeb9701de42dd7d4a1",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "bdbac083aefd4bf02f4d9e6237c0ebe59dcc3f3ea9b64beeb9701de42dd7d4a1"
+    },
+    {
+      "path": "docs/design/day5b/references/order13_fan.png",
+      "bytes": 2139303,
+      "sha256": "e0cf4f0373945008b79ea0cf24db2cd28a608503c4f0137d0027c12aa7d34da8",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "e0cf4f0373945008b79ea0cf24db2cd28a608503c4f0137d0027c12aa7d34da8"
+    },
+    {
+      "path": "docs/design/day5b/references/order14_headset.png",
+      "bytes": 2136828,
+      "sha256": "a28cf095d41545c155b2a3324583d8401d94a9e73186c81393bd3d7801c3f759",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "a28cf095d41545c155b2a3324583d8401d94a9e73186c81393bd3d7801c3f759"
+    },
+    {
+      "path": "docs/design/day5b/references/order15_livestream.png",
+      "bytes": 2239962,
+      "sha256": "ef559bb6e35b4c4d9b6e0d0a72aa48ab00b928f612c377d521684c5b79a8f448",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "ef559bb6e35b4c4d9b6e0d0a72aa48ab00b928f612c377d521684c5b79a8f448"
+    },
+    {
+      "path": "docs/validation/day5b/baseline-checks.json",
+      "bytes": 532,
+      "sha256": "7b7b3913d1310c3e47ff43c9e361c0060938579318cdacdc63c094077e5ae2da",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "7b9116f93685e4f04d4f39cc4bc10ca9068e5998fc58d1aee9e15e77b4fb42ad"
+    },
+    {
+      "path": "docs/validation/day5b/baseline-cocos.log",
+      "bytes": 962,
+      "sha256": "bfa4ddb9225118906a99be32f804f19f8b12c977bb2810bad03787e5069dd0e3",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "30995070e48d693e1ccf75297797548a79533227d2cb6fd24ec9587928a4c71e"
+    },
+    {
+      "path": "docs/validation/day5b/baseline-syntax.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/validation/day5b/baseline-test.log",
+      "bytes": 24807,
+      "sha256": "6875ffcc052803f212a1e760b114d4706c0fc356d43bc1516643404b23009d01",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "17a850dabb081b2daff34283c434e9394fc50d61ef831aea91f8544933247708"
+    },
+    {
+      "path": "docs/validation/day5b/baseline.json",
+      "bytes": 214817,
+      "sha256": "e956cf7707d3a6d73207b968e42d6016f986f79f2c1203c9e187a946468e73b0",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "c8c4cafd3d25e6db2e955d55b58734a113371e59ab507259c4e812843ad7ce01"
+    },
+    {
+      "path": "docs/validation/day5b/build-current-prior-1792339390781.json",
+      "bytes": 3780,
+      "sha256": "7edf139761e97e0e6e4f4a1f66e561891826412ae1a22208929c4c21d2cdf432",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "7edf139761e97e0e6e4f4a1f66e561891826412ae1a22208929c4c21d2cdf432"
+    },
+    {
+      "path": "docs/validation/day5b/build-current-prior-1792340566897.json",
+      "bytes": 3896,
+      "sha256": "9552cab9357ef0310d808b33a8fc678a6996b98655bfa429ab0bbd3d17f361c2",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "9552cab9357ef0310d808b33a8fc678a6996b98655bfa429ab0bbd3d17f361c2"
+    },
+    {
+      "path": "docs/validation/day5b/build-current-prior-1792343239586.json",
+      "bytes": 3894,
+      "sha256": "f4e84a24f38824ecf12dab751c617bc70a34c92c0179520ee80ef51c3a5802c0",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "f4e84a24f38824ecf12dab751c617bc70a34c92c0179520ee80ef51c3a5802c0"
+    },
+    {
+      "path": "docs/validation/day5b/build-current-prior-1792349497627.json",
+      "bytes": 3894,
+      "sha256": "f656c2a8984e33bc9953abf4d2e61514ef3cd8257c3f65daa53a491eab167afd",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "f656c2a8984e33bc9953abf4d2e61514ef3cd8257c3f65daa53a491eab167afd"
+    },
+    {
+      "path": "docs/validation/day5b/build-current.json",
+      "bytes": 3894,
+      "sha256": "715ed00f5f800042eb42883dbbe92f9f29101a62bbfe731c915d4327fa37930c",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "715ed00f5f800042eb42883dbbe92f9f29101a62bbfe731c915d4327fa37930c"
+    },
+    {
+      "path": "docs/validation/day5b/build-failure-1792338679164.json",
+      "bytes": 535,
+      "sha256": "31888014fe920ff0678d3b471f4a8d9d4cc35ba88708090643f364ea0fe86c58",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "3e951e6d16ee95dcec42d4c1a749f19014ac74bb1bf70f8e59c4308d08ba5d15"
+    },
+    {
+      "path": "docs/validation/day5b/build-failure-1792342574309.json",
+      "bytes": 240,
+      "sha256": "a499af81d0f8f6d16c5a563f18c91eca6732b7261171049d0d26227fcdf3395f",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "49def9baa39072678dda44bf5af98831730973310bfafbd0aa82737ef75ea4c2"
+    },
+    {
+      "path": "docs/validation/day5b/build-failure-1792342760795.json",
+      "bytes": 245,
+      "sha256": "32365e9d18082e617bf7ee184ae28af57c05b2fa09430b83b3d4291a86a003f2",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "803252eb75c9140bac28792930fc5a23ee65ee38c49a051bc3b2951ff507dc32"
+    },
+    {
+      "path": "docs/validation/day5b/build-failure-1792342974745.json",
+      "bytes": 245,
+      "sha256": "3bc81eea86f30c4faf42cad33c0ad7dc6ab78e5e2532bfed6a6fb4d360878c24",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "fed887ad15263e40fca0794e30dfbd1b55ec5d207d7385f1ebf274e2b89f5f64"
+    },
+    {
+      "path": "docs/validation/day5b/checks.json",
+      "bytes": 27986,
+      "sha256": "2f6e45fd900b7f32170e8eb34453a7918f239cebd07625151e43dc9cc206aae7",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "e1d0396ae6682464088e4d6fb1916f5a56ab4eeaaf520c9bf00ee8edcbd15594"
+    },
+    {
+      "path": "docs/validation/day5b/creator-audit-prior-1792341118531.json",
+      "bytes": 40478,
+      "sha256": "853d2ffa14ed9bd5becbc49286e97d76eaf959c5a00e50f8da687e4e53ecf0bb",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "853d2ffa14ed9bd5becbc49286e97d76eaf959c5a00e50f8da687e4e53ecf0bb"
+    },
+    {
+      "path": "docs/validation/day5b/creator-audit-prior-1792343392281.json",
+      "bytes": 40478,
+      "sha256": "bef88a0bb36d2af2b025185c39ed04b96b2f4202796bf0a8e2fb2992d909afd5",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "bef88a0bb36d2af2b025185c39ed04b96b2f4202796bf0a8e2fb2992d909afd5"
+    },
+    {
+      "path": "docs/validation/day5b/creator-audit-prior-1792349556607.json",
+      "bytes": 40478,
+      "sha256": "81b5017868f4ffff8fa83720c1a9507e431a35d072dcd53fc5198b2780a801f1",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "81b5017868f4ffff8fa83720c1a9507e431a35d072dcd53fc5198b2780a801f1"
+    },
+    {
+      "path": "docs/validation/day5b/creator-audit.json",
+      "bytes": 40478,
+      "sha256": "f0019277f0b67eb46cba5a3330f55fdf0fe046f437ac44247497da82065c80f2",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "f0019277f0b67eb46cba5a3330f55fdf0fe046f437ac44247497da82065c80f2"
+    },
+    {
+      "path": "docs/validation/day5b/delivery-receipt.json",
+      "bytes": 452,
+      "sha256": "a7aa93c419719daa81254b1422bce689ca40e2d9cd2b2dc3747d7f32a8122c6c",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "bd90c722c39e179eb61733e98a996aa117eccf33fee1904a1eb92041a4418867"
+    },
+    {
+      "path": "docs/validation/day5b/engine-probe-prior-1792340069576.json",
+      "bytes": 7252,
+      "sha256": "9d5166731ac0f30c86d6a9d3dd0a0bb0082ebf67e988729ad7357af718edf238",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "4c8391a4b2bf50fcc6e47180fc44d243ccf00dd1737ec0f336c504a591b43b5a"
+    },
+    {
+      "path": "docs/validation/day5b/engine-probe-prior-1792340971889.json",
+      "bytes": 7827,
+      "sha256": "5f45864c74cd58fe68af2107340641f88e3cce7733c6e13cdaffe9949f8dff1f",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "5f45864c74cd58fe68af2107340641f88e3cce7733c6e13cdaffe9949f8dff1f"
+    },
+    {
+      "path": "docs/validation/day5b/engine-probe-prior-1792341027009.json",
+      "bytes": 43061,
+      "sha256": "ee1b626a750106e5c5f35f1bc0c26ac2805dd105e58d9b36d94a709c33ccd1fa",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "ee1b626a750106e5c5f35f1bc0c26ac2805dd105e58d9b36d94a709c33ccd1fa"
+    },
+    {
+      "path": "docs/validation/day5b/engine-probe-prior-1792343361162.json",
+      "bytes": 43636,
+      "sha256": "d6f3478411ef859517d6d40cd2de04ba29a67500ee2311673a8f4776caa019ee",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "d6f3478411ef859517d6d40cd2de04ba29a67500ee2311673a8f4776caa019ee"
+    },
+    {
+      "path": "docs/validation/day5b/engine-probe-prior-1792349536359.json",
+      "bytes": 43880,
+      "sha256": "cb8a3888aa6bf0eff15909479a61a0d712b7211651021fd4929d11dd902bcc46",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "cb8a3888aa6bf0eff15909479a61a0d712b7211651021fd4929d11dd902bcc46"
+    },
+    {
+      "path": "docs/validation/day5b/engine-probe.json",
+      "bytes": 43913,
+      "sha256": "b48e76b0a66f43d63cf62c3774d4d431e25d2d8f60358fc9c6e37051ea95e719",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "b48e76b0a66f43d63cf62c3774d4d431e25d2d8f60358fc9c6e37051ea95e719"
+    },
+    {
+      "path": "docs/validation/day5b/final-cocos-types-prior-20261018T184003991779Z.log",
+      "bytes": 962,
+      "sha256": "69448799726a9259dc34cda26cdae0c898f9565c143439f1fe68ca08ce58c24f",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "961457bbb0547528295492a1d5d672f5344855d912e41a77801db357b5609a03"
+    },
+    {
+      "path": "docs/validation/day5b/final-cocos-types-prior-20261018T185029332721Z.log",
+      "bytes": 962,
+      "sha256": "69448799726a9259dc34cda26cdae0c898f9565c143439f1fe68ca08ce58c24f",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "961457bbb0547528295492a1d5d672f5344855d912e41a77801db357b5609a03"
+    },
+    {
+      "path": "docs/validation/day5b/final-cocos-types.log",
+      "bytes": 962,
+      "sha256": "69448799726a9259dc34cda26cdae0c898f9565c143439f1fe68ca08ce58c24f",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "961457bbb0547528295492a1d5d672f5344855d912e41a77801db357b5609a03"
+    },
+    {
+      "path": "docs/validation/day5b/final-git-status.json",
+      "bytes": 14481,
+      "sha256": "8bbd33bdca599ad85c6d7fc272b61e0dc5384d170bb5d7f42eb0ba5c522e716c",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "8bbd33bdca599ad85c6d7fc272b61e0dc5384d170bb5d7f42eb0ba5c522e716c"
+    },
+    {
+      "path": "docs/validation/day5b/final-original-art-prior-20261018T184017640752Z.log",
+      "bytes": 90,
+      "sha256": "6dc5f4060f2afeb9f6d5fd027f2b5e88bc2f1a608a412d90a289e378a46e501d",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "6dc5f4060f2afeb9f6d5fd027f2b5e88bc2f1a608a412d90a289e378a46e501d"
+    },
+    {
+      "path": "docs/validation/day5b/final-original-art-prior-20261018T185044380719Z.log",
+      "bytes": 90,
+      "sha256": "6dc5f4060f2afeb9f6d5fd027f2b5e88bc2f1a608a412d90a289e378a46e501d",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "6dc5f4060f2afeb9f6d5fd027f2b5e88bc2f1a608a412d90a289e378a46e501d"
+    },
+    {
+      "path": "docs/validation/day5b/final-original-art.log",
+      "bytes": 90,
+      "sha256": "6dc5f4060f2afeb9f6d5fd027f2b5e88bc2f1a608a412d90a289e378a46e501d",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "6dc5f4060f2afeb9f6d5fd027f2b5e88bc2f1a608a412d90a289e378a46e501d"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/baseline.json",
+      "bytes": 257636,
+      "sha256": "61b5e972f2c92222d08715b279a04c495957e1b755ba2671f6aadd6b67bf22e3",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/build-current-prior-1792387685904.json",
+      "bytes": 3962,
+      "sha256": "31e1dcd7e9f4fe9d6259c36b3d2870a133a9445d4fa12f082e6bf6935d8be101",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/build-current-prior-1792387748837.json",
+      "bytes": 3962,
+      "sha256": "214c1db4cd3bf3cb0ef4fcac1f69592cdd96d221007cb3d60193127061c0cdc1",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/build-current-prior-1792387850227.json",
+      "bytes": 3960,
+      "sha256": "c2af6394bb354eb73c26d36c41d9adcbca85f76aa91d179ed91b57d2ecd9d6f2",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/build-current-prior-1792390331036.json",
+      "bytes": 3960,
+      "sha256": "c4a2da18f3255fed1b19decbd173ac9fc09399642c8cf1ea787a97921972a9a6",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/build-current-prior-1792391145670.json",
+      "bytes": 3962,
+      "sha256": "a2b1c1b1e3b92bc833d1a1067ab454ec875f1dd97fe694c0ac8164e1a6e2b909",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/build-current-prior-1792391340360.json",
+      "bytes": 3960,
+      "sha256": "3a81f6fe5114688c284135f577a3eabbd00487f94396d65f5c4061a7008fdbff",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/build-current.json",
+      "bytes": 3962,
+      "sha256": "2640746213d6a07519998816eb5c5bfe99e958e6eb392292c74f956d9b34e319",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/checks.json",
+      "bytes": 30108,
+      "sha256": "4e8bdad9fdc48d1a3ec38b36db6957f6dd415dd744a6061076d4404dad3a66ba",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/commands.json",
+      "bytes": 3567,
+      "sha256": "6ccf4328bf384aaf2f68801590f9cc30181b5f1565295308a57b6f5a8cc30724",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/editor-audit-prior-1792390401968.json",
+      "bytes": 40835,
+      "sha256": "76a93f30658afc1f742c50041562373066d9bb25ca48297e7b90afb90fd3e021",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/editor-audit-prior-1792391352487.json",
+      "bytes": 41021,
+      "sha256": "bde0387a4d1ee85ae632e9e5771bb693871efec4927dc6b49913535801b208e0",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/editor-audit.json",
+      "bytes": 41021,
+      "sha256": "b6078dbe0a3515a891eb7871b835de4cb471f7dcc50791a15c3e5682008bd32e",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/engine-probe-prior-1792388938107.json",
+      "bytes": 44422,
+      "sha256": "284b2c1f384691cc005252acce5490337279159b5d29f90f329ce2e9d725bfbf",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/engine-probe-prior-1792391372192.json",
+      "bytes": 45671,
+      "sha256": "ee9c48e1bb3e79803b1b2939fcf65e31f48dfbbb9e58a2fc167dd8954ea1674e",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/engine-probe.json",
+      "bytes": 45671,
+      "sha256": "5808f404da52174d3055ec61a55f792dc667f22fe088037f5044dbc33796ed56",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/final-cocos-types-prior-20261019T052625147078Z.log",
+      "bytes": 962,
+      "sha256": "69448799726a9259dc34cda26cdae0c898f9565c143439f1fe68ca08ce58c24f",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/final-cocos-types-prior-20261019T062807116670Z.log",
+      "bytes": 962,
+      "sha256": "69448799726a9259dc34cda26cdae0c898f9565c143439f1fe68ca08ce58c24f",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/final-cocos-types.log",
+      "bytes": 973,
+      "sha256": "855198735a5cd54e45c49a7212d80a09a9f5003e1bffae48866c170afaf88022",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/final-original-art-prior-20261019T052638320313Z.log",
+      "bytes": 90,
+      "sha256": "6dc5f4060f2afeb9f6d5fd027f2b5e88bc2f1a608a412d90a289e378a46e501d",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/final-original-art-prior-20261019T062824921582Z.log",
+      "bytes": 90,
+      "sha256": "6dc5f4060f2afeb9f6d5fd027f2b5e88bc2f1a608a412d90a289e378a46e501d",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/final-original-art.log",
+      "bytes": 89,
+      "sha256": "24a2d6d8e88846cac66fba49045c8cefd670918e5670892469d93dd9adb66fa0",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/final-sdk-self-prior-20261019T052628489103Z.log",
+      "bytes": 18108,
+      "sha256": "7dd8ba5f8ae0a34900bd01efcea076d06ccb02dfa782cf8acf563a99130ddfed",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/final-sdk-self-prior-20261019T062811703427Z.log",
+      "bytes": 18108,
+      "sha256": "7dd8ba5f8ae0a34900bd01efcea076d06ccb02dfa782cf8acf563a99130ddfed",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/final-sdk-self.log",
+      "bytes": 18226,
+      "sha256": "830974385a3ad8dd1fb482045c52ccfe79538ee389f167fa5939e058e96319a7",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/final-tests-prior-20261019T052621542083Z.log",
+      "bytes": 33043,
+      "sha256": "4ab3a7bb93f38a1946740fad4c08e127238ed4773adf00a203fb4436ba51df83",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/final-tests-prior-20261019T062802722759Z.log",
+      "bytes": 32970,
+      "sha256": "7811fe05b16cb3c8bfcb5e30f7bfafe68bee34898a7eedfc20269fe907f2e926",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/final-tests.log",
+      "bytes": 33284,
+      "sha256": "676b19dae0e9749effcb4a440fc0032e15ca3c19766806c542c25bc50518753c",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/preservation.json",
+      "bytes": 22101,
+      "sha256": "c585b1f5e9022b5de9c61f75c0f2d2e18043b1cdbaf3e259c0104e2274e7b667",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/preview-verification.json",
+      "bytes": 2494,
+      "sha256": "9990bf611d179dd8ba9192396565213e084a80d745d57b01314ad6b2d60740ff",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/previous-GPT_HANDOFF-alpha5.md",
+      "bytes": 7135,
+      "sha256": "f70b35e61bd36f7bb0c89b13a425776e17054b077a203b76cf83ba9399bfc3de",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/previous-README-alpha5.md",
+      "bytes": 17647,
+      "sha256": "acca56c8e88bbd52c95e4d3f481507ae92422ec7352067f848d12af97fcec840",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/privacy-supplement.json",
+      "bytes": 279,
+      "sha256": "5bd1c75ae66c6d869464f360d5e868691cc09575c626f5b2dcc7205e78fd7655",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/redaction-bridge.json",
+      "bytes": 20804,
+      "sha256": "246682fb3fbe64571f95c43c9855d5cccbdd291bcc7bcaef83416f2eeeb4fd6b",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/release-gate.json",
+      "bytes": 755,
+      "sha256": "0ff7f92bb770240bf849673e71607479506cdb33149a54ad7d674e1d11b31734",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshot-inventory.json",
+      "bytes": 21724,
+      "sha256": "77542a97fe5de65c5dec31812e03754ab90ab85f4e5610396beb39a26cd92cca",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-home-start-new-run.jpg",
+      "bytes": 58196,
+      "sha256": "87d3ddea4dd45fa4683567f3c0fd3c68da3f03cc0a16e4393c6f6281789073c7",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-final-15-orders.jpg",
+      "bytes": 67056,
+      "sha256": "ea580d3be0f9af363a966f837dea9a41ac97000f1380092dfbea209483247e2d",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order01-result.jpg",
+      "bytes": 44434,
+      "sha256": "e2798acd5911698a46e854b8f733c9d8e7b403a19501c5e13405363ebcd6a091",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order02-result.jpg",
+      "bytes": 44721,
+      "sha256": "343eb0db31ab665fce86993787b4c8650d28a4ae6412e3aa5cf0cac895eb4e2e",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order03-result.jpg",
+      "bytes": 44688,
+      "sha256": "baf3b69f9890be35c5c63a129b03baef9f6366f76ca70125aeff00c9096c7b95",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order04-result.jpg",
+      "bytes": 44613,
+      "sha256": "6867f2097c737ac51982a013081f47a55258fbec4efe9fb2ae88dd3ed70a6609",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order05-result.jpg",
+      "bytes": 44558,
+      "sha256": "e4feb806ef374e8bc60437d563463155f3a495876d0d6550bbd1239c42fe6edc",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order06-clean.jpg",
+      "bytes": 55354,
+      "sha256": "d65c89a2c6da34ae5d081f0bb12c938a10866ce8c2c16b195eeadd5e750382a3",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order06-result.jpg",
+      "bytes": 44601,
+      "sha256": "523f958c318789ed73b297f7bab34e1ccf85bfdaa8bce661667ac84d34575dc0",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order07-result.jpg",
+      "bytes": 44402,
+      "sha256": "14f7158fa16b4c7a678cf175748f763b360a9bdb62145f7a9a1eb1294f2835ee",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order08-result.jpg",
+      "bytes": 44540,
+      "sha256": "9e10ea40eee6cb8f1069bf63fe5365d3746260a7d56374f6ec23dcd3e7969a02",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order09-result.jpg",
+      "bytes": 44817,
+      "sha256": "dc7d807650de4938fe51295b11c0b1ea574b59825730dfc55ecec715c82bca49",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order10-result.jpg",
+      "bytes": 44490,
+      "sha256": "f7626e1fea039b95305d63707a8f304429662dd9b3e571526003795dec336004",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order10-sequence.jpg",
+      "bytes": 57153,
+      "sha256": "3ad5cafbc7025f743a8c00387e8d808c866162059ce654c5659729625e53813b",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order11-result.jpg",
+      "bytes": 44545,
+      "sha256": "721f384bda493ac8e18541a9d471016b0887725ffc124dc6fba3f3dcc2a0e21e",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order11-trace.jpg",
+      "bytes": 58437,
+      "sha256": "a504e667473d042cff4307b59ed844ebcf8eb1bf6ac208677bfa36d13e5a0e7f",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order12-A-output.jpg",
+      "bytes": 61335,
+      "sha256": "7dc32a8b3f70c0f2723f1443e63e55b4e5f1d0099b8b879e283d40095a9fcb17",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order12-S-await-confirm.jpg",
+      "bytes": 61454,
+      "sha256": "906454eb044ff9a826810a3bd59e3611dda0d056ebf372c39c99cb33008a8ea5",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order12-initial-neutral.jpg",
+      "bytes": 61041,
+      "sha256": "9a5bab93a544f9cd9c4bb21df5ddf460e1cf870537dbefa3e9ee095a916b29c9",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order12-result.jpg",
+      "bytes": 44520,
+      "sha256": "fabebaa358d878dc5cff1a80778013c7e456f44b987362e18dcad3d33c57ea8f",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order12-sequence.jpg",
+      "bytes": 58594,
+      "sha256": "588fb8dc32b99834dad76a86838888aa3e5a0000deb494fb82bf88747a5ca88b",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order13-double-green.jpg",
+      "bytes": 61495,
+      "sha256": "12f46195c98d05bc69485c689e6a3372760111f99f544ebcb30f1cd9a94008b1",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order13-result.jpg",
+      "bytes": 44596,
+      "sha256": "3229f3c1c925880287a8e96dc75a2af523db059bf121b66fa8098054a0340fc8",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order14-balanced.jpg",
+      "bytes": 60821,
+      "sha256": "8334cd8a1c92a84c65d7f9bf1b3adafca341bf40c9d2ce4122484ff7d8fca256",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order14-gauge.jpg",
+      "bytes": 60238,
+      "sha256": "c3b41c3899318dcdfac889547b8d39be87ce679907e453a333b4f33a2973d717",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order14-result.jpg",
+      "bytes": 44328,
+      "sha256": "4c3cf8a5cad4f2f1f017b5844c56e22bc64d2d6e287075228fdff811744b18e0",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order15-double-green.jpg",
+      "bytes": 61836,
+      "sha256": "6ca60dca0d9864f3218c525889ac2d368c44432044836dfe8157236acb9853f4",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order15-gauge.jpg",
+      "bytes": 61294,
+      "sha256": "9989265cafd9c40e078371dd8f149a104fbbbd35196c61121150a0111646cc52",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order15-result.jpg",
+      "bytes": 67056,
+      "sha256": "ea580d3be0f9af363a966f837dea9a41ac97000f1380092dfbea209483247e2d",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order15-sequence.jpg",
+      "bytes": 56959,
+      "sha256": "0181c9a3d2d9feb7fc38625704d7628a47efcc45eb63faba7854c03deb57613e",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-return-home.jpg",
+      "bytes": 65926,
+      "sha256": "f5dfcba601ff18946746486dff41e11a74a049656675971548a2083ae8b255fe",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-normal-home-qa-hidden.jpg",
+      "bytes": 66408,
+      "sha256": "18fd919755c9aa6690ec724bff3689aa9c9e68e4053500ebfd0603674c693893",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-qa-home.jpg",
+      "bytes": 66967,
+      "sha256": "f49653ab60790cd9c90b93cebb965e7f6291138ee1cd54cdce4f412144d6800e",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-qa-partial-final.jpg",
+      "bytes": 67207,
+      "sha256": "930aaba420f20587435cbb2f185755f63c51301565ef5cbe98df55fca5e74e6e",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-qa-replay-first-order.jpg",
+      "bytes": 59668,
+      "sha256": "e34cae4de2cf57a7d4b99e237dd723e4e74103cd4e39d445afeee257cd74c1cd",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-qa-replay-input-functional.jpg",
+      "bytes": 58332,
+      "sha256": "d573ca60caa4a8e6cedfd93b292a7cda5e5f9eb6bb46caba634c62d33c8a116f",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-normal-home-qa-hidden.jpg",
+      "bytes": 59600,
+      "sha256": "0bd899cb155475355934357659e24ef91fbc572cccdac28f6a2e2d85e974bd8a",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order10-sequence-readable.jpg",
+      "bytes": 49997,
+      "sha256": "6f0c0ae601ec28230931c74afa169f7895202171e8c5dec10f4a4e748805c41a",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order11-trace-readable.jpg",
+      "bytes": 52887,
+      "sha256": "7fc4913696cf06a9879fdbf27afd59227d1adfc41d8c102b7228f6770d163cfb",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order12-A-single-output.jpg",
+      "bytes": 57609,
+      "sha256": "bc9c2a001b5d6badd9b2a06950dc1cb50dfc61fb51e3c2c38569eb8566c10b78",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order12-S-double-output-await-confirm.jpg",
+      "bytes": 57782,
+      "sha256": "bb078d421a18ba2caf8c80cb2d53c8a706aa6e6c8c9dbd2e771ae7f4bd595139",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order12-complete-after-diagnosis.jpg",
+      "bytes": 39679,
+      "sha256": "2af982e4371a1063956c943b1a3cda447ce5291ad1b7f7793d1e0cf5d783fffe",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order12-confirmed-sequence.jpg",
+      "bytes": 54765,
+      "sha256": "b53f8b6695ce9d463e44b2f703f8a5e295bab38c1fec77157a00c44aa6c62ccf",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order12-initial-clear.jpg",
+      "bytes": 57489,
+      "sha256": "df3f5f91059bace9d751c07c1e8bfde216d3f63beb147ba01c3d2387f540be52",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order12-wrong-confirm-once.jpg",
+      "bytes": 57358,
+      "sha256": "427ba7ec335e320c05bb0550cf4952238413e1e2783b8f5acba7f8cd0c17f977",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order13-double-green.jpg",
+      "bytes": 55593,
+      "sha256": "ec4a179881af1f9e6319ddd5d716b2a9a2fa733bf5b5f8a535755fceaacce9f0",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order13-target-readable.jpg",
+      "bytes": 54977,
+      "sha256": "c672a5f11bdf69df1af633ad132fdb94c750c9d4cd954c1e4914549959320708",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order14-balanced.jpg",
+      "bytes": 54929,
+      "sha256": "76f4625acd63c562db77663694b08ed148347c50db08a995727d8f201914ad50",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order14-range-readable.jpg",
+      "bytes": 54408,
+      "sha256": "6a3922038f444e978590e05f18aea6c161effc40f5d7146335ec1c5f75b71ecf",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order15-gauge-readable.jpg",
+      "bytes": 55191,
+      "sha256": "d02a4a954b3f21c7ff40faafc1e29f048a67ab97b1e6e46dde1e6a8f593c5e51",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order15-sequence-readable.jpg",
+      "bytes": 51218,
+      "sha256": "554c80871d6822c27ce0f353ba8e2cc7ff5cd5ee4261bba59dda787082882011",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-qa-order12-initial-neutral.jpg",
+      "bytes": 58358,
+      "sha256": "e3a090467e351bd2b4eacb4ffc23decf5e1bda54b47a465a6c212df26fe303f8",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/768-normal-home-qa-hidden.jpg",
+      "bytes": 101336,
+      "sha256": "85d085ec07b0943ac45f47054f27ce92748a0869077ddb2051b7bfbb52c3bf88",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/768-order12-A-output.jpg",
+      "bytes": 98444,
+      "sha256": "d2c307dd11363550792103c1799e9b3ae7f4a90f4a84937807070a918726e2b7",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/768-order12-completed.jpg",
+      "bytes": 65905,
+      "sha256": "ca61899fe01bf5001451fbcad8baf3a4b482431a6febc5d5d7804cf7f4ede8c0",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/768-order12-initial.jpg",
+      "bytes": 98035,
+      "sha256": "a19da9960edf2007998f90ee9d9eb4170db4cb0a40f2d9c1c86a8a658fe16f86",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/768-order12-sequence-readable.jpg",
+      "bytes": 92351,
+      "sha256": "3cee8f02d1f3072a811fb59a291292ebfd77d4e031ff716fdb8b5efccd76df15",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/768-order14-gauge.jpg",
+      "bytes": 91623,
+      "sha256": "a67f979edebd5398b6736ab449e7b4e19f3df319a331900085f197e17bd1f7ad",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/768-qa-home-initialized.jpg",
+      "bytes": 102083,
+      "sha256": "e41f02ecbc279e8d4215662829438d496c7e1353969f8483bf0e979624467887",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/final-default-home-qa-hidden.jpg",
+      "bytes": 70715,
+      "sha256": "d38eba7a5fcc8a93cd066572ca7c1bf851b69421b5f655c75d4ace9ac3cca7f9",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/script-import-request-prior-1792387838865.json",
+      "bytes": 2681,
+      "sha256": "22428b3b8d4b87a472b4e9761a62f6ab19e6247ca406a95dfb73c25e6923ab96",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/script-import-request.json",
+      "bytes": 2681,
+      "sha256": "ec6ae53cdbf7cd1e8c9adce84a7e290a04f797cfaba754b719603896e23b4fe4",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/whitespace-review.json",
+      "bytes": 1422,
+      "sha256": "c698d5364e89571d79206f0a035fea10e45f643732b96a87a23102d3de51dedd",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "docs/validation/day5b/final-sdk-self-prior-20261018T184007298433Z.log",
+      "bytes": 18108,
+      "sha256": "1f4844a0328aa67de5d7e9a49d780c3e32c91bd27de3813fa088cc0a03e3ba52",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "ee40e963cc2cd1f0c5a34c1b29371fc0a997dee9281b8b12f5f15e3342b4e2e2"
+    },
+    {
+      "path": "docs/validation/day5b/final-sdk-self-prior-20261018T185033541958Z.log",
+      "bytes": 18108,
+      "sha256": "1f4844a0328aa67de5d7e9a49d780c3e32c91bd27de3813fa088cc0a03e3ba52",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "ee40e963cc2cd1f0c5a34c1b29371fc0a997dee9281b8b12f5f15e3342b4e2e2"
+    },
+    {
+      "path": "docs/validation/day5b/final-sdk-self.log",
+      "bytes": 18108,
+      "sha256": "1f4844a0328aa67de5d7e9a49d780c3e32c91bd27de3813fa088cc0a03e3ba52",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "ee40e963cc2cd1f0c5a34c1b29371fc0a997dee9281b8b12f5f15e3342b4e2e2"
+    },
+    {
+      "path": "docs/validation/day5b/final-tests-prior-20261018T184000509484Z.log",
+      "bytes": 31057,
+      "sha256": "3b060dc4bfe81ec5ef26f6e5c632ea963fdf025c9b2d4e153e3fe1278bd1d386",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "631b9a6d6516704a500081af55799f8728c577b96c0e6cecdf50462d2f0b8712"
+    },
+    {
+      "path": "docs/validation/day5b/final-tests-prior-20261018T185024058286Z.log",
+      "bytes": 31057,
+      "sha256": "3b060dc4bfe81ec5ef26f6e5c632ea963fdf025c9b2d4e153e3fe1278bd1d386",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "631b9a6d6516704a500081af55799f8728c577b96c0e6cecdf50462d2f0b8712"
+    },
+    {
+      "path": "docs/validation/day5b/final-tests.log",
+      "bytes": 31057,
+      "sha256": "3b060dc4bfe81ec5ef26f6e5c632ea963fdf025c9b2d4e153e3fe1278bd1d386",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "631b9a6d6516704a500081af55799f8728c577b96c0e6cecdf50462d2f0b8712"
+    },
+    {
+      "path": "docs/validation/day5b/preservation.json",
+      "bytes": 3455,
+      "sha256": "1a1a0252e3c4558dc4dc8b2e06871aa7747821caf23e21f6fb2be0f858267a0d",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "1a1a0252e3c4558dc4dc8b2e06871aa7747821caf23e21f6fb2be0f858267a0d"
+    },
+    {
+      "path": "docs/validation/day5b/preview-console.json",
+      "bytes": 168,
+      "sha256": "dd3dee74821413f99459013fbafa3c72c475a55834cfc3ca1fcf292626e3a146",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "dd3dee74821413f99459013fbafa3c72c475a55834cfc3ca1fcf292626e3a146"
+    },
+    {
+      "path": "docs/validation/day5b/preview-verification.json",
+      "bytes": 4856,
+      "sha256": "fe285a8cb14d9fdc362401c36a3df85ff9a28afae8c0e561d2e1e94bc6917992",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "fe285a8cb14d9fdc362401c36a3df85ff9a28afae8c0e561d2e1e94bc6917992"
+    },
+    {
+      "path": "docs/validation/day5b/previous-GPT_HANDOFF.md",
+      "bytes": 32195,
+      "sha256": "a94b2182cb24ce97bc65fd374034ce0f6703244b3a77489b0ab604d01b5a9444",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "533ae25853e9deede0434d1909ca9e1b3dfa0ea615af90c885de36611444932e"
+    },
+    {
+      "path": "docs/validation/day5b/screenshot-inventory.json",
+      "bytes": 51368,
+      "sha256": "61d71e4338c40b4f86214204cad53d9aa2a77ab9f80f5deb15828e38625b4c77",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "61d71e4338c40b4f86214204cad53d9aa2a77ab9f80f5deb15828e38625b4c77"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-dev-final-1of15-replay-gate.jpg",
+      "bytes": 67122,
+      "sha256": "137d0e835459ac68ed7eefd54933a2d2ea6862b961336be3109e4a664da008e6",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "137d0e835459ac68ed7eefd54933a2d2ea6862b961336be3109e4a664da008e6"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-final-15of15.jpg",
+      "bytes": 67636,
+      "sha256": "4d9d371928ffdd1aace931c5fd2d483f0acd815efdc415bc26e9bd9dada70115",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "4d9d371928ffdd1aace931c5fd2d483f0acd815efdc415bc26e9bd9dada70115"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-home-before-start.jpg",
+      "bytes": 66967,
+      "sha256": "f49653ab60790cd9c90b93cebb965e7f6291138ee1cd54cdce4f412144d6800e",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "f49653ab60790cd9c90b93cebb965e7f6291138ee1cd54cdce4f412144d6800e"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-natural-09-to-10.jpg",
+      "bytes": 57985,
+      "sha256": "19e01e3504f0d9f4ea11bcb5496bc900141e1275b535e65c7e885eb06aaf1041",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "19e01e3504f0d9f4ea11bcb5496bc900141e1275b535e65c7e885eb06aaf1041"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order01-result.jpg",
+      "bytes": 45235,
+      "sha256": "40c1837739aea8cba7631f8952c6833d8a4b2c19c9922eae8d7be698b54c7478",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "40c1837739aea8cba7631f8952c6833d8a4b2c19c9922eae8d7be698b54c7478"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order01-start.jpg",
+      "bytes": 59668,
+      "sha256": "e34cae4de2cf57a7d4b99e237dd723e4e74103cd4e39d445afeee257cd74c1cd",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "e34cae4de2cf57a7d4b99e237dd723e4e74103cd4e39d445afeee257cd74c1cd"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order02-result.jpg",
+      "bytes": 45100,
+      "sha256": "1440d9283bf1a825b65bb5f3974fd5fdaa645100a4305a41419ed1e1adf5cf93",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "1440d9283bf1a825b65bb5f3974fd5fdaa645100a4305a41419ed1e1adf5cf93"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order03-result.jpg",
+      "bytes": 45292,
+      "sha256": "8e6280aefcf1e62f2c80f98f2204b7e1d2a90904211d1c680689823a65ec030d",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "8e6280aefcf1e62f2c80f98f2204b7e1d2a90904211d1c680689823a65ec030d"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order04-result.jpg",
+      "bytes": 45474,
+      "sha256": "c717b97611a375d36253cc02d5ee0efa7f8ecbb6de48de4e04c2b82c0e16c49d",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "c717b97611a375d36253cc02d5ee0efa7f8ecbb6de48de4e04c2b82c0e16c49d"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order05-result.jpg",
+      "bytes": 45168,
+      "sha256": "58c73a8409f72b9edb7c0138bad3fab5aac95a65763c2f26f9b568d1a2fae4d9",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "58c73a8409f72b9edb7c0138bad3fab5aac95a65763c2f26f9b568d1a2fae4d9"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order06-result.jpg",
+      "bytes": 45405,
+      "sha256": "5ce264f27b7f32a0a8a96695d0a3454416da7756e79bb53102224218378a3fe8",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "5ce264f27b7f32a0a8a96695d0a3454416da7756e79bb53102224218378a3fe8"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order07-result.jpg",
+      "bytes": 45195,
+      "sha256": "96df2c29bcb5db01bda54c32c877226b0a86e1d93d677ff7be9a697fe112a187",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "96df2c29bcb5db01bda54c32c877226b0a86e1d93d677ff7be9a697fe112a187"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order08-result.jpg",
+      "bytes": 45363,
+      "sha256": "95cc2af14f4f81191ae8c1e702c3945d42d784ae340f4ed6239bbbf8296ed4b2",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "95cc2af14f4f81191ae8c1e702c3945d42d784ae340f4ed6239bbbf8296ed4b2"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order09-result.jpg",
+      "bytes": 45407,
+      "sha256": "ba066f0683287ec4589e667102eb7c6b2514253e0779b80bf6b2890c41c72ed6",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "ba066f0683287ec4589e667102eb7c6b2514253e0779b80bf6b2890c41c72ed6"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order10-result.jpg",
+      "bytes": 45160,
+      "sha256": "9f6fa761789e4dec57e46cb909a145d565af394c8fb7e7eefd2aacef016a8dbc",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "9f6fa761789e4dec57e46cb909a145d565af394c8fb7e7eefd2aacef016a8dbc"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order10-sequence.jpg",
+      "bytes": 57614,
+      "sha256": "1322b68ca39d463c3f0de9653cf3e106d5eda4b539c660d726acadcddd47ecc7",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "1322b68ca39d463c3f0de9653cf3e106d5eda4b539c660d726acadcddd47ecc7"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order11-result.jpg",
+      "bytes": 45192,
+      "sha256": "e3df9875217e4adf1d1cefa2802c61f74fed9e22dad9ca29bff379752df958f6",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "e3df9875217e4adf1d1cefa2802c61f74fed9e22dad9ca29bff379752df958f6"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order11-trace.jpg",
+      "bytes": 59203,
+      "sha256": "11692b48f5a101f41b9790c68499a8b2d89b4836aa62d853afb8683b8850e966",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "11692b48f5a101f41b9790c68499a8b2d89b4836aa62d853afb8683b8850e966"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order12-result.jpg",
+      "bytes": 45198,
+      "sha256": "83451bed0c953758ce2718e20b94c97dba4f5315150cd900e59d69b40312be01",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "83451bed0c953758ce2718e20b94c97dba4f5315150cd900e59d69b40312be01"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order12-sequence.jpg",
+      "bytes": 59077,
+      "sha256": "ba5649397f9c981bcda676eac62659323ad29b778c2c942d9b7908648b4e47df",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "ba5649397f9c981bcda676eac62659323ad29b778c2c942d9b7908648b4e47df"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order13-gauge-before.jpg",
+      "bytes": 61215,
+      "sha256": "402abb5e5b7e2954b037e9cd18207eebef0ec3677989e16ad62e64eeb92c7a0a",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "402abb5e5b7e2954b037e9cd18207eebef0ec3677989e16ad62e64eeb92c7a0a"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order13-result.jpg",
+      "bytes": 45004,
+      "sha256": "e51e2793e2d02116f206e037e7f55f7122ed89d2091922c1d59c3a5dd0971ebe",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "e51e2793e2d02116f206e037e7f55f7122ed89d2091922c1d59c3a5dd0971ebe"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order14-gauge-before.jpg",
+      "bytes": 61670,
+      "sha256": "c8cc2dac85910d20c8427442766d3b16151013959c5d655cd82e3a6199cd4c26",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "c8cc2dac85910d20c8427442766d3b16151013959c5d655cd82e3a6199cd4c26"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order14-result.jpg",
+      "bytes": 45241,
+      "sha256": "2aaf73feb1305918cfbdae355abc90aa5e0e65f890f48dbf2f53e8255a6afe9a",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "2aaf73feb1305918cfbdae355abc90aa5e0e65f890f48dbf2f53e8255a6afe9a"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order15-gauge-before.jpg",
+      "bytes": 61844,
+      "sha256": "6e940b5a99058ce45c5b55a968291e57e519370ffc30b7db52e8ea3301e6bf02",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "6e940b5a99058ce45c5b55a968291e57e519370ffc30b7db52e8ea3301e6bf02"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order15-test.jpg",
+      "bytes": 57344,
+      "sha256": "43d7b1c731e69096e228cffd6ae885647a2291fbcb94286f23485e1310b47eb0",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "43d7b1c731e69096e228cffd6ae885647a2291fbcb94286f23485e1310b47eb0"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-hotresize-final-input-resize-limitation.jpg",
+      "bytes": 58477,
+      "sha256": "393ed1cf6ccafd9598f10648c64219c780e93a0a1182ba6968d9e7bed9584496",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "393ed1cf6ccafd9598f10648c64219c780e93a0a1182ba6968d9e7bed9584496"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-replay-first-item-accepted.jpg",
+      "bytes": 57506,
+      "sha256": "777ae928ed3fe5638f10e15bee76fe2bacc4ea531fff443ad4c5e3ff34b467d4",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "777ae928ed3fe5638f10e15bee76fe2bacc4ea531fff443ad4c5e3ff34b467d4"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-replay-order01-reset.jpg",
+      "bytes": 59597,
+      "sha256": "131d29c753c7a55a8b6649a34f3acc9f7830ad73d1d01671cc9a9f9da43978f6",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "131d29c753c7a55a8b6649a34f3acc9f7830ad73d1d01671cc9a9f9da43978f6"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-delivery-home.jpg",
+      "bytes": 55905,
+      "sha256": "b5a805c6beb54a861270f91026766b21f401921ddc49f15df2ba4cec5db9153f",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "b5a805c6beb54a861270f91026766b21f401921ddc49f15df2ba4cec5db9153f"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-dev-final-1of15-replay-gate.jpg",
+      "bytes": 56046,
+      "sha256": "d75c66c6bb3e61ca0e86d87ce235c6e985557719c1ab1a88f2654f1008d08ae2",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "d75c66c6bb3e61ca0e86d87ce235c6e985557719c1ab1a88f2654f1008d08ae2"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-dev-final-2of15.jpg",
+      "bytes": 56120,
+      "sha256": "c12107f68b3413ad9f25bc5fc5819810b232ed440eaaf6708979c71db1fe1629",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "c12107f68b3413ad9f25bc5fc5819810b232ed440eaaf6708979c71db1fe1629"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-hotresize-fullrun-final-15of15.jpg",
+      "bytes": 56783,
+      "sha256": "cf2826cd8ad9f6872323bfec1be6bfa03e913c60263d8522d75820240608bb12",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "cf2826cd8ad9f6872323bfec1be6bfa03e913c60263d8522d75820240608bb12"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-hotresize-home-after-fullrun.jpg",
+      "bytes": 55994,
+      "sha256": "483221e672d384cbbcc4b55e52bff050190b3779841d2930d0ec5b17a6ee366e",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "483221e672d384cbbcc4b55e52bff050190b3779841d2930d0ec5b17a6ee366e"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-hotresize-home-start-reset.jpg",
+      "bytes": 48397,
+      "sha256": "8c3f51e079f670e53ef030fe8b1d8af7c500b139e556e7f9612591a609826097",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "8c3f51e079f670e53ef030fe8b1d8af7c500b139e556e7f9612591a609826097"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order10-align.jpg",
+      "bytes": 48279,
+      "sha256": "984794c0637b7292e520346ae8acb9f30b5c60f14904808950fe4b7579f3f48a",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "984794c0637b7292e520346ae8acb9f30b5c60f14904808950fe4b7579f3f48a"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order10-final-review-result.jpg",
+      "bytes": 37467,
+      "sha256": "4bde6ba47a358dfa9ce75b58d08a41ca5f92840dcf66f3790a2996e3232ae873",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "4bde6ba47a358dfa9ce75b58d08a41ca5f92840dcf66f3790a2996e3232ae873"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order10-rotary-green-hold.jpg",
+      "bytes": 47394,
+      "sha256": "0f7c06e847dc2d2a7c343401c476beb466f828f426c253173c72caa3b2fd15f1",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "0f7c06e847dc2d2a7c343401c476beb466f828f426c253173c72caa3b2fd15f1"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order10-sequence-target-fixed.jpg",
+      "bytes": 48196,
+      "sha256": "343a614ab5d0ba360a547cb44f6b680b58f4e48a4ecb77bda212b6bb18a34c11",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "343a614ab5d0ba360a547cb44f6b680b58f4e48a4ecb77bda212b6bb18a34c11"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order10-sequence-wrong-feedback.jpg",
+      "bytes": 48834,
+      "sha256": "13b7bf8ccd988481e5b6605ff1911f550670b2999067cd23db4f2d0ffd60dce6",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "13b7bf8ccd988481e5b6605ff1911f550670b2999067cd23db4f2d0ffd60dce6"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order11-fault.jpg",
+      "bytes": 49446,
+      "sha256": "cfd50fb201e2c73a5b225010599c9ed4be42bcf6411a6531958a4dbbbb6deea0",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "cfd50fb201e2c73a5b225010599c9ed4be42bcf6411a6531958a4dbbbb6deea0"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order11-result.jpg",
+      "bytes": 37299,
+      "sha256": "a1fab939db2e002ced7d75594986e75e1674bd776cebfc76c1ef183479636693",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "a1fab939db2e002ced7d75594986e75e1674bd776cebfc76c1ef183479636693"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order11-trace-final-review.jpg",
+      "bytes": 49547,
+      "sha256": "c7f82b1fe458b713b1a61645b9a75448c05e1c1331dfa16fe36dbde15a4e91a2",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "c7f82b1fe458b713b1a61645b9a75448c05e1c1331dfa16fe36dbde15a4e91a2"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order12-fault.jpg",
+      "bytes": 51825,
+      "sha256": "a7cf84ea2e7da73028f3e102b2299e5adbaa6675eebe5da275c3ad8169a2e3b2",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "a7cf84ea2e7da73028f3e102b2299e5adbaa6675eebe5da275c3ad8169a2e3b2"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order12-result.jpg",
+      "bytes": 37331,
+      "sha256": "309b6b5fe09ec5f08ef6ee6807df0494ff7c4730ff946523cbcb3694f156218f",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "309b6b5fe09ec5f08ef6ee6807df0494ff7c4730ff946523cbcb3694f156218f"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order12-sequence.jpg",
+      "bytes": 52290,
+      "sha256": "1d3cf74320967408088d95dbfe805a09dcdd9758dc46aa7d776495ccd57c5676",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "1d3cf74320967408088d95dbfe805a09dcdd9758dc46aa7d776495ccd57c5676"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order13-gauge-before.jpg",
+      "bytes": 52704,
+      "sha256": "c7c2085b7456daad62a60d9a9595fa48af85701a90e061f0b3c862a958be4d98",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "c7c2085b7456daad62a60d9a9595fa48af85701a90e061f0b3c862a958be4d98"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order13-gauge-green.jpg",
+      "bytes": 51542,
+      "sha256": "89dee08b202c3eaea70c7deabedff1c6c33705820b838f9dfcbee3f836f01c8d",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "89dee08b202c3eaea70c7deabedff1c6c33705820b838f9dfcbee3f836f01c8d"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order13-result.jpg",
+      "bytes": 37483,
+      "sha256": "8f9ebe1c69a708add3ae36d76339b7a7c83cbee5c38a9006dba89d2144445b3b",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "8f9ebe1c69a708add3ae36d76339b7a7c83cbee5c38a9006dba89d2144445b3b"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order13-screws.jpg",
+      "bytes": 51652,
+      "sha256": "713087b5468a9ff40e462bd540a8d18354a572ccca83be20e88b9903b03cabab",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "713087b5468a9ff40e462bd540a8d18354a572ccca83be20e88b9903b03cabab"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order14-fault-fixed.jpg",
+      "bytes": 50232,
+      "sha256": "0482114c3715cefd31b40fcbe11d87b8a251797df05c1d3741b70f1dc7f822bc",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "0482114c3715cefd31b40fcbe11d87b8a251797df05c1d3741b70f1dc7f822bc"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order14-result.jpg",
+      "bytes": 37464,
+      "sha256": "4682de7090a7b6c7c2e98b0ba56a2d039a621f8e4917c5c937bd9abf2995de82",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "4682de7090a7b6c7c2e98b0ba56a2d039a621f8e4917c5c937bd9abf2995de82"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order14-stereo-green.jpg",
+      "bytes": 51128,
+      "sha256": "e6579434fdb0b6640bc047337a00bb827dfc57c20991d106db49420e34fa1853",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "e6579434fdb0b6640bc047337a00bb827dfc57c20991d106db49420e34fa1853"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order15-deviation.jpg",
+      "bytes": 51289,
+      "sha256": "c20c492b6cf5a45a6939ae2712152b6c8fb631ae419b308cffeb0ad179c0a01f",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "c20c492b6cf5a45a6939ae2712152b6c8fb631ae419b308cffeb0ad179c0a01f"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order15-gauge-before.jpg",
+      "bytes": 51578,
+      "sha256": "a69f58be90acfb467aed3f268be7ee508d50a8d974268302e55948eeda5b8cfb",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "a69f58be90acfb467aed3f268be7ee508d50a8d974268302e55948eeda5b8cfb"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order15-gauge-green.jpg",
+      "bytes": 52018,
+      "sha256": "6621a002585896e593afb4d24d404f6a2961ef2627e14d7000d156b38d7228e6",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "6621a002585896e593afb4d24d404f6a2961ef2627e14d7000d156b38d7228e6"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order15-gauge-target-fixed.jpg",
+      "bytes": 53171,
+      "sha256": "a07431e9d84490e2382f702d5164f85b438832898f193f3b5129451966a75fab",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "a07431e9d84490e2382f702d5164f85b438832898f193f3b5129451966a75fab"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order15-test-target-fixed.jpg",
+      "bytes": 47719,
+      "sha256": "914d1f69352a25577845ac13a78a950d0178ec7b290165378a6630a4db22bd75",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "914d1f69352a25577845ac13a78a950d0178ec7b290165378a6630a4db22bd75"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order15-test.jpg",
+      "bytes": 50819,
+      "sha256": "458bd86c9d6b81e1ba0568c3367983a550e80a75c671b2683eb693326e8afea9",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "458bd86c9d6b81e1ba0568c3367983a550e80a75c671b2683eb693326e8afea9"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order15-trace.jpg",
+      "bytes": 50514,
+      "sha256": "2d35a572dcaeaa2352e33aba2d3aed60fb10ceea609ce6275d7e46be9d075f6f",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "2d35a572dcaeaa2352e33aba2d3aed60fb10ceea609ce6275d7e46be9d075f6f"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-replay-order01-first-input.jpg",
+      "bytes": 48763,
+      "sha256": "21533109754243f792b48569b4461d5a2e174a9d37107a5e9db32a998450736b",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "21533109754243f792b48569b4461d5a2e174a9d37107a5e9db32a998450736b"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-replay-order01-reset.jpg",
+      "bytes": 49908,
+      "sha256": "584d6eb08dc3486a466ebede4e87731fa1850f017a2f8d8fd865b076a8947aef",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "584d6eb08dc3486a466ebede4e87731fa1850f017a2f8d8fd865b076a8947aef"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/768-fault-success.jpg",
+      "bytes": 90360,
+      "sha256": "f37159a3b8eedc3d03490f501c6242f18452371394fc746272d97be72316b829",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "f37159a3b8eedc3d03490f501c6242f18452371394fc746272d97be72316b829"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/768-gauge-green.jpg",
+      "bytes": 93184,
+      "sha256": "1e47da5e5306623b665d4fe9afc68569cd690e6167d14c9dcc9d3d7616baa1a3",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "1e47da5e5306623b665d4fe9afc68569cd690e6167d14c9dcc9d3d7616baa1a3"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/768-rotary-green.jpg",
+      "bytes": 86352,
+      "sha256": "e60bf618ff9b9c0724eea68aa5f87fd75ef80054841453864862cc1b7d5427a7",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "e60bf618ff9b9c0724eea68aa5f87fd75ef80054841453864862cc1b7d5427a7"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/768-sequence-target-fixed.jpg",
+      "bytes": 86981,
+      "sha256": "d142f373eeba36d3871ee9e1007b6332a787776322d3efa4b49eef008491ca55",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "d142f373eeba36d3871ee9e1007b6332a787776322d3efa4b49eef008491ca55"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/768-trace.jpg",
+      "bytes": 90954,
+      "sha256": "8bc2ab2643f81f75581efcf23a93291b46dd079e6f5d56212e6ef8611673d9ad",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "8bc2ab2643f81f75581efcf23a93291b46dd079e6f5d56212e6ef8611673d9ad"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/phase-b-fan-result.jpg",
+      "bytes": 37318,
+      "sha256": "289f3b06b6991e6cd402f7b2e05cf5d58ef51024e674fd7a5f72109a45454f5c",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "289f3b06b6991e6cd402f7b2e05cf5d58ef51024e674fd7a5f72109a45454f5c"
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/phase-b-headset-clue.jpg",
+      "bytes": 50042,
+      "sha256": "335810e31347cab05be01b4dfb3f0c858c58bdcc8c08146c0a32e5d882170e41",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "335810e31347cab05be01b4dfb3f0c858c58bdcc8c08146c0a32e5d882170e41"
+    },
+    {
+      "path": "docs/validation/day5b/script-import-request-prior-1792349416767.json",
+      "bytes": 2681,
+      "sha256": "9d57fb0159b80d210d6aea493e662be29bc6b4be6dbcb4c6aad54f9c812113aa",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "9d57fb0159b80d210d6aea493e662be29bc6b4be6dbcb4c6aad54f9c812113aa"
+    },
+    {
+      "path": "docs/validation/day5b/script-import-request.json",
+      "bytes": 2681,
+      "sha256": "87d098c4a4c310be76c2da0dc5adda4b401ea9bc4e7c1fa983d87d373746692f",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "87d098c4a4c310be76c2da0dc5adda4b401ea9bc4e7c1fa983d87d373746692f"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5b-main.js",
+      "bytes": 7817,
+      "sha256": "fa46e83f72bd59072f354ce5e213a56a62a5391727efc6f6e1310a24299b1b34",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "db3796a2ccf4fd8389ae4f342f35157eeb9bce23fcf6ea9196874b5bf9086602"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5b-probe.js",
+      "bytes": 16854,
+      "sha256": "4cdcd5e8bf84609f34675f8047c917bdf973d82659662cb72ee73e62b83d53e3",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "f1cf33c640e5f0ec0305dcdd22ed6630947f5761015f3ec5eec7df796d964416"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5b-release-proof.js",
+      "bytes": 3323,
+      "sha256": "731fc5ef7d0200d43e1243fa269ee4220c88ec5d07eef7521f7c4e0fae251006",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5b-scene.js",
+      "bytes": 7999,
+      "sha256": "c549d997436486526b845980da95a5304cb19298a8e8c4af9d4172807a174705",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "1b8fa34b911a59e408b60845e203797e6dcebd9aa8c6d1fa058eb180021e0c97"
+    },
+    {
+      "path": "extensions/deskrescue-editor/main.js",
+      "bytes": 13381,
+      "sha256": "37274102f807c5b7888059246cf33b5174aa96c85c5865c739eeb0fb1d0f89d1",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "37274102f807c5b7888059246cf33b5174aa96c85c5865c739eeb0fb1d0f89d1"
+    },
+    {
+      "path": "extensions/deskrescue-editor/package.json",
+      "bytes": 9673,
+      "sha256": "0eb5283ba374e9b2618fe312357ceac11c767dd0ea7ba5e730e79cf99dea48ad",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "0eb5283ba374e9b2618fe312357ceac11c767dd0ea7ba5e730e79cf99dea48ad"
+    },
+    {
+      "path": "extensions/deskrescue-editor/scene.js",
+      "bytes": 22031,
+      "sha256": "ec613fa66965c0c1e4e539f6ada08558a6314cd70d50a2d86d5b466eb361c672",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "ec613fa66965c0c1e4e539f6ada08558a6314cd70d50a2d86d5b466eb361c672"
+    },
+    {
+      "path": "package.json",
+      "bytes": 362,
+      "sha256": "b72b2cf59adfb8cf2d88cbcb9bfb8a46e7adedb9223ff1e84913d20ab5c74fb2",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "b72b2cf59adfb8cf2d88cbcb9bfb8a46e7adedb9223ff1e84913d20ab5c74fb2"
+    },
+    {
+      "path": "tools/art/day5b/SOURCES.md",
+      "bytes": 1448,
+      "sha256": "fdf3a88cfb8ee0022e2a2f12f6d247bcc0de0caf690414fb5ea22c077d372f73",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "fdf3a88cfb8ee0022e2a2f12f6d247bcc0de0caf690414fb5ea22c077d372f73"
+    },
+    {
+      "path": "tools/art/day5b/asset-sources.json",
+      "bytes": 9837,
+      "sha256": "c3549d0a0fd6b75fb26d53171d73a503dc97a3cc10bed97d8e301b957f70b8d2",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "c3549d0a0fd6b75fb26d53171d73a503dc97a3cc10bed97d8e301b957f70b8d2"
+    },
+    {
+      "path": "tools/art/day5b/generate_day5b.py",
+      "bytes": 13853,
+      "sha256": "429b49b49b11b759e1b2896c68d479a36454a073ac78a1a211415fb7f7a5660a",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "429b49b49b11b759e1b2896c68d479a36454a073ac78a1a211415fb7f7a5660a"
+    },
+    {
+      "path": "tools/art/day5b/sources/devices/controller.svg",
+      "bytes": 15387,
+      "sha256": "2b074951548c79799d97201f77b265048c6cbaf17f32822749bb196e14511194",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "2b074951548c79799d97201f77b265048c6cbaf17f32822749bb196e14511194"
+    },
+    {
+      "path": "tools/art/day5b/sources/devices/fan.svg",
+      "bytes": 8737,
+      "sha256": "8466cb5ac6d2a0479a86b55b27372c008b46e33b4ffe9a2ee065a18a20e6757e",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "8466cb5ac6d2a0479a86b55b27372c008b46e33b4ffe9a2ee065a18a20e6757e"
+    },
+    {
+      "path": "tools/art/day5b/sources/devices/headset.svg",
+      "bytes": 5980,
+      "sha256": "220746f9892294cf69a536489ca4bacddc88711f182b551470fb5b630c6fea84",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "220746f9892294cf69a536489ca4bacddc88711f182b551470fb5b630c6fea84"
+    },
+    {
+      "path": "tools/art/day5b/sources/devices/keyboard.svg",
+      "bytes": 25844,
+      "sha256": "77ffc23043d0da4d2c19baf058a072ddd334e4a2ccea6f11b74d2d1cc42cacb6",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "77ffc23043d0da4d2c19baf058a072ddd334e4a2ccea6f11b74d2d1cc42cacb6"
+    },
+    {
+      "path": "tools/art/day5b/sources/devices/livestream.svg",
+      "bytes": 7996,
+      "sha256": "5351f487345cfa2d3eb2ee7c58c8eaafc8196cbb555e7d1dec2bb7118db3415e",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "5351f487345cfa2d3eb2ee7c58c8eaafc8196cbb555e7d1dec2bb7118db3415e"
+    },
+    {
+      "path": "tools/art/day5b/sources/devices/printer.svg",
+      "bytes": 6157,
+      "sha256": "a475253692b08548876e393b6aab876e3a5e2734573f12a54b52d25073b137d8",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "a475253692b08548876e393b6aab876e3a5e2734573f12a54b52d25073b137d8"
+    },
+    {
+      "path": "tools/art/day5b/sources/layers/fan-blades.svg",
+      "bytes": 5240,
+      "sha256": "6459cb3bb835a9e0b462d6975f07cbeb9ca06c40fdf94ac79f28987c123fe517",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "6459cb3bb835a9e0b462d6975f07cbeb9ca06c40fdf94ac79f28987c123fe517"
+    },
+    {
+      "path": "tools/art/day5b/sources/layers/fan-cover.svg",
+      "bytes": 5754,
+      "sha256": "a59e78089fd0e838996a88de04a221194998bebe5980efefb2e93afaef524fcc",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "a59e78089fd0e838996a88de04a221194998bebe5980efefb2e93afaef524fcc"
+    },
+    {
+      "path": "tools/art/day5b/sources/layers/joystick.svg",
+      "bytes": 1677,
+      "sha256": "f9c226d9b26aa685839251869d3ca6296c0d68b9fb0b18f8affbab3f4d30710b",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "f9c226d9b26aa685839251869d3ca6296c0d68b9fb0b18f8affbab3f4d30710b"
+    },
+    {
+      "path": "tools/art/day5b/sources/layers/keycap.svg",
+      "bytes": 779,
+      "sha256": "d59ba86fd9c6811439165d62e7a805363f35d7449d64ee7532cd71580dfa1a0a",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "d59ba86fd9c6811439165d62e7a805363f35d7449d64ee7532cd71580dfa1a0a"
+    },
+    {
+      "path": "tools/art/day5b/sources/layers/paper-crumpled.svg",
+      "bytes": 3481,
+      "sha256": "4039e15daaec289779d2e25b1b2fcb34924512e0d3df65b1769b50fb7c47c2ab",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "4039e15daaec289779d2e25b1b2fcb34924512e0d3df65b1769b50fb7c47c2ab"
+    },
+    {
+      "path": "tools/art/day5b/sources/layers/paper-test.svg",
+      "bytes": 2662,
+      "sha256": "336b591c257e2d55f853c87faae277e7380f233a0dc0a2b397e4f75d90fbc244",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "336b591c257e2d55f853c87faae277e7380f233a0dc0a2b397e4f75d90fbc244"
+    },
+    {
+      "path": "tools/art/day5b/sources/layers/screw.svg",
+      "bytes": 1970,
+      "sha256": "80e706d40cea2e0e7904915fbe079ddaa9cf6e186e0f36a4873d6d51e1086762",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "80e706d40cea2e0e7904915fbe079ddaa9cf6e186e0f36a4873d6d51e1086762"
+    },
+    {
+      "path": "tools/art/day5b/sources/layers/slider-thumb.svg",
+      "bytes": 904,
+      "sha256": "f00db510861411cd90dc16e8fa7cf4223d691d70a872aba0d7d1869c16dafa41",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "f00db510861411cd90dc16e8fa7cf4223d691d70a872aba0d7d1869c16dafa41"
+    },
+    {
+      "path": "tools/art/day5b/sources/layers/trace-handle.svg",
+      "bytes": 768,
+      "sha256": "f71f104c9a7ca3a5e82fce736c084ffccc956a73a4ae78b5e7b4074eef93a7ff",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "f71f104c9a7ca3a5e82fce736c084ffccc956a73a4ae78b5e7b4074eef93a7ff"
+    },
+    {
+      "path": "tools/audit_day5b_public.py",
+      "bytes": 3855,
+      "sha256": "f0911d1541cb805887067976c199b94a81c6754f7d1d9c84dc1850ebfcfb6760",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "tools/package_day5b_delivery.py",
+      "bytes": 6299,
+      "sha256": "e507670e5c2de391d99fb507af0a280c880937338479a3952879938ff108d776",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "16111dcd553d72d85de90db2625fddb372a40d11a87b65136c909d6718c476c7"
+    },
+    {
+      "path": "tools/run_day5b_checks.py",
+      "bytes": 4893,
+      "sha256": "8bcda02d9034ef28444ce33b485169073c2a88b7c775223c9e12eef0d2486ebd",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "4e6cc87ab8b0d3610d2abd32cbf37ab87843501b714d73ffd53974d1784e3841"
+    },
+    {
+      "path": "tools/test/cc.d.ts",
+      "bytes": 6427,
+      "sha256": "326151766a7b2051d7c55193a3dcda2ab0c2cb23348df2b9724bd2c0e141c13b",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "bf736d3d6c90e90b5f04136269b53a24b68e6df963c9bf68222d8a08566398d8"
+    },
+    {
+      "path": "tools/test/day5b-catalog.cjs",
+      "bytes": 15389,
+      "sha256": "47072e3a97a04c4f6c9deb3f1825b162215eda06e4ee0aec555dff72d5fc1a45",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "47072e3a97a04c4f6c9deb3f1825b162215eda06e4ee0aec555dff72d5fc1a45"
+    },
+    {
+      "path": "tools/test/day5b-final-polish.cjs",
+      "bytes": 8182,
+      "sha256": "9db8046789edc0ccabe67f771d6ff959ad5510ca3a183703c48575a27d3ed302",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "tools/test/day5b-fixture.cjs",
+      "bytes": 1623,
+      "sha256": "a88b33ae99eedc130c433436f0b586e7cdaacff4879e2d3f5915edae6143dfdf",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "a88b33ae99eedc130c433436f0b586e7cdaacff4879e2d3f5915edae6143dfdf"
+    },
+    {
+      "path": "tools/test/day5b-gauge.cjs",
+      "bytes": 3969,
+      "sha256": "876033a632cd0ba330816052a024243740d5961cf05dab7ac7a036a41a64d0c4",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "876033a632cd0ba330816052a024243740d5961cf05dab7ac7a036a41a64d0c4"
+    },
+    {
+      "path": "tools/test/day5b-harness.cjs",
+      "bytes": 2175,
+      "sha256": "2a743e138f8024fcfabb5a53687ef86c994ac80a6c980822ec067750dd472edc",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "2a743e138f8024fcfabb5a53687ef86c994ac80a6c980822ec067750dd472edc"
+    },
+    {
+      "path": "tools/test/day5b-inputs.cjs",
+      "bytes": 7571,
+      "sha256": "8b0e4405e78b84f1a6491f224f2635b86c63d3fb44b9f03ba085d2aca0a33c60",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "8b0e4405e78b84f1a6491f224f2635b86c63d3fb44b9f03ba085d2aca0a33c60"
+    },
+    {
+      "path": "tools/test/day5b-integration.cjs",
+      "bytes": 9445,
+      "sha256": "605dea7e8c64db86bda04a4df68937d7f002dc98a72f9c7c15d4d94d30d18f10",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "a7ee78f3b32516b7122ecb4073d20a65f12984878b9c4f8fad5e4487b4795cda"
+    },
+    {
+      "path": "tools/test/day5b-lifecycle.cjs",
+      "bytes": 9235,
+      "sha256": "5fe548250d6aba6689720a5d0c63a22c193eafb8bdca671d84133ef9cdd722bc",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "5fe548250d6aba6689720a5d0c63a22c193eafb8bdca671d84133ef9cdd722bc"
+    },
+    {
+      "path": "tools/test/day5b-motion.cjs",
+      "bytes": 3585,
+      "sha256": "f0af8dec26638f5e6acb455196f9be24f6f1cec4b522d4e7daa775973cf49f81",
+      "phase": "Prior Day5B unchanged in final polish",
+      "alpha5Sha256": "f0af8dec26638f5e6acb455196f9be24f6f1cec4b522d4e7daa775973cf49f81"
+    },
+    {
+      "path": "tools/verify-day1.cjs",
+      "bytes": 99065,
+      "sha256": "161dfa09fd7fe976624a61594c2e32a97d2dd5b49c07a6bb301777d944a43f08",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "ac1659b23967b5394433297bebf23d146db2fa7c37509f8726a6ce07f45bbb7f"
+    },
+    {
+      "path": "tools/verify-day5b.cjs",
+      "bytes": 611,
+      "sha256": "3f20c1fbd5a6dfb329fc6ecb73b2a1d26c57e52bcdf3d6c143f0c62db2d7ed47",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "e2341b907ead2b78930c184d88b2a03f99ea5fba547a238cac2cbfa286198a75"
+    },
+    {
+      "path": "tools/verify_day5b_final.py",
+      "bytes": 4842,
+      "sha256": "c8bce77834058f5bb2bcbbcdf0198d1b5717514ff77dbca10ce9a592ef23ac34",
+      "phase": "Final polish new evidence/tool",
+      "alpha5Sha256": null
+    },
+    {
+      "path": "tools/verify_day5b_preservation.py",
+      "bytes": 4959,
+      "sha256": "d4982b41d3c68e76336733995011ddff17917aa7f01b325ff2715f8ab621f7e5",
+      "phase": "Final polish or public redaction of alpha5 file",
+      "alpha5Sha256": "a0cc850db4225740d576961ac965bff82440de821009e57b66b7e0f9817ca300"
+    }
+  ],
+  "count": 349
+}

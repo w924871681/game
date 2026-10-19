@@ -1,0 +1,132 @@
+{
+  "ok": true,
+  "finishedAtUtc": "2026-10-18T19:25:32.705591+00:00",
+  "dateAsiaShanghai": "2026-10-19",
+  "url": "http://localhost:7456/",
+  "version": "0.0.5-alpha.5",
+  "engine": "Cocos Creator 3.8.8",
+  "method": "Documented browser coordinate mouse clicks/drags on real Preview, screenshots observed between stages; no engine state injection or completion callbacks.",
+  "naturalFullRun": {
+    "viewport": [
+      1280,
+      720
+    ],
+    "debugJumpsUsed": false,
+    "homeStartUsed": true,
+    "naturalOrder09To10": true,
+    "completedOrders": 15,
+    "totalOrders": 15,
+    "completedStages": 27,
+    "totalStages": 27,
+    "earnedStars": 39,
+    "maxStars": 45,
+    "totalScore": 10980,
+    "totalSeconds": 510.9,
+    "mistakes": 0,
+    "scoreSource": "Read directly from actual final UI, not synthesized",
+    "finalScreenshot": "screenshots/1280-fullrun-final-15of15.jpg",
+    "limitations": "Time includes automation observations and interruption/recovery wait in order2; no human benchmark. Portrait final is same result hot-resized."
+  },
+  "portraitCoverage": {
+    "viewport": [
+      390,
+      844
+    ],
+    "orders": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "allNewStagesActuallyOperated": true,
+    "mode": "Debug positioned, real mouse inputs and outcomes across multiple partial sessions",
+    "extraFinalChecks": [
+      "sequence target below all buttons",
+      "sequence wrong tap visible and progress retained",
+      "printer three-checkpoint handle",
+      "constant gauge ranges",
+      "broadcast four-key target",
+      "actual Replay fresh order1"
+    ]
+  },
+  "tabletCoverage": {
+    "viewport": [
+      768,
+      1024
+    ],
+    "kinds": [
+      "fault-spot",
+      "rotary-control",
+      "guided-trace",
+      "gauge-tune",
+      "sequence-test"
+    ],
+    "mode": "Debug positioned partial orders; at least one actual operated example each; not full fifteen-order run"
+  },
+  "finalControls": {
+    "naturalFinalHomeStart": {
+      "passed": true,
+      "viewport": [
+        390,
+        844
+      ],
+      "mode": "Same natural full-run result after hot-resize; actual Home then Start, fresh order1 0/3 no mistakes",
+      "screenshots": [
+        "screenshots/390-hotresize-home-after-fullrun.jpg",
+        "screenshots/390-hotresize-home-start-reset.jpg"
+      ]
+    },
+    "replay390": {
+      "passed": true,
+      "mode": "Independent Debug order15 partial final, actual Replay to first order0/3 no mistakes",
+      "screenshot": "screenshots/390-replay-order01-reset.jpg"
+    },
+    "replay1280": {
+      "passed": true,
+      "mode": "Fixed viewport initialized via reload, independent Debug order15 partial final; actual Replay then first mouse accepted1/3 no mistakes",
+      "screenshots": [
+        "screenshots/1280-dev-final-1of15-replay-gate.jpg",
+        "screenshots/1280-replay-order01-reset.jpg",
+        "screenshots/1280-replay-first-item-accepted.jpg"
+      ]
+    }
+  },
+  "currentCapturedWarningErrorEntries": 0,
+  "logsScope": "Current available tab entries only; old closed sessions and Creator console not inferred.",
+  "knownLimitations": [
+    "390 initialized Preview hot-resize to1280 has letterboxing and click mapping mismatch; restoring size or reload resolves. Fixed size initializations passed; free rotation not validated.",
+    "Physical touch, native browser Touch/CANCEL adapter, multi-finger device, mobile WebView and WeChat/Douyin not tested.",
+    "No FPS or independent audio listening measurement.",
+    "Art is original playable2D layered approximation, not3D reference fidelity; oldV22 dust banding remains.",
+    "Human difficulty and stars thresholds need actual player review.",
+    "SDK itself retains102 declaration diagnostics exit1."
+  ],
+  "evidenceBindings": [
+    {
+      "path": "docs/validation/day5b/checks.json",
+      "sha256": "e1d0396ae6682464088e4d6fb1916f5a56ab4eeaaf520c9bf00ee8edcbd15594"
+    },
+    {
+      "path": "docs/validation/day5b/creator-audit.json",
+      "sha256": "f0019277f0b67eb46cba5a3330f55fdf0fe046f437ac44247497da82065c80f2"
+    },
+    {
+      "path": "docs/validation/day5b/engine-probe.json",
+      "sha256": "b48e76b0a66f43d63cf62c3774d4d431e25d2d8f60358fc9c6e37051ea95e719"
+    },
+    {
+      "path": "docs/validation/day5b/build-current.json",
+      "sha256": "715ed00f5f800042eb42883dbbe92f9f29101a62bbfe731c915d4327fa37930c"
+    },
+    {
+      "path": "docs/validation/day5b/screenshot-inventory.json",
+      "sha256": "61d71e4338c40b4f86214204cad53d9aa2a77ab9f80f5deb15828e38625b4c77"
+    },
+    {
+      "path": "docs/validation/day5b/preview-console.json",
+      "sha256": "dd3dee74821413f99459013fbafa3c72c475a55834cfc3ca1fcf292626e3a146"
+    }
+  ]
+}

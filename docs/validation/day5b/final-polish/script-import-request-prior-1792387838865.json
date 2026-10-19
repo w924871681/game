@@ -1,0 +1,70 @@
+{
+  "scripts": [
+    {
+      "path": "assets/scripts/data/Day5BOrderCatalog.ts",
+      "sha256": "183ddf3219c31150d19ca7445c9d28190c6ecd38e7e5ab292a28761964ee1d48"
+    },
+    {
+      "path": "assets/scripts/data/Day5BStageDefinition.ts",
+      "sha256": "d7bdb45a9e3dd537b9b48e54da86f2e1ae17c6c0d9c63aa1d6e0df7461edfdf7"
+    },
+    {
+      "path": "assets/scripts/data/Day5BStageValidation.ts",
+      "sha256": "d114c6bd52a0aa49cd0f1eb41750c2a47065dea9c3e683524034e6d75a3a4984"
+    },
+    {
+      "path": "assets/scripts/stages/Day5BMotionMath.ts",
+      "sha256": "30dc5cb8878de41a7b5bc67858289c4875989c7f92362abbb04e0120330e1080"
+    },
+    {
+      "path": "assets/scripts/stages/Day5BStageController.ts",
+      "sha256": "4c164765f7b30181dcccce7d56648f0dc2f7efed828be5397c5e9af72a2f9a06"
+    },
+    {
+      "path": "assets/scripts/stages/FaultSpotStageController.ts",
+      "sha256": "f573d4680bb33376778ad4ad004dc4911624a88561d24ab35c770a1065d33f22"
+    },
+    {
+      "path": "assets/scripts/stages/GaugeTuneStageController.ts",
+      "sha256": "50f1a0507f8acc1bf8de9455172c3129714656dad28de1b654db56d47c6db5b4"
+    },
+    {
+      "path": "assets/scripts/stages/GuidedTraceStageController.ts",
+      "sha256": "06f108817729b58f073099101f5db080b523b71bb0efbdff527165f2b1d5c935"
+    },
+    {
+      "path": "assets/scripts/stages/RotaryControlStageController.ts",
+      "sha256": "269f1cf114d874c6ef1d45ab220bfbbd2b0495e78d8b18352087c2fae4260081"
+    },
+    {
+      "path": "assets/scripts/stages/SequenceTestStageController.ts",
+      "sha256": "fe7052092441e512c4d1e9be4c9ac4773cb22751adc6c837e3fa4adc19450caf"
+    },
+    {
+      "path": "assets/scripts/stages/StageHost.ts",
+      "sha256": "de8b56163d9c98f27cf28b476f1a0c848bb2699f050cdedc95f7368e5f9400c5"
+    },
+    {
+      "path": "assets/scripts/visuals/Day5BStageView.ts",
+      "sha256": "983db2588f7e9cfc8aabe3f700d27bbb8cf19cd1e15fc06dfa8d9cab53f3015b"
+    },
+    {
+      "path": "assets/scripts/visuals/Day5BVisualCatalog.ts",
+      "sha256": "7f6aa3727cfaeae59e1c10638646d455ac6d09927ffde4506bfed0769e4e1e46"
+    },
+    {
+      "path": "assets/scripts/ui/Day5BReviewLauncher.ts",
+      "sha256": "1a71d1c4ffec79627c95753ca001183edc36d3fb8613aae8dede681d5d06bb59"
+    },
+    {
+      "path": "assets/scripts/ui/PaperOrderHUD.ts",
+      "sha256": "18180491fec99dad3b128cdce2974ad05a96858c75f57d6e50da072a2a3f10a0"
+    },
+    {
+      "path": "assets/scripts/core/LevelManager.ts",
+      "sha256": "636cf53533a667f9638831e0ed5fa8b4f1ad7317131f5fdd989c1a8f1be6f982"
+    }
+  ],
+  "timestamp": "2026-10-19T05:26:15.185Z",
+  "note": "Import request only. Repeat Apply after the scene reloads; audit/probe still required."
+}

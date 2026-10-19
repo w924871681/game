@@ -1,5 +1,10 @@
 import { _decorator, Component, instantiate, Node, Prefab, warn } from 'cc';
-import type { StageDefinition, StageKind } from '../data/StageDefinition';
+import type { LegacyStageDefinition, StageDefinition, StageKind } from '../data/Day5BStageDefinition';
+import { FaultSpotStageController } from './FaultSpotStageController';
+import { RotaryControlStageController } from './RotaryControlStageController';
+import { GuidedTraceStageController } from './GuidedTraceStageController';
+import { SequenceTestStageController } from './SequenceTestStageController';
+import { GaugeTuneStageController } from './GaugeTuneStageController';
 import { CableConnectStageController } from './CableConnectStageController';
 // Keep the three concrete controllers statically imported for Creator Prefab serialization.
 import { CleanSwipeStageController } from './CleanSwipeStageController';
@@ -26,6 +31,12 @@ export class StageHost extends Component {
 
     @property(Prefab)
     public cleanSwipePrefab: Prefab | null = null;
+
+    @property(Prefab) public faultSpotPrefab: Prefab | null = null;
+    @property(Prefab) public rotaryControlPrefab: Prefab | null = null;
+    @property(Prefab) public guidedTracePrefab: Prefab | null = null;
+    @property(Prefab) public sequenceTestPrefab: Prefab | null = null;
+    @property(Prefab) public gaugeTunePrefab: Prefab | null = null;
 
     @property(VisualAssetRegistry)
     public visualAssets: VisualAssetRegistry | null = null;
@@ -75,6 +86,36 @@ export class StageHost extends Component {
                 const controller = entry.node.getComponent(CleanSwipeStageController)!;
                 controller.bindVisualAssets(this.assetsFor(definition));
                 controller.configure(definition, this.guard(callbacks));
+                break;
+            }
+            case 'fault-spot': {
+                const entry = this.obtain(definition.kind, this.faultSpotPrefab, FaultSpotStageController);
+                this.activate(entry);
+                entry.node.getComponent(FaultSpotStageController)!.configure(definition, this.guard(callbacks));
+                break;
+            }
+            case 'rotary-control': {
+                const entry = this.obtain(definition.kind, this.rotaryControlPrefab, RotaryControlStageController);
+                this.activate(entry);
+                entry.node.getComponent(RotaryControlStageController)!.configure(definition, this.guard(callbacks));
+                break;
+            }
+            case 'guided-trace': {
+                const entry = this.obtain(definition.kind, this.guidedTracePrefab, GuidedTraceStageController);
+                this.activate(entry);
+                entry.node.getComponent(GuidedTraceStageController)!.configure(definition, this.guard(callbacks));
+                break;
+            }
+            case 'sequence-test': {
+                const entry = this.obtain(definition.kind, this.sequenceTestPrefab, SequenceTestStageController);
+                this.activate(entry);
+                entry.node.getComponent(SequenceTestStageController)!.configure(definition, this.guard(callbacks));
+                break;
+            }
+            case 'gauge-tune': {
+                const entry = this.obtain(definition.kind, this.gaugeTunePrefab, GaugeTuneStageController);
+                this.activate(entry);
+                entry.node.getComponent(GaugeTuneStageController)!.configure(definition, this.guard(callbacks));
                 break;
             }
         }
@@ -138,7 +179,7 @@ export class StageHost extends Component {
         entry.node.active = true;
     }
 
-    private assetsFor(definition: StageDefinition): VisualAssetRegistry | null {
+    private assetsFor(definition: LegacyStageDefinition): VisualAssetRegistry | null {
         if (!this.visualAssets || !this.slicePreview) return this.visualAssets;
         const keys = definition.kind === 'drag-match'
             ? definition.pairs.map(pair => dragVisualKey(definition.id, pair.id))

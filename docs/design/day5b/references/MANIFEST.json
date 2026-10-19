@@ -1,0 +1,59 @@
+{
+  "purpose": "user-approved visual references, not ready-to-run stage sprites",
+  "files": [
+    {
+      "orderId": 10,
+      "title": "手柄摇杆漂移 — 校准摇杆",
+      "file": "references/order10_controller.png",
+      "width": 941,
+      "height": 1672,
+      "bytes": 2119418,
+      "sha256": "569b8fcbed38f0f59e8af4b5e125c57678f9c45961f395c41c9effa277b70d27"
+    },
+    {
+      "orderId": 11,
+      "title": "打印机卡纸救援 — 路径抽纸",
+      "file": "references/order11_printer.png",
+      "width": 941,
+      "height": 1672,
+      "bytes": 2135371,
+      "sha256": "6ef8ca4b4e1fa7fa9c27e06aa04d2c586cb764cdd9eb6f6d0836cbdb23afb723"
+    },
+    {
+      "orderId": 12,
+      "title": "键盘连击故障 — 定位 S 键",
+      "file": "references/order12_keyboard.png",
+      "width": 941,
+      "height": 1672,
+      "bytes": 2128572,
+      "sha256": "bdbac083aefd4bf02f4d9e6237c0ebe59dcc3f3ea9b64beeb9701de42dd7d4a1"
+    },
+    {
+      "orderId": 13,
+      "title": "散热风扇异响 — 仪表调节",
+      "file": "references/order13_fan.png",
+      "width": 941,
+      "height": 1672,
+      "bytes": 2139303,
+      "sha256": "e0cf4f0373945008b79ea0cf24db2cd28a608503c4f0137d0027c12aa7d34da8"
+    },
+    {
+      "orderId": 14,
+      "title": "耳机左右声道失衡 — 声道平衡",
+      "file": "references/order14_headset.png",
+      "width": 941,
+      "height": 1672,
+      "bytes": 2136828,
+      "sha256": "a28cf095d41545c155b2a3324583d8401d94a9e73186c81393bd3d7801c3f759"
+    },
+    {
+      "orderId": 15,
+      "title": "直播间紧急救场 — 信号线路",
+      "file": "references/order15_livestream.png",
+      "width": 941,
+      "height": 1672,
+      "bytes": 2239962,
+      "sha256": "ef559bb6e35b4c4d9b6e0d0a72aa48ab00b928f612c377d521684c5b79a8f448"
+    }
+  ]
+}

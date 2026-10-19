@@ -1,0 +1,20 @@
+'use strict';
+exports.fixture = function(runtime, Type) {
+    const { Node, UITransform, Sprite, Label, Graphics, SpriteFrame, EventTouch, Vec3 } = runtime.mock.cc;
+    const { Day5BStageView } = runtime.load('visuals/Day5BStageView.ts');
+    const { DAY5B_VISUAL_KEYS } = runtime.load('visuals/Day5BVisualCatalog.ts');
+    const node = (name, parent) => { const n = new Node(name); n.addComponent(UITransform); if (parent) n.parent=parent; return n; };
+    const root = node('Day5BStage'), view = root.addComponent(Day5BStageView);
+    view.deviceSprite=node('Device',root).addComponent(Sprite); view.controlLayer=node('Controls',root);
+    view.overlay=node('Overlay',root).addComponent(Graphics);
+    view.hintLabel=node('Hint',root).addComponent(Label);view.feedbackLabel=node('Feedback',root).addComponent(Label);
+    view.keys=[...DAY5B_VISUAL_KEYS];view.frames=view.keys.map(k=>new SpriteFrame(k));
+    const controller=root.addComponent(Type);controller.view=view;
+    const result={mistakes:0,completions:0,progress:[]};
+    const callbacks={onProgress:p=>result.progress.push(p),onMistake:()=>result.mistakes++,onComplete:()=>result.completions++};
+    runtime.mock.boot(root);
+    const emit=(target,type,x,y,id=1)=>{ const world=root.getComponent(UITransform).convertToWorldSpaceAR(new Vec3(x,y,0));target.emit(Node.EventType[type],new EventTouch(id,world)); };
+    const tap=(target,id=1)=>{const p=target.position;emit(target,'TOUCH_START',p.x,p.y,id);emit(target,'TOUCH_END',p.x,p.y,id);};
+    const tick=(dt)=>controller.update(dt);
+    return {root,view,controller,result,callbacks,emit,tap,tick,node};
+};

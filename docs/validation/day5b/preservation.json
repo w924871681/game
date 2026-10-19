@@ -1,0 +1,130 @@
+{
+  "ok": true,
+  "baselineFiles": 1130,
+  "unchangedOriginalFiles": 1118,
+  "modifiedOriginalFiles": [
+    "README.md",
+    "assets/scenes/Game.scene",
+    "assets/scripts/core/LevelManager.ts",
+    "assets/scripts/stages/StageHost.ts",
+    "assets/scripts/ui/PaperOrderHUD.ts",
+    "docs/GPT_HANDOFF.md",
+    "extensions/deskrescue-editor/main.js",
+    "extensions/deskrescue-editor/package.json",
+    "extensions/deskrescue-editor/scene.js",
+    "package.json",
+    "tools/test/cc.d.ts",
+    "tools/verify-day1.cjs"
+  ],
+  "missingOriginalFiles": [],
+  "allowedModificationPaths": [
+    "README.md",
+    "assets/scenes/Game.scene",
+    "assets/scripts/core/LevelManager.ts",
+    "assets/scripts/stages/StageHost.ts",
+    "assets/scripts/ui/PaperOrderHUD.ts",
+    "docs/GPT_HANDOFF.md",
+    "extensions/deskrescue-editor/main.js",
+    "extensions/deskrescue-editor/package.json",
+    "extensions/deskrescue-editor/scene.js",
+    "package.json",
+    "tools/test/cc.d.ts",
+    "tools/verify-day1.cjs"
+  ],
+  "protectedInputGeometry": [
+    {
+      "asset": "assets/scenes/Game.scene",
+      "node": "Canvas/PlayArea",
+      "unchanged": true
+    },
+    {
+      "asset": "assets/scenes/Game.scene",
+      "node": "Canvas/PlayArea/StageHost",
+      "unchanged": true
+    },
+    {
+      "asset": "assets/prefabs/stages/DragMatchStage.prefab",
+      "node": "DragMatchStage",
+      "unchanged": true
+    },
+    {
+      "asset": "assets/prefabs/stages/CableConnectStage.prefab",
+      "node": "CableConnectStage",
+      "unchanged": true
+    },
+    {
+      "asset": "assets/prefabs/stages/CleanSwipeStage.prefab",
+      "node": "CleanSwipeStage",
+      "unchanged": true
+    },
+    {
+      "asset": "assets/prefabs/stages/CleanSwipeStage.prefab",
+      "node": "CleanSwipeStage/InputSurface",
+      "unchanged": true
+    },
+    {
+      "asset": "assets/prefabs/stages/CleanSwipeStage.prefab",
+      "node": "CleanSwipeStage/InputSurface/DirtLayer",
+      "unchanged": true
+    },
+    {
+      "asset": "assets/prefabs/elements/DragItem.prefab",
+      "node": "DragItem",
+      "unchanged": true
+    },
+    {
+      "asset": "assets/prefabs/elements/DragTarget.prefab",
+      "node": "DragTarget",
+      "unchanged": true
+    },
+    {
+      "asset": "assets/prefabs/elements/Cable.prefab",
+      "node": "Cable",
+      "unchanged": true
+    },
+    {
+      "asset": "assets/prefabs/elements/Cable.prefab",
+      "node": "Cable/Head",
+      "unchanged": true
+    },
+    {
+      "asset": "assets/prefabs/elements/Cable.prefab",
+      "node": "Cable/Anchor",
+      "unchanged": true
+    },
+    {
+      "asset": "assets/prefabs/elements/Cable.prefab",
+      "node": "Cable/Line",
+      "unchanged": true
+    },
+    {
+      "asset": "assets/prefabs/elements/Port.prefab",
+      "node": "Port",
+      "unchanged": true
+    },
+    {
+      "asset": "assets/prefabs/elements/DirtCell.prefab",
+      "node": "DirtCell",
+      "unchanged": true
+    }
+  ],
+  "creatorSourceBindings": [
+    {
+      "report": "creator-audit.json",
+      "ok": true,
+      "sources": 201
+    },
+    {
+      "report": "engine-probe.json",
+      "ok": true,
+      "sources": 201
+    }
+  ],
+  "assetMetadataCount": 211,
+  "git": {
+    "head": "63b5e55567546ebcd341d7af65ce4a5bbfec1c43",
+    "branch": "feature/day5b-six-orders",
+    "staged": ""
+  },
+  "issues": []
+}

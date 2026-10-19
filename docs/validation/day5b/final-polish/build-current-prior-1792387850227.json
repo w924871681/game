@@ -1,0 +1,121 @@
+{
+  "ok": true,
+  "phase": "final-polish",
+  "qaEnabled": true,
+  "created": [],
+  "reused": [
+    "db://assets/prefabs/stages/FaultSpotStage.prefab",
+    "db://assets/prefabs/stages/RotaryControlStage.prefab",
+    "db://assets/prefabs/stages/GuidedTraceStage.prefab",
+    "db://assets/prefabs/stages/SequenceTestStage.prefab",
+    "db://assets/prefabs/stages/GaugeTuneStage.prefab"
+  ],
+  "prefabCount": 5,
+  "existingSceneNodeCount": 225,
+  "hostUuid": "b8jPFtT3BFVbZ+zyBrvTxe",
+  "originalPrefabUuids": [
+    "d7e32619-2acf-40bb-bca4-addfccbb49be",
+    "afa7f7c0-6a62-4d07-9295-6011af87cf7a",
+    "fa38d9cd-1551-4324-9805-acc21429befc"
+  ],
+  "bindings": [
+    {
+      "key": "day5b/devices/controller",
+      "path": "assets/art/day5b/devices/controller.png",
+      "uuid": "c161d1b6-af1e-4e42-9fd9-fd082db11b4b@f9941"
+    },
+    {
+      "key": "day5b/devices/printer",
+      "path": "assets/art/day5b/devices/printer.png",
+      "uuid": "f0e6fca4-8a37-4752-9413-5501d53ad009@f9941"
+    },
+    {
+      "key": "day5b/devices/keyboard",
+      "path": "assets/art/day5b/devices/keyboard.png",
+      "uuid": "80ad974b-d311-45d2-9bba-24dfa42bfb8e@f9941"
+    },
+    {
+      "key": "day5b/devices/fan",
+      "path": "assets/art/day5b/devices/fan.png",
+      "uuid": "59318d91-a1ee-4e9f-a2d8-78e94e36129c@f9941"
+    },
+    {
+      "key": "day5b/devices/headset",
+      "path": "assets/art/day5b/devices/headset.png",
+      "uuid": "ed90d0dc-4b59-4f0b-b61f-319d4590d7d2@f9941"
+    },
+    {
+      "key": "day5b/devices/livestream",
+      "path": "assets/art/day5b/devices/livestream.png",
+      "uuid": "0a652e6d-5704-4d8c-be87-d67fdf9d205d@f9941"
+    },
+    {
+      "key": "day5b/layers/joystick",
+      "path": "assets/art/day5b/layers/joystick.png",
+      "uuid": "91c3c3b5-4c1e-48f8-8278-9fec79946833@f9941"
+    },
+    {
+      "key": "day5b/layers/paper-crumpled",
+      "path": "assets/art/day5b/layers/paper-crumpled.png",
+      "uuid": "7beba33c-ce5d-4654-b960-bda98a6318f2@f9941"
+    },
+    {
+      "key": "day5b/layers/paper-test",
+      "path": "assets/art/day5b/layers/paper-test.png",
+      "uuid": "5b068162-c42c-40b1-b585-e84d35a8b371@f9941"
+    },
+    {
+      "key": "day5b/layers/keycap",
+      "path": "assets/art/day5b/layers/keycap.png",
+      "uuid": "1e70842d-2338-4e05-98c6-e0c8b32ea843@f9941"
+    },
+    {
+      "key": "day5b/layers/screw",
+      "path": "assets/art/day5b/layers/screw.png",
+      "uuid": "966d5ebf-6c16-49fd-963b-aa6a7746339a@f9941"
+    },
+    {
+      "key": "day5b/layers/fan-blades",
+      "path": "assets/art/day5b/layers/fan-blades.png",
+      "uuid": "f235d07b-ff8e-4547-a0c9-e6ab099400c8@f9941"
+    },
+    {
+      "key": "day5b/layers/fan-cover",
+      "path": "assets/art/day5b/layers/fan-cover.png",
+      "uuid": "55125260-3795-49dd-9842-72d8e21b7cee@f9941"
+    },
+    {
+      "key": "day5b/layers/trace-handle",
+      "path": "assets/art/day5b/layers/trace-handle.png",
+      "uuid": "633254f3-263b-40cd-a26d-c1a3ade36df2@f9941"
+    },
+    {
+      "key": "day5b/layers/slider-thumb",
+      "path": "assets/art/day5b/layers/slider-thumb.png",
+      "uuid": "83416481-3d0b-46cd-b30d-0ec0895d6db0@f9941"
+    }
+  ],
+  "repeat": {
+    "ok": true,
+    "phase": "final-polish",
+    "qaEnabled": true,
+    "created": [],
+    "reused": [
+      "db://assets/prefabs/stages/FaultSpotStage.prefab",
+      "db://assets/prefabs/stages/RotaryControlStage.prefab",
+      "db://assets/prefabs/stages/GuidedTraceStage.prefab",
+      "db://assets/prefabs/stages/SequenceTestStage.prefab",
+      "db://assets/prefabs/stages/GaugeTuneStage.prefab"
+    ],
+    "prefabCount": 5,
+    "existingSceneNodeCount": 225,
+    "hostUuid": "b8jPFtT3BFVbZ+zyBrvTxe",
+    "originalPrefabUuids": [
+      "d7e32619-2acf-40bb-bca4-addfccbb49be",
+      "afa7f7c0-6a62-4d07-9295-6011af87cf7a",
+      "fa38d9cd-1551-4324-9805-acc21429befc"
+    ]
+  },
+  "savedSceneUuid": "ef51aae5-f3a0-4ba5-9918-6d84e400d36f",
+  "timestamp": "2026-10-19T05:29:08.836Z"
+}

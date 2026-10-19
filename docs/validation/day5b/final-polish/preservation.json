@@ -1,0 +1,846 @@
+{
+  "ok": true,
+  "baselineArchiveSha256": "e3977656aee63cd4e43c006b77112d9abc03cff63569354955d72042812ce0c0",
+  "baselineFiles": 1357,
+  "unchangedFiles": 1311,
+  "modifiedOriginalFiles": [
+    "README.md",
+    "assets/scenes/Game.scene",
+    "assets/scripts/data/Day5BOrderCatalog.ts",
+    "assets/scripts/data/Day5BStageDefinition.ts",
+    "assets/scripts/data/Day5BStageValidation.ts",
+    "assets/scripts/stages/FaultSpotStageController.ts",
+    "assets/scripts/stages/GaugeTuneStageController.ts",
+    "assets/scripts/stages/GuidedTraceStageController.ts",
+    "assets/scripts/ui/Day5BReviewLauncher.ts",
+    "assets/scripts/visuals/Day5BStageView.ts",
+    "docs/DAY5B_CREATOR_VALIDATION.md",
+    "docs/GPT_HANDOFF.md",
+    "docs/design/day5b/DAY5B_CODEX_IMPLEMENTATION_PROMPT.md",
+    "docs/design/day5b/DAY5B_SIX_ORDERS_FINAL_DESIGN_SPEC.md",
+    "docs/design/day5b/README_START_HERE.md",
+    "docs/validation/day5b/baseline-checks.json",
+    "docs/validation/day5b/baseline-cocos.log",
+    "docs/validation/day5b/baseline-test.log",
+    "docs/validation/day5b/baseline.json",
+    "docs/validation/day5b/build-failure-1792338679164.json",
+    "docs/validation/day5b/build-failure-1792342574309.json",
+    "docs/validation/day5b/build-failure-1792342760795.json",
+    "docs/validation/day5b/build-failure-1792342974745.json",
+    "docs/validation/day5b/checks.json",
+    "docs/validation/day5b/delivery-receipt.json",
+    "docs/validation/day5b/engine-probe-prior-1792340069576.json",
+    "docs/validation/day5b/final-cocos-types-prior-20261018T184003991779Z.log",
+    "docs/validation/day5b/final-cocos-types-prior-20261018T185029332721Z.log",
+    "docs/validation/day5b/final-cocos-types.log",
+    "docs/validation/day5b/final-sdk-self-prior-20261018T184007298433Z.log",
+    "docs/validation/day5b/final-sdk-self-prior-20261018T185033541958Z.log",
+    "docs/validation/day5b/final-sdk-self.log",
+    "docs/validation/day5b/final-tests-prior-20261018T184000509484Z.log",
+    "docs/validation/day5b/final-tests-prior-20261018T185024058286Z.log",
+    "docs/validation/day5b/final-tests.log",
+    "docs/validation/day5b/previous-GPT_HANDOFF.md",
+    "extensions/deskrescue-editor/day5b-main.js",
+    "extensions/deskrescue-editor/day5b-probe.js",
+    "extensions/deskrescue-editor/day5b-scene.js",
+    "tools/package_day5b_delivery.py",
+    "tools/run_day5b_checks.py",
+    "tools/test/cc.d.ts",
+    "tools/test/day5b-integration.cjs",
+    "tools/verify-day1.cjs",
+    "tools/verify-day5b.cjs",
+    "tools/verify_day5b_preservation.py"
+  ],
+  "missingOriginalFiles": [],
+  "allowedPolishPaths": [
+    "README.md",
+    "assets/scenes/Game.scene",
+    "assets/scripts/data/Day5BOrderCatalog.ts",
+    "assets/scripts/data/Day5BStageDefinition.ts",
+    "assets/scripts/data/Day5BStageValidation.ts",
+    "assets/scripts/stages/FaultSpotStageController.ts",
+    "assets/scripts/stages/GaugeTuneStageController.ts",
+    "assets/scripts/stages/GuidedTraceStageController.ts",
+    "assets/scripts/ui/Day5BReviewLauncher.ts",
+    "assets/scripts/visuals/Day5BStageView.ts",
+    "docs/GPT_HANDOFF.md",
+    "extensions/deskrescue-editor/day5b-main.js",
+    "extensions/deskrescue-editor/day5b-probe.js",
+    "extensions/deskrescue-editor/day5b-scene.js",
+    "tools/package_day5b_delivery.py",
+    "tools/run_day5b_checks.py",
+    "tools/test/cc.d.ts",
+    "tools/test/day5b-integration.cjs",
+    "tools/verify-day1.cjs",
+    "tools/verify-day5b.cjs",
+    "tools/verify_day5b_preservation.py"
+  ],
+  "publicRedactionBridge": "redaction-bridge.json",
+  "prefabAndMetadataFilesFrozen": 29,
+  "sceneNodes": [
+    {
+      "path": "Main Light",
+      "unchanged": true
+    },
+    {
+      "path": "Main Camera",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/UI Camera",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/V2RoomBackdrop",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/V2Workbench",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/V2Workbench/Timber",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/V2Workbench/DragDecor",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/V2Workbench/DragDecor/PlacementMat",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/V2Workbench/DragDecor/PlacementTitlePlate",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/V2Workbench/DragDecor/PlacementTitle",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/V2Workbench/CableDecor",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/V2Workbench/CableDecor/CableTitlePlate",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/V2Workbench/CableDecor/CableTitle",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/V2Workbench/CleanDecor",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/V2Workbench/CleanDecor/CleaningMat",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/V2Workbench/CleanDecor/ClothCue",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/V2Workbench/CleanDecor/CleanProgressPaper",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/V2Workbench/CleanDecor/CleanPercentLabel",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/V2Workbench/CleanDecor/CleanTrack",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/V2Workbench/CleanDecor/CleanTrack/Fill",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/WorkbenchBackdrop",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/WorkbenchBackdrop/DeskMat",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/WorkbenchBackdrop/WorkbenchMark",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header/HudShadow",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header/HudCard",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header/GameTitle",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header/LevelLabel",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header/LevelTitleLabel",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header/StatusLabel",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header/Stats",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header/Stats/TimeLabel",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header/Stats/MistakeLabel",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header/ChapterLabel",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header/StageLabel",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header/V2PaperHUD",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header/V2PaperHUD/BrandPlaque",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header/V2PaperHUD/BrandLabel",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header/V2PaperHUD/OrderPaper",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header/V2PaperHUD/Chapter",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header/V2PaperHUD/OrderNumber",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header/V2PaperHUD/TaskTitle",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header/V2PaperHUD/Instruction",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header/V2PaperHUD/Step",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header/V2PaperHUD/Progress",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header/V2PaperHUD/TimeCapsule",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header/V2PaperHUD/TimeCapsule/ElapsedValue",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header/V2PaperHUD/MistakeCapsule",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Header/V2PaperHUD/MistakeCapsule/MistakeValue",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/PlayArea",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/PlayArea/LegacyDay3",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/PlayArea/LegacyDay3/Item1",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/PlayArea/LegacyDay3/Item1/Label",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/PlayArea/LegacyDay3/Target1",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/PlayArea/LegacyDay3/Target1/Label",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/PlayArea/LegacyDay3/Item2",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/PlayArea/LegacyDay3/Item2/Label",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/PlayArea/LegacyDay3/Target2",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/PlayArea/LegacyDay3/Target2/Label",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/PlayArea/LegacyDay3/Item3",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/PlayArea/LegacyDay3/Item3/Label",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/PlayArea/LegacyDay3/Target3",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/PlayArea/LegacyDay3/Target3/Label",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/PlayArea/StageHost",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/TutorialHint",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/TutorialHint/TutorialLabel",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/TutorialHint/GestureMark",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/TutorialHint/V2HintPaper",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/TutorialHint/V2HintText",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/TutorialHint/V2TutorAvatar",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/Eyebrow",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/Title",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/Subtitle",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/HeroDesk",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/HeroDesk/Mat",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/HeroDesk/HeroKeyboard",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/HeroDesk/HeroMouse",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/HeroDesk/HeroHeadset",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/HeroDesk/HeroCaption",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/HeroDesk/HeroArtwork",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/HomeFootnote",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/V2HomeRoom",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/V2BusinessBadge",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/V2BusinessText",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/V2LogoSmall",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/V2LogoShadow",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/V2Logo",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/V2WelcomeStrip",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/V2WelcomeText",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/V2WelcomeBoy",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/V2ForegroundTable",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/V2WorkshopPlaque",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/V2WorkshopName",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/V2Keyboard",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/V2Mouse",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/V2Headset",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/V2HomeFooterPaper",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/V2HomeFooter",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/StartButton",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/StartButton/Label",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/StartButton/V2ButtonVisual",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/HomeOverlay/StartButton/V2ButtonVisual/V2Caption",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/SoundButton",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/SoundButton/Label",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/SoundButton/SoundIcon",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/SoundButton/V2ButtonVisual",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/SoundButton/V2ButtonVisual/V2Caption",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/SoundButton/V2ButtonVisual/SoundIcon",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/SoundButton/V2ButtonVisual/SoundText",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/V2ModalShade",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/CardShadow",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/CardFace",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/CompleteLabel",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/CompleteDetailLabel",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup/ResultPaper",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup/V21GoldenBadge",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup/OrderBadge",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup/CheerTitle",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup/Stars",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup/Stars/RewardStar1",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup/Stars/RewardStar2",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup/Stars/RewardStar3",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup/ScoreCaption",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup/ScoreValue",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup/TimeCard",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup/MistakeCard",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup/TimeCaption",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup/MistakeCaption",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup/ResultElapsed",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup/ResultMistakes",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup/ResultSteps",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup/NextHint",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup/ThumbsupBoy",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup/Confetti0",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup/Confetti1",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup/Confetti2",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup/Confetti3",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup/Confetti4",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2OrderResultGroup/Confetti5",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2FinalSummaryGroup",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2FinalSummaryGroup/FinalRoom",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2FinalSummaryGroup/Trophy",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2FinalSummaryGroup/FinalRibbon",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2FinalSummaryGroup/FinalTitle",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2FinalSummaryGroup/FinalSubtitle",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2FinalSummaryGroup/SummaryPaper",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2FinalSummaryGroup/SummaryCaption0",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2FinalSummaryGroup/SummaryValue0",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2FinalSummaryGroup/SummaryCaption1",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2FinalSummaryGroup/SummaryValue1",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2FinalSummaryGroup/SummaryCaption2",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2FinalSummaryGroup/SummaryValue2",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2FinalSummaryGroup/MinorCaption0",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2FinalSummaryGroup/MinorValue0",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2FinalSummaryGroup/MinorCaption1",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2FinalSummaryGroup/MinorValue1",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2FinalSummaryGroup/MinorCaption2",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2FinalSummaryGroup/MinorValue2",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2FinalSummaryGroup/CheeringBoy",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2FinalSummaryGroup/FinalSpeech",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2FinalSummaryGroup/FinalSpeechText",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2FinalSummaryGroup/ReturnHomeButton",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2FinalSummaryGroup/ReturnHomeButton/V2ButtonVisual",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/V2FinalSummaryGroup/ReturnHomeButton/V2ButtonVisual/V2Caption",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/NextButton",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/NextButton/Label",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/NextButton/V2ButtonVisual",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/CompletePanel/NextButton/V2ButtonVisual/V2Caption",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Day5BReview",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Day5BReview/ReviewOrder10",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Day5BReview/ReviewOrder10/Caption",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Day5BReview/ReviewOrder11",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Day5BReview/ReviewOrder11/Caption",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Day5BReview/ReviewOrder12",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Day5BReview/ReviewOrder12/Caption",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Day5BReview/ReviewOrder13",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Day5BReview/ReviewOrder13/Caption",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Day5BReview/ReviewOrder14",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Day5BReview/ReviewOrder14/Caption",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Day5BReview/ReviewOrder15",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Day5BReview/ReviewOrder15/Caption",
+      "unchanged": true
+    },
+    {
+      "path": "Canvas/Day5BReview/DevelopmentOnly",
+      "unchanged": true
+    }
+  ],
+  "assetMetadataCount": 211,
+  "sourceBindings": [
+    {
+      "report": "editor-audit.json",
+      "sourceCount": 203,
+      "ok": true
+    },
+    {
+      "report": "engine-probe.json",
+      "sourceCount": 203,
+      "ok": true
+    },
+    {
+      "report": "checks.json",
+      "sourceCount": 128,
+      "ok": true
+    }
+  ],
+  "qaDefaultFalse": true,
+  "issues": []
+}

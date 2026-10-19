@@ -25,6 +25,9 @@ async function loadBlockSpriteFrame(cc) {
 }
 
 exports.methods = {
+    async applyDay5B(bindings) { delete require.cache[require.resolve('./day5b-scene')]; return require('./day5b-scene').apply(require('cc'), bindings); },
+    async inspectDay5B() { delete require.cache[require.resolve('./day5b-scene')]; return require('./day5b-scene').inspect(require('cc')); },
+    async probeDay5B() { delete require.cache[require.resolve('./day5b-probe')]; return require('./day5b-probe').run(require('cc')); },
     async applyV22() { delete require.cache[require.resolve('./v22-scene')]; return require('./v22-scene').apply(require('cc')); },
     inspectV22() { delete require.cache[require.resolve('./v22-scene')]; return require('./v22-scene').inspect(require('cc')); },
     probeV22() { delete require.cache[require.resolve('./v22-probe')]; return require('./v22-probe').run(require('cc')); },

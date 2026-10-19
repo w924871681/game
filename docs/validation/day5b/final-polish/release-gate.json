@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "mode": "Installed Creator SDK BUILD constants + actual project source transpilation + real cc.Node/Button/Component fixture",
+  "limitations": [
+    "Not a full web/mobile release build",
+    "Not platform publication or physical touch"
+  ],
+  "constants": {
+    "BUILD": true,
+    "PREVIEW": false,
+    "DEBUG": false
+  },
+  "explicitQaEnabled": true,
+  "rootActive": false,
+  "qaActionsTriggered": 0,
+  "ownedButtonBindings": 0,
+  "source": {
+    "path": "assets/scripts/ui/Day5BReviewLauncher.ts",
+    "sha256": "1a71d1c4ffec79627c95753ca001183edc36d3fb8613aae8dede681d5d06bb59"
+  },
+  "sdkConstantGeneratorSha256": "5e9206040feed23d0238b64793a6b63e13c7f25fdc3ba79a765de9a5d502ed7e",
+  "typescript": "4.9.5"
+}

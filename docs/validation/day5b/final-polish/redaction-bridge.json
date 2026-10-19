@@ -1,0 +1,313 @@
+{
+  "ok": true,
+  "updatedAtUtc": "2026-10-19T06:33:34.094731+00:00",
+  "scope": "Public anonymization bridge; old SHA fields describe original bytes, not published replacements. Originals remain outside Git.",
+  "changes": [
+    {
+      "path": "README.md",
+      "originalBytes": 17662,
+      "originalSha256": "545c645009834549fd6fd1c7550d46194e81e82bfe17d9c5b9da4aa152ada90d",
+      "publicBytes": 17647,
+      "publicSha256": "acca56c8e88bbd52c95e4d3f481507ae92422ec7352067f848d12af97fcec840",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/DAY5B_CREATOR_VALIDATION.md",
+      "originalBytes": 7458,
+      "originalSha256": "2ad381d853c40089a31b4de2d96381479ad5f0c381c1b47e1d457d952579f99a",
+      "publicBytes": 7460,
+      "publicSha256": "ec69878c17b5f3367e9460724890c7155de931b7077676ab6e2ce58c0285d689",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/GPT_HANDOFF.md",
+      "originalBytes": 7138,
+      "originalSha256": "af8637766d9f3ab7205754708dc65a7e16e63e17e630dbbf51e358556509a90b",
+      "publicBytes": 7135,
+      "publicSha256": "f70b35e61bd36f7bb0c89b13a425776e17054b077a203b76cf83ba9399bfc3de",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/design/day5b/DAY5B_CODEX_IMPLEMENTATION_PROMPT.md",
+      "originalBytes": 26975,
+      "originalSha256": "5e3d4465ddcee429e5aacec3b37007606406223d23b43e23a110d6b9d3cf6719",
+      "publicBytes": 27012,
+      "publicSha256": "8ce26a7c832e0a733eb35e8b14e860415a1ce81b47137e0dae7c1ede0455ea11",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/design/day5b/DAY5B_SIX_ORDERS_FINAL_DESIGN_SPEC.md",
+      "originalBytes": 32505,
+      "originalSha256": "1b19faab17e5b91d75bea2b68abc17b7b99c17d3c3c1913990c5bbda8fc99e76",
+      "publicBytes": 32512,
+      "publicSha256": "8e52ca7775937f3ff081386b6c70380af0e503db7cdf7ecb1b5cae762421cd2d",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/design/day5b/README_START_HERE.md",
+      "originalBytes": 2663,
+      "originalSha256": "38561e360bc09c37c06fd1bec72d7bcb6c60d9f6d21867eb3e61d088b9591b13",
+      "publicBytes": 2677,
+      "publicSha256": "d4d86dff084fc2ef291e52a93504cbde41cab39815431c333c5490bfeecf72c9",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/baseline-checks.json",
+      "originalBytes": 554,
+      "originalSha256": "7b9116f93685e4f04d4f39cc4bc10ca9068e5998fc58d1aee9e15e77b4fb42ad",
+      "publicBytes": 532,
+      "publicSha256": "7b7b3913d1310c3e47ff43c9e361c0060938579318cdacdc63c094077e5ae2da",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/baseline-cocos.log",
+      "originalBytes": 1016,
+      "originalSha256": "30995070e48d693e1ccf75297797548a79533227d2cb6fd24ec9587928a4c71e",
+      "publicBytes": 962,
+      "publicSha256": "bfa4ddb9225118906a99be32f804f19f8b12c977bb2810bad03787e5069dd0e3",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/baseline-test.log",
+      "originalBytes": 24861,
+      "originalSha256": "17a850dabb081b2daff34283c434e9394fc50d61ef831aea91f8544933247708",
+      "publicBytes": 24807,
+      "publicSha256": "6875ffcc052803f212a1e760b114d4706c0fc356d43bc1516643404b23009d01",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/baseline.json",
+      "originalBytes": 214815,
+      "originalSha256": "c8c4cafd3d25e6db2e955d55b58734a113371e59ab507259c4e812843ad7ce01",
+      "publicBytes": 214817,
+      "publicSha256": "e956cf7707d3a6d73207b968e42d6016f986f79f2c1203c9e187a946468e73b0",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/build-failure-1792338679164.json",
+      "originalBytes": 539,
+      "originalSha256": "3e951e6d16ee95dcec42d4c1a749f19014ac74bb1bf70f8e59c4308d08ba5d15",
+      "publicBytes": 535,
+      "publicSha256": "31888014fe920ff0678d3b471f4a8d9d4cc35ba88708090643f364ea0fe86c58",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/build-failure-1792342574309.json",
+      "originalBytes": 234,
+      "originalSha256": "49def9baa39072678dda44bf5af98831730973310bfafbd0aa82737ef75ea4c2",
+      "publicBytes": 240,
+      "publicSha256": "a499af81d0f8f6d16c5a563f18c91eca6732b7261171049d0d26227fcdf3395f",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/build-failure-1792342760795.json",
+      "originalBytes": 239,
+      "originalSha256": "803252eb75c9140bac28792930fc5a23ee65ee38c49a051bc3b2951ff507dc32",
+      "publicBytes": 245,
+      "publicSha256": "32365e9d18082e617bf7ee184ae28af57c05b2fa09430b83b3d4291a86a003f2",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/build-failure-1792342974745.json",
+      "originalBytes": 239,
+      "originalSha256": "fed887ad15263e40fca0794e30dfbd1b55ec5d207d7385f1ebf274e2b89f5f64",
+      "publicBytes": 245,
+      "publicSha256": "3bc81eea86f30c4faf42cad33c0ad7dc6ab78e5e2532bfed6a6fb4d360878c24",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/checks.json",
+      "originalBytes": 28024,
+      "originalSha256": "e1d0396ae6682464088e4d6fb1916f5a56ab4eeaaf520c9bf00ee8edcbd15594",
+      "publicBytes": 27986,
+      "publicSha256": "2f6e45fd900b7f32170e8eb34453a7918f239cebd07625151e43dc9cc206aae7",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/delivery-receipt.json",
+      "originalBytes": 462,
+      "originalSha256": "bd90c722c39e179eb61733e98a996aa117eccf33fee1904a1eb92041a4418867",
+      "publicBytes": 452,
+      "publicSha256": "a7aa93c419719daa81254b1422bce689ca40e2d9cd2b2dc3747d7f32a8122c6c",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/engine-probe-prior-1792340069576.json",
+      "originalBytes": 7578,
+      "originalSha256": "4c8391a4b2bf50fcc6e47180fc44d243ccf00dd1737ec0f336c504a591b43b5a",
+      "publicBytes": 7252,
+      "publicSha256": "9d5166731ac0f30c86d6a9d3dd0a0bb0082ebf67e988729ad7357af718edf238",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/final-cocos-types-prior-20261018T184003991779Z.log",
+      "originalBytes": 1016,
+      "originalSha256": "961457bbb0547528295492a1d5d672f5344855d912e41a77801db357b5609a03",
+      "publicBytes": 962,
+      "publicSha256": "69448799726a9259dc34cda26cdae0c898f9565c143439f1fe68ca08ce58c24f",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/final-cocos-types-prior-20261018T185029332721Z.log",
+      "originalBytes": 1016,
+      "originalSha256": "961457bbb0547528295492a1d5d672f5344855d912e41a77801db357b5609a03",
+      "publicBytes": 962,
+      "publicSha256": "69448799726a9259dc34cda26cdae0c898f9565c143439f1fe68ca08ce58c24f",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/final-cocos-types.log",
+      "originalBytes": 1016,
+      "originalSha256": "961457bbb0547528295492a1d5d672f5344855d912e41a77801db357b5609a03",
+      "publicBytes": 962,
+      "publicSha256": "69448799726a9259dc34cda26cdae0c898f9565c143439f1fe68ca08ce58c24f",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/checks.json",
+      "originalBytes": 28371,
+      "originalSha256": "527896f8b24c44ed3b38b8aa4aec1662f286e9859d080d33f6c405a6284b7c05",
+      "publicBytes": 28333,
+      "publicSha256": "bf3806a4784a1d75114cf2a6122382bc567ab2eacf192ae808533916a477c372",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/final-cocos-types-prior-20261019T052625147078Z.log",
+      "originalBytes": 1016,
+      "originalSha256": "961457bbb0547528295492a1d5d672f5344855d912e41a77801db357b5609a03",
+      "publicBytes": 962,
+      "publicSha256": "69448799726a9259dc34cda26cdae0c898f9565c143439f1fe68ca08ce58c24f",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/final-cocos-types.log",
+      "originalBytes": 1016,
+      "originalSha256": "961457bbb0547528295492a1d5d672f5344855d912e41a77801db357b5609a03",
+      "publicBytes": 962,
+      "publicSha256": "69448799726a9259dc34cda26cdae0c898f9565c143439f1fe68ca08ce58c24f",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/final-sdk-self-prior-20261019T052628489103Z.log",
+      "originalBytes": 19941,
+      "originalSha256": "d1d79484ddbc8ddb87bca5bd14423a7f4df1ea1b30aa72d80967464585c5605e",
+      "publicBytes": 18108,
+      "publicSha256": "7dd8ba5f8ae0a34900bd01efcea076d06ccb02dfa782cf8acf563a99130ddfed",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/final-sdk-self.log",
+      "originalBytes": 19941,
+      "originalSha256": "d1d79484ddbc8ddb87bca5bd14423a7f4df1ea1b30aa72d80967464585c5605e",
+      "publicBytes": 18108,
+      "publicSha256": "7dd8ba5f8ae0a34900bd01efcea076d06ccb02dfa782cf8acf563a99130ddfed",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/final-tests-prior-20261019T052621542083Z.log",
+      "originalBytes": 33041,
+      "originalSha256": "d7a4614c191336aa0d5f4adb6e1d2aaabdd7784751d60b74ff442d08b17119c2",
+      "publicBytes": 33043,
+      "publicSha256": "4ab3a7bb93f38a1946740fad4c08e127238ed4773adf00a203fb4436ba51df83",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/final-tests.log",
+      "originalBytes": 33024,
+      "originalSha256": "20266aac49510466c17172437a3a8ad92d0c1e157f9fad0f6b605dc1db2d17be",
+      "publicBytes": 32970,
+      "publicSha256": "7811fe05b16cb3c8bfcb5e30f7bfafe68bee34898a7eedfc20269fe907f2e926",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/final-sdk-self-prior-20261018T184007298433Z.log",
+      "originalBytes": 19941,
+      "originalSha256": "ee40e963cc2cd1f0c5a34c1b29371fc0a997dee9281b8b12f5f15e3342b4e2e2",
+      "publicBytes": 18108,
+      "publicSha256": "1f4844a0328aa67de5d7e9a49d780c3e32c91bd27de3813fa088cc0a03e3ba52",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/final-sdk-self-prior-20261018T185033541958Z.log",
+      "originalBytes": 19941,
+      "originalSha256": "ee40e963cc2cd1f0c5a34c1b29371fc0a997dee9281b8b12f5f15e3342b4e2e2",
+      "publicBytes": 18108,
+      "publicSha256": "1f4844a0328aa67de5d7e9a49d780c3e32c91bd27de3813fa088cc0a03e3ba52",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/final-sdk-self.log",
+      "originalBytes": 19941,
+      "originalSha256": "ee40e963cc2cd1f0c5a34c1b29371fc0a997dee9281b8b12f5f15e3342b4e2e2",
+      "publicBytes": 18108,
+      "publicSha256": "1f4844a0328aa67de5d7e9a49d780c3e32c91bd27de3813fa088cc0a03e3ba52",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/final-tests-prior-20261018T184000509484Z.log",
+      "originalBytes": 31111,
+      "originalSha256": "631b9a6d6516704a500081af55799f8728c577b96c0e6cecdf50462d2f0b8712",
+      "publicBytes": 31057,
+      "publicSha256": "3b060dc4bfe81ec5ef26f6e5c632ea963fdf025c9b2d4e153e3fe1278bd1d386",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/final-tests-prior-20261018T185024058286Z.log",
+      "originalBytes": 31111,
+      "originalSha256": "631b9a6d6516704a500081af55799f8728c577b96c0e6cecdf50462d2f0b8712",
+      "publicBytes": 31057,
+      "publicSha256": "3b060dc4bfe81ec5ef26f6e5c632ea963fdf025c9b2d4e153e3fe1278bd1d386",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/final-tests.log",
+      "originalBytes": 31111,
+      "originalSha256": "631b9a6d6516704a500081af55799f8728c577b96c0e6cecdf50462d2f0b8712",
+      "publicBytes": 31057,
+      "publicSha256": "3b060dc4bfe81ec5ef26f6e5c632ea963fdf025c9b2d4e153e3fe1278bd1d386",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    },
+    {
+      "path": "docs/validation/day5b/previous-GPT_HANDOFF.md",
+      "originalBytes": 32182,
+      "originalSha256": "533ae25853e9deede0434d1909ca9e1b3dfa0ea615af90c885de36611444932e",
+      "publicBytes": 32195,
+      "publicSha256": "a94b2182cb24ce97bc65fd374034ce0f6703244b3a77489b0ab604d01b5a9444",
+      "operation": "Replace local project/delivery/home/SDK/runtime path prefixes with explicit public placeholders. No historical source or log SHA fields rewritten.",
+      "originalStorage": "External task backup publication-originals directory, keyed by original SHA256"
+    }
+  ]
+}

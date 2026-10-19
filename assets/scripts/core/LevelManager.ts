@@ -1,7 +1,8 @@
 import { _decorator, Button, Component, isValid, Label, Node, tween, Tween, Vec3, warn } from 'cc';
-import { ORDER_CATALOG, validateOrderCatalog } from '../data/OrderCatalog';
-import type { OrderDefinition } from '../data/OrderDefinition';
-import type { StageKind } from '../data/StageDefinition';
+import { ORDER_CATALOG } from '../data/OrderCatalog';
+import { PLAYABLE_ORDER_CATALOG, validatePlayableOrderCatalog as validateOrderCatalog } from '../data/Day5BOrderCatalog';
+import type { PlayableOrderDefinition as OrderDefinition } from '../data/Day5BStageDefinition';
+import type { StageKind } from '../data/Day5BStageDefinition';
 import { StageHost } from '../stages/StageHost';
 import type { StageCallbacks, StageProgress } from '../stages/StageRuntime';
 import { AudioFeedback } from '../ui/AudioFeedback';
@@ -18,6 +19,11 @@ export enum GameState { Playing, LevelComplete, DemoComplete }
 export function formatStageProgress(kind: StageKind, progress: StageProgress): string {
     if (kind === 'drag-match') return `已归位 ${progress.completed} / ${progress.total}`;
     if (kind === 'cable-connect') return `已连接 ${progress.completed} / ${progress.total}`;
+    if (kind === 'fault-spot') return `故障定位 ${progress.completed} / ${progress.total}`;
+    if (kind === 'rotary-control') return `${progress.total > 1 ? '已旋松' : '校准进度'} ${progress.completed} / ${progress.total}`;
+    if (kind === 'guided-trace') return `检查点 ${progress.completed} / ${progress.total}`;
+    if (kind === 'gauge-tune') return `安全指标 ${progress.completed} / ${progress.total}`;
+    if (kind === 'sequence-test') return `功能检测 ${progress.completed} / ${progress.total}`;
     const percent = progress.total > 0 ? Math.floor(progress.completed / progress.total * 100) : 0;
     return `清洁进度 ${Math.max(0, Math.min(100, percent))}%`;
 }
@@ -25,6 +31,8 @@ export function formatStageProgress(kind: StageKind, progress: StageProgress): s
 @ccclass('LevelManager')
 @disallowMultiple
 export class LevelManager extends Component {
+    @property({ tooltip: 'Formal Day5B scene opts into new orders. Old test/prototype fixtures keep their legacy catalog.' })
+    public useAdvancedOrders: boolean = false;
     @property({ tooltip: 'Disable in the formal scene so HomeController starts the first order.' })
     public autoStartOnSceneLoad: boolean = true;
     @property(AudioFeedback)
@@ -127,6 +135,7 @@ export class LevelManager extends Component {
     public loadLevel(index: number): void { this.loadOrder(index); }
 
     public loadOrder(index: number): void {
+        if (this.useAdvancedOrders && this.orders === ORDER_CATALOG) this.orders = PLAYABLE_ORDER_CATALOG;
         if (!Number.isInteger(index) || index < 0 || index >= this.orders.length) {
             warn(`[LevelManager] Invalid order index: ${index}`);
             return;

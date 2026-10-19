@@ -1,0 +1,607 @@
+{
+  "screenshots": [
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-home-start-new-run.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 58196,
+      "sha256": "87d3ddea4dd45fa4683567f3c0fd3c68da3f03cc0a16e4393c6f6281789073c7",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-final-15-orders.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 67056,
+      "sha256": "ea580d3be0f9af363a966f837dea9a41ac97000f1380092dfbea209483247e2d",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order01-result.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 44434,
+      "sha256": "e2798acd5911698a46e854b8f733c9d8e7b403a19501c5e13405363ebcd6a091",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order02-result.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 44721,
+      "sha256": "343eb0db31ab665fce86993787b4c8650d28a4ae6412e3aa5cf0cac895eb4e2e",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order03-result.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 44688,
+      "sha256": "baf3b69f9890be35c5c63a129b03baef9f6366f76ca70125aeff00c9096c7b95",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order04-result.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 44613,
+      "sha256": "6867f2097c737ac51982a013081f47a55258fbec4efe9fb2ae88dd3ed70a6609",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order05-result.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 44558,
+      "sha256": "e4feb806ef374e8bc60437d563463155f3a495876d0d6550bbd1239c42fe6edc",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order06-clean.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 55354,
+      "sha256": "d65c89a2c6da34ae5d081f0bb12c938a10866ce8c2c16b195eeadd5e750382a3",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order06-result.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 44601,
+      "sha256": "523f958c318789ed73b297f7bab34e1ccf85bfdaa8bce661667ac84d34575dc0",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order07-result.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 44402,
+      "sha256": "14f7158fa16b4c7a678cf175748f763b360a9bdb62145f7a9a1eb1294f2835ee",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order08-result.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 44540,
+      "sha256": "9e10ea40eee6cb8f1069bf63fe5365d3746260a7d56374f6ec23dcd3e7969a02",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order09-result.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 44817,
+      "sha256": "dc7d807650de4938fe51295b11c0b1ea574b59825730dfc55ecec715c82bca49",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order10-result.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 44490,
+      "sha256": "f7626e1fea039b95305d63707a8f304429662dd9b3e571526003795dec336004",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order10-sequence.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 57153,
+      "sha256": "3ad5cafbc7025f743a8c00387e8d808c866162059ce654c5659729625e53813b",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order11-result.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 44545,
+      "sha256": "721f384bda493ac8e18541a9d471016b0887725ffc124dc6fba3f3dcc2a0e21e",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order11-trace.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 58437,
+      "sha256": "a504e667473d042cff4307b59ed844ebcf8eb1bf6ac208677bfa36d13e5a0e7f",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order12-A-output.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 61335,
+      "sha256": "7dc32a8b3f70c0f2723f1443e63e55b4e5f1d0099b8b879e283d40095a9fcb17",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order12-initial-neutral.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 61041,
+      "sha256": "9a5bab93a544f9cd9c4bb21df5ddf460e1cf870537dbefa3e9ee095a916b29c9",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order12-result.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 44520,
+      "sha256": "fabebaa358d878dc5cff1a80778013c7e456f44b987362e18dcad3d33c57ea8f",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order12-S-await-confirm.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 61454,
+      "sha256": "906454eb044ff9a826810a3bd59e3611dda0d056ebf372c39c99cb33008a8ea5",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order12-sequence.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 58594,
+      "sha256": "588fb8dc32b99834dad76a86838888aa3e5a0000deb494fb82bf88747a5ca88b",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order13-double-green.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 61495,
+      "sha256": "12f46195c98d05bc69485c689e6a3372760111f99f544ebcb30f1cd9a94008b1",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order13-result.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 44596,
+      "sha256": "3229f3c1c925880287a8e96dc75a2af523db059bf121b66fa8098054a0340fc8",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order14-balanced.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 60821,
+      "sha256": "8334cd8a1c92a84c65d7f9bf1b3adafca341bf40c9d2ce4122484ff7d8fca256",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order14-gauge.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 60238,
+      "sha256": "c3b41c3899318dcdfac889547b8d39be87ce679907e453a333b4f33a2973d717",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order14-result.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 44328,
+      "sha256": "4c3cf8a5cad4f2f1f017b5844c56e22bc64d2d6e287075228fdff811744b18e0",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order15-double-green.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 61836,
+      "sha256": "6ca60dca0d9864f3218c525889ac2d368c44432044836dfe8157236acb9853f4",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order15-gauge.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 61294,
+      "sha256": "9989265cafd9c40e078371dd8f149a104fbbbd35196c61121150a0111646cc52",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order15-result.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 67056,
+      "sha256": "ea580d3be0f9af363a966f837dea9a41ac97000f1380092dfbea209483247e2d",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-order15-sequence.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 56959,
+      "sha256": "0181c9a3d2d9feb7fc38625704d7628a47efcc45eb63faba7854c03deb57613e",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-natural-return-home.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 65926,
+      "sha256": "f5dfcba601ff18946746486dff41e11a74a049656675971548a2083ae8b255fe",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-normal-home-qa-hidden.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 66408,
+      "sha256": "18fd919755c9aa6690ec724bff3689aa9c9e68e4053500ebfd0603674c693893",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-qa-home.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 66967,
+      "sha256": "f49653ab60790cd9c90b93cebb965e7f6291138ee1cd54cdce4f412144d6800e",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-qa-partial-final.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 67207,
+      "sha256": "930aaba420f20587435cbb2f185755f63c51301565ef5cbe98df55fca5e74e6e",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-qa-replay-first-order.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 59668,
+      "sha256": "e34cae4de2cf57a7d4b99e237dd723e4e74103cd4e39d445afeee257cd74c1cd",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/1280-qa-replay-input-functional.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 58332,
+      "sha256": "d573ca60caa4a8e6cedfd93b292a7cda5e5f9eb6bb46caba634c62d33c8a116f",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-normal-home-qa-hidden.jpg",
+      "size": [
+        390,
+        844
+      ],
+      "bytes": 59600,
+      "sha256": "0bd899cb155475355934357659e24ef91fbc572cccdac28f6a2e2d85e974bd8a",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order10-sequence-readable.jpg",
+      "size": [
+        390,
+        844
+      ],
+      "bytes": 49997,
+      "sha256": "6f0c0ae601ec28230931c74afa169f7895202171e8c5dec10f4a4e748805c41a",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order11-trace-readable.jpg",
+      "size": [
+        390,
+        844
+      ],
+      "bytes": 52887,
+      "sha256": "7fc4913696cf06a9879fdbf27afd59227d1adfc41d8c102b7228f6770d163cfb",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order12-A-single-output.jpg",
+      "size": [
+        390,
+        844
+      ],
+      "bytes": 57609,
+      "sha256": "bc9c2a001b5d6badd9b2a06950dc1cb50dfc61fb51e3c2c38569eb8566c10b78",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order12-complete-after-diagnosis.jpg",
+      "size": [
+        390,
+        844
+      ],
+      "bytes": 39679,
+      "sha256": "2af982e4371a1063956c943b1a3cda447ce5291ad1b7f7793d1e0cf5d783fffe",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order12-confirmed-sequence.jpg",
+      "size": [
+        390,
+        844
+      ],
+      "bytes": 54765,
+      "sha256": "b53f8b6695ce9d463e44b2f703f8a5e295bab38c1fec77157a00c44aa6c62ccf",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order12-initial-clear.jpg",
+      "size": [
+        390,
+        844
+      ],
+      "bytes": 57489,
+      "sha256": "df3f5f91059bace9d751c07c1e8bfde216d3f63beb147ba01c3d2387f540be52",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order12-S-double-output-await-confirm.jpg",
+      "size": [
+        390,
+        844
+      ],
+      "bytes": 57782,
+      "sha256": "bb078d421a18ba2caf8c80cb2d53c8a706aa6e6c8c9dbd2e771ae7f4bd595139",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order12-wrong-confirm-once.jpg",
+      "size": [
+        390,
+        844
+      ],
+      "bytes": 57358,
+      "sha256": "427ba7ec335e320c05bb0550cf4952238413e1e2783b8f5acba7f8cd0c17f977",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order13-double-green.jpg",
+      "size": [
+        390,
+        844
+      ],
+      "bytes": 55593,
+      "sha256": "ec4a179881af1f9e6319ddd5d716b2a9a2fa733bf5b5f8a535755fceaacce9f0",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order13-target-readable.jpg",
+      "size": [
+        390,
+        844
+      ],
+      "bytes": 54977,
+      "sha256": "c672a5f11bdf69df1af633ad132fdb94c750c9d4cd954c1e4914549959320708",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order14-balanced.jpg",
+      "size": [
+        390,
+        844
+      ],
+      "bytes": 54929,
+      "sha256": "76f4625acd63c562db77663694b08ed148347c50db08a995727d8f201914ad50",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order14-range-readable.jpg",
+      "size": [
+        390,
+        844
+      ],
+      "bytes": 54408,
+      "sha256": "6a3922038f444e978590e05f18aea6c161effc40f5d7146335ec1c5f75b71ecf",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order15-gauge-readable.jpg",
+      "size": [
+        390,
+        844
+      ],
+      "bytes": 55191,
+      "sha256": "d02a4a954b3f21c7ff40faafc1e29f048a67ab97b1e6e46dde1e6a8f593c5e51",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-order15-sequence-readable.jpg",
+      "size": [
+        390,
+        844
+      ],
+      "bytes": 51218,
+      "sha256": "554c80871d6822c27ce0f353ba8e2cc7ff5cd5ee4261bba59dda787082882011",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/390-qa-order12-initial-neutral.jpg",
+      "size": [
+        390,
+        844
+      ],
+      "bytes": 58358,
+      "sha256": "e3a090467e351bd2b4eacb4ffc23decf5e1bda54b47a465a6c212df26fe303f8",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/768-normal-home-qa-hidden.jpg",
+      "size": [
+        768,
+        1024
+      ],
+      "bytes": 101336,
+      "sha256": "85d085ec07b0943ac45f47054f27ce92748a0869077ddb2051b7bfbb52c3bf88",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/768-order12-A-output.jpg",
+      "size": [
+        768,
+        1024
+      ],
+      "bytes": 98444,
+      "sha256": "d2c307dd11363550792103c1799e9b3ae7f4a90f4a84937807070a918726e2b7",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/768-order12-completed.jpg",
+      "size": [
+        768,
+        1024
+      ],
+      "bytes": 65905,
+      "sha256": "ca61899fe01bf5001451fbcad8baf3a4b482431a6febc5d5d7804cf7f4ede8c0",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/768-order12-initial.jpg",
+      "size": [
+        768,
+        1024
+      ],
+      "bytes": 98035,
+      "sha256": "a19da9960edf2007998f90ee9d9eb4170db4cb0a40f2d9c1c86a8a658fe16f86",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/768-order12-sequence-readable.jpg",
+      "size": [
+        768,
+        1024
+      ],
+      "bytes": 92351,
+      "sha256": "3cee8f02d1f3072a811fb59a291292ebfd77d4e031ff716fdb8b5efccd76df15",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/768-order14-gauge.jpg",
+      "size": [
+        768,
+        1024
+      ],
+      "bytes": 91623,
+      "sha256": "a67f979edebd5398b6736ab449e7b4e19f3df319a331900085f197e17bd1f7ad",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/768-qa-home-initialized.jpg",
+      "size": [
+        768,
+        1024
+      ],
+      "bytes": 102083,
+      "sha256": "e41f02ecbc279e8d4215662829438d496c7e1353969f8483bf0e979624467887",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    },
+    {
+      "path": "docs/validation/day5b/final-polish/screenshots/final-default-home-qa-hidden.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 70715,
+      "sha256": "d38eba7a5fcc8a93cd066572ca7c1bf851b69421b5f655c75d4ace9ac3cca7f9",
+      "source": "Actual Creator Preview screenshot; no compositing or retouching"
+    }
+  ],
+  "count": 60,
+  "priorOverlapEvidence": "390-qa-order12-initial-neutral.jpg is the prior layout, replaced for acceptance by390-order12-initial-clear.jpg.",
+  "qaScope": "QA screenshots are partial runs, never full15 evidence."
+}

@@ -1,6 +1,6 @@
 import { _decorator, Component, Label, Node, UITransform } from 'cc';
-import type { OrderDefinition } from '../data/OrderDefinition';
-import type { StageKind } from '../data/StageDefinition';
+import type { PlayableOrderDefinition as OrderDefinition } from '../data/Day5BStageDefinition';
+import type { StageKind } from '../data/Day5BStageDefinition';
 import type { StageProgress } from '../stages/StageRuntime';
 
 const { ccclass, property, disallowMultiple } = _decorator;
@@ -53,7 +53,13 @@ export class PaperOrderHUD extends Component {
             if (this.progressLabel) this.progressLabel.string = '';
             this.refreshLayout();
         } else if (this.progressLabel) {
-            this.progressLabel.string = `${this.kind === 'cable-connect' ? '已连接' : '已归位'} ${completed} / ${total}`;
+            const prefix = this.kind === 'fault-spot' ? '故障定位'
+                : this.kind === 'rotary-control' ? (total > 1 ? '已旋松' : '校准进度')
+                    : this.kind === 'guided-trace' ? '检查点'
+                        : this.kind === 'gauge-tune' ? '安全指标'
+                            : this.kind === 'sequence-test' ? '功能检测'
+                                : this.kind === 'cable-connect' ? '已连接' : '已归位';
+            this.progressLabel.string = `${prefix} ${completed} / ${total}`;
         }
     }
 

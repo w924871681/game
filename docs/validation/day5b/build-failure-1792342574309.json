@@ -1,0 +1,5 @@
+{
+  "ok": false,
+  "timestamp": "2026-10-18T16:56:14.309Z",
+  "error": "Error: Missing typed view binding: FaultSpotStage\n    at <process:scene>\n    at Object.apply (<PROJECT_ROOT>\\extensions\\deskrescue-editor\\day5b-scene.js:58:96)"
+}

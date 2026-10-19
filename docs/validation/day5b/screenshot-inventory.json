@@ -1,0 +1,1405 @@
+{
+  "ok": true,
+  "count": 69,
+  "scope": "Actual unedited captures; dimensions and SHA-bound. Portrait full-statistics image is hot-resized desktop full-run result, not portrait full-run.",
+  "requiredEvidence": [
+    "390-order10-align.jpg",
+    "390-order10-rotary-green-hold.jpg",
+    "390-order10-sequence-target-fixed.jpg",
+    "390-order11-fault.jpg",
+    "390-order11-trace-final-review.jpg",
+    "390-order12-fault.jpg",
+    "390-order13-screws.jpg",
+    "390-order13-gauge-green.jpg",
+    "390-order14-stereo-green.jpg",
+    "390-order15-trace.jpg",
+    "390-order15-gauge-target-fixed.jpg",
+    "390-order15-test-target-fixed.jpg",
+    "390-hotresize-fullrun-final-15of15.jpg",
+    "1280-fullrun-natural-09-to-10.jpg",
+    "1280-fullrun-final-15of15.jpg",
+    "1280-replay-first-item-accepted.jpg"
+  ],
+  "screenshots": [
+    {
+      "path": "docs/validation/day5b/screenshots/1280-dev-final-1of15-replay-gate.jpg",
+      "bytes": 67122,
+      "sha256": "137d0e835459ac68ed7eefd54933a2d2ea6862b961336be3109e4a664da008e6",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:17:01.965462+00:00",
+      "state": "Debug直达15后部分轮Final：1/15、3/27、1/45星100分141.5秒0错，仅重玩入口验收",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-final-15of15.jpg",
+      "bytes": 67636,
+      "sha256": "4d9d371928ffdd1aace931c5fd2d483f0acd815efdc415bc26e9bd9dada70115",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:07:13.310591+00:00",
+      "state": "自然全流程最终15/15单27/27步39/45星10980分510.9秒0错",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "natural-full-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-home-before-start.jpg",
+      "bytes": 66967,
+      "sha256": "f49653ab60790cd9c90b93cebb965e7f6291138ee1cd54cdce4f412144d6800e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T18:56:18.505121+00:00",
+      "state": "自然全流程开始前首页",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "natural-full-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-natural-09-to-10.jpg",
+      "bytes": 57985,
+      "sha256": "19e01e3504f0d9f4ea11bcb5496bc900141e1275b535e65c7e885eb06aaf1041",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:02:56.814794+00:00",
+      "state": "真实下一单按钮后自然进入第十单，未调试跳关",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "natural-full-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order01-result.jpg",
+      "bytes": 45235,
+      "sha256": "40c1837739aea8cba7631f8952c6833d8a4b2c19c9922eae8d7be698b54c7478",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T18:57:21.567983+00:00",
+      "state": "订单1：实际结算，详细成绩见原图",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "natural-full-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order01-start.jpg",
+      "bytes": 59668,
+      "sha256": "e34cae4de2cf57a7d4b99e237dd723e4e74103cd4e39d445afeee257cd74c1cd",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T18:56:34.575902+00:00",
+      "state": "自然全流程第一单开始",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "natural-full-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order02-result.jpg",
+      "bytes": 45100,
+      "sha256": "1440d9283bf1a825b65bb5f3974fd5fdaa645100a4305a41419ed1e1adf5cf93",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:00:41.951405+00:00",
+      "state": "订单2：实际结算，详细成绩见原图",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "natural-full-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order03-result.jpg",
+      "bytes": 45292,
+      "sha256": "8e6280aefcf1e62f2c80f98f2204b7e1d2a90904211d1c680689823a65ec030d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:00:55.468142+00:00",
+      "state": "订单3：实际结算，详细成绩见原图",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "natural-full-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order04-result.jpg",
+      "bytes": 45474,
+      "sha256": "c717b97611a375d36253cc02d5ee0efa7f8ecbb6de48de4e04c2b82c0e16c49d",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:01:08.463716+00:00",
+      "state": "订单4：实际结算，详细成绩见原图",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "natural-full-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order05-result.jpg",
+      "bytes": 45168,
+      "sha256": "58c73a8409f72b9edb7c0138bad3fab5aac95a65763c2f26f9b568d1a2fae4d9",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:01:21.291015+00:00",
+      "state": "订单5：实际结算，详细成绩见原图",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "natural-full-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order06-result.jpg",
+      "bytes": 45405,
+      "sha256": "5ce264f27b7f32a0a8a96695d0a3454416da7756e79bb53102224218378a3fe8",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:01:45.596020+00:00",
+      "state": "订单6：实际结算，详细成绩见原图",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "natural-full-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order07-result.jpg",
+      "bytes": 45195,
+      "sha256": "96df2c29bcb5db01bda54c32c877226b0a86e1d93d677ff7be9a697fe112a187",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:01:58.837985+00:00",
+      "state": "订单7：实际结算，详细成绩见原图",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "natural-full-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order08-result.jpg",
+      "bytes": 45363,
+      "sha256": "95cc2af14f4f81191ae8c1e702c3945d42d784ae340f4ed6239bbbf8296ed4b2",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:02:21.278631+00:00",
+      "state": "订单8：实际结算，详细成绩见原图",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "natural-full-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order09-result.jpg",
+      "bytes": 45407,
+      "sha256": "ba066f0683287ec4589e667102eb7c6b2514253e0779b80bf6b2890c41c72ed6",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:02:56.713433+00:00",
+      "state": "订单9：实际结算，详细成绩见原图",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "natural-full-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order10-result.jpg",
+      "bytes": 45160,
+      "sha256": "9f6fa761789e4dec57e46cb909a145d565af394c8fb7e7eefd2aacef016a8dbc",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:03:24.079292+00:00",
+      "state": "订单10：实际结算，详细成绩见原图",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "natural-full-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order10-sequence.jpg",
+      "bytes": 57614,
+      "sha256": "1322b68ca39d463c3f0de9653cf3e106d5eda4b539c660d726acadcddd47ecc7",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:03:08.464977+00:00",
+      "state": "订单10：按序测试初始",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "natural-full-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order11-result.jpg",
+      "bytes": 45192,
+      "sha256": "e3df9875217e4adf1d1cefa2802c61f74fed9e22dad9ca29bff379752df958f6",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:04:13.449521+00:00",
+      "state": "订单11：实际结算，详细成绩见原图",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "natural-full-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order11-trace.jpg",
+      "bytes": 59203,
+      "sha256": "11692b48f5a101f41b9790c68499a8b2d89b4836aa62d853afb8683b8850e966",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:03:39.551202+00:00",
+      "state": "订单11：导向路线初始",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "natural-full-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order12-result.jpg",
+      "bytes": 45198,
+      "sha256": "83451bed0c953758ce2718e20b94c97dba4f5315150cd900e59d69b40312be01",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:04:55.865776+00:00",
+      "state": "订单12：实际结算，详细成绩见原图",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "natural-full-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order12-sequence.jpg",
+      "bytes": 59077,
+      "sha256": "ba5649397f9c981bcda676eac62659323ad29b778c2c942d9b7908648b4e47df",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:04:40.087243+00:00",
+      "state": "订单12：按序测试初始",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "natural-full-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order13-gauge-before.jpg",
+      "bytes": 61215,
+      "sha256": "402abb5e5b7e2954b037e9cd18207eebef0ec3677989e16ad62e64eeb92c7a0a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:05:15.465709+00:00",
+      "state": "订单13：双滑块初始",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "natural-full-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order13-result.jpg",
+      "bytes": 45004,
+      "sha256": "e51e2793e2d02116f206e037e7f55f7122ed89d2091922c1d59c3a5dd0971ebe",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:05:35.409676+00:00",
+      "state": "订单13：实际结算，详细成绩见原图",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "natural-full-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order14-gauge-before.jpg",
+      "bytes": 61670,
+      "sha256": "c8cc2dac85910d20c8427442766d3b16151013959c5d655cd82e3a6199cd4c26",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:05:59.343992+00:00",
+      "state": "订单14：双滑块初始",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "natural-full-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order14-result.jpg",
+      "bytes": 45241,
+      "sha256": "2aaf73feb1305918cfbdae355abc90aa5e0e65f890f48dbf2f53e8255a6afe9a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:06:18.230198+00:00",
+      "state": "订单14：实际结算，详细成绩见原图",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "natural-full-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order15-gauge-before.jpg",
+      "bytes": 61844,
+      "sha256": "6e940b5a99058ce45c5b55a968291e57e519370ffc30b7db52e8ea3301e6bf02",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:06:36.735950+00:00",
+      "state": "订单15：双滑块初始",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "natural-full-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-fullrun-order15-test.jpg",
+      "bytes": 57344,
+      "sha256": "43d7b1c731e69096e228cffd6ae885647a2291fbcb94286f23485e1310b47eb0",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:06:54.469179+00:00",
+      "state": "订单15：功能序列初始",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "natural-full-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-hotresize-final-input-resize-limitation.jpg",
+      "bytes": 58477,
+      "sha256": "393ed1cf6ccafd9598f10648c64219c780e93a0a1182ba6968d9e7bed9584496",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:12:46.495787+00:00",
+      "state": "390初始化后热切1280的部分轮Final，留黑及点击映射限制；未重玩成功",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "known-hot-resize-limitation",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-replay-first-item-accepted.jpg",
+      "bytes": 57506,
+      "sha256": "777ae928ed3fe5638f10e15bee76fe2bacc4ea531fff443ad4c5e3ff34b467d4",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:17:32.764949+00:00",
+      "state": "重玩后真实鼠标归位成功，进度1/3、失误0",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "real-replay-after-independent-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/1280-replay-order01-reset.jpg",
+      "bytes": 59597,
+      "sha256": "131d29c753c7a55a8b6649a34f3acc9f7830ad73d1d01671cc9a9f9da43978f6",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:17:13.446419+00:00",
+      "state": "固定1280独立Debug末单部分轮Final后实际重玩，第一单0/3、0错",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "real-replay-after-independent-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-delivery-home.jpg",
+      "bytes": 55905,
+      "sha256": "b5a805c6beb54a861270f91026766b21f401921ddc49f15df2ba4cec5db9153f",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:24:35.431621+00:00",
+      "state": "最终交付Preview手机固定尺寸重新加载后的首页，可正常开始",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-dev-final-1of15-replay-gate.jpg",
+      "bytes": 56046,
+      "sha256": "d75c66c6bb3e61ca0e86d87ce235c6e985557719c1ab1a88f2654f1008d08ae2",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:12:36.693020+00:00",
+      "state": "Debug直达15后部分轮Final：1/15、3/27、3/45星420分58.6秒0错，仅重玩入口验收",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-dev-final-2of15.jpg",
+      "bytes": 56120,
+      "sha256": "c12107f68b3413ad9f25bc5fc5819810b232ed440eaaf6708979c71db1fe1629",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T18:44:54.175184+00:00",
+      "state": "先前Debug部分轮Final：2/15、5/27，不代表完整15单",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-hotresize-fullrun-final-15of15.jpg",
+      "bytes": 56783,
+      "sha256": "cf2826cd8ad9f6872323bfec1be6bfa03e913c60263d8522d75820240608bb12",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:07:31.324931+00:00",
+      "state": "同一1280自然通关结果热缩390展示；非390完整15单",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "same-natural-run-hot-resize",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-hotresize-home-after-fullrun.jpg",
+      "bytes": 55994,
+      "sha256": "483221e672d384cbbcc4b55e52bff050190b3779841d2930d0ec5b17a6ee366e",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:07:41.043611+00:00",
+      "state": "自然通关后实际返回首页",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "same-natural-run-hot-resize",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-hotresize-home-start-reset.jpg",
+      "bytes": 48397,
+      "sha256": "8c3f51e079f670e53ef030fe8b1d8af7c500b139e556e7f9612591a609826097",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:07:52.065403+00:00",
+      "state": "实际首页开始后第一单0/3、0错",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "same-natural-run-hot-resize",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order10-align.jpg",
+      "bytes": 48279,
+      "sha256": "984794c0637b7292e520346ae8acb9f30b5c60f14904808950fe4b7579f3f48a",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T16:16:02.066157+00:00",
+      "state": "订单10：旋钮校准初始",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order10-final-review-result.jpg",
+      "bytes": 37467,
+      "sha256": "4bde6ba47a358dfa9ce75b58d08a41ca5f92840dcf66f3790a2996e3232ae873",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:10:37.589184+00:00",
+      "state": "手机追加复核单10：2星560分34.6秒1错",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order10-rotary-green-hold.jpg",
+      "bytes": 47394,
+      "sha256": "0f7c06e847dc2d2a7c343401c476beb466f828f426c253173c72caa3b2fd15f1",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:23:40.634917+00:00",
+      "state": "实际旋转释放后指针绿区，保持3%，未提前完成",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order10-sequence-target-fixed.jpg",
+      "bytes": 48196,
+      "sha256": "343a614ab5d0ba360a547cb44f6b680b58f4e48a4ecb77bda212b6bb18a34c11",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:10:12.525616+00:00",
+      "state": "最终序列目标在按键下方，请按↑，0/4",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order10-sequence-wrong-feedback.jpg",
+      "bytes": 48834,
+      "sha256": "13b7bf8ccd988481e5b6605ff1911f550670b2999067cd23db4f2d0ffd60dce6",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:10:26.212970+00:00",
+      "state": "实际点错→：失误1、进度0/4、目标↑保留、错误反馈可见",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order11-fault.jpg",
+      "bytes": 49446,
+      "sha256": "cfd50fb201e2c73a5b225010599c9ed4be42bcf6411a6531958a4dbbbb6deea0",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T16:17:25.092179+00:00",
+      "state": "订单11：故障定位线索初始",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order11-result.jpg",
+      "bytes": 37299,
+      "sha256": "a1fab939db2e002ced7d75594986e75e1674bd776cebfc76c1ef183479636693",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T16:20:11.398013+00:00",
+      "state": "订单11：实际结算，详细成绩见原图",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order11-trace-final-review.jpg",
+      "bytes": 49547,
+      "sha256": "c7f82b1fe458b713b1a61645b9a75448c05e1c1331dfa16fe36dbde15a4e91a2",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:11:12.110794+00:00",
+      "state": "最终手机抽纸三检查点及可拖手柄初始0/3",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order12-fault.jpg",
+      "bytes": 51825,
+      "sha256": "a7cf84ea2e7da73028f3e102b2299e5adbaa6675eebe5da275c3ad8169a2e3b2",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T16:20:35.035259+00:00",
+      "state": "订单12：故障定位线索初始",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order12-result.jpg",
+      "bytes": 37331,
+      "sha256": "309b6b5fe09ec5f08ef6ee6807df0494ff7c4730ff946523cbcb3694f156218f",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T16:42:44.449623+00:00",
+      "state": "订单12：实际结算，详细成绩见原图",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order12-sequence.jpg",
+      "bytes": 52290,
+      "sha256": "1d3cf74320967408088d95dbfe805a09dcdd9758dc46aa7d776495ccd57c5676",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T16:36:42.276383+00:00",
+      "state": "订单12：按序测试初始；旧顶部目标曾遮挡，已由target-fixed截图替代",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": true,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order13-gauge-before.jpg",
+      "bytes": 52704,
+      "sha256": "c7c2085b7456daad62a60d9a9595fa48af85701a90e061f0b3c862a958be4d98",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T16:24:26.030729+00:00",
+      "state": "订单13：双滑块初始",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order13-gauge-green.jpg",
+      "bytes": 51542,
+      "sha256": "89dee08b202c3eaea70c7deabedff1c6c33705820b838f9dfcbee3f836f01c8d",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T16:43:46.194515+00:00",
+      "state": "订单13：双滑块达标保持帧",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order13-result.jpg",
+      "bytes": 37483,
+      "sha256": "8f9ebe1c69a708add3ae36d76339b7a7c83cbee5c38a9006dba89d2144445b3b",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T16:45:15.413835+00:00",
+      "state": "订单13：实际结算，详细成绩见原图",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order13-screws.jpg",
+      "bytes": 51652,
+      "sha256": "713087b5468a9ff40e462bd540a8d18354a572ccca83be20e88b9903b03cabab",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T16:23:56.853908+00:00",
+      "state": "订单13：两螺丝初始",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order14-fault-fixed.jpg",
+      "bytes": 50232,
+      "sha256": "0482114c3715cefd31b40fcbe11d87b8a251797df05c1d3741b70f1dc7f822bc",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T17:13:20.022291+00:00",
+      "state": "订单14：耳机线索读数下移后的故障定位",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order14-result.jpg",
+      "bytes": 37464,
+      "sha256": "4682de7090a7b6c7c2e98b0ba56a2d039a621f8e4917c5c937bd9abf2995de82",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T18:40:48.904657+00:00",
+      "state": "订单14：实际结算，详细成绩见原图",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order14-stereo-green.jpg",
+      "bytes": 51128,
+      "sha256": "e6579434fdb0b6640bc047337a00bb827dfc57c20991d106db49420e34fa1853",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T18:38:14.786784+00:00",
+      "state": "订单14：双声道达标保持帧",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order15-deviation.jpg",
+      "bytes": 51289,
+      "sha256": "c20c492b6cf5a45a6939ae2712152b6c8fb631ae419b308cffeb0ad179c0a01f",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T18:41:19.459769+00:00",
+      "state": "真实偏离路线的安全反馈，保留检查点、不计错",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order15-gauge-before.jpg",
+      "bytes": 51578,
+      "sha256": "a69f58be90acfb467aed3f268be7ee508d50a8d974268302e55948eeda5b8cfb",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T18:43:00.291740+00:00",
+      "state": "订单15：双滑块初始",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order15-gauge-green.jpg",
+      "bytes": 52018,
+      "sha256": "6621a002585896e593afb4d24d404f6a2961ef2627e14d7000d156b38d7228e6",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T18:43:00.581260+00:00",
+      "state": "订单15：双滑块达标保持帧",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order15-gauge-target-fixed.jpg",
+      "bytes": 53171,
+      "sha256": "a07431e9d84490e2382f702d5164f85b438832898f193f3b5129451966a75fab",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:11:58.762392+00:00",
+      "state": "最终手机双滑块，初始20/25，常驻精确目标范围",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order15-test-target-fixed.jpg",
+      "bytes": 47719,
+      "sha256": "914d1f69352a25577845ac13a78a950d0178ec7b290165378a6630a4db22bd75",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:12:22.221521+00:00",
+      "state": "最终手机四功能键，按键下方常驻目标输入",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order15-test.jpg",
+      "bytes": 50819,
+      "sha256": "458bd86c9d6b81e1ba0568c3367983a550e80a75c671b2683eb693326e8afea9",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T18:43:48.569547+00:00",
+      "state": "订单15：功能序列初始；旧顶部目标曾遮挡，已由target-fixed截图替代",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": true,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-order15-trace.jpg",
+      "bytes": 50514,
+      "sha256": "2d35a572dcaeaa2352e33aba2d3aed60fb10ceea609ce6275d7e46be9d075f6f",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T18:41:19.286234+00:00",
+      "state": "订单15：导向路线初始",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-replay-order01-first-input.jpg",
+      "bytes": 48763,
+      "sha256": "21533109754243f792b48569b4461d5a2e174a9d37107a5e9db32a998450736b",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:13:37.890399+00:00",
+      "state": "390重玩后首次拖拽释放过渡帧，HUD尚0/3；不作为吸附完成证据",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "real-replay-after-independent-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/390-replay-order01-reset.jpg",
+      "bytes": 49908,
+      "sha256": "584d6eb08dc3486a466ebede4e87731fa1850f017a2f8d8fd865b076a8947aef",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T19:13:37.520692+00:00",
+      "state": "390独立Debug末单部分轮Final后实际重玩，第一单0/3、0错",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "real-replay-after-independent-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/768-fault-success.jpg",
+      "bytes": 90360,
+      "sha256": "f37159a3b8eedc3d03490f501c6242f18452371394fc746272d97be72316b829",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "capturedFileTimeUtc": "2026-10-18T18:55:23.115662+00:00",
+      "state": "定位正确绿色反馈",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/768-gauge-green.jpg",
+      "bytes": 93184,
+      "sha256": "1e47da5e5306623b665d4fe9afc68569cd690e6167d14c9dcc9d3d7616baa1a3",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "capturedFileTimeUtc": "2026-10-18T18:47:01.328008+00:00",
+      "state": "双滑块达标保持帧",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/768-rotary-green.jpg",
+      "bytes": 86352,
+      "sha256": "e60bf618ff9b9c0724eea68aa5f87fd75ef80054841453864862cc1b7d5427a7",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "capturedFileTimeUtc": "2026-10-18T18:53:53.546273+00:00",
+      "state": "旋钮绿区稳定帧",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/768-sequence-target-fixed.jpg",
+      "bytes": 86981,
+      "sha256": "d142f373eeba36d3871ee9e1007b6332a787776322d3efa4b49eef008491ca55",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "capturedFileTimeUtc": "2026-10-18T18:54:37.178646+00:00",
+      "state": "平板比例最终序列目标在按键下方",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/768-trace.jpg",
+      "bytes": 90954,
+      "sha256": "8bc2ab2643f81f75581efcf23a93291b46dd079e6f5d56212e6ef8611673d9ad",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "capturedFileTimeUtc": "2026-10-18T18:46:03.330017+00:00",
+      "state": "导向路线初始",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": true,
+      "historicalOrSuperseded": false,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/phase-b-fan-result.jpg",
+      "bytes": 37318,
+      "sha256": "289f3b06b6991e6cd402f7b2e05cf5d58ef51024e674fd7a5f72109a45454f5c",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T16:05:41.668449+00:00",
+      "state": "phase-b-fan-result；阶段B早期截图，非最终固定手机尺寸验收",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": false,
+      "historicalOrSuperseded": true,
+      "isPhysicalTouch": false
+    },
+    {
+      "path": "docs/validation/day5b/screenshots/phase-b-headset-clue.jpg",
+      "bytes": 50042,
+      "sha256": "335810e31347cab05be01b4dfb3f0c858c58bdcc8c08146c0a32e5d882170e41",
+      "dimensions": [
+        390,
+        844
+      ],
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "capturedFileTimeUtc": "2026-10-18T16:06:16.186167+00:00",
+      "state": "phase-b-headset-clue；阶段B早期截图，非最终固定手机尺寸验收",
+      "capture": "Actual Creator Preview screenshot; unedited JPEG browser capture",
+      "interactionScope": "debug-positioned-real-input-partial-run",
+      "realMouseInputUsed": false,
+      "historicalOrSuperseded": true,
+      "isPhysicalTouch": false
+    }
+  ]
+}

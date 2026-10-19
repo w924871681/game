@@ -1,0 +1,5 @@
+{
+  "ok": false,
+  "timestamp": "2026-10-18T15:51:19.159Z",
+  "error": "Error: Day5B SpriteFrame not imported: assets/art/day5b/devices/controller.png\n    at prepare (<PROJECT_ROOT>\\extensions\\deskrescue-editor\\day5b-main.js:27:33)\n    at Object.apply (<PROJECT_ROOT>\\extensions\\deskrescue-editor\\day5b-main.js:39:26)\n    at day5bOperation (<PROJECT_ROOT>\\extensions\\deskrescue-editor\\main.js:205:73)\n    at <CREATOR_INSTALLS>\\3.8.8\\resources\\app.asar\\node_modules\\@editor\\package\\dist\\browser\\index.js:1:3396"
+}

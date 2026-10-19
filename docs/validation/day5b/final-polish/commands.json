@@ -1,0 +1,102 @@
+{
+  "ok": true,
+  "runner": [
+    "python",
+    "tools/run_day5b_checks.py"
+  ],
+  "commands": [
+    {
+      "label": "final-tests",
+      "command": [
+        "npm.cmd",
+        "test"
+      ],
+      "startedAtUtc": "2026-10-19T06:27:50.288095+00:00",
+      "exitCode": 0,
+      "log": "docs/validation/day5b/final-polish/final-tests.log",
+      "rawStdoutSha256": "20266aac49510466c17172437a3a8ad92d0c1e157f9fad0f6b605dc1db2d17be",
+      "redactedPublication": true,
+      "rawEvidence": "Preserved in ignored local or external task backup; machine paths redacted in public logs.",
+      "sha256": "676b19dae0e9749effcb4a440fc0032e15ca3c19766806c542c25bc50518753c",
+      "behaviorGroups": [
+        293
+      ],
+      "sdkDiagnosticsExcluded": [
+        102
+      ],
+      "diagnosticLines": 0
+    },
+    {
+      "label": "final-cocos-types",
+      "command": [
+        "npm.cmd",
+        "run",
+        "check:cocos"
+      ],
+      "startedAtUtc": "2026-10-19T06:28:02.771907+00:00",
+      "exitCode": 0,
+      "log": "docs/validation/day5b/final-polish/final-cocos-types.log",
+      "rawStdoutSha256": "961457bbb0547528295492a1d5d672f5344855d912e41a77801db357b5609a03",
+      "redactedPublication": true,
+      "rawEvidence": "Preserved in ignored local or external task backup; machine paths redacted in public logs.",
+      "sha256": "855198735a5cd54e45c49a7212d80a09a9f5003e1bffae48866c170afaf88022",
+      "behaviorGroups": [],
+      "sdkDiagnosticsExcluded": [
+        102
+      ],
+      "diagnosticLines": 0
+    },
+    {
+      "label": "final-sdk-self",
+      "command": [
+        "npm.cmd",
+        "run",
+        "check:cocos",
+        "--",
+        "--check-sdk-declarations"
+      ],
+      "startedAtUtc": "2026-10-19T06:28:07.138961+00:00",
+      "exitCode": 1,
+      "log": "docs/validation/day5b/final-polish/final-sdk-self.log",
+      "rawStdoutSha256": "d1d79484ddbc8ddb87bca5bd14423a7f4df1ea1b30aa72d80967464585c5605e",
+      "redactedPublication": true,
+      "rawEvidence": "Preserved in ignored local or external task backup; machine paths redacted in public logs.",
+      "sha256": "830974385a3ad8dd1fb482045c52ccfe79538ee389f167fa5939e058e96319a7",
+      "behaviorGroups": [],
+      "sdkDiagnosticsExcluded": [],
+      "diagnosticLines": 102
+    }
+  ],
+  "syntax": {
+    "javascriptFiles": 45,
+    "pythonFiles": 22,
+    "nodeVerifyDay1ExitCode": 0
+  },
+  "artVerification": {
+    "label": "final-original-art",
+    "command": [
+      "python.exe",
+      "-X",
+      "utf8",
+      "tools/art/day5b/generate_day5b.py",
+      "--verify"
+    ],
+    "startedAtUtc": "2026-10-19T06:28:15.043672+00:00",
+    "exitCode": 0,
+    "log": "docs/validation/day5b/final-polish/final-original-art.log",
+    "rawStdoutSha256": "6dc5f4060f2afeb9f6d5fd027f2b5e88bc2f1a608a412d90a289e378a46e501d",
+    "redactedPublication": true,
+    "rawEvidence": "Preserved in ignored local or external task backup; machine paths redacted in public logs.",
+    "sha256": "24a2d6d8e88846cac66fba49045c8cefd670918e5670892469d93dd9adb66fa0",
+    "behaviorGroups": [],
+    "sdkDiagnosticsExcluded": [],
+    "diagnosticLines": 0,
+    "publicationNormalization": "Only trailing empty output line removed; raw stdout SHA and external original preserved."
+  },
+  "sdkSelfFailureIsSeparate": {
+    "exitCode": 1,
+    "diagnosticLines": 102,
+    "status": "KNOWN_SDK_DECLARATION_FAILURE",
+    "note": "Kept separate from strict project success; SDK is never claimed clean."
+  }
+}

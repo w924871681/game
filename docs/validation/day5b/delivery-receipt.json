@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "archive": "<DELIVERY_ROOT>/DeskRescue-Day5B-alpha5-20261018T192549038723Z.zip",
+  "bytes": 82321026,
+  "sha256": "30299ee59fce27d7f4b7d1df3889e082f6a98c2a4a623fe03a2b842f2ee6075a",
+  "fileCount": 1359,
+  "zipEntries": 1360,
+  "crc": "PASS",
+  "archivedSizeAndSha": "PASS",
+  "freshExtractionSizeAndSha": "PASS",
+  "freshExtraction": "<DELIVERY_ROOT>/DeskRescue-Day5B-verify-8rtvsggw",
+  "gitMutationsPerformed": false
+}

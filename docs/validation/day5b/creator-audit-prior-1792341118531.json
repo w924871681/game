@@ -1,0 +1,1211 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "name": "Saved formal manager opts into playable catalog",
+      "passed": true
+    },
+    {
+      "name": "FaultSpotStage:InspectorPrefab",
+      "passed": true
+    },
+    {
+      "name": "FaultSpotStage:TypedControllerView",
+      "passed": true
+    },
+    {
+      "name": "FaultSpotStage:15SpriteFrames",
+      "passed": true
+    },
+    {
+      "name": "FaultSpotStage:NoBlockingDecoration",
+      "passed": true
+    },
+    {
+      "name": "RotaryControlStage:InspectorPrefab",
+      "passed": true
+    },
+    {
+      "name": "RotaryControlStage:TypedControllerView",
+      "passed": true
+    },
+    {
+      "name": "RotaryControlStage:15SpriteFrames",
+      "passed": true
+    },
+    {
+      "name": "RotaryControlStage:NoBlockingDecoration",
+      "passed": true
+    },
+    {
+      "name": "GuidedTraceStage:InspectorPrefab",
+      "passed": true
+    },
+    {
+      "name": "GuidedTraceStage:TypedControllerView",
+      "passed": true
+    },
+    {
+      "name": "GuidedTraceStage:15SpriteFrames",
+      "passed": true
+    },
+    {
+      "name": "GuidedTraceStage:NoBlockingDecoration",
+      "passed": true
+    },
+    {
+      "name": "SequenceTestStage:InspectorPrefab",
+      "passed": true
+    },
+    {
+      "name": "SequenceTestStage:TypedControllerView",
+      "passed": true
+    },
+    {
+      "name": "SequenceTestStage:15SpriteFrames",
+      "passed": true
+    },
+    {
+      "name": "SequenceTestStage:NoBlockingDecoration",
+      "passed": true
+    },
+    {
+      "name": "GaugeTuneStage:InspectorPrefab",
+      "passed": true
+    },
+    {
+      "name": "GaugeTuneStage:TypedControllerView",
+      "passed": true
+    },
+    {
+      "name": "GaugeTuneStage:15SpriteFrames",
+      "passed": true
+    },
+    {
+      "name": "GaugeTuneStage:NoBlockingDecoration",
+      "passed": true
+    }
+  ],
+  "passedChecks": 21,
+  "totalChecks": 21,
+  "prefabs": [
+    {
+      "name": "FaultSpotStage",
+      "uuid": "6996bf60-5522-4e9b-bde6-282d274880b6",
+      "keys": [
+        "day5b/devices/controller",
+        "day5b/devices/printer",
+        "day5b/devices/keyboard",
+        "day5b/devices/fan",
+        "day5b/devices/headset",
+        "day5b/devices/livestream",
+        "day5b/layers/joystick",
+        "day5b/layers/paper-crumpled",
+        "day5b/layers/paper-test",
+        "day5b/layers/keycap",
+        "day5b/layers/screw",
+        "day5b/layers/fan-blades",
+        "day5b/layers/fan-cover",
+        "day5b/layers/trace-handle",
+        "day5b/layers/slider-thumb"
+      ],
+      "nodeCount": 6
+    },
+    {
+      "name": "RotaryControlStage",
+      "uuid": "1f86e1fb-8625-422e-bb1f-ee862dd2586e",
+      "keys": [
+        "day5b/devices/controller",
+        "day5b/devices/printer",
+        "day5b/devices/keyboard",
+        "day5b/devices/fan",
+        "day5b/devices/headset",
+        "day5b/devices/livestream",
+        "day5b/layers/joystick",
+        "day5b/layers/paper-crumpled",
+        "day5b/layers/paper-test",
+        "day5b/layers/keycap",
+        "day5b/layers/screw",
+        "day5b/layers/fan-blades",
+        "day5b/layers/fan-cover",
+        "day5b/layers/trace-handle",
+        "day5b/layers/slider-thumb"
+      ],
+      "nodeCount": 6
+    },
+    {
+      "name": "GuidedTraceStage",
+      "uuid": "292c7dc1-ba55-4b29-b39e-916967fdcf45",
+      "keys": [
+        "day5b/devices/controller",
+        "day5b/devices/printer",
+        "day5b/devices/keyboard",
+        "day5b/devices/fan",
+        "day5b/devices/headset",
+        "day5b/devices/livestream",
+        "day5b/layers/joystick",
+        "day5b/layers/paper-crumpled",
+        "day5b/layers/paper-test",
+        "day5b/layers/keycap",
+        "day5b/layers/screw",
+        "day5b/layers/fan-blades",
+        "day5b/layers/fan-cover",
+        "day5b/layers/trace-handle",
+        "day5b/layers/slider-thumb"
+      ],
+      "nodeCount": 6
+    },
+    {
+      "name": "SequenceTestStage",
+      "uuid": "36dedd39-3862-4153-91d9-812109b9d90b",
+      "keys": [
+        "day5b/devices/controller",
+        "day5b/devices/printer",
+        "day5b/devices/keyboard",
+        "day5b/devices/fan",
+        "day5b/devices/headset",
+        "day5b/devices/livestream",
+        "day5b/layers/joystick",
+        "day5b/layers/paper-crumpled",
+        "day5b/layers/paper-test",
+        "day5b/layers/keycap",
+        "day5b/layers/screw",
+        "day5b/layers/fan-blades",
+        "day5b/layers/fan-cover",
+        "day5b/layers/trace-handle",
+        "day5b/layers/slider-thumb"
+      ],
+      "nodeCount": 6
+    },
+    {
+      "name": "GaugeTuneStage",
+      "uuid": "04e21a66-b235-44e0-8f97-cb78bd6a6030",
+      "keys": [
+        "day5b/devices/controller",
+        "day5b/devices/printer",
+        "day5b/devices/keyboard",
+        "day5b/devices/fan",
+        "day5b/devices/headset",
+        "day5b/devices/livestream",
+        "day5b/layers/joystick",
+        "day5b/layers/paper-crumpled",
+        "day5b/layers/paper-test",
+        "day5b/layers/keycap",
+        "day5b/layers/screw",
+        "day5b/layers/fan-blades",
+        "day5b/layers/fan-cover",
+        "day5b/layers/trace-handle",
+        "day5b/layers/slider-thumb"
+      ],
+      "nodeCount": 6
+    }
+  ],
+  "sourceBindings": [
+    {
+      "path": "assets/art/day5b/devices.meta",
+      "bytes": 169,
+      "sha256": "5330531b518de2fa46c9fe518ae3076ee4fc42eff7d1e1d1b1f04e6a78d8f639"
+    },
+    {
+      "path": "assets/art/day5b/devices/controller.png",
+      "bytes": 109276,
+      "sha256": "ea39e070c82bf1366cd4a7a215045e762b111a66ce6b73976d49534c91ffc984"
+    },
+    {
+      "path": "assets/art/day5b/devices/controller.png.meta",
+      "bytes": 2814,
+      "sha256": "f7dbb3ef4b3835e59f571b9d1920e7249c03e331093e5cb1d3819818da348b8c"
+    },
+    {
+      "path": "assets/art/day5b/devices/fan.png",
+      "bytes": 86672,
+      "sha256": "969331aff62209b27f6b2de42fc530e6702e985b7dbf2df2fec499fada7caffc"
+    },
+    {
+      "path": "assets/art/day5b/devices/fan.png.meta",
+      "bytes": 2800,
+      "sha256": "54bfca561bc772c357d114a5f3d068a0c23fbbd6bf936af8bc7f8c2d1a182f81"
+    },
+    {
+      "path": "assets/art/day5b/devices/headset.png",
+      "bytes": 68062,
+      "sha256": "bc8cbbed6c851bd62de981e3cfc9723c09330cb645e8ebb095813a8d36daefa1"
+    },
+    {
+      "path": "assets/art/day5b/devices/headset.png.meta",
+      "bytes": 2808,
+      "sha256": "e0f0b5e8a7ebf9c4201fc6ed4eb33d973a39b90d85eda2f931d1d17d0b7c734e"
+    },
+    {
+      "path": "assets/art/day5b/devices/keyboard.png",
+      "bytes": 26627,
+      "sha256": "ca7f7dd186b29ffd61f202934e4c60d5c00d4a73fd85c0f4eaeeb0f209108e83"
+    },
+    {
+      "path": "assets/art/day5b/devices/keyboard.png.meta",
+      "bytes": 2810,
+      "sha256": "f367ce27dae4f807f97e864caed5093483c428fea4b6c09990306a50aee1f3b4"
+    },
+    {
+      "path": "assets/art/day5b/devices/livestream.png",
+      "bytes": 49330,
+      "sha256": "9a424d5dd77b1dd09a45af59b78cb5ebb3313dffe1a981a3fa3d735fd927d87b"
+    },
+    {
+      "path": "assets/art/day5b/devices/livestream.png.meta",
+      "bytes": 2814,
+      "sha256": "3687f9106c506f19a653c22076035333f099945755a79b4c277fbd3cecbb3850"
+    },
+    {
+      "path": "assets/art/day5b/devices/printer.png",
+      "bytes": 38365,
+      "sha256": "75cc12e3e7e4622121f54994c95925a3c1ed7d7e9f32c54eb4b638925ee64447"
+    },
+    {
+      "path": "assets/art/day5b/devices/printer.png.meta",
+      "bytes": 2808,
+      "sha256": "59a0a8c7f79bc9dc3f2d2226c485e1ee75e21191170571af2080998d70fabeb7"
+    },
+    {
+      "path": "assets/art/day5b/layers.meta",
+      "bytes": 169,
+      "sha256": "614affeef6b6aa537237fc638da85f4aa335c1aba5e1bec1d73214e6ad3a72ef"
+    },
+    {
+      "path": "assets/art/day5b/layers/fan-blades.png",
+      "bytes": 42893,
+      "sha256": "a6079513e8a4e7840ada0a06f607c16a8b62da77709a34765593935af27576d2"
+    },
+    {
+      "path": "assets/art/day5b/layers/fan-blades.png.meta",
+      "bytes": 2814,
+      "sha256": "ad508d278e3c9bd83f6c04c996d431ed516a002c7b491c1e6b1fdd3f43c391f3"
+    },
+    {
+      "path": "assets/art/day5b/layers/fan-cover.png",
+      "bytes": 69126,
+      "sha256": "0d4a628802ea827208d8b9a65a9f1f33df7cb5b93c8cb4cdf0224053dda1dfe7"
+    },
+    {
+      "path": "assets/art/day5b/layers/fan-cover.png.meta",
+      "bytes": 2812,
+      "sha256": "44a0fe8b642b62f8babf0ea59918bc1eb46dc271f8b199220ba088338bb6906c"
+    },
+    {
+      "path": "assets/art/day5b/layers/joystick.png",
+      "bytes": 29491,
+      "sha256": "870fa05c8092897c0e33cc9f053b67d4e7996e3eac279688f6dd7aa68ee6b373"
+    },
+    {
+      "path": "assets/art/day5b/layers/joystick.png.meta",
+      "bytes": 2810,
+      "sha256": "8ee528770120a41c3acf75fd83385854b9a439f655922becd8c91b3b12a16c41"
+    },
+    {
+      "path": "assets/art/day5b/layers/keycap.png",
+      "bytes": 5548,
+      "sha256": "2114379d49d41bf02979ce503abf94d3822c22f23e54a5b60aef1f4a6f423fef"
+    },
+    {
+      "path": "assets/art/day5b/layers/keycap.png.meta",
+      "bytes": 2794,
+      "sha256": "ebffa81fcef604deb326519841618b6f3d98b847ceec074dbd2476bf8b03ecea"
+    },
+    {
+      "path": "assets/art/day5b/layers/paper-crumpled.png",
+      "bytes": 27293,
+      "sha256": "2ad74a6e720e2141ccc333c9fd55f2a7de0a6a46bfd74b82622df77e413eed01"
+    },
+    {
+      "path": "assets/art/day5b/layers/paper-crumpled.png.meta",
+      "bytes": 2822,
+      "sha256": "83e06003c3b7cc59599b3078d1bfe014d272709ca9f0d67ae7bf38906a633a04"
+    },
+    {
+      "path": "assets/art/day5b/layers/paper-test.png",
+      "bytes": 20677,
+      "sha256": "54795e20127551630c91790ef676bdb91dcecb4c3ae42c82bf037b9b73f37ed9"
+    },
+    {
+      "path": "assets/art/day5b/layers/paper-test.png.meta",
+      "bytes": 2814,
+      "sha256": "9ac51f55e2424e44701a42791984fe3043e35a3da961fe2dc81de89f5659e95f"
+    },
+    {
+      "path": "assets/art/day5b/layers/screw.png",
+      "bytes": 22216,
+      "sha256": "d7e80eebf2c7cf9bcba4c0e1fb131413f5b30cf1b0b55c4ad95f5a14fd2a0a8c"
+    },
+    {
+      "path": "assets/art/day5b/layers/screw.png.meta",
+      "bytes": 2792,
+      "sha256": "4167720b8732daa4fb1d315f0ba67965ee07897f42b0e96d55e6d66cd4885ff1"
+    },
+    {
+      "path": "assets/art/day5b/layers/slider-thumb.png",
+      "bytes": 7907,
+      "sha256": "98127e42ba64efb8a745e23c8d7d6f273c15e7c20c647f03238a2e8043802f35"
+    },
+    {
+      "path": "assets/art/day5b/layers/slider-thumb.png.meta",
+      "bytes": 2806,
+      "sha256": "7eed09b8bcab11ba5f4c0702ee1efdf289056c3ef3f09663f98401fc204f1b68"
+    },
+    {
+      "path": "assets/art/day5b/layers/trace-handle.png",
+      "bytes": 19309,
+      "sha256": "15e20338076438ed901d1966bcb123eeab2728cad3e367caffb30d195d3fc52e"
+    },
+    {
+      "path": "assets/art/day5b/layers/trace-handle.png.meta",
+      "bytes": 2867,
+      "sha256": "9fcf0792ed9eb5ceea1691c202bf58cb236a027f0b9313b3f8486f31e1da17db"
+    },
+    {
+      "path": "assets/prefabs/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/prefabs/elements.meta",
+      "bytes": 169,
+      "sha256": "a18e104de71f8d87427bb04825f51ff17765feddeba9d37b23de0946f9b821bb"
+    },
+    {
+      "path": "assets/prefabs/elements/Cable.prefab",
+      "bytes": 33189,
+      "sha256": "30bb5e5ece61264c9ebb223807fd5725aaf1a3d17eae5ec24520b3062e36bc8f"
+    },
+    {
+      "path": "assets/prefabs/elements/Cable.prefab.meta",
+      "bytes": 213,
+      "sha256": "853d43fc2667fcb6cc159f545e94c2526761eb1eec28fc0b6fa72a48cacd92c5"
+    },
+    {
+      "path": "assets/prefabs/elements/DirtCell.prefab",
+      "bytes": 5803,
+      "sha256": "eab71be5dbe7c128ba3f2892344aa8ec9145bc9a5e8c10840159a8b03ed1c3a3"
+    },
+    {
+      "path": "assets/prefabs/elements/DirtCell.prefab.meta",
+      "bytes": 216,
+      "sha256": "b227caadf4e7ae983b4cafa44c5fdce33c9ab0a26d6c6374367e22862e9171e6"
+    },
+    {
+      "path": "assets/prefabs/elements/DragItem.prefab",
+      "bytes": 18910,
+      "sha256": "ea54cd477383c2891361f5d58a64c9875fd7fcd83218e49b485a13d1816fa11c"
+    },
+    {
+      "path": "assets/prefabs/elements/DragItem.prefab.meta",
+      "bytes": 216,
+      "sha256": "6d5f44353900116d1f592e7d00ec3fe735d0cead39e7ec48b1cca7d04ff6c556"
+    },
+    {
+      "path": "assets/prefabs/elements/DragTarget.prefab",
+      "bytes": 18458,
+      "sha256": "6e202e85b87a33ce5b60d4ae12e2122229966b1d83a681e4dce727d958d714c1"
+    },
+    {
+      "path": "assets/prefabs/elements/DragTarget.prefab.meta",
+      "bytes": 218,
+      "sha256": "defe95786114bb6b1ebce6d3235f10eddbbcd7a17574dea32c51e882ab7bf33a"
+    },
+    {
+      "path": "assets/prefabs/elements/Port.prefab",
+      "bytes": 18441,
+      "sha256": "9b22b69b4680129dece2f9a1e3f93f47ca68d3973986854edd30cdca5d3e2a68"
+    },
+    {
+      "path": "assets/prefabs/elements/Port.prefab.meta",
+      "bytes": 212,
+      "sha256": "dc04ce3fcfa326dbab7d1d0b9e83373c6e351e3583919f06891dda1c7ca908e4"
+    },
+    {
+      "path": "assets/prefabs/stages.meta",
+      "bytes": 169,
+      "sha256": "bfeaac4079b1124c49d4a04ab0330d6febfabc28506a87863263f50845e433ab"
+    },
+    {
+      "path": "assets/prefabs/stages/CableConnectStage.prefab",
+      "bytes": 3798,
+      "sha256": "56200ee3b00613acdc63081da86e89a2b78abb6c68398d7f4ff6e4bd483e37ca"
+    },
+    {
+      "path": "assets/prefabs/stages/CableConnectStage.prefab.meta",
+      "bytes": 225,
+      "sha256": "faa0c4339170b5d0e8238b22cfd478b4dede22ef3d9b67f3a00be89eabc4642c"
+    },
+    {
+      "path": "assets/prefabs/stages/CleanSwipeStage.prefab",
+      "bytes": 11275,
+      "sha256": "53e5fb07a8d1cb2187b5d16b9e4d4ec7aa61a925883fbd064f498eb1c1e964e4"
+    },
+    {
+      "path": "assets/prefabs/stages/CleanSwipeStage.prefab.meta",
+      "bytes": 223,
+      "sha256": "0edaedc937ae9865cd36b2e8765879c2de06e4aec83c99d62e27984c8c6b2aae"
+    },
+    {
+      "path": "assets/prefabs/stages/DragMatchStage.prefab",
+      "bytes": 2701,
+      "sha256": "efb2a031e3702653803267058778da52869b90ea194338bf876d5144359f1b8e"
+    },
+    {
+      "path": "assets/prefabs/stages/DragMatchStage.prefab.meta",
+      "bytes": 222,
+      "sha256": "fa4a1ae0eda017d5533799776f725b8594ede749a256227637e0ded9c796281c"
+    },
+    {
+      "path": "assets/prefabs/stages/FaultSpotStage.prefab",
+      "bytes": 17292,
+      "sha256": "287e33372d688bbe0bcf9e8fecc754a26bfdc5462aac5a54c25de5874dac477a"
+    },
+    {
+      "path": "assets/prefabs/stages/FaultSpotStage.prefab.meta",
+      "bytes": 222,
+      "sha256": "166abd43c67826b04d5178b041dee110f4f15aa0a56fe77ba0351f3f23c426af"
+    },
+    {
+      "path": "assets/prefabs/stages/GaugeTuneStage.prefab",
+      "bytes": 17292,
+      "sha256": "627fac7d34077ed92da3e983c7c8a3c5d71002c20c3cdad6324635a50cbcb2de"
+    },
+    {
+      "path": "assets/prefabs/stages/GaugeTuneStage.prefab.meta",
+      "bytes": 222,
+      "sha256": "4988b8106d34e1a17a19652b3496f749dfc4a9e034a1ea359e921117bc159542"
+    },
+    {
+      "path": "assets/prefabs/stages/GuidedTraceStage.prefab",
+      "bytes": 17296,
+      "sha256": "da17d48a8527bc56c8eecd68e384ecf68796c88dbd9a13ce3f67c92f35edad57"
+    },
+    {
+      "path": "assets/prefabs/stages/GuidedTraceStage.prefab.meta",
+      "bytes": 224,
+      "sha256": "4222bc8b2a1597eb9e4374a897afad684610692a92ab318dacee6b50429efef6"
+    },
+    {
+      "path": "assets/prefabs/stages/RotaryControlStage.prefab",
+      "bytes": 17300,
+      "sha256": "0d39a5ca2bbecdb94a448f945df2e25fb3c9233a274a6d349c20ca03c095053f"
+    },
+    {
+      "path": "assets/prefabs/stages/RotaryControlStage.prefab.meta",
+      "bytes": 226,
+      "sha256": "c37d10461f09d8248894a468b40ecbd3473d9fd3b7a6fded84c1d0c67fb2a730"
+    },
+    {
+      "path": "assets/prefabs/stages/SequenceTestStage.prefab",
+      "bytes": 17298,
+      "sha256": "ec0be438483ab3b37e015e9e1a425cd964f33ec5875e51c926127e11a80df5ed"
+    },
+    {
+      "path": "assets/prefabs/stages/SequenceTestStage.prefab.meta",
+      "bytes": 225,
+      "sha256": "05dc0ae73030a3ce624eea41ef3cd947a942870e7bb838f318133c879fc93397"
+    },
+    {
+      "path": "assets/scenes/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/scenes/Game.scene",
+      "bytes": 445502,
+      "sha256": "4af0eeea4aad4e95be940de8646774271642aae8754a4e354cba6061f0083c0b"
+    },
+    {
+      "path": "assets/scenes/Game.scene.meta",
+      "bytes": 181,
+      "sha256": "4ccda419d76fbd79c19b9eae0a5b771ad96a39d954ac7326715c2ae1008d920d"
+    },
+    {
+      "path": "assets/scripts/core.meta",
+      "bytes": 169,
+      "sha256": "8fe05ca8b6610569d4343dcabafb9f948d102220813affb4df66bdbc35815ab6"
+    },
+    {
+      "path": "assets/scripts/core/GameController.ts",
+      "bytes": 2453,
+      "sha256": "e1b3c357bc915746e20b240f88f48c8c89876c14116850bd55c688d2bb0e4297"
+    },
+    {
+      "path": "assets/scripts/core/GameController.ts.meta",
+      "bytes": 171,
+      "sha256": "73552e722aba8f0d7aeced709d26cadbd492164cb4f297fce6ea35301b72f858"
+    },
+    {
+      "path": "assets/scripts/core/LegacyLevelManager.ts",
+      "bytes": 12443,
+      "sha256": "2ef5ff4fbe16284c35a66010880cb3bdc2edb62b21368429c98b26af662ebf4b"
+    },
+    {
+      "path": "assets/scripts/core/LegacyLevelManager.ts.meta",
+      "bytes": 171,
+      "sha256": "e84378379a0d5428094d6121872ecb036de3c0dbd6189be82496001133110d3f"
+    },
+    {
+      "path": "assets/scripts/core/LevelManager.ts",
+      "bytes": 20088,
+      "sha256": "636cf53533a667f9638831e0ed5fa8b4f1ad7317131f5fdd989c1a8f1be6f982"
+    },
+    {
+      "path": "assets/scripts/core/LevelManager.ts.meta",
+      "bytes": 171,
+      "sha256": "e9b2eacaea0a89f2ebd3dc94593f7698ec4acd3d1b9d53de2e196789a639310c"
+    },
+    {
+      "path": "assets/scripts/core/RunController.ts",
+      "bytes": 6907,
+      "sha256": "064cac06b336ddf741b983c09a025f0fb33bd130bc2b45d37ef2ad0c9df64655"
+    },
+    {
+      "path": "assets/scripts/core/RunController.ts.meta",
+      "bytes": 171,
+      "sha256": "a843e9d148657dd9c031c3b45b183a265d1b5a6925cc5b5fa54dfb9ed2e14cf5"
+    },
+    {
+      "path": "assets/scripts/data.meta",
+      "bytes": 169,
+      "sha256": "f452f63edb18de6325b45e96a4f498577fd757c05be46f080b3a88e85177e822"
+    },
+    {
+      "path": "assets/scripts/data/Day5BOrderCatalog.ts",
+      "bytes": 11108,
+      "sha256": "58b78335c0cebb7ce19420234df82963895b07bcfc8beeb4b634a10b7f4f2b99"
+    },
+    {
+      "path": "assets/scripts/data/Day5BOrderCatalog.ts.meta",
+      "bytes": 171,
+      "sha256": "3b359abb5ccb9c39c6f71ab9e40801e5e742a3da65efc8166e6c6d7a561f49d5"
+    },
+    {
+      "path": "assets/scripts/data/Day5BStageDefinition.ts",
+      "bytes": 3405,
+      "sha256": "a0f3fa6482a581c010e079641968e1c3aba254a927ca09ebe9541ec619018584"
+    },
+    {
+      "path": "assets/scripts/data/Day5BStageDefinition.ts.meta",
+      "bytes": 171,
+      "sha256": "6cd18fe2a3ff44f333d097c8a7937efb68777a6a88d8a6a8680a20f8f1bedaef"
+    },
+    {
+      "path": "assets/scripts/data/Day5BStageValidation.ts",
+      "bytes": 5138,
+      "sha256": "64a862739b401b399522dbe75ecf3b4ca17d11c21b8084e7b13f1e2757c8d9c6"
+    },
+    {
+      "path": "assets/scripts/data/Day5BStageValidation.ts.meta",
+      "bytes": 171,
+      "sha256": "4c7e3d5de33ebe8b82f5c7eaa4e57880391a1abffede97f169d1678c9049679e"
+    },
+    {
+      "path": "assets/scripts/data/LevelCatalog.ts",
+      "bytes": 2561,
+      "sha256": "24e394aa8495e4c23a18a92b15ea727108161a3c28d8d2e1fdd863afc54f4e89"
+    },
+    {
+      "path": "assets/scripts/data/LevelCatalog.ts.meta",
+      "bytes": 171,
+      "sha256": "e0064153b6aedb854987e509311c285599a9f5da677b420d6f25f273a9667551"
+    },
+    {
+      "path": "assets/scripts/data/LevelDefinition.ts",
+      "bytes": 789,
+      "sha256": "7ffc204ef01fa5f0a7dcd65197776f27e1a98613eb4aa643c92c1cee7abbcc0f"
+    },
+    {
+      "path": "assets/scripts/data/LevelDefinition.ts.meta",
+      "bytes": 171,
+      "sha256": "1a4f178b86302bec167540bb4e2395e626e91d5a7b11ade790a5cc3188c2847b"
+    },
+    {
+      "path": "assets/scripts/data/OrderCatalog.ts",
+      "bytes": 13306,
+      "sha256": "a038ff6a9269993c9d650954a2e680c1962416ea38230bec4c1d8a9a7df43eb0"
+    },
+    {
+      "path": "assets/scripts/data/OrderCatalog.ts.meta",
+      "bytes": 171,
+      "sha256": "1f97326fc522468269b1ab3c00c8a3358a404957aa862a043a15bf79de159084"
+    },
+    {
+      "path": "assets/scripts/data/OrderDefinition.ts",
+      "bytes": 368,
+      "sha256": "c0fc93e4da57a591b1fd9bbab0014be7092179c6a05b583e2d365429dfe24b6d"
+    },
+    {
+      "path": "assets/scripts/data/OrderDefinition.ts.meta",
+      "bytes": 171,
+      "sha256": "bed0b8888d1863afb09713db550169b35e61cd7c4fddbfccd75155c5acf67c1d"
+    },
+    {
+      "path": "assets/scripts/data/StageDefinition.ts",
+      "bytes": 2046,
+      "sha256": "9b8255ecbd4dc7ddc5f70bff078a424a878ecf058ac34553caf552bc386fdd34"
+    },
+    {
+      "path": "assets/scripts/data/StageDefinition.ts.meta",
+      "bytes": 171,
+      "sha256": "6889b07e7be4a3ae1696e3e9ac03beed020592cd7d58eca4da1f5c394138c2e1"
+    },
+    {
+      "path": "assets/scripts/gameplay.meta",
+      "bytes": 169,
+      "sha256": "9fbf3ad61d0d1d1d852e5eefbfeec1d2ef5e881d7ac46f706b54aaabbc7d63af"
+    },
+    {
+      "path": "assets/scripts/gameplay/CableConnector.ts",
+      "bytes": 10909,
+      "sha256": "d03076277b33508677cdd89ec6f13f8314db7f0d759d56245c58d22bb9bfa5bf"
+    },
+    {
+      "path": "assets/scripts/gameplay/CableConnector.ts.meta",
+      "bytes": 171,
+      "sha256": "a7dfda8e95e9fc3dfd61385d7b1f8b38234171a25647ce003fa489238169ec4a"
+    },
+    {
+      "path": "assets/scripts/gameplay/Day1Prototype.ts",
+      "bytes": 4655,
+      "sha256": "91077917554d152a66d85662099fc4b5b48876e29ca1ece2e07c74a0eb398a10"
+    },
+    {
+      "path": "assets/scripts/gameplay/Day1Prototype.ts.meta",
+      "bytes": 171,
+      "sha256": "88b506fb8f026c277f18824e9f1724df7a600c4c0f1591c226d262d6ec441128"
+    },
+    {
+      "path": "assets/scripts/gameplay/DraggableItem.ts",
+      "bytes": 11047,
+      "sha256": "1d09e9f352a78b677d1b6ad403cc7b08af7afc04e705c00df83212337397e367"
+    },
+    {
+      "path": "assets/scripts/gameplay/DraggableItem.ts.meta",
+      "bytes": 171,
+      "sha256": "f37440093ce1fcd6526a5faf9807957ade12d8c8475b9a98d8c0baadf63e0db0"
+    },
+    {
+      "path": "assets/scripts/stages.meta",
+      "bytes": 169,
+      "sha256": "c6e0e50ab338624f68cd62cf496f11efc4040ee5263fff46264697b957c4975f"
+    },
+    {
+      "path": "assets/scripts/stages/CableConnectStageController.ts",
+      "bytes": 7890,
+      "sha256": "709111e79010e8f230840071d043afa68c2990c96856d79401dee656a8355d9c"
+    },
+    {
+      "path": "assets/scripts/stages/CableConnectStageController.ts.meta",
+      "bytes": 171,
+      "sha256": "22e6679de7bdd011c2fb75fa5bc3fe0641c8e76dcebb2f94d36a5728429d9497"
+    },
+    {
+      "path": "assets/scripts/stages/CleanSwipeStageController.ts",
+      "bytes": 11885,
+      "sha256": "27552fce87f3241ae57769e2a2dbe025234a2f96beadab7b9d6a3408ba05bfd7"
+    },
+    {
+      "path": "assets/scripts/stages/CleanSwipeStageController.ts.meta",
+      "bytes": 171,
+      "sha256": "20cd87fb86cddb3959bd8262f6153cb6441eef4167c74f27b6c14f90a956fd11"
+    },
+    {
+      "path": "assets/scripts/stages/Day5BMotionMath.ts",
+      "bytes": 2097,
+      "sha256": "30dc5cb8878de41a7b5bc67858289c4875989c7f92362abbb04e0120330e1080"
+    },
+    {
+      "path": "assets/scripts/stages/Day5BMotionMath.ts.meta",
+      "bytes": 171,
+      "sha256": "872497e5ec5ebad738fd9cd6f9d37d679d92391546c07556b337d19b5f6fcfcc"
+    },
+    {
+      "path": "assets/scripts/stages/Day5BStageController.ts",
+      "bytes": 9010,
+      "sha256": "4c164765f7b30181dcccce7d56648f0dc2f7efed828be5397c5e9af72a2f9a06"
+    },
+    {
+      "path": "assets/scripts/stages/Day5BStageController.ts.meta",
+      "bytes": 171,
+      "sha256": "e41f9d280b88ac4f71e07887ee4d3aefcdd22fd27d530bd07f154255658995a6"
+    },
+    {
+      "path": "assets/scripts/stages/DragMatchStageController.ts",
+      "bytes": 7839,
+      "sha256": "81dced5b37081c37f0d711e8c3c05ed5603f0cb8189cbd5c262e2d7531cc7295"
+    },
+    {
+      "path": "assets/scripts/stages/DragMatchStageController.ts.meta",
+      "bytes": 171,
+      "sha256": "64444b1e7f9273f2dd6939b60665d52871ae4a2f85f88d64d28074859af38a19"
+    },
+    {
+      "path": "assets/scripts/stages/ElementPool.ts",
+      "bytes": 1074,
+      "sha256": "f551b622a412ad84752476facc3ce0f418958b5a7e14f516835ded02a705f2fc"
+    },
+    {
+      "path": "assets/scripts/stages/ElementPool.ts.meta",
+      "bytes": 171,
+      "sha256": "6b87a63ae78512f99256f11322a529c5b1a868904873b51774ba58f97784c088"
+    },
+    {
+      "path": "assets/scripts/stages/FaultSpotStageController.ts",
+      "bytes": 4041,
+      "sha256": "9abd351795382557df8fd10a2de4602d41fd74a8629b368025d6037e7278f5f2"
+    },
+    {
+      "path": "assets/scripts/stages/FaultSpotStageController.ts.meta",
+      "bytes": 171,
+      "sha256": "bb6574217f298844c9e3d276edd59a6f092bb6655a0b19798b583f9c542177ec"
+    },
+    {
+      "path": "assets/scripts/stages/GaugeTuneStageController.ts",
+      "bytes": 9229,
+      "sha256": "73d9344ccdd4840e3dc3638d0d32f3bb4d7bcbbb8c1240f1c1cb881d3401f204"
+    },
+    {
+      "path": "assets/scripts/stages/GaugeTuneStageController.ts.meta",
+      "bytes": 171,
+      "sha256": "13e888aeabcebc04cb0a0b74b106dfe3594b36c19590f21a321badcf806f684c"
+    },
+    {
+      "path": "assets/scripts/stages/GuidedTraceStageController.ts",
+      "bytes": 10511,
+      "sha256": "db5c0eb452c846827df86350491d76521cdf55ed4e4937071204cc4175537d85"
+    },
+    {
+      "path": "assets/scripts/stages/GuidedTraceStageController.ts.meta",
+      "bytes": 171,
+      "sha256": "41bd02327fab6b2c29d90f1b15d4710cc3103c174a307b8b93b8e9f1105f9831"
+    },
+    {
+      "path": "assets/scripts/stages/RotaryControlStageController.ts",
+      "bytes": 15281,
+      "sha256": "269f1cf114d874c6ef1d45ab220bfbbd2b0495e78d8b18352087c2fae4260081"
+    },
+    {
+      "path": "assets/scripts/stages/RotaryControlStageController.ts.meta",
+      "bytes": 171,
+      "sha256": "d8513e19996cddc7cdc648cae46008ba91cb2dea14a53e7e33c0e235eef03017"
+    },
+    {
+      "path": "assets/scripts/stages/SequenceTestStageController.ts",
+      "bytes": 3472,
+      "sha256": "8f0fac240fd75c53df7c8d7491e520341a28e7855bffcab543fc251772be435d"
+    },
+    {
+      "path": "assets/scripts/stages/SequenceTestStageController.ts.meta",
+      "bytes": 171,
+      "sha256": "ab87250fba17d889c8399ca017210f4c13087ad505085a004ba401403c225f58"
+    },
+    {
+      "path": "assets/scripts/stages/StageHost.ts",
+      "bytes": 10473,
+      "sha256": "de8b56163d9c98f27cf28b476f1a0c848bb2699f050cdedc95f7368e5f9400c5"
+    },
+    {
+      "path": "assets/scripts/stages/StageHost.ts.meta",
+      "bytes": 171,
+      "sha256": "107288870e18d97e96701524b8eb624e6f996b752375a2a48b749c52acf71854"
+    },
+    {
+      "path": "assets/scripts/stages/StageRuntime.ts",
+      "bytes": 578,
+      "sha256": "2d5aef6a6d45560fa2a6928d54cb0b83cbad2ff9600969061e1bfe7ee23e409e"
+    },
+    {
+      "path": "assets/scripts/stages/StageRuntime.ts.meta",
+      "bytes": 171,
+      "sha256": "1e057585d3acc3477c774af5d3336596bf4547eed2dce00988892adf6541cce5"
+    },
+    {
+      "path": "assets/scripts/ui.meta",
+      "bytes": 169,
+      "sha256": "29bf0fda373038e0b2d0c9ae968e2c4507f91f2924ad7147ae547b526e3522d1"
+    },
+    {
+      "path": "assets/scripts/ui/AudioFeedback.ts",
+      "bytes": 6355,
+      "sha256": "de9504b936cf39e462aed3446522272efcb4971b89654ab0af8cbbebdc2841da"
+    },
+    {
+      "path": "assets/scripts/ui/AudioFeedback.ts.meta",
+      "bytes": 171,
+      "sha256": "758254ea0935434df33f8011debcee1cfdc62923011dcfc76c4c6c2bc47e2e32"
+    },
+    {
+      "path": "assets/scripts/ui/ButtonPressFeedback.ts",
+      "bytes": 2952,
+      "sha256": "db1f1b717239d2ff8ab40861bf9f47f9a8945a1d8070c12f3b512e52d7428c4c"
+    },
+    {
+      "path": "assets/scripts/ui/ButtonPressFeedback.ts.meta",
+      "bytes": 171,
+      "sha256": "e54498c640cca02aa2616dd819acf05a67ca1f0beec36c91201aeffb80cdbd7e"
+    },
+    {
+      "path": "assets/scripts/ui/Day5BReviewLauncher.ts",
+      "bytes": 2085,
+      "sha256": "7d2eef88c752f20522c540dc0fda39288497e72bc06f939cc7ffa5739ef0cedd"
+    },
+    {
+      "path": "assets/scripts/ui/Day5BReviewLauncher.ts.meta",
+      "bytes": 171,
+      "sha256": "2386496163882e1b514691d4f834efe1f0bce878480b219e1ee12f4929cdcd1d"
+    },
+    {
+      "path": "assets/scripts/ui/HomeController.ts",
+      "bytes": 6111,
+      "sha256": "b41972145b5a84bb4679baf6fab085244d37259ba89eabf11cbd8cd4c3412bbb"
+    },
+    {
+      "path": "assets/scripts/ui/HomeController.ts.meta",
+      "bytes": 171,
+      "sha256": "4efd3ae5a0f20bbabbc73d631693682708e9621f400453f7350d2b2cb05ce6f9"
+    },
+    {
+      "path": "assets/scripts/ui/PaperOrderHUD.ts",
+      "bytes": 4900,
+      "sha256": "18180491fec99dad3b128cdce2974ad05a96858c75f57d6e50da072a2a3f10a0"
+    },
+    {
+      "path": "assets/scripts/ui/PaperOrderHUD.ts.meta",
+      "bytes": 171,
+      "sha256": "99fe6cf8c75fb1d3b00b5fc3839c20faa9b8461ff98bb58fb608da73e1ba31c4"
+    },
+    {
+      "path": "assets/scripts/ui/ResultStars.ts",
+      "bytes": 3031,
+      "sha256": "c54759a45085f607cac8658917e100dbd9dd106656504f61e39c1719d8e7bc47"
+    },
+    {
+      "path": "assets/scripts/ui/ResultStars.ts.meta",
+      "bytes": 171,
+      "sha256": "1974dc14ca9047af3221f8ab8e6bfea02eb9b48d4b02a9f7780becee598ee9fa"
+    },
+    {
+      "path": "assets/scripts/ui/V2ResultView.ts",
+      "bytes": 4554,
+      "sha256": "8a1051f7920169ddf1c81d185c197e889638c802e720ee62fd37b3d42b09dd97"
+    },
+    {
+      "path": "assets/scripts/ui/V2ResultView.ts.meta",
+      "bytes": 171,
+      "sha256": "de6c2fa19c0a13c296155c17ac2b25b37571c583d754e5d94d5af083796a8eb9"
+    },
+    {
+      "path": "assets/scripts/ui/WorkshopDecoration.ts",
+      "bytes": 2139,
+      "sha256": "0f18568d4113126c7bb079cac47382ffac32fe6554fce42a92626694650b28d2"
+    },
+    {
+      "path": "assets/scripts/ui/WorkshopDecoration.ts.meta",
+      "bytes": 171,
+      "sha256": "40d9a6f3d9402f1d3199976bcba1bbb25d6e66f1650493202a0fa89d59c389dc"
+    },
+    {
+      "path": "assets/scripts/visuals.meta",
+      "bytes": 169,
+      "sha256": "caee4ab02e26de0e584172c133772fcf4c24d45fa4aaea27641fef30c7c9e280"
+    },
+    {
+      "path": "assets/scripts/visuals/CleanDeviceVisual.ts",
+      "bytes": 1147,
+      "sha256": "584129d4d206958236435fb7bcc80198916698c83dfd6dd84776129ffeaa0fee"
+    },
+    {
+      "path": "assets/scripts/visuals/CleanDeviceVisual.ts.meta",
+      "bytes": 171,
+      "sha256": "a8f825e495665b23c95bda360d6d7323ae1386426cd36358e1838e86af269ee8"
+    },
+    {
+      "path": "assets/scripts/visuals/Day5BStageView.ts",
+      "bytes": 11083,
+      "sha256": "0663dd67d15020c43786960678596b11f2826d5a0493586c97cc30bc3ecaf93a"
+    },
+    {
+      "path": "assets/scripts/visuals/Day5BStageView.ts.meta",
+      "bytes": 171,
+      "sha256": "c5943acac0fe18240369f8e28cc97c7d2b61eb437af3a6191084929aafbb12c9"
+    },
+    {
+      "path": "assets/scripts/visuals/Day5BVisualCatalog.ts",
+      "bytes": 1260,
+      "sha256": "7f6aa3727cfaeae59e1c10638646d455ac6d09927ffde4506bfed0769e4e1e46"
+    },
+    {
+      "path": "assets/scripts/visuals/Day5BVisualCatalog.ts.meta",
+      "bytes": 171,
+      "sha256": "ca8137711511805f8c5d82c019764245d16dad97dbef4411dec50071a7e9f3a9"
+    },
+    {
+      "path": "assets/scripts/visuals/ElementVisual.ts",
+      "bytes": 7978,
+      "sha256": "6be9b7406a1afa7ccfe5eb9a563a72169fb42efc283185eebf3fc91ef40eff2b"
+    },
+    {
+      "path": "assets/scripts/visuals/ElementVisual.ts.meta",
+      "bytes": 171,
+      "sha256": "1994cdc9250b2be973ccbe2c6800351b6d19ae1b1bd32df297992d981d2d3954"
+    },
+    {
+      "path": "assets/scripts/visuals/V21CleanDustView.ts",
+      "bytes": 8432,
+      "sha256": "e00cde3d58068d3f402026f8c241fb6a8a8764e07763a1264f12cb15ba7ab66e"
+    },
+    {
+      "path": "assets/scripts/visuals/V21CleanDustView.ts.meta",
+      "bytes": 171,
+      "sha256": "bc6d46778b4bc72740d86658b9d617d2690fae3c3e486d58250b774a7de288f7"
+    },
+    {
+      "path": "assets/scripts/visuals/V2CableLine.ts",
+      "bytes": 3562,
+      "sha256": "7bc74904c36de06fa59b6e03c5032077645fd0665c460a3d309fa285232bc533"
+    },
+    {
+      "path": "assets/scripts/visuals/V2CableLine.ts.meta",
+      "bytes": 171,
+      "sha256": "d69263fc0663826df8f1aca8e5d772dff8e002591ac03c89548e593b92a23c84"
+    },
+    {
+      "path": "assets/scripts/visuals/V2DirtAppearance.ts",
+      "bytes": 1140,
+      "sha256": "9893695d9cce40ad88ac9c41207d929ad055fbc9d6fb32aa6afcd5aed6284742"
+    },
+    {
+      "path": "assets/scripts/visuals/V2DirtAppearance.ts.meta",
+      "bytes": 171,
+      "sha256": "1394a439f1ed1a6940ec2fb9fc8ea5043f6cc2142815882c0cab587b906a6871"
+    },
+    {
+      "path": "assets/scripts/visuals/V2ViewportTheme.ts",
+      "bytes": 1898,
+      "sha256": "cad88737ccdc5b79fe5b05458f405fc658db5bfbb7adc4a28311ff9aa7d681ae"
+    },
+    {
+      "path": "assets/scripts/visuals/V2ViewportTheme.ts.meta",
+      "bytes": 171,
+      "sha256": "64c4173497e5fcaec76fd2e4983d1d9d42bda832736a02c9571b7b914f63dd4c"
+    },
+    {
+      "path": "assets/scripts/visuals/VisualAssetRegistry.ts",
+      "bytes": 1022,
+      "sha256": "68511e09361ac0e709c9e22f10fda08b1c572c786b5cb49cae1c3992e1332671"
+    },
+    {
+      "path": "assets/scripts/visuals/VisualAssetRegistry.ts.meta",
+      "bytes": 171,
+      "sha256": "34c677146d5ab9bbe158b7dc6d0a02361ee957b371430aef31ee6eba3d568167"
+    },
+    {
+      "path": "assets/scripts/visuals/VisualCatalog.ts",
+      "bytes": 2153,
+      "sha256": "03c58587302c5fc54ecf28894e6646a773234ac3deb560ea125e8f9ac5683d40"
+    },
+    {
+      "path": "assets/scripts/visuals/VisualCatalog.ts.meta",
+      "bytes": 171,
+      "sha256": "ca17392129b7de59d93ccf72ed4db70acb0ca55f1b2799aae5295fd8f48b5517"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-appearance.js",
+      "bytes": 6834,
+      "sha256": "c0cd7cb604d17a25b8277bc2c32dbdb7c048a2cbec4b33e76d3878693fabe0d4"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-audit.js",
+      "bytes": 27336,
+      "sha256": "b3afb8dc4010421e8d927d060f60c5443d1d4b28af0e0fd1e13ffa487b323a2d"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-probe.js",
+      "bytes": 32245,
+      "sha256": "cf77028127fb009663ff6b35e634c0c50a2d594144a91373d2a82b5b161711eb"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-scene.js",
+      "bytes": 11656,
+      "sha256": "6265689295cc9730b4fe24ea5ea56e89a6c541356ab3c126973cce3d084e61c4"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-audit.js",
+      "bytes": 47363,
+      "sha256": "071d56b6079f24dad1ce98a7dac4bcf3fe2a803704c78c56ebc59a49a6f984d4"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-main.js",
+      "bytes": 8209,
+      "sha256": "b9f6fc2272836742f70b83e6ccea1719172a78580114b5b7892ea3c6633dd216"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-probe.js",
+      "bytes": 33576,
+      "sha256": "33a5009c69e937160fe78721a97db580691b30f38cbba06be95c3f6824bde51a"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-scene.js",
+      "bytes": 18359,
+      "sha256": "7c6c3e5f5a71b70478218cb1dfc081b6ce30925d9cc6394f37a178a2a61cd01d"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5b-main.js",
+      "bytes": 4970,
+      "sha256": "3c8330da1031bf43ab0e50ca7d25998a2e5feb0667ea410ab2a27b0faff60cf3"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5b-probe.js",
+      "bytes": 12192,
+      "sha256": "3ecb9d03bb70f4bb622eac681aa2ce7a7ec6d9cef0e90885ee5bdb696fdd22c0"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5b-scene.js",
+      "bytes": 7317,
+      "sha256": "1b8fa34b911a59e408b60845e203797e6dcebd9aa8c6d1fa058eb180021e0c97"
+    },
+    {
+      "path": "extensions/deskrescue-editor/main.js",
+      "bytes": 13381,
+      "sha256": "37274102f807c5b7888059246cf33b5174aa96c85c5865c739eeb0fb1d0f89d1"
+    },
+    {
+      "path": "extensions/deskrescue-editor/package.json",
+      "bytes": 9673,
+      "sha256": "0eb5283ba374e9b2618fe312357ceac11c767dd0ea7ba5e730e79cf99dea48ad"
+    },
+    {
+      "path": "extensions/deskrescue-editor/probe.js",
+      "bytes": 18821,
+      "sha256": "1be4864e0fac75480ab5f73a6d3e62c4244bfd7378e181a5a27530d51de87c22"
+    },
+    {
+      "path": "extensions/deskrescue-editor/scene.js",
+      "bytes": 22031,
+      "sha256": "ec613fa66965c0c1e4e539f6ada08558a6314cd70d50a2d86d5b466eb361c672"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-audit.js",
+      "bytes": 52064,
+      "sha256": "cc5edbf3563120912de85e6a3b6effdeb9ee0073d934a0fb272047b07a9c8bf1"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-main.js",
+      "bytes": 7185,
+      "sha256": "b9df6bfb64f0b0015f4e21109f8a055104c24f2449e5dd25b8e6184b1642c9c0"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-probe.js",
+      "bytes": 64311,
+      "sha256": "1d542f2238c6539a348948947e498d01d78e3b7b8748b8260a1cb4816ed9b4bc"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-scene.js",
+      "bytes": 28988,
+      "sha256": "f660b34e7967fc8b75be8a0abbd1834b66116c8fefe361c32ddbcf4848247d31"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v21-audit.js",
+      "bytes": 59425,
+      "sha256": "281952dcad2c4e111463b22fe27c3548e9c2ca5d13fae6e31d023d8ae645997a"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v21-main.js",
+      "bytes": 6040,
+      "sha256": "a40c835c5e8b9795403bbd0d14fb7c16287a5dd93786825e488b2062ff26d54a"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v21-probe.js",
+      "bytes": 83880,
+      "sha256": "e551c6b5ca6a5bb96c091ab10cc3e39b270163676633d8f5bc0c872728830e0e"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v21-scene.js",
+      "bytes": 11934,
+      "sha256": "a489d238370d3d012c1357ad575b6d7001994fbdca8665ba8136bdd4ec720ebb"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v22-audit.js",
+      "bytes": 22835,
+      "sha256": "ce131d9eee29229ca058a1287c6e5bac182c9f463b80779f5c428192c9165dce"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v22-main.js",
+      "bytes": 3429,
+      "sha256": "6faf91f2d7369bfd003ed1ef1839aa984535bc9e3978c627a04984de4e44e61c"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v22-probe.js",
+      "bytes": 20831,
+      "sha256": "c8166a89520c707fc58c8cfdd3d8a916796a8c3f2ecf36475efac671ba490c63"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v22-scene.js",
+      "bytes": 5311,
+      "sha256": "d667d501b5549f2afebdfb9fbce5e372785c9fab56fd015e4e95e198b2a0231e"
+    },
+    {
+      "path": "package.json",
+      "bytes": 362,
+      "sha256": "b72b2cf59adfb8cf2d88cbcb9bfb8a46e7adedb9223ff1e84913d20ab5c74fb2"
+    },
+    {
+      "path": "tools/test/cc.d.ts",
+      "bytes": 6359,
+      "sha256": "bf736d3d6c90e90b5f04136269b53a24b68e6df963c9bf68222d8a08566398d8"
+    },
+    {
+      "path": "tools/test/day5b-catalog.cjs",
+      "bytes": 15389,
+      "sha256": "47072e3a97a04c4f6c9deb3f1825b162215eda06e4ee0aec555dff72d5fc1a45"
+    },
+    {
+      "path": "tools/test/day5b-fixture.cjs",
+      "bytes": 1623,
+      "sha256": "a88b33ae99eedc130c433436f0b586e7cdaacff4879e2d3f5915edae6143dfdf"
+    },
+    {
+      "path": "tools/test/day5b-gauge.cjs",
+      "bytes": 3969,
+      "sha256": "876033a632cd0ba330816052a024243740d5961cf05dab7ac7a036a41a64d0c4"
+    },
+    {
+      "path": "tools/test/day5b-harness.cjs",
+      "bytes": 2175,
+      "sha256": "2a743e138f8024fcfabb5a53687ef86c994ac80a6c980822ec067750dd472edc"
+    },
+    {
+      "path": "tools/test/day5b-inputs.cjs",
+      "bytes": 7305,
+      "sha256": "63167d0b654b1380ae6563eb6e560622790721161d513d28f5149aaa80e7ab6a"
+    },
+    {
+      "path": "tools/test/day5b-integration.cjs",
+      "bytes": 9397,
+      "sha256": "a7ee78f3b32516b7122ecb4073d20a65f12984878b9c4f8fad5e4487b4795cda"
+    },
+    {
+      "path": "tools/test/day5b-lifecycle.cjs",
+      "bytes": 9235,
+      "sha256": "5fe548250d6aba6689720a5d0c63a22c193eafb8bdca671d84133ef9cdd722bc"
+    },
+    {
+      "path": "tools/test/day5b-motion.cjs",
+      "bytes": 3585,
+      "sha256": "f0af8dec26638f5e6acb455196f9be24f6f1cec4b522d4e7daa775973cf49f81"
+    },
+    {
+      "path": "tools/verify-day1.cjs",
+      "bytes": 98932,
+      "sha256": "ac1659b23967b5394433297bebf23d146db2fa7c37509f8726a6ce07f45bbb7f"
+    },
+    {
+      "path": "tools/verify-day5b.cjs",
+      "bytes": 531,
+      "sha256": "e2341b907ead2b78930c184d88b2a03f99ea5fba547a238cac2cbfa286198a75"
+    }
+  ],
+  "timestamp": "2026-10-18T16:27:29.194Z"
+}

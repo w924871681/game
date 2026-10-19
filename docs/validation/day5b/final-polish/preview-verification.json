@@ -1,0 +1,73 @@
+{
+  "ok": true,
+  "date": "2026-10-19 Asia/Shanghai",
+  "method": "CUA real browser mouse actions on Creator Preview localhost; independent viewport initialization and reload; no hidden state writes",
+  "viewports": [
+    {
+      "size": [
+        390,
+        844
+      ],
+      "scope": "QA partial: complete order12 diagnosis and sequence; key interactions on10,11,13,14,15; normal home QA hidden",
+      "order12": {
+        "completedSteps": 2,
+        "score": 100,
+        "stars": 1,
+        "seconds": 552.1,
+        "mistakes": 1,
+        "wrongConfirmRepeatedChargedOnce": true
+      },
+      "diagnosis": "Initial equal candidates; A -> A no progress; S -> SS no completion; correct explicit confirmation enters sequence; retained prior overlap then decoration fix"
+    },
+    {
+      "size": [
+        768,
+        1024
+      ],
+      "scope": "QA partial: order12 both stages and result; order14 diagnosis and sliders adjusted into green; normal homepage after scene save",
+      "order12": {
+        "score": 350,
+        "stars": 1,
+        "seconds": 65.6,
+        "mistakes": 0
+      },
+      "limitation": "Not full15; final earphone result not captured because Editor save automatically reloaded Preview."
+    },
+    {
+      "size": [
+        1280,
+        720
+      ],
+      "scope": "Normal QA-disabled natural home-start continuous15orders27steps",
+      "fullRun": {
+        "orders": 15,
+        "steps": 27,
+        "stars": 41,
+        "maximumStars": 45,
+        "score": 11320,
+        "seconds": 373.8,
+        "mistakes": 0
+      },
+      "homeReturnAndStart": true,
+      "replay": "Separately QA-located order15 then real3steps, final1/15 and3/27, replay returns order1, first drag succeeds",
+      "partialRun": {
+        "orders": 1,
+        "steps": 3,
+        "stars": 2,
+        "score": 320,
+        "seconds": 68.3,
+        "mistakes": 0
+      }
+    }
+  ],
+  "consoleWarningsErrorsAtFinal": [],
+  "qaFinalSavedFalse": true,
+  "viewportOverrideReset": true,
+  "limitations": [
+    "Elapsed time includes tool pauses; not player benchmark",
+    "Browser mouse is not physical touch",
+    "Real-engine synthetic EventTouch is not browser native TOUCH_CANCEL",
+    "No physical phone, WebView, WeChat/Douyin SDK, platform publication, FPS study or human star-threshold calibration",
+    "Changing viewport requires initialization/reload; previous hot-resize limitation retained"
+  ]
+}

@@ -1,0 +1,11 @@
+
+> DeskRescue@0.0.5-alpha.4 check:cocos
+> node tools/verify-day1.cjs --cocos-types
+
+TypeScript 5.8.2: <CREATOR_INSTALLS>\3.8.8\resources\app.asar.unpacked\node_modules\typescript\lib\typescript.js
+SDK DECLARATION LIMITATION: 102 semantic diagnostics in installed Creator SDK .d.ts files are excluded from the project check (skipLibCheck remains false).
+  18: <CREATOR_INSTALLS>/3.8.8/resources/resources/3d/engine/@types/jsb.d.ts
+  84: <CREATOR_INSTALLS>/3.8.8/resources/resources/3d/engine/bin/.declarations/cc.d.ts
+Use --cocos-types --check-sdk-declarations to make these SDK diagnostics fatal; no SDK or generated configuration is modified.
+PASS project strict TypeScript checking against real editor-generated Cocos SDK references (strict/noUnusedLocals/noUnusedParameters enabled; SDK self-validation is separate).
+Project type check uses real Cocos SDK declarations. This does not certify the SDK declarations themselves, start Preview, or build the game.

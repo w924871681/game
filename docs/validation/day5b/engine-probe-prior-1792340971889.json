@@ -1,0 +1,312 @@
+{
+  "ok": true,
+  "engineVersion": "3.8.8",
+  "mode": "Actual imported Prefabs, real cc.Touch/cc.EventTouch, off-scene fixtures, manual dt and isolated real ActionManager",
+  "limitations": [
+    "Not natural-clock Preview",
+    "Not browser hit-testing or native touch adapters",
+    "Not physical touch or mini-game SDK validation"
+  ],
+  "checks": [
+    {
+      "name": "actual saved five new Prefabs have typed controller and15 imported SpriteFrames",
+      "status": "PASS",
+      "evidence": [
+        {
+          "kind": "fault-spot",
+          "uuid": "6996bf60-5522-4e9b-bde6-282d274880b6"
+        },
+        {
+          "kind": "rotary-control",
+          "uuid": "1f86e1fb-8625-422e-bb1f-ee862dd2586e"
+        },
+        {
+          "kind": "guided-trace",
+          "uuid": "292c7dc1-ba55-4b29-b39e-916967fdcf45"
+        },
+        {
+          "kind": "gauge-tune",
+          "uuid": "04e21a66-b235-44e0-8f97-cb78bd6a6030"
+        },
+        {
+          "kind": "sequence-test",
+          "uuid": "36dedd39-3862-4153-91d9-812109b9d90b"
+        }
+      ]
+    },
+    {
+      "name": "natural manager transition through15orders27stages retains8cached roots and only one active stage",
+      "status": "PASS",
+      "evidence": {
+        "stages": [
+          {
+            "kind": "drag-match",
+            "id": "drag-1",
+            "progress": {
+              "completed": 3,
+              "total": 3
+            }
+          },
+          {
+            "kind": "drag-match",
+            "id": "drag-2",
+            "progress": {
+              "completed": 3,
+              "total": 3
+            }
+          },
+          {
+            "kind": "drag-match",
+            "id": "drag-3",
+            "progress": {
+              "completed": 3,
+              "total": 3
+            }
+          },
+          {
+            "kind": "clean-swipe",
+            "id": "keyboard-clean",
+            "progress": {
+              "completed": 28,
+              "total": 28
+            }
+          },
+          {
+            "kind": "cable-connect",
+            "id": "computer-cables",
+            "progress": {
+              "completed": 3,
+              "total": 3
+            }
+          },
+          {
+            "kind": "clean-swipe",
+            "id": "shell-clean",
+            "progress": {
+              "completed": 17,
+              "total": 17
+            }
+          },
+          {
+            "kind": "drag-match",
+            "id": "mouse-parts",
+            "progress": {
+              "completed": 2,
+              "total": 2
+            }
+          },
+          {
+            "kind": "cable-connect",
+            "id": "router-cables",
+            "progress": {
+              "completed": 3,
+              "total": 3
+            }
+          },
+          {
+            "kind": "drag-match",
+            "id": "streaming-devices",
+            "progress": {
+              "completed": 4,
+              "total": 4
+            }
+          },
+          {
+            "kind": "cable-connect",
+            "id": "streaming-cables",
+            "progress": {
+              "completed": 2,
+              "total": 2
+            }
+          },
+          {
+            "kind": "clean-swipe",
+            "id": "case-clean",
+            "progress": {
+              "completed": 32,
+              "total": 32
+            }
+          },
+          {
+            "kind": "cable-connect",
+            "id": "case-cables",
+            "progress": {
+              "completed": 4,
+              "total": 4
+            }
+          },
+          {
+            "kind": "drag-match",
+            "id": "case-parts",
+            "progress": {
+              "completed": 4,
+              "total": 4
+            }
+          },
+          {
+            "kind": "rotary-control",
+            "id": "controller-align",
+            "progress": {
+              "completed": 1,
+              "total": 1
+            }
+          },
+          {
+            "kind": "sequence-test",
+            "id": "controller-input-test",
+            "progress": {
+              "completed": 4,
+              "total": 4
+            }
+          },
+          {
+            "kind": "fault-spot",
+            "id": "printer-find-jam",
+            "progress": {
+              "completed": 1,
+              "total": 1
+            }
+          },
+          {
+            "kind": "guided-trace",
+            "id": "printer-extract-paper",
+            "progress": {
+              "completed": 3,
+              "total": 3
+            }
+          },
+          {
+            "kind": "rotary-control",
+            "id": "printer-align-roller",
+            "progress": {
+              "completed": 1,
+              "total": 1
+            }
+          },
+          {
+            "kind": "fault-spot",
+            "id": "keyboard-find-key",
+            "progress": {
+              "completed": 1,
+              "total": 1
+            }
+          },
+          {
+            "kind": "sequence-test",
+            "id": "keyboard-test-keys",
+            "progress": {
+              "completed": 4,
+              "total": 4
+            }
+          },
+          {
+            "kind": "rotary-control",
+            "id": "fan-unscrew-cover",
+            "progress": {
+              "completed": 2,
+              "total": 2
+            }
+          },
+          {
+            "kind": "gauge-tune",
+            "id": "fan-tune",
+            "progress": {
+              "completed": 1,
+              "total": 1
+            }
+          },
+          {
+            "kind": "fault-spot",
+            "id": "headset-find-channel",
+            "progress": {
+              "completed": 1,
+              "total": 1
+            }
+          },
+          {
+            "kind": "gauge-tune",
+            "id": "headset-balance",
+            "progress": {
+              "completed": 1,
+              "total": 1
+            }
+          },
+          {
+            "kind": "guided-trace",
+            "id": "live-route-signal",
+            "progress": {
+              "completed": 3,
+              "total": 3
+            }
+          },
+          {
+            "kind": "gauge-tune",
+            "id": "live-tune-stream",
+            "progress": {
+              "completed": 1,
+              "total": 1
+            }
+          },
+          {
+            "kind": "sequence-test",
+            "id": "live-final-check",
+            "progress": {
+              "completed": 4,
+              "total": 4
+            }
+          }
+        ],
+        "summary": {
+          "completedOrders": 15,
+          "totalElapsedMs": 0,
+          "totalMistakes": 0,
+          "totalScore": 15000,
+          "earnedStars": 45,
+          "maxStars": 45
+        },
+        "cachedRoots": 8,
+        "finalDetail": "完成订单：15 / 15\n总用时：0.0 秒\n总失误：0 次\n总评价：45 / 45 星\n总得分：15000\n完成步骤：27 / 27"
+      }
+    },
+    {
+      "name": "real wrong fault taps count once, CANCEL and stale callbacks cannot mutate restarted order",
+      "status": "PASS",
+      "evidence": {
+        "uniqueWrong": 1,
+        "restartedMistakes": 0
+      }
+    },
+    {
+      "name": "real gauge requires both releases and uninterrupted0.7s and ignores foreignEND/CANCEL",
+      "status": "PASS",
+      "evidence": {
+        "values": [
+          65,
+          70
+        ],
+        "reading": {
+          "first": 49,
+          "second": 42,
+          "safe": true
+        },
+        "holdBoundary": 0.7
+      }
+    },
+    {
+      "name": "real Final→Home reset and Start restores fresh order1",
+      "status": "PASS",
+      "evidence": {
+        "freshOrder": 1
+      }
+    }
+  ],
+  "cleanup": {
+    "fixtures": 4,
+    "formalSceneUnchanged": true,
+    "originalTweenSystemRestored": true,
+    "errors": []
+  },
+  "passedChecks": 5,
+  "failedChecks": 0,
+  "timestamp": "2026-10-18T16:14:29.575Z"
+}

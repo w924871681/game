@@ -1,0 +1,926 @@
+{
+  "ok": true,
+  "scope": "293 finite mock groups (275 retained plus18 final-polish) and real SDK project typing; no Preview or physical touch claims",
+  "commands": [
+    {
+      "label": "final-tests",
+      "command": [
+        "npm.cmd",
+        "test"
+      ],
+      "startedAtUtc": "2026-10-19T06:27:50.288095+00:00",
+      "exitCode": 0,
+      "log": "docs/validation/day5b/final-polish/final-tests.log",
+      "rawStdoutSha256": "20266aac49510466c17172437a3a8ad92d0c1e157f9fad0f6b605dc1db2d17be",
+      "redactedPublication": true,
+      "rawEvidence": "Preserved in ignored local or external task backup; machine paths redacted in public logs.",
+      "sha256": "676b19dae0e9749effcb4a440fc0032e15ca3c19766806c542c25bc50518753c",
+      "behaviorGroups": [
+        293
+      ],
+      "sdkDiagnosticsExcluded": [
+        102
+      ],
+      "diagnosticLines": 0
+    },
+    {
+      "label": "final-cocos-types",
+      "command": [
+        "npm.cmd",
+        "run",
+        "check:cocos"
+      ],
+      "startedAtUtc": "2026-10-19T06:28:02.771907+00:00",
+      "exitCode": 0,
+      "log": "docs/validation/day5b/final-polish/final-cocos-types.log",
+      "rawStdoutSha256": "961457bbb0547528295492a1d5d672f5344855d912e41a77801db357b5609a03",
+      "redactedPublication": true,
+      "rawEvidence": "Preserved in ignored local or external task backup; machine paths redacted in public logs.",
+      "sha256": "855198735a5cd54e45c49a7212d80a09a9f5003e1bffae48866c170afaf88022",
+      "behaviorGroups": [],
+      "sdkDiagnosticsExcluded": [
+        102
+      ],
+      "diagnosticLines": 0
+    },
+    {
+      "label": "final-sdk-self",
+      "command": [
+        "npm.cmd",
+        "run",
+        "check:cocos",
+        "--",
+        "--check-sdk-declarations"
+      ],
+      "startedAtUtc": "2026-10-19T06:28:07.138961+00:00",
+      "exitCode": 1,
+      "log": "docs/validation/day5b/final-polish/final-sdk-self.log",
+      "rawStdoutSha256": "d1d79484ddbc8ddb87bca5bd14423a7f4df1ea1b30aa72d80967464585c5605e",
+      "redactedPublication": true,
+      "rawEvidence": "Preserved in ignored local or external task backup; machine paths redacted in public logs.",
+      "sha256": "830974385a3ad8dd1fb482045c52ccfe79538ee389f167fa5939e058e96319a7",
+      "behaviorGroups": [],
+      "sdkDiagnosticsExcluded": [],
+      "diagnosticLines": 102
+    }
+  ],
+  "javascriptSyntax": [
+    {
+      "path": "extensions/deskrescue-editor/day4-appearance.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-audit.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-probe.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-scene.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-audit.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-main.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-probe.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-scene.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5b-main.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5b-probe.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5b-release-proof.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5b-scene.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/main.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/probe.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/scene.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-audit.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-main.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-probe.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-scene.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/v21-audit.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/v21-main.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/v21-probe.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/v21-scene.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/v22-audit.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/v22-main.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/v22-probe.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "extensions/deskrescue-editor/v22-scene.js",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/test/day5b-catalog.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/test/day5b-final-polish.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/test/day5b-fixture.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/test/day5b-gauge.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/test/day5b-harness.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/test/day5b-inputs.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/test/day5b-integration.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/test/day5b-lifecycle.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/test/day5b-motion.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/verify-day1.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/verify-day4.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/verify-day5a-v2.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/verify-day5a-v21-clean.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/verify-day5a.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/verify-day5b.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/verify-v21-visuals.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/verify-v22-clean.cjs",
+      "exitCode": 0,
+      "output": ""
+    },
+    {
+      "path": "tools/verify-v22-readability.cjs",
+      "exitCode": 0,
+      "output": ""
+    }
+  ],
+  "pythonSyntax": [
+    {
+      "path": "tools/art/day5b/generate_day5b.py",
+      "ok": true
+    },
+    {
+      "path": "tools/art/full_geometry.py",
+      "ok": true
+    },
+    {
+      "path": "tools/art/generate_day5a.py",
+      "ok": true
+    },
+    {
+      "path": "tools/art/generate_v2_ui.py",
+      "ok": true
+    },
+    {
+      "path": "tools/art/v21/generate_v21.py",
+      "ok": true
+    },
+    {
+      "path": "tools/audit_day5b_public.py",
+      "ok": true
+    },
+    {
+      "path": "tools/compare_v21_previews.py",
+      "ok": true
+    },
+    {
+      "path": "tools/compare_v22_previews.py",
+      "ok": true
+    },
+    {
+      "path": "tools/compare_v2_previews.py",
+      "ok": true
+    },
+    {
+      "path": "tools/package_day5b_delivery.py",
+      "ok": true
+    },
+    {
+      "path": "tools/package_v21_delivery.py",
+      "ok": true
+    },
+    {
+      "path": "tools/package_v22_delivery.py",
+      "ok": true
+    },
+    {
+      "path": "tools/package_v2_delivery.py",
+      "ok": true
+    },
+    {
+      "path": "tools/run_day5b_checks.py",
+      "ok": true
+    },
+    {
+      "path": "tools/run_v22_checks.py",
+      "ok": true
+    },
+    {
+      "path": "tools/verify_day5b_final.py",
+      "ok": true
+    },
+    {
+      "path": "tools/verify_day5b_preservation.py",
+      "ok": true
+    },
+    {
+      "path": "tools/verify_v21_offline.py",
+      "ok": true
+    },
+    {
+      "path": "tools/verify_v21_preservation.py",
+      "ok": true
+    },
+    {
+      "path": "tools/verify_v22_offline.py",
+      "ok": true
+    },
+    {
+      "path": "tools/verify_v22_preservation.py",
+      "ok": true
+    },
+    {
+      "path": "tools/verify_v2_preservation.py",
+      "ok": true
+    }
+  ],
+  "originalArt": {
+    "label": "final-original-art",
+    "command": [
+      "python.exe",
+      "-X",
+      "utf8",
+      "tools/art/day5b/generate_day5b.py",
+      "--verify"
+    ],
+    "startedAtUtc": "2026-10-19T06:28:15.043672+00:00",
+    "exitCode": 0,
+    "log": "docs/validation/day5b/final-polish/final-original-art.log",
+    "rawStdoutSha256": "6dc5f4060f2afeb9f6d5fd027f2b5e88bc2f1a608a412d90a289e378a46e501d",
+    "redactedPublication": true,
+    "rawEvidence": "Preserved in ignored local or external task backup; machine paths redacted in public logs.",
+    "sha256": "24a2d6d8e88846cac66fba49045c8cefd670918e5670892469d93dd9adb66fa0",
+    "behaviorGroups": [],
+    "sdkDiagnosticsExcluded": [],
+    "diagnosticLines": 0,
+    "publicationNormalization": "Only trailing empty output line removed; raw stdout SHA and external original preserved."
+  },
+  "sourceBindings": [
+    {
+      "path": "assets/scripts/core/GameController.ts",
+      "sha256": "e1b3c357bc915746e20b240f88f48c8c89876c14116850bd55c688d2bb0e4297"
+    },
+    {
+      "path": "assets/scripts/core/LegacyLevelManager.ts",
+      "sha256": "2ef5ff4fbe16284c35a66010880cb3bdc2edb62b21368429c98b26af662ebf4b"
+    },
+    {
+      "path": "assets/scripts/core/LevelManager.ts",
+      "sha256": "636cf53533a667f9638831e0ed5fa8b4f1ad7317131f5fdd989c1a8f1be6f982"
+    },
+    {
+      "path": "assets/scripts/core/RunController.ts",
+      "sha256": "064cac06b336ddf741b983c09a025f0fb33bd130bc2b45d37ef2ad0c9df64655"
+    },
+    {
+      "path": "assets/scripts/data/Day5BOrderCatalog.ts",
+      "sha256": "183ddf3219c31150d19ca7445c9d28190c6ecd38e7e5ab292a28761964ee1d48"
+    },
+    {
+      "path": "assets/scripts/data/Day5BStageDefinition.ts",
+      "sha256": "d7bdb45a9e3dd537b9b48e54da86f2e1ae17c6c0d9c63aa1d6e0df7461edfdf7"
+    },
+    {
+      "path": "assets/scripts/data/Day5BStageValidation.ts",
+      "sha256": "d114c6bd52a0aa49cd0f1eb41750c2a47065dea9c3e683524034e6d75a3a4984"
+    },
+    {
+      "path": "assets/scripts/data/LevelCatalog.ts",
+      "sha256": "24e394aa8495e4c23a18a92b15ea727108161a3c28d8d2e1fdd863afc54f4e89"
+    },
+    {
+      "path": "assets/scripts/data/LevelDefinition.ts",
+      "sha256": "7ffc204ef01fa5f0a7dcd65197776f27e1a98613eb4aa643c92c1cee7abbcc0f"
+    },
+    {
+      "path": "assets/scripts/data/OrderCatalog.ts",
+      "sha256": "a038ff6a9269993c9d650954a2e680c1962416ea38230bec4c1d8a9a7df43eb0"
+    },
+    {
+      "path": "assets/scripts/data/OrderDefinition.ts",
+      "sha256": "c0fc93e4da57a591b1fd9bbab0014be7092179c6a05b583e2d365429dfe24b6d"
+    },
+    {
+      "path": "assets/scripts/data/StageDefinition.ts",
+      "sha256": "9b8255ecbd4dc7ddc5f70bff078a424a878ecf058ac34553caf552bc386fdd34"
+    },
+    {
+      "path": "assets/scripts/gameplay/CableConnector.ts",
+      "sha256": "d03076277b33508677cdd89ec6f13f8314db7f0d759d56245c58d22bb9bfa5bf"
+    },
+    {
+      "path": "assets/scripts/gameplay/Day1Prototype.ts",
+      "sha256": "91077917554d152a66d85662099fc4b5b48876e29ca1ece2e07c74a0eb398a10"
+    },
+    {
+      "path": "assets/scripts/gameplay/DraggableItem.ts",
+      "sha256": "1d09e9f352a78b677d1b6ad403cc7b08af7afc04e705c00df83212337397e367"
+    },
+    {
+      "path": "assets/scripts/stages/CableConnectStageController.ts",
+      "sha256": "709111e79010e8f230840071d043afa68c2990c96856d79401dee656a8355d9c"
+    },
+    {
+      "path": "assets/scripts/stages/CleanSwipeStageController.ts",
+      "sha256": "27552fce87f3241ae57769e2a2dbe025234a2f96beadab7b9d6a3408ba05bfd7"
+    },
+    {
+      "path": "assets/scripts/stages/Day5BMotionMath.ts",
+      "sha256": "30dc5cb8878de41a7b5bc67858289c4875989c7f92362abbb04e0120330e1080"
+    },
+    {
+      "path": "assets/scripts/stages/Day5BStageController.ts",
+      "sha256": "4c164765f7b30181dcccce7d56648f0dc2f7efed828be5397c5e9af72a2f9a06"
+    },
+    {
+      "path": "assets/scripts/stages/DragMatchStageController.ts",
+      "sha256": "81dced5b37081c37f0d711e8c3c05ed5603f0cb8189cbd5c262e2d7531cc7295"
+    },
+    {
+      "path": "assets/scripts/stages/ElementPool.ts",
+      "sha256": "f551b622a412ad84752476facc3ce0f418958b5a7e14f516835ded02a705f2fc"
+    },
+    {
+      "path": "assets/scripts/stages/FaultSpotStageController.ts",
+      "sha256": "9165dcd20281b16a95d9af3e78a5bb7cee5cc07d140a3f3b7886f4099e5f730a"
+    },
+    {
+      "path": "assets/scripts/stages/GaugeTuneStageController.ts",
+      "sha256": "50f1a0507f8acc1bf8de9455172c3129714656dad28de1b654db56d47c6db5b4"
+    },
+    {
+      "path": "assets/scripts/stages/GuidedTraceStageController.ts",
+      "sha256": "06f108817729b58f073099101f5db080b523b71bb0efbdff527165f2b1d5c935"
+    },
+    {
+      "path": "assets/scripts/stages/RotaryControlStageController.ts",
+      "sha256": "269f1cf114d874c6ef1d45ab220bfbbd2b0495e78d8b18352087c2fae4260081"
+    },
+    {
+      "path": "assets/scripts/stages/SequenceTestStageController.ts",
+      "sha256": "fe7052092441e512c4d1e9be4c9ac4773cb22751adc6c837e3fa4adc19450caf"
+    },
+    {
+      "path": "assets/scripts/stages/StageHost.ts",
+      "sha256": "de8b56163d9c98f27cf28b476f1a0c848bb2699f050cdedc95f7368e5f9400c5"
+    },
+    {
+      "path": "assets/scripts/stages/StageRuntime.ts",
+      "sha256": "2d5aef6a6d45560fa2a6928d54cb0b83cbad2ff9600969061e1bfe7ee23e409e"
+    },
+    {
+      "path": "assets/scripts/ui/AudioFeedback.ts",
+      "sha256": "de9504b936cf39e462aed3446522272efcb4971b89654ab0af8cbbebdc2841da"
+    },
+    {
+      "path": "assets/scripts/ui/ButtonPressFeedback.ts",
+      "sha256": "db1f1b717239d2ff8ab40861bf9f47f9a8945a1d8070c12f3b512e52d7428c4c"
+    },
+    {
+      "path": "assets/scripts/ui/Day5BReviewLauncher.ts",
+      "sha256": "1a71d1c4ffec79627c95753ca001183edc36d3fb8613aae8dede681d5d06bb59"
+    },
+    {
+      "path": "assets/scripts/ui/HomeController.ts",
+      "sha256": "b41972145b5a84bb4679baf6fab085244d37259ba89eabf11cbd8cd4c3412bbb"
+    },
+    {
+      "path": "assets/scripts/ui/PaperOrderHUD.ts",
+      "sha256": "18180491fec99dad3b128cdce2974ad05a96858c75f57d6e50da072a2a3f10a0"
+    },
+    {
+      "path": "assets/scripts/ui/ResultStars.ts",
+      "sha256": "c54759a45085f607cac8658917e100dbd9dd106656504f61e39c1719d8e7bc47"
+    },
+    {
+      "path": "assets/scripts/ui/V2ResultView.ts",
+      "sha256": "8a1051f7920169ddf1c81d185c197e889638c802e720ee62fd37b3d42b09dd97"
+    },
+    {
+      "path": "assets/scripts/ui/WorkshopDecoration.ts",
+      "sha256": "0f18568d4113126c7bb079cac47382ffac32fe6554fce42a92626694650b28d2"
+    },
+    {
+      "path": "assets/scripts/visuals/CleanDeviceVisual.ts",
+      "sha256": "584129d4d206958236435fb7bcc80198916698c83dfd6dd84776129ffeaa0fee"
+    },
+    {
+      "path": "assets/scripts/visuals/Day5BStageView.ts",
+      "sha256": "983db2588f7e9cfc8aabe3f700d27bbb8cf19cd1e15fc06dfa8d9cab53f3015b"
+    },
+    {
+      "path": "assets/scripts/visuals/Day5BVisualCatalog.ts",
+      "sha256": "7f6aa3727cfaeae59e1c10638646d455ac6d09927ffde4506bfed0769e4e1e46"
+    },
+    {
+      "path": "assets/scripts/visuals/ElementVisual.ts",
+      "sha256": "6be9b7406a1afa7ccfe5eb9a563a72169fb42efc283185eebf3fc91ef40eff2b"
+    },
+    {
+      "path": "assets/scripts/visuals/V21CleanDustView.ts",
+      "sha256": "e00cde3d58068d3f402026f8c241fb6a8a8764e07763a1264f12cb15ba7ab66e"
+    },
+    {
+      "path": "assets/scripts/visuals/V2CableLine.ts",
+      "sha256": "7bc74904c36de06fa59b6e03c5032077645fd0665c460a3d309fa285232bc533"
+    },
+    {
+      "path": "assets/scripts/visuals/V2DirtAppearance.ts",
+      "sha256": "9893695d9cce40ad88ac9c41207d929ad055fbc9d6fb32aa6afcd5aed6284742"
+    },
+    {
+      "path": "assets/scripts/visuals/V2ViewportTheme.ts",
+      "sha256": "cad88737ccdc5b79fe5b05458f405fc658db5bfbb7adc4a28311ff9aa7d681ae"
+    },
+    {
+      "path": "assets/scripts/visuals/VisualAssetRegistry.ts",
+      "sha256": "68511e09361ac0e709c9e22f10fda08b1c572c786b5cb49cae1c3992e1332671"
+    },
+    {
+      "path": "assets/scripts/visuals/VisualCatalog.ts",
+      "sha256": "03c58587302c5fc54ecf28894e6646a773234ac3deb560ea125e8f9ac5683d40"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-appearance.js",
+      "sha256": "c0cd7cb604d17a25b8277bc2c32dbdb7c048a2cbec4b33e76d3878693fabe0d4"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-audit.js",
+      "sha256": "b3afb8dc4010421e8d927d060f60c5443d1d4b28af0e0fd1e13ffa487b323a2d"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-probe.js",
+      "sha256": "cf77028127fb009663ff6b35e634c0c50a2d594144a91373d2a82b5b161711eb"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day4-scene.js",
+      "sha256": "6265689295cc9730b4fe24ea5ea56e89a6c541356ab3c126973cce3d084e61c4"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-audit.js",
+      "sha256": "071d56b6079f24dad1ce98a7dac4bcf3fe2a803704c78c56ebc59a49a6f984d4"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-main.js",
+      "sha256": "b9f6fc2272836742f70b83e6ccea1719172a78580114b5b7892ea3c6633dd216"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-probe.js",
+      "sha256": "33a5009c69e937160fe78721a97db580691b30f38cbba06be95c3f6824bde51a"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5a-scene.js",
+      "sha256": "7c6c3e5f5a71b70478218cb1dfc081b6ce30925d9cc6394f37a178a2a61cd01d"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5b-main.js",
+      "sha256": "fa46e83f72bd59072f354ce5e213a56a62a5391727efc6f6e1310a24299b1b34"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5b-probe.js",
+      "sha256": "4cdcd5e8bf84609f34675f8047c917bdf973d82659662cb72ee73e62b83d53e3"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5b-release-proof.js",
+      "sha256": "731fc5ef7d0200d43e1243fa269ee4220c88ec5d07eef7521f7c4e0fae251006"
+    },
+    {
+      "path": "extensions/deskrescue-editor/day5b-scene.js",
+      "sha256": "c549d997436486526b845980da95a5304cb19298a8e8c4af9d4172807a174705"
+    },
+    {
+      "path": "extensions/deskrescue-editor/main.js",
+      "sha256": "37274102f807c5b7888059246cf33b5174aa96c85c5865c739eeb0fb1d0f89d1"
+    },
+    {
+      "path": "extensions/deskrescue-editor/package.json",
+      "sha256": "0eb5283ba374e9b2618fe312357ceac11c767dd0ea7ba5e730e79cf99dea48ad"
+    },
+    {
+      "path": "extensions/deskrescue-editor/probe.js",
+      "sha256": "1be4864e0fac75480ab5f73a6d3e62c4244bfd7378e181a5a27530d51de87c22"
+    },
+    {
+      "path": "extensions/deskrescue-editor/scene.js",
+      "sha256": "ec613fa66965c0c1e4e539f6ada08558a6314cd70d50a2d86d5b466eb361c672"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-audit.js",
+      "sha256": "cc5edbf3563120912de85e6a3b6effdeb9ee0073d934a0fb272047b07a9c8bf1"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-main.js",
+      "sha256": "b9df6bfb64f0b0015f4e21109f8a055104c24f2449e5dd25b8e6184b1642c9c0"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-probe.js",
+      "sha256": "1d542f2238c6539a348948947e498d01d78e3b7b8748b8260a1cb4816ed9b4bc"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v2-scene.js",
+      "sha256": "f660b34e7967fc8b75be8a0abbd1834b66116c8fefe361c32ddbcf4848247d31"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v21-audit.js",
+      "sha256": "281952dcad2c4e111463b22fe27c3548e9c2ca5d13fae6e31d023d8ae645997a"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v21-main.js",
+      "sha256": "a40c835c5e8b9795403bbd0d14fb7c16287a5dd93786825e488b2062ff26d54a"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v21-probe.js",
+      "sha256": "e551c6b5ca6a5bb96c091ab10cc3e39b270163676633d8f5bc0c872728830e0e"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v21-scene.js",
+      "sha256": "a489d238370d3d012c1357ad575b6d7001994fbdca8665ba8136bdd4ec720ebb"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v22-audit.js",
+      "sha256": "ce131d9eee29229ca058a1287c6e5bac182c9f463b80779f5c428192c9165dce"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v22-main.js",
+      "sha256": "6faf91f2d7369bfd003ed1ef1839aa984535bc9e3978c627a04984de4e44e61c"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v22-probe.js",
+      "sha256": "c8166a89520c707fc58c8cfdd3d8a916796a8c3f2ecf36475efac671ba490c63"
+    },
+    {
+      "path": "extensions/deskrescue-editor/v22-scene.js",
+      "sha256": "d667d501b5549f2afebdfb9fbce5e372785c9fab56fd015e4e95e198b2a0231e"
+    },
+    {
+      "path": "package.json",
+      "sha256": "b72b2cf59adfb8cf2d88cbcb9bfb8a46e7adedb9223ff1e84913d20ab5c74fb2"
+    },
+    {
+      "path": "settings/v2/packages/builder.json",
+      "sha256": "a3e1a8df580b6ebec15ad16c9bbef785806567bfbc093821852bb3606028e702"
+    },
+    {
+      "path": "settings/v2/packages/cocos-service.json",
+      "sha256": "290f48ac8c1bdaaf15584fcfbaaaa331a9e40940497c79cd7b51351cf3b2e4e1"
+    },
+    {
+      "path": "settings/v2/packages/device.json",
+      "sha256": "93af91e0b90038cedc84d08651f845e1c2e2ae460321c19f083c27a178e451f8"
+    },
+    {
+      "path": "settings/v2/packages/engine.json",
+      "sha256": "e3755683f34745346f06b4dd665d172252183004e1aa50f90ca579837c2f244f"
+    },
+    {
+      "path": "settings/v2/packages/information.json",
+      "sha256": "1f70b91f0419411cdbdebcb1fcddb261556de1de6e3659c3c51ede92ac77de91"
+    },
+    {
+      "path": "settings/v2/packages/program.json",
+      "sha256": "d914f9f19ffe02724337936d8c7907798c8666566902b78243eb1aa8da0baedd"
+    },
+    {
+      "path": "settings/v2/packages/project.json",
+      "sha256": "95486b12b0983135c3e0459df681a89f8a2e38ed46269bc10fe87b127f9a4fe9"
+    },
+    {
+      "path": "tools/art/asset-sources-v2.json",
+      "sha256": "081060ec52fa0d34c62cb5a5c1ce8174be43bf86b52612aeb228b30c82de6e4f"
+    },
+    {
+      "path": "tools/art/asset-sources.json",
+      "sha256": "13d72ce0597ce16cc5ba9d7ed515fc7282e4590ff911bd1561a5fd8a18441a7b"
+    },
+    {
+      "path": "tools/art/day5b/asset-sources.json",
+      "sha256": "c3549d0a0fd6b75fb26d53171d73a503dc97a3cc10bed97d8e301b957f70b8d2"
+    },
+    {
+      "path": "tools/art/day5b/generate_day5b.py",
+      "sha256": "429b49b49b11b759e1b2896c68d479a36454a073ac78a1a211415fb7f7a5660a"
+    },
+    {
+      "path": "tools/art/full_geometry.py",
+      "sha256": "6b25cb8e6115ba0761713571cabfb5e41407ba4e3dae6f5141d39eea4d15a6f4"
+    },
+    {
+      "path": "tools/art/generate_day5a.py",
+      "sha256": "35a9d27161e1afdbddc615edaed4f05c7bf58b201ade0fe83c78a635cafaa982"
+    },
+    {
+      "path": "tools/art/generate_v2_ui.py",
+      "sha256": "20cd3c4627f3d1cccfc7789a44be7591a320624ab99fa2d76143a959af2c9ea8"
+    },
+    {
+      "path": "tools/art/v21/asset-sources.json",
+      "sha256": "b6bb64941e51d8b5412f6670451ef7fa03d5d9150a646285cdd0ee649c709dc0"
+    },
+    {
+      "path": "tools/art/v21/generate_v21.py",
+      "sha256": "a21c7f0be80a925a532cdf8aaa0be16b8b14f2f183deeb6d988ca3f1a99b6912"
+    },
+    {
+      "path": "tools/audit_day5b_public.py",
+      "sha256": "f0911d1541cb805887067976c199b94a81c6754f7d1d9c84dc1850ebfcfb6760"
+    },
+    {
+      "path": "tools/compare_v21_previews.py",
+      "sha256": "8cc5846fccb1cc86b90ba0293f60a2132a78c48b485a9f30ce8b95796f632498"
+    },
+    {
+      "path": "tools/compare_v22_previews.py",
+      "sha256": "64ae3d5ab1457d0ababfdb31e67105cc955687bbbe86bee9a082640d60ae3a0b"
+    },
+    {
+      "path": "tools/compare_v2_previews.py",
+      "sha256": "8629bbcdd861bdd46402864e8daf3861d4dc57fab2b76b732a20fce047fa5ff4"
+    },
+    {
+      "path": "tools/package_day5b_delivery.py",
+      "sha256": "e507670e5c2de391d99fb507af0a280c880937338479a3952879938ff108d776"
+    },
+    {
+      "path": "tools/package_v21_delivery.py",
+      "sha256": "c9b1c74a753010f43913921616be8b9a2d094dfc0eed2d9bbe47813739322d73"
+    },
+    {
+      "path": "tools/package_v22_delivery.py",
+      "sha256": "012a56c468e5e69c69defcb9c651f85e0e4bbb027ce568d7c8a04a440becffb6"
+    },
+    {
+      "path": "tools/package_v2_delivery.py",
+      "sha256": "820496dddfe2a40ff710f105cea879cfb6b965bdb6019c7f2a3c0afa952f52d1"
+    },
+    {
+      "path": "tools/run_day5b_checks.py",
+      "sha256": "8bcda02d9034ef28444ce33b485169073c2a88b7c775223c9e12eef0d2486ebd"
+    },
+    {
+      "path": "tools/run_v22_checks.py",
+      "sha256": "285c0ffb0842417711fcadc8ae6339d59bdd04fc89fe42752a7f014337a0d0af"
+    },
+    {
+      "path": "tools/test/cc.d.ts",
+      "sha256": "326151766a7b2051d7c55193a3dcda2ab0c2cb23348df2b9724bd2c0e141c13b"
+    },
+    {
+      "path": "tools/test/day5b-catalog.cjs",
+      "sha256": "47072e3a97a04c4f6c9deb3f1825b162215eda06e4ee0aec555dff72d5fc1a45"
+    },
+    {
+      "path": "tools/test/day5b-final-polish.cjs",
+      "sha256": "9db8046789edc0ccabe67f771d6ff959ad5510ca3a183703c48575a27d3ed302"
+    },
+    {
+      "path": "tools/test/day5b-fixture.cjs",
+      "sha256": "a88b33ae99eedc130c433436f0b586e7cdaacff4879e2d3f5915edae6143dfdf"
+    },
+    {
+      "path": "tools/test/day5b-gauge.cjs",
+      "sha256": "876033a632cd0ba330816052a024243740d5961cf05dab7ac7a036a41a64d0c4"
+    },
+    {
+      "path": "tools/test/day5b-harness.cjs",
+      "sha256": "2a743e138f8024fcfabb5a53687ef86c994ac80a6c980822ec067750dd472edc"
+    },
+    {
+      "path": "tools/test/day5b-inputs.cjs",
+      "sha256": "8b0e4405e78b84f1a6491f224f2635b86c63d3fb44b9f03ba085d2aca0a33c60"
+    },
+    {
+      "path": "tools/test/day5b-integration.cjs",
+      "sha256": "605dea7e8c64db86bda04a4df68937d7f002dc98a72f9c7c15d4d94d30d18f10"
+    },
+    {
+      "path": "tools/test/day5b-lifecycle.cjs",
+      "sha256": "5fe548250d6aba6689720a5d0c63a22c193eafb8bdca671d84133ef9cdd722bc"
+    },
+    {
+      "path": "tools/test/day5b-motion.cjs",
+      "sha256": "f0af8dec26638f5e6acb455196f9be24f6f1cec4b522d4e7daa775973cf49f81"
+    },
+    {
+      "path": "tools/verify-day1.cjs",
+      "sha256": "161dfa09fd7fe976624a61594c2e32a97d2dd5b49c07a6bb301777d944a43f08"
+    },
+    {
+      "path": "tools/verify-day4.cjs",
+      "sha256": "9eb22a5bacabee48cdda53b20597717cab84f7a384319f84cc0e177312a6dd6a"
+    },
+    {
+      "path": "tools/verify-day5a-v2.cjs",
+      "sha256": "e95980a19b71ba08a17a1d4021c8e6c306c4abbfdc9f9ccf08350b8e3f3c19f1"
+    },
+    {
+      "path": "tools/verify-day5a-v21-clean.cjs",
+      "sha256": "a2636463dc15f88340d9cc5720895a9a84bc575357d227d496ca7f40b783d419"
+    },
+    {
+      "path": "tools/verify-day5a.cjs",
+      "sha256": "23e6986a4b9388aaded604f68f82c61b2c40f95c2c5994457e79bfa511a9d121"
+    },
+    {
+      "path": "tools/verify-day5b.cjs",
+      "sha256": "3f20c1fbd5a6dfb329fc6ecb73b2a1d26c57e52bcdf3d6c143f0c62db2d7ed47"
+    },
+    {
+      "path": "tools/verify-v21-visuals.cjs",
+      "sha256": "b2b8cd90396e2fb2f75cc42062ffb186931defdcc2327516d5de885bf95eeb16"
+    },
+    {
+      "path": "tools/verify-v22-clean.cjs",
+      "sha256": "7c661b001f5ea16dd0bcb473af68ed649d71b1da3e710478f840b60eb038aaa0"
+    },
+    {
+      "path": "tools/verify-v22-readability.cjs",
+      "sha256": "c48b68cbf644d66600af14d9899f06d3bc7d651c951f28c01b9778c1f51482b3"
+    },
+    {
+      "path": "tools/verify_day5b_final.py",
+      "sha256": "c8bce77834058f5bb2bcbbcdf0198d1b5717514ff77dbca10ce9a592ef23ac34"
+    },
+    {
+      "path": "tools/verify_day5b_preservation.py",
+      "sha256": "d4982b41d3c68e76336733995011ddff17917aa7f01b325ff2715f8ab621f7e5"
+    },
+    {
+      "path": "tools/verify_v21_offline.py",
+      "sha256": "e9408b34f5107e019d7e6c5e390d402e9755613a3e7022cd726f7f61a9c238e3"
+    },
+    {
+      "path": "tools/verify_v21_preservation.py",
+      "sha256": "654a6a7a8e54c0d5a732070523c05dcec23fd2ef8c24530e06dca98c5f91226e"
+    },
+    {
+      "path": "tools/verify_v22_offline.py",
+      "sha256": "4b1eeea3c2b1fd4029e50d6133b8eacb24c3236fb4bd84ce01d35e2c7402cde8"
+    },
+    {
+      "path": "tools/verify_v22_preservation.py",
+      "sha256": "6d688382f5dd2c7458d79b250341d0b2b63e8629f3e6fdda26fc7bab9b2288ca"
+    },
+    {
+      "path": "tools/verify_v2_preservation.py",
+      "sha256": "3c049397a87b82bab269a46c95d4831330e56a0736152fb55716fea0fcd58807"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "bd460a7db62db6c2e50d1766c98f5a830579ddab81c79c4d7e20cfda6fef4f9c"
+    }
+  ],
+  "sourcesUnchangedDuringChecks": true,
+  "sdkSelfValidation": {
+    "exitCode": 1,
+    "diagnosticLines": 102,
+    "status": "KNOWN_SDK_DECLARATION_FAILURE",
+    "note": "Kept separate from strict project success; SDK is never claimed clean."
+  }
+}

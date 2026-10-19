@@ -1,0 +1,31 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "name": "baseline-test",
+      "command": [
+        "<NODE_RUNTIME>\\npm.cmd",
+        "test"
+      ],
+      "exitCode": 0
+    },
+    {
+      "name": "baseline-cocos",
+      "command": [
+        "<NODE_RUNTIME>\\npm.cmd",
+        "run",
+        "check:cocos"
+      ],
+      "exitCode": 0
+    },
+    {
+      "name": "baseline-syntax",
+      "command": [
+        "node",
+        "--check",
+        "tools/verify-day1.cjs"
+      ],
+      "exitCode": 0
+    }
+  ]
+}

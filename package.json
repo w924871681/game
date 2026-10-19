@@ -1,6 +1,6 @@
 {
   "name": "DeskRescue",
-  "version": "0.0.5-alpha.4",
+  "version": "0.0.5-alpha.5",
   "private": true,
   "uuid": "c11a7b9f-e7d0-436b-b54b-61cce555f426",
   "creator": {
@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test": "node tools/verify-day1.cjs",
-    "check:cocos": "node tools/verify-day1.cjs --cocos-types"
+    "check:cocos": "node tools/verify-day1.cjs --cocos-types",
+    "test:day5b": "node tools/test/day5b-harness.cjs"
   }
 }

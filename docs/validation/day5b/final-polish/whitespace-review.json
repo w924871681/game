@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "rawExitCode": 2,
+  "crAtEolExitCodeBeforeNewLogNormalization": 2,
+  "historicalMarkdownExceptions": [
+    {
+      "path": "docs/design/day5b/DAY5B_CODEX_IMPLEMENTATION_PROMPT.md",
+      "originalSha256": "5e3d4465ddcee429e5aacec3b37007606406223d23b43e23a110d6b9d3cf6719",
+      "publishedSha256": "8ce26a7c832e0a733eb35e8b14e860415a1ce81b47137e0dae7c1ede0455ea11",
+      "exactPrefixRedactionOnly": true,
+      "whitespacePreserved": true
+    },
+    {
+      "path": "docs/design/day5b/DAY5B_SIX_ORDERS_FINAL_DESIGN_SPEC.md",
+      "originalSha256": "1b19faab17e5b91d75bea2b68abc17b7b99c17d3c3c1913990c5bbda8fc99e76",
+      "publishedSha256": "8e52ca7775937f3ff081386b6c70380af0e503db7cdf7ecb1b5cae762421cd2d",
+      "exactPrefixRedactionOnly": true,
+      "whitespacePreserved": true
+    }
+  ],
+  "newLogPublicationNormalization": {
+    "path": "docs/validation/day5b/final-polish/final-original-art.log",
+    "beforeSha256": "000cbd97e17c8092fcead2098ec678975660835f8041a7cc4003bba3199a331f",
+    "afterSha256": "24a2d6d8e88846cac66fba49045c8cefd670918e5670892469d93dd9adb66fa0",
+    "operation": "Remove trailing empty output line in public copy; exact pretrim log and report kept outside Git; rawStdoutSha256 unchanged."
+  },
+  "policy": "Do not normalize source/resource CRLF or original user design Markdown hard breaks; no substantive new whitespace error accepted."
+}

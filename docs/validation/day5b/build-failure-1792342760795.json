@@ -1,0 +1,5 @@
+{
+  "ok": false,
+  "timestamp": "2026-10-18T16:59:20.795Z",
+  "error": "Error: Scene changed during asset creation; not saved.\n    at <process:scene>\n    at Object.apply (<PROJECT_ROOT>\\extensions\\deskrescue-editor\\day5b-scene.js:78:53)"
+}

@@ -60,8 +60,8 @@ declare module 'cc' {
         removeFromParent(): void;
         setSiblingIndex(index: number): void;
         destroy(): boolean;
-        on(type: string, callback: (event: EventTouch) => void, target: Component): void;
-        off(type: string, callback: (event: EventTouch) => void, target: Component): void;
+        on(type: string, callback: (event: EventTouch) => void, target: object): void;
+        off(type: string, callback: (event: EventTouch) => void, target: object): void;
     }
     export class EventTouch {
         propagationStopped: boolean;
@@ -148,4 +148,11 @@ declare module 'cc' {
     export const view: { setDesignResolutionSize(width: number, height: number, policy: number): void };
     export function isValid(value: unknown): boolean;
     export function warn(message: string): void;
+}
+
+declare module 'cc/env' {
+    export const PREVIEW: boolean;
+    export const BUILD: boolean;
+    export const DEBUG: boolean;
+    export const EDITOR: boolean;
 }

@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "filesScanned": 350,
+  "findings": [],
+  "checks": [
+    "email",
+    "phone",
+    "tokenized URL",
+    "private HTTP address"
+  ],
+  "authorPolicy": "Use verified public account noreply identity per commit; never change global Git configuration"
+}

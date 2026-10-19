@@ -1,6 +1,6 @@
 {
   "package_version": 2,
-  "version": "0.0.5-alpha.4",
+  "version": "0.0.5-alpha.5",
   "name": "deskrescue-editor",
   "private": true,
   "description": "DeskRescue Creator assembly, original visual assets, audits and engine validation.",
@@ -150,6 +150,21 @@
         "path": "DeskRescue/V2.2",
         "label": "Run V2.2 real engine probe",
         "message": "v22-probe"
+      },
+      {
+        "path": "DeskRescue/Day 5B",
+        "label": "Apply current stage Prefabs",
+        "message": "day5b-apply"
+      },
+      {
+        "path": "DeskRescue/Day 5B",
+        "label": "Audit saved stage bindings",
+        "message": "day5b-audit"
+      },
+      {
+        "path": "DeskRescue/Day 5B",
+        "label": "Run real engine probes",
+        "message": "day5b-probe"
       }
     ],
     "messages": {
@@ -292,6 +307,21 @@
         "methods": [
           "probeV22"
         ]
+      },
+      "day5b-apply": {
+        "methods": [
+          "applyDay5B"
+        ]
+      },
+      "day5b-audit": {
+        "methods": [
+          "auditDay5B"
+        ]
+      },
+      "day5b-probe": {
+        "methods": [
+          "probeDay5B"
+        ]
       }
     },
     "shortcuts": [
@@ -390,6 +420,18 @@
       {
         "message": "v22-probe",
         "win": "ctrl+alt+shift+f8"
+      },
+      {
+        "message": "day5b-apply",
+        "win": "ctrl+alt+shift+f9"
+      },
+      {
+        "message": "day5b-audit",
+        "win": "ctrl+alt+shift+f10"
+      },
+      {
+        "message": "day5b-probe",
+        "win": "ctrl+alt+shift+f11"
       }
     ]
   }
